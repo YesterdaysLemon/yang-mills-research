@@ -221,6 +221,53 @@ term to the later Gaussian-weighted formula requires all Haar densities,
 normalizations, scaling factors, and coordinate Jacobians. No such matching is
 silently assumed.
 
+### Patchwise background dependence and covariance
+
+The pointwise branch can be organized over one background patch without
+promoting it to a global disintegration.
+
+- The variational paper's Section G, Eq. (181), p. 307, and Proposition 9
+  provide one local analytic gauge-fixed background branch and its exact
+  covariance under \(\widetilde u\), the lift constant on the prescribed
+  blocks and agreeing with the coarse transformation at their representatives.
+- Composing that branch with RG I Eqs. (2.2)–(2.4), the selected coefficient
+  inverse after Eq. (2.10), and the unique analytic straightening makes
+  \(h_W\), \(C_W\), \(\widetilde D_W\), and the reconstructed fine branch jointly
+  real analytic after shrinking to a relatively compact patch. RG II
+  Eq. (1.20) keeps the complete closed fixed cube in the common domain.
+- The correction is supported only on the selected (b_0(c)) bonds, so the
+  independent coordinates and their sharp cutoff are identical for every
+  background in the patch. Parameter differentiation therefore has no moving
+  cutoff boundary.
+- RG I Eq. (2.16), p. 269, states that every expression in Eq. (2.12), together
+  with its measure, is invariant under the displayed real coarse gauge
+  transformations; the cutoff is invariant because the induced adjoint maps
+  are local orthogonal transformations.
+
+[Note 0009](../../research/notes/0009-parameterized-fixed-cube-kernel.md)
+records the finite-dimensional consequence for the intrinsic coarea
+restriction: a positive finite Borel kernel on one relatively compact patch,
+real-analytic analytic-test integrals, local holomorphic test-integral
+continuations, and exact real-gauge pushforward covariance between
+equivariantly transported charts. It does not supply arbitrary-Borel-set
+continuity, a positive complex measure, global compatibility between unrelated
+patches, or a termwise normalization match to the Eq. (2.12) Gaussian law.
+
+[Note 0010](../../research/notes/0010-exact-rg-coordinate-law.md) therefore
+names the exact normalized Eq. (2.13) Gaussian/cutoff coordinate law as a
+separate probability. It retains the complete Eq. (2.12) exponent and every
+coordinate-dependent determinant, proves its patch-local analytic-test and
+real covariance consequences, and labels its first jet
+\(\mathcal J_f^{\rm RG}\). This operational law is not called the intrinsic
+coarea conditional or unrestricted raw-fiber conditional absent a complete
+density ledger.
+
+[Note 0011](../../research/notes/0011-one-mark-mayer-seam.md) inserts one real
+plaquette source into that exact coordinate law. It proves the fixed-background
+split, bounded centered mark, and finite Mayer identity at the seam immediately
+after RG II Lemma 2. It explicitly leaves the per-plaquette rooted
+localization, strict decay norm, and connected marked expansion unproved.
+
 ## Regular configurations and gauge chart
 
 T. Bałaban, [Spaces of regular gauge field configurations on a lattice and

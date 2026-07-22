@@ -46,9 +46,9 @@
       "severity": "S2",
       "status": "open",
       "targets": ["YM-RG-001"],
-      "summary": "A selected-branch pointwise measure and bounded-observable source disk now exist, but the unrestricted raw transform, covariant/quasilocal source jets, complete marginal projections, and large-field source extension remain uncontrolled.",
+      "summary": "Patch-local intrinsic and exact RG-coordinate laws, real covariance, a source disk, and first-mark Mayer algebra now exist, but the unrestricted raw transform, rooted quasilocal source estimates, complete marginal projections, and large-field source extension remain uncontrolled.",
       "resolution_requirements": [
-        "Either compare the selected chart branch quantitatively with the unrestricted raw transform or keep their theorems separate, and transcribe the exact covariance/domain norms.",
+        "Either compare the intrinsic, RG-coordinate, and unrestricted raw laws quantitatively or keep their theorems separately labeled, and transcribe the exact marked domain norms.",
         "Derive the first two source jets with explicit identity/action projections and volume-uniform bounds.",
         "Extend or refute the construction on the separately defined large-field domain."
       ]
@@ -80,9 +80,9 @@
       "severity": "S2",
       "status": "open",
       "targets": ["YM-RG-004"],
-      "summary": "No marked cluster expansion controls the fluctuation difference between the exact conditional first jet and its minimizing-background term.",
+      "summary": "No rooted marked cluster expansion controls the fluctuation difference between the exact RG-coordinate first jet and its minimizing-background term.",
       "resolution_requirements": [
-        "Use the YM-RG-008 selected-branch measure, prove its required joint covariance/background regularity, and carry a marked plaquette insertion through the RG I/II fluctuation and connected-cluster steps.",
+        "Use the exact YM-RG-010 selected-coordinate law and carry a marked plaquette insertion through the fluctuation and connected-cluster steps without identifying it with the intrinsic or unrestricted raw law.",
         "Classify every projected mixing term and prove volume-, cutoff-, and location-uniform quasilocal bounds."
       ]
     },
@@ -125,12 +125,54 @@
       "severity": "S1",
       "status": "open",
       "targets": ["YM-RG-008"],
-      "summary": "The complete fixed-cutoff chart-branch measure has not received independent human review and has not been matched covariantly or quantitatively to the unrestricted raw transform.",
+      "summary": "The complete fixed-cutoff chart-branch measure has not received independent human review or been matched quantitatively to the unrestricted raw transform; YM-RG-009 supplies only patch-local transported-chart covariance and test-integral regularity.",
       "resolution_requirements": [
         "Record a line-by-line human review tied to an immutable commit.",
-        "Transcribe the exact joint background dependence and prove the branch covariance intertwining diagram on every named patch.",
+        "Construct compatible overlap data if the patch-local YM-RG-009 kernel is used across independently chosen background charts.",
         "Either prove the off-branch complement is fiber-null or keep every theorem explicitly restricted to the selected near-identity branch.",
         "Reconcile the intrinsic coarea normalization with RG I Eq. (2.12) and the coupling-independent raw convention."
+      ]
+    },
+    {
+      "id": "OBJ-013",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-009"],
+      "summary": "The parameterized fixed-cube branch kernel has no independent human review, global chart-overlap theorem, or regulator-uniform complex background radius.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Check the parameterized analytic construction of h, C, and D against the primary proofs on the complete closed cube.",
+        "Build and verify compatible transition rules on every overlapping background patch needed by a later RG iteration.",
+        "Keep holomorphic test-integral continuation distinct from a positive complex measure and from arbitrary Borel-set regularity.",
+        "Audit YM-RG-010's exact RG-I/II coordinate law term by term before using it in the marked expansion."
+      ]
+    },
+    {
+      "id": "OBJ-014",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-010"],
+      "summary": "The exact normalized RG-I coordinate law has no independent human review, termwise machine-checkable Eq. (2.12) transcription, or density match to the intrinsic and unrestricted laws.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Transcribe every Eq. (2.12) exponent, determinant, covariance, cutoff, scaling, and source-independent scalar convention into explicit notation.",
+        "Verify positivity, analytic dependence, and Eq. (2.16) covariance directly against that complete transcription.",
+        "Either prove a full density identity with the intrinsic coarea law or keep the two normalized expectations separately labeled.",
+        "Do not infer a coupling derivative, marked-polymer estimate, large-field result, continuum limit, or mass gap from this finite-coordinate law."
+      ]
+    },
+    {
+      "id": "OBJ-015",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-011"],
+      "summary": "The one-mark source split and Mayer identity have no independent human review and do not supply the rooted localization estimate needed for the marked cluster expansion.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Transcribe the full YM-RG-010 exponent into the exact RG-II Lemma-2 activity family used by the Mayer identity.",
+        "Prove a per-plaquette rooted activity decomposition on RG II Eq. (1.34) with strict exponential-decay slack and a source-location-uniform norm.",
+        "Carry the unique mark through RG II Eqs. (2.2)-(2.13) and prove the rooted connected sum converges.",
+        "Keep the finite algebraic identity separate from intrinsic/raw density matching, large fields, RG iteration, continuum limits, and the mass gap."
       ]
     }
   ]

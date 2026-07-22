@@ -237,9 +237,10 @@ The conclusion is deliberately narrower than a global disintegration theorem.
 - Pointwise finiteness and positivity do not give a volume-, scale-, or
   background-uniform total-mass lower bound. Note 0007 explains why such a raw
   bound is generally false and unnecessary for normalized source ratios.
-- Joint Borel or holomorphic dependence on \(W\), coarse-gauge covariance of
-  the selected branch, and exact matching to every gauge-fixing normalization
-  remain separate obligations.
+- Note 0009 supplies a Borel kernel, analytic test-integral dependence, and
+  exact real coarse-gauge covariance on one relatively compact transported
+  chart. Compatibility across independently chosen patches and exact matching
+  to every gauge-fixing normalization remain separate obligations.
 - If the selected background or chart depends on \(x\), coupling
   differentiation acquires kernel terms. Only source independence is used in
   (8)–(9).

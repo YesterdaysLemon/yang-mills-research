@@ -320,7 +320,7 @@
         "This is the coarea restriction to the selected near-identity chart branch, not the unrestricted raw group-delta transform.",
         "No complement estimate excludes remote logarithmic branches, other fiber components, gauge-chart components, or large fields.",
         "No volume-, scale-, regulator-, or background-uniform scalar determinant or total raw-mass lower bound is proved.",
-        "Joint patchwise Borel or holomorphic dependence, unconditional coarse-gauge covariance, and exact coupling independence remain to be transcribed before use.",
+        "YM-RG-009 supplies a Borel kernel, analytic test-integral dependence, and real coarse-gauge covariance on one relatively compact transported patch; global patch compatibility and exact coupling independence remain open.",
         "No source-marked polymer estimate, RG iteration, continuum construction, infrared statement, or mass gap follows."
       ],
       "falsification_tests": [
@@ -333,7 +333,7 @@
       "reviewers": [],
       "open_objections": [
         "No independent human review has been recorded.",
-        "The exact joint background dependence and covariance diagram have not been transcribed.",
+        "YM-RG-009 transcribes the patch-local joint background dependence and transported-chart covariance diagram, but no global compatible atlas is proved.",
         "Equality or a quantitative comparison with the unrestricted raw transform is open.",
         "The precise coupling-independence convention must be reconciled with the background and coordinate choices."
       ],
@@ -342,10 +342,148 @@
       "last_audited_commit": null
     },
     {
+      "id": "YM-RG-009",
+      "kind": "Lemma",
+      "statement": "On any relatively compact coordinate patch contained in one Proposition 9 analytic background branch, with fixed selected bonds and the fixed RG-I cutoff cube staying strictly inside the common RG-I/II domain, the complete selected-branch parameterization is jointly real analytic; its intrinsic coarea restrictions form a finite positive Borel kernel with real-analytic analytic-test integrals and local holomorphic test-integral continuations, and real coarse gauge transformations push the kernel forward exactly between equivariantly transported charts.",
+      "scope_and_quantifiers": "One finite regulator and RG step; d=4, odd L greater than 11, compact semisimple G contained in U(N); one relatively compact Proposition 9 patch; fixed selected bonds and fixed epsilon_1 cube; real gauge transformations with the prescribed block-constant lift; selected near-identity branch only.",
+      "status": "proved-in-repo",
+      "evidence_level": "E2",
+      "dependencies": [
+        "YM-RG-005",
+        "YM-RG-006",
+        "YM-RG-008"
+      ],
+      "external_hypotheses": [
+        "The variational paper's Section G, Eq. (181), and Proposition 9 analytic gauge-fixed background branch.",
+        "RG I Eqs. (2.2)-(2.16), including analytic constraint straightening, uniqueness, delta elimination, and real gauge invariance.",
+        "RG II Eq. (1.20) and the strict common-domain smallness conditions that contain the closed fixed cube."
+      ],
+      "sources": [
+        "https://doi.org/10.1007/BF01229381",
+        "https://doi.org/10.1007/BF01215223",
+        "https://doi.org/10.1007/BF01239022"
+      ],
+      "proof_anchor": "research/notes/0009-parameterized-fixed-cube-kernel.md",
+      "known_limitations": [
+        "The Borel kernel and analytic test-integral conclusions are patch local; no compatible global atlas over all admitted backgrounds is constructed.",
+        "Analytic tests have local holomorphic continuations, but there is no positive measure at complex background, canonical complex coarea law, total-variation regularity, or arbitrary-Borel-set analyticity.",
+        "Covariance is for real coarse transformations with the prescribed lift and equivariantly transported charts, not arbitrary fine or complex gauge transformations.",
+        "The intrinsic coarea normalization is not matched term by term to RG I Eq. (2.12)'s later Gaussian representation or to the unrestricted raw transform.",
+        "No source-marked polymer estimate, uniform patch radius, RG iteration, continuum construction, infrared statement, or mass gap follows."
+      ],
+      "falsification_tests": [
+        "Introduce a background-dependent cutoff and recover a moving-boundary failure of differentiability.",
+        "Use a moving Dirac measure to distinguish analytic-test regularity from arbitrary Borel-set continuity.",
+        "Check the parameterized h, C, and D constructions for joint rather than merely pointwise analyticity on the closed cube.",
+        "Verify the exact beta and Phi intertwiners under the prescribed coarse-gauge lift and reject covariance between unrelated chart choices.",
+        "Use analytic bilinear Gram determinants rather than nonholomorphic Hermitian norms in the local complexification."
+      ],
+      "reviewers": [],
+      "open_objections": [
+        "No independent human review has been recorded.",
+        "Global overlap compatibility and a regulator-uniform complex background domain remain open.",
+        "YM-RG-010 separately names the exact normalized Eq. (2.13) coordinate law, but its density has not been matched to the intrinsic coarea law or unrestricted fiber.",
+        "The source-marked connected-cluster locality theorem remains open."
+      ],
+      "novelty_claim": false,
+      "provenance": "AI-assisted parameterized finite-dimensional corollary of the cited Bałaban constructions and invariant coarea; no novelty claimed.",
+      "last_audited_commit": null
+    },
+    {
+      "id": "YM-RG-010",
+      "kind": "Lemma",
+      "statement": "At every fixed finite regulator and admitted real background, the full RG-I Eq. (2.12) Gaussian/cutoff coordinate integrand defines a finite nonzero positive normalized probability law on the complete selected near-identity branch; on one Proposition 9 patch its analytic tests and scalar-source ratios are locally holomorphic in the background, its real coarse derivative has the centered-score form, and real coarse gauge transformations push the law forward exactly.",
+      "scope_and_quantifiers": "One finite d=4 regulator and RG step; compact semisimple G contained in U(N), with the scalar plaquette-source specialization for SU(2); fixed epsilon_1 selected-coordinate cutoff; one relatively compact Proposition 9 patch; the entire B-dependent Eq. (2.12) exponent and Gaussian law retained.",
+      "status": "proved-in-repo",
+      "evidence_level": "E2",
+      "dependencies": [
+        "YM-RG-007",
+        "YM-RG-008",
+        "YM-RG-009"
+      ],
+      "external_hypotheses": [
+        "RG I Eqs. (2.9), (2.12)-(2.16), and (3.1), including the complete B-dependent exponent, Gaussian/cutoff representation, analytic extension, and gauge invariance.",
+        "RG II Eqs. (1.19)-(1.20) and its stated analytic dependence of functions, operators, quadratic forms, and covariances on the named domain.",
+        "The variational paper's Eq. (181) and Proposition 9 analytic transported background branch."
+      ],
+      "sources": [
+        "https://doi.org/10.1007/BF01215223",
+        "https://doi.org/10.1007/BF01239022",
+        "https://doi.org/10.1007/BF01229381"
+      ],
+      "proof_anchor": "research/notes/0010-exact-rg-coordinate-law.md",
+      "known_limitations": [
+        "This named law is the exact normalized RG-I Eq. (2.13) selected-coordinate law, not the intrinsic coarea law or unrestricted raw-fiber conditional law.",
+        "Only factors constant in the fluctuation coordinate and observable source cancel projectively; no B-dependent determinant, action, or density term may be omitted.",
+        "Background holomorphy and real gauge covariance are patch local, with no global probability kernel or regulator-uniform complex radius.",
+        "No coupling derivative, remote-branch comparison, large-field control, source-marked polymer estimate, RG iteration, continuum construction, infrared statement, or mass gap follows."
+      ],
+      "falsification_tests": [
+        "Delete any B-dependent Eq. (2.12) term and compare the changed normalized expectation.",
+        "Check positivity and finiteness on the complete real cutoff cube, including the coordinate-determinant orientation.",
+        "Rewrite the Gaussian law on a=g_k B and verify that every background integral has one fixed domain and no cutoff-boundary derivative.",
+        "Verify Eq. (2.16) for the full integrand, measure, cutoff, and reconstructed observable under the prescribed real gauge lift.",
+        "Reject any identification with the intrinsic coarea or unrestricted raw law absent a complete density ledger."
+      ],
+      "reviewers": [],
+      "open_objections": [
+        "No independent human review has been recorded.",
+        "The complete Eq. (2.12) notation has been named as one full exponent rather than transcribed term by term into machine-checkable definitions.",
+        "No density-matching theorem relates this law to the intrinsic coarea restriction or unrestricted raw transform.",
+        "The source-marked connected-cluster locality theorem remains open."
+      ],
+      "novelty_claim": false,
+      "provenance": "AI-assisted exact-normalization corollary of RG I's printed selected-coordinate integral and RG II's analytic-domain bounds; no novelty claimed.",
+      "last_audited_commit": null
+    },
+    {
+      "id": "YM-RG-011",
+      "kind": "Lemma",
+      "statement": "For the exact normalized RG-I selected-coordinate law at any fixed finite regulator, a real finite-support plaquette insertion splits exactly into its fixed-background value plus a bounded background-centered mark; the first log-source jet is the background value plus the expectation of that mark, and multiplying the mark by the RG-II Lemma-2 source-free activity exponent obeys an exact one-mark Mayer identity with the mark occurring once.",
+      "scope_and_quantifiers": "One fixed finite regulator, RG step, admitted real background, and real finite-support SU(2) plaquette profile; exact YM-RG-010 coordinate law; algebraic first source jet only; no marked localization or infinite-volume interchange.",
+      "status": "proved-in-repo",
+      "evidence_level": "E2",
+      "dependencies": [
+        "YM-RG-003",
+        "YM-RG-010"
+      ],
+      "external_hypotheses": [
+        "RG I Eqs. (2.12)-(2.13) for the exact selected-coordinate fluctuation law.",
+        "RG II Lemma 2, Eqs. (1.41)-(1.43), for the finite-regulator source-free localized-activity decomposition before the Section 2 Mayer expansion."
+      ],
+      "sources": [
+        "https://doi.org/10.1007/BF01215223",
+        "https://doi.org/10.1007/BF01239022"
+      ],
+      "proof_anchor": "research/notes/0011-one-mark-mayer-seam.md",
+      "known_limitations": [
+        "The identity concerns the exact YM-RG-010 selected-coordinate law, not the intrinsic coarea law or unrestricted raw-fiber conditional.",
+        "The plaquette index does not localize the background-centered mark in the fluctuation coordinate; the required rooted decomposition and decay norm remain unproved.",
+        "The result proves only the first source jet at finite regulator and does not justify a full source-dependent RG induction or termwise infinite-volume limit.",
+        "No marginal projection, profile-mixing classification, large-field control, RG iteration, continuum construction, infrared statement, or mass gap follows."
+      ],
+      "falsification_tests": [
+        "Differentiate the exact source ratio and verify the background-plus-centered-mark identity and its sign.",
+        "Check the SU(2) range bound for the difference of two plaquette energies.",
+        "Expand each exponential by e^V=1+integral_0^1 V e^{tV} dt and retain the empty Mayer family.",
+        "Attempt to infer locality solely from the plaquette label and expose the nonlocal reconstructed-field dependence.",
+        "Replace the YM-RG-010 law by an unmatched density and verify that the expected mark can change."
+      ],
+      "reviewers": [],
+      "open_objections": [
+        "No independent human review has been recorded.",
+        "The exact correspondence between the full YM-RG-010 exponent and every activity in RG II Lemma 2 still needs termwise transcription.",
+        "The marked analogue of RG II Lemma 2 and its rooted summability estimate remain open."
+      ],
+      "novelty_claim": false,
+      "provenance": "AI-assisted finite-dimensional source split and elementary one-mark Mayer algebra at the cited RG-II seam; no novelty claimed.",
+      "last_audited_commit": null
+    },
+    {
       "id": "YM-RG-004",
       "kind": "Open Question",
-      "statement": "For the complete selected RG I Eq. (0.12) near-identity chart branch with its fixed small-field cutoff, decompose the difference between the exact branch-conditional plaquette-source first jet and its minimizing-background value into completely classified projected terms and gauge-invariant exponentially localized polymers with cutoff-, volume-, and source-location-independent bounds.",
-      "scope_and_quantifiers": "One SU(2) block step; one first source derivative; normalized profiles supported in one coarse block; complete selected near-identity fixed-cutoff branch only; no assertion about the unrestricted fiber, second derivative, large fields, iteration, continuum, or infrared conclusion.",
+      "statement": "On one named relatively compact analytic background patch for the complete selected RG I Eq. (0.12) near-identity branch with its fixed small-field cutoff, decompose the difference between the exact normalized RG-I coordinate-law plaquette-source first jet and its minimizing-background value into completely classified projected terms and gauge-invariant exponentially localized polymers with cutoff-, volume-, and source-location-independent bounds.",
+      "scope_and_quantifiers": "One SU(2) block step; one relatively compact Proposition 9 patch; one first source derivative; normalized profiles supported in one coarse block; complete selected near-identity fixed-cutoff branch only; no assertion about the unrestricted fiber, second derivative, large fields, iteration, continuum, or infrared conclusion.",
       "status": "open",
       "evidence_level": "E0",
       "dependencies": [
@@ -354,7 +492,10 @@
         "YM-RG-005",
         "YM-RG-006",
         "YM-RG-007",
-        "YM-RG-008"
+        "YM-RG-008",
+        "YM-RG-009",
+        "YM-RG-010",
+        "YM-RG-011"
       ],
       "external_hypotheses": [
         "The exact Eq. (0.12) averaging map, raw group-delta transform, fixed small-field domain, local gauge chart, minimizing branch, and background-propagator estimates recorded in the imported-map audit.",
@@ -371,7 +512,7 @@
       "proof_anchor": "research/programs/003-first-source-jet-remainder.md",
       "known_limitations": [
         "This is an unproved small-field theorem specification.",
-        "The selected full-cutoff chart-branch measure is pointwise controlled, but equality or comparison with the unrestricted raw transform, covariance, joint background regularity, and every imported source norm remain open.",
+        "YM-RG-010 fixes the operational selected-coordinate law, but equality or comparison with the intrinsic coarea law and unrestricted raw transform, global chart compatibility, and every marked source norm remain open.",
         "Even a proof would leave the second jet, large fields, RG iteration, continuum construction, and mass gap open."
       ],
       "falsification_tests": [
@@ -383,9 +524,9 @@
       ],
       "reviewers": [],
       "open_objections": [
-        "A pointwise positive measure exists on the selected fixed-cutoff chart branch, but its covariance and comparison with the unrestricted raw transform are open.",
+        "YM-RG-009 proves patch-local transported-chart covariance, but global overlap compatibility and comparison with the unrestricted raw transform remain open.",
         "The componentwise Eq. (190) decay estimate has not been transcribed into the target source norm.",
-        "No source-marked RG II cluster expansion has been derived.",
+        "No rooted connected source-marked RG II cluster expansion has been derived.",
         "Uniform locality of the projected first-jet sector is unproved."
       ],
       "novelty_claim": false,
@@ -404,10 +545,13 @@
         "YM-RG-003",
         "YM-RG-004",
         "YM-RG-007",
-        "YM-RG-008"
+        "YM-RG-008",
+        "YM-RG-009",
+        "YM-RG-010",
+        "YM-RG-011"
       ],
       "external_hypotheses": [
-        "The selected RG I Eq. (0.12) averaging map and raw group-delta transform, the YM-RG-008 pointwise selected-branch measure, an explicit branch-versus-unrestricted distinction, exact domain/norm transcription, and every needed source-free small- and large-field estimate verified in full text before use."
+        "The selected RG I Eq. (0.12) averaging map and raw group-delta transform, the separately named YM-RG-010 exact coordinate law, an explicit intrinsic-coordinate-unrestricted distinction, exact marked domain/norm transcription, and every needed source-free small- and large-field estimate verified in full text before use."
       ],
       "sources": [
         "https://doi.org/10.1007/BF01215223",
@@ -429,7 +573,7 @@
       ],
       "reviewers": [],
       "open_objections": [
-        "The selected branch has a pointwise measure and source disk, but its covariance, exact norm transcription, and relation to the unrestricted raw transform remain open.",
+        "The selected branch has patch-local transported-chart covariance and a source disk, but global overlap compatibility, exact marked norm transcription, and relation to the unrestricted raw transform remain open.",
         "The theorem may duplicate or fail to follow from existing source-free estimates.",
         "The source-dependent extension of the separate large-field operation has not been derived."
       ],

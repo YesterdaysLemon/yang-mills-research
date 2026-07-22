@@ -66,6 +66,21 @@ Pin the exact Bałaban block-map definitions and norms, then perform a theorem-l
   independent-bond cube in one regular chart, so intrinsic coarea gives a
   pointwise finite nonzero positive measure on the entire selected
   near-identity branch.
+- Proved YM-RG-009 on one relatively compact Proposition 9 patch: the complete
+  selected-branch parameterization is jointly real analytic; its intrinsic
+  coarea restrictions form a positive finite Borel kernel with analytic test
+  integrals and local holomorphic test-integral continuations; and real coarse
+  gauge transformations give an exact pushforward identity between
+  equivariantly transported charts.
+- Proved YM-RG-010 for the separately named exact RG-I Eq. (2.13)
+  Gaussian/cutoff coordinate law: fixed-regulator positivity and normalization,
+  patch-local analytic test and source dependence, the centered-score
+  background derivative, and exact real transported-chart covariance. No
+  equality with the intrinsic coarea or unrestricted raw laws is inferred.
+- Proved YM-RG-011 at the RG-II Mayer seam: one real plaquette insertion into
+  the exact RG-coordinate law splits into its fixed-background term and one
+  bounded centered mark, whose first log-source jet and finite one-mark Mayer
+  identity are exact. The mark's rooted localization and decay remain open.
 
 ### Corrections forced by the audit
 
@@ -88,10 +103,12 @@ Pin the exact Bałaban block-map definitions and norms, then perform a theorem-l
   bound beyond Note 0007's range-only selected-branch estimates.
 - No regulator-uniform control of the raw conditional cumulants; their exact
   identities alone do not imply locality or smallness.
-- The selected full-cutoff chart branch now has a pointwise positive measure,
-  but equality or comparison with the unrestricted raw fiber and its
-  cross-patch covariance remain open. Note 0007 shows that a uniform absolute
-  raw lower bound is generally the wrong target for normalized responses.
+- The selected full-cutoff chart branch now has a patch-local Borel kernel and
+  exact covariance between equivariantly transported real charts, but equality
+  or comparison with the unrestricted raw fiber and compatibility across
+  independently selected patches remain open. Note 0007 shows that a uniform
+  absolute raw lower bound is generally the wrong target for normalized
+  responses.
 - No source-marked connected-cluster expansion for the first-jet fluctuation
   remainder.
 - No completed full-text audit of Large Field II or source-marked prior-art
@@ -101,8 +118,8 @@ Pin the exact Bałaban block-map definitions and norms, then perform a theorem-l
 
 ### Next decision
 
-Transcribe the selected norms and the branch covariance/background dependence
-into Program 003, then insert one marked plaquette into the RG I/II
-fluctuation/cluster construction while tracking raw vacuum mass separately.
+Prove a per-plaquette rooted analogue of RG II Lemma 2 on Eq. (1.34), with
+strict decay slack, then carry the unique mark through Eqs. (2.2)–(2.13) and
+prove the rooted connected sum converges. Track raw vacuum mass separately.
 Refute or rewrite YM-RG-004 if the marked remainder fails quasilocality,
 analyticity, or volume uniformity.

@@ -33,6 +33,19 @@ constant renormalization in four dimensions*, **CMP 109** (1987), 249–301,
   \(U_k(V)\) and state \(A_k(V)=A_k(U_k(V))\). Replacing this by a plain
   Wilson action of \(V\) is therefore an additional theorem, not a notational
   simplification.
+- Eqs. (2.2)–(2.13), pp. 265–268, put the fluctuation integral on a complete
+  independent-bond coordinate cube after analytically straightening and
+  eliminating the averaging constraint. Eq. (2.16), p. 269, states that every
+  Eq. (2.12) expression and its Gaussian measure are invariant under the
+  displayed real coarse gauge transformations; the fixed cutoff is preserved
+  by local orthogonal adjoint maps.
+- Together with the variational paper's Proposition 9 branch and Eq. (181),
+  those formulas give a patch-local jointly analytic selected-branch
+  parameterization and exact transported-chart covariance. The intrinsic
+  coarea consequence is [Note
+  0009](../../research/notes/0009-parameterized-fixed-cube-kernel.md). This is
+  not a global background atlas or an identification with the unrestricted
+  raw group-delta fiber.
 - Theorem 3, p. 264, is conditional on every effective coupling \(g_k\)
   remaining in a sufficiently small interval and gives the inductive
   small-field action structure for compact semisimple \(G\subset U(N)\) in
@@ -60,6 +73,12 @@ Cluster expansions*, **CMP 116** (1988), 1–22,
 - These are source-free activity bounds. The paper's \(J\) is an auxiliary
   gauge-field/derivative variable in the analytic induction, not a scalar
   observable source.
+- The exact algebraic insertion seam is after Lemma 2 and before Section 2
+  Eq. (2.1): [Note
+  0011](../../research/notes/0011-one-mark-mayer-seam.md) inserts one
+  background-centered plaquette mark and proves the finite one-mark Mayer
+  identity there. RG II does not print the required per-plaquette rooted
+  localization or connected marked bound.
 
 ### Convergent expansions: conditional complete-density scheme
 
@@ -119,10 +138,13 @@ OS-positivity, continuum, or gap results.
 | Interface | Audit result |
 |---|---|
 | Source-free local polymers, analytic domains, gauge invariance, exponential decay | Verified in RG I/II at the anchors above |
+| Selected fixed-cutoff branch: patch-local Borel kernel, analytic tests, real coarse-gauge covariance | Derived in Note 0009 from the verified RG-I/II and variational anchors; global chart compatibility and unrestricted-fiber comparison remain open |
+| Exact normalized Eq. (2.13) Gaussian/cutoff coordinate law | Separately named and analyzed in Note 0010; no equality with the intrinsic coarea or unrestricted raw law is inferred |
 | Small-/large-field density decomposition and conditional UV-stability bounds | Verified in the Convergent paper; final \(R\)-operation completion remains abstract-only in this audit |
 | External scalar source \(zf\), propagation under a block map, and \(\partial_z\), \(\partial_z^2\) bounds | No theorem located in the audited texts |
 | Source-jet norm, localized marginal projections, or volume-uniform first/second derivative bounds | No theorem located |
 | Inserted-observable decomposition compatible with the constant-profile derivative | No theorem located; the raw first-jet identity itself is algebraic once a coupling-independent raw transform is fixed |
+| One marked plaquette at the RG-II Mayer seam | Finite background split and Mayer algebra proved in Note 0011 for the separately named RG coordinate law; rooted localization and decay are new open obligations |
 | One-loop coefficient in the source-inserted normalization | Not proved by RG I; its coupling theorem is deferred |
 | Reflection positivity of gauge-fixed/RG effective actions | No theorem located |
 | Continuum Schwinger functions, OS reconstruction, infinite-volume clustering, mass gap | Outside the verified scope |

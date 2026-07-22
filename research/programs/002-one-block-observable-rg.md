@@ -75,13 +75,34 @@ its absolute SU(2) bound, crude uniform
 first/second-jet bounds. A strictly smaller radius gives the closed disk
 required below. No
 volume-independent lower bound on the raw cutoff mass is required. Matching
-the selected kernel and profile norm, complex coarse-field analyticity,
-quasilocality, projection/mixing, and large fields remain open.
+the exact RG coordinate weight, the profile norm, quasilocality,
+projection/mixing, and large fields remain open.
 
 [Note 0008](../notes/0008-full-fixed-cutoff-branch.md) now supplies that
 pointwise measure for the complete selected Eq. (2.9) near-identity branch.
-It does not identify the branch with the unrestricted raw group-delta
-transform or prove the joint covariance/analyticity needed by the target.
+[Note 0009](../notes/0009-parameterized-fixed-cube-kernel.md) promotes it on
+one relatively compact background patch to a Borel kernel with analytic test
+integrals, local holomorphic test-integral continuations, and exact real
+coarse-gauge covariance between transported charts. Neither note identifies
+the branch with the unrestricted raw group-delta transform, builds a global
+compatible atlas, or matches the intrinsic density term by term to RG I
+Eq. (2.12).
+
+[Note 0010](../notes/0010-exact-rg-coordinate-law.md) avoids that unmatched
+identification by separately naming the exact normalized RG I
+Eqs. (2.12)–(2.13) Gaussian/cutoff law. It proves positivity, patch-local
+analytic-test dependence, a centered-score background derivative, the bounded
+source disk, and real gauge covariance for that operational law. The marked
+selected-branch subtheorem in Program 003 must use this named law and must not
+relabel it as the intrinsic or unrestricted conditional measure. Program
+002's eventual unrestricted target still requires a separate density/complement
+comparison.
+
+[Note 0011](../notes/0011-one-mark-mayer-seam.md) inserts one real plaquette
+source into that exact law, splits off the fixed background, and proves the
+finite-regulator one-mark Mayer identity immediately after RG II Lemma 2. It
+does not localize the marked insertion in the fluctuation coordinate or prove
+a rooted cluster norm.
 
 ## Target statement
 
@@ -218,8 +239,18 @@ and no mass gap.
   0005–0006.
 - [x] Use RG II's complete-cube estimate to construct a pointwise finite
   nonzero positive measure on the full selected fixed-cutoff chart branch; see
-  Note 0008. Equality with the unrestricted transform and covariant joint
-  background control remain open.
+  Note 0008. Equality with the unrestricted transform remains open.
+- [x] Prove patch-local joint branch analyticity, Borel-kernel regularity,
+  analytic-test continuation, and transported-chart real gauge covariance;
+  see Note 0009. Global chart compatibility and the intrinsic-to-RG density
+  match remain open.
+- [x] Name the exact normalized RG-I Eq. (2.13) coordinate law and prove its
+  finite-regulator positivity, fixed-domain analytic-test dependence,
+  centered-score derivative, source disk, and real gauge covariance; see Note
+  0010. Matching to the intrinsic or unrestricted raw law remains open.
+- [x] Derive the exact background-centered first mark and its finite Mayer
+  identity at the RG-II Section 2 seam; see Note 0011. The rooted localization
+  and connected-cluster bounds remain open.
 - [x] Prove a common zero-free source disk from bounded observable range,
   conditional on the exact pointwise kernel and positive finite source-free
   weighted partition function; see Note 0007. This does not supply a complex

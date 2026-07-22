@@ -143,16 +143,18 @@ cube on the already selected near-identity branch stays inside one analytic
 chart; see the imported-map audit. That later support-containment result is not
 used in this local proof and does not identify the branch with the unrestricted
 raw group fiber. Note 0008 combines it with intrinsic coarea to define the
-pointwise measure on the complete selected branch.
+pointwise measure on the complete selected branch, and Note 0009 supplies its
+joint Borel/analytic-test dependence and real coarse-gauge covariance on one
+relatively compact transported patch.
 
 Program 003 still has to:
 
-- transcribe the branch's joint Borel/background dependence and exact
-  Haar/group-delta normalization on each named patch;
+- transcribe the exact RG-I Haar/Gaussian/group-delta normalization and named
+  source-free weight on each patch used by the marked expansion;
 - keep remote logarithmic branches explicitly outside the theorem unless a
   complement estimate is proved;
-- establish the required coarse-gauge covariance or use only a justified
-  gauge-invariant patch formula; and
+- prove compatible overlaps before crossing independently selected background
+  patches; and
 - formulate uniform normalized/log-extensive estimates rather than assume a
   volume-independent lower bound on total raw mass.
 

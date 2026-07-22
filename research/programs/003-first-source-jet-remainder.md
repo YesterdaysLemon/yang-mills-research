@@ -30,66 +30,78 @@ Eqs. (1.19)–(1.20) to prove that the **complete** Eq. (2.9)
 independent-bond cube stays inside one regular analytic chart. For each finite
 regulator and admitted real coarse field \(V\), it defines the intrinsic
 pointwise finite nonzero positive branch measure
-\(K_k^{\rm chart}(V,dU)\). Assume the real source-free branch weight is
-integrable and strictly positive on a set of positive branch measure, so that
+\(K_k^{\rm chart}(V,dU)\).
+
+[Note 0009](../notes/0009-parameterized-fixed-cube-kernel.md) proves that on
+one named relatively compact Proposition 9 patch these measures form a Borel
+kernel, analytic tests have real-analytic integrals and local holomorphic
+continuations, and real coarse gauge transformations push the kernel forward
+between equivariantly transported charts. It does not build a compatible
+global atlas or identify the intrinsic density term by term with RG I
+Eq. (2.12).
+
+[Note 0010](../notes/0010-exact-rg-coordinate-law.md) separately names the
+exact normalized probability law of RG I Eqs. (2.12)–(2.13), retaining its
+Gaussian, cutoff, full fluctuation exponent, and every coordinate-dependent
+Jacobian:
 
 \[
-0<Z_{k,x,V}^{\rm chart}(0)
-=\int e^{-S_{k,x,V}(U)}K_k^{\rm chart}(V,dU)<\infty.
-\]
-
-Then set
-
-\[
-\nu_{k,x,V}^{\rm chart}(dU)
-=\frac{e^{-S_{k,x,V}(U)}K_k^{\rm chart}(V,dU)}
-       {Z_{k,x,V}^{\rm chart}(0)}.
+\nu_{k,V}^{\rm RG}(dB)=
+\frac{
+\chi_k(B)e^{\Psi_k^{\rm RG}(V,B)}
+d\mu_{\Gamma_k(V)}(B)
+}{Z_k^{\rm RG}(V)}.
 \tag{1}
 \]
 
-The chart branch and cutoff are frozen at source zero, so they are independent
-of \(z\) and \(f\). They may still depend on the source-free coupling/background
-construction; the constant-profile coupling identity must continue to be
-stated for the coupling-independent raw transform, not assumed for (1).
+This program now adopts (1) as its operational law because RG II's
+fluctuation/cluster construction acts on that printed coordinate integral. It
+does **not** identify (1) with a normalized intrinsic-coarea law or an
+unrestricted raw-fiber conditional. Only factors constant in \(B\) and the
+observable source cancel projectively.
+
+The coordinate branch, cutoff, and full source-free weight in (1) are frozen
+at source zero, so they are independent of \(z\) and \(f\). They may still
+depend on the source-free coupling/background construction; the
+constant-profile coupling identity must continue to be stated for the
+coupling-independent raw transform, not assumed for (1).
 
 [Note 0007](../notes/0007-projective-source-kernels.md) shows that no
-volume-independent lower bound on the raw branch mass is needed. The displayed
-positive finite weighted partition function gives the normalized law, and
-bounded plaquette range gives an explicit common zero-free source disk. The
-remaining theorem must prove joint coarse-field analyticity or a precise real
-substitute, coarse-gauge
-covariance for gauge-invariant tests, and marked-polymer locality of this
-normalized branch law.
+volume-independent lower bound on the raw branch mass is needed. Note 0010
+proves positivity, patch-local analytic-test regularity, real gauge covariance,
+and the explicit common zero-free source disk for (1). The remaining theorem
+must prove marked-polymer locality for this exact normalized RG coordinate law.
 
 For a real plaquette profile \(f\) supported in one coarse block and normalized
 by Program 002's \(\|f\|_{C^6_{\rm disc}}\le1\), let
 
 \[
-\mathcal O_f(U)=4\sum_p f_p s(U_p).
+\mathcal O_f(V,B)=4\sum_p f_p s(\mathscr U_k(V,B)_p).
 \]
 
-Notes 0007–0008 give the exact selected-branch first jet as a pointwise
-conditional expectation, while Note 0004 gives the fixed-background term on
-the unique minimizing orbit. Define their difference
+Note 0010 gives the exact RG-coordinate first jet as a finite-dimensional
+expectation, while Note 0004 gives the fixed-background term on the unique
+minimizing orbit. Define their deliberately labeled difference
 
 \[
-\mathcal J_f(V)=
-\mathbb E_{\nu^{\rm chart}_{k,x,V}}[\mathcal O_f(U)]
+\mathcal J_f^{\rm RG}(V)=
+\mathbb E_{\nu^{\rm RG}_{k,V}}[\mathcal O_f(V,B)]
 -\mathcal O_f(U_1(V)).
 \]
 
-This is the first quantity not settled by algebra or the imported source-free
-background theorem.
+Note 0011 settles its exact background split and one-mark Mayer algebra. The
+rooted localization and uniform decay of this expectation are the first parts
+not settled by algebra or the imported source-free theorem.
 
 ## Target theorem
 
-On the exact admitted regular coarse-field domain, derive a polymer
+On one named relatively compact admitted regular coarse-field patch, derive a polymer
 representation
 
 \[
-\mathcal J_f(V)=M_f(V)+\sum_X K_{X,f}(V),
+\mathcal J_f^{\rm RG}(V)=M_f(V)+\sum_X K_{X,f}(V),
 \qquad
-M_f=\Pi_{\rm rel}\mathcal J_f,
+M_f=\Pi_{\rm rel}\mathcal J_f^{\rm RG},
 \]
 
 with all of the following properties.
@@ -133,7 +145,18 @@ infrared conclusions.
   finite source-free weighted partition function (Note 0007);
 - RG II's complete-cube containment and the resulting pointwise positive
   measure on the entire selected fixed-cutoff chart branch (Note 0008),
-  without an unrestricted-fiber comparison or covariance theorem;
+  without an unrestricted-fiber comparison;
+- the patch-local Borel kernel, analytic-test regularity, local holomorphic
+  continuation, and transported-chart covariance of that intrinsic branch
+  measure (Note 0009), without a global compatible atlas or a termwise match
+  to RG I Eq. (2.12);
+- the separately named exact normalized RG-I Eq. (2.13) coordinate law, its
+  fixed-domain analyticity, centered-score derivative, source disk, and real
+  gauge covariance (Note 0010), without identifying it with the intrinsic or
+  unrestricted raw laws;
+- the exact finite-regulator background-centered mark, first-jet split, range
+  bound, and one-mark Mayer identity at the RG-II Section 2 seam (Note 0011),
+  without a rooted localization or decay estimate;
 - background-propagator decay and change-of-domain estimates;
 - RG I/II source-free local analytic polymer expansions.
 
@@ -141,22 +164,24 @@ None of those inputs supplies the displayed source-inserted polymer theorem.
 
 ## First derivation route
 
-1. Insert \(z\mathcal O_f\) before the RG I fluctuation-coordinate changes.
-2. Use the pointwise positive selected-branch measure from Note 0008; state its
-   exact support and prove the missing joint regularity/covariance in \(V\).
-3. Keep every Jacobian, characteristic function, and normalization visibly
-   separate and verify which are \(z\)- or \(x\)-dependent.
-4. Differentiate at \(z=0\) before taking logarithms of polymer products.
-5. Isolate the background contribution \(\mathcal O_f(U_1(V))\).
-6. Apply the RG II connected-cluster organization to the remaining marked
-   activity and prove its distance-to-source bounds.
-7. Perform the full symmetry/Ward-identity projection on the marked first
-   jet.
+1. [x] Insert \(z\mathcal O_f\) through the source-independent RG-I coordinate
+   changes and work with Note 0010's full fixed-cube law.
+2. [x] Keep every \(B\)-dependent factor, differentiate at \(z=0\), isolate
+   \(\mathcal O_f(U_1(V))\), and derive the exact one-mark Mayer identity; see
+   Note 0011.
+3. [ ] Prove a per-plaquette rooted decomposition of the background-centered
+   mark on RG II Eq. (1.34), with strict exponential-decay slack.
+4. [ ] Carry exactly one rooted mark through RG II Eqs. (2.2)–(2.13), using
+   Lemma 3 for the unmarked decorations, and prove the connected sum converges.
+5. [ ] Perform the full symmetry/Ward-identity projection on the marked first
+   jet and classify all position/orientation mixing.
 
 ## Falsification tests
 
-- The selected branch fails the joint Borel/covariance properties needed for
-  gauge-invariant marked activities.
+- A proof silently replaces \(\nu^{\rm RG}\) by the unmatched intrinsic coarea
+  or unrestricted raw-fiber law.
+- A later argument silently crosses unrelated background charts without an
+  overlap theorem.
 - A fixed cutoff still creates a boundary/source derivative term omitted by
   the derivation.
 - The marked activity has an unsummable tail or a constant grows with volume.
