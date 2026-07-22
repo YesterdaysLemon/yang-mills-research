@@ -67,6 +67,22 @@ finite-regulator cumulant identities for any positive coupling-independent raw
 kernel. It supplies no uniform radius, locality, mixing, or large-field bound;
 those remain the content of this program.
 
+[Note 0007](../notes/0007-projective-source-kernels.md) sharpens the source
+radius issue: once the exact pointwise kernel gives a positive finite
+source-free weighted partition function, bounded range of the one-block
+plaquette observable gives an explicit common zero-free source disk and, using
+its absolute SU(2) bound, crude uniform
+first/second-jet bounds. A strictly smaller radius gives the closed disk
+required below. No
+volume-independent lower bound on the raw cutoff mass is required. Matching
+the selected kernel and profile norm, complex coarse-field analyticity,
+quasilocality, projection/mixing, and large fields remain open.
+
+[Note 0008](../notes/0008-full-fixed-cutoff-branch.md) now supplies that
+pointwise measure for the complete selected Eq. (2.9) near-identity branch.
+It does not identify the branch with the unrestricted raw group-delta
+transform or prove the joint covariance/analyticity needed by the target.
+
 ## Target statement
 
 For admitted regular \(V\), the variational theorem gives a unique minimizing
@@ -199,7 +215,15 @@ and no mass gap.
   coupling identities; see Note 0003.
 - [x] Separate almost-everywhere disintegration from the raw pointwise density
   and prove the selected constraint has a positive local fiber ball; see Notes
-  0005–0006. Full-cutoff and uniform control remain open.
+  0005–0006.
+- [x] Use RG II's complete-cube estimate to construct a pointwise finite
+  nonzero positive measure on the full selected fixed-cutoff chart branch; see
+  Note 0008. Equality with the unrestricted transform and covariant joint
+  background control remain open.
+- [x] Prove a common zero-free source disk from bounded observable range,
+  conditional on the exact pointwise kernel and positive finite source-free
+  weighted partition function; see Note 0007. This does not supply a complex
+  coarse-field domain or marked-polymer locality.
 - [x] Derive the fixed source-free background jet and its analytic scope; keep
   the exact Eq. (190) decay specialization open; see Note 0004.
 - [ ] Classify every relevant/marginal source counterterm and the profile

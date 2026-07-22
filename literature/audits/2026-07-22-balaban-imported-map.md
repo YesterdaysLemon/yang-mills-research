@@ -141,6 +141,86 @@ cutoff support, furnish a uniform lower bound, or produce a global pointwise
 disintegration. The exact corollary and its failure boundary are in [Note
 0006](../../research/notes/0006-local-balaban-fiber-chart.md).
 
+### The complete fixed-cutoff cube stays in the selected chart
+
+The local conclusion above is not the end of the printed small-field analysis.
+RG I p. 270, Eq. (3.2), and RG II p. 6, Eq. (1.19), write the full relative
+field on the selected branch as
+
+\[
+B'=g_kCB-h\widetilde D(g_kCB).
+\]
+
+Here \(B\) runs over every independent bond
+\(I_k=T^{(k)}\setminus\{b_0(c)\}\). Because the correction is supported on the
+selected \(b_0(c)\) bonds, \(B'(b)=g_kB(b)\) for each \(b\in I_k\); the fixed
+Eq. (2.9) cutoff is therefore exactly \(g_k|B(b)|<\varepsilon_1\) on the whole
+independent-bond cube.
+
+RG II, [*Renormalization group approach to lattice gauge field theories II:
+Cluster expansions*](https://doi.org/10.1007/BF01239022), p. 6,
+Eq. (1.20), proves throughout this cube that
+
+\[
+|B'|
+\le O(1)g_k|B|
++4C_2\bigl(O(1)g_k|B|\bigr)^2
+\le C_1g_k|B|
+<C_1\varepsilon_1,
+\]
+
+with \(C_1\) absolute. The preceding paragraph states uniform analyticity and
+bounds on the admitted \(U,J\) domain; p. 7 then chooses
+\(e^{32\kappa_1}\varepsilon_1\) below an absolute constant and imposes the
+remaining fixed smallness inequalities. Lemma 1, p. 9, Eq. (1.34), uses the
+same complete domain, and Section 2, pp. 12ff., integrates over all
+independent bonds. Thus the Eq. (1.20) support-containment and analytic-domain
+bounds keep every point of the complete fixed-cutoff cube on this near-identity
+branch in one logarithm/gauge/analytic chart, uniformly in volume, scale, and
+admitted background for fixed RG parameters. This uniformity is only the
+printed containment/domain estimate; it is not a determinant or coarea-mass
+bound.
+
+This is **not** a global theorem about the unrestricted raw group-delta fiber.
+The logarithmic near-identity branch has already been selected, and the papers
+do not exclude remote group roots after that restriction is forgotten. Nor do
+they print a volume-independent scalar determinant or total raw-mass lower
+bound. The chart statement can support a named pointwise branch kernel; its
+normalization, Borel/covariance properties, and distinction from the
+unrestricted transform must remain explicit.
+
+### Constraint reduction is not a gauge quotient
+
+RG I's independent-bond integral still has the full regular-fiber dimension.
+The paper does not impose a gauge delta or divide by a residual gauge volume:
+
+- Eqs. (0.14)–(0.16), pp. 254–255, insert an exact orbit-normalized
+  exponential gauge weight. The normalized gauge Haar integral is one; the
+  text explicitly avoids gauge delta functions.
+- Eq. (2.10), pp. 266–267, has exponential-coordinate Haar density
+  \(\sigma(B')\), the averaging constraint
+  \(\delta(\widetilde Q(B'))\), and the fixed cutoff. The delta elimination
+  removes exactly one \(\mathfrak g\)-variable \(B'(b_0(c))\) per coarse bond,
+  leaving
+  \[
+  (\#\text{ fine bonds}-\#\text{ coarse bonds})\dim G,
+  \]
+  the full regular-fiber dimension. Gauge directions remain integrated.
+- The Eq. (2.12) determinant is the nonlinear constraint-coordinate
+  Jacobian, not a Faddeev–Popov determinant. Equation (2.16) states invariance
+  of the resulting integrand and measure under the displayed coarse gauge
+  transformations.
+- The normalized Gaussian \(d\mu_{C^{(k)}(W)}(B)\) in Eqs. (2.12)–(2.13) is a
+  reference measure after logarithmic coordinates, constraint elimination,
+  scaling, quadratic extraction, and normalization. It is not by itself the
+  raw Haar/group-delta fiber law.
+
+Consequently, the intrinsic coarea restriction in Note 0008 is a legitimate
+pointwise raw representative on the selected branch, but matching it term by
+term to the later Gaussian-weighted formula requires all Haar densities,
+normalizations, scaling factors, and coordinate Jacobians. No such matching is
+silently assumed.
+
 ## Regular configurations and gauge chart
 
 T. Bałaban, [Spaces of regular gauge field configurations on a lattice and

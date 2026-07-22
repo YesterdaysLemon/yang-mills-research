@@ -143,9 +143,11 @@ next search target; it is not enough for a novelty claim.
 - RG I imports the averaging, regular-configuration/gauge-fixing,
   background-propagator, and constrained-minimizer machinery from earlier
   papers. The follow-up [imported-map
-  audit](2026-07-22-balaban-imported-map.md) now checks those propositions and
-  selects Eq. (0.12); pointwise positive fiber construction and exact norm
-  transcription remain separate dependencies.
+  audit](2026-07-22-balaban-imported-map.md) now checks those propositions,
+  selects Eq. (0.12), and records RG II's complete-cube chart bound. Note 0008
+  constructs the pointwise measure on that selected chart branch; comparison
+  with the unrestricted raw fiber and exact norm transcription remain separate
+  dependencies.
 - Bibliographic metadata for the five papers and DOIs above is confirmed. The
   unresolved bibliographic item is the separate paper promised for RG I
   Theorem 2; this audit has not identified and verified it.

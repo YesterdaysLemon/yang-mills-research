@@ -57,6 +57,15 @@ Pin the exact Bałaban block-map definitions and norms, then perform a theorem-l
   constraint straightening makes the selected map a submersion at every
   admitted background and gives a positive finite precompact fiber ball. The
   full sharp cutoff and every uniform constant remain open.
+- Proved YM-RG-007: normalized source ratios are invariant under positive
+  coarse-field rescaling of the raw kernel, and bounded observable range gives
+  an explicit common zero-free source disk. The absolute SU(2) plaquette bound
+  then gives crude uniform first/second-jet bounds once a pointwise finite
+  nonzero kernel exists.
+- Proved YM-RG-008: RG II Eqs. (1.19)–(1.20) keep the complete fixed-cutoff
+  independent-bond cube in one regular chart, so intrinsic coarea gives a
+  pointwise finite nonzero positive measure on the entire selected
+  near-identity branch.
 
 ### Corrections forced by the audit
 
@@ -75,11 +84,14 @@ Pin the exact Bałaban block-map definitions and norms, then perform a theorem-l
 
 ### Not established
 
-- No scalar source propagation or first/second source-derivative bound.
+- No quasilocal source propagation or source-marked first/second-derivative
+  bound beyond Note 0007's range-only selected-branch estimates.
 - No regulator-uniform control of the raw conditional cumulants; their exact
   identities alone do not imply locality or smallness.
-- No full-cutoff pointwise fiber measure with a regulator-uniform positive mass
-  bound; only a background-centered precompact ball is controlled.
+- The selected full-cutoff chart branch now has a pointwise positive measure,
+  but equality or comparison with the unrestricted raw fiber and its
+  cross-patch covariance remain open. Note 0007 shows that a uniform absolute
+  raw lower bound is generally the wrong target for normalized responses.
 - No source-marked connected-cluster expansion for the first-jet fluctuation
   remainder.
 - No completed full-text audit of Large Field II or source-marked prior-art
@@ -89,8 +101,8 @@ Pin the exact Bałaban block-map definitions and norms, then perform a theorem-l
 
 ### Next decision
 
-Transcribe the selected norms into Program 003, extend or deliberately shrink
-the local fiber chart to a complete fixed-domain restricted kernel, and insert
-one marked plaquette into the RG I/II fluctuation/cluster construction. Refute
-or rewrite `YM-RG-004` if the marked remainder fails quasilocality,
+Transcribe the selected norms and the branch covariance/background dependence
+into Program 003, then insert one marked plaquette into the RG I/II
+fluctuation/cluster construction while tracking raw vacuum mass separately.
+Refute or rewrite YM-RG-004 if the marked remainder fails quasilocality,
 analyticity, or volume uniformity.

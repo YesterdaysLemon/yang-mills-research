@@ -138,21 +138,29 @@ global proper-surjective hypotheses. \(\square\)
 This result constructs only a local positive contribution around the
 source-free background. It does **not** prove that the entire Eq. (2.9)
 restricted transform has a pointwise fiber kernel with uniform positive mass.
-For that, Program 003 still has to show that the whole chosen cutoff support:
+RG II Eqs. (1.19)–(1.20) later prove that the complete independent-bond cutoff
+cube on the already selected near-identity branch stays inside one analytic
+chart; see the imported-map audit. That later support-containment result is not
+used in this local proof and does not identify the branch with the unrestricted
+raw group fiber. Note 0008 combines it with intrinsic coarea to define the
+pointwise measure on the complete selected branch.
 
-- stays inside the analytic chart and away from rank boundaries and Jacobian
-  zeros;
-- is proper over the admitted coarse patch;
-- has positive fiber measure for every admitted coarse field;
-- has the required coarse-gauge covariance or is used only through a justified
-  gauge-invariant slice formula; and
-- admits constants uniform in volume, scale, cutoff, and source location.
+Program 003 still has to:
+
+- transcribe the branch's joint Borel/background dependence and exact
+  Haar/group-delta normalization on each named patch;
+- keep remote logarithmic branches explicitly outside the theorem unless a
+  complement estimate is proved;
+- establish the required coarse-gauge covariance or use only a justified
+  gauge-invariant patch formula; and
+- formulate uniform normalized/log-extensive estimates rather than assume a
+  volume-independent lower bound on total raw mass.
 
 The construction is not a global submersion or surjectivity theorem. It gives
 no result for arbitrary or merely plaquette-small coarse fields, no global
-logarithm or gauge slice, and no large-field statement. It supplies no source
-zero-free disk, marked-polymer estimate, continuum theory, infrared bridge, or
-mass gap.
+logarithm or gauge slice, and no large-field statement. By itself it supplies
+no source zero-free disk, marked-polymer estimate, continuum theory, infrared
+bridge, or mass gap.
 
 ## Falsification checks
 

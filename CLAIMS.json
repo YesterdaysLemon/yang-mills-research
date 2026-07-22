@@ -214,7 +214,7 @@
       "reviewers": [],
       "open_objections": [
         "No independent human review has been recorded.",
-        "The selected Eq. (0.12) small-field chart has not yet been matched line by line to every hypothesis of this lemma."
+        "Notes 0006 and 0008 match the local density to the selected Eq. (0.12) chart branch, but the unrestricted raw fiber has not been matched to the lemma's global hypotheses."
       ],
       "novelty_claim": false,
       "provenance": "AI-assisted corollary of the standard smooth coarea and proper-submersion fiber-bundle theorems; no novelty claimed.",
@@ -255,24 +255,106 @@
       "open_objections": [
         "No independent human review has been recorded.",
         "The exact norm/radius dependencies and Haar-coordinate density have not been transcribed into uniform machine-checkable bounds.",
-        "Extension from the local fiber ball to the entire fixed-cutoff support is open."
+        "Note 0008 extends to the entire selected fixed-cutoff chart branch; comparison with the unrestricted raw fiber is open."
       ],
       "novelty_claim": false,
       "provenance": "AI-assisted local corollary of RG I's explicit analytic constraint straightening and the pointwise coarea lemma; no novelty claimed.",
       "last_audited_commit": null
     },
     {
+      "id": "YM-RG-007",
+      "kind": "Lemma",
+      "statement": "For any finite nonzero positive source-independent kernel and real bounded observable of range diameter D>0, the normalized source ratio is invariant under positive source-independent scalar rescaling of the raw kernel, is entire, and is zero-free for |z|<2 log(2)/D; for D=0 it is zero-free on the whole plane. Its first two log-jets are the negative mean and variance, while fixed-domain coarse derivatives depend on the centered density score.",
+      "scope_and_quantifiers": "Arbitrary real regulator/coarse-field family with pointwise finite nonzero source-free partition function; bounded real observables; uniform conclusions only when the observable range is uniformly bounded; dominated C1 hypotheses for the centered-score identity.",
+      "status": "proved-in-repo",
+      "evidence_level": "E2",
+      "dependencies": [],
+      "external_hypotheses": [],
+      "sources": [],
+      "proof_anchor": "research/notes/0007-projective-source-kernels.md",
+      "known_limitations": [
+        "The lemma by itself constructs no Eq. (0.12) kernel; YM-RG-008 separately supplies the complete selected chart-branch measure, not the unrestricted raw transform.",
+        "The source disk gives no complex coarse-field neighborhood, marked-polymer representation, operator-mixing classification, or quasilocality.",
+        "Raw coupling derivatives remain convention dependent unless the kernel normalization is fixed independently of inverse coupling.",
+        "No large-field estimate, RG iteration, continuum construction, infrared statement, or mass gap follows."
+      ],
+      "falsification_tests": [
+        "Rescale the raw kernel by a positive coarse-field factor and verify that normalized source ratios stay fixed while raw mass changes.",
+        "Use an n-fold product cutoff of one-coordinate Haar probability q and recover raw mass q^n.",
+        "Use a two-point observable with range D and locate its first source zeros outside the proved disk.",
+        "Let the observable range grow with the regulator and verify that no common disk follows.",
+        "Move the pulled-back domain with the coarse field and recover the omitted boundary term."
+      ],
+      "reviewers": [],
+      "open_objections": [
+        "No independent human review has been recorded.",
+        "The selected chart-branch application is supplied by YM-RG-008, but an unrestricted Eq. (0.12) application remains open.",
+        "The elementary source disk does not address coarse-field holomorphy or source-marked polymer locality."
+      ],
+      "novelty_claim": false,
+      "provenance": "AI-assisted elementary finite-measure argument; no novelty claimed.",
+      "last_audited_commit": null
+    },
+    {
+      "id": "YM-RG-008",
+      "kind": "Lemma",
+      "statement": "Under all RG I/II fixed-small-field hypotheses, the complete Eq. (2.9) independent-bond cube on the selected near-identity branch stays inside one regular analytic chart; it parameterizes a full-dimensional regular-fiber branch, the real Eq. (2.12) coordinate determinant is positive there, and intrinsic coarea defines a pointwise finite nonzero positive branch measure at every fixed finite regulator and admitted real background.",
+      "scope_and_quantifiers": "d=4, odd L greater than 11, compact semisimple G contained in U(N), one finite regulator and RG step, one admitted real background in a named chart, the fixed-epsilon_1 option, and every RG II pp. 6–9 smallness condition with strict chart margin; selected near-identity branch only.",
+      "status": "proved-in-repo",
+      "evidence_level": "E2",
+      "dependencies": [
+        "YM-RG-005",
+        "YM-RG-006",
+        "YM-RG-007"
+      ],
+      "external_hypotheses": [
+        "RG I's exact constraint straightening and delta elimination on pp. 267–270.",
+        "RG II Eqs. (1.19)–(1.20), the p. 7 smallness conditions, and the common analytic domain in Lemma 1."
+      ],
+      "sources": [
+        "https://doi.org/10.1007/BF01215223",
+        "https://doi.org/10.1007/BF01239022"
+      ],
+      "proof_anchor": "research/notes/0008-full-fixed-cutoff-branch.md",
+      "known_limitations": [
+        "This is the coarea restriction to the selected near-identity chart branch, not the unrestricted raw group-delta transform.",
+        "No complement estimate excludes remote logarithmic branches, other fiber components, gauge-chart components, or large fields.",
+        "No volume-, scale-, regulator-, or background-uniform scalar determinant or total raw-mass lower bound is proved.",
+        "Joint patchwise Borel or holomorphic dependence, unconditional coarse-gauge covariance, and exact coupling independence remain to be transcribed before use.",
+        "No source-marked polymer estimate, RG iteration, continuum construction, infrared statement, or mass gap follows."
+      ],
+      "falsification_tests": [
+        "Verify that every independent component of the reconstructed relative field equals the corresponding cube coordinate.",
+        "Check RG II Eq. (1.20) and every p. 7 smallness inequality on the closed cutoff cube with strict margin.",
+        "Differentiate the exact straightening and use L Q h=I to test submersivity and real determinant nonvanishing.",
+        "Search for remote group-constraint solutions and reject any promotion from branch restriction to unrestricted transform.",
+        "Reject any dimension-independent total-mass lower bound inferred only from pointwise positivity."
+      ],
+      "reviewers": [],
+      "open_objections": [
+        "No independent human review has been recorded.",
+        "The exact joint background dependence and covariance diagram have not been transcribed.",
+        "Equality or a quantitative comparison with the unrestricted raw transform is open.",
+        "The precise coupling-independence convention must be reconciled with the background and coordinate choices."
+      ],
+      "novelty_claim": false,
+      "provenance": "AI-assisted corollary of RG I's exact delta elimination, RG II's complete-cube bound, and finite-dimensional coarea; no novelty claimed.",
+      "last_audited_commit": null
+    },
+    {
       "id": "YM-RG-004",
       "kind": "Open Question",
-      "statement": "For the selected RG I Eq. (0.12) map with a fixed small-field cutoff, decompose the difference between the exact conditional plaquette-source first jet and its minimizing-background value into completely classified projected terms and gauge-invariant exponentially localized polymers with cutoff-, volume-, and source-location-independent bounds.",
-      "scope_and_quantifiers": "One SU(2) block step; one first source derivative; normalized profiles supported in one coarse block; fixed small-field branch only; no second derivative, large fields, iteration, continuum, or infrared conclusion.",
+      "statement": "For the complete selected RG I Eq. (0.12) near-identity chart branch with its fixed small-field cutoff, decompose the difference between the exact branch-conditional plaquette-source first jet and its minimizing-background value into completely classified projected terms and gauge-invariant exponentially localized polymers with cutoff-, volume-, and source-location-independent bounds.",
+      "scope_and_quantifiers": "One SU(2) block step; one first source derivative; normalized profiles supported in one coarse block; complete selected near-identity fixed-cutoff branch only; no assertion about the unrestricted fiber, second derivative, large fields, iteration, continuum, or infrared conclusion.",
       "status": "open",
       "evidence_level": "E0",
       "dependencies": [
         "YM-RG-002",
         "YM-RG-003",
         "YM-RG-005",
-        "YM-RG-006"
+        "YM-RG-006",
+        "YM-RG-007",
+        "YM-RG-008"
       ],
       "external_hypotheses": [
         "The exact Eq. (0.12) averaging map, raw group-delta transform, fixed small-field domain, local gauge chart, minimizing branch, and background-propagator estimates recorded in the imported-map audit.",
@@ -289,7 +371,7 @@
       "proof_anchor": "research/programs/003-first-source-jet-remainder.md",
       "known_limitations": [
         "This is an unproved small-field theorem specification.",
-        "The full-cutoff pointwise fiber measure and every imported norm still require exact transcription; only a precompact local fiber ball is controlled.",
+        "The selected full-cutoff chart-branch measure is pointwise controlled, but equality or comparison with the unrestricted raw transform, covariance, joint background regularity, and every imported source norm remain open.",
         "Even a proof would leave the second jet, large fields, RG iteration, continuum construction, and mass gap open."
       ],
       "falsification_tests": [
@@ -301,7 +383,7 @@
       ],
       "reviewers": [],
       "open_objections": [
-        "A pointwise positive fiber measure and exact fixed-cutoff pullback have not been constructed.",
+        "A pointwise positive measure exists on the selected fixed-cutoff chart branch, but its covariance and comparison with the unrestricted raw transform are open.",
         "The componentwise Eq. (190) decay estimate has not been transcribed into the target source norm.",
         "No source-marked RG II cluster expansion has been derived.",
         "Uniform locality of the projected first-jet sector is unproved."
@@ -320,10 +402,12 @@
       "dependencies": [
         "YM-RG-002",
         "YM-RG-003",
-        "YM-RG-004"
+        "YM-RG-004",
+        "YM-RG-007",
+        "YM-RG-008"
       ],
       "external_hypotheses": [
-        "The selected RG I Eq. (0.12) averaging map and raw group-delta transform, together with a pointwise positive fiber disintegration, exact domain/norm transcription, and every needed source-free small- and large-field estimate verified in full text before use."
+        "The selected RG I Eq. (0.12) averaging map and raw group-delta transform, the YM-RG-008 pointwise selected-branch measure, an explicit branch-versus-unrestricted distinction, exact domain/norm transcription, and every needed source-free small- and large-field estimate verified in full text before use."
       ],
       "sources": [
         "https://doi.org/10.1007/BF01215223",
@@ -345,7 +429,7 @@
       ],
       "reviewers": [],
       "open_objections": [
-        "The map is selected, but its pointwise positive fiber disintegration and the exact norm/admissible-domain transcription remain open.",
+        "The selected branch has a pointwise measure and source disk, but its covariance, exact norm transcription, and relation to the unrestricted raw transform remain open.",
         "The theorem may duplicate or fail to follow from existing source-free estimates.",
         "The source-dependent extension of the separate large-field operation has not been derived."
       ],

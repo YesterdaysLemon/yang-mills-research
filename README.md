@@ -28,6 +28,8 @@ The main route is a Wilson lattice regulator followed by gauge-covariant renorma
 - [Note 0004: fixed-background source jet](research/notes/0004-fixed-background-source-jet.md)
 - [Note 0005: pointwise coarea kernels](research/notes/0005-pointwise-coarea-kernels.md)
 - [Note 0006: local Bałaban fiber chart](research/notes/0006-local-balaban-fiber-chart.md)
+- [Note 0007: projective source kernels](research/notes/0007-projective-source-kernels.md)
+- [Note 0008: complete fixed-cutoff chart branch](research/notes/0008-full-fixed-cutoff-branch.md)
 - [Bałaban theorem-level source map](literature/audits/2026-07-22-balaban-source-map.md)
 - [Bałaban imported-map audit](literature/audits/2026-07-22-balaban-imported-map.md)
 

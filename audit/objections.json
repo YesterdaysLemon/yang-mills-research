@@ -46,9 +46,9 @@
       "severity": "S2",
       "status": "open",
       "targets": ["YM-RG-001"],
-      "summary": "The selected block map still lacks a pointwise positive fiber construction, a uniform zero-free source domain, controlled marginal source jets, and a large-field source extension.",
+      "summary": "A selected-branch pointwise measure and bounded-observable source disk now exist, but the unrestricted raw transform, covariant/quasilocal source jets, complete marginal projections, and large-field source extension remain uncontrolled.",
       "resolution_requirements": [
-        "Construct the selected raw transform's pointwise positive fiber measure and transcribe its imported domains and norms.",
+        "Either compare the selected chart branch quantitatively with the unrestricted raw transform or keep their theorems separate, and transcribe the exact covariance/domain norms.",
         "Derive the first two source jets with explicit identity/action projections and volume-uniform bounds.",
         "Extend or refute the construction on the separately defined large-field domain."
       ]
@@ -82,7 +82,7 @@
       "targets": ["YM-RG-004"],
       "summary": "No marked cluster expansion controls the fluctuation difference between the exact conditional first jet and its minimizing-background term.",
       "resolution_requirements": [
-        "Construct the fixed-cutoff positive fiber measure and carry a marked plaquette insertion through the RG I/II fluctuation and connected-cluster steps.",
+        "Use the YM-RG-008 selected-branch measure, prove its required joint covariance/background regularity, and carry a marked plaquette insertion through the RG I/II fluctuation and connected-cluster steps.",
         "Classify every projected mixing term and prove volume-, cutoff-, and location-uniform quasilocal bounds."
       ]
     },
@@ -91,10 +91,10 @@
       "severity": "S1",
       "status": "open",
       "targets": ["YM-RG-005"],
-      "summary": "The pointwise coarea-kernel corollary has not received independent human review and has not yet been matched fully to the selected local block-map chart.",
+      "summary": "The pointwise coarea-kernel corollary has not received independent human review; Notes 0006 and 0008 match its local density to the selected chart branch, but not to the unrestricted raw fiber.",
       "resolution_requirements": [
         "Record a line-by-line human review tied to an immutable commit.",
-        "Verify submersivity, proper cutoff support, positive fiber volume, covariance, and a positive normal Jacobian in the exact Eq. (0.12) coordinates."
+        "Either verify proper support, covariance, and positive normal Jacobian for the unrestricted Eq. (0.12) fiber or keep all applications explicitly branch restricted."
       ]
     },
     {
@@ -102,10 +102,35 @@
       "severity": "S1",
       "status": "open",
       "targets": ["YM-RG-006"],
-      "summary": "The local Bałaban fiber chart has not received independent human review and does not control the full fixed-cutoff support uniformly.",
+      "summary": "The local Bałaban fiber chart has not received independent human review; Note 0008 separately controls the complete selected cutoff branch, but the exact local radii and unrestricted-fiber relation remain open.",
       "resolution_requirements": [
         "Record a line-by-line human review tied to an immutable commit.",
         "Transcribe the exact local radius, norm, Haar-density, and determinant dependencies and verify that the chosen local ball closes inside every chart and away from every rank boundary."
+      ]
+    },
+    {
+      "id": "OBJ-011",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-007"],
+      "summary": "The projective-kernel and bounded-source-disk lemma has not received independent human review; YM-RG-008 supplies a selected chart-branch application, but the unrestricted transform and source-marked locality remain open.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Verify the SU(2) profile range and support-size constants in the finally selected one-block norm.",
+        "For every use, identify the exact named source-independent kernel and keep selected-branch and unrestricted-transform statements separate."
+      ]
+    },
+    {
+      "id": "OBJ-012",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-008"],
+      "summary": "The complete fixed-cutoff chart-branch measure has not received independent human review and has not been matched covariantly or quantitatively to the unrestricted raw transform.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Transcribe the exact joint background dependence and prove the branch covariance intertwining diagram on every named patch.",
+        "Either prove the off-branch complement is fiber-null or keep every theorem explicitly restricted to the selected near-identity branch.",
+        "Reconcile the intrinsic coarea normalization with RG I Eq. (2.12) and the coupling-independent raw convention."
       ]
     }
   ]

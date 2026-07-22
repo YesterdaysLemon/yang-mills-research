@@ -119,6 +119,26 @@ Full text of RG I pp. 265–268 was then checked. Eqs. (2.2)–(2.4), the
 right-inverse construction after Eq. (2.10), and Eq. (2.12) analytically
 straighten the nonlinear constraint and eliminate one selected bond per coarse
 bond. This proves the local submersion and positive precompact-fiber corollary
-`YM-RG-006`. The paper does not provide a uniform positive Jacobian bound over
-the entire Eq. (2.9) cutoff support, so full-cutoff pointwise mass, covariance,
-and regulator uniformity remain open.
+`YM-RG-006`. RG I alone does not close the whole support. RG II
+Eqs. (1.19)–(1.20), however, show that every independent field in the complete
+fixed-cutoff cube stays in the same selected analytic chart with an absolute
+support-containment constant. The papers still do not identify this branch
+with the unrestricted raw group fiber or provide a volume-independent scalar
+determinant or total-mass lower bound.
+
+## 2026-07-22 — raw mass versus normalized source control
+
+The next audit separated an absolute raw cutoff mass from the normalized
+source law. Multiplying a raw kernel by any positive source-independent
+coarse-field factor changes its mass but not a normalized source ratio or any
+source cumulant. An \(n\)-fold product cutoff can have raw mass \(q^n\to0\)
+even with unit normal Jacobian and uniform per-coordinate geometry.
+
+This refutes a volume-independent raw lower bound as the default Program 003
+target. YM-RG-007 instead proves an explicit zero-free disk from bounded
+observable range and identifies the centered density score as the
+projectively invariant coarse-field derivative. Combining the complete-cube
+support-containment bound with intrinsic coarea gives YM-RG-008, the pointwise
+positive measure on the entire selected Eq. (0.12) fixed-cutoff chart branch. Equality
+or comparison with the unrestricted raw fiber, cross-patch covariance,
+coarse-field holomorphy, and marked-polymer locality remain open.
