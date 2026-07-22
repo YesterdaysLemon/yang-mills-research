@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Cite an immutable release and the exact claim IDs used."
+title: "Yang-Mills existence and mass gap: an open research ledger"
+type: software
+authors:
+  - name: "YesterdaysLemon"
+repository-code: "https://github.com/YesterdaysLemon/yang-mills-research"
+license: MIT
+version: 0.1.0
+date-released: 2026-07-22

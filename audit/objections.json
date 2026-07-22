@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "objections": [
+    {
+      "id": "OBJ-001",
+      "severity": "S3",
+      "status": "open",
+      "targets": ["YM-TARGET-001"],
+      "summary": "The repository contains no construction of a nontrivial four-dimensional continuum Yang-Mills QFT.",
+      "resolution_requirements": [
+        "Provide a self-contained construction and pass every mathematical gate in STATUS.json."
+      ]
+    },
+    {
+      "id": "OBJ-002",
+      "severity": "S3",
+      "status": "open",
+      "targets": ["YM-TARGET-001"],
+      "summary": "No positive physical-unit decay rate has been proved uniformly through ultraviolet and infinite-volume limits.",
+      "resolution_requirements": [
+        "Prove the regulator-uniform estimate, justify passage to the continuum theory, and satisfy the density and reconstruction hypotheses."
+      ]
+    },
+    {
+      "id": "OBJ-003",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-SPEC-001"],
+      "summary": "The auxiliary spectral lemma has not received independent human review.",
+      "resolution_requirements": [
+        "Record a line-by-line review tied to an immutable commit."
+      ]
+    }
+  ]
+}

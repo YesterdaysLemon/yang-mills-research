@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "as_of": "2026-07-22",
+  "official_problem_status": "unsolved",
+  "repository_status": "exploratory",
+  "project_evidence_level": "E0",
+  "highest_individual_claim_level": "E2",
+  "solution_wording_allowed": false,
+  "mathematical_gates": {
+    "all_compact_simple_groups": {"passed": false, "evidence": []},
+    "continuum_and_infinite_volume_qft": {"passed": false, "evidence": []},
+    "nontriviality": {"passed": false, "evidence": []},
+    "local_observables_and_uv_behavior": {"passed": false, "evidence": []},
+    "axiomatic_reconstruction": {"passed": false, "evidence": []},
+    "finite_positive_mass_gap": {"passed": false, "evidence": []}
+  },
+  "external_gates": {
+    "independent_expert_review": {"passed": false, "evidence": []},
+    "qualifying_publication": {"passed": false, "evidence": []},
+    "two_year_scrutiny_and_acceptance": {"passed": false, "evidence": []},
+    "cmi_recognition": {"passed": false, "evidence": []}
+  }
+}

@@ -1,0 +1,102 @@
+{
+  "schema_version": 1,
+  "claims": [
+    {
+      "id": "YM-TARGET-001",
+      "kind": "Open Question",
+      "statement": "For every compact simple gauge group G, construct a nontrivial four-dimensional quantum Yang-Mills theory satisfying the required axioms and prove a finite positive Hamiltonian mass gap.",
+      "scope_and_quantifiers": "All compact simple gauge groups; full continuum R^4; pure quantum Yang-Mills.",
+      "status": "open",
+      "evidence_level": "E0",
+      "dependencies": [],
+      "external_hypotheses": [],
+      "sources": [
+        "https://www.claymath.org/wp-content/uploads/2022/06/yangmills.pdf"
+      ],
+      "proof_anchor": "PROBLEM.md",
+      "known_limitations": [
+        "No construction or mass-gap proof is present in this repository."
+      ],
+      "falsification_tests": [
+        "Audit any purported completion against every obligation in PROBLEM.md and STATUS.json."
+      ],
+      "reviewers": [],
+      "open_objections": [
+        "The complete official problem remains open."
+      ],
+      "novelty_claim": false,
+      "provenance": "Official Clay target, paraphrased and scope-audited on 2026-07-22.",
+      "last_audited_commit": null
+    },
+    {
+      "id": "YM-SPEC-001",
+      "kind": "Lemma",
+      "statement": "For a nonnegative self-adjoint Hamiltonian with one-dimensional vacuum kernel, a positive spectral gap Delta is equivalent to Delta-rate exponential decay of the Euclidean semigroup quadratic form on a dense subspace orthogonal to the vacuum, with a vector-dependent finite prefactor.",
+      "scope_and_quantifiers": "Abstract Hilbert-space Hamiltonians; no Yang-Mills construction or regulator limit is assumed or proved.",
+      "status": "proved-in-repo",
+      "evidence_level": "E2",
+      "dependencies": [],
+      "external_hypotheses": [
+        "Spectral theorem and Borel functional calculus for nonnegative self-adjoint operators."
+      ],
+      "sources": [],
+      "proof_anchor": "research/notes/0001-dense-state-gap-criterion.md",
+      "known_limitations": [
+        "The criterion does not construct a QFT.",
+        "It does not prove the required exponential estimate for Yang-Mills observables.",
+        "It does not transfer a regulator-dependent bound unless convergence and uniformity hypotheses are separately proved.",
+        "The result is elementary and no novelty is claimed."
+      ],
+      "falsification_tests": [
+        "Check the argument for continuous spectrum accumulating at zero.",
+        "Check that density is used to eliminate a hidden low-energy spectral subspace.",
+        "Check that the vacuum atom is removed by orthogonality.",
+        "Test whether a prefactor depending on the state invalidates the large-time contradiction."
+      ],
+      "reviewers": [],
+      "open_objections": [
+        "No independent human review has been recorded."
+      ],
+      "novelty_claim": false,
+      "provenance": "AI-assisted derivation, with the complete proof exposed for independent checking.",
+      "last_audited_commit": null
+    },
+    {
+      "id": "YM-RG-001",
+      "kind": "Open Question",
+      "statement": "For one gauge-covariant RG block step in four-dimensional SU(2) Wilson lattice gauge theory, derive a source-inserted local plaquette-energy decomposition with gauge-invariant localized polymer remainders, volume-independent contraction bounds through two source derivatives, explicit large-field control, and the coupling-derivative consistency identity.",
+      "scope_and_quantifiers": "One block factor; SU(2); one compactly supported plaquette-energy source; no RG iteration, continuum limit, or infrared conclusion.",
+      "status": "open",
+      "evidence_level": "E0",
+      "dependencies": [],
+      "external_hypotheses": [
+        "A precisely selected Bałaban gauge-covariant block transformation and its proved source-free estimates."
+      ],
+      "sources": [
+        "https://doi.org/10.1007/BF01215223",
+        "https://doi.org/10.1007/BF01239022",
+        "https://doi.org/10.1007/BF01217741",
+        "https://doi.org/10.1007/BF01257412"
+      ],
+      "proof_anchor": "research/programs/002-one-block-observable-rg.md",
+      "known_limitations": [
+        "This is an unproved theorem specification.",
+        "Even a proof would not construct the continuum theory or establish a mass gap.",
+        "Parts may already be implicit in Bałaban's work; no novelty is claimed."
+      ],
+      "falsification_tests": [
+        "Reject volume-dependent constants.",
+        "Reject omission of large fields or group cut-locus control.",
+        "Reject failure of coarse gauge invariance, source locality, marginal projection, the constant-source identity, or the universal one-loop check."
+      ],
+      "reviewers": [],
+      "open_objections": [
+        "Exact block map, norms, and admissible field domains are not yet pinned.",
+        "The theorem may duplicate or fail to follow from existing source-free estimates."
+      ],
+      "novelty_claim": false,
+      "provenance": "Research specification synthesized from the official problem and primary lattice/RG literature; no proof claimed.",
+      "last_audited_commit": null
+    }
+  ]
+}
