@@ -15,6 +15,7 @@ This is a seed list, not a completed literature review.
 - Tadeusz Bałaban, [Renormalization group approach to lattice gauge field theories II](https://doi.org/10.1007/BF01239022) (1988).
 - Tadeusz Bałaban, [Convergent renormalization expansions for lattice gauge theories](https://doi.org/10.1007/BF01217741) (1988).
 - Tadeusz Bałaban, [Large field renormalization I](https://doi.org/10.1007/BF01257412) (1989).
+- Tadeusz Bałaban, [Large field renormalization II](https://doi.org/10.1007/BF01238433) (1989).
 - Jacques Magnen, Vincent Rivasseau, and Roland Sénéor, [Construction of YM4 with an infrared cutoff](https://doi.org/10.1007/BF02097397) (1993).
 - Isadore Singer, [Some remarks on the Gribov ambiguity](https://doi.org/10.1007/BF01609471) (1978).
 

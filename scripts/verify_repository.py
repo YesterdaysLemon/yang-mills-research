@@ -11,11 +11,14 @@ import re
 import sys
 from pathlib import Path
 from typing import Any
+from urllib.parse import unquote
 
 
 LEVELS = tuple(f"E{i}" for i in range(9))
 LEVEL_RANK = {level: index for index, level in enumerate(LEVELS)}
 CLAIM_ID = re.compile(r"^YM-[A-Z]+-[0-9]{3}$")
+OBJECTION_ID = re.compile(r"^OBJ-[0-9]{3}$")
+MARKDOWN_LINK = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
 REQUIRED_CLAIM_FIELDS = {
     "id",
     "kind",
@@ -92,6 +95,35 @@ def _check_dependency_graph(claims: dict[str, dict[str, Any]], errors: list[str]
 
     for claim_id in claims:
         visit(claim_id, [])
+
+
+def _check_local_markdown_links(root: Path, errors: list[str]) -> None:
+    for markdown_path in root.rglob("*.md"):
+        if ".git" in markdown_path.parts:
+            continue
+        try:
+            content = markdown_path.read_text(encoding="utf-8")
+        except OSError as exc:
+            errors.append(f"Cannot read {markdown_path.relative_to(root)}: {exc}")
+            continue
+        for match in MARKDOWN_LINK.finditer(content):
+            raw_target = match.group(1).strip()
+            target = raw_target
+            if target.startswith("<") and ">" in target:
+                target = target[1 : target.index(">")]
+            else:
+                target = target.split(maxsplit=1)[0]
+            if target.startswith(("#", "http://", "https://", "mailto:")):
+                continue
+            path_part = unquote(target.split("#", 1)[0])
+            if not path_part:
+                continue
+            candidate = markdown_path.parent / path_part
+            if not candidate.exists():
+                relative_markdown = markdown_path.relative_to(root)
+                errors.append(
+                    f"Broken local Markdown link in {relative_markdown}: {raw_target!r}"
+                )
 
 
 def validate_repository(root: Path) -> list[str]:
@@ -183,13 +215,22 @@ def validate_repository(root: Path) -> list[str]:
     if bool(status.get("solution_wording_allowed")) != (project_level == "E8"):
         errors.append("Definitive solution wording is allowed exactly at E8")
 
+    official_problem_status = status.get("official_problem_status")
+    repository_status = status.get("repository_status")
+    if official_problem_status not in {"unsolved", "solved"}:
+        errors.append(f"Invalid official problem status {official_problem_status!r}")
+    if repository_status not in {"exploratory", "candidate", "accepted", "retracted"}:
+        errors.append(f"Invalid repository status {repository_status!r}")
+
     readme_path = root / "README.md"
     try:
         readme = readme_path.read_text(encoding="utf-8")
-        if "Official problem status: UNSOLVED" not in readme:
-            errors.append("README lacks the official UNSOLVED banner")
-        if "Repository status: EXPLORATORY — NOT A SOLUTION" not in readme:
-            errors.append("README lacks the exploratory/non-solution banner")
+        expected_official = f"Official problem status: {str(official_problem_status).upper()}"
+        expected_repository = f"Repository status: {str(repository_status).upper()}"
+        if expected_official not in readme:
+            errors.append("README official-status banner disagrees with STATUS.json")
+        if expected_repository not in readme:
+            errors.append("README repository-status banner disagrees with STATUS.json")
     except OSError as exc:
         errors.append(f"Cannot read README.md: {exc}")
 
@@ -197,6 +238,36 @@ def validate_repository(root: Path) -> list[str]:
     if not isinstance(objections, list):
         errors.append("audit/objections.json must contain an objections list")
         objections = []
+    objection_ids: set[str] = set()
+    for index, objection in enumerate(objections):
+        if not isinstance(objection, dict):
+            errors.append(f"Objection at index {index} is not an object")
+            continue
+        objection_id = objection.get("id")
+        if not isinstance(objection_id, str) or not OBJECTION_ID.fullmatch(objection_id):
+            errors.append(f"Invalid objection id: {objection_id!r}")
+        elif objection_id in objection_ids:
+            errors.append(f"Duplicate objection id: {objection_id}")
+        else:
+            objection_ids.add(objection_id)
+        if objection.get("severity") not in {"S0", "S1", "S2", "S3"}:
+            errors.append(f"Objection {objection_id} has invalid severity")
+        if objection.get("status") not in {"open", "resolved", "superseded"}:
+            errors.append(f"Objection {objection_id} has invalid status")
+        targets = objection.get("targets")
+        if not isinstance(targets, list) or not targets:
+            errors.append(f"Objection {objection_id}.targets must be a nonempty list")
+        else:
+            for target in targets:
+                if target not in claims:
+                    errors.append(
+                        f"Objection {objection_id} has unknown claim target {target!r}"
+                    )
+        requirements = objection.get("resolution_requirements")
+        if not isinstance(requirements, list) or not requirements:
+            errors.append(
+                f"Objection {objection_id}.resolution_requirements must be a nonempty list"
+            )
     if project_rank >= LEVEL_RANK["E3"]:
         blockers = [
             obj.get("id")
@@ -207,6 +278,8 @@ def validate_repository(root: Path) -> list[str]:
         ]
         if blockers:
             errors.append(f"E3+ status forbidden with open major/fatal objections: {blockers}")
+
+    _check_local_markdown_links(root, errors)
 
     return errors
 

@@ -13,3 +13,9 @@ All notable research-structure and claim-status changes are recorded here. Mathe
 - Selected the Wilson/Bałaban RG scaffold and documented its missing infrared bridge.
 - Opened the E0 one-block local-observable target `YM-RG-001`.
 - Added a provisional primary-source and prior-art route matrix.
+- Tightened `YM-SPEC-001`: density is relative to the vacuum sector, only eventual decay is needed, reflected centered forms are used in its OS application, and nontriviality is required for finite mass.
+- Added the conditional E2 bridge `YM-SPEC-002`, with exact fixed-physical-time convergence and regulator-uniform epsilon-loss quantifiers.
+- Completed a first theorem-level Bałaban source map, separating full-text anchors from an abstract-only Large Field II claim.
+- Corrected Program 002 to use an external source distinct from Bałaban's auxiliary `J`, the fine minimizing background, raw-versus-normalized bookkeeping, a zero-free logarithm disk, complete source-mixing classification, and explicit localized projections.
+- Kept `YM-RG-001` at E0: no source-derivative, continuum, OS, infrared, or mass-gap theorem was located in the audited Bałaban papers.
+- Extended repository verification to reject malformed/unknown objection targets, broken local Markdown links, and README/STATUS banner drift; added mutation tests.

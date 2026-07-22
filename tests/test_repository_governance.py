@@ -40,6 +40,30 @@ class RepositoryGovernanceTests(unittest.TestCase):
             errors = verify_repository.validate_repository(copy)
             self.assertIn("E3+ project status requires every mathematical gate", errors)
 
+    def test_unknown_objection_target_is_rejected(self) -> None:
+        with tempfile.TemporaryDirectory() as temp:
+            copy = Path(temp) / "repo"
+            shutil.copytree(ROOT, copy, ignore=shutil.ignore_patterns(".git", "__pycache__"))
+            objections_path = copy / "audit" / "objections.json"
+            objections = json.loads(objections_path.read_text(encoding="utf-8"))
+            objections["objections"][0]["targets"] = ["YM-NOT-A-CLAIM"]
+            objections_path.write_text(json.dumps(objections, indent=2), encoding="utf-8")
+            errors = verify_repository.validate_repository(copy)
+            self.assertTrue(any("unknown claim target" in error for error in errors))
+
+    def test_broken_local_markdown_link_is_rejected(self) -> None:
+        with tempfile.TemporaryDirectory() as temp:
+            copy = Path(temp) / "repo"
+            shutil.copytree(ROOT, copy, ignore=shutil.ignore_patterns(".git", "__pycache__"))
+            readme_path = copy / "README.md"
+            readme = readme_path.read_text(encoding="utf-8")
+            readme_path.write_text(
+                readme + "\n[broken](research/notes/not-present.md)\n",
+                encoding="utf-8",
+            )
+            errors = verify_repository.validate_repository(copy)
+            self.assertTrue(any("Broken local Markdown link" in error for error in errors))
+
 
 if __name__ == "__main__":
     unittest.main()

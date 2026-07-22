@@ -31,7 +31,7 @@
     {
       "id": "YM-SPEC-001",
       "kind": "Lemma",
-      "statement": "For a nonnegative self-adjoint Hamiltonian with one-dimensional vacuum kernel, a positive spectral gap Delta is equivalent to Delta-rate exponential decay of the Euclidean semigroup quadratic form on a dense subspace orthogonal to the vacuum, with a vector-dependent finite prefactor.",
+      "statement": "For a nonnegative self-adjoint Hamiltonian with one-dimensional vacuum kernel, a positive spectral gap Delta is equivalent to sufficiently-large-time Delta-rate exponential decay of the Euclidean semigroup quadratic form on a subspace dense in the vacuum-orthogonal sector, with vector-dependent finite onset time and prefactor; if that sector is nonzero, the supremal gap is finite.",
       "scope_and_quantifiers": "Abstract Hilbert-space Hamiltonians; no Yang-Mills construction or regulator limit is assumed or proved.",
       "status": "proved-in-repo",
       "evidence_level": "E2",
@@ -51,7 +51,8 @@
         "Check the argument for continuous spectrum accumulating at zero.",
         "Check that density is used to eliminate a hidden low-energy spectral subspace.",
         "Check that the vacuum atom is removed by orthogonality.",
-        "Test whether a prefactor depending on the state invalidates the large-time contradiction."
+        "Test whether a prefactor depending on the state invalidates the large-time contradiction.",
+        "Check the one-dimensional vacuum-only case and the separate nontriviality condition needed for finite mass."
       ],
       "reviewers": [],
       "open_objections": [
@@ -62,21 +63,67 @@
       "last_audited_commit": null
     },
     {
+      "id": "YM-SPEC-002",
+      "kind": "Lemma",
+      "statement": "For an Osterwalder-Schrader reconstructed theory with unique vacuum, reflected centered correlations over a total nonvacuum family determine the bottom of the Hamiltonian spectrum; regulator correlations that converge at fixed physical time and satisfy a regulator- and volume-uniform epsilon-loss exponential bound imply a continuum gap.",
+      "scope_and_quantifiers": "Conditional OS-reconstructed theories and convergent regulator sequences; no Yang-Mills measure, convergence theorem, decay estimate, or OS axiom is established.",
+      "status": "proved-in-repo",
+      "evidence_level": "E2",
+      "dependencies": [
+        "YM-SPEC-001"
+      ],
+      "external_hypotheses": [
+        "A limiting Schwinger functional satisfying corrected Osterwalder-Schrader reconstruction hypotheses.",
+        "A unique reconstructed vacuum and a nontrivial vacuum-orthogonal sector.",
+        "Physical-time convergence of specified renormalized reflected correlations.",
+        "Totality of the limiting centered observable classes.",
+        "A regulator- and volume-uniform physical exponential estimate with arbitrary epsilon loss."
+      ],
+      "sources": [
+        "https://doi.org/10.1007/BF01608978",
+        "https://doi.org/10.1007/BF01614090",
+        "https://doi.org/10.1016/0003-4916(78)90039-8"
+      ],
+      "proof_anchor": "research/notes/0002-os-gap-transfer.md",
+      "known_limitations": [
+        "Every Yang-Mills-specific construction and estimate appears as an unproved hypothesis.",
+        "The corollary does not show that a proposed observable family is total.",
+        "It does not justify reflection positivity after gauge fixing or renormalization.",
+        "The result is an elementary conditional bridge and no novelty is claimed."
+      ],
+      "falsification_tests": [
+        "Test a family that is not total and can miss a low-energy spectral sector.",
+        "Test a regulator-dependent prefactor that diverges before the fixed-time limit.",
+        "Check the order of the regulator, fixed-physical-time, and large-time limits.",
+        "Check that lattice-unit decay is converted using physical time a_r k.",
+        "Check the one-dimensional vacuum-only case and the separate nontriviality hypothesis."
+      ],
+      "reviewers": [],
+      "open_objections": [
+        "No independent human review has been recorded.",
+        "No Yang-Mills regulator sequence is known here to satisfy the hypotheses."
+      ],
+      "novelty_claim": false,
+      "provenance": "AI-assisted conditional derivation from the spectral theorem and standard OS reconstruction identities; complete proof and quantifiers are exposed for audit.",
+      "last_audited_commit": null
+    },
+    {
       "id": "YM-RG-001",
       "kind": "Open Question",
-      "statement": "For one gauge-covariant RG block step in four-dimensional SU(2) Wilson lattice gauge theory, derive a source-inserted local plaquette-energy decomposition with gauge-invariant localized polymer remainders, volume-independent contraction bounds through two source derivatives, explicit large-field control, and the coupling-derivative consistency identity.",
-      "scope_and_quantifiers": "One block factor; SU(2); one compactly supported plaquette-energy source; no RG iteration, continuum limit, or infrared conclusion.",
+      "statement": "For one gauge-covariant RG block step in four-dimensional SU(2) Wilson lattice gauge theory, derive a source-inserted local plaquette-energy decomposition with classified operator/profile mixing, gauge-invariant localized polymer remainders, volume-independent bounds through two source derivatives, explicit large-field control, and the raw coupling-derivative consistency identity.",
+      "scope_and_quantifiers": "One block factor; SU(2); a normalized compactly supported plaquette-energy profile class for local estimates plus a separate finite-volume constant profile used only at first derivative; no RG iteration, continuum limit, or infrared conclusion.",
       "status": "open",
       "evidence_level": "E0",
       "dependencies": [],
       "external_hypotheses": [
-        "A precisely selected Bałaban gauge-covariant block transformation and its proved source-free estimates."
+        "A still-to-be-pinned Bałaban gauge-covariant raw block transformation, its fine minimizing background, and every needed source-free small- and large-field estimate, each verified in full text before use."
       ],
       "sources": [
         "https://doi.org/10.1007/BF01215223",
         "https://doi.org/10.1007/BF01239022",
         "https://doi.org/10.1007/BF01217741",
-        "https://doi.org/10.1007/BF01257412"
+        "https://doi.org/10.1007/BF01257412",
+        "https://doi.org/10.1007/BF01238433"
       ],
       "proof_anchor": "research/programs/002-one-block-observable-rg.md",
       "known_limitations": [
@@ -87,12 +134,13 @@
       "falsification_tests": [
         "Reject volume-dependent constants.",
         "Reject omission of large fields or group cut-locus control.",
-        "Reject failure of coarse gauge invariance, source locality, marginal projection, the constant-source identity, or the universal one-loop check."
+        "Reject failure of coarse gauge invariance, source locality, a zero-free analytic disk, complete source-mixing classification, the raw-transform constant-source identity, volume-uniform first/second source-jet bounds, or the universal one-loop check."
       ],
       "reviewers": [],
       "open_objections": [
         "Exact block map, norms, and admissible field domains are not yet pinned.",
-        "The theorem may duplicate or fail to follow from existing source-free estimates."
+        "The theorem may duplicate or fail to follow from existing source-free estimates.",
+        "The source-dependent extension of the separate large-field operation has not been derived."
       ],
       "novelty_claim": false,
       "provenance": "Research specification synthesized from the official problem and primary lattice/RG literature; no proof claimed.",

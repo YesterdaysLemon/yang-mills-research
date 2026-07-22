@@ -18,7 +18,7 @@
       "targets": ["YM-TARGET-001"],
       "summary": "No positive physical-unit decay rate has been proved uniformly through ultraviolet and infinite-volume limits.",
       "resolution_requirements": [
-        "Prove the regulator-uniform estimate, justify passage to the continuum theory, and satisfy the density and reconstruction hypotheses."
+        "Prove the regulator-uniform estimate, justify passage to the continuum theory, and satisfy the totality and corrected reconstruction hypotheses."
       ]
     },
     {
@@ -29,6 +29,28 @@
       "summary": "The auxiliary spectral lemma has not received independent human review.",
       "resolution_requirements": [
         "Record a line-by-line review tied to an immutable commit."
+      ]
+    },
+    {
+      "id": "OBJ-004",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-SPEC-002"],
+      "summary": "The conditional OS gap-transfer lemma has not received independent human review.",
+      "resolution_requirements": [
+        "Check the spectral-support argument, the totality step, and every regulator-limit quantifier against an immutable commit."
+      ]
+    },
+    {
+      "id": "OBJ-005",
+      "severity": "S2",
+      "status": "open",
+      "targets": ["YM-RG-001"],
+      "summary": "The exact block map, zero-free source domain, marginal source jets, and large-field source extension are unproved.",
+      "resolution_requirements": [
+        "Pin one raw coupling-independent transform and its imported estimates.",
+        "Derive the first two source jets with explicit identity/action projections and volume-uniform bounds.",
+        "Extend or refute the construction on the separately defined large-field domain."
       ]
     }
   ]

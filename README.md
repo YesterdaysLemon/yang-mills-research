@@ -16,14 +16,16 @@ The exact scope and the ways an apparent result can miss it are frozen in [PROBL
 
 ## Current work
 
-The main route is a Wilson lattice regulator followed by gauge-covariant renormalization, construction of local gauge-invariant observables, Osterwalder–Schrader reconstruction, and a still-missing nonperturbative infrared bridge. The first bounded target is one source-inserted RG step; a supporting spectral note isolates the final gap certificate:
+The main route is a Wilson lattice regulator followed by gauge-covariant renormalization, construction of local gauge-invariant observables, Osterwalder–Schrader reconstruction, and a still-missing nonperturbative infrared bridge. The first bounded target is one source-inserted RG step; two supporting spectral notes isolate the final gap certificate and the exact regulator-uniform statement it would require:
 
 - [Chosen route and dependency map](ROADMAP.md)
 - [Program 002: one-block observable RG theorem](research/programs/002-one-block-observable-rg.md)
 - [Program 001: continuum gap transfer](research/programs/001-continuum-gap-transfer.md)
 - [Note 0001: dense-state semigroup criterion](research/notes/0001-dense-state-gap-criterion.md)
+- [Note 0002: OS gap-transfer criterion](research/notes/0002-os-gap-transfer.md)
+- [Bałaban theorem-level source map](literature/audits/2026-07-22-balaban-source-map.md)
 
-Program 002 is an open theorem specification, not a result. The note proves an elementary spectral-theoretic criterion. The unsolved work is to control RG iteration to the dynamically generated scale, construct the continuum theory, and obtain the required regulator-uniform estimates while preserving nontrivial Yang–Mills ultraviolet behavior. No such estimate is claimed here.
+Program 002 is an open theorem specification, not a result. The notes prove elementary conditional spectral-theoretic statements. The unsolved work is to control RG iteration to the dynamically generated scale, construct the continuum theory, and obtain the required regulator-uniform estimates while preserving nontrivial Yang–Mills ultraviolet behavior. No such Yang–Mills estimate is claimed here.
 
 ## Evidence discipline
 
