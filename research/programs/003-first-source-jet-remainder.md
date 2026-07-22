@@ -21,26 +21,48 @@ not the coupling-dependent alternative, for this first theorem.
 On the admitted coarse-field domain, first construct a pointwise positive
 finite disintegration \(K_L(V,dU)\) of the raw group-delta constraint. A
 regular conditional probability defined only for almost every \(V\) is not
-enough for the target analytic estimates. Next construct the exact local
-gauge-fixed fluctuation-coordinate map \(U\mapsto B'_V(U)\) on RG I's
-independent-bond chart and pull back Eq. (2.9)'s fixed indicator:
+enough for the target analytic estimates. [Note
+0006](../notes/0006-local-balaban-fiber-chart.md) supplies a positive
+pointwise contribution on a sufficiently small background-centered fiber ball,
+but not the whole restricted transform or any uniform lower bound.
+
+For a specified local Borel chart domain
+\(\mathcal C_V\subset F^{-1}(V)\), let \(B'_V\) denote the exact gauge-fixed
+fluctuation coordinate only on \(\mathcal C_V\). Its zero-extended local
+restriction is
 
 \[
-K_L^{\rm sf}(V,dU)
-=\chi_k(B'_V(U))K_L(V,dU),
-\qquad
 \chi_k(B')=
 \prod_{b\in T^{(k)}\setminus\{b_0(c):c\in T^{(k+1)}\}}
 \mathbf1\{|B'(b)|<\varepsilon_1\},
 \]
 
+and define, without evaluating \(B'_V\) off its domain,
+
+\[
+\widetilde\chi_{k,V}(U)=
+\begin{cases}
+\chi_k(B'_V(U)),&U\in\mathcal C_V,\\
+0,&U\notin\mathcal C_V,
+\end{cases}
+\qquad
+K_L^{\rm sf,loc}(V,dU)
+=\widetilde\chi_{k,V}(U)K_L(V,dU).
+\]
+
 where the product and chart are exactly those of Eq. (2.9), not an enlarged
-global coordinate system. The construction must prove that this pullback is
-measurable, source and coupling independent, compatible with the required
-coarse gauge covariance, and of finite nonzero mass on every admitted fiber.
-Only then let \(\nu^{\rm sf}_{x,V}\) be the normalized conditional measure.
-Conditional on those facts, Note 0003 applies to this restricted kernel; it
-does not identify it with the unrestricted full transform.
+global coordinate system. The construction must prove that
+\(\mathcal C_V\) and the pullback are Borel, source and coupling independent,
+compatible with the required coarse gauge covariance, and of finite nonzero
+mass on every admitted fiber.
+
+The target must then either prove that the entire chosen fixed-cutoff support
+lies in one such domain, assemble compatible local domains without double
+counting, or explicitly shrink the theorem to a named local restriction. Only
+after that step yields a pointwise kernel \(K_L^{\rm sf}\) may
+\(\nu^{\rm sf}_{x,V}\) denote its normalized conditional measure. Conditional
+on those facts, Note 0003 applies to the restricted kernel; it does not identify
+it with the unrestricted full transform.
 
 For a real plaquette profile \(f\) supported in one coarse block and normalized
 by Program 002's \(\|f\|_{C^6_{\rm disc}}\le1\), let
@@ -104,6 +126,10 @@ infrared conclusions.
 - exact finite-regulator conditional-cumulant identity (Note 0003);
 - unique minimizing orbit plus analytic gauge-fixed branch (Note 0004), with
   the variational paper's Eq. (190) component decay still to be transcribed;
+- pointwise positive fiber kernels for proper smooth submersions (Note 0005),
+  conditional on proving the selected map and cutoff satisfy its hypotheses;
+- RG I's local analytic constraint straightening and a positive precompact
+  background-centered fiber ball (Note 0006), without full-cutoff uniformity;
 - background-propagator decay and change-of-domain estimates;
 - RG I/II source-free local analytic polymer expansions.
 

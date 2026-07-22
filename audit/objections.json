@@ -85,6 +85,28 @@
         "Construct the fixed-cutoff positive fiber measure and carry a marked plaquette insertion through the RG I/II fluctuation and connected-cluster steps.",
         "Classify every projected mixing term and prove volume-, cutoff-, and location-uniform quasilocal bounds."
       ]
+    },
+    {
+      "id": "OBJ-009",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-005"],
+      "summary": "The pointwise coarea-kernel corollary has not received independent human review and has not yet been matched fully to the selected local block-map chart.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Verify submersivity, proper cutoff support, positive fiber volume, covariance, and a positive normal Jacobian in the exact Eq. (0.12) coordinates."
+      ]
+    },
+    {
+      "id": "OBJ-010",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-006"],
+      "summary": "The local Bałaban fiber chart has not received independent human review and does not control the full fixed-cutoff support uniformly.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Transcribe the exact local radius, norm, Haar-density, and determinant dependencies and verify that the chosen local ball closes inside every chart and away from every rank boundary."
+      ]
     }
   ]
 }

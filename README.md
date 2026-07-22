@@ -26,6 +26,8 @@ The main route is a Wilson lattice regulator followed by gauge-covariant renorma
 - [Note 0002: OS gap-transfer criterion](research/notes/0002-os-gap-transfer.md)
 - [Note 0003: raw-block source jets](research/notes/0003-raw-block-source-jets.md)
 - [Note 0004: fixed-background source jet](research/notes/0004-fixed-background-source-jet.md)
+- [Note 0005: pointwise coarea kernels](research/notes/0005-pointwise-coarea-kernels.md)
+- [Note 0006: local Bałaban fiber chart](research/notes/0006-local-balaban-fiber-chart.md)
 - [Bałaban theorem-level source map](literature/audits/2026-07-22-balaban-source-map.md)
 - [Bałaban imported-map audit](literature/audits/2026-07-22-balaban-imported-map.md)
 

@@ -101,3 +101,24 @@ Resulting gap: no audited paper controls the difference between the exact
 conditional plaquette first jet and its minimizing-background value by a
 source-marked, volume-uniform polymer expansion. This bounded gap is now
 `YM-RG-004`; it is not a novelty claim.
+
+## 2026-07-22 — pointwise fiber and constraint normal form
+
+The formal group delta was separated from ordinary probability
+disintegration. A regular conditional probability exists only relative to the
+pushforward measure and only almost everywhere; the raw transform against
+coarse Haar measure also needs its density \(T\mathbf 1(V)\).
+
+The smooth coarea formula and proper-submersion fiber integration give a clean
+conditional remedy, recorded as `YM-RG-005`: a proper smooth surjective map
+with full rank has an everywhere finite positive raw fiber kernel. This is a
+general finite-dimensional lemma, not yet a claim about the whole selected
+cutoff.
+
+Full text of RG I pp. 265–268 was then checked. Eqs. (2.2)–(2.4), the
+right-inverse construction after Eq. (2.10), and Eq. (2.12) analytically
+straighten the nonlinear constraint and eliminate one selected bond per coarse
+bond. This proves the local submersion and positive precompact-fiber corollary
+`YM-RG-006`. The paper does not provide a uniform positive Jacobian bound over
+the entire Eq. (2.9) cutoff support, so full-cutoff pointwise mass, covariance,
+and regulator uniformity remain open.

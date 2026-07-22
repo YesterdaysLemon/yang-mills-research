@@ -181,6 +181,87 @@
       "last_audited_commit": null
     },
     {
+      "id": "YM-RG-005",
+      "kind": "Lemma",
+      "statement": "For a smooth proper surjective submersion between finite-dimensional weighted Riemannian manifolds, the coarea formula defines an everywhere finite nonzero positive fiber kernel with the exact raw pushforward density; smooth test-function integrals depend smoothly on the base, and equivariant invariant data give a covariant kernel.",
+      "scope_and_quantifiers": "Finite-dimensional second-countable smooth Riemannian manifolds without boundary; smooth strictly positive weights; every base point; no assertion that the selected Bałaban map or its sharp small-field restriction satisfies the hypotheses.",
+      "status": "proved-in-repo",
+      "evidence_level": "E2",
+      "dependencies": [],
+      "external_hypotheses": [
+        "The smooth coarea formula in the stated normal-Jacobian convention.",
+        "Ehresmann's theorem for proper surjective smooth submersions."
+      ],
+      "sources": [
+        "https://doi.org/10.1090/memo/0509",
+        "https://doi.org/10.1007/978-3-642-62010-2",
+        "https://www.maths.tcd.ie/EMIS/monographs/KSM/kmsbookh.pdf"
+      ],
+      "proof_anchor": "research/notes/0005-pointwise-coarea-kernels.md",
+      "known_limitations": [
+        "Mere measure disintegration, compactness, or a formal group delta does not verify the submersion and pointwise-fiber hypotheses.",
+        "A sharp restriction is nonzero only with positive fiber measure and may destroy smooth coarse dependence.",
+        "Coarea gives no complex analyticity without a common holomorphic pulled-back representation and compact-subdomain domination.",
+        "The lemma proves no source-marked polymer estimate, continuum construction, infrared statement, or mass gap."
+      ],
+      "falsification_tests": [
+        "Use the critical degree-one circle map exp(it) to exp(i(t+sin t)) and observe failure of the submersion hypothesis at t=pi.",
+        "Normalize the conditional kernel and check that the raw factor m_F(v)=K_F(v,M) is lost.",
+        "Intersect a positive-dimensional fiber in one point and verify that the restricted mass is zero.",
+        "Use a moving sharp fiber boundary and verify that coarse smoothness can fail.",
+        "Break equivariance or measure invariance and verify that covariance no longer follows."
+      ],
+      "reviewers": [],
+      "open_objections": [
+        "No independent human review has been recorded.",
+        "The selected Eq. (0.12) small-field chart has not yet been matched line by line to every hypothesis of this lemma."
+      ],
+      "novelty_claim": false,
+      "provenance": "AI-assisted corollary of the standard smooth coarea and proper-submersion fiber-bundle theorems; no novelty claimed.",
+      "last_audited_commit": null
+    },
+    {
+      "id": "YM-RG-006",
+      "kind": "Lemma",
+      "statement": "For each coarse field in RG I's admitted minimizer domain, the Eq. (0.12) one-step constraint is a local real-analytic submersion at its source-free background, analytically conjugate to a surjective linear constraint; a sufficiently small precompact real fiber ball inside the fixed independent-bond cutoff has finite strictly positive coarea mass.",
+      "scope_and_quantifiers": "One finite RG I small-field chart at a time; d=4, odd L greater than 11, compact semisimple G contained in U(N), and only coarse fields satisfying all pp. 265–268 hypotheses; neighborhood and constants may depend on every regulator, scale, chart, field, coordinate convention, and cutoff parameter.",
+      "status": "proved-in-repo",
+      "evidence_level": "E2",
+      "dependencies": [
+        "YM-RG-005"
+      ],
+      "external_hypotheses": [
+        "RG I Eqs. (2.2)–(2.4), (2.9), the analytic constraint-straightening construction after Eq. (2.10), and Eq. (2.12), with every stated geometry and smallness hypothesis.",
+        "Normalized Haar and group-delta conventions on the finite product groups."
+      ],
+      "sources": [
+        "https://doi.org/10.1007/BF01215223",
+        "https://doi.org/10.1007/BF01211042"
+      ],
+      "proof_anchor": "research/notes/0006-local-balaban-fiber-chart.md",
+      "known_limitations": [
+        "Only a small local fiber ball is controlled, not the full Eq. (2.9) cutoff support or unrestricted raw transform.",
+        "No global surjectivity, global gauge slice, cutoff-uniform Jacobian bound, or volume/scale/coarse-field uniform mass bound is proved.",
+        "No source-marked polymer estimate, large-field extension, continuum construction, infrared statement, or mass gap follows."
+      ],
+      "falsification_tests": [
+        "Verify the selected-bond right-inverse identity L Q h=I.",
+        "Check that the analytic correction begins quadratically and the coordinate Jacobian is one at the background.",
+        "Search for determinant zeros or chart escape when the local ball is enlarged.",
+        "Reject any replacement of local positive mass by a regulator-uniform lower bound.",
+        "Reject any claim of covariance based only on an arbitrary almost-everywhere conditional version."
+      ],
+      "reviewers": [],
+      "open_objections": [
+        "No independent human review has been recorded.",
+        "The exact norm/radius dependencies and Haar-coordinate density have not been transcribed into uniform machine-checkable bounds.",
+        "Extension from the local fiber ball to the entire fixed-cutoff support is open."
+      ],
+      "novelty_claim": false,
+      "provenance": "AI-assisted local corollary of RG I's explicit analytic constraint straightening and the pointwise coarea lemma; no novelty claimed.",
+      "last_audited_commit": null
+    },
+    {
       "id": "YM-RG-004",
       "kind": "Open Question",
       "statement": "For the selected RG I Eq. (0.12) map with a fixed small-field cutoff, decompose the difference between the exact conditional plaquette-source first jet and its minimizing-background value into completely classified projected terms and gauge-invariant exponentially localized polymers with cutoff-, volume-, and source-location-independent bounds.",
@@ -189,7 +270,9 @@
       "evidence_level": "E0",
       "dependencies": [
         "YM-RG-002",
-        "YM-RG-003"
+        "YM-RG-003",
+        "YM-RG-005",
+        "YM-RG-006"
       ],
       "external_hypotheses": [
         "The exact Eq. (0.12) averaging map, raw group-delta transform, fixed small-field domain, local gauge chart, minimizing branch, and background-propagator estimates recorded in the imported-map audit.",
@@ -206,7 +289,7 @@
       "proof_anchor": "research/programs/003-first-source-jet-remainder.md",
       "known_limitations": [
         "This is an unproved small-field theorem specification.",
-        "The group-delta fiber measure and every imported norm still require exact transcription.",
+        "The full-cutoff pointwise fiber measure and every imported norm still require exact transcription; only a precompact local fiber ball is controlled.",
         "Even a proof would leave the second jet, large fields, RG iteration, continuum construction, and mass gap open."
       ],
       "falsification_tests": [

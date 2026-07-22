@@ -49,6 +49,14 @@ Pin the exact Bałaban block-map definitions and norms, then perform a theorem-l
   Eq. (190) decay specialization open pending index/norm transcription.
 - Opened `YM-RG-004` for the fluctuation difference between that background
   value and the exact conditional first jet.
+- Proved the general finite-dimensional coarea corollary `YM-RG-005`: a proper
+  smooth surjective submersion has an everywhere positive finite raw fiber
+  kernel, while sharp-cutoff positivity and coarse analyticity require extra
+  map-specific work.
+- Proved the local map-specific corollary `YM-RG-006`: RG I's analytic
+  constraint straightening makes the selected map a submersion at every
+  admitted background and gives a positive finite precompact fiber ball. The
+  full sharp cutoff and every uniform constant remain open.
 
 ### Corrections forced by the audit
 
@@ -58,8 +66,9 @@ Pin the exact Bałaban block-map definitions and norms, then perform a theorem-l
   background, not automatically as a plain Wilson action of the coarse field.
 - RG I announces but defers the proof of its `SU(2)` coupling-flow theorem; it
   is not evidence for the displayed one-loop coefficient.
-- A raw coupling-independent block transform, a zero-free source disk, and
-  explicit identity/action-density counterterms are now theorem obligations.
+- Extending the local positive fiber ball to the entire fixed-cutoff raw
+  transform, a zero-free source disk, and explicit identity/action-density
+  counterterms are now theorem obligations.
 - A scalar energy renormalization factor is no longer assumed for arbitrary
   profiles; every symmetry-allowed profile/operator mixing term must be
   classified.
@@ -69,6 +78,8 @@ Pin the exact Bałaban block-map definitions and norms, then perform a theorem-l
 - No scalar source propagation or first/second source-derivative bound.
 - No regulator-uniform control of the raw conditional cumulants; their exact
   identities alone do not imply locality or smallness.
+- No full-cutoff pointwise fiber measure with a regulator-uniform positive mass
+  bound; only a background-centered precompact ball is controlled.
 - No source-marked connected-cluster expansion for the first-jet fluctuation
   remainder.
 - No completed full-text audit of Large Field II or source-marked prior-art
@@ -78,7 +89,8 @@ Pin the exact Bałaban block-map definitions and norms, then perform a theorem-l
 
 ### Next decision
 
-Transcribe the selected norms into Program 003, give the group-delta coarse
-fiber a precise positive disintegration, and insert one marked plaquette into
-the RG I/II fluctuation/cluster construction. Refute or rewrite `YM-RG-004` if
-the marked remainder fails quasilocality, analyticity, or volume uniformity.
+Transcribe the selected norms into Program 003, extend or deliberately shrink
+the local fiber chart to a complete fixed-domain restricted kernel, and insert
+one marked plaquette into the RG I/II fluctuation/cluster construction. Refute
+or rewrite `YM-RG-004` if the marked remainder fails quasilocality,
+analyticity, or volume uniformity.

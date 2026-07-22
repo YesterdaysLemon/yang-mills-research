@@ -197,6 +197,9 @@ and no mass gap.
   are now audited, but Large Field II remains abstract-only.
 - [x] Derive the finite-regulator raw source-cumulant and constant-profile
   coupling identities; see Note 0003.
+- [x] Separate almost-everywhere disintegration from the raw pointwise density
+  and prove the selected constraint has a positive local fiber ball; see Notes
+  0005–0006. Full-cutoff and uniform control remain open.
 - [x] Derive the fixed source-free background jet and its analytic scope; keep
   the exact Eq. (190) decay specialization open; see Note 0004.
 - [ ] Classify every relevant/marginal source counterterm and the profile

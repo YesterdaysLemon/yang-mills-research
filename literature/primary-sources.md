@@ -18,6 +18,8 @@ This is a seed list, not a completed literature review.
 - Tadeusz Bałaban, [Renormalization group approach to lattice gauge field theories I](https://doi.org/10.1007/BF01215223) (1987).
 - Tadeusz Bałaban, [Renormalization group approach to lattice gauge field theories II](https://doi.org/10.1007/BF01239022) (1988).
 - Tadeusz Bałaban, [Convergent renormalization expansions for lattice gauge theories](https://doi.org/10.1007/BF01217741) (1988).
+- Ralph Howard, [The Kinematic Formula in Riemannian Homogeneous Spaces](https://doi.org/10.1090/memo/0509) (1993), Appendix A for the smooth coarea formula.
+- Herbert Federer, [Geometric Measure Theory](https://doi.org/10.1007/978-3-642-62010-2), Sections 3.2.20–3.2.22 for general coarea machinery.
 - Tadeusz Bałaban, [Large field renormalization I](https://doi.org/10.1007/BF01257412) (1989).
 - Tadeusz Bałaban, [Large field renormalization II](https://doi.org/10.1007/BF01238433) (1989).
 - Jacques Magnen, Vincent Rivasseau, and Roland Sénéor, [Construction of YM4 with an infrared cutoff](https://doi.org/10.1007/BF02097397) (1993).

@@ -110,6 +110,37 @@ not. Differentiating an operation whose indicator or normalization depends on
 constant-profile identity in Note 0003 therefore applies first to the raw
 transform, not automatically to every restricted effective-action formula.
 
+### Constraint straightening and the local fiber
+
+RG I pp. 265–268 contains more than a formal delta constraint:
+
+- Eqs. (2.2)–(2.4) put the admitted critical background
+  \(V^{(k)}(W)\) on the fiber over \(W\) and express the relative constraint as
+  \(M(V'V^{(k)})M(V^{(k)})^{-1}=e^{i\widetilde Q(B')}\).
+- On p. 267, after Eq. (2.10), the nonlinear map is written
+  \(\widetilde Q(B')=L\widetilde QB'+\widetilde C(B')\), with
+  \(\widetilde C=O((B')^2)\). One corridor bond \(b_0(c)\) is selected for each
+  coarse bond, and a right inverse \(h\), supported on those bonds, satisfies
+  \(L\widetilde Qh=I\).
+- The analytic change
+  \(B'=B-h\widetilde D(B)\), with \(\widetilde D=O(B^2)\), exactly straightens
+  the constraint to \(L\widetilde QB\).
+- On p. 268 the delta eliminates the variables on \(b_0(c)\) and writes
+  \(B'=CB\), where \(B\) contains the remaining independent-bond variables and
+  \(C\) is the embedding determined there by \(V^{(k)}\). Eq. (2.12) retains
+  the coordinate Jacobian
+  \(\exp\operatorname{Tr}\log(I-h\,(\delta\widetilde D/\delta B)(g_kCB))\).
+  It equals one at the background. Nonvanishing and constant positive real
+  orientation on a sufficiently small chart are continuity corollaries, not a
+  printed uniform RG-I estimate.
+
+Thus the selected constraint is a local analytic submersion at each background
+in the paper's admitted domain, and a sufficiently small precompact real fiber
+ball has positive finite coarea mass. This does not control the entire sharp
+cutoff support, furnish a uniform lower bound, or produce a global pointwise
+disintegration. The exact corollary and its failure boundary are in [Note
+0006](../../research/notes/0006-local-balaban-fiber-chart.md).
+
 ## Regular configurations and gauge chart
 
 T. Bałaban, [Spaces of regular gauge field configurations on a lattice and

@@ -23,3 +23,5 @@ All notable research-structure and claim-status changes are recorded here. Mathe
 - Froze RG I Eq. (0.12) as the first concrete averaging map and audited its imported regular-field, gauge-chart, propagator, and minimizer theorems.
 - Added `YM-RG-003`, the bounded fixed source-free-background jet and its analytic scope; left the exact Eq. (190) quasilocal specialization open.
 - Opened `YM-RG-004`, isolating the source-marked fluctuation remainder as the first genuinely unproved small-field interface.
+- Added `YM-RG-005`, the exact pointwise coarea-kernel corollary that separates a raw delta density from an almost-everywhere normalized conditional and exposes the remaining map-specific hypotheses.
+- Added `YM-RG-006`, proving that RG I's nonlinear constraint is a local analytic submersion at each admitted background and that a sufficiently small real fiber ball has positive finite coarea mass; full-cutoff uniformity remains open.
