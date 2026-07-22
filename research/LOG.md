@@ -80,7 +80,14 @@ Pin the exact Bałaban block-map definitions and norms, then perform a theorem-l
 - Proved YM-RG-011 at the RG-II Mayer seam: one real plaquette insertion into
   the exact RG-coordinate law splits into its fixed-background term and one
   bounded centered mark, whose first log-source jet and finite one-mark Mayer
-  identity are exact. The mark's rooted localization and decay remain open.
+  identity are exact. This note alone does not localize the mark.
+- Proved YM-RG-012 on RG-II's independent-variable domain: for each plaquette
+  interior to a fixed-partition cube, finite mixed differences give an exact
+  root-connected decomposition, and
+  Cauchy decay plus a bounded-degree animal count gives a conditional,
+  cube-count norm uniform over plaquettes interior to one fixed partition.
+  Shifted roots, the \(d_k\) upgrade, minimizing-background pullback, full
+  Euclidean covariance, and connected marked expectation remain open.
 
 ### Corrections forced by the audit
 
@@ -100,7 +107,9 @@ Pin the exact Bałaban block-map definitions and norms, then perform a theorem-l
 ### Not established
 
 - No quasilocal source propagation or source-marked first/second-derivative
-  bound beyond Note 0007's range-only selected-branch estimates.
+  expectation bound. Note 0012 controls only the pre-integration mark in
+  independent variables and a cube-count norm, not the coarse-background
+  pullback or connected expectation.
 - No regulator-uniform control of the raw conditional cumulants; their exact
   identities alone do not imply locality or smallness.
 - The selected full-cutoff chart branch now has a patch-local Borel kernel and
@@ -118,8 +127,9 @@ Pin the exact Bałaban block-map definitions and norms, then perform a theorem-l
 
 ### Next decision
 
-Prove a per-plaquette rooted analogue of RG II Lemma 2 on Eq. (1.34), with
-strict decay slack, then carry the unique mark through Eqs. (2.2)–(2.13) and
-prove the rooted connected sum converges. Track raw vacuum mass separately.
+Upgrade Note 0012's cube-count norm to the exact copied \(d_k\) geometry with
+strict entropy slack, prove the Eq. (190) minimizing-background pullback, then
+carry the unique mark through Eqs. (2.2)–(2.13) and prove the rooted connected
+sum converges. Track raw vacuum mass separately.
 Refute or rewrite YM-RG-004 if the marked remainder fails quasilocality,
 analyticity, or volume uniformity.

@@ -89,9 +89,13 @@ minimizing orbit. Define their deliberately labeled difference
 -\mathcal O_f(U_1(V)).
 \]
 
-Note 0011 settles its exact background split and one-mark Mayer algebra. The
-rooted localization and uniform decay of this expectation are the first parts
-not settled by algebra or the imported source-free theorem.
+Note 0011 settles its exact background split and one-mark Mayer algebra. Note
+0012 proves the exact rooted decomposition and a conditional cube-count norm,
+uniform over plaquettes interior to one fixed partition, in the independent
+RG-II variables. The shifted-root extension, \(d_k\)-norm upgrade,
+minimizing-background pullback, and connected marked expectation are the first
+parts not settled by those auxiliary lemmas or the imported source-free
+theorem.
 
 ## Target theorem
 
@@ -156,7 +160,11 @@ infrared conclusions.
   unrestricted raw laws;
 - the exact finite-regulator background-centered mark, first-jet split, range
   bound, and one-mark Mayer identity at the RG-II Section 2 seam (Note 0011),
-  without a rooted localization or decay estimate;
+  without by itself supplying localization;
+- the exact independent-variable rooted decomposition and conditional
+  fixed-partition-interior cube-count norm for one plaquette mark (Note 0012),
+  without shifted roots, a \(d_k\)-weighted upgrade, minimizing-background
+  pullback, or connected marked expectation;
 - background-propagator decay and change-of-domain estimates;
 - RG I/II source-free local analytic polymer expansions.
 
@@ -169,11 +177,15 @@ None of those inputs supplies the displayed source-inserted polymer theorem.
 2. [x] Keep every \(B\)-dependent factor, differentiate at \(z=0\), isolate
    \(\mathcal O_f(U_1(V))\), and derive the exact one-mark Mayer identity; see
    Note 0011.
-3. [ ] Prove a per-plaquette rooted decomposition of the background-centered
-   mark on RG II Eq. (1.34), with strict exponential-decay slack.
-4. [ ] Carry exactly one rooted mark through RG II Eqs. (2.2)–(2.13), using
+3. [x] Prove a rooted decomposition of the background-centered mark on RG II
+   Eq. (1.34) with a conditional cube-count norm uniform over plaquettes
+   interior to one fixed partition; see Note 0012.
+4. [ ] Upgrade that bound to the exact copied \(d_k\) norm with strict entropy
+   slack, make the root assignment fully equivariant, and prove the
+   Eq. (190) minimizing-background pullback is quasilocal.
+5. [ ] Carry exactly one rooted mark through RG II Eqs. (2.2)–(2.13), using
    Lemma 3 for the unmarked decorations, and prove the connected sum converges.
-5. [ ] Perform the full symmetry/Ward-identity projection on the marked first
+6. [ ] Perform the full symmetry/Ward-identity projection on the marked first
    jet and classify all position/orientation mixing.
 
 ## Falsification tests

@@ -141,4 +141,9 @@ projectively invariant coarse-field derivative. Combining the complete-cube
 support-containment bound with intrinsic coarea gives YM-RG-008, the pointwise
 positive measure on the entire selected Eq. (0.12) fixed-cutoff chart branch. Equality
 or comparison with the unrestricted raw fiber, cross-patch covariance,
-coarse-field holomorphy, and marked-polymer locality remain open.
+coarse-field holomorphy, and marked-polymer locality remained open at that
+audit stage. Notes 0009--0012 later supplied patch-local transported covariance,
+local analytic-test continuation, and a conditional independent-variable
+cube-count localization for one mark; global patch compatibility, the exact
+\(d_k\) norm, minimizing-background pullback, and connected marked expectation
+remain open.

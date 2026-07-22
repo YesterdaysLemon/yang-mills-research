@@ -161,7 +161,7 @@ The identity may be integrated against the unchanged cutoff and Gaussian
 measure in (3). It does not license termwise infinite-volume limits; all sums
 here are finite before a convergence theorem is invoked.
 
-## Localization interface left open
+## Localization interface and the next proved auxiliary lemma
 
 Indexing
 
@@ -172,7 +172,8 @@ Indexing
 
 does not make \(\Delta_p(W,B)\) local in the fluctuation coordinate. The
 reconstructed field contains the minimizing background and propagator
-dependence. The next genuinely new theorem must prove a rooted decomposition
+dependence. The independent-variable localization interface is a rooted
+decomposition
 
 \[
 \Delta_p(U,J,B)=
@@ -198,7 +199,14 @@ interior. Require the decomposition on the exact RG-II analytic domain, with:
 
   with strict decay slack relative to the unmarked RG-II norm.
 
-If (12) is proved, a marked activity \(W_{k,p}(A)\) and an unmarked Mayer
+Note 0012 subsequently proves (12) on the independent RG-II \((U,J,B)\)
+domain for plaquettes interior to one fixed localization partition, with a
+conditional interior-location-uniform cube-count norm. It does not prove the
+shifted-root extension, \(d_k\)-weighted target (13), locality after the
+minimizing-background pullback, full-partition Euclidean covariance, or the
+connected marked expansion.
+
+Given (12), a marked activity \(W_{k,p}(A)\) and an unmarked Mayer
 family \(D\) have the rooted seed
 
 \[
@@ -219,9 +227,10 @@ of those rooted estimates is proved by (10).
   audited RG I/II papers are source free and do not print this marked theorem.
 - The \(\ell^1\) profile bound in (6) is not Program 002's still-untranscribed
   discrete \(C^6\) source norm.
-- No localization of \(\Delta_p\), rooted activity bound, termwise cluster
-  differentiation, marginal projection, position/orientation mixing theorem,
-  or large-field estimate follows.
+- This note alone proves no localization of \(\Delta_p\). Note 0012 separately
+  supplies only an independent-variable cube-count bound; the \(d_k\) norm,
+  termwise cluster differentiation, marginal projection, position/orientation
+  mixing theorem, and large-field estimate remain open.
 - No RG iteration, continuum construction, Osterwalder–Schrader
   reconstruction, infrared decay estimate, or mass gap follows.
 

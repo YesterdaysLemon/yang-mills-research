@@ -33,10 +33,11 @@ The main route is a Wilson lattice regulator followed by gauge-covariant renorma
 - [Note 0009: parameterized fixed-cube branch kernel](research/notes/0009-parameterized-fixed-cube-kernel.md)
 - [Note 0010: exact normalized RG-I coordinate law](research/notes/0010-exact-rg-coordinate-law.md)
 - [Note 0011: one marked insertion at the Mayer seam](research/notes/0011-one-mark-mayer-seam.md)
+- [Note 0012: rooted cube-count localization of one plaquette mark](research/notes/0012-rooted-plaquette-localization.md)
 - [Bałaban theorem-level source map](literature/audits/2026-07-22-balaban-source-map.md)
 - [Bałaban imported-map audit](literature/audits/2026-07-22-balaban-imported-map.md)
 
-Programs 002 and 003 are open theorem specifications, not results. The notes prove elementary conditional spectral, finite-regulator differentiation, and patch-local selected-branch consequences. They separately name both the intrinsic positive Borel branch kernel and the exact normalized RG-I Gaussian/cutoff coordinate law; neither is identified with the unrestricted raw fiber. A first marked insertion now has an exact background split and finite Mayer identity, but its rooted localization and decay theorem is open. The later work is to close that marked expansion, iterate to the dynamically generated scale, construct the continuum theory, and obtain regulator-uniform estimates while preserving nontrivial Yang–Mills ultraviolet behavior. No such Yang–Mills estimate is claimed here.
+Programs 002 and 003 are open theorem specifications, not results. The notes prove elementary conditional spectral, finite-regulator differentiation, and patch-local selected-branch consequences. They separately name both the intrinsic positive Borel branch kernel and the exact normalized RG-I Gaussian/cutoff coordinate law; neither is identified with the unrestricted raw fiber. A first marked insertion now has an exact background split, finite Mayer identity, and a conditional cube-count localization theorem for plaquettes interior to one fixed RG-II partition in independent variables. The exact RG-II \(d_k\)-weighted norm, shifted-root/full Euclidean construction, quasilocal minimizing-background pullback, and connected marked expansion remain open. The later work is to close that marked expansion, iterate to the dynamically generated scale, construct the continuum theory, and obtain regulator-uniform estimates while preserving nontrivial Yang–Mills ultraviolet behavior. No such Yang–Mills estimate is claimed here.
 
 ## Evidence discipline
 

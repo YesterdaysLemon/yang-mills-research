@@ -458,7 +458,7 @@
       "proof_anchor": "research/notes/0011-one-mark-mayer-seam.md",
       "known_limitations": [
         "The identity concerns the exact YM-RG-010 selected-coordinate law, not the intrinsic coarea law or unrestricted raw-fiber conditional.",
-        "The plaquette index does not localize the background-centered mark in the fluctuation coordinate; the required rooted decomposition and decay norm remain unproved.",
+        "This lemma alone does not localize the background-centered mark; YM-RG-012 separately proves only an independent-variable cube-count decomposition under an explicit entropy margin.",
         "The result proves only the first source jet at finite regulator and does not justify a full source-dependent RG induction or termwise infinite-volume limit.",
         "No marginal projection, profile-mixing classification, large-field control, RG iteration, continuum construction, infrared statement, or mass gap follows."
       ],
@@ -473,10 +473,55 @@
       "open_objections": [
         "No independent human review has been recorded.",
         "The exact correspondence between the full YM-RG-010 exponent and every activity in RG II Lemma 2 still needs termwise transcription.",
-        "The marked analogue of RG II Lemma 2 and its rooted summability estimate remain open."
+        "YM-RG-012 supplies a first independent-variable cube-count localization, but the exact d_k norm, minimizing-background pullback, and connected marked expectation remain open."
       ],
       "novelty_claim": false,
       "provenance": "AI-assisted finite-dimensional source split and elementary one-mark Mayer algebra at the cited RG-II seam; no novelty claimed.",
+      "last_audited_commit": null
+    },
+    {
+      "id": "YM-RG-012",
+      "kind": "Lemma",
+      "statement": "For one plaquette rooted strictly inside a cube of a fixed localization partition at a finite RG-II regulator, the background-centered mark on the independent (U,J,B) domain has an exact root-connected mixed-difference decomposition; each activity is local in those independent variables, holomorphic, gauge invariant, zero at B=0, and decays geometrically in its number of added localization cubes, yielding an interior-location-uniform cube-count norm whenever the explicit polydisc-versus-animal-entropy margin q<1 holds.",
+      "scope_and_quantifiers": "One finite d=4 regulator and RG step; SU(2); the exact RG-II Eq. (1.34) independent-variable domain; one fixed localization partition and plaquette lying strictly inside its assigned root cube; all RG-II smallness conditions retained; rooted summability conditional on q=D_0^2 exp(lambda)/(exp(kappa_1)-1)<1.",
+      "status": "proved-in-repo",
+      "evidence_level": "E2",
+      "dependencies": [
+        "YM-RG-011"
+      ],
+      "external_hypotheses": [
+        "RG II's general E(X,U,J,A) pattern before Eq. (1.1), and Eqs. (1.9)-(1.10), for applying weakening variables and root-component cancellation to the direct marked H_k insertion.",
+        "RG II Eqs. (1.17)-(1.21) and (1.34) for the common weakening polydisc, reconstructed-field bound, smallness conditions, and local independent-variable analytic domain.",
+        "RG I pp. 265-266 for the exponential relative-field reconstruction through H_k, with the stated small-field gauge transformations and a uniform defining-representation norm bound on the Eq. (1.34) domain."
+      ],
+      "sources": [
+        "https://doi.org/10.1007/BF01215223",
+        "https://doi.org/10.1007/BF01239022"
+      ],
+      "proof_anchor": "research/notes/0012-rooted-plaquette-localization.md",
+      "known_limitations": [
+        "The result is conditional on the explicit q<1 parameter margin and controls localization-cube count, not Bałaban's d_k metric or the later Lemma-3 activity norm.",
+        "Locality is only in independent (U,J,B) variables; substitution of the nonlocal minimizing background requires a separate quasilocal pullback theorem.",
+        "No Euclidean covariance theorem is proved; the partition-preserving transport identity must be recorded, followed by shifted partitions or an equivariant root symmetrization for the full lattice group.",
+        "The result does not carry the mark through cutoff conditioning, Gaussian localization, or the connected cluster sum, and its l1 profile corollary covers only plaquettes strictly interior to cubes of the fixed partition.",
+        "It concerns the exact selected-coordinate branch, not the intrinsic coarea or unrestricted raw-fiber conditional, and implies no RG iteration, continuum construction, infrared statement, or mass gap."
+      ],
+      "falsification_tests": [
+        "Retain a nonzero linear plaquette variation and reject any borrowed quadratic or cubic smallness.",
+        "Check the finite mixed-difference identity including the empty root term and cancellation of disconnected components.",
+        "Verify the exponential link reconstruction and matrix telescoping constant against the common complex Eq. (1.34) domain.",
+        "Set q to one and confirm that the stated geometric-series proof no longer yields a finite rooted norm.",
+        "Place a plaquette across a fixed-partition cube boundary and reject use of the interior-root norm without a shifted partition.",
+        "Attempt the minimizing-background substitution and reject any resulting claim of strict locality in the coarse field."
+      ],
+      "reviewers": [],
+      "open_objections": [
+        "No independent human review has been recorded.",
+        "The exact localization-cube adjacency constant and compatibility of q<1 with the full printed RG parameter hierarchy have not been numerically instantiated.",
+        "The d_k-weighted upgrade, full Euclidean root convention, minimizing-background pullback, and connected marked expansion remain open."
+      ],
+      "novelty_claim": false,
+      "provenance": "AI-assisted marked mixed-difference and matrix-Lipschitz corollary of the cited RG-I/II finite-regulator construction; no novelty claimed.",
       "last_audited_commit": null
     },
     {
@@ -495,7 +540,8 @@
         "YM-RG-008",
         "YM-RG-009",
         "YM-RG-010",
-        "YM-RG-011"
+        "YM-RG-011",
+        "YM-RG-012"
       ],
       "external_hypotheses": [
         "The exact Eq. (0.12) averaging map, raw group-delta transform, fixed small-field domain, local gauge chart, minimizing branch, and background-propagator estimates recorded in the imported-map audit.",
@@ -512,7 +558,7 @@
       "proof_anchor": "research/programs/003-first-source-jet-remainder.md",
       "known_limitations": [
         "This is an unproved small-field theorem specification.",
-        "YM-RG-010 fixes the operational selected-coordinate law, but equality or comparison with the intrinsic coarea law and unrestricted raw transform, global chart compatibility, and every marked source norm remain open.",
+        "YM-RG-010 fixes the operational selected-coordinate law and YM-RG-012 supplies a conditional independent-variable cube-count norm, but intrinsic/raw comparison, global chart compatibility, the exact d_k norm, minimizing-background pullback, connected expansion, and projection remain open.",
         "Even a proof would leave the second jet, large fields, RG iteration, continuum construction, and mass gap open."
       ],
       "falsification_tests": [
@@ -525,7 +571,7 @@
       "reviewers": [],
       "open_objections": [
         "YM-RG-009 proves patch-local transported-chart covariance, but global overlap compatibility and comparison with the unrestricted raw transform remain open.",
-        "The componentwise Eq. (190) decay estimate has not been transcribed into the target source norm.",
+        "YM-RG-012 does not transcribe the componentwise Eq. (190) decay estimate or convert its cube-count norm into the target d_k norm.",
         "No rooted connected source-marked RG II cluster expansion has been derived.",
         "Uniform locality of the projected first-jet sector is unproved."
       ],
@@ -548,7 +594,8 @@
         "YM-RG-008",
         "YM-RG-009",
         "YM-RG-010",
-        "YM-RG-011"
+        "YM-RG-011",
+        "YM-RG-012"
       ],
       "external_hypotheses": [
         "The selected RG I Eq. (0.12) averaging map and raw group-delta transform, the separately named YM-RG-010 exact coordinate law, an explicit intrinsic-coordinate-unrestricted distinction, exact marked domain/norm transcription, and every needed source-free small- and large-field estimate verified in full text before use."

@@ -113,7 +113,7 @@
       "severity": "S1",
       "status": "open",
       "targets": ["YM-RG-007"],
-      "summary": "The projective-kernel and bounded-source-disk lemma has not received independent human review; YM-RG-008 supplies a selected chart-branch application, but the unrestricted transform and source-marked locality remain open.",
+      "summary": "The projective-kernel and bounded-source-disk lemma has not received independent human review; YM-RG-008 supplies a selected chart-branch application, but the unrestricted transform and coarse-field/connected source-marked locality remain open.",
       "resolution_requirements": [
         "Record a line-by-line human review tied to an immutable commit.",
         "Verify the SU(2) profile range and support-size constants in the finally selected one-block norm.",
@@ -166,13 +166,29 @@
       "severity": "S1",
       "status": "open",
       "targets": ["YM-RG-011"],
-      "summary": "The one-mark source split and Mayer identity have no independent human review and do not supply the rooted localization estimate needed for the marked cluster expansion.",
+      "summary": "The one-mark source split and Mayer identity have no independent human review; YM-RG-012 supplies a separate conditional cube-count localization, but not the d_k-weighted pullback or connected marked estimate.",
       "resolution_requirements": [
         "Record a line-by-line human review tied to an immutable commit.",
         "Transcribe the full YM-RG-010 exponent into the exact RG-II Lemma-2 activity family used by the Mayer identity.",
-        "Prove a per-plaquette rooted activity decomposition on RG II Eq. (1.34) with strict exponential-decay slack and a source-location-uniform norm.",
+        "Audit YM-RG-012's fixed-partition-interior plaquette decomposition, then extend it to shifted roots and upgrade its conditional cube-count norm to the exact RG-II d_k geometry with strict entropy slack and a fully equivariant root convention.",
         "Carry the unique mark through RG II Eqs. (2.2)-(2.13) and prove the rooted connected sum converges.",
         "Keep the finite algebraic identity separate from intrinsic/raw density matching, large fields, RG iteration, continuum limits, and the mass gap."
+      ]
+    },
+    {
+      "id": "OBJ-016",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-012"],
+      "summary": "The rooted plaquette cube-count lemma has no independent human review and has not been upgraded to the exact RG-II metric, minimizer pullback, or connected marked expectation.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Verify the RG-I exponential link reconstruction, RG-II weakening contour, Eq. (1.21) norm conversion, and complex plaquette Lipschitz constant against the primary equations.",
+        "Instantiate the localization-cube degree and animal constants and verify that q<1 is compatible with the complete printed RG parameter hierarchy.",
+        "Convert cube count to the exact d_k metric with strict entropy slack and construct a root assignment covariant under the full required lattice symmetry group.",
+        "Prove the Eq. (190) minimizing-background pullback is quasilocal on one common analytic patch.",
+        "Carry the marked seed through RG II Eqs. (2.2)-(2.13), including the sharp cutoff and numerator-denominator cancellation, and prove the connected marked sum converges.",
+        "Keep the result separate from intrinsic/raw density matching, large fields, RG iteration, continuum limits, and the mass gap."
       ]
     }
   ]

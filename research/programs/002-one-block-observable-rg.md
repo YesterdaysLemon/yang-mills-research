@@ -101,8 +101,12 @@ comparison.
 [Note 0011](../notes/0011-one-mark-mayer-seam.md) inserts one real plaquette
 source into that exact law, splits off the fixed background, and proves the
 finite-regulator one-mark Mayer identity immediately after RG II Lemma 2. It
-does not localize the marked insertion in the fluctuation coordinate or prove
-a rooted cluster norm.
+does not itself localize the marked insertion. [Note
+0012](../notes/0012-rooted-plaquette-localization.md) separately proves an
+exact independent-variable rooted decomposition and conditional cube-count
+norm for fixed-partition interior plaquettes. Shifted roots, the \(d_k\)-norm
+upgrade, full-partition Euclidean covariance, coarse-background pullback, and
+rooted connected cluster bound remain open.
 
 ## Target statement
 
@@ -249,8 +253,11 @@ and no mass gap.
   centered-score derivative, source disk, and real gauge covariance; see Note
   0010. Matching to the intrinsic or unrestricted raw law remains open.
 - [x] Derive the exact background-centered first mark and its finite Mayer
-  identity at the RG-II Section 2 seam; see Note 0011. The rooted localization
-  and connected-cluster bounds remain open.
+  identity at the RG-II Section 2 seam; see Note 0011.
+- [x] Prove the exact independent-variable decomposition for each
+  fixed-partition interior plaquette and a conditional cube-count norm uniform
+  over those plaquettes; see Note 0012. Shifted roots, the \(d_k\) upgrade,
+  minimizing-background pullback, and connected-cluster bounds remain open.
 - [x] Prove a common zero-free source disk from bounded observable range,
   conditional on the exact pointwise kernel and positive finite source-free
   weighted partition function; see Note 0007. This does not supply a complex

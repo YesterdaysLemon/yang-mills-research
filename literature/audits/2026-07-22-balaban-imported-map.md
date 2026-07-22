@@ -265,8 +265,21 @@ density ledger.
 [Note 0011](../../research/notes/0011-one-mark-mayer-seam.md) inserts one real
 plaquette source into that exact coordinate law. It proves the fixed-background
 split, bounded centered mark, and finite Mayer identity at the seam immediately
-after RG II Lemma 2. It explicitly leaves the per-plaquette rooted
-localization, strict decay norm, and connected marked expansion unproved.
+after RG II Lemma 2. It does not itself localize the mark.
+
+[Note 0012](../../research/notes/0012-rooted-plaquette-localization.md) uses RG
+II Eqs. (1.9)--(1.10), (1.17), (1.21), and (1.34), together with RG I's
+pp. 265--266 exponential relative-field reconstruction, to prove an exact
+root-connected mixed-difference decomposition for one centered plaquette mark.
+Cauchy decay on \(|s(\Delta)|\le e^{\kappa _1}\) and a bounded-degree animal
+count give a cube-count norm uniform over plaquettes interior to the fixed
+partition under an explicit polydisc-versus-entropy condition. The mark is
+only linear-small in \(B\): RG
+II Eqs. (1.37)--(1.40) concern a specially subtracted source-free Wilson
+remainder, so their cubic gain is not transferred. The result is local only in
+independent \((U,J,B)\) variables and leaves shifted roots, the \(d_k\)-norm
+upgrade, full-partition Euclidean covariance, minimizing-background pullback,
+and connected marked expansion open.
 
 ## Regular configurations and gauge chart
 

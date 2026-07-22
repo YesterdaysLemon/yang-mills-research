@@ -77,8 +77,19 @@ Cluster expansions*, **CMP 116** (1988), 1–22,
   Eq. (2.1): [Note
   0011](../../research/notes/0011-one-mark-mayer-seam.md) inserts one
   background-centered plaquette mark and proves the finite one-mark Mayer
-  identity there. RG II does not print the required per-plaquette rooted
-  localization or connected marked bound.
+  identity there.
+- RG II Eqs. (1.9)--(1.10) give the finite weakening-variable decomposition
+  and root-component cancellation; Eqs. (1.17)--(1.21) give the weakened
+  reconstruction and its common \(|s(\Delta)|\le e^{\kappa _1}\) analytic
+  bound; Eq. (1.34) is the local independent-variable domain. [Note
+  0012](../../research/notes/0012-rooted-plaquette-localization.md) applies
+  those inputs to the centered plaquette trace and proves a repository
+  mixed-difference corollary with a conditional cube-count norm for plaquettes
+  interior to one fixed partition.
+- RG II does not print that marked theorem. Note 0012 does not import the
+  source-free cubic cancellation in Eqs. (1.39)--(1.40), and it leaves the
+  exact \(d_k\)-weighted upgrade, minimizing-background pullback, and connected
+  marked bound open.
 
 ### Convergent expansions: conditional complete-density scheme
 
@@ -144,7 +155,7 @@ OS-positivity, continuum, or gap results.
 | External scalar source \(zf\), propagation under a block map, and \(\partial_z\), \(\partial_z^2\) bounds | No theorem located in the audited texts |
 | Source-jet norm, localized marginal projections, or volume-uniform first/second derivative bounds | No theorem located |
 | Inserted-observable decomposition compatible with the constant-profile derivative | No theorem located; the raw first-jet identity itself is algebraic once a coupling-independent raw transform is fixed |
-| One marked plaquette at the RG-II Mayer seam | Finite background split and Mayer algebra proved in Note 0011 for the separately named RG coordinate law; rooted localization and decay are new open obligations |
+| One marked plaquette at the RG-II Mayer seam | Finite background split and Mayer algebra proved in Note 0011; Note 0012 proves an independent-variable mixed-difference decomposition and conditional cube-count norm for fixed-partition interior plaquettes, while shifted roots, the exact \(d_k\) upgrade, pullback, and connected marked expectation remain open |
 | One-loop coefficient in the source-inserted normalization | Not proved by RG I; its coupling theorem is deferred |
 | Reflection positivity of gauge-fixed/RG effective actions | No theorem located |
 | Continuum Schwinger functions, OS reconstruction, infinite-volume clustering, mass gap | Outside the verified scope |
