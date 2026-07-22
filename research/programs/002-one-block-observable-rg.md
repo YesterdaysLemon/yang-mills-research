@@ -36,12 +36,17 @@ the small-field induction. Two profile classes have different jobs:
 - the finite-volume profile \(f\equiv1\) is used only for a first-derivative
   consistency test at \(z=0\), not for the local-profile norm.
 
-Fix one precise gauge-covariant Bałaban block operation with scale factor
-\(L\), including its small-field restrictions and, in the full target, its
-separate large-field operation. Write \(\mathcal T_L^{\rm raw}\) for the raw
-unnormalized linear transform whose kernel is fixed independently of \(x\) and
-\(z\). Any coupling-dependent normalization of an effective density is a
-separate displayed factor. Define
+Freeze the Euclidean-symmetric average in RG I Eq. (0.12), with the group
+average and contour variables of Eqs. (0.5)–(0.11), and the raw group-delta
+transform in Eq. (10) of the earlier averaging paper. The exact
+selection and imported hypotheses are recorded in the [imported-map
+audit](../../literature/audits/2026-07-22-balaban-imported-map.md). The block
+factor retains RG I's odd-\(L>11\) assumption.
+
+Write \(\mathcal T_L^{\rm raw}\) for this raw unnormalized linear transform,
+whose kernel is fixed independently of \(x\) and \(z\). Any
+coupling-dependent normalization, small-field threshold, or large-field
+operation is a separate displayed factor. Define
 
 \[
 \mathcal R_{x,z,f}(V)
@@ -57,14 +62,26 @@ torus size, source location, \(f\) in the normalized class, and \(V\) in the
 stated field domain. Use the analytic branch fixed by
 \(\log\mathcal R_{x,0,f}=0\).
 
+[Note 0003](../notes/0003-raw-block-source-jets.md) proves the pointwise
+finite-regulator cumulant identities for any positive coupling-independent raw
+kernel. It supplies no uniform radius, locality, mixing, or large-field bound;
+those remain the content of this program.
+
 ## Target statement
 
-For the selected fine minimizing background \(U_1(V)\), define
+For admitted regular \(V\), the variational theorem gives a unique minimizing
+**gauge orbit** \([U_1(V)]\), not initially a global single-valued map. Define
 
 \[
 \mathcal E^{\mathrm{bg}}_f(V)
 =4\sum_p f_p\,s\!\left(U_1(V)_p\right).
 \]
+
+This is representative independent because the plaquette trace is gauge
+invariant. Any analyticity or quasilocality assertion in \(V\) must use the
+specific local gauge-fixed branch and domain in Proposition 9 of the
+variational paper. [Note 0004](../notes/0004-fixed-background-source-jet.md)
+records exactly what that source-free background theorem supplies.
 
 Derive a localized projection \(\Pi_{\rm rel}\) onto **all**
 source-dependent relevant and marginal directions permitted by the residual
@@ -141,7 +158,9 @@ The required properties are:
    A later normalized density \(\widehat{\mathcal T}_x
    =N_x\mathcal T_L^{\rm raw}\) has separate normalization derivatives that
    must be included in its own coupling bookkeeping; they do not alter the
-   raw identity;
+   raw identity. Note 0003 proves this algebraic statement under the displayed
+   raw-kernel hypotheses; matching those hypotheses to the selected Bałaban
+   operation remains open;
 5. the one-loop change of inverse coupling matches the universal
    asymptotically free coefficient in the chosen normalization.
 
@@ -170,14 +189,16 @@ and no mass gap.
 
 ## Work packets
 
-- [ ] Pin one Bałaban block map and translate its field domains and norms
-  without alteration; the initial RG I extraction is recorded, but its
-  imported definitions remain to be mapped.
-- [ ] Complete the theorem-by-theorem prior-art matrix: the initial RG I/II
-  and convergent-expansion audit is recorded, but Large Field II and imported
-  block-map papers remain open.
-- [ ] Derive the constant-profile raw coupling identity before estimating
-  local remainders.
+- [x] Freeze RG I Eq. (0.12) and the raw group-delta transform;
+  record the imported map, chart, propagator, and minimizer anchors.
+- [ ] Transcribe every selected field domain, norm, and constant dependency
+  into the one-step proof without alteration.
+- [ ] Complete the theorem-by-theorem prior-art matrix: the imported map papers
+  are now audited, but Large Field II remains abstract-only.
+- [x] Derive the finite-regulator raw source-cumulant and constant-profile
+  coupling identities; see Note 0003.
+- [x] Derive the fixed source-free background jet and its analytic scope; keep
+  the exact Eq. (190) decay specialization open; see Note 0004.
 - [ ] Classify every relevant/marginal source counterterm and the profile
   mixing map.
 - [ ] Differentiate the small-field stationary/background construction
@@ -216,11 +237,15 @@ Reject the target as stated if any of the following occurs:
 - [Bałaban, convergent renormalization expansions](https://doi.org/10.1007/BF01217741)
 - [Bałaban, large-field renormalization I](https://doi.org/10.1007/BF01257412)
 - [Bałaban, large-field renormalization II](https://doi.org/10.1007/BF01238433)
+- [Bałaban, averaging operations](https://doi.org/10.1007/BF01211042)
+- [Bałaban, regular configurations and gauge fixing](https://doi.org/10.1007/BF01466594)
+- [Bałaban, background propagators](https://doi.org/10.1007/BF01240355)
+- [Bałaban, variational problem/background fields](https://doi.org/10.1007/BF01229381)
 
-The initial primary-source extraction is recorded in the [Bałaban source-map
-audit](../../literature/audits/2026-07-22-balaban-source-map.md). It found the
-source-free ultraviolet scaffold but no theorem for this scalar source
-extension. The immediate next action is to pin one imported block map and its
-domains, then derive or refute the first source jet without assuming that
-source-free bounds differentiate automatically. Until the full comparison is
-complete, novelty remains false in `CLAIMS.json`.
+The [first source map](../../literature/audits/2026-07-22-balaban-source-map.md)
+found the source-free ultraviolet scaffold but no scalar-source theorem. The
+[imported-map audit](../../literature/audits/2026-07-22-balaban-imported-map.md)
+now fixes the exact raw interface. The next hard target is the fluctuation
+remainder between the exact conditional first jet and its minimizing-background
+term, stated separately in Program 003. Until the full comparison is complete,
+novelty remains false in `CLAIMS.json`.

@@ -46,11 +46,44 @@
       "severity": "S2",
       "status": "open",
       "targets": ["YM-RG-001"],
-      "summary": "The exact block map, zero-free source domain, marginal source jets, and large-field source extension are unproved.",
+      "summary": "The selected block map still lacks a pointwise positive fiber construction, a uniform zero-free source domain, controlled marginal source jets, and a large-field source extension.",
       "resolution_requirements": [
-        "Pin one raw coupling-independent transform and its imported estimates.",
+        "Construct the selected raw transform's pointwise positive fiber measure and transcribe its imported domains and norms.",
         "Derive the first two source jets with explicit identity/action projections and volume-uniform bounds.",
         "Extend or refute the construction on the separately defined large-field domain."
+      ]
+    },
+    {
+      "id": "OBJ-006",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-002"],
+      "summary": "The raw-block source-jet lemma has not received independent human review, and its coupling-independent kernel hypothesis is not yet matched to the selected Bałaban implementation.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Audit whether the selected raw block kernel, small-field indicator, and normalization depend on inverse coupling."
+      ]
+    },
+    {
+      "id": "OBJ-007",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-003"],
+      "summary": "The fixed-background source-jet corollary has not received independent human review, and its inherited norm factors have not been fully transcribed.",
+      "resolution_requirements": [
+        "Audit the representative-independence and holomorphic-extension arguments against Proposition 9, then transcribe Eq. (190) before promoting any chain-rule decay bound.",
+        "Copy the exact scale factors and norm dependencies from Eq. (190)."
+      ]
+    },
+    {
+      "id": "OBJ-008",
+      "severity": "S2",
+      "status": "open",
+      "targets": ["YM-RG-004"],
+      "summary": "No marked cluster expansion controls the fluctuation difference between the exact conditional first jet and its minimizing-background term.",
+      "resolution_requirements": [
+        "Construct the fixed-cutoff positive fiber measure and carry a marked plaquette insertion through the RG I/II fluctuation and connected-cluster steps.",
+        "Classify every projected mixing term and prove volume-, cutoff-, and location-uniform quasilocal bounds."
       ]
     }
   ]

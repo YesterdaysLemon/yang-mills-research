@@ -142,8 +142,10 @@ next search target; it is not enough for a novelty claim.
   `St/(2)`; normalized notation above follows the printed titles/context.
 - RG I imports the averaging, regular-configuration/gauge-fixing,
   background-propagator, and constrained-minimizer machinery from earlier
-  papers. Their exact imported propositions remain separate dependencies and
-  should be audited before claiming the block map is fully pinned.
+  papers. The follow-up [imported-map
+  audit](2026-07-22-balaban-imported-map.md) now checks those propositions and
+  selects Eq. (0.12); pointwise positive fiber construction and exact norm
+  transcription remain separate dependencies.
 - Bibliographic metadata for the five papers and DOIs above is confirmed. The
   unresolved bibliographic item is the separate paper promised for RG I
   Theorem 2; this audit has not identified and verified it.

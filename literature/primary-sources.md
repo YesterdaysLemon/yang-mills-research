@@ -11,6 +11,10 @@ This is a seed list, not a completed literature review.
 - H. David Politzer, [Reliable perturbative results for strong interactions?](https://doi.org/10.1103/PhysRevLett.30.1346) (1973).
 - Konrad Osterwalder and Erhard Seiler, [Gauge field theories on a lattice](https://doi.org/10.1016/0003-4916(78)90039-8) (1978).
 - Martin Lüscher, [Construction of a self-adjoint, strictly positive transfer matrix for Euclidean lattice gauge theories](https://doi.org/10.1007/BF01614090) (1977).
+- Tadeusz Bałaban, [Averaging operations for lattice gauge theories](https://doi.org/10.1007/BF01211042) (1985).
+- Tadeusz Bałaban, [Spaces of regular gauge field configurations on a lattice and gauge fixing conditions](https://doi.org/10.1007/BF01466594) (1985).
+- Tadeusz Bałaban, [Propagators for lattice gauge theories in a background field](https://doi.org/10.1007/BF01240355) (1985).
+- Tadeusz Bałaban, [The variational problem and background fields in renormalization group method for lattice gauge theories](https://doi.org/10.1007/BF01229381) (1985).
 - Tadeusz Bałaban, [Renormalization group approach to lattice gauge field theories I](https://doi.org/10.1007/BF01215223) (1987).
 - Tadeusz Bałaban, [Renormalization group approach to lattice gauge field theories II](https://doi.org/10.1007/BF01239022) (1988).
 - Tadeusz Bałaban, [Convergent renormalization expansions for lattice gauge theories](https://doi.org/10.1007/BF01217741) (1988).

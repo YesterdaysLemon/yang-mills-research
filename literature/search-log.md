@@ -64,3 +64,40 @@ The exact page/equation map and scope cautions are in
 bounded negative search result, not a novelty proof. The imported averaging,
 gauge-fixing, propagator, minimizer, and Large Field II dependencies remain to
 be audited.
+
+## 2026-07-22 — imported Bałaban block-map package
+
+Full text checked:
+
+1. [Averaging operations](https://doi.org/10.1007/BF01211042), especially
+   Eqs. (10)–(15), Eq. (42), and Proposition 3;
+2. [Regular configurations and gauge
+   fixing](https://doi.org/10.1007/BF01466594), especially Eqs.
+   (1.3)–(1.14), Theorems 2 and 8, and Proposition 6;
+3. [Background propagators](https://doi.org/10.1007/BF01240355), especially
+   Eqs. (3.35)–(3.48), Theorems 3.1–3.4, 3.12, 3.14, and 3.15;
+4. [Variational problem/background
+   fields](https://doi.org/10.1007/BF01229381), especially Theorem 1,
+   Section G, Eq. (181), and Proposition 9;
+5. RG I Eqs. (0.4)–(0.16) and Eq. (2.9), to connect those imports to its
+   small-field step.
+
+Decision: freeze RG I Eq. (0.12) for the first source experiment because it
+uses the same Euclidean-symmetric contour mean as the paper's gauge fixing.
+Use the pre-gauge-fixing delta pushforward as the raw transform, construct its
+pointwise positive fiber measure separately, and keep normalizations and
+cutoffs separate. For the first restricted theorem, use the fixed
+\(\varepsilon_1\) cutoff rather than the explicitly offered coupling-dependent
+alternative.
+
+The unique object proved by the variational theorem is initially a minimizing
+gauge orbit. Proposition 9 supplies an analytic, gauge-covariant,
+exponentially quasilocal branch only after a local gauge is fixed. The
+background-propagator decay is a finite-scale Gaussian/locality result, not an
+interacting correlation decay or mass gap. The exact map and theorem anchors
+are recorded in `literature/audits/2026-07-22-balaban-imported-map.md`.
+
+Resulting gap: no audited paper controls the difference between the exact
+conditional plaquette first jet and its minimizing-background value by a
+source-marked, volume-uniform polymer expansion. This bounded gap is now
+`YM-RG-004`; it is not a novelty claim.

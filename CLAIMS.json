@@ -108,15 +108,139 @@
       "last_audited_commit": null
     },
     {
+      "id": "YM-RG-002",
+      "kind": "Lemma",
+      "statement": "For a finite compact lattice and a nonzero positive raw block kernel independent of coupling and source, the first logarithmic source derivative is the negative conditional expectation, the same-profile second derivative is the conditional variance, and a mixed two-profile derivative is the conditional covariance; the constant plaquette profile obeys the exact raw coupling-derivative identity, and gauge covariance passes to these jets.",
+      "scope_and_quantifiers": "Finite lattice regulators, continuous real-valued conjugation-invariant plaquette action, real-valued source profiles, and pointwise admissible coarse fields only; the zero-free source neighborhood and cumulant bounds may depend on volume, cutoff, profile, source location, and coarse field.",
+      "status": "proved-in-repo",
+      "evidence_level": "E2",
+      "dependencies": [],
+      "external_hypotheses": [
+        "A finite product of compact gauge groups.",
+        "A nonzero finite positive raw block kernel independent of inverse coupling and source.",
+        "Gauge covariance of the kernel for the optional coarse-gauge-invariance conclusion."
+      ],
+      "sources": [],
+      "proof_anchor": "research/notes/0003-raw-block-source-jets.md",
+      "known_limitations": [
+        "No regulator-uniform zero-free disk, locality estimate, source-mixing classification, or polymer bound follows.",
+        "A coupling-dependent small-field cutoff or normalization contributes extra derivative terms.",
+        "Positivity is required for the variance sign and probabilistic interpretation.",
+        "The lemma proves no continuum, infrared, reconstruction, or mass-gap result."
+      ],
+      "falsification_tests": [
+        "Differentiate a kernel or normalization that depends on inverse coupling and recover the omitted extra term.",
+        "Use a signed kernel and check that the second cumulant need not be nonnegative.",
+        "Check that finite-volume analyticity does not imply a uniform zero-free radius.",
+        "Remove kernel gauge covariance and verify that coarse gauge invariance no longer follows."
+      ],
+      "reviewers": [],
+      "open_objections": [
+        "No independent human review has been recorded.",
+        "The finally selected Bałaban small-/large-field implementation may introduce coupling-dependent restrictions not covered by the raw-kernel hypothesis."
+      ],
+      "novelty_claim": false,
+      "provenance": "AI-assisted finite-dimensional differentiation lemma; the complete proof and failure cases are exposed for audit.",
+      "last_audited_commit": null
+    },
+    {
+      "id": "YM-RG-003",
+      "kind": "Lemma",
+      "statement": "On Bałaban's gauge-fixed analytic patch for the unique regular minimizing orbit, a finitely supported plaquette-energy insertion evaluated on the fixed source-free background is representative independent, coarse-gauge invariant, and analytic in the complexified coarse coordinate; its background source factor has the exact first jet minus that insertion.",
+      "scope_and_quantifiers": "SU(2); one finite lattice and one admitted regular analytic background patch satisfying the variational paper's hypotheses; fixed source-free background only, with no full block-integral or source-deformed minimizer conclusion.",
+      "status": "proved-in-repo",
+      "evidence_level": "E2",
+      "dependencies": [],
+      "external_hypotheses": [
+        "Theorem 1 and Proposition 9 of Bałaban's variational/background-field paper, including all regularity, geometry, smallness, gauge-chart, and norm hypotheses.",
+        "A finitely supported plaquette profile and the holomorphic plaquette-action extension on the complexified patch."
+      ],
+      "sources": [
+        "https://doi.org/10.1007/BF01229381"
+      ],
+      "proof_anchor": "research/notes/0004-fixed-background-source-jet.md",
+      "known_limitations": [
+        "The exact conditional block expectation generally differs from the minimizing-background insertion.",
+        "No source-dependent minimizing branch or scalar-source theorem for the full block integral is constructed.",
+        "No quantitative quasilocal bound is promoted until Eq. (190)'s component indices, cells, scale factors, metric, and norms are transcribed.",
+        "The lemma proves no large-field, continuum, infrared, or mass-gap result."
+      ],
+      "falsification_tests": [
+        "Check representative independence using plaquette-holonomy conjugation.",
+        "Check that the complex extension omits the nonholomorphic real-part operation.",
+        "Reject any quantitative quasilocal claim that omits Proposition 9 Eq. (190)'s exact indices and scale factors.",
+        "Do not replace the conditional expectation by its background value without controlling fluctuations."
+      ],
+      "reviewers": [],
+      "open_objections": [
+        "No independent human review has been recorded.",
+        "The exact scale factors in the inherited derivative norm remain to be transcribed into Program 003."
+      ],
+      "novelty_claim": false,
+      "provenance": "AI-assisted corollary of Bałaban's source-free minimizer-orbit, analyticity, and covariance theorem; no novelty claimed.",
+      "last_audited_commit": null
+    },
+    {
+      "id": "YM-RG-004",
+      "kind": "Open Question",
+      "statement": "For the selected RG I Eq. (0.12) map with a fixed small-field cutoff, decompose the difference between the exact conditional plaquette-source first jet and its minimizing-background value into completely classified projected terms and gauge-invariant exponentially localized polymers with cutoff-, volume-, and source-location-independent bounds.",
+      "scope_and_quantifiers": "One SU(2) block step; one first source derivative; normalized profiles supported in one coarse block; fixed small-field branch only; no second derivative, large fields, iteration, continuum, or infrared conclusion.",
+      "status": "open",
+      "evidence_level": "E0",
+      "dependencies": [
+        "YM-RG-002",
+        "YM-RG-003"
+      ],
+      "external_hypotheses": [
+        "The exact Eq. (0.12) averaging map, raw group-delta transform, fixed small-field domain, local gauge chart, minimizing branch, and background-propagator estimates recorded in the imported-map audit.",
+        "The RG I/II source-free fluctuation and connected-cluster construction on the selected domain."
+      ],
+      "sources": [
+        "https://doi.org/10.1007/BF01211042",
+        "https://doi.org/10.1007/BF01466594",
+        "https://doi.org/10.1007/BF01240355",
+        "https://doi.org/10.1007/BF01229381",
+        "https://doi.org/10.1007/BF01215223",
+        "https://doi.org/10.1007/BF01239022"
+      ],
+      "proof_anchor": "research/programs/003-first-source-jet-remainder.md",
+      "known_limitations": [
+        "This is an unproved small-field theorem specification.",
+        "The group-delta fiber measure and every imported norm still require exact transcription.",
+        "Even a proof would leave the second jet, large fields, RG iteration, continuum construction, and mass gap open."
+      ],
+      "falsification_tests": [
+        "Reject any volume- or cutoff-dependent source-locality constant.",
+        "Reject omission of symmetry-allowed position/orientation mixing.",
+        "Reject differentiation of a source-free estimate without a common analytic source domain.",
+        "Reject use of a global gauge slice or global logarithm.",
+        "Reject conflation of the restricted small-field expectation with the unrestricted raw transform."
+      ],
+      "reviewers": [],
+      "open_objections": [
+        "A pointwise positive fiber measure and exact fixed-cutoff pullback have not been constructed.",
+        "The componentwise Eq. (190) decay estimate has not been transcribed into the target source norm.",
+        "No source-marked RG II cluster expansion has been derived.",
+        "Uniform locality of the projected first-jet sector is unproved."
+      ],
+      "novelty_claim": false,
+      "provenance": "Narrow open interface isolated by combining exact source-cumulant identities with the audited source-free background theorems.",
+      "last_audited_commit": null
+    },
+    {
       "id": "YM-RG-001",
       "kind": "Open Question",
       "statement": "For one gauge-covariant RG block step in four-dimensional SU(2) Wilson lattice gauge theory, derive a source-inserted local plaquette-energy decomposition with classified operator/profile mixing, gauge-invariant localized polymer remainders, volume-independent bounds through two source derivatives, explicit large-field control, and the raw coupling-derivative consistency identity.",
       "scope_and_quantifiers": "One block factor; SU(2); a normalized compactly supported plaquette-energy profile class for local estimates plus a separate finite-volume constant profile used only at first derivative; no RG iteration, continuum limit, or infrared conclusion.",
       "status": "open",
       "evidence_level": "E0",
-      "dependencies": [],
+      "dependencies": [
+        "YM-RG-002",
+        "YM-RG-003",
+        "YM-RG-004"
+      ],
       "external_hypotheses": [
-        "A still-to-be-pinned Bałaban gauge-covariant raw block transformation, its fine minimizing background, and every needed source-free small- and large-field estimate, each verified in full text before use."
+        "The selected RG I Eq. (0.12) averaging map and raw group-delta transform, together with a pointwise positive fiber disintegration, exact domain/norm transcription, and every needed source-free small- and large-field estimate verified in full text before use."
       ],
       "sources": [
         "https://doi.org/10.1007/BF01215223",
@@ -138,7 +262,7 @@
       ],
       "reviewers": [],
       "open_objections": [
-        "Exact block map, norms, and admissible field domains are not yet pinned.",
+        "The map is selected, but its pointwise positive fiber disintegration and the exact norm/admissible-domain transcription remain open.",
         "The theorem may duplicate or fail to follow from existing source-free estimates.",
         "The source-dependent extension of the separate large-field operation has not been derived."
       ],

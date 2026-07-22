@@ -16,16 +16,20 @@ The exact scope and the ways an apparent result can miss it are frozen in [PROBL
 
 ## Current work
 
-The main route is a Wilson lattice regulator followed by gauge-covariant renormalization, construction of local gauge-invariant observables, Osterwalder–Schrader reconstruction, and a still-missing nonperturbative infrared bridge. The first bounded target is one source-inserted RG step; two supporting spectral notes isolate the final gap certificate and the exact regulator-uniform statement it would require:
+The main route is a Wilson lattice regulator followed by gauge-covariant renormalization, construction of local gauge-invariant observables, Osterwalder–Schrader reconstruction, and a still-missing nonperturbative infrared bridge. The first bounded target is one source-inserted RG step; supporting notes isolate both its elementary raw source identities and the final gap certificate:
 
 - [Chosen route and dependency map](ROADMAP.md)
 - [Program 002: one-block observable RG theorem](research/programs/002-one-block-observable-rg.md)
+- [Program 003: first source-jet remainder](research/programs/003-first-source-jet-remainder.md)
 - [Program 001: continuum gap transfer](research/programs/001-continuum-gap-transfer.md)
 - [Note 0001: dense-state semigroup criterion](research/notes/0001-dense-state-gap-criterion.md)
 - [Note 0002: OS gap-transfer criterion](research/notes/0002-os-gap-transfer.md)
+- [Note 0003: raw-block source jets](research/notes/0003-raw-block-source-jets.md)
+- [Note 0004: fixed-background source jet](research/notes/0004-fixed-background-source-jet.md)
 - [Bałaban theorem-level source map](literature/audits/2026-07-22-balaban-source-map.md)
+- [Bałaban imported-map audit](literature/audits/2026-07-22-balaban-imported-map.md)
 
-Program 002 is an open theorem specification, not a result. The notes prove elementary conditional spectral-theoretic statements. The unsolved work is to control RG iteration to the dynamically generated scale, construct the continuum theory, and obtain the required regulator-uniform estimates while preserving nontrivial Yang–Mills ultraviolet behavior. No such Yang–Mills estimate is claimed here.
+Programs 002 and 003 are open theorem specifications, not results. The notes prove elementary conditional spectral, finite-regulator differentiation, and fixed-background consequences. The unsolved work is to control the source-marked fluctuation expansion, RG iteration to the dynamically generated scale, the continuum theory, and the required regulator-uniform estimates while preserving nontrivial Yang–Mills ultraviolet behavior. No such Yang–Mills estimate is claimed here.
 
 ## Evidence discipline
 

@@ -36,6 +36,19 @@ Pin the exact Bałaban block-map definitions and norms, then perform a theorem-l
   theorem/equation level; recorded Large Field II only at abstract level.
 - Verified source-free local analytic polymers and a conditional
   small-/large-field ultraviolet scaffold at the cited anchors.
+- Proved the finite-regulator auxiliary claim `YM-RG-002`: for a positive
+  coupling-independent raw block kernel, logarithmic source jets are
+  conditional cumulants and the constant-profile coupling identity is exact.
+- Selected RG I Eq. (0.12), its group mean/contour variables, and the positive
+  raw delta pushforward as the first exact block-map interface.
+- Audited the imported regular-field/gauge-chart, background-propagator, and
+  variational-minimizer papers with theorem/equation anchors.
+- Proved `YM-RG-003`: evaluating a finitely supported plaquette insertion on
+  the fixed source-free minimizing orbit is representative independent,
+  coarse-gauge invariant, and analytic on the proved patch. Kept the exact
+  Eq. (190) decay specialization open pending index/norm transcription.
+- Opened `YM-RG-004` for the fluctuation difference between that background
+  value and the exact conditional first jet.
 
 ### Corrections forced by the audit
 
@@ -54,13 +67,18 @@ Pin the exact Bałaban block-map definitions and norms, then perform a theorem-l
 ### Not established
 
 - No scalar source propagation or first/second source-derivative bound.
-- No completed audit of Large Field II or the imported block-map papers.
+- No regulator-uniform control of the raw conditional cumulants; their exact
+  identities alone do not imply locality or smallness.
+- No source-marked connected-cluster expansion for the first-jet fluctuation
+  remainder.
+- No completed full-text audit of Large Field II or source-marked prior-art
+  coverage beyond the imported block-map package.
 - No continuum Schwinger functions, corrected OS reconstruction, uniform
   physical decay estimate, infrared bridge, or Yang–Mills mass gap.
 
 ### Next decision
 
-Pin one exact averaging map and every imported domain/norm. Then compute the
-first source jet of the raw one-block transform, including its complete
-localized projection, before attempting volume-uniform derivative estimates. Refute or rewrite
-`YM-RG-001` if that jet fails locality, analyticity, or volume uniformity.
+Transcribe the selected norms into Program 003, give the group-delta coarse
+fiber a precise positive disintegration, and insert one marked plaquette into
+the RG I/II fluctuation/cluster construction. Refute or rewrite `YM-RG-004` if
+the marked remainder fails quasilocality, analyticity, or volume uniformity.
