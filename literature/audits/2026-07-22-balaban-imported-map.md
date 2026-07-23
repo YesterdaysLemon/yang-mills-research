@@ -279,7 +279,14 @@ II Eqs. (1.37)--(1.40) concern a specially subtracted source-free Wilson
 remainder, so their cubic gain is not transferred. The result is local only in
 independent \((U,J,B)\) variables and leaves shifted roots, the \(d_k\)-norm
 upgrade, full-partition Euclidean covariance, minimizing-background pullback,
-and connected marked expansion open.
+and connected marked expansion open. [Note
+0013](../../research/notes/0013-rooted-dk-norm.md) subsequently uses RG I's
+p. 257 shortest-tree definition \(d_k(Y)\le m(Y)\), RG II Eq. (1.32), and the
+source-safe hierarchy consequence and explicit repository margin
+\(\delta\kappa>\log64\) to close the standard fixed-partition
+\(d_k\)-weighted norm. The numerical threshold is not attributed to the paper;
+the exact leading prefactor dropped by the available Eq. (1.32) text layers,
+shifted roots, the pullback, and the connected expansion remain open.
 
 ## Regular configurations and gauge chart
 

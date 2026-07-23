@@ -166,11 +166,11 @@
       "severity": "S1",
       "status": "open",
       "targets": ["YM-RG-011"],
-      "summary": "The one-mark source split and Mayer identity have no independent human review; YM-RG-012 supplies a separate conditional cube-count localization, but not the d_k-weighted pullback or connected marked estimate.",
+      "summary": "The one-mark source split and Mayer identity have no independent human review; YM-RG-012 and YM-RG-013 supply a fixed-partition-interior localization and d_k norm, but not shifted roots, the pullback, or the connected marked estimate.",
       "resolution_requirements": [
         "Record a line-by-line human review tied to an immutable commit.",
         "Transcribe the full YM-RG-010 exponent into the exact RG-II Lemma-2 activity family used by the Mayer identity.",
-        "Audit YM-RG-012's fixed-partition-interior plaquette decomposition, then extend it to shifted roots and upgrade its conditional cube-count norm to the exact RG-II d_k geometry with strict entropy slack and a fully equivariant root convention.",
+        "Audit YM-RG-012 and YM-RG-013, then extend their fixed-partition-interior d_k norm to shifted roots with a fully equivariant convention and compatible later decay expenditures.",
         "Carry the unique mark through RG II Eqs. (2.2)-(2.13) and prove the rooted connected sum converges.",
         "Keep the finite algebraic identity separate from intrinsic/raw density matching, large fields, RG iteration, continuum limits, and the mass gap."
       ]
@@ -180,14 +180,29 @@
       "severity": "S1",
       "status": "open",
       "targets": ["YM-RG-012"],
-      "summary": "The rooted plaquette cube-count lemma has no independent human review and has not been upgraded to the exact RG-II metric, minimizer pullback, or connected marked expectation.",
+      "summary": "The rooted plaquette cube-count lemma has no independent human review; YM-RG-013 upgrades the standard M-cube branch to d_k, but shifted roots, the minimizer pullback, and the connected marked expectation remain open.",
       "resolution_requirements": [
         "Record a line-by-line human review tied to an immutable commit.",
         "Verify the RG-I exponential link reconstruction, RG-II weakening contour, Eq. (1.21) norm conversion, and complex plaquette Lipschitz constant against the primary equations.",
-        "Instantiate the localization-cube degree and animal constants and verify that q<1 is compatible with the complete printed RG parameter hierarchy.",
-        "Convert cube count to the exact d_k metric with strict entropy slack and construct a root assignment covariant under the full required lattice symmetry group.",
+        "Audit YM-RG-013's standard-branch degree, d_k geometry, and explicit entropy margin against the complete printed RG parameter hierarchy.",
+        "Extend the d_k norm to shifted roots and construct a root assignment covariant under the full required lattice symmetry group.",
         "Prove the Eq. (190) minimizing-background pullback is quasilocal on one common analytic patch.",
         "Carry the marked seed through RG II Eqs. (2.2)-(2.13), including the sharp cutoff and numerator-denominator cancellation, and prove the connected marked sum converges.",
+        "Keep the result separate from intrinsic/raw density matching, large fields, RG iteration, continuum limits, and the mass gap."
+      ]
+    },
+    {
+      "id": "OBJ-017",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-013"],
+      "summary": "The rooted d_k norm has no independent human review and its explicit entropy threshold has not been propagated through shifted roots, the minimizing-background pullback, or the later cluster decay expenditures.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Verify RG I's shortest-tree definition, the center-tree comparison d_k(Y)<=m(Y), and the four-dimensional degree bound D_0<=8.",
+        "Visually transcribe the dropped leading prefactor, signs, and parameter range in RG II Eq. (1.32), and reconcile delta kappa>log 64 with every subsequent RG-II entropy expenditure.",
+        "Generalize the geometry with an explicit c_geo for every shifted or nonstandard weakening partition actually used.",
+        "Prove partition transport, the Eq. (190) minimizing-background pullback, and the connected one-mark Section-2 bound in compatible weighted norms.",
         "Keep the result separate from intrinsic/raw density matching, large fields, RG iteration, continuum limits, and the mass gap."
       ]
     }

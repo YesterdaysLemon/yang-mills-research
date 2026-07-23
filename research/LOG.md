@@ -86,8 +86,17 @@ Pin the exact Bałaban block-map definitions and norms, then perform a theorem-l
   root-connected decomposition, and
   Cauchy decay plus a bounded-degree animal count gives a conditional,
   cube-count norm uniform over plaquettes interior to one fixed partition.
-  Shifted roots, the \(d_k\) upgrade, minimizing-background pullback, full
-  Euclidean covariance, and connected marked expectation remain open.
+  At that stage shifted roots, the \(d_k\) upgrade, minimizing-background
+  pullback, full Euclidean covariance, and the connected marked expectation
+  remained open.
+- Proved YM-RG-013 on the standard wall-adjacent \(M\)-cube branch: RG I's
+  shortest-tree definition gives \(d_k(Y)\le m(Y)\), and the source-safe
+  hierarchy consequence plus the explicit entropy condition
+  \(\delta\kappa>\log64\) upgrade Note 0012 to a rooted
+  \((1-2\delta)\kappa d_k\)-weighted norm. This threshold is repository
+  bookkeeping, not a printed Bałaban constant. The exact leading prefactor
+  dropped by the available RG II Eq. (1.32) text layers remains visually
+  unaudited.
 
 ### Corrections forced by the audit
 
@@ -107,9 +116,10 @@ Pin the exact Bałaban block-map definitions and norms, then perform a theorem-l
 ### Not established
 
 - No quasilocal source propagation or source-marked first/second-derivative
-  expectation bound. Note 0012 controls only the pre-integration mark in
-  independent variables and a cube-count norm, not the coarse-background
-  pullback or connected expectation.
+  expectation bound. Notes 0012--0013 control only the fixed-partition-interior
+  pre-integration mark in independent variables, including its standard-branch
+  \(d_k\) norm, not shifted roots, the coarse-background pullback, or the
+  connected expectation.
 - No regulator-uniform control of the raw conditional cumulants; their exact
   identities alone do not imply locality or smallness.
 - The selected full-cutoff chart branch now has a patch-local Borel kernel and
@@ -127,8 +137,8 @@ Pin the exact Bałaban block-map definitions and norms, then perform a theorem-l
 
 ### Next decision
 
-Upgrade Note 0012's cube-count norm to the exact copied \(d_k\) geometry with
-strict entropy slack, prove the Eq. (190) minimizing-background pullback, then
+Construct shifted roots and record their Euclidean transport, prove the
+Eq. (190) minimizing-background pullback preserves a summable marked norm, then
 carry the unique mark through Eqs. (2.2)–(2.13) and prove the rooted connected
 sum converges. Track raw vacuum mass separately.
 Refute or rewrite YM-RG-004 if the marked remainder fails quasilocality,

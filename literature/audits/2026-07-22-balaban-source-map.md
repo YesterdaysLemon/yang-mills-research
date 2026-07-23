@@ -88,8 +88,14 @@ Cluster expansions*, **CMP 116** (1988), 1–22,
   interior to one fixed partition.
 - RG II does not print that marked theorem. Note 0012 does not import the
   source-free cubic cancellation in Eqs. (1.39)--(1.40), and it leaves the
-  exact \(d_k\)-weighted upgrade, minimizing-background pullback, and connected
-  marked bound open.
+  minimizing-background pullback and connected marked bound open. [Note
+  0013](../../research/notes/0013-rooted-dk-norm.md) combines RG I's p. 257
+  shortest-tree definition with RG II Eq. (1.32) to close the \(d_k\)-weighted
+  norm on the standard fixed-partition \(M\)-cube branch, conditional on the
+  source-safe consequence \(\kappa _1-1\ge(1-\delta)\kappa\) and explicit
+  repository entropy margin \(\delta\kappa>\log64\). The available text layers
+  drop the exact printed leading prefactor; its visual transcription and shifted
+  roots remain open.
 
 ### Convergent expansions: conditional complete-density scheme
 
@@ -155,7 +161,7 @@ OS-positivity, continuum, or gap results.
 | External scalar source \(zf\), propagation under a block map, and \(\partial_z\), \(\partial_z^2\) bounds | No theorem located in the audited texts |
 | Source-jet norm, localized marginal projections, or volume-uniform first/second derivative bounds | No theorem located |
 | Inserted-observable decomposition compatible with the constant-profile derivative | No theorem located; the raw first-jet identity itself is algebraic once a coupling-independent raw transform is fixed |
-| One marked plaquette at the RG-II Mayer seam | Finite background split and Mayer algebra proved in Note 0011; Note 0012 proves an independent-variable mixed-difference decomposition and conditional cube-count norm for fixed-partition interior plaquettes, while shifted roots, the exact \(d_k\) upgrade, pullback, and connected marked expectation remain open |
+| One marked plaquette at the RG-II Mayer seam | Finite background split and Mayer algebra proved in Note 0011; Note 0012 proves the fixed-partition-interior mixed-difference/cube-count result; Note 0013 upgrades the standard \(M\)-cube branch to a conditional rooted \(d_k\) norm; shifted roots, pullback, and the connected marked expectation remain open |
 | One-loop coefficient in the source-inserted normalization | Not proved by RG I; its coupling theorem is deferred |
 | Reflection positivity of gauge-fixed/RG effective actions | No theorem located |
 | Continuum Schwinger functions, OS reconstruction, infinite-volume clustering, mass gap | Outside the verified scope |

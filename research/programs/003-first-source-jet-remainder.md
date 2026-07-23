@@ -92,10 +92,11 @@ minimizing orbit. Define their deliberately labeled difference
 Note 0011 settles its exact background split and one-mark Mayer algebra. Note
 0012 proves the exact rooted decomposition and a conditional cube-count norm,
 uniform over plaquettes interior to one fixed partition, in the independent
-RG-II variables. The shifted-root extension, \(d_k\)-norm upgrade,
+RG-II variables. Note 0013 upgrades it to the exact
+\((1-2\delta)\kappa d_k\)-weighted norm on the standard \(M\)-cube branch under
+an explicit entropy margin. The shifted-root extension,
 minimizing-background pullback, and connected marked expectation are the first
-parts not settled by those auxiliary lemmas or the imported source-free
-theorem.
+parts not settled by those auxiliary lemmas or the imported source-free theorem.
 
 ## Target theorem
 
@@ -163,8 +164,13 @@ infrared conclusions.
   without by itself supplying localization;
 - the exact independent-variable rooted decomposition and conditional
   fixed-partition-interior cube-count norm for one plaquette mark (Note 0012),
-  without shifted roots, a \(d_k\)-weighted upgrade, minimizing-background
-  pullback, or connected marked expectation;
+  without shifted roots, minimizing-background pullback, or a connected
+  marked expectation;
+- the rooted \((1-2\delta)\kappa d_k\)-weighted norm on the standard
+  wall-adjacent \(M\)-cube branch (Note 0013), under the source-safe hierarchy
+  consequence and explicit added entropy margin
+  \(\delta\kappa>\log64\), without a claim that this numerical threshold or the
+  exact text-layer-dropped prefactor is printed as transcribed in RG II;
 - background-propagator decay and change-of-domain estimates;
 - RG I/II source-free local analytic polymer expansions.
 
@@ -180,12 +186,15 @@ None of those inputs supplies the displayed source-inserted polymer theorem.
 3. [x] Prove a rooted decomposition of the background-centered mark on RG II
    Eq. (1.34) with a conditional cube-count norm uniform over plaquettes
    interior to one fixed partition; see Note 0012.
-4. [ ] Upgrade that bound to the exact copied \(d_k\) norm with strict entropy
-   slack, make the root assignment fully equivariant, and prove the
-   Eq. (190) minimizing-background pullback is quasilocal.
-5. [ ] Carry exactly one rooted mark through RG II Eqs. (2.2)–(2.13), using
+4. [x] Upgrade the standard \(M\)-cube branch to the conditional rooted
+   \(d_k\)-weighted norm on the standard branch
+   with strict entropy slack; see Note 0013.
+5. [ ] Extend to shifted roots, record Euclidean transport, and prove the
+   Eq. (190) minimizing-background pullback is quasilocal in a summable marked
+   norm.
+6. [ ] Carry exactly one rooted mark through RG II Eqs. (2.2)–(2.13), using
    Lemma 3 for the unmarked decorations, and prove the connected sum converges.
-6. [ ] Perform the full symmetry/Ward-identity projection on the marked first
+7. [ ] Perform the full symmetry/Ward-identity projection on the marked first
    jet and classify all position/orientation mixing.
 
 ## Falsification tests

@@ -310,8 +310,9 @@ paper's componentwise Eq. (190) bounds is required.
 - The proof is a repository marked corollary of RG II's source-free
   decoupling construction; RG II does not print this scalar-source theorem.
 - Equation (18) is a localization-cube-count norm under (17), not the printed
-  \(d_k\)-weighted norm. Relating \(m(Y)\) to \(d_k(Y)\), spending polymer
-  entropy with strict slack, and matching the later Lemma 3 norm remain open.
+  \(d_k\)-weighted norm. Note 0013 subsequently supplies that upgrade for the
+  standard wall-adjacent \(M\)-cube branch under an explicit entropy margin;
+  other weakening geometries and the later Lemma 3 norm remain open.
 - Gauge invariance is termwise. No Euclidean covariance theorem is proved
   here. Even the partition-preserving transport identity must be recorded
   explicitly, and shifted partitions or symmetrization are needed for the

@@ -104,8 +104,10 @@ finite-regulator one-mark Mayer identity immediately after RG II Lemma 2. It
 does not itself localize the marked insertion. [Note
 0012](../notes/0012-rooted-plaquette-localization.md) separately proves an
 exact independent-variable rooted decomposition and conditional cube-count
-norm for fixed-partition interior plaquettes. Shifted roots, the \(d_k\)-norm
-upgrade, full-partition Euclidean covariance, coarse-background pullback, and
+norm for fixed-partition interior plaquettes. [Note
+0013](../notes/0013-rooted-dk-norm.md) upgrades that norm on the standard
+\(M\)-cube branch under an explicit entropy margin. Shifted roots,
+full-partition Euclidean covariance, the coarse-background pullback, and the
 rooted connected cluster bound remain open.
 
 ## Target statement
@@ -256,8 +258,13 @@ and no mass gap.
   identity at the RG-II Section 2 seam; see Note 0011.
 - [x] Prove the exact independent-variable decomposition for each
   fixed-partition interior plaquette and a conditional cube-count norm uniform
-  over those plaquettes; see Note 0012. Shifted roots, the \(d_k\) upgrade,
-  minimizing-background pullback, and connected-cluster bounds remain open.
+  over those plaquettes; see Note 0012. The \(d_k\) upgrade is checked in the next
+  item; shifted roots, the minimizing-background pullback, and connected bounds
+  remain open.
+- [x] Upgrade the standard wall-adjacent \(M\)-cube branch to a rooted
+  \((1-2\delta)\kappa d_k\)-weighted norm under the explicit entropy margin;
+  see Note 0013. Shifted roots, the pullback, and the connected bound remain
+  open.
 - [x] Prove a common zero-free source disk from bounded observable range,
   conditional on the exact pointwise kernel and positive finite source-free
   weighted partition function; see Note 0007. This does not supply a complex

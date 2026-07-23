@@ -144,6 +144,23 @@ or comparison with the unrestricted raw fiber, cross-patch covariance,
 coarse-field holomorphy, and marked-polymer locality remained open at that
 audit stage. Notes 0009--0012 later supplied patch-local transported covariance,
 local analytic-test continuation, and a conditional independent-variable
-cube-count localization for one mark; global patch compatibility, the exact
-\(d_k\) norm, minimizing-background pullback, and connected marked expectation
-remain open.
+cube-count localization for one mark. Note 0013 subsequently supplied the
+standard fixed-partition \(d_k\)-weighted upgrade under an explicit entropy
+margin. Global patch compatibility, shifted roots, the minimizing-background
+pullback, and the connected marked expectation remain open.
+
+## 2026-07-22 — RG-II Eq. (1.32) prefactor audit
+
+The [RG-II article](https://doi.org/10.1007/BF01239022), Project Euclid record
+`cmp/1104161193`, and [archived issue
+scan](https://archive.org/details/sim_communications-in-mathematical-physics_1988-04_116_1)
+were cross-checked for the hierarchy following Eq. (1.32). The accessible text
+layers drop a leading glyph immediately before \((\kappa _1-1)\), while a
+reproducible rendering of that page was not available in this audit. The exact
+printed prefactor is therefore not transcribed as a repository fact.
+
+Note 0013 uses only the weaker consequence
+\(\kappa _1-1\ge(1-\delta)\kappa\), which is common to the candidate readings
+identified by the audit. Its strict \(\delta\kappa>\log64\) margin is derived
+repository bookkeeping, not a quotation of the paper. An archived visual
+transcription remains an open source-audit item.
