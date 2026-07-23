@@ -656,7 +656,7 @@
         "No independent human review has been recorded.",
         "YM-RG-016 transcribes the exact auxiliary J map and proves only a fixed-chart qualitative derivative decay; its sharp regulator-uniform chart and scale factors remain open.",
         "The Eq. (190) coordinate, multiscale-metric versus d_k, norm, uniform Cauchy-tube, convolution, and entropy crosswalk needed for a summable physical coarse-field derivative norm remains open.",
-        "YM-RG-021 subsequently supplies exact one-fixed-partition algebraic compatibility; the direct marked domination, rooted norm, convergence, and shifted synchronization remain open."
+        "YM-RG-021 subsequently supplies exact one-fixed-partition algebraic compatibility and YM-RG-025 supplies fixed-term marked domination; marked-seed resummation, the rooted final norm, convergence, and shifted synchronization remain open."
       ],
       "novelty_claim": false,
       "provenance": "AI-assisted finite-regulator analytic-composition corollary of YM-RG-014, Proposition 9, and RG I's source-defined physical auxiliary-J map on an explicitly assumed common background domain; no novelty claimed.",
@@ -908,7 +908,7 @@
       "reviewers": [],
       "open_objections": [
         "No independent human review has been recorded.",
-        "Audit YM-RG-021's exact fixed-partition post-conditioning map and prove its conditional marked domination and gluing hypotheses for the actual activities.",
+        "Independently audit YM-RG-025's exact fixed-term conditioned-contour domination, then prove the marked-seed resummation, positive A-to-output kernel, and gluing hypotheses for the actual activities.",
         "Use YM-RG-024's final-ordinary-gas identification and ordinary KP window, then prove the actual decorated marked activity norm, any marked multiplicity bound, a positive retained exponent, and differentiated absolute convergence.",
         "Prove H_sync uniformly over every admitted shift or construct one common gas without invented cross-shift interactions.",
         "Independently audit YM-RG-024's primary-page mapping and displayed-hierarchy parameter refinement, including the unenumerated imported-restriction caveat."
@@ -920,7 +920,7 @@
     {
       "id": "YM-RG-021",
       "kind": "Lemma",
-      "statement": "At one finite regulator and on one fixed RG-II partition, suppose the background-centered plaquette mark has the rooted decomposition Delta_p=sum_{A superset Q_p} W_{k,p}(A) and the global cutoff, Gaussian law, quadratic operator, background, and coordinate chart are source-parameter independent. Rerunning RG II Eqs. (2.1)-(2.10) with the marked seed A union union_{Y in D}Y defines the exact decorated linear image W_p^post(C)=-partial_t H_{p,t}(C)|_0. In a disconnected output exactly the unique root-containing component carries W_p^post and every other component carries ordinary H, yielding the exact finite hard-core one-mark numerator. Under separately named direct marked-domination, common-domain, marked-gluing, uniform-smallness, and output-animal hypotheses, the conditional pointwise exponent is (1-8delta)(L/2)kappa and the rooted l1 exponent after one explicit entropy spend is (1-9delta)(L/2)kappa.",
+      "statement": "At one finite regulator and on one fixed RG-II partition, suppose the background-centered plaquette mark has the rooted decomposition Delta_p=sum_{A superset Q_p} W_{k,p}(A) and the global cutoff, Gaussian law, quadratic operator, background, and coordinate chart are source-parameter independent. Rerunning RG II Eqs. (2.1)-(2.10) with the marked seed A union union_{Y in D}Y defines the exact decorated linear image W_p^post(C)=-partial_t H_{p,t}(C)|_0. In a disconnected output exactly the unique root-containing component carries W_p^post and every other component carries ordinary H, yielding the exact finite hard-core one-mark numerator. YM-RG-025 closes the fixed-term marked conditioned-contour domination with zero moment cost. Under separately named marked-seed resummation, gluing, uniform-smallness, and output-animal hypotheses, a remaining geometric pre-gluing cost of at most two delta-units gives the conditional pointwise exponent (1-8delta)(L/2)kappa and the rooted l1 exponent after one explicit entropy spend (1-9delta)(L/2)kappa.",
       "scope_and_quantifiers": "One finite regulator; one fixed RG-II localization partition; one plaquette strictly interior to its root cell; one first derivative of the source factor exp(-t Delta_p); independent (U,J,B) variables; finite Section-2 sums and integrals. The exact identities require source-independent global kernels and rerun every seed-derived split and restricted operator with A included. The displayed bounds are only conditional implications and do not assert that the actual Yang-Mills marked pipeline satisfies their added hypotheses.",
       "status": "proved-in-repo",
       "evidence_level": "E2",
@@ -928,12 +928,13 @@
         "YM-RG-011",
         "YM-RG-012",
         "YM-RG-013",
-        "YM-RG-020"
+        "YM-RG-020",
+        "YM-RG-025"
       ],
       "external_hypotheses": [
         "RG II Eqs. (2.1)-(2.10) for the finite unordered Mayer subset expansion, cutoff inclusion-exclusion, seed-dependent Z_0 resummation, Gaussian conditioning and standardization, covariance-square-root weakening, localization into H(Z,Z_0), and exact component factorization.",
         "For the exact derivative, the Note-0011 source seam: the global cutoff, Gaussian law, quadratic operator, fixed background and chart, partition, and unmarked potentials are independent of the scalar source parameter; every marked derived domain and restricted operator is nevertheless reconstructed from its A-dependent seed.",
-        "For the conditional pointwise estimate, after at most one delta-unit of input tree-exponent overhead, the joint conditioned-contour marked/unmarked majorant and positive-kernel decay isolated by YM-RG-022, on one common conditioned and weakened complex domain.",
+        "For the conditional pointwise estimate, YM-RG-025's fixed-term source-faithful domination, followed by a positive marked-seed A-to-output kernel bound and marked gluing with total remaining geometric pre-gluing cost at most two delta-units.",
         "For the conditional rooted norm, marked tree-gluing and scale-conversion inequalities, regulator- and root-uniform ordinary smallness constants, and a finite output-animal constant C_an(eta)."
       ],
       "sources": [
@@ -941,15 +942,15 @@
       ],
       "proof_anchor": "research/notes/0021-one-mark-section2-factorization.md",
       "known_limitations": [
-        "The exact result is algebraic. YM-RG-022 removes an artificial derivative-allocation multiplicity, YM-RG-023 supplies an output-animal bound, and YM-RG-024 identifies the final ordinary source gas and an ordinary KP window. The actual joint conditioned-contour majorant, positive-kernel decay, common transformed domain, marked gluing inequalities, and uniform marked constants needed for the displayed conditional norm have not been proved.",
+        "The exact component result is algebraic. YM-RG-022 removes an artificial derivative-allocation multiplicity, YM-RG-025 proves the exact fixed-term marked conditioned-contour domination, YM-RG-023 supplies an output-animal bound, and YM-RG-024 identifies the final ordinary source gas and an ordinary KP window. The positive marked-seed kernel decay, marked gluing inequalities, and uniform summed marked constants needed for the displayed conditional norm have not been proved.",
         "The derived cutoff split, P-sum, Z_0, conditioned restriction, Z_0 prime, weakening family, and admissible outputs depend combinatorially on A and must be rerun; W_p^post is not a bare W_{k,p}(A) multiplying a precomputed unmarked H.",
-        "RG II Eq. (2.8) weakens the whole transformed integrand, so weakening derivatives may hit the mark through its transformed B arguments. YM-RG-022 controls all placements by one contour under a joint majorant; proving that majorant and domain for the actual transformed argument remains open.",
+        "The earlier claim that RG II Eq. (2.8) gives the mark a transformed B-plus-X argument was corrected by YM-RG-025. The mark remains W(A,B), independent of the second-stage weakening variables, but its A-dependent seed still changes every derived cutoff split, conditioning domain, weakening family, and output.",
         "YM-RG-023 proves a conditional standard-cube pinned Kotecky-Preiss and wall-contact hull/d_k crosswalk, and YM-RG-024 identifies the final ordinary source gas and a displayed-hierarchy ordinary window. No decorated marked norm, common external-source disk, differentiated convergence, or branchwise shifted synchronization is proved.",
         "The result is local only in independent (U,J,B) coordinates and does not prove the physical U/J pullbacks, marginal projection, large fields, iteration, continuum construction, axioms, infrared decay, or mass gap."
       ],
       "falsification_tests": [
         "Omit A from the seed or omit the D-empty term and lose the rooted or bare marked contribution.",
-        "Treat the marked factor as an untouched multiplier through Eq. (2.8) and omit weakening derivatives that hit its transformed arguments.",
+        "Shift the marked factor by the standardized exterior X, or give it a second-stage weakening argument, contrary to the source-faithful routing in YM-RG-025.",
         "Use a source-dependent cutoff, covariance, saddle, background, or chart and omit its derivative terms.",
         "Put the mark in every disconnected component instead of the unique root-containing component.",
         "Differentiate the source-free Lemma-3 inequality rather than the finite marked integrand; H_t=H_0+tN is the elementary counterexample.",
@@ -959,10 +960,10 @@
       "reviewers": [],
       "open_objections": [
         "No independent human review has been recorded.",
-        "Use YM-RG-022's whole-integrand contour and prove the actual common transformed domain, joint marked/unmarked Gaussian envelope, positive-kernel decay, and every marked tree-gluing inequality instead of retaining them as hypotheses.",
+        "Starting from YM-RG-025's fixed-term domination, prove the positive marked-seed A-to-output kernel decay and every marked tree-gluing and scale-conversion inequality instead of retaining them as hypotheses.",
         "Starting from YM-RG-024's final ordinary support/metric/activity mapping, verify the decorated marked species, marked norm, and exponent inequalities; then prove differentiated absolute convergence and a common external-source disk.",
         "Repeat the complete construction uniformly on each admitted shifted partition before the normalized branchwise average.",
-        "Obtain a clean immutable page-image transcription of the OCR-damaged operator formulas used in Eqs. (2.3), (2.5), (2.6), and (2.8)."
+        "Independently review YM-RG-025's immutable-page transcription and the conclusion that every fluctuation coordinate used by the mark lies under the marked seed cutoff."
       ],
       "novelty_claim": false,
       "provenance": "AI-assisted one-distinguished-slot corollary of Balaban's unmarked finite Section-2 algebra and component factorization; no marked theorem is attributed to the source and no novelty is claimed.",
@@ -971,17 +972,18 @@
     {
       "id": "YM-RG-022",
       "kind": "Lemma",
-      "statement": "For one finite marked RG-II Section-2 term with active weakening set S, if the entire standardized marked integrand is L1-holomorphic and jointly integrably dominated on a common polydisc of radii R_e>1, its exact mixed weakening difference is bounded by the joint majorant times product_e (R_e-1)^(-1). This single whole-integrand contour includes every derivative placement and has no additional Leibniz, decoration-allocation, or factorial multiplicity. If it shares the source radius exp(kappa_1), it has the ordinary weakening price. The result reduces the direct marked estimate to one positive seed-dependent kernel and identifies a conditioned-contour relative Gaussian-moment bound as the missing actual input. The conditional exponent ledger is a parallel fork: a total pre-gluing marked cost of at most two delta-units does not worsen the (1-8delta)(L/2)kappa endpoint, while a smaller analytic radius or larger cost must be paid explicitly.",
-      "scope_and_quantifiers": "One finite regulator; one fixed compatible partition; one fixed A,D,P,Z_0,Z auxiliary term at a time, followed by a conditional absolute auxiliary sum; one finite active weakening-variable set; first source jet only. The exact mixed-difference and contour identities are unconditional under their stated holomorphy assumptions. Every Yang-Mills activity estimate, positive-kernel bound, and exponent endpoint remains conditional on the named joint conditioned-contour, gluing, and ordinary resummation hypotheses.",
+      "statement": "For one finite marked RG-II Section-2 term with active weakening set S, if the entire standardized marked integrand is L1-holomorphic and jointly integrably dominated on a common polydisc of radii R_e>1, its exact mixed weakening difference is bounded by the joint majorant times product_e (R_e-1)^(-1). This single whole-integrand contour includes every derivative placement and has no additional Leibniz, decoration-allocation, or factorial multiplicity. If it shares the source radius exp(kappa_1), it has the ordinary weakening price. The conditional exponent ledger is a parallel fork: a total pre-gluing marked cost of at most two delta-units does not worsen the (1-8delta)(L/2)kappa endpoint. YM-RG-025 subsequently proves that the actual source-faithful plaquette mark is second-stage-weakening independent and satisfies the fixed-term majorant with C_bullet=1 and zero relative-moment cost.",
+      "scope_and_quantifiers": "One finite regulator; one fixed compatible partition; one fixed A,D,P,Z_0,Z auxiliary term at a time, followed by a conditional absolute auxiliary sum; one finite active weakening-variable set; first source jet only. The exact mixed-difference and contour identities are unconditional under their stated holomorphy assumptions. YM-RG-025 separately closes the actual plaquette fixed-term specialization. Every positive marked-seed kernel bound, gluing estimate, and final exponent remains conditional on the named resummation hypotheses.",
       "status": "proved-in-repo",
       "evidence_level": "E2",
       "dependencies": [
         "YM-RG-013",
-        "YM-RG-021"
+        "YM-RG-021",
+        "YM-RG-025"
       ],
       "external_hypotheses": [
         "RG II Eqs. (1.9)-(1.10) and the following Cauchy construction for the whole weakening function, plus Eq. (2.8)'s reuse of that decomposition on the complete standardized integrand.",
-        "For the conditional application, L1-holomorphy and one joint marked/unmarked integrable majorant on a common complex weakening polydisc; separate input-domain or separate L1 estimates are not substituted for this premise.",
+        "For a general weakening-dependent marked application, L1-holomorphy and one joint marked/unmarked integrable majorant on a common complex weakening polydisc; separate input-domain or separate L1 estimates are not substituted for this premise. YM-RG-025 proves a simpler cutoff specialization for the actual plaquette mark.",
         "For the displayed conditional endpoint, the marked gluing and all source-free resummation and scale-conversion hypotheses isolated in YM-RG-021."
       ],
       "sources": [
@@ -989,7 +991,7 @@
       ],
       "proof_anchor": "research/notes/0022-whole-integrand-marked-cauchy.md",
       "known_limitations": [
-        "The actual transformed plaquette mark has not been proved holomorphic and jointly Gaussian-dominated on the full complex second-stage weakening contour. The standardized Gaussian variable is unbounded, so literal inheritance from the original Eq. (1.34) field domain is not assumed. Any weakening-dependent nonholomorphic cutoff must remain outside the contour or receive its own valid derivative estimate.",
+        "The unbounded-X transformed-plaquette obstruction in an earlier version was based on an incorrect variable map and is superseded by YM-RG-025. A different genuinely weakening-dependent mark would still require the general joint-majorant hypotheses here.",
         "The positive seed-dependent kernel is defined and conditionally bounds the marked activity, but its A-to-C decay, marked gluing, resummation, and regulator-uniform constants are not proved.",
         "A smaller marked analytic radius produces an explicit factor exponential in the number of weakening variables. No tree-metric conversion for that loss is silently assumed.",
         "YM-RG-023 subsequently supplies an abstract standard-cube output-animal, pinned Kotecky-Preiss, and literal-union hull implication; YM-RG-024 identifies the final ordinary source gas and a displayed-hierarchy ordinary KP window. No decorated marked norm, external-source disk, differentiated absolute convergence, shifted synchronization, physical U/J pullback, large-field estimate, iteration, continuum construction, axioms, infrared decay, or mass gap is proved."
@@ -999,15 +1001,14 @@
         "Use only a real-cube bound; the product of (2z_i-1) has unit supremum there and mixed difference 2^|S|.",
         "Infer a marked weakening estimate from the unmarked one; U=1 and M=product_i z_i give zero unmarked mixed difference and unit marked mixed difference.",
         "Multiply separate L1 majorants; two functions concentrated on an event of mass epsilon have unit separate integrals and product integral epsilon^(-1).",
-        "Use the original marked input disk at a transformed point outside it; powers (z/r)^n have unit inner-disk norm and unbounded outer values.",
+        "For a hypothetical weakening-dependent mark, use its input disk at a transformed point outside it; powers (z/r)^n have unit inner-disk norm and unbounded outer values.",
         "Append the marked loss after the complete ordinary ledger instead of joining the parallel branches and obtain the wrong endpoint."
       ],
       "reviewers": [],
       "open_objections": [
         "No independent human review has been recorded.",
-        "Transcribe the full conditioned Eq. (2.14) integrand from a clean immutable page image and prove that the actual transformed plaquette mark shares the source complex weakening domain.",
-        "Prove a joint relative Gaussian-moment envelope for the marked factor and ordinary Eq. (2.14) majorant, uniformly in A, root, regulator, background, and fixed partition.",
-        "Bound the resulting positive A-to-C kernel through marked gluing and every resummation without adding hidden support or derivative-allocation entropy.",
+        "Independently review YM-RG-025's full conditioned Eq. (2.14) transcription and fixed-term cutoff domination.",
+        "Bound the resulting positive marked-seed A-to-C kernel through marked gluing and every resummation without adding hidden support or derivative-allocation entropy.",
         "Starting from YM-RG-024's final ordinary mapping, verify the decorated marked species and norm, followed by the external-source-disk, differentiated-convergence, and shifted-branch interfaces before using the marked activity physically."
       ],
       "novelty_claim": false,
@@ -1040,7 +1041,7 @@
         "This claim alone does not identify the source. YM-RG-024 subsequently identifies the final connected ordinary RG-II gas, but not intermediate localization families or decorated marked activities, with the declared model.",
         "The geometric animal threshold is deliberately crude and sufficient, not necessary; its four-dimensional constant is far stronger than earlier input cube-count bookkeeping.",
         "The pinned implication assumes a pointwise ordinary activity bound whose amplitude beats the hull-contact fugacity and animal constant. YM-RG-024 subsequently verifies a displayed-hierarchy-compatible sufficient window for the final ordinary source amplitude; its compatibility with unenumerated imported restrictions remains conditional.",
-        "The actual marked conditioned-contour envelope, positive-kernel decay, gluing, marked norm, common external-source disk, differentiated absolute convergence, and shifted synchronization remain open.",
+        "YM-RG-025 subsequently proves the fixed-term marked conditioned-contour domination. Positive marked-seed kernel decay, gluing, the final marked norm, a common external-source disk, differentiated absolute convergence, and shifted synchronization remain open.",
         "No physical pullback, large-field estimate, RG iteration, continuum construction, axioms, infrared decay, or mass gap follows."
       ],
       "falsification_tests": [
@@ -1085,7 +1086,7 @@
       "proof_anchor": "research/notes/0024-balaban-final-gas-instantiation.md",
       "known_limitations": [
         "The identification begins only after RG II Eq. (2.10). The intermediate Y_0, Z_0, tilde-Z_0, Z'_0, X_0, random-walk, and interior-bond support rules are not replaced by the final cubical gas.",
-        "Equation (2.38) is unmarked. No derivative, decorated marked species bound, conditioned-contour envelope, marked gluing estimate, or rooted marked norm follows from it.",
+        "Equation (2.38) is unmarked. No derivative, decorated marked species bound, marked gluing estimate, or rooted marked norm follows from it. YM-RG-025 separately proves fixed-term marked domination from the conditioned formula and seed cutoff, not from Eq. (2.38).",
         "C3 is finite but symbolic and includes an unspecified O(1), source parameters, and M^q. The explicit epsilon1 window may therefore be extremely small and is sufficient rather than sharp.",
         "The norm notation is a repository supremum of the source's pointwise bound on the relevant fixed-output analytic domain, not a verbatim source formula or a common external-observable source disk.",
         "No shifted synchronization, physical pullback, marginal projection, large-field estimate, RG iteration, continuum construction, axioms, infrared decay, or mass gap follows."
@@ -1108,6 +1109,53 @@
       ],
       "novelty_claim": false,
       "provenance": "AI-assisted primary-page source mapping and algebraic sufficient-parameter refinement of Balaban's final ordinary gas; no marked theorem is attributed to the source and no novelty is claimed.",
+      "last_audited_commit": null
+    },
+    {
+      "id": "YM-RG-025",
+      "kind": "Lemma",
+      "statement": "In Balaban's RG-II Eqs. (2.5)-(2.14), a localized factor F(Z_0,B) remains a function of the conditional interior field B: standardization changes only the exterior B'=(C^(k))^(1/2)X, and the second-stage weakening enters only C^(k)(Z_0,sigma), its square root, Delta_k(sigma), and Gamma_k(sigma). For the repository marked seed Y_0^bullet=A union union_{Y in D}Y, if the independent-coordinate dependency set of W_{k,p}(A,B) lies in I_k(A)={b in I_k:b subset int A}, then chi_{k,Y_0^bullet} implies g_k||B||_A<epsilon_1. After the measurable zero extension off the strict local Eq. (1.34) domain, every fixed marked Eq. (2.14) term is bounded by b_{p,A}=sup_{Eq.(1.34)|_A}|W_{k,p}(A)| times the same positive ordinary conditioned-contour majorant for the enlarged seed. The marked second-stage radius is unchanged, q_gamma^bullet=q_gamma^(0), C_bullet=1, and the relative-moment loss is zero.",
+      "scope_and_quantifiers": "One finite RG-II regulator; one fixed compatible localization partition; one plaquette interior to its root cell; one fixed A,D,P,Z_0,Z auxiliary history at a time; one admitted common external (U,J) domain; first source jet only. Every seed-derived cutoff split, conditioning domain, weakening family, and output is recomputed with A included. The source-routing transcription is unmarked; the fixed-term marked domination is a repository corollary using YM-RG-012's localized mark and Eq. (1.34) norm. No sum over marked seeds or final marked activity is included.",
+      "status": "proved-in-repo",
+      "evidence_level": "E2",
+      "dependencies": [
+        "YM-RG-012",
+        "YM-RG-013"
+      ],
+      "external_hypotheses": [
+        "The immutable Project Euclid RG-II pages for Eqs. (2.3), (2.5), (2.6), (2.8), (2.14), and (2.15), with the audited PDF hash and exact operator dependency map.",
+        "The global cutoff is the product of per-independent-bond conditions g_k||B(b)||<epsilon_1, and Dep_B W_{k,p}(A) is contained in I_k(A)={b in I_k:b subset int A}, so its marked seed factor controls every B-coordinate on which W_{k,p}(A) depends.",
+        "YM-RG-012's first-stage mark is already localized in the interior of A and holomorphic/bounded on the restriction of Eq. (1.34); the second-stage construction does not reopen or weaken its internal propagators.",
+        "The marked seed A union union D is used before choosing P and Z_0, and all later derived objects are recomputed from that enlarged seed."
+      ],
+      "sources": [
+        "https://doi.org/10.1007/BF01239022"
+      ],
+      "proof_anchor": "research/notes/0025-conditioned-mark-routing.md",
+      "known_limitations": [
+        "Balaban prints no marked factor or marked theorem. The source establishes the unshifted routing for F(Z_0,B); the insertion and pointwise marked bound are repository corollaries.",
+        "The result bounds one fixed auxiliary history only. It does not prove the positive marked-seed A-to-output kernel decay through the D, P, Z_0, tilde-Z'_0, Z, component, or scale-conversion resummations.",
+        "The earlier unbounded-X transformed-mark obstruction is retracted for this source routing. A genuinely weakening-dependent or shifted mark would still require the general joint-majorant hypotheses of YM-RG-022.",
+        "No decorated final marked species norm, common external-source disk, differentiated absolute convergence, shifted synchronization, physical U/J pullback, large-field estimate, iteration, continuum construction, axioms, infrared decay, or mass gap follows."
+      ],
+      "falsification_tests": [
+        "Give F(Z_0,B) an X-shift in Eq. (2.6) and compare with the immutable page.",
+        "Omit A from Y_0^bullet and choose a mark coordinate not controlled by chi_{k,Y_0^bullet}.",
+        "Let W(A) depend on a bond outside A and observe that the seed cutoff implication fails.",
+        "Use the old unmarked seed's P, Z_0, or weakening family after inserting A.",
+        "Replace the positive comparison covariance (Re[C^{-1}])^{-1} by (Re C)^{-1}.",
+        "Promote the fixed-term factor bound to a final marked Lemma-3 estimate without proving the marked-seed resummation and scale conversion."
+      ],
+      "reviewers": [],
+      "open_objections": [
+        "No independent human review has been recorded.",
+        "Independently verify the immutable PDF hash, exact Eq. (2.14) dependency map, and the absence of any hidden second-stage weakening argument in F(Z_0,B).",
+        "Check that every fluctuation coordinate used by the first-stage localized mark lies under chi_{k,Y_0^bullet}, including the source's independent-bond and boundary conventions.",
+        "Prove the positive marked-seed A-to-output resummation, tree gluing, and k-to-k+1 scale conversion with explicit regulator-uniform constants.",
+        "Keep final marked convergence, shifted synchronization, physical pullbacks, large fields, iteration, continuum construction, and mass gap outside this fixed-term claim."
+      ],
+      "novelty_claim": false,
+      "provenance": "AI-assisted immutable-page source correction plus a finite-dimensional cutoff-domination corollary for one already localized mark; no marked theorem is attributed to Balaban and no novelty is claimed.",
       "last_audited_commit": null
     },
     {
@@ -1139,7 +1187,8 @@
         "YM-RG-021",
         "YM-RG-022",
         "YM-RG-023",
-        "YM-RG-024"
+        "YM-RG-024",
+        "YM-RG-025"
       ],
       "external_hypotheses": [
         "The exact Eq. (0.12) averaging map, raw group-delta transform, fixed small-field domain, local gauge chart, minimizing branch, and background-propagator estimates recorded in the imported-map audit.",
@@ -1156,7 +1205,7 @@
       "proof_anchor": "research/programs/003-first-source-jet-remainder.md",
       "known_limitations": [
         "This is an unproved small-field theorem specification.",
-        "YM-RG-010 fixes the operational selected-coordinate law, YM-RG-012 supplies a conditional independent-variable cube-count norm, YM-RG-013 upgrades the standard branch to d_k, YM-RG-014 supplies an all-plaquette shifted cover, YM-RG-015 supplies fixed-patch analytic physical composition, YM-RG-016 supplies the exact auxiliary-J reduction plus conditional independent-variable derivative norms, YM-RG-017 supplies a strict representative-J collar plus a homogeneous-layer J pullback, YM-RG-018 rules out naive raw U collars, YM-RG-019 supplies a conditional all-layer J pullback, YM-RG-020 supplies fixed-gas one-mark Ursell algebra, YM-RG-021 supplies the exact fixed-partition decorated Section-2 mark and component factorization, YM-RG-023 supplies a standard-cube hull/animal/KP interface, and YM-RG-024 supplies the final ordinary source-class mapping and displayed-hierarchy KP window; intrinsic/raw comparison, global chart compatibility, the scaled U pullback, discharge of YM-RG-019's premises, unit translations, the actual post-conditioning marked norm and marked smallness, shift synchronization, convergent physical connected expansion, and projection remain open.",
+        "YM-RG-010 fixes the operational selected-coordinate law, YM-RG-012 supplies a conditional independent-variable cube-count norm, YM-RG-013 upgrades the standard branch to d_k, YM-RG-014 supplies an all-plaquette shifted cover, YM-RG-015 supplies fixed-patch analytic physical composition, YM-RG-016 supplies the exact auxiliary-J reduction plus conditional independent-variable derivative norms, YM-RG-017 supplies a strict representative-J collar plus a homogeneous-layer J pullback, YM-RG-018 rules out naive raw U collars, YM-RG-019 supplies a conditional all-layer J pullback, YM-RG-020 supplies fixed-gas one-mark Ursell algebra, YM-RG-021 supplies the exact fixed-partition decorated Section-2 mark and component factorization, YM-RG-023 supplies a standard-cube hull/animal/KP interface, YM-RG-024 supplies the final ordinary source-class mapping and displayed-hierarchy KP window, and YM-RG-025 closes the fixed-term marked conditioned-contour bound with zero moment loss; intrinsic/raw comparison, global chart compatibility, the scaled U pullback, discharge of YM-RG-019's premises, unit translations, marked-seed resummation and the final marked norm, shift synchronization, convergent physical connected expansion, and projection remain open.",
         "Even a proof would leave the second jet, large fields, RG iteration, continuum construction, and mass gap open."
       ],
       "falsification_tests": [
@@ -1170,7 +1219,7 @@
       "open_objections": [
         "YM-RG-009 proves patch-local transported-chart covariance, but global overlap compatibility and comparison with the unrestricted raw transform remain open.",
         "YM-RG-017 supplies the direct-J collar, dual Eq. (190) source convolution, and homogeneous-layer J pullback; YM-RG-018 proves that naive raw U collars collapse; YM-RG-019 supplies the forward all-layer J bridge only under unverified geometry, tree-lift, support, and uniform-chart premises; YM-RG-021 supplies exact one-fixed-partition marked algebra. The scaled U collar and pullback, discharge of those premises, unit translations, the actual fixed-partition marked norm, and shifted synchronization remain open.",
-        "YM-RG-020 proves the abstract fixed-gas connected identity, YM-RG-021 constructs the exact fixed-partition post-conditioning marked activity algebraically, YM-RG-023 proves a standard-cube hull/animal/KP implication, and YM-RG-024 identifies the final ordinary source gas and displayed-hierarchy smallness window. The direct marked domination, gluing, decorated marked norm and smallness, shift synchronization, and convergent physical cluster expansion remain unproved.",
+        "YM-RG-020 proves the abstract fixed-gas connected identity, YM-RG-021 constructs the exact fixed-partition post-conditioning marked activity algebraically, YM-RG-023 proves a standard-cube hull/animal/KP implication, YM-RG-024 identifies the final ordinary source gas and displayed-hierarchy smallness window, and YM-RG-025 proves fixed-term marked domination. Marked-seed resummation and gluing, the decorated marked norm and smallness, shift synchronization, and convergent physical cluster expansion remain unproved.",
         "Uniform locality of the projected first-jet sector is unproved."
       ],
       "novelty_claim": false,
@@ -1205,7 +1254,8 @@
         "YM-RG-021",
         "YM-RG-022",
         "YM-RG-023",
-        "YM-RG-024"
+        "YM-RG-024",
+        "YM-RG-025"
       ],
       "external_hypotheses": [
         "The selected RG I Eq. (0.12) averaging map and raw group-delta transform, the separately named YM-RG-010 exact coordinate law, an explicit intrinsic-coordinate-unrestricted distinction, exact marked domain/norm transcription, and every needed source-free small- and large-field estimate verified in full text before use."
@@ -1230,7 +1280,7 @@
       ],
       "reviewers": [],
       "open_objections": [
-        "The selected branch has patch-local transported-chart covariance, a source disk, an all-plaquette coarse-lattice-equivariant d_k marked family, fixed-patch physical composition, the exact auxiliary-J reduction, a strict representative-J collar, a conditional all-layer J pullback, a proof that naive raw U collars collapse, YM-RG-020's fixed-gas Ursell algebra, YM-RG-021's exact fixed-partition decorated mark and component factorization, YM-RG-023's standard-cube hull/animal/KP implication, and YM-RG-024's final ordinary source mapping and displayed-hierarchy KP window. YM-RG-019's geometric premises, the scaled U pullback, global overlap compatibility, unit translations, the actual marked norm and smallness, shift synchronization, convergent physical connected estimate, later-Lemma-3 profile norms, and relation to the unrestricted raw transform remain open.",
+        "The selected branch has patch-local transported-chart covariance, a source disk, an all-plaquette coarse-lattice-equivariant d_k marked family, fixed-patch physical composition, the exact auxiliary-J reduction, a strict representative-J collar, a conditional all-layer J pullback, a proof that naive raw U collars collapse, YM-RG-020's fixed-gas Ursell algebra, YM-RG-021's exact fixed-partition decorated mark and component factorization, YM-RG-023's standard-cube hull/animal/KP implication, YM-RG-024's final ordinary source mapping and displayed-hierarchy KP window, and YM-RG-025's fixed-term marked conditioned-contour domination. YM-RG-019's geometric premises, the scaled U pullback, global overlap compatibility, unit translations, marked-seed resummation and the final marked norm, shift synchronization, convergent physical connected estimate, later-Lemma-3 profile norms, and relation to the unrestricted raw transform remain open.",
         "The theorem may duplicate or fail to follow from existing source-free estimates.",
         "The source-dependent extension of the separate large-field operation has not been derived."
       ],

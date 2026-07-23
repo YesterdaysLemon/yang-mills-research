@@ -478,10 +478,11 @@ window are recorded in Note 0024.
   accounting, and gives a displayed-hierarchy-compatible ordinary
   \(\varepsilon _1\) window for (27). It explicitly excludes intermediate
   and marked supports.
-- The marked conditioned-contour envelope, positive marked kernel decay,
-  marked gluing, marked norm, decorated-mark multiplicity, common source
-  disk, differentiated absolute convergence, and shifted-branch
-  synchronization remain open.
+- Note 0025 subsequently proves the fixed-term marked conditioned-contour
+  domination. Positive marked-seed kernel decay, marked gluing, the final
+  marked norm, decorated-mark multiplicity, a common source disk,
+  differentiated absolute convergence, and shifted-branch synchronization
+  remain open.
 - The physical \(U/J\) pullbacks, marginal projection, large fields, RG
   iteration, continuum and infinite-volume construction, axioms,
   nontriviality, infrared decay, and the Yang--Mills mass gap remain open.

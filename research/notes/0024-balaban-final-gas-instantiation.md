@@ -76,9 +76,10 @@ all of them. The parameter conclusion is therefore conditional on those
 unlisted restrictions being preserved when \(\varepsilon _1\) is decreased,
 as every displayed \(\varepsilon _1\) restriction is.
 
-Neither statement supplies the post-polymerization marked norm. The marked
-conditioned-contour estimate, gluing, source disk, and shifted synchronization
-remain open.
+Neither statement supplies the post-polymerization marked norm. Note 0025
+subsequently proves the fixed-term marked conditioned-contour domination;
+marked-seed resummation and gluing, the source disk, and shifted
+synchronization remain open.
 
 ## The source cubulation and quotient convention
 
@@ -408,8 +409,9 @@ this criterion, choose (13), or supply a numerical value for \(C_3\).
 ## What remains open
 
 - The source gas is unmarked. No derivative of (1), marked Lemma-3 estimate,
-  post-polymerization marked norm, conditioned-contour joint majorant, or
-  marked gluing bound follows.
+  post-polymerization marked norm, or marked gluing bound follows. Note 0025
+  separately proves a fixed-term cutoff domination for an inserted localized
+  mark, not a consequence of the unmarked activity bound (1).
 - The intermediate \(Y_0,Z_0,\widetilde Z_0,Z'_0,X_0\) and random-walk
   supports retain their actual mixed-scale, disconnected, and interior-bond
   rules; this note proves no canonical least completion for them.

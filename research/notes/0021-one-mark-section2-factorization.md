@@ -122,11 +122,16 @@ weakening-index family, and allowed outputs \(Z\) combinatorially as \(A\)
 changes. Equations (2.5)--(2.7) nevertheless use the same source-independent
 global quadratic operator, determinant convention, standard-Gaussian rule,
 and resolvent construction; no \(t\)-derivative of those objects appears.
-Equation (2.8) weakens the **entire** transformed integrand. Its weakening
-derivatives may therefore hit the marked factor through the transformed
-\(B\) arguments. The distinguished slot remains linear, but it is not an
-untouched multiplicative decoration or a factor multiplying a previously
-constructed \(H(Z)\).
+The immutable-page correction in Note 0025 shows that Eqs. (2.5)--(2.6)
+leave a localized factor as \(F(Z_0,B)\): standardization acts only on the
+exterior \(B'=(C^{(k)})^{1/2}X\). Equation (2.8) weakens the global
+covariance/operator sector, while the inserted \(W_{k,p}(A,B)\) remains a
+function of the conditional interior \(B\), independent of the second-stage
+weakening variables and \(X\). Its weakening derivatives therefore do not
+hit the mark. The distinguished slot remains linear, but it is still not a
+factor multiplying a previously constructed \(H(Z)\): changing \(A\)
+changes the seed-derived cutoff split, \(P,Z_0,\widetilde Z'_0\), active
+weakening family, and allowed outputs.
 
 Denote their composite distinguished-slot map by
 
@@ -309,12 +314,11 @@ jet of Note 0011 is its explicit minimizing-background term
 \(\mathcal O_p^{\rm bg}\) plus (19); the background term is not a polymer-gas
 mark.
 
-## A conditional marked decay interface
+## Fixed-term domination and the remaining decay interface
 
-The exact map (15) does not bound itself. In particular, the unmarked estimate
-on \(H\) in RG II Lemma 3 contains no information about
-\(-\partial_tH_{p,t}|_{t=0}\). To state the missing analytic input without
-hiding it, let
+The exact map (15) does not by itself bound the sum over marked seeds. In
+particular, the unmarked estimate on \(H\) in RG II Lemma 3 contains no
+information about \(-\partial_tH_{p,t}|_{t=0}\). Let
 
 \[
 \mathcal B_\bullet=
@@ -324,18 +328,37 @@ e^{(1-2\delta)\kappa d_k(A)}
 \tag{20}
 \]
 
-Assume all of the following for this fixed partition.
+Note 0025 proves the direct fixed-term estimate on the exact source routing,
+using its fixed positive Gaussian base
+\(d\lambda_\gamma^\sigma=d\mu_I(X)d\mu_{K_\gamma(\sigma)}(B)\), with
+\(K_\gamma(\sigma)=(\operatorname{Re}
+[C^{(k)}(Z_0,\sigma)^{-1}])^{-1}\), and putting every determinant, cutoff,
+absolute-density, and ordinary factor in the integrand. On the same ordinary
+contour set \(\mathcal C_\gamma\),
 
-1. **Direct marked domination.** After spending at most one \(\delta\)-unit
-   of the input tree exponent for the distinguished-root overhead and joint
-   conditioned-contour moment, every term defining (8) is bounded by the norm
-   of its unique \(W_{k,p}(A)\) factor times the same positive unmarked
-   decoration majorant used in the proof of RG II Lemma 3, uniformly on one
-   common conditioned and weakened complex domain. Note 0022 makes this
-   joint-majorant requirement precise and proves that one whole-integrand
-   Cauchy contour adds no separate Leibniz multiplicity.
-2. **Marked gluing geometry.** The seed (6), every enlargement, and its output
-   obey the marked versions of the source's tree-gluing inequalities,
+\[
+\sup_{(\sigma,\tau)\in\mathcal C_\gamma}
+\int
+|\mathcal I_\gamma^\bullet(A;\sigma,\tau;B,X)|
+\,d\lambda_\gamma^\sigma(B,X)
+\le
+\lVert W_{k,p}(A)\rVert_{\mathrm{Eq.\ (1.34)}|_A}
+q_\gamma^{(0)}.
+\tag{20a}
+\]
+
+Here \(q_\gamma^{(0)}\) is the same positive conditioned-contour majorant as
+for the ordinary term with the **enlarged marked seed** (6). The interior
+cutoff controls every \(B\)-coordinate of the mark, and the mark has no
+second-stage weakening or \(X\) argument. Thus (20a) uses the source radius,
+has no relative Gaussian moment, and costs \(r_{\rm mom}=0\).
+
+The remaining implication assumes the following for this fixed partition.
+
+1. **Marked seed resummation and gluing.** The positive terms (20a), summed
+   over \(A,D,P,Z_0\) and the later localization choices, obey a rooted
+   \(A\)-to-output kernel estimate. The seed (6), every enlargement, and its
+   output obey the marked versions of the source's tree-gluing inequalities,
    including the scale conversion
 
    \[
@@ -344,16 +367,23 @@ Assume all of the following for this fixed partition.
    \tag{21}
    \]
 
-3. **Uniform ordinary smallness.** Every source-free resummation and entropy
+2. **Uniform ordinary smallness.** Every source-free resummation and entropy
    hypothesis used in Lemma 3 holds with constants independent of \(p\), the
    regulator, and the admitted background.
 
-These are additional marked hypotheses. They are not consequences of the
-printed source-free bound. The loss ledger is a fork, not an additive chain.
-If the **total pre-gluing** marked overhead, including the root and joint
-conditioned-contour moment, is \(r\delta\kappa\), the premise above gives
-\(r\le1\). The marked input and ordinary \(D/Y_0\) resummation run in
-parallel. Assuming gluing has no further metric-proportional loss, it retains
+These remaining hypotheses are not consequences of the printed source-free
+bound. The loss ledger is a fork, not an additive chain. Write the total
+unproved geometric pre-gluing overhead as
+
+\[
+r\delta\kappa
+=(r_{\rm root}+r_{\rm other})\delta\kappa,
+\qquad r_{\rm mom}=0.
+\tag{20b}
+\]
+
+The marked input and ordinary \(D/Y_0\) resummation run in parallel.
+Assuming gluing has no further uncharged metric-proportional loss, it retains
 the weaker branch; the four later source losses then give
 
 \[
@@ -364,7 +394,7 @@ the weaker branch; the four later source losses then give
 &\hspace{9mm}\xrightarrow{\text{gluing and four later losses}}
 1-\bigl(\max\{4,2+r\}+4\bigr)\delta
 =1-8\delta,
-\qquad r\le1.
+\qquad r\le2.
 \end{aligned}
 \tag{22}
 \]
@@ -379,7 +409,7 @@ d_{k+1}(C)\right].
 \tag{23}
 \]
 
-Here \(C_{\rm sec}\) is uniform only if hypotheses 1--3 are uniform. Equation
+Here \(C_{\rm sec}\) is uniform only if hypotheses 1--2 are uniform. Equation
 (23) is not established for the Yang--Mills activities until those hypotheses
 are proved term by term.
 
@@ -482,13 +512,13 @@ the ordered-sum factorial/repeated-label convention already tested in Note
 - Equation (15) identifies \(W_p^{\rm post}\) as a decorated linear image of
   the complete pre-Section-2 family. It does not identify it termwise with a
   bare \(W_{k,p}(A)\).
-- Equations (23) and (26) are conditional implications under direct marked
-  domination, common-domain, marked-gluing, uniform-smallness, and
-  output-animal hypotheses. Note 0022 proves that a single contour of the
-  whole marked weakening integrand introduces no extra derivative-allocation
-  factor and corrects the conditional loss ledger to the fork (22). The
-  actual common transformed domain, joint Gaussian majorant, positive-kernel
-  decay, and the other premises remain unproved for the RG-II construction.
+- Equations (23) and (26) are conditional implications under marked-seed
+  resummation, gluing, uniform-smallness, and output-animal hypotheses. Note
+  0025 proves the direct fixed-term conditioned-contour domination (20a),
+  corrects the source variable map, and sets \(r_{\rm mom}=0\). Note 0022
+  proves the general whole-integrand contour lemma and the fork ledger (22).
+  The positive \(A\)-to-output kernel decay and marked gluing premises remain
+  unproved for the RG-II construction.
 - Subsequent Note 0023 proves the output-animal estimate (28), a
   literal-union hull crosswalk, and a sufficient pinned-KP implication for
   its declared standard-cubical one-species model. Note 0024 identifies the
@@ -518,8 +548,12 @@ the ordered-sum factorial/repeated-label convention already tested in Note
   \(H_t=H_0+tN\) has arbitrary derivative \(N\) with the same \(H_0\).
 - Put the mark in two components of (11) and contradict the fact that every
   marked seed contains the one connected root \(A\supset Q_p\).
-- Replace (15) by \(W_p^{\rm post}=W_{k,p}\) and expose the missing unmarked
-  decorations, conditioning, weakening, and integration.
+- Shift the mark by the standardized exterior \(X\), or give it a
+  second-stage \(\sigma\)-argument, and compare with the source-faithful
+  routing in Eqs. (2.5)--(2.14).
+- Replace (15) by \(W_p^{\rm post}=W_{k,p}\) and expose the missing
+  seed-dependent cutoff split, decorations, conditioning, weakening, and
+  integration.
 - Use the full exponent in (23) inside the rooted sum and observe that all
   decay is canceled before output-animal entropy is paid.
 - Mix shifted activities before forming their branch denominators and recover

@@ -551,3 +551,45 @@ hierarchy, not a criterion printed by Balaban. Full source compatibility is
 conditional on downward monotonicity of the restrictions imported but not
 enumerated in RG I/II. No marked activity estimate or physical connected
 observable follows.
+
+## 2026-07-23 -- conditioned-mark routing correction
+
+The immutable Project Euclid RG II PDF was rechecked at printed pp. 12--15;
+its SHA-256 is
+`EE39523A0F7B83AF958513C7BD6F9C7731934B40355EF5D6B0F7A68EE6D022FC`.
+The exact page map and formulas are recorded in the
+[conditioned-routing
+audit](audits/2026-07-23-balaban-conditioned-mark-routing.md).
+
+This audit corrects the preceding 2026-07-22 fixed-partition and
+whole-integrand entries. Equation (2.5) leaves the localized factor as
+\(F(Z_0,B)\) inside the restricted Gaussian. Equation (2.6) standardizes
+only the exterior variable \(B'=(C^{(k)})^{1/2}X\). Equation (2.8) inserts
+its weakening variables only into the covariance, its square root, and
+\(\Delta_k\); Eq. (2.14) confirms that both cutoff factors and
+\(V_k(Y,B)\) remain on the same conditional interior \(B\) and have no
+\(\sigma\)-argument.
+
+For the repository marked seed
+\[
+Y_0^\bullet=A\cup\bigcup_{Y\in D}Y,
+\]
+the interior cutoff controls all fluctuation coordinates of the already
+localized \(W_{k,p}(A,B)\). Thus
+\[
+\chi_{k,Y_0^\bullet}(B)\ne0
+\Longrightarrow
+|W_{k,p}(A,B)|
+\le
+\sup_{\mathrm{Eq.\ (1.34)}|_A}|W_{k,p}(A)|.
+\]
+The fixed marked Eq. (2.14) term is bounded by this input norm times the
+ordinary positive majorant for the enlarged seed. No transformed marked
+argument, relative Gaussian moment, smaller second-stage radius, or
+weakening derivative of the mark occurs.
+
+This is YM-RG-025, a repository corollary; Balaban's paper remains unmarked.
+The first remaining estimate is the positive resummation of the enlarged
+seed through the source's Eqs. (2.26)--(2.32), including marked tree gluing
+and scale conversion. No final marked activity norm or physical connected
+observable follows yet.

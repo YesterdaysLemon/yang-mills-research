@@ -332,8 +332,12 @@ marked-component factorization on one compatible fixed partition. [Note
 0022](../../research/notes/0022-whole-integrand-marked-cauchy.md) proves that
 under common \(L^1\)-holomorphy and a joint majorant, one contour of the
 complete marked Eq. (2.8) integrand has no extra product-rule multiplicity
-and has the ordinary Cauchy-radius price if that radius is shared. It then
-isolates the missing joint conditioned-contour Gaussian envelope. [Note
+and has the ordinary Cauchy-radius price if that radius is shared. [Note
+0025](../../research/notes/0025-conditioned-mark-routing.md) subsequently
+corrects the conditioned variable map: the localized mark remains on the
+interior \(B\), and the marked seed cutoff gives the fixed-term ordinary
+majorant with no Gaussian-moment loss. The remaining analytic/combinatorial
+gate is the marked-seed resummation and tree/scale gluing. [Note
 0023](../../research/notes/0023-fixed-cubical-hull-animals-kp.md) separately
 uses RG II Eqs. (2.11)--(2.13)'s cube/full-wall incompatibility and
 literal-union grouping as a convention anchor. On a declared regular

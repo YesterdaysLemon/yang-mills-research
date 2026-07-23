@@ -638,3 +638,76 @@ Return to the first genuinely analytic marked gate. Transcribe the complete
 RG II Eq. (2.14) conditioned integrand from the clean page image and either
 prove a common transformed complex domain plus a relative Gaussian-moment
 bound for the actual plaquette mark, or isolate the first precise obstruction.
+
+## 2026-07-23 -- conditioned-mark routing correction
+
+This entry explicitly supersedes the transformed-mark interpretation in the
+2026-07-22 fixed-partition and whole-integrand entries above. Those entries
+are retained as historical records of the route that triggered the source
+audit.
+
+### Established
+
+- Direct inspection of the immutable RG II pages for Eqs. (2.3), (2.5),
+  (2.6), (2.8), and (2.14) shows that conditioning leaves a localized factor
+  as \(F(Z_0,B)\), on the conditional interior field \(B\). The change
+  \(B'=(C^{(k)})^{1/2}X\) standardizes only the exterior variable.
+- The second-stage weakening variables enter
+  \(C^{(k)}(Z_0,\sigma)\), \((C^{(k)})^{1/2}(\sigma)\),
+  \(\Delta_k(\sigma)\), and \(\Gamma_k(\sigma)\). The cutoffs,
+  \(V_k(Y,B)\), and an inserted already-localized \(W_{k,p}(A,B)\) are
+  \(\sigma\)-independent.
+- With
+  \(Y_0^\bullet=A\cup\bigcup_{Y\in D}Y\), the factor
+  \(\chi_{k,Y_0^\bullet}\) forces
+  \(g_k\|B\|_A<\varepsilon _1\). Note 0012's Eq. (1.34) norm therefore gives
+  the pointwise marked bound on the entire fixed-term support.
+- Proved YM-RG-025:
+  \[
+  \sup_{(\sigma,\tau)\in\mathcal C_\gamma}
+  \int|\mathcal I_\gamma^\bullet(\sigma,\tau;B,X)|
+  \,d\lambda_\gamma^\sigma(B,X)
+  \le b_{p,A}q_\gamma^{(0)}.
+  \]
+  Here \(d\lambda_\gamma^\sigma\) is the fixed positive Gaussian comparison
+  base and all determinant, cutoff, density, and ordinary factors remain in
+  the integrand.
+  The marked second-stage radius is unchanged,
+  \(q_\gamma^\bullet=q_\gamma^{(0)}\),
+  \(C_\bullet=1\), and \(r_{\rm mom}=0\).
+- Corrected the Note-0021 ledger: a remaining geometric pre-gluing cost
+  \(r_{\rm root}+r_{\rm other}\le2\) still reaches the conditional
+  \((1-8\delta)(L/2)\kappa\) endpoint. The stale \(r\le1\) restriction was
+  unnecessarily strong.
+- Two independent AI source audits reached the same routing conclusion.
+  No independent human review was performed.
+
+### Correction impact
+
+- The earlier unbounded-\(X\), common-transformed-domain, and relative
+  Gaussian-moment obstruction was an artifact of the wrong argument map. It
+  is retracted for the actual source-faithful localized plaquette mark.
+- The general Note-0022 Cauchy and counterexample lemmas remain valid for a
+  genuinely weakening-dependent or shifted mark. They are no longer the
+  missing interface for this mark.
+- The fixed-term result does not differentiate Balaban's unmarked Lemma-3
+  bound. It inserts the mark into the finite conditioned formula and takes a
+  pointwise cutoff bound before using the source's positive majorant.
+
+### Not established
+
+- No positive marked-seed \(A\)-to-output kernel decay through the
+  \(D,P,Z_0,\widetilde Z'_0,Z\) resummations.
+- No marked tree-gluing or \(k\)-to-\(k+1\) scale-conversion theorem, final
+  decorated marked norm, common external-source disk, differentiated
+  absolute convergence, or shifted synchronization.
+- No physical scaled \(U/J\) pullback, marginal projection, large-field
+  estimate, RG iteration, continuum construction, axioms, infrared decay,
+  or Yang--Mills mass gap.
+
+### Next decision
+
+Transcribe and adapt RG II Eqs. (2.26)--(2.32). Combine the rooted input
+weight \(b_{p,A}\) with the ordinary \(D\)-weights for the enlarged seed,
+then prove or sharply delimit the first marked tree-gluing and scale
+conversion inequality.

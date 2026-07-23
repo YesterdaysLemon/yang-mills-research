@@ -116,18 +116,20 @@ hard-core numerator on one compatible fixed partition. Note 0022 proves that
 under common \(L^1\)-holomorphy and a joint majorant, the complete marked
 weakening integrand can be estimated by one contour without extra
 derivative-allocation entropy, and with the ordinary radius price if that
-radius is shared. It isolates the missing joint conditioned-contour Gaussian
-envelope and positive kernel. Note 0023 proves a literal-union hull,
+radius is shared. It isolates a positive seed-dependent kernel. Note 0023
+proves a literal-union hull,
 volume-uniform animal entropy, and an explicit sufficient pinned
 Kotecky--Preiss/hull-weight package for a separately declared standard
 closed-cube gas. Note 0024 identifies the final connected ordinary RG-II gas
 with that model and supplies a displayed-hierarchy-compatible ordinary
-KP-smallness window. The transformed envelope, kernel decay, marked gluing,
-decorated marked norm, differentiated absolute convergence, and shifted
-synchronization remain open. The scaled \(U\) pullback, uniform
+KP-smallness window. Note 0025 corrects the source variable map and proves
+the fixed-term marked bound with zero relative-moment cost. Marked-seed
+kernel decay, tree/scale gluing, the decorated marked norm, differentiated
+absolute convergence, and shifted synchronization remain open. The scaled
+\(U\) pullback, uniform
 realization of Note 0019's premises, and full physical coarse-field
 derivative/quasilocal norm,
-the actual fixed-partition marked estimate, unit-translation covariance, and
+the summed fixed-partition marked norm, unit-translation covariance, and
 a physical convergent connected marked estimate are the first parts not
 settled by those auxiliary lemmas or the imported source-free theorem.
 
@@ -239,8 +241,9 @@ infrared conclusions.
   sufficient pinned Kotecky--Preiss/hull-weight conditions for the separately
   declared standard closed-cube gas (Note 0023), together with the final
   ordinary source-class/metric/species identification and explicit
-  sufficient displayed-hierarchy ordinary KP window (Note 0024), but without
-  the joint transformed-mark Gaussian envelope, positive-kernel decay, marked
+  sufficient displayed-hierarchy ordinary KP window (Note 0024), and the
+  source-faithful fixed-term marked contour domination with zero moment cost
+  (Note 0025), but without the positive marked-seed kernel decay, tree/scale
   gluing, decorated marked activity norm, differentiated absolute
   convergence, or synchronized shifted RG construction needed for the
   physical application;
@@ -289,13 +292,15 @@ None of those inputs supplies the displayed source-inserted polymer theorem.
     post-polymerization image, component factorization, and hard-core numerator
     algebra. Under its explicit common \(L^1\)-holomorphy and joint-majorant
     hypotheses, Note 0022 removes an artificial product-rule multiplicity and
-    reduces direct weakening to one joint conditioned-contour envelope and
-    positive kernel. Note 0023 closes the literal-union hull, animal entropy,
+    reduces direct weakening to one positive kernel. Note 0023 closes the
+    literal-union hull, animal entropy,
     and sufficient pinned-KP crosswalk in its declared standard closed-cube
     model. Note 0024 identifies the final connected ordinary source gas with
     that model and gives an explicit sufficient ordinary smallness window.
-    The transformed marked envelope, kernel decay, marked gluing and norm,
-    differentiated convergence, and shift synchronization remain open.
+    Note 0025 proves the source-faithful fixed-term marked contour bound with
+    zero moment loss. The marked-seed kernel decay, tree/scale gluing and
+    final norm, differentiated convergence, and shift synchronization remain
+    open.
 11. [ ] Perform the full symmetry/Ward-identity projection on the marked first
    jet and classify all position/orientation mixing.
 

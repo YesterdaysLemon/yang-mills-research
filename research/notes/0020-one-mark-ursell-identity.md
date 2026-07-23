@@ -588,8 +588,9 @@ tests](../../tests/test_rooted_ursell_coefficients.py).
 - Note 0021 subsequently proves the exact fixed-partition passage of the mark
   through RG II Eqs. (2.2)--(2.10), including sharp cutoffs, Gaussian
   conditioning, weakening, and component factorization, and identifies the
-  final mark as a decorated linear image of the earlier rooted family. Its
-  direct marked bound and uniform shifted-branch version remain unproved.
+  final mark as a decorated linear image of the earlier rooted family. Note
+  0025 proves its fixed-term marked domination; marked-seed resummation, the
+  final marked norm, and the uniform shifted-branch version remain unproved.
 - Note 0024 identifies the final connected ordinary RG-II support class and
   metric with Note 0023's model and supplies one explicit ordinary
   KP-smallness window. Nonvanishing on a common **external-source** disk, the

@@ -29,7 +29,7 @@ W_p^{\rm post}(C)
 on one finite regulator and one fixed compatible partition. Its first open
 analytic question was whether the weakening derivatives in RG II Eq. (2.8)
 create an uncontrolled product-rule multiplicity when they hit the
-transformed mark.
+transformed marked integrand.
 
 This note answers that narrow question: they do not, provided the **entire
 marked integrand** is holomorphic and jointly integrably dominated on one
@@ -41,17 +41,26 @@ The source paper is unmarked. It applies the decomposition (1.10) to the
 whole standardized function in Eq. (2.8), treats the resulting Eq. (2.14)
 term as analytic in the complex weakening and Mayer parameters, and proves
 an unmarked majorant. The marked formulas below are repository lemmas. They
-do **not** assert that Balaban printed a marked estimate or that the actual
-plaquette mark satisfies the added joint-majorant hypothesis.
+do **not** assert that Balaban printed a marked estimate.
+
+**Correction.** Earlier versions of this note described the actual
+plaquette mark as depending on a conditioned and standardized argument
+involving \(X\) and the second-stage weakening variables. The immutable-page
+audit in Note 0025 shows that this schematic map was false. A localized
+factor remains \(F(Z_0,B)\); the actual inserted \(W_{k,p}(A,B)\) is
+independent of \(X,\sigma,\tau\), and the marked seed cutoff keeps its \(B\)
+argument in Eq. (1.34). The general whole-integrand lemma below remains
+valid, but its relative-moment hypothesis is unnecessary for this exact
+source routing.
 
 Each active weakening coordinate in this decomposition is differentiated
-once; the multi-index is square-free, although those derivatives may land on
-many different factors after a product-rule expansion. The accessible scan
-does not cleanly resolve every transformed cutoff glyph. This note does not
-Cauchy-bound a weakening-dependent nonholomorphic cutoff: such a factor must
-either be proved weakening-independent, supplied with a holomorphic
-extension, or handled by a separate source-valid real-derivative estimate
-whose loss is then paid explicitly.
+once; the multi-index is square-free, although in a general product those
+derivatives may land on many different factors after a product-rule
+expansion. Direct page inspection shows that the cutoffs in Eq. (2.14) are
+independent of the second-stage weakening variables. A different
+weakening-dependent nonholomorphic cutoff would still lie outside this
+Cauchy lemma unless supplied with a holomorphic extension or a separate
+valid real-derivative estimate.
 
 ## The exact mixed-difference operator
 
@@ -132,9 +141,10 @@ integrand, under the usual locally uniform domination.
 
 ## Direct marked-weakening lemma
 
-Put every weakening-dependent determinant, covariance density, Gaussian
-factor, Mayer factor, and transformed mark in the complete standardized
-marked integrand. A cutoff factor may be included only if it is
+For this general lemma, put every weakening-dependent determinant,
+covariance density, Gaussian factor, Mayer factor, and hypothetical
+weakening-dependent marked factor in the complete standardized integrand. A
+cutoff factor may be included only if it is
 weakening-independent or has the holomorphic extension assumed below; a
 weakening-dependent nonholomorphic cutoff is outside this lemma. Write the
 resulting integrand as
@@ -182,8 +192,10 @@ b_{p,A}q_\gamma^\bullet
 \tag{10}
 \]
 
-Equation (10) includes derivatives hitting the transformed mark, the
-ordinary decorations, or both. Expanding
+Equation (10) includes derivatives hitting a hypothetical
+weakening-dependent marked factor, the ordinary decorations, or both. The
+actual source-faithful plaquette factor is independent of those variables by
+Note 0025. Expanding
 
 \[
 \partial_S(MU)
@@ -363,34 +375,51 @@ b_{p,A}e^{\eta d_k(A)}K_\pi^{(0)}(C,A).
 \tag{18b}
 \]
 
-This is the precise unresolved interface in the Yang--Mills application.
-Notes 0012--0013 bound \(W_{k,p}(A,B)\) on the original RG II Eq. (1.34)
-field domain. After Eqs. (2.5)--(2.8), the mark is evaluated at a conditioned,
-standardized, and weakened argument, schematically
+For a genuinely \(\sigma\)-dependent mark, (16)--(18) remain a useful
+sufficient interface. They are not needed for the actual plaquette routing.
+Note 0025 transcribes Eqs. (2.3), (2.5), (2.6), (2.8), and (2.14) and proves
 
 \[
-W_{k,p}\bigl(A,
-\mathfrak B_{Z_0}(\boldsymbol\sigma;B,X)\bigr).
+\mathcal I_\gamma^\bullet(\boldsymbol\sigma,\boldsymbol\tau;B,X)
+=
+\widetilde W_{k,p}(A,B)
+\mathcal I_\gamma^{(0)}(\boldsymbol\sigma,\boldsymbol\tau;B,X).
 \tag{19}
 \]
 
-The standardized Gaussian variable \(X\) is unbounded. The earlier
-unconditioned supremum does not prove that (19) stays in its analytic domain
-on every complex contour, nor does it prove (17). One must establish at least
-one of the following:
+With
 
-- the marked seed cutoff keeps the complete transformed argument in the
-  Eq. (1.34) domain even for complex weakening variables;
-- a larger analytic continuation obeys a relative Gaussian-moment bound such
-  as (17)--(18); or
-- a different exact contour/decomposition retains a uniform marked radius
-  and an integrable joint majorant;
-- every cutoff is proved weakening-independent or supplied with a
-  holomorphic extension on the common polydisc, or its separate
-  real-derivative estimate is combined with the marked contour with all
-  allocation and radius losses exposed.
+\[
+b_{p,A}
+=
+\sup_{\mathrm{Eq.\ (1.34)}|_A}|W_{k,p}(A)|,
+\]
 
-No one of these alternatives is proved here.
+where \(\widetilde W_{k,p}\) is Note 0025's measurable extension equal to
+\(W_{k,p}\) on the strict local Eq. (1.34) domain and zero off it. The marked
+seed \(Y_0^\bullet=A\cup\bigcup_{Y\in D}Y\) and its interior cutoff ensure
+that this extension agrees with the original mark on the nonzero integrand
+support, while globally
+
+\[
+|\widetilde W_{k,p}(A,B)|\le b_{p,A}.
+\tag{19a}
+\]
+
+Consequently (16)--(17) hold with
+
+\[
+m_A=1,\qquad
+C_\bullet=1,\qquad
+\eta=0,\qquad
+q_\gamma^\bullet=q_\gamma^{(0)}.
+\tag{19b}
+\]
+
+The second-stage source radius is unchanged, no derivative hits the mark,
+and no relative Gaussian moment is required. The unresolved interface is
+now the positive resummation of the enlarged marked seed and its tree/scale
+gluing, not a common transformed marked domain.
 
 ## Correct exponent ledger: a fork
 
@@ -404,9 +433,12 @@ The source-free Section-2 ledger is
 \]
 
 The first arrow is the ordinary \(D/Y_0\) resummation. The final four arrows
-pay the later enlargement, scale-conversion, family, and output sums. A
-marked relative-moment cost must be joined to this ledger as a parallel
-branch, not blindly appended to every ordinary loss.
+pay the later enlargement, scale-conversion, family, and output sums. For a
+general weakening-dependent mark, any relative-moment cost must be joined to
+this ledger as a parallel branch, not blindly appended to every ordinary
+loss. For the actual source-faithful mark, Note 0025 proves
+\(r_{\rm mom}=0\); the notation below retains the general case only to expose
+the budget.
 
 Write the relative-moment cost as
 \(\eta=r_{\rm mom}\delta\kappa\), and let
@@ -454,9 +486,10 @@ a_{\rm out}(r_{\rm tot})
 \tag{24}
 \]
 
-Thus any **total** \(r_{\rm tot}\le2\), including Note 0021's proposed
-one-\(\delta\) combined root-and-moment overhead, still ends at
-\((1-8\delta)(L/2)\kappa\). For \(r_{\rm tot}>2\), the formal endpoint
+Thus any **total** \(r_{\rm tot}\le2\) still ends at
+\((1-8\delta)(L/2)\kappa\). For the actual source-faithful plaquette mark,
+Note 0025 sets \(r_{\rm mom}=0\), so the remaining condition is
+\(r_{\rm root}+r_{\rm other}\le2\). For \(r_{\rm tot}>2\), the formal endpoint
 worsens to
 \((1-(6+r_{\rm tot})\delta)(L/2)\kappa\); using that endpoint additionally
 requires \((6+r_{\rm tot})\delta<1\) and a fresh verification that every
@@ -486,16 +519,20 @@ The hypotheses above cannot be weakened in the most tempting ways.
    \(|f_n(R)|=(R/r)^n\). An input-domain norm alone cannot bound a transformed
    argument outside that domain.
 
-These examples do not show that the desired Yang--Mills envelope is false.
-They show that it needs a proof using the actual conditioned formula.
+These examples remain warnings for other, genuinely weakening-dependent
+insertions. The wrong-map outer-disk example does not apply to the actual
+plaquette mark after Note 0025's source-routing correction.
 
 ## Executable checks
 
 [The whole-integrand Cauchy tests](../../tests/test_whole_integrand_cauchy.py)
 check the exact mixed-difference identity, the derivative-allocation trap,
 the real-cube counterexample, and failure of separate integrated majorants.
-They do not test RG-II conditioning, covariance weakening, the transformed
-plaquette argument, tree gluing, or any regulator-uniform estimate.
+The [conditioned-routing
+tests](../../tests/test_conditioned_mark_routing.py) separately check the
+unshifted two-coordinate Gaussian identity and the pointwise marked
+domination. They do not test the RG-II tree gluing, marked-seed resummation,
+or any regulator-uniform final activity estimate.
 
 ## Exact boundary
 
@@ -505,15 +542,18 @@ plaquette argument, tree gluing, or any regulator-uniform estimate.
 - Equations (14)--(15) reduce direct marked weakening to one positive
   seed-dependent kernel. They do not bound that kernel for the actual
   activities.
-- Equations (17)--(18) state a sufficient conditioned-contour interface, not
-  a theorem imported from RG II. The existing Eq. (1.34) input norm does not
-  establish it.
+- Equations (17)--(18) state a sufficient interface for a general
+  weakening-dependent mark, not a theorem imported from RG II. For the
+  actual source-faithful plaquette routing, Note 0025 proves the stronger
+  specialization (19)--(19b) directly from the seed cutoff.
 - Equation (24) corrects the conditional ledger to a parallel fork. It
   confirms the Note-0021 endpoint if the total pre-gluing marked cost is at
   most two \(\delta\)-units and all gluing/resummation hypotheses hold.
-- No marked conditioned-contour envelope, marked tree gluing, source disk,
-  absolute convergence, shifted synchronization, or physical \(U/J\)
-  pullback is proved here.
+- The fixed-term marked conditioned-contour envelope is now proved in Note
+  0025 with zero relative-moment cost. No positive marked-seed
+  \(A\)-to-output kernel decay, marked tree gluing, source disk, absolute
+  convergence, shifted synchronization, or physical \(U/J\) pullback is
+  proved here.
 - Subsequent Note 0023 proves an output-animal bound, literal-union hull
   crosswalk, and sufficient pinned Kotecky--Preiss criterion for a declared
   standard closed-cube, one-species support model. Note 0024 identifies the
@@ -527,8 +567,9 @@ plaquette argument, tree gluing, or any regulator-uniform estimate.
 
 - Estimate the factors in (11) separately and compare the resulting
   \(2^{|S|}\) with the single-contour bound (10).
-- Produce a transformed mark outside the common polydisc and invalidate
-  (9), even if the unmarked integrand remains analytic.
+- For a hypothetical weakening-dependent mark, produce an argument outside
+  the common polydisc and invalidate (9), even if the unmarked integrand
+  remains analytic.
 - Replace the joint bound (17) by separate \(L^1\) bounds and use
   counterexample 3.
 - Spend a smaller marked radius without paying (13).

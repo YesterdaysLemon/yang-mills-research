@@ -136,21 +136,22 @@ factorization on one compatible fixed partition. [Note
 of the complete marked weakening integrand, under common \(L^1\)-holomorphy
 and a joint majorant, has no extra derivative-allocation multiplicity and has
 the ordinary radius price if that radius is shared. It reduces the estimate
-to a joint conditioned-contour Gaussian envelope and positive seed-dependent
-kernel. [Note
+to a positive seed-dependent kernel. [Note
 0023](../notes/0023-fixed-cubical-hull-animals-kp.md) proves a literal-union
 hull, a volume-uniform animal bound, and an explicit sufficient pinned
 Kotecky--Preiss/hull-weight package for a separately declared standard
 closed-cube model with one species per support. [Note
 0024](../notes/0024-balaban-final-gas-instantiation.md) identifies the final
 connected ordinary RG-II gas with that model and gives a
-displayed-hierarchy-compatible ordinary KP-smallness window. The actual
-transformed marked envelope and kernel decay, decorated marked norm,
-differentiated absolute convergence, and shifted-branch synchronization
-remain unproved.
+displayed-hierarchy-compatible ordinary KP-smallness window. [Note
+0025](../notes/0025-conditioned-mark-routing.md) corrects the Section-2
+variable map and proves the fixed-term marked contour bound with the original
+Eq. (1.34) norm and zero relative-moment cost. The positive marked-seed
+kernel decay and tree/scale gluing, decorated marked norm, differentiated
+absolute convergence, and shifted-branch synchronization remain unproved.
 Unit-translation covariance, the scaled nonlinear \(U\) collar and pullback,
 uniform realization of Note 0019's premises,
-the actual single-partition marked estimate, the full physical
+the summed fixed-partition marked norm, the full physical
 coarse-background derivative norm, and a physical rooted connected bound
 remain open.
 
@@ -340,16 +341,20 @@ and no mass gap.
 - [x] Carry the localized mark through the finite RG II Eqs. (2.1)--(2.10)
   algebra on one fixed compatible partition, define its decorated
   post-polymerization image, and prove the unique marked-component and exact
-  hard-core numerator identities; see Note 0021. Proving the direct marked
-  domination, rooted norm, differentiated convergence, and synchronized
-  shifted construction remains open.
+  hard-core numerator identities; see Note 0021. Proving the summed marked
+  norm, differentiated convergence, and synchronized shifted construction
+  remains open.
 - [x] Apply one multivariable contour to the complete marked Eq. (2.8)
   integrand under explicit common \(L^1\)-holomorphy and joint-majorant
   hypotheses, retain no added product-rule multiplicity and the ordinary
   Cauchy-radius factor if that radius is shared, reduce the estimate to one
   positive seed-dependent kernel, and correct the conditional exponent ledger
-  to a parallel fork; see Note 0022. The actual transformed-mark Gaussian
-  envelope, kernel decay, and gluing estimates remain open.
+  to a parallel fork; see Note 0022.
+- [x] Transcribe the exact RG-II Eqs. (2.3), (2.5), (2.6), (2.8), and
+  (2.14) variable routing and prove that the marked seed cutoff gives the
+  fixed-term bound with unchanged second-stage radius,
+  \(q_\gamma^\bullet=q_\gamma^{(0)}\), and zero moment loss; see Note 0025.
+  The positive marked-seed kernel decay and gluing estimates remain open.
 - [x] In a separately declared standard closed-cube support model, prove the
   literal-union wall-contact hull inequality, a volume-uniform geometric
   animal bound, and explicit sufficient conditions for the canonical pinned

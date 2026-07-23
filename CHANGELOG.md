@@ -2,6 +2,30 @@
 
 All notable research-structure and claim-status changes are recorded here. Mathematical changes must also update `CLAIMS.json`, `STATUS.json`, or `audit/objections.json` as applicable.
 
+## 2026-07-23
+
+- Published the S1 correction YM-RG-025 after direct immutable-page
+  inspection of RG II Eqs. (2.3), (2.5), (2.6), (2.8), and (2.14).
+  Contrary to the earlier schematic, the localized mark remains a function
+  of the conditional interior \(B\); only the exterior field is standardized
+  by \(B'=(C^{(k)})^{1/2}X\), and the second-stage weakening acts on the
+  covariance/operator sector.
+- Proved that rerunning the cutoff split with
+  \(Y_0^\bullet=A\cup\bigcup_{Y\in D}Y\) keeps the mark in its original
+  Eq. (1.34) field domain. Every fixed marked Eq. (2.14) term is bounded by
+  \(b_{p,A}\) times the ordinary positive majorant for the enlarged seed,
+  with unchanged weakening radius,
+  \(q_\gamma^\bullet=q_\gamma^{(0)}\), \(C_\bullet=1\), and zero
+  relative-Gaussian-moment loss.
+- Corrected Notes 0021--0024, the program specifications, source maps, claim
+  metadata, and objections. The general whole-integrand Cauchy lemma in Note
+  0022 remains valid; its former unbounded-\(X\) application obstruction is
+  superseded for this source-faithful mark.
+- Added exact-arithmetic conditioning and cutoff-domination regressions.
+  The next open gate is the positive marked-seed \(A\)-to-output
+  resummation, tree gluing, and \(k\)-to-\(k+1\) scale conversion, not an
+  entire-continuation or relative-moment estimate.
+
 ## 2026-07-22
 
 - Bootstrapped the public research ledger.

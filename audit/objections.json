@@ -171,7 +171,7 @@
         "Record a line-by-line human review tied to an immutable commit.",
         "Transcribe the full YM-RG-010 exponent into the exact RG-II Lemma-2 activity family used by the Mayer identity.",
         "Audit YM-RG-012 through YM-RG-016, then reconcile the shifted family with one fixed cluster partition and every later decay expenditure.",
-        "Use YM-RG-020's fixed-gas algebra, audit YM-RG-021's exact unique-mark passage through RG II Eqs. (2.2)-(2.10), and then prove its direct marked domination, post-polymerization norm, and convergent rooted connected sum.",
+        "Use YM-RG-020's fixed-gas algebra, audit YM-RG-021's exact unique-mark passage through RG II Eqs. (2.2)-(2.10) and YM-RG-025's fixed-term domination, and then prove the marked-seed resummation, post-polymerization norm, and convergent rooted connected sum.",
         "Keep the finite algebraic identity separate from intrinsic/raw density matching, large fields, RG iteration, continuum limits, and the mass gap."
       ]
     },
@@ -202,7 +202,7 @@
         "Verify RG I's shortest-tree definition, the center-tree comparison d_k(Y)<=m(Y), and the four-dimensional degree bound D_0<=8.",
         "Visually transcribe the dropped leading prefactor, signs, and parameter range in RG II Eq. (1.32), and reconcile delta kappa>log 64 with every subsequent RG-II entropy expenditure.",
         "Audit the translated standard geometry and actual n_p normalization for every admitted shift used by YM-RG-014; introduce c_geo for any nonstandard weakening partition.",
-        "Audit YM-RG-017's matched-layer identity and YM-RG-019's all-layer exponent spend, discharge the latter's interface/tree/support premises, construct the U pullback, then audit YM-RG-021's exact post-conditioning map and prove its direct marked domination, one-fixed-partition norm, hull bound, and connected estimate.",
+        "Audit YM-RG-017's matched-layer identity and YM-RG-019's all-layer exponent spend, discharge the latter's interface/tree/support premises, construct the U pullback, then audit YM-RG-021's exact post-conditioning map and YM-RG-025's fixed-term domination, and prove the marked-seed resummation, one-fixed-partition norm, hull bound, and connected estimate.",
         "Keep the result separate from intrinsic/raw density matching, large fields, RG iteration, continuum limits, and the mass gap."
       ]
     },
@@ -307,7 +307,7 @@
       "summary": "The fixed-gas one-mark Ursell identity and conditional pinned Kotecky-Preiss implication have no independent human review. YM-RG-021 constructs the fixed-partition post-conditioning mark algebraically, YM-RG-023 supplies the cubical hull/animal/KP interface, and YM-RG-024 closes the final ordinary source mapping plus a displayed-hierarchy KP window. The actual marked norm, differentiated convergence, branchwise shift synchronization, and physical source disk remain open.",
       "resolution_requirements": [
         "Record a line-by-line human review tied to an immutable commit, and verify the distinguished-slot 1/n! coefficient, repeated-label convention, and pinned Kotecky-Preiss normalization against a primary cluster-expansion reference.",
-        "Audit YM-RG-021's exact passage of the unique e^{-t Delta_p} mark through RG II Eqs. (2.1)-(2.10), including every A-dependent seed-derived split; then use YM-RG-022's whole-integrand contour and prove its common-domain, joint-majorant, positive-kernel, and gluing hypotheses for the actual activities.",
+        "Audit YM-RG-021's exact passage of the unique e^{-t Delta_p} mark through RG II Eqs. (2.1)-(2.10), including every A-dependent seed-derived split; independently verify YM-RG-025's fixed-term cutoff domination, then prove the positive marked-seed kernel and gluing estimates for the actual activities.",
         "For every admitted shift, prove a complete unmarked and marked expansion on the same pi^sigma representing the same normalized physical logarithmic derivative with uniform convergence; form branch coefficients before the 1/n_p average and introduce no cross-shift gas interactions.",
         "Prove nonvanishing on a common external-source disk, differentiated absolute convergence, and the actual marked Lemma-3 activity bound.",
         "Starting from YM-RG-024's final ordinary mapping, verify the decorated marked species count, marked norm, and exponent budget uniformly for the actual activities.",
@@ -320,12 +320,12 @@
       "severity": "S1",
       "status": "open",
       "targets": ["YM-RG-021"],
-      "summary": "The fixed-partition distinguished Section-2 map and marked-component factorization have no independent human review. Their finite algebra is exact under source-independent global kernels, while every displayed decay and rooted-norm estimate remains conditional on unproved marked conditioning, weakening, gluing, and animal-entropy hypotheses.",
+      "summary": "The fixed-partition distinguished Section-2 map and marked-component factorization have no independent human review. Their finite algebra is exact under source-independent global kernels, and YM-RG-025 closes the fixed-term marked conditioning/weakening bound. Every displayed summed decay and rooted-norm estimate remains conditional on unproved marked-seed resummation, gluing, and animal-entropy hypotheses.",
       "resolution_requirements": [
         "Record a line-by-line human review tied to an immutable commit and verify the sign, D-empty term, absence of a Mayer-subset factorial, and unique-root component product.",
         "Transcribe RG II Eqs. (2.1)-(2.10) from clean immutable page images and check the P signs, Z_0 and Z_0-prime assignments, conditioned covariance, determinant convention, weakening derivatives, and component support rule.",
         "Prove that the fixed source seam leaves the global cutoff, covariance, quadratic operator, background, and chart independent of t while every A-dependent derived split and restricted operator is rerun with the marked seed.",
-        "Use YM-RG-022's single whole-integrand contour for every Eq. (2.8) derivative placement and prove the actual common transformed domain and joint relative Gaussian-moment envelope without differentiating a source-free inequality or reintroducing product-rule entropy.",
+        "Independently verify YM-RG-025's correction that the mark remains on the conditional interior B, Dep_B W_{k,p}(A) lies in the cutoff-controlled independent-bond set I_k(A), and the fixed-term bound has unchanged second-stage radius and zero Gaussian-moment loss.",
         "Prove the marked positive-kernel decay, tree-gluing and L/2 scale-conversion inequalities, and corrected fork exponent ledger uniformly in regulator, background, root, and fixed partition.",
         "Use YM-RG-024's final ordinary support/hull/KP mapping, then verify the decorated marked species and norm, a common external-source disk, differentiated convergence, and branchwise shifted synchronization.",
         "Keep the physical U/J pullbacks, marginal projection, large fields, RG iteration, continuum construction, axioms, infrared decay, and mass gap outside this claim."
@@ -336,12 +336,12 @@
       "severity": "S1",
       "status": "open",
       "targets": ["YM-RG-022"],
-      "summary": "The whole-integrand Cauchy lemma exactly removes an artificial Leibniz multiplicity and isolates a positive marked kernel, but its application to the RG-II plaquette mark remains conditional on an unproved common transformed complex domain and joint relative Gaussian-moment envelope.",
+      "summary": "The whole-integrand Cauchy lemma exactly removes an artificial Leibniz multiplicity. YM-RG-025 corrects the earlier transformed-mark map and proves the actual fixed-term plaquette specialization with zero relative-moment cost. The resulting positive marked-seed kernel still lacks a summed A-to-output decay and gluing proof.",
       "resolution_requirements": [
         "Record a line-by-line human review tied to an immutable commit and verify the mixed FTC, multivariable contour, radius factor, Fubini assumptions, and absence of factorial or derivative-allocation coefficients.",
-        "Transcribe RG II Eqs. (2.5)-(2.8) and the complete Eq. (2.14) integrand from clean immutable page images, including every transformed B argument, cutoff, covariance density, determinant, sigma variable, and tau variable.",
-        "Prove L1-holomorphy of the actual entire marked integrand on one common second-stage weakening polydisc with radius at least the one used in the unmarked estimate, or pay the exact smaller-radius loss against a proved tree metric.",
-        "Prove a joint marked/unmarked relative Gaussian-moment envelope; do not multiply separate integrated bounds or infer the envelope from the original Eq. (1.34) input supremum.",
+        "Independently audit YM-RG-025's immutable-page transcription of RG II Eqs. (2.5)-(2.8) and the complete Eq. (2.14) dependency map, including the interior B, exterior X, cutoff, complex precision, sigma, and tau variables.",
+        "Verify that every fluctuation coordinate used by W_{k,p}(A,B) lies under chi_{k,Y_0^bullet} for the exact independent-bond and boundary conventions.",
+        "For any future genuinely weakening-dependent mark, retain the general common-polydisc and joint-majorant hypotheses rather than reusing YM-RG-025's sigma-independent specialization.",
         "Bound the resulting positive A-to-C kernel through every seed-dependent sum, marked gluing step, and scale conversion with uniform constants and the corrected fork ledger.",
         "Use YM-RG-024's final ordinary support/hull/KP mapping, then verify the decorated marked species and norm, common external-source disk, differentiated convergence, shifted synchronization, and physical pullbacks.",
         "Keep large fields, RG iteration, continuum construction, axioms, infrared decay, and the Yang-Mills mass gap outside this claim."
@@ -375,6 +375,21 @@
         "Audit the fixed-output analytic-domain supremum used to pass from the printed pointwise Eq. (2.38) bound to the ordinary activity norm without inventing one global field domain.",
         "Reconstruct the complete imported parameter chain and prove every unlisted epsilon1 restriction is preserved under downward shrinking after C3 is fixed; otherwise downgrade the source-compatibility conclusion to the displayed hierarchy only.",
         "Keep all intermediate localization families and every marked, differentiated, shifted, physical, continuum, and infrared conclusion outside YM-RG-024."
+      ]
+    },
+    {
+      "id": "OBJ-029",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-025"],
+      "summary": "The source-faithful conditioned-mark routing correction and fixed-term cutoff domination have no independent human review. The result is limited to one auxiliary history and does not yet prove the summed marked-seed kernel or final marked activity norm.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Recheck the RG-II PDF hash and immutable pages for Eqs. (2.3), (2.5), (2.6), (2.8), (2.14), and (2.15), including the tilde-Z'_0 index, interior/exterior projections, Gamma_k ordering, and positive complex-precision comparison.",
+        "Verify the exact independent-bond definition of chi_{k,Y_0^bullet} controls every B-coordinate in the first-stage localized W_{k,p}(A), including boundary conventions and the D-empty seed.",
+        "Check that the common external (U,J) domain used for the fixed term is contained in the first-stage marked domain and that no second-stage operator is hidden inside W_{k,p}(A,B).",
+        "Prove the positive marked-seed A-to-output kernel decay, every D/P/Z_0/Z resummation, marked tree gluing, and k-to-k+1 scale conversion with uniform constants.",
+        "Keep the final decorated marked norm, source disk, shifted synchronization, physical pullbacks, large fields, iteration, continuum construction, axioms, infrared decay, and mass gap outside YM-RG-025."
       ]
     }
   ]
