@@ -45,8 +45,10 @@ Pin the exact Bałaban block-map definitions and norms, then perform a theorem-l
   variational-minimizer papers with theorem/equation anchors.
 - Proved `YM-RG-003`: evaluating a finitely supported plaquette insertion on
   the fixed source-free minimizing orbit is representative independent,
-  coarse-gauge invariant, and analytic on the proved patch. Kept the exact
-  Eq. (190) decay specialization open pending index/norm transcription.
+  coarse-gauge invariant, and analytic on the proved patch. Eq. (190)'s five
+  component derivative bounds are now transcribed with their
+  \(j\), \(j'\), \(\zeta\), and \(\delta_0/8\) factors; the physical-chart and
+  activity-norm crosswalk remains open.
 - Opened `YM-RG-004` for the fluctuation difference between that background
   value and the exact conditional first jet.
 - Proved the general finite-dimensional coarea corollary `YM-RG-005`: a proper
@@ -104,6 +106,14 @@ Pin the exact Bałaban block-map definitions and norms, then perform a theorem-l
   random-walk terms supplies exact weakened transport under the subgroup
   preserving the next coarse lattice. This does not prove unit-translation
   covariance or compatibility with one fixed Section-2 cluster partition.
+- Proved YM-RG-015 on one explicitly assumed common holomorphic physical
+  \((U,J)\) chart: evaluation of the shifted family preserves the exact
+  all-plaquette identity, joint holomorphy, strict fluctuation locality,
+  zero-fluctuation centering, transported real-chart covariance, and the
+  zeroth-order \(d_k\) norm. The exact chain rule keeps both the \(U\)- and
+  \(J\)-derivative terms. This is not a coarse-field quasilocality theorem;
+  the Eq. (190) metric/norm bridge, the auxiliary-\(J\) derivative, and every
+  connected estimate remain open.
 
 ### Corrections forced by the audit
 
@@ -125,8 +135,10 @@ Pin the exact Bałaban block-map definitions and norms, then perform a theorem-l
 - No quasilocal source propagation or source-marked first/second-derivative
   expectation bound. Notes 0012--0014 control the pre-integration mark in
   independent variables, including its standard-branch \(d_k\) norm and an
-  all-plaquette shifted cover, not the coarse-background pullback,
-  one-fixed-partition cluster compatibility, or the connected expectation.
+  all-plaquette shifted cover. Note 0015 supplies only fixed-chart physical
+  composition and the same zeroth-order value norm, not a coarse-background
+  derivative tail, one-fixed-partition cluster compatibility, or the connected
+  expectation.
 - No regulator-uniform control of the raw conditional cumulants; their exact
   identities alone do not imply locality or smallness.
 - The selected full-cutoff chart branch now has a patch-local Borel kernel and
@@ -144,9 +156,11 @@ Pin the exact Bałaban block-map definitions and norms, then perform a theorem-l
 
 ### Next decision
 
-Transcribe the fixed-patch minimizing-background chain rule and identify the
-additional margins needed to turn Eq. (190) into a summable marked norm, then
-carry the unique mark through Eqs. (2.2)–(2.13) and prove the rooted connected
-sum converges. Track raw vacuum mass separately.
+Build the exact Eq. (190) coordinate/differential, metric, norm, auxiliary-
+\(J\), Cauchy-margin, convolution, and entropy crosswalk needed to turn Note
+0015's chain rule into a summable coarse-field derivative norm. Then reconcile
+the shift family with one Section-2 partition, carry the unique mark through
+Eqs. (2.2)–(2.13), and prove the rooted connected sum converges. Track raw
+vacuum mass separately.
 Refute or rewrite YM-RG-004 if the marked remainder fails quasilocality,
 analyticity, or volume uniformity.

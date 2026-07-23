@@ -109,9 +109,12 @@ norm for fixed-partition interior plaquettes. [Note
 \(M\)-cube branch under an explicit entropy margin. [Note
 0014](../notes/0014-equivariant-shifted-roots.md) gives an RG-admitted
 shifted-family cover for every plaquette and transport under the subgroup
-preserving the next coarse lattice. Unit-translation covariance,
-single-partition cluster compatibility, the coarse-background pullback, and
-the rooted connected cluster bound remain open.
+preserving the next coarse lattice. [Note
+0015](../notes/0015-fixed-patch-physical-composition.md) conditionally composes
+that family on one common physical \((U,J)\) chart and preserves its
+zeroth-order value norm. Unit-translation covariance, single-partition cluster
+compatibility, the quantitative coarse-background derivative/quasilocal norm,
+and the rooted connected cluster bound remain open.
 
 ## Target statement
 
@@ -262,22 +265,31 @@ and no mass gap.
 - [x] Prove the exact independent-variable decomposition for each
   fixed-partition interior plaquette and a conditional cube-count norm uniform
   over those plaquettes; see Note 0012. The \(d_k\) upgrade is checked in the next
-  item, and the shifted cover in the item after it; the minimizing-background
-  pullback and connected bounds remain open.
+  item, the shifted cover in the item after it, and fixed-chart physical
+  composition after that; quantitative coarse-field locality and connected
+  bounds remain open.
 - [x] Upgrade the standard wall-adjacent \(M\)-cube branch to a rooted
   \((1-2\delta)\kappa d_k\)-weighted norm under the explicit entropy margin;
-  see Note 0013. The shifted cover is checked in the next item; the pullback
-  and connected bound remain open.
+  see Note 0013. The shifted cover and fixed-chart composition are checked in
+  the next two items; the derivative pullback norm and connected bound remain
+  open.
 - [x] Cover every plaquette by the normalized RG-admitted shifted family with
   no additional orbit entropy and prove transport under the subgroup
   preserving the next coarse lattice; see Note 0014. Unit translations and
   one-fixed-partition cluster compatibility remain open.
+- [x] On one explicitly assumed common holomorphic physical \((U,J)\) chart,
+  compose the shifted family, preserve its exact identity, fluctuation
+  locality, centering, covariance, and zeroth-order norm, and record the full
+  chain rules; see Note 0015. The Eq. (190) coarse-field derivative norm and
+  quasilocality remain open.
 - [x] Prove a common zero-free source disk from bounded observable range,
   conditional on the exact pointwise kernel and positive finite source-free
   weighted partition function; see Note 0007. This does not supply a complex
   coarse-field domain or marked-polymer locality.
-- [x] Derive the fixed source-free background jet and its analytic scope; keep
-  the exact Eq. (190) decay specialization open; see Note 0004.
+- [x] Derive the fixed source-free background jet and transcribe Eq. (190)'s
+  five componentwise derivative bounds; see Note 0004. Their physical-chart,
+  auxiliary-\(J\), activity-norm, convolution, and entropy specialization
+  remains open.
 - [ ] Classify every relevant/marginal source counterterm and the profile
   mixing map.
 - [ ] Differentiate the small-field stationary/background construction

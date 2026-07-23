@@ -96,7 +96,9 @@ RG-II variables. Note 0013 upgrades it to the conditional
 \((1-2\delta)\kappa d_k\)-weighted norm on the standard \(M\)-cube branch under
 an explicit entropy margin. Note 0014 supplies an RG-admitted shifted-family
 cover for every plaquette and coarse-lattice-preserving transport. The
-minimizing-background pullback, one-fixed-partition cluster compatibility,
+conditional fixed-chart composition, exact \(U\)-and-\(J\) chain rules, and
+zeroth-order norm are supplied by Note 0015. The Eq. (190) coarse-field
+derivative/quasilocal norm, one-fixed-partition cluster compatibility,
 unit-translation covariance, and connected marked expectation are the first
 parts not settled by those auxiliary lemmas or the imported source-free theorem.
 
@@ -142,7 +144,8 @@ infrared conclusions.
 
 - exact finite-regulator conditional-cumulant identity (Note 0003);
 - unique minimizing orbit plus analytic gauge-fixed branch (Note 0004), with
-  the variational paper's Eq. (190) component decay still to be transcribed;
+  the variational paper's five Eq. (190) component bounds transcribed but not
+  yet crosswalked to the physical \(U\)-and-\(J\) activity derivative norm;
 - pointwise positive fiber kernels for proper smooth submersions (Note 0005),
   conditional on proving the selected map and cutoff satisfy its hypotheses;
 - RG I's local analytic constraint straightening and a positive precompact
@@ -177,6 +180,11 @@ infrared conclusions.
   transport under the subgroup preserving the next coarse lattice (Note
   0014), without unit-translation covariance, one-fixed-partition cluster
   compatibility, or minimizing-background quasilocality;
+- the conditional fixed-chart physical composition, exact all-plaquette
+  identity, fluctuation locality, centering, \(U\)-and-\(J\) chain rules,
+  transported real-chart covariance, and inherited zeroth-order \(d_k\) norm
+  (Note 0015), without a coarse-field derivative norm, Eq. (190) metric
+  crosswalk, auxiliary-\(J\) decay estimate, or connected bound;
 - background-propagator decay and change-of-domain estimates;
 - RG I/II source-free local analytic polymer expansions.
 
@@ -199,12 +207,15 @@ None of those inputs supplies the displayed source-inserted polymer theorem.
    transport under the subgroup preserving the next coarse lattice; see Note
    0014. Full unit-translation covariance and cluster-partition compatibility
    remain open.
-6. [ ] Prove the physical \((U,J)\) minimizing-background pullback is
-   quasilocal in a summable marked norm using the exact Eq. (190) component
-   kernel and an explicit metric/norm crosswalk.
-7. [ ] Carry exactly one rooted mark through RG II Eqs. (2.2)–(2.13), using
+6. [x] Compose the shifted family with one explicitly assumed common
+   holomorphic physical \((U,J)\) lift, prove centering and the exact chain
+   rules, and preserve the zeroth-order norm; see Note 0015.
+7. [ ] Turn the Eq. (190) minimizing-background kernel and the auxiliary
+   \(J\)-derivative into a summable coarse-field derivative norm using an
+   explicit chart, metric, Cauchy-margin, convolution, and entropy crosswalk.
+8. [ ] Carry exactly one rooted mark through RG II Eqs. (2.2)–(2.13), using
    Lemma 3 for the unmarked decorations, and prove the connected sum converges.
-8. [ ] Perform the full symmetry/Ward-identity projection on the marked first
+9. [ ] Perform the full symmetry/Ward-identity projection on the marked first
    jet and classify all position/orientation mixing.
 
 ## Falsification tests

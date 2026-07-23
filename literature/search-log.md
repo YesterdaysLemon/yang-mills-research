@@ -150,7 +150,10 @@ margin. At that stage global patch compatibility, shifted roots, the
 minimizing-background pullback, and the connected marked expectation remained
 open. Note 0014 subsequently supplied an all-plaquette RG-admitted shifted
 cover and coarse-lattice-preserving transport. Unit translations and
-one-fixed-partition cluster compatibility remain open.
+one-fixed-partition cluster compatibility remain open. Note 0015 subsequently
+supplied only conditional fixed-chart physical composition, exact chain rules,
+and preservation of the zeroth-order value norm. The coarse-field derivative
+norm and connected marked expectation remain open.
 
 ## 2026-07-22 — RG-II Eq. (1.32) prefactor audit
 
@@ -184,3 +187,32 @@ stabilizer average. That Reynolds symmetrization is repository algebra: it
 preserves the exact propagator sum, localization, and analytic bound, but is
 not attributed to Bałaban as the printed expansion. Full unit-translation
 covariance remains open.
+
+## 2026-07-22 — Proposition 9 Eq. (190) component audit
+
+The primary scan of the [variational/background-field
+article](https://doi.org/10.1007/BF01229381) ([Project Euclid
+PDF](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-102/issue-2/The-variational-problem-and-background-fields-in-renormalization-group-method/cmp/1104114383.pdf)),
+CMP 102, pp. 307--308, was
+inspected at Eqs. (182) and (190). With \(B=(1/i)\log V'\), Eq. (182)
+differentiates the Landau-gauge relative minimizer \(\mathcal H(B)\) with
+respect to a coarse bond coordinate. For \(x\in\Delta(y)\),
+\(y\in\Lambda_j\), and
+\(y'\in\Lambda_{j'}\), Eq. (190) simultaneously bounds that component kernel,
+its spatial gradient, a \(\zeta\)-weighted Hoelder gradient, and its two listed
+covariant second-derivative images.
+
+The corresponding \(L^j\eta\) factors are \(-1\), \(-2\),
+\(-2-\beta\) with multiplier \(\|\zeta\|_\beta^\xi+|\zeta|\), \(-3\), and
+\(-3\). Every row also carries
+\((L^{j'}\eta)^{-d}\exp[-\delta_0d(y,y')/8]\). The \(\zeta\)-weighted row
+requires
+\(\operatorname{supp}\zeta\subset\widetilde\Delta(y)\). The
+\(\delta_0/8\) exponent must not be copied from Eq. (189), which has
+\(\delta_0/4\).
+
+This closes the literal component/scale transcription in Note 0004. It does
+not provide the auxiliary-\(J\) derivative, chart/differential factors,
+\(d_k\)-metric comparison, activity Cauchy margins, convolution or animal
+entropy slack, one-fixed-partition compatibility, or a connected marked
+expectation. Note 0015 uses none of these bounds for its zeroth-order norm.

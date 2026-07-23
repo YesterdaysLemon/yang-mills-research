@@ -286,7 +286,8 @@ source-safe hierarchy consequence and explicit repository margin
 \(\delta\kappa>\log64\) to close the standard fixed-partition
 \(d_k\)-weighted norm. The numerical threshold is not attributed to the paper;
 the exact leading prefactor dropped by the available Eq. (1.32) text layers,
-shifted roots, the pullback, and the connected expansion remain open. [Note
+shifted roots, the pullback, and the connected expansion remained open at that
+stage. [Note
 0014](../../research/notes/0014-equivariant-shifted-roots.md) subsequently
 covers every plaquette with the RG-admitted \(L\)-spaced shift orbit for
 \(M=L^m\), \(m\ge2\), retaining the same weighted norm after normalization.
@@ -295,7 +296,14 @@ post-Eq. (2.18) fluctuation transformation support transport only under the
 subgroup preserving the next coarse lattice. Exact intermediate weakening is
 obtained by a repository finite-stabilizer average, not quoted from the paper.
 Unit translations, one-fixed-partition cluster compatibility, the pullback,
-and the connected expansion remain open.
+and the connected expansion remained open at that stage. [Note
+0015](../../research/notes/0015-fixed-patch-physical-composition.md)
+subsequently composes the shifted family on one explicitly assumed common
+holomorphic physical \((U,J)\) chart. It preserves the exact identity,
+fluctuation locality and centering, transported real-chart covariance, and the
+zeroth-order \(d_k\) norm, and records the complete \(U\)-and-\(J\) chain rule.
+It proves no coarse-field derivative tail, one-fixed-partition compatibility,
+or connected estimate.
 
 ## Regular configurations and gauge chart
 
@@ -376,6 +384,23 @@ theories](https://doi.org/10.1007/BF01229381), **CMP 102** (1985), 277–309:
 - Proposition 9, p. 309, summarizes the analytic extension, its determining
   equations, regularity bounds, and analytic dependence on an external regular
   **gauge background**. Again, this is not scalar-source analyticity.
+- Eq. (182) defines the first functional derivative of the Landau-gauge
+  relative minimizer \(\mathcal H(B)\) with respect to the coarse relative-log
+  field.
+  For \(x\in\Delta(y)\), \(y\in\Lambda_j\),
+  \(y'\in\Lambda_{j'}\), Eq. (190) bounds the derivative itself, its spatial
+  gradient, its \(\zeta\)-weighted \(\beta\)-Hoelder gradient, and its
+  \(D_{U_k}^{\eta *}D_{U_k}^{\eta}\) and
+  \(\Delta_{U_k}^{\eta}\) images. The five scale factors are respectively
+  \((L^j\eta)^{-1}\), \((L^j\eta)^{-2}\),
+  \((\|\zeta\|_\beta^\xi+|\zeta|)(L^j\eta)^{-2-\beta}\),
+  \((L^j\eta)^{-3}\), and \((L^j\eta)^{-3}\), all multiplied by
+  \((L^{j'}\eta)^{-d}\exp[-\delta_0d(y,y')/8]\); the third row assumes
+  \(\operatorname{supp}\zeta\subset\widetilde\Delta(y)\). [Note
+  0004](../../research/notes/0004-fixed-background-source-jet.md) records the
+  indexed display. Equation (190) is a first-minimizer-derivative theorem, not
+  an activity, auxiliary-\(J\), polymer-summation, or connected-expectation
+  bound.
 
 Because \(\mathcal O_f(U)=4\sum_p f_ps(U_p)\) is gauge invariant, its value on
 the source-free minimizing orbit is well defined without selecting a

@@ -49,12 +49,58 @@ s_{\mathbb C}(U_p)=1-\tfrac12\operatorname{Tr}U_p.
 Then \(J_f\) is analytic in the local coarse coordinate
 \(B=(1/i)\log V'\) used in Section G.
 
-Proposition 9 also says that the component derivative kernel defined in its
-Eq. (182) satisfies the indexed cell/scale decay inequalities (190). A finite
-chain-rule specialization should transfer those bounds to \(J_f\), but the
-exact indices and scale factors have not yet been transcribed into this
-repository. Accordingly, no standalone quantitative quasilocal bound is part
-of this E2 lemma.
+Proposition 9 writes the Landau-gauge relative minimizer as
+\(\exp(i\eta\mathcal H(B))\), where \(B=(1/i)\log V'\), and defines its first
+functional derivative in Eq. (182). For
+
+\[
+x\in\Delta(y),\qquad y\in\Lambda_j,
+\qquad y'\in\Lambda_{j'},
+\]
+
+and bond directions \(\mu,\nu\), put
+
+\[
+K_{\mu\nu}(B;x,y')
+=\frac{\delta\mathcal H_\mu(B,x)}{\delta B_\nu(y')}.
+\]
+
+The five component inequalities printed together in Eq. (190) are
+
+\[
+\begin{bmatrix}
+|K_{\mu\nu}(B;x,y')|\\
+|\nabla_xK_{\mu\nu}(B;x,y')|\\
+\|\zeta\nabla K(B;\cdot,y')\|_\beta\\
+|D_{U_k}^{\eta *}D_{U_k}^{\eta}K_{\mu\nu}(B;x,y')|\\
+|\Delta_{U_k}^{\eta}K_{\mu\nu}(B;x,y')|
+\end{bmatrix}
+\le O(1)
+\begin{bmatrix}
+(L^j\eta)^{-1}\\
+(L^j\eta)^{-2}\\
+(\|\zeta\|_\beta^\xi+|\zeta|)(L^j\eta)^{-2-\beta}\\
+(L^j\eta)^{-3}\\
+(L^j\eta)^{-3}
+\end{bmatrix}
+(L^{j'}\eta)^{-d}
+\exp\!\left[-\frac18\delta_0 d(y,y')\right].
+\tag{190-import}
+\]
+
+The third line has \(\operatorname{supp}\zeta\subset\widetilde\Delta(y)\).
+The symbols \(\|\zeta\|_\beta^\xi\), \(|\zeta|\), the cells, and the
+multiscale distance are retained in the paper's notation. Notice especially
+the distinct roles of \(j\) and \(j'\), and the exponent \(\delta_0/8\);
+Eq. (189) immediately above has \(\delta_0/4\).
+
+This is a componentwise first-background-derivative theorem for the
+minimizer. It is not a derivative bound for a polymer activity. A finite
+chain rule can use it as the minimizing-background input, but a quantitative
+activity estimate additionally needs the chart/differential-of-exponential
+factors, the auxiliary-\(J\) derivative, a metric/norm crosswalk, activity
+Cauchy margins, convolution control, and new entropy slack. Accordingly, no
+standalone quantitative quasilocal activity bound is part of this E2 lemma.
 
 Finally, the fixed-background source factor
 
@@ -107,6 +153,8 @@ by that representation. Controlling the difference is the next open theorem.
   source-free background analyticity.
 - No uniform source radius, interacting cumulant bound, marginal
   classification, or large-field estimate is proved.
-- No quantitative quasilocal derivative bound is claimed until Eq. (190)'s
-  component indices, cells, scale factors, metric, and norms are transcribed.
+- Equation (190)'s component indices and scale factors are transcribed above,
+  but no quantitative quasilocal activity bound is claimed without the
+  remaining chart, auxiliary-\(J\), metric/norm, Cauchy, convolution, and
+  entropy crosswalk.
 - Nothing here removes a regulator or constructs continuum Yang–Mills theory.

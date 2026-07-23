@@ -162,19 +162,19 @@
       "known_limitations": [
         "The exact conditional block expectation generally differs from the minimizing-background insertion.",
         "No source-dependent minimizing branch or scalar-source theorem for the full block integral is constructed.",
-        "No quantitative quasilocal bound is promoted until Eq. (190)'s component indices, cells, scale factors, metric, and norms are transcribed.",
+        "Proposition 9 Eq. (190)'s component indices and scale factors are transcribed in Note 0004, but no quantitative quasilocal activity bound is promoted without the chart, auxiliary-J, metric/norm, Cauchy, convolution, and entropy crosswalk.",
         "The lemma proves no large-field, continuum, infrared, or mass-gap result."
       ],
       "falsification_tests": [
         "Check representative independence using plaquette-holonomy conjugation.",
         "Check that the complex extension omits the nonholomorphic real-part operation.",
-        "Reject any quantitative quasilocal claim that omits Proposition 9 Eq. (190)'s exact indices and scale factors.",
+        "Check the transcribed Eq. (190) indices, j-versus-j' scale factors, and delta_0/8 exponent, and reject any activity-level use that omits the remaining crosswalk.",
         "Do not replace the conditional expectation by its background value without controlling fluctuations."
       ],
       "reviewers": [],
       "open_objections": [
         "No independent human review has been recorded.",
-        "The exact scale factors in the inherited derivative norm remain to be transcribed into Program 003."
+        "The Eq. (190) component scale factors are transcribed, but their chart, auxiliary-J, metric/norm, Cauchy, convolution, and entropy crosswalk into Program 003 remains open."
       ],
       "novelty_claim": false,
       "provenance": "AI-assisted corollary of Bałaban's source-free minimizer-orbit, analyticity, and covariance theorem; no novelty claimed.",
@@ -473,7 +473,7 @@
       "open_objections": [
         "No independent human review has been recorded.",
         "The exact correspondence between the full YM-RG-010 exponent and every activity in RG II Lemma 2 still needs termwise transcription.",
-        "YM-RG-012 through YM-RG-014 supply the fixed-partition localization, standard-branch d_k norm, and an all-plaquette shifted cover; unit translations, one-fixed-partition cluster compatibility, the minimizing-background pullback, later Lemma-3 norm, and connected marked expectation remain open."
+        "YM-RG-012 through YM-RG-014 supply the fixed-partition localization, standard-branch d_k norm, and an all-plaquette shifted cover; YM-RG-015 adds only fixed-chart physical composition and a zeroth-order value norm. Unit translations, one-fixed-partition compatibility, the quantitative coarse-field derivative pullback, later Lemma-3 norm, and connected marked expectation remain open."
       ],
       "novelty_claim": false,
       "provenance": "AI-assisted finite-dimensional source split and elementary one-mark Mayer algebra at the cited RG-II seam; no novelty claimed.",
@@ -518,7 +518,7 @@
       "open_objections": [
         "No independent human review has been recorded.",
         "YM-RG-013 instantiates the standard four-dimensional wall-adjacency constant and a sufficient entropy margin, and YM-RG-014 transports it over the admitted shift orbit; compatibility with other weakening geometries remains open.",
-        "YM-RG-014 covers every plaquette with a coarse-lattice-preserving shifted family, but unit-translation covariance, one-fixed-partition cluster compatibility, minimizing-background pullback, later Lemma-3 norm, and the connected marked expansion remain open."
+        "YM-RG-014 covers every plaquette with a coarse-lattice-preserving shifted family and YM-RG-015 supplies conditional fixed-chart composition and a zeroth-order value norm, but unit-translation covariance, one-fixed-partition compatibility, the minimizing-background derivative/quasilocal norm, later Lemma-3 norm, and the connected marked expansion remain open."
       ],
       "novelty_claim": false,
       "provenance": "AI-assisted marked mixed-difference and matrix-Lipschitz corollary of the cited RG-I/II finite-regulator construction; no novelty claimed.",
@@ -548,7 +548,7 @@
         "The numerical threshold delta kappa>log 64 is explicit repository one-mark animal bookkeeping, not a verbatim printed Bałaban constant.",
         "The exact leading prefactor in the printed RG II Eq. (1.32) hierarchy remains visually unaudited; the proof uses only the weaker consequence common to the candidate text-layer readings.",
         "The geometry comparison d_k(Y)<=m(Y) is specialized to the standard wall-adjacent M-cube branch; other weakening partitions require a new c_geo.",
-        "This lemma itself covers only fixed-partition interior plaquettes and independent (U,J,B) locality; YM-RG-014 adds an all-plaquette shifted family and coarse-lattice-preserving transport, while unit translations and the minimizing-background pullback remain open.",
+        "This lemma itself covers only fixed-partition interior plaquettes and independent (U,J,B) locality; YM-RG-014 adds an all-plaquette shifted family and coarse-lattice-preserving transport, and YM-RG-015 adds only fixed-chart composition and a zeroth-order value norm, while unit translations and the quantitative minimizing-background derivative norm remain open.",
         "The norm has not been carried through cutoff conditioning or the connected Section-2 cluster expansion and is not yet matched to the later Lemma-3 exponent.",
         "No intrinsic/raw density comparison, large-field control, RG iteration, continuum construction, infrared statement, or mass gap follows."
       ],
@@ -610,10 +610,56 @@
       "open_objections": [
         "No independent human review has been recorded.",
         "The finite stabilizer average must be reconciled with the exact unmarked Section-2 decorations before a connected marked expansion is claimed.",
-        "Unit-translation covariance, the physical (U,J) minimizing-background pullback, and the connected one-mark cluster bound remain open."
+        "YM-RG-015 supplies only conditional fixed-chart physical (U,J) composition and the zeroth-order value norm; unit-translation covariance, the quantitative coarse-field derivative pullback, and the connected one-mark cluster bound remain open."
       ],
       "novelty_claim": false,
       "provenance": "AI-assisted finite-regulator shifted-cover and Reynolds-symmetrization corollary of YM-RG-013 and the cited RG-I/II constructions; no novelty claimed.",
+      "last_audited_commit": null
+    },
+    {
+      "id": "YM-RG-015",
+      "kind": "Lemma",
+      "statement": "On one finite SU(2) regulator and one common relatively compact background chart, assuming a jointly holomorphic equivariant physical (U,J) lift whose image stays inside the transported RG-II domains, evaluation of the YM-RG-014 shifted activities gives an exact all-plaquette identity, joint holomorphy, strict locality in the independent fluctuation, vanishing pure coarse-coordinate jets at zero fluctuation, the exact U-and-J chain rule, and the same zeroth-order rooted d_k norm.",
+      "scope_and_quantifiers": "One finite d=4 regulator and RG step; SU(2); one Proposition 9 relative-log chart; one jointly holomorphic physical (U,J) lift on that chart; a fixed common composed domain contained in every transported RG II Eq. (1.34) domain used; all YM-RG-014 hypotheses; coarse-lattice-preserving transported real charts only.",
+      "status": "proved-in-repo",
+      "evidence_level": "E2",
+      "dependencies": [
+        "YM-RG-014"
+      ],
+      "external_hypotheses": [
+        "The variational paper's Proposition 9 analytic minimizing-background branch on one fixed relative-log chart.",
+        "A separately assumed jointly holomorphic and real-equivariant auxiliary J background on the same chart; no such conclusion is inferred merely from Proposition 9 Eq. (190).",
+        "Containment of the physical (U,J) image and chosen fluctuation domain in the transported RG II Eq. (1.34) domains with the strict margins used by YM-RG-013 and YM-RG-014."
+      ],
+      "sources": [
+        "https://doi.org/10.1007/BF01229381",
+        "https://doi.org/10.1007/BF01215223",
+        "https://doi.org/10.1007/BF01239022"
+      ],
+      "proof_anchor": "research/notes/0015-fixed-patch-physical-composition.md",
+      "known_limitations": [
+        "The holomorphic auxiliary J lift and common composed domain are explicit hypotheses, not newly constructed regulator-uniform objects.",
+        "The inherited d_k estimate is only a zeroth-order value norm. No derivative norm, coarse-field support statement, quasilocal tail, or uniform complex radius is proved.",
+        "Proposition 9 Eq. (190) supplies only componentwise first-derivative information for the minimizing background; it does not by itself bound the J lift, activity derivatives, metric convolution, or animal entropy.",
+        "The shift label and coarse-lattice-preserving symmetry restriction remain; no compatibility with one fixed Section-2 cluster partition or arbitrary unit translation is proved.",
+        "No intrinsic/raw density comparison, connected marked expectation, large-field control, RG iteration, continuum construction, infrared statement, or mass gap follows."
+      ],
+      "falsification_tests": [
+        "Drop the D_J activity term from the first chain rule and reject the formula whenever the activity depends on J.",
+        "Let the physical image reach an Eq. (1.34) boundary and identify the missing fixed common domain and Cauchy margin.",
+        "Change the coarse coordinate outside Y and reject any inference of strict coarse-field locality from strict fluctuation locality.",
+        "Differentiate the inherited zeroth-order supremum and identify the missing derivative estimate.",
+        "Erase the shift label in one fixed Section-2 cluster expansion and identify the missing compatibility theorem."
+      ],
+      "reviewers": [],
+      "open_objections": [
+        "No independent human review has been recorded.",
+        "The exact auxiliary J formula and its derivative decay have not been transcribed on the Proposition 9 chart.",
+        "The Eq. (190) coordinate, metric, norm, Cauchy-margin, convolution, and entropy crosswalk needed for a summable coarse-field derivative norm remains open.",
+        "One-fixed-partition compatibility and the connected marked Section-2 estimate remain open."
+      ],
+      "novelty_claim": false,
+      "provenance": "AI-assisted finite-regulator analytic-composition corollary of YM-RG-014 on an explicitly assumed common physical background chart; no novelty claimed.",
       "last_audited_commit": null
     },
     {
@@ -635,7 +681,8 @@
         "YM-RG-011",
         "YM-RG-012",
         "YM-RG-013",
-        "YM-RG-014"
+        "YM-RG-014",
+        "YM-RG-015"
       ],
       "external_hypotheses": [
         "The exact Eq. (0.12) averaging map, raw group-delta transform, fixed small-field domain, local gauge chart, minimizing branch, and background-propagator estimates recorded in the imported-map audit.",
@@ -652,7 +699,7 @@
       "proof_anchor": "research/programs/003-first-source-jet-remainder.md",
       "known_limitations": [
         "This is an unproved small-field theorem specification.",
-        "YM-RG-010 fixes the operational selected-coordinate law, YM-RG-012 supplies a conditional independent-variable cube-count norm, YM-RG-013 upgrades the standard branch to d_k, and YM-RG-014 supplies an all-plaquette shifted cover; intrinsic/raw comparison, global chart compatibility, unit translations, one-fixed-partition cluster compatibility, the minimizing-background pullback, connected expansion, and projection remain open.",
+        "YM-RG-010 fixes the operational selected-coordinate law, YM-RG-012 supplies a conditional independent-variable cube-count norm, YM-RG-013 upgrades the standard branch to d_k, YM-RG-014 supplies an all-plaquette shifted cover, and YM-RG-015 supplies only fixed-patch analytic physical composition and a zeroth-order value norm; intrinsic/raw comparison, global chart compatibility, unit translations, one-fixed-partition compatibility, the quantitative quasilocal pullback, connected expansion, and projection remain open.",
         "Even a proof would leave the second jet, large fields, RG iteration, continuum construction, and mass gap open."
       ],
       "falsification_tests": [
@@ -665,7 +712,7 @@
       "reviewers": [],
       "open_objections": [
         "YM-RG-009 proves patch-local transported-chart covariance, but global overlap compatibility and comparison with the unrestricted raw transform remain open.",
-        "YM-RG-014 supplies an all-plaquette shifted family only for the coarse-lattice-preserving symmetry class; unit translations, one-fixed-partition cluster compatibility, and the componentwise Eq. (190) minimizing-background pullback remain untranscribed.",
+        "YM-RG-015 gives the exact fixed-patch U-and-J chain rule and preserves the zeroth-order value norm, but the Eq. (190) metric/norm crosswalk, auxiliary-J derivative bound, unit translations, and one-fixed-partition cluster compatibility remain open.",
         "No rooted connected source-marked RG II cluster expansion has been derived.",
         "Uniform locality of the projected first-jet sector is unproved."
       ],
@@ -691,7 +738,8 @@
         "YM-RG-011",
         "YM-RG-012",
         "YM-RG-013",
-        "YM-RG-014"
+        "YM-RG-014",
+        "YM-RG-015"
       ],
       "external_hypotheses": [
         "The selected RG I Eq. (0.12) averaging map and raw group-delta transform, the separately named YM-RG-010 exact coordinate law, an explicit intrinsic-coordinate-unrestricted distinction, exact marked domain/norm transcription, and every needed source-free small- and large-field estimate verified in full text before use."
@@ -716,7 +764,7 @@
       ],
       "reviewers": [],
       "open_objections": [
-        "The selected branch has patch-local transported-chart covariance, a source disk, and an all-plaquette coarse-lattice-equivariant d_k marked family, but global overlap compatibility, unit translations, one-fixed-partition cluster compatibility, pullback/later-Lemma-3 profile norms, and relation to the unrestricted raw transform remain open.",
+        "The selected branch has patch-local transported-chart covariance, a source disk, an all-plaquette coarse-lattice-equivariant d_k marked family, and fixed-patch physical composition, but global overlap compatibility, unit translations, one-fixed-partition cluster compatibility, quantitative pullback/later-Lemma-3 profile norms, and relation to the unrestricted raw transform remain open.",
         "The theorem may duplicate or fail to follow from existing source-free estimates.",
         "The source-dependent extension of the separate large-field operation has not been derived."
       ],
