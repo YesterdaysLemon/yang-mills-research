@@ -48,3 +48,13 @@ All notable research-structure and claim-status changes are recorded here. Mathe
   The actual RG-II marked activity, marked norm, hull crosswalk, convergence,
   shift synchronization, physical pullbacks, continuum construction, and
   mass gap remain open.
+- Added YM-RG-021: on one finite fixed compatible RG-II partition, reran the
+  finite Section-2 cutoff, conditioning, Gaussian standardization, weakening,
+  and resummation pipeline with the localized mark included in its seed;
+  defined the decorated post-polymerization image, proved the unique
+  marked-component factorization, and derived the exact hard-core one-mark
+  numerator. A conditional decay interface now separates the unproved direct
+  marked conditioning/weakening domination and gluing estimates from the
+  separate output-animal entropy spend. The actual marked norm, hull/KP
+  crosswalk, shifted synchronization, physical pullbacks, continuum
+  construction, and mass gap remain open.

@@ -94,8 +94,21 @@ Cluster expansions*, **CMP 116** (1988), 1–22,
   \(1/n!\) coefficient, the need for repeated polymer labels, and a
   conditional pinned Kotecky--Preiss implication. RG II does not print this
   marked theorem, and its unmarked Lemma 3 does not bound the differentiated
-  activity. The post-conditioning mark, hull metric, convergence, and
-  branchwise shifted construction remain separate hypotheses.
+  activity. [Note
+  0021](../../research/notes/0021-one-mark-section2-factorization.md) then
+  reruns Eqs. (2.1)--(2.10) with the localized support in the seed, defines
+  the decorated post-conditioning mark, proves the unique marked-component
+  factorization, and obtains the exact finite hard-core numerator. This is a
+  repository corollary, not a theorem printed by RG II.
+- In the marked corollary, the global cutoff, Gaussian law, quadratic
+  operator, fixed background/chart, partition, and unmarked potentials remain
+  source-parameter independent. The seed-derived cutoff split, exterior-bond
+  family, \(Z_0\), conditioned restriction, \(Z_0'\), weakening family, and
+  allowed \(Z\)'s nevertheless depend combinatorially on the marked support
+  and must be reconstructed. Equation (2.8) weakens the entire transformed
+  integrand, so its derivatives may hit the mark. Direct marked domination,
+  the hull metric, convergence, and branchwise shifted construction remain
+  separate hypotheses.
 - RG II Eqs. (1.9)--(1.10) give the finite weakening-variable decomposition
   and root-component cancellation; Eqs. (1.17)--(1.21) give the weakened
   reconstruction and its common \(|s(\Delta)|\le e^{\kappa _1}\) analytic
@@ -207,7 +220,7 @@ OS-positivity, continuum, or gap results.
 | External scalar source \(zf\), propagation under a block map, and \(\partial_z\), \(\partial_z^2\) bounds | No theorem located in the audited texts |
 | Source-jet norm, localized marginal projections, or volume-uniform first/second derivative bounds | No theorem located |
 | Inserted-observable decomposition compatible with the constant-profile derivative | No theorem located; the raw first-jet identity itself is algebraic once a coupling-independent raw transform is fixed |
-| One marked plaquette at the RG-II Mayer seam | Finite background split and Mayer algebra proved in Note 0011; Note 0012 proves the fixed-partition-interior mixed-difference/cube-count result; Note 0013 upgrades the standard \(M\)-cube branch to a conditional rooted \(d_k\) norm; Note 0014 covers every plaquette with a coarse-lattice-preserving shifted family; Note 0015 supplies fixed-chart physical composition; Note 0016 identifies the exact auxiliary field and supplies conditional fixed-regulator independent-variable derivative norms; Note 0017 supplies the strict representative-\(J\) collar, dual source convolution, and a homogeneous-layer \(J\)-summand pullback while disproving only the reverse uniform cross-layer bound; Note 0018 proves the naive raw \(U\) collars collapse and isolates a conditional scaled replacement; Note 0019 proves a conditional forward all-layer \(J\) bridge under unverified interface/tree/support/mesh/chart premises; unit translations, discharge of those premises, the scaled nonlinear \(U\) collar/pullback, one-fixed-partition compatibility, the full physical derivative norm, and the connected marked expectation remain open |
+| One marked plaquette at the RG-II Mayer seam | Finite background split and Mayer algebra proved in Note 0011; Note 0012 proves the fixed-partition-interior mixed-difference/cube-count result; Note 0013 upgrades the standard \(M\)-cube branch to a conditional rooted \(d_k\) norm; Note 0014 covers every plaquette with a coarse-lattice-preserving shifted family; Note 0015 supplies fixed-chart physical composition; Note 0016 identifies the exact auxiliary field and supplies conditional fixed-regulator independent-variable derivative norms; Note 0017 supplies the strict representative-\(J\) collar, dual source convolution, and a homogeneous-layer \(J\)-summand pullback while disproving only the reverse uniform cross-layer bound; Note 0018 proves the naive raw \(U\) collars collapse and isolates a conditional scaled replacement; Note 0019 proves a conditional forward all-layer \(J\) bridge under unverified interface/tree/support/mesh/chart premises; Note 0020 proves the fixed-gas connected algebra; Note 0021 carries one localized mark through the exact fixed-partition Section-2 map and component factorization. Unit translations, discharge of the geometric and scaled-\(U\) premises, the actual marked conditioning/weakening norm, shifted synchronization, the full physical derivative norm, and the convergent connected marked expectation remain open |
 | One-loop coefficient in the source-inserted normalization | Not proved by RG I; its coupling theorem is deferred |
 | Reflection positivity of gauge-fixed/RG effective actions | No theorem located |
 | Continuum Schwinger functions, OS reconstruction, infinite-volume clustering, mass gap | Outside the verified scope |

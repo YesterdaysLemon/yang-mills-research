@@ -128,11 +128,15 @@ from the source. Note 0018 proves that naive raw and \(\xi\)-scaled bond-sup
 \(U\) collars collapse and leaves the RG-scaled replacement conditional.
 [Note 0020](../notes/0020-one-mark-ursell-identity.md) proves the exact
 distinguished-vertex Ursell formula and a conditional pinned bound on one
-fixed hard-core gas, but not the post-conditioning marked activity, hull
-crosswalk, convergence, or shifted-branch synchronization needed here.
+fixed hard-core gas. [Note
+0021](../notes/0021-one-mark-section2-factorization.md) constructs the exact
+decorated post-conditioning activity and unique marked-component
+factorization on one compatible fixed partition. Its direct marked
+conditioning/weakening domination, rooted norm, hull crosswalk, convergence,
+and shifted-branch synchronization remain unproved.
 Unit-translation covariance, the scaled nonlinear \(U\) collar and pullback,
 uniform realization of Note 0019's premises,
-the actual single-partition marked construction, the full physical
+the actual single-partition marked estimate, the full physical
 coarse-background derivative norm, and a physical rooted connected bound
 remain open.
 
@@ -296,7 +300,8 @@ and no mass gap.
 - [x] Cover every plaquette by the normalized RG-admitted shifted family with
   no additional orbit entropy and prove transport under the subgroup
   preserving the next coarse lattice; see Note 0014. Unit translations and
-  one-fixed-partition cluster compatibility remain open.
+  synchronized fixed-partition cluster compatibility for every shift remain
+  open; Note 0021 proves only the exact algebra on one compatible branch.
 - [x] On one common holomorphic physical \((U,J)\) chart,
   compose the shifted family, preserve its exact identity, fluctuation
   locality, centering, covariance, and zeroth-order norm, and record the full
@@ -317,9 +322,13 @@ and no mass gap.
   premises and the scaled nonlinear \(U\) pullback remain open.
 - [x] Prove the exact one-mark connected-graph formula, repeated-label
   convention, and conditional pinned Kotecky--Preiss implication for one
-  fixed hard-core gas; see Note 0020. Carrying the actual mark through RG II
-  Eqs. (2.1)--(2.10), synchronizing every shifted branch, and proving its
-  marked norm, hull weight, and convergence remain open.
+  fixed hard-core gas; see Note 0020.
+- [x] Carry the localized mark through the finite RG II Eqs. (2.1)--(2.10)
+  algebra on one fixed compatible partition, define its decorated
+  post-polymerization image, and prove the unique marked-component and exact
+  hard-core numerator identities; see Note 0021. Proving the direct marked
+  domination, rooted norm, hull weight, convergence, and synchronized shifted
+  construction remains open.
 - [x] Prove a common zero-free source disk from bounded observable range,
   conditional on the exact pointwise kernel and positive finite source-free
   weighted partition function; see Note 0007. This does not supply a complex

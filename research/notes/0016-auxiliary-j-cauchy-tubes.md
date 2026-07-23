@@ -399,8 +399,9 @@ proved.
   explicitly conditional RG-scaled replacement remains viable.
 - Cross-regulator use would also require a coherent RG-normalized family of
   chart norms; positive numerical radii in unrelated norms would not suffice.
-- No coarse-field strict locality, uniform quasilocal derivative, fixed
-  Section-2 partition, connected marked expectation, large-field estimate,
+- Note 0021 subsequently supplies the exact marked algebra on one compatible
+  fixed Section-2 partition. No coarse-field strict locality, uniform
+  quasilocal derivative, convergent marked expectation, large-field estimate,
   RG iteration, continuum construction, infrared decay, or mass gap follows.
 
 ## Falsification checks

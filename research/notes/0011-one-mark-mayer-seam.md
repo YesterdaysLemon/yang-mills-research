@@ -206,8 +206,10 @@ norm to the target (13) for the standard wall-adjacent \(M\)-cube branch under
 an explicit entropy margin. Note 0014 subsequently gives an RG-admitted
 shifted-root cover for every plaquette and transport under the subgroup
 preserving the next coarse lattice. It does not prove unit-translation
-covariance, locality after the minimizing-background pullback, compatibility
-with one fixed cluster partition, or the connected marked expansion.
+covariance or locality after the minimizing-background pullback. Note 0021
+subsequently proves the exact marked Section-2 algebra on one compatible fixed
+partition; its marked norm, convergence, and shifted synchronization remain
+open.
 
 Given (12), a marked activity \(W_{k,p}(A)\) and an unmarked Mayer
 family \(D\) have the rooted seed
@@ -220,7 +222,8 @@ Y_0^\bullet=A\cup\bigcup_{Y\in D}Y.
 That seed, rather than the unmarked union alone, must be carried through RG II
 Eqs. (2.2)–(2.10). The connected logarithm would then contain exactly one
 marked activity decorated by the already controlled unmarked activities. None
-of those rooted estimates is proved by (10).
+of those rooted estimates is proved by (10). Note 0021 subsequently proves
+the finite distinguished-slot and component algebra, but not those estimates.
 
 ## Exact boundary
 

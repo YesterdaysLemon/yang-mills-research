@@ -150,12 +150,14 @@ margin. At that stage global patch compatibility, shifted roots, the
 minimizing-background pullback, and the connected marked expectation remained
 open. Note 0014 subsequently supplied an all-plaquette RG-admitted shifted
 cover and coarse-lattice-preserving transport. Unit translations and
-one-fixed-partition cluster compatibility remain open. Note 0015 subsequently
-supplied conditional fixed-chart physical composition, exact chain rules, and
-preservation of the zeroth-order value norm. Note 0016 then identified the
-exact auxiliary field and supplied fixed-regulator conditional
-independent-variable derivative norms. The uniform physical coarse-field
-derivative norm and connected marked expectation remain open.
+one-fixed-partition cluster compatibility remained open at that stage. Note
+0015 subsequently supplied conditional fixed-chart physical composition,
+exact chain rules, and preservation of the zeroth-order value norm. Note 0016
+then identified the exact auxiliary field and supplied fixed-regulator
+conditional independent-variable derivative norms. Note 0021 later supplied
+the exact fixed-partition marked algebra. The uniform physical coarse-field
+derivative norm, marked activity norm, shifted synchronization, and convergent
+marked expectation remain open.
 
 ## 2026-07-22 — RG-II Eq. (1.32) prefactor audit
 
@@ -393,6 +395,33 @@ e^{-(1-10\delta)(L/2)\kappa d_{k+1}(X)}.
 The induction chooses \((1-10\delta)L/2=1\). The primary text layer corrupts
 some digits and fractions; the surrounding primary equations and an
 independent clean transcription agree, but an immutable page-image audit is
-still open. RG II prints no marked analogue. Carrying the plaquette mark
-through cutoffs, conditioning, weakening, and final polymerization, proving
-its norm and hull crosswalk, and synchronizing each shifted gas remain open.
+still open. RG II prints no marked analogue. Note 0021 subsequently carries
+the plaquette mark through the finite fixed-partition algebra. Proving its
+actual norm and hull crosswalk and synchronizing each shifted gas remain open.
+
+## 2026-07-22 -- fixed-partition marked Section-2 audit
+
+[RG II Cluster
+Expansions](https://doi.org/10.1007/BF01239022) Eqs. (2.1)--(2.10) were
+rechecked specifically for the operations encountered by one distinguished
+localized source mark. Equation (2.1) uses an unordered Mayer subset with no
+factorial. Equation (2.2)'s unmarked seed must be replaced by
+\(A\cup\bigcup_{Y\in D}Y\) before Eq. (2.3)'s cutoff split and exterior-bond
+inclusion--exclusion. The \((-1)^{|P|}\) sign remains unmarked.
+
+The global cutoff, Gaussian law, quadratic operator, fixed background/chart,
+partition, and unmarked potentials are source-parameter independent at Note
+0011's seam. The derived split, allowed \(P\)'s, smallest \(Z_0\), conditioned
+restriction, \(Z_0'\), weakening family, and allowed outputs nevertheless
+depend on \(A\) through the marked seed and must be reconstructed. Equation
+(2.8) weakens the entire transformed integrand, so its derivatives can hit
+the mark through transformed fluctuation arguments.
+
+Equation (2.10)'s component factorization then has exactly one marked factor:
+the root-retaining component carries the decorated derivative and every other
+component carries ordinary \(H\). Note 0021 records this finite algebra and
+the exact hard-core numerator. RG II remains unmarked and supplies no direct
+marked conditioning/weakening estimate. The accessible scan corrupts some
+operator glyphs in Eqs. (2.3), (2.5), (2.6), and (2.8); their operation types
+and support rules are clear, but a clean immutable page-image transcription
+is still required before quoting every symbol verbatim.

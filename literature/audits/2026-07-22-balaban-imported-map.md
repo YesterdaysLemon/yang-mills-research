@@ -325,11 +325,14 @@ premises are not imported source theorems. [Note
 the exact one-mark Ursell algebra and a conditional pinned bound for one fixed
 hard-core gas. It keeps the \(1/n!\) distinguished-slot factor, repeated
 labels, the wall-contact compatibility convention, and each shifted branch
-separate. It does not import a marked Lemma 3 or construct the
-post-conditioning mark. The scaled nonlinear \(U\) pullback, uniform
-realization of Note 0019's geometry, actual fixed-partition marked
-construction, hull crosswalk, convergence, and physical connected estimate
-remain open.
+separate. [Note
+0021](../../research/notes/0021-one-mark-section2-factorization.md)
+subsequently constructs the exact decorated post-conditioning mark and unique
+marked-component factorization on one compatible fixed partition. Neither
+note imports a marked Lemma 3. The scaled nonlinear \(U\) pullback, uniform
+realization of Note 0019's geometry, actual fixed-partition marked estimate,
+hull crosswalk, shifted synchronization, convergence, and physical connected
+estimate remain open.
 
 ## Regular configurations and gauge chart
 

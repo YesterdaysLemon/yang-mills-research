@@ -110,14 +110,16 @@ RG-scaled replacement hypotheses. Note 0019 proves a conditional all-layer
 and common-chart premises. Note 0020 proves the exact one-mark Ursell formula
 and a conditional pinned cluster bound for one fixed hard-core gas, and shows
 that bare shifted marks cannot be mixed without branch synchronization or a
-proved common-gas embedding. It does not construct
-the post-conditioning marked activity or prove the synchronization, marked
+proved common-gas embedding. Note 0021 constructs the exact decorated
+post-conditioning activity, unique marked-component factorization, and finite
+hard-core numerator on one compatible fixed partition. It does not prove the
+direct marked conditioning/weakening domination, synchronization, marked
 norm, convergence, or hull-weight premises. The scaled \(U\) pullback, uniform
 realization of Note 0019's premises, and full physical coarse-field
 derivative/quasilocal norm,
-the actual fixed-partition marked RG construction, unit-translation covariance,
-and a physical connected marked estimate are the first parts not settled by
-those auxiliary lemmas or the imported source-free theorem.
+the actual fixed-partition marked estimate, unit-translation covariance, and
+a physical convergent connected marked estimate are the first parts not
+settled by those auxiliary lemmas or the imported source-free theorem.
 
 ## Target theorem
 
@@ -217,9 +219,12 @@ infrared conclusions.
   and uniform-chart premises;
 - the exact fixed-gas distinguished-vertex Ursell identity, repeated-label
   convention, shifted-branch separation rule, and conditional pinned
-  Kotecky--Preiss implication (Note 0020), without the post-conditioning mark,
-  marked activity norm, hull crosswalk, absolute convergence, or synchronized
-  shifted RG construction needed for the physical application;
+  Kotecky--Preiss implication (Note 0020);
+- the exact fixed-partition decorated post-conditioning mark, unique
+  marked-component factorization, and finite hard-core numerator (Note 0021),
+  without the direct marked conditioning/weakening bound, actual activity
+  norm, hull crosswalk, absolute convergence, or synchronized shifted RG
+  construction needed for the physical application;
 - background-propagator decay and change-of-domain estimates;
 - RG I/II source-free local analytic polymer expansions.
 
@@ -260,9 +265,11 @@ None of those inputs supplies the displayed source-inserted polymer theorem.
 10. [ ] Carry exactly one rooted mark through RG II Eqs. (2.2)–(2.13), using
    Lemma 3 for the unmarked decorations, and prove the connected sum converges.
    Note 0020 settles the fixed-gas distinguished-slot algebra, including
-   \(1/n!\), repeated labels, and the conditional pinned bound. The cutoff,
-   conditioning, post-polymerization mark, hull metric, shift synchronization,
-   and convergence parts of this step remain open.
+   \(1/n!\), repeated labels, and the conditional pinned bound. Note 0021
+   settles the finite fixed-partition cutoff, conditioning, weakening,
+   post-polymerization image, component factorization, and hard-core numerator
+   algebra. The direct marked domination, gluing/hull metric, animal entropy,
+   shift synchronization, and convergence remain open.
 11. [ ] Perform the full symmetry/Ward-identity projection on the marked first
    jet and classify all position/orientation mixing.
 

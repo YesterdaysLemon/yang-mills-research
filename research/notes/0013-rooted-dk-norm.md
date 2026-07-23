@@ -199,8 +199,9 @@ has been paid explicitly through \(q_d\).
 
 It does not by itself make the marked activity compatible with the later
 Lemma 3 exponent, which spends further decay in the cluster construction. The
-next marked theorem must preserve enough of (8) while carrying the rooted seed
-through RG II Eqs. (2.2)--(2.13).
+later Note 0021 carries the rooted seed through the exact finite Section-2
+algebra and isolates the required marked domination, gluing, and animal
+entropy hypotheses; it does not prove them for the actual activities.
 
 ## Exact boundary
 
@@ -210,14 +211,15 @@ through RG II Eqs. (2.2)--(2.13).
 - It covers plaquettes strictly interior to one fixed partition. Note 0014
   subsequently supplies an RG-admitted shifted-family cover for
   boundary-crossing plaquettes and transport under the subgroup preserving the
-  next coarse lattice; unit-translation covariance and one-fixed-partition
-  cluster compatibility remain open.
+  next coarse lattice. Note 0021 subsequently proves one-fixed-partition
+  algebraic compatibility for an interior root; unit-translation covariance,
+  the marked norm, and shifted synchronization remain open.
 - The activities are local only in independent \((U,J,B)\). No locality or
   quasilocality after the physical specialization
   \((U,J)=(U_{k+1}(W),J_{k+1}(W))\) is inferred.
-- No cutoff-conditioned marked cluster sum, connected numerator/denominator
-  cancellation, marginal projection, profile-mixing theorem, or large-field
-  bound follows.
+- Note 0021 subsequently proves the exact cutoff-conditioned marked
+  numerator/denominator algebra. No marked decay/convergence theorem, marginal
+  projection, profile-mixing theorem, or large-field bound follows.
 - The result concerns the exact selected RG-coordinate branch, not the
   intrinsic coarea or unrestricted raw law.
 - No RG iteration, continuum construction, Osterwalder--Schrader

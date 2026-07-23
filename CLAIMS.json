@@ -473,7 +473,7 @@
       "open_objections": [
         "No independent human review has been recorded.",
         "The exact correspondence between the full YM-RG-010 exponent and every activity in RG II Lemma 2 still needs termwise transcription.",
-        "YM-RG-012 through YM-RG-014 supply the fixed-partition localization, standard-branch d_k norm, and an all-plaquette shifted cover; YM-RG-015 adds fixed-chart physical composition, and YM-RG-016 adds the exact auxiliary-J reduction plus conditional independent-variable derivative norms. Unit translations, one-fixed-partition compatibility, the uniform physical coarse-field derivative pullback, later Lemma-3 norm, and connected marked expectation remain open."
+        "YM-RG-012 through YM-RG-014 supply the fixed-partition localization, standard-branch d_k norm, and an all-plaquette shifted cover; YM-RG-015 adds fixed-chart physical composition, YM-RG-016 adds the exact auxiliary-J reduction plus conditional independent-variable derivative norms, and YM-RG-021 adds exact one-fixed-partition marked algebra. Unit translations, shifted synchronization, the uniform physical coarse-field derivative pullback, actual marked Lemma-3 norm, and convergent marked expectation remain open."
       ],
       "novelty_claim": false,
       "provenance": "AI-assisted finite-dimensional source split and elementary one-mark Mayer algebra at the cited RG-II seam; no novelty claimed.",
@@ -518,7 +518,7 @@
       "open_objections": [
         "No independent human review has been recorded.",
         "YM-RG-013 instantiates the standard four-dimensional wall-adjacency constant and a sufficient entropy margin, and YM-RG-014 transports it over the admitted shift orbit; compatibility with other weakening geometries remains open.",
-        "YM-RG-014 covers every plaquette with a coarse-lattice-preserving shifted family, YM-RG-015 supplies fixed-chart composition, and YM-RG-016 supplies the exact auxiliary-J reduction and conditional independent-variable derivative norms, but unit-translation covariance, one-fixed-partition compatibility, the uniform physical coarse-field derivative/quasilocal norm, later Lemma-3 norm, and the connected marked expansion remain open."
+        "YM-RG-014 covers every plaquette with a coarse-lattice-preserving shifted family, YM-RG-015 supplies fixed-chart composition, YM-RG-016 supplies the exact auxiliary-J reduction and conditional independent-variable derivative norms, and YM-RG-021 supplies exact one-fixed-partition marked algebra. Unit-translation covariance, shifted synchronization, the uniform physical coarse-field derivative/quasilocal norm, actual marked Lemma-3 norm, and the convergent marked expansion remain open."
       ],
       "novelty_claim": false,
       "provenance": "AI-assisted marked mixed-difference and matrix-Lipschitz corollary of the cited RG-I/II finite-regulator construction; no novelty claimed.",
@@ -563,7 +563,7 @@
       "open_objections": [
         "No independent human review has been recorded.",
         "The explicit log 64 margin must be checked against every later parameter choice and decay expenditure before iteration.",
-        "YM-RG-014 supplies a shifted family for every plaquette and coarse-lattice-preserving transport, but unit-translation covariance, minimizing-background quasilocality, one-fixed-partition cluster compatibility, and the connected one-mark cluster bound remain open."
+        "YM-RG-014 supplies a shifted family for every plaquette and coarse-lattice-preserving transport, and YM-RG-021 supplies exact marked algebra on one compatible fixed partition, but unit-translation covariance, minimizing-background quasilocality, shifted synchronization, the actual marked norm, and the convergent one-mark cluster bound remain open."
       ],
       "novelty_claim": false,
       "provenance": "AI-assisted finite-regulator geometry and entropy corollary of YM-RG-012 and the cited RG-I/II definitions; no novelty claimed.",
@@ -656,7 +656,7 @@
         "No independent human review has been recorded.",
         "YM-RG-016 transcribes the exact auxiliary J map and proves only a fixed-chart qualitative derivative decay; its sharp regulator-uniform chart and scale factors remain open.",
         "The Eq. (190) coordinate, multiscale-metric versus d_k, norm, uniform Cauchy-tube, convolution, and entropy crosswalk needed for a summable physical coarse-field derivative norm remains open.",
-        "One-fixed-partition compatibility and the connected marked Section-2 estimate remain open."
+        "YM-RG-021 subsequently supplies exact one-fixed-partition algebraic compatibility; the direct marked domination, rooted norm, convergence, and shifted synchronization remain open."
       ],
       "novelty_claim": false,
       "provenance": "AI-assisted finite-regulator analytic-composition corollary of YM-RG-014, Proposition 9, and RG I's source-defined physical auxiliary-J map on an explicitly assumed common background domain; no novelty claimed.",
@@ -838,7 +838,7 @@
         "H_T assumes exact no-length-increase in the tree lift. The error tau controls only proximity, and a discretization length loss would require an additional slope or additive constant.",
         "Uniformity holds only for fixed d, L, and M with bounded b, tau, h, h_q and common C_chi, c_1(alpha_gamma), E_J, Delta_J^{-1}, and prior activity constants.",
         "The comparison is only d_B <= C d_k+C_0. It does not repair YM-RG-017's counterexample to a regulator-uniform reverse comparison.",
-        "The result controls only the auxiliary-J chain-rule summand. It does not construct the RG-scaled U collar or U pullback, reconcile one fixed cluster partition, prove a connected marked estimate, control large fields, iterate the RG, construct the continuum theory, or establish a mass gap."
+        "The result controls only the auxiliary-J chain-rule summand. YM-RG-021 subsequently supplies exact marked algebra on one compatible fixed partition, but this claim does not construct the RG-scaled U collar or U pullback, prove the actual marked norm or convergent connected estimate, synchronize shifted branches, control large fields, iterate the RG, construct the continuum theory, or establish a mass gap."
       ],
       "falsification_tests": [
         "Move the mesh-switch point strictly outside the interface and reject charging the resulting partly outer coarse bond wholly at the inner scale.",
@@ -856,7 +856,7 @@
         "Derive the seam-aware ownership and surface-switch route from the exact Propagators-II domain and bond conventions, rather than retaining H_rho.",
         "Construct a uniform discrete tree lift and exact site/bond/plaquette support anchors for the shifted family, rather than retaining H_T and H_I.",
         "Prove every chart, margin, and source-kernel constant uniform over the regulator family.",
-        "Construct the missing RG-scaled U collar and U-chain pullback and then reconcile one fixed Section-2 cluster partition."
+        "Construct the missing RG-scaled U collar and U-chain pullback, audit YM-RG-021's exact compatible-partition algebra, and then prove the actual marked norm, convergence, and shifted synchronization."
       ],
       "novelty_claim": false,
       "provenance": "AI-assisted conditional cubical cell-map, graph-lift, and weighted auxiliary-J pullback corollary of the cited RG-I/Propagators-II definitions plus YM-RG-017; no novelty claimed.",
@@ -888,8 +888,8 @@
       ],
       "proof_anchor": "research/notes/0020-one-mark-ursell-identity.md",
       "known_limitations": [
-        "RG II is unmarked. This lemma differentiates its fixed-gas combinatorics but does not carry the plaquette mark through the cutoff expansion, Gaussian conditioning, weakening, component factorization, or final polymerization.",
-        "The post-polymerization positive mark W_p^post is not identified with the pre-Section-2 W_{k,p}^sigma from YM-RG-012 through YM-RG-014, and preservation of their weighted norm is open.",
+        "RG II is unmarked. This lemma differentiates only fixed-gas combinatorics. YM-RG-021 subsequently carries one distinguished mark through the finite Section-2 algebra on a fixed partition; neither claim proves the actual marked norm.",
+        "YM-RG-021 identifies the post-polymerization positive mark W_p^post as a decorated linear image of the pre-Section-2 W_{k,p}(A) family on one fixed partition, not as a termwise equality. Preservation of the weighted norm and shifted synchronization remain open.",
         "No nonvanishing common source disk, marked Lemma-3 analogue, absolute KP convergence, wall-contact hull/d_k crosswalk, or positive numerical output exponent is proved for the actual RG activities.",
         "Bare shifted-mark averaging does not prove H_sync. Shifted gas branches cannot be mixed or their labels erased without a common-gas embedding or complete branchwise construction.",
         "The Eq. (2.38)-(2.41) factors (1-8delta)(L/2)kappa and (1-10delta)(L/2)kappa are unmarked; their accessible primary text-layer digits have not received an immutable page-image audit.",
@@ -908,13 +908,64 @@
       "reviewers": [],
       "open_objections": [
         "No independent human review has been recorded.",
-        "Construct the post-conditioning marked activity and prove its exact relation to the pre-Section-2 plaquette decomposition.",
+        "Audit YM-RG-021's exact fixed-partition post-conditioning map and prove its conditional marked domination and gluing hypotheses for the actual activities.",
         "Prove the actual marked activity norm, KP condition, hull metric crosswalk, and absolute convergence with a positive retained exponent.",
         "Prove H_sync uniformly over every admitted shift or construct one common gas without invented cross-shift interactions.",
         "Obtain an immutable page-image check of the Eq. (2.38)-(2.41) exponent ledger."
       ],
       "novelty_claim": false,
       "provenance": "AI-assisted fixed-gas distinguished-vertex corollary of the cited unmarked connected-cluster formulas plus a standard pinned Kotecky-Preiss implication; no novelty claimed and no marked source theorem attributed to Balaban.",
+      "last_audited_commit": null
+    },
+    {
+      "id": "YM-RG-021",
+      "kind": "Lemma",
+      "statement": "At one finite regulator and on one fixed RG-II partition, suppose the background-centered plaquette mark has the rooted decomposition Delta_p=sum_{A superset Q_p} W_{k,p}(A) and the global cutoff, Gaussian law, quadratic operator, background, and coordinate chart are source-parameter independent. Rerunning RG II Eqs. (2.1)-(2.10) with the marked seed A union union_{Y in D}Y defines the exact decorated linear image W_p^post(C)=-partial_t H_{p,t}(C)|_0. In a disconnected output exactly the unique root-containing component carries W_p^post and every other component carries ordinary H, yielding the exact finite hard-core one-mark numerator. Under separately named direct marked-domination, common-domain, marked-gluing, uniform-smallness, and output-animal hypotheses, the conditional pointwise exponent is (1-8delta)(L/2)kappa and the rooted l1 exponent after one explicit entropy spend is (1-9delta)(L/2)kappa.",
+      "scope_and_quantifiers": "One finite regulator; one fixed RG-II localization partition; one plaquette strictly interior to its root cell; one first derivative of the source factor exp(-t Delta_p); independent (U,J,B) variables; finite Section-2 sums and integrals. The exact identities require source-independent global kernels and rerun every seed-derived split and restricted operator with A included. The displayed bounds are only conditional implications and do not assert that the actual Yang-Mills marked pipeline satisfies their added hypotheses.",
+      "status": "proved-in-repo",
+      "evidence_level": "E2",
+      "dependencies": [
+        "YM-RG-011",
+        "YM-RG-012",
+        "YM-RG-013",
+        "YM-RG-020"
+      ],
+      "external_hypotheses": [
+        "RG II Eqs. (2.1)-(2.10) for the finite unordered Mayer subset expansion, cutoff inclusion-exclusion, seed-dependent Z_0 resummation, Gaussian conditioning and standardization, covariance-square-root weakening, localization into H(Z,Z_0), and exact component factorization.",
+        "For the exact derivative, the Note-0011 source seam: the global cutoff, Gaussian law, quadratic operator, fixed background and chart, partition, and unmarked potentials are independent of the scalar source parameter; every marked derived domain and restricted operator is nevertheless reconstructed from its A-dependent seed.",
+        "For the conditional pointwise estimate, after at most one delta-unit of input tree-exponent overhead, direct absolute domination of every transformed and weakened marked term by its marked input norm times the same positive ordinary-decoration majorant used in Lemma 3, on one common conditioned and weakened complex domain.",
+        "For the conditional rooted norm, marked tree-gluing and scale-conversion inequalities, regulator- and root-uniform ordinary smallness constants, and a finite output-animal constant C_an(eta)."
+      ],
+      "sources": [
+        "https://doi.org/10.1007/BF01239022"
+      ],
+      "proof_anchor": "research/notes/0021-one-mark-section2-factorization.md",
+      "known_limitations": [
+        "The exact result is algebraic. The actual direct marked-domination, common conditioned domain, marked gluing inequalities, uniform constants, and output-animal estimate needed for the displayed conditional norm have not been proved.",
+        "The derived cutoff split, P-sum, Z_0, conditioned restriction, Z_0 prime, weakening family, and admissible outputs depend combinatorially on A and must be rerun; W_p^post is not a bare W_{k,p}(A) multiplying a precomputed unmarked H.",
+        "RG II Eq. (2.8) weakens the whole transformed integrand, so weakening derivatives may hit the mark through its transformed B arguments. The exact distinguished-slot map includes those terms, but their norm remains open.",
+        "No common source disk, absolute convergence, pinned Kotecky-Preiss condition, wall-contact hull/d_k crosswalk, or branchwise shifted synchronization is proved.",
+        "The result is local only in independent (U,J,B) coordinates and does not prove the physical U/J pullbacks, marginal projection, large fields, iteration, continuum construction, axioms, infrared decay, or mass gap."
+      ],
+      "falsification_tests": [
+        "Omit A from the seed or omit the D-empty term and lose the rooted or bare marked contribution.",
+        "Treat the marked factor as an untouched multiplier through Eq. (2.8) and omit weakening derivatives that hit its transformed arguments.",
+        "Use a source-dependent cutoff, covariance, saddle, background, or chart and omit its derivative terms.",
+        "Put the mark in every disconnected component instead of the unique root-containing component.",
+        "Differentiate the source-free Lemma-3 inequality rather than the finite marked integrand; H_t=H_0+tN is the elementary counterexample.",
+        "Retain the full pointwise exponent in a rooted l1 sum without paying output-animal entropy.",
+        "Mix shifted branches before their separate denominators and connected maps are formed."
+      ],
+      "reviewers": [],
+      "open_objections": [
+        "No independent human review has been recorded.",
+        "Prove the direct marked conditioned/weakening domination and every marked tree-gluing inequality instead of retaining them as hypotheses.",
+        "Prove the output-animal constant, canonical pinned condition, hull/d_k crosswalk, absolute convergence, and a common source disk with a positive retained exponent.",
+        "Repeat the complete construction uniformly on each admitted shifted partition before the normalized branchwise average.",
+        "Obtain a clean immutable page-image transcription of the OCR-damaged operator formulas used in Eqs. (2.3), (2.5), (2.6), and (2.8)."
+      ],
+      "novelty_claim": false,
+      "provenance": "AI-assisted one-distinguished-slot corollary of Balaban's unmarked finite Section-2 algebra and component factorization; no marked theorem is attributed to the source and no novelty is claimed.",
       "last_audited_commit": null
     },
     {
@@ -942,7 +993,8 @@
         "YM-RG-017",
         "YM-RG-018",
         "YM-RG-019",
-        "YM-RG-020"
+        "YM-RG-020",
+        "YM-RG-021"
       ],
       "external_hypotheses": [
         "The exact Eq. (0.12) averaging map, raw group-delta transform, fixed small-field domain, local gauge chart, minimizing branch, and background-propagator estimates recorded in the imported-map audit.",
@@ -959,7 +1011,7 @@
       "proof_anchor": "research/programs/003-first-source-jet-remainder.md",
       "known_limitations": [
         "This is an unproved small-field theorem specification.",
-        "YM-RG-010 fixes the operational selected-coordinate law, YM-RG-012 supplies a conditional independent-variable cube-count norm, YM-RG-013 upgrades the standard branch to d_k, YM-RG-014 supplies an all-plaquette shifted cover, YM-RG-015 supplies fixed-patch analytic physical composition, YM-RG-016 supplies the exact auxiliary-J reduction plus conditional independent-variable derivative norms, YM-RG-017 supplies a strict representative-J collar plus a homogeneous-layer J pullback, YM-RG-018 rules out naive raw U collars, YM-RG-019 supplies a conditional all-layer J pullback, and YM-RG-020 supplies exact fixed-gas one-mark Ursell algebra; intrinsic/raw comparison, global chart compatibility, the scaled U pullback, discharge of YM-RG-019's premises, unit translations, the post-conditioning marked activity and norm, hull crosswalk, shift synchronization, physical connected expansion, and projection remain open.",
+        "YM-RG-010 fixes the operational selected-coordinate law, YM-RG-012 supplies a conditional independent-variable cube-count norm, YM-RG-013 upgrades the standard branch to d_k, YM-RG-014 supplies an all-plaquette shifted cover, YM-RG-015 supplies fixed-patch analytic physical composition, YM-RG-016 supplies the exact auxiliary-J reduction plus conditional independent-variable derivative norms, YM-RG-017 supplies a strict representative-J collar plus a homogeneous-layer J pullback, YM-RG-018 rules out naive raw U collars, YM-RG-019 supplies a conditional all-layer J pullback, YM-RG-020 supplies fixed-gas one-mark Ursell algebra, and YM-RG-021 supplies the exact fixed-partition decorated Section-2 mark and component factorization; intrinsic/raw comparison, global chart compatibility, the scaled U pullback, discharge of YM-RG-019's premises, unit translations, the actual post-conditioning marked norm, hull crosswalk, shift synchronization, convergent physical connected expansion, and projection remain open.",
         "Even a proof would leave the second jet, large fields, RG iteration, continuum construction, and mass gap open."
       ],
       "falsification_tests": [
@@ -972,8 +1024,8 @@
       "reviewers": [],
       "open_objections": [
         "YM-RG-009 proves patch-local transported-chart covariance, but global overlap compatibility and comparison with the unrestricted raw transform remain open.",
-        "YM-RG-017 supplies the direct-J collar, dual Eq. (190) source convolution, and homogeneous-layer J pullback; YM-RG-018 proves that naive raw U collars collapse; YM-RG-019 supplies the forward all-layer J bridge only under unverified geometry, tree-lift, support, and uniform-chart premises. The scaled U collar and pullback, discharge of those premises, unit translations, and one-fixed-partition cluster compatibility remain open.",
-        "YM-RG-020 proves the abstract fixed-gas connected identity, but no rooted post-conditioning source-marked RG II activity, norm, hull bound, or convergent physical cluster expansion has been derived.",
+        "YM-RG-017 supplies the direct-J collar, dual Eq. (190) source convolution, and homogeneous-layer J pullback; YM-RG-018 proves that naive raw U collars collapse; YM-RG-019 supplies the forward all-layer J bridge only under unverified geometry, tree-lift, support, and uniform-chart premises; YM-RG-021 supplies exact one-fixed-partition marked algebra. The scaled U collar and pullback, discharge of those premises, unit translations, the actual fixed-partition marked norm, and shifted synchronization remain open.",
+        "YM-RG-020 proves the abstract fixed-gas connected identity and YM-RG-021 constructs the exact fixed-partition post-conditioning marked activity algebraically, but the direct marked domination, gluing, rooted norm, hull bound, shift synchronization, and convergent physical cluster expansion remain unproved.",
         "Uniform locality of the projected first-jet sector is unproved."
       ],
       "novelty_claim": false,
@@ -1004,7 +1056,8 @@
         "YM-RG-017",
         "YM-RG-018",
         "YM-RG-019",
-        "YM-RG-020"
+        "YM-RG-020",
+        "YM-RG-021"
       ],
       "external_hypotheses": [
         "The selected RG I Eq. (0.12) averaging map and raw group-delta transform, the separately named YM-RG-010 exact coordinate law, an explicit intrinsic-coordinate-unrestricted distinction, exact marked domain/norm transcription, and every needed source-free small- and large-field estimate verified in full text before use."
@@ -1029,7 +1082,7 @@
       ],
       "reviewers": [],
       "open_objections": [
-        "The selected branch has patch-local transported-chart covariance, a source disk, an all-plaquette coarse-lattice-equivariant d_k marked family, fixed-patch physical composition, the exact auxiliary-J reduction, a strict representative-J collar, a conditional all-layer J pullback, a proof that naive raw U collars collapse, and YM-RG-020's fixed-gas one-mark Ursell algebra. YM-RG-019's geometric premises, the scaled U pullback, global overlap compatibility, unit translations, the post-conditioning marked activity and norm, hull and shift synchronization, physical connected estimate, later-Lemma-3 profile norms, and relation to the unrestricted raw transform remain open.",
+        "The selected branch has patch-local transported-chart covariance, a source disk, an all-plaquette coarse-lattice-equivariant d_k marked family, fixed-patch physical composition, the exact auxiliary-J reduction, a strict representative-J collar, a conditional all-layer J pullback, a proof that naive raw U collars collapse, YM-RG-020's fixed-gas Ursell algebra, and YM-RG-021's exact fixed-partition decorated mark and component factorization. YM-RG-019's geometric premises, the scaled U pullback, global overlap compatibility, unit translations, the actual marked norm, hull and shift synchronization, convergent physical connected estimate, later-Lemma-3 profile norms, and relation to the unrestricted raw transform remain open.",
         "The theorem may duplicate or fail to follow from existing source-free estimates.",
         "The source-dependent extension of the separate large-field operation has not been derived."
       ],

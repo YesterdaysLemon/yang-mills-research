@@ -368,8 +368,9 @@ for the impossible raw-radius premise.
 - The p. 263 inclusion is used in (25) only under the explicitly named
   smaller-domain, representative, chart, and uniform Lipschitz hypotheses.
   RG I Theorem 3 allows its small-field constants to depend on fixed \(M\).
-- No \(U\)-derivative norm in a concrete RG-scaled Banach space, physical
-  chain-rule pullback, connected marked expansion, large-field estimate, RG
+- Note 0021 subsequently supplies exact fixed-partition marked algebra. No
+  \(U\)-derivative norm in a concrete RG-scaled Banach space, physical
+  chain-rule pullback, convergent marked expansion, large-field estimate, RG
   iteration, continuum construction, infrared decay, or mass gap follows.
 
 ## Falsification checks

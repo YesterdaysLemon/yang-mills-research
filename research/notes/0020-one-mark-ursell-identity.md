@@ -29,6 +29,8 @@ polymer gas, explains its factorial, and gives a conditional weighted rooted
 bound. It does not prove that the plaquette mark of Notes 0011--0014 survives
 RG II's cutoff expansion, Gaussian conditioning, covariance weakening,
 component factorization, and final polymerization with the required norm.
+Note 0021 subsequently proves the exact finite fixed-partition passage and
+component identity while leaving that norm conditional.
 
 The source is unmarked. Its exact relevant conventions are as follows.
 
@@ -438,9 +440,11 @@ Thus (10) uses \(M_p=-W_p^{\rm post}\) in the
 \(+\partial_t\log Z\) convention, or the rooted series with the positive
 \(W_p^{\rm post}\) is written for
 \(-\partial_t\log Z|_{t=0}\). The two conventions must not be combined.
-Proving that \(W_p^{\rm post}\) is the exact image of the pre-Section-2
-\(W_{k,p}^\sigma\) from Notes 0012--0014, with the required norm, is part of
-\((\mathrm H_{\rm sync})\) and remains open.
+Note 0021 subsequently proves, on one fixed compatible partition, that
+\(W_p^{\rm post}\) is the exact decorated linear image of the pre-Section-2
+family. It does not prove the required norm or repeat the construction
+uniformly over \(\sigma\); those parts of \((\mathrm H_{\rm sync})\) remain
+open.
 Note 0011's explicit minimizing-background contribution remains outside this
 fluctuation gas and must be restored in the full first jet.
 
@@ -564,10 +568,11 @@ tests](../../tests/test_rooted_ursell_coefficients.py).
   inferred from unmarked Lemma 3.
 - Equations (24)--(25) are conditional on a complete branchwise synchronized
   source construction. Bare-mark averaging from Note 0014 is not enough.
-- The exact passage of the mark through RG II Eqs. (2.2)--(2.10), including
-  sharp cutoffs, Gaussian conditioning, weakening, and component
-  factorization, remains unproved. So does the identification of the final
-  \(M_p^\sigma\) with Notes 0012--0014's \(W_{k,p}^\sigma\).
+- Note 0021 subsequently proves the exact fixed-partition passage of the mark
+  through RG II Eqs. (2.2)--(2.10), including sharp cutoffs, Gaussian
+  conditioning, weakening, and component factorization, and identifies the
+  final mark as a decorated linear image of the earlier rooted family. Its
+  direct marked bound and uniform shifted-branch version remain unproved.
 - Nonvanishing, a common source disk, absolute KP convergence, a marked
   Lemma-3 analogue, the exact hull/\(d_k\) gluing inequality, and a uniform
   fixed-partition expansion for every admitted shift remain open.

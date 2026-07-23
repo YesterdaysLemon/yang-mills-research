@@ -456,9 +456,10 @@ repair the reverse bound.
   only the reverse metric comparison.
 - Uniformity of \(C_\chi\) and the local coefficients in (13) remains open.
   A finite fixed-chart constant is not an RG-iteration theorem.
-- No one-fixed-partition compatibility, connected marked expectation,
-  large-field estimate, RG iteration, continuum construction, infrared
-  decay, or Yang--Mills mass gap follows.
+- Note 0021 subsequently supplies exact one-fixed-partition marked algebra.
+  No marked norm or convergent expectation, large-field estimate, RG
+  iteration, continuum construction, infrared decay, or Yang--Mills mass gap
+  follows.
 
 ## Falsification checks
 

@@ -344,9 +344,11 @@ continuous Euclidean symmetry in a continuum limit, remain open.
 - The exact leading prefactor lost by the accessible RG-II Eq. (1.32) text
   layers remains visually unaudited. Only Note 0013's source-safe consequence
   is used.
-- No cutoff-conditioned connected marked sum, marginal projection, profile
-  mixing theorem, large-field estimate, RG iteration, continuum construction,
-  infrared decay, or mass gap follows.
+- Note 0021 subsequently proves the exact cutoff-conditioned marked algebra
+  on one fixed compatible branch. It does not synchronize the shifted family.
+  No convergent marked norm, marginal projection, profile mixing theorem,
+  large-field estimate, RG iteration, continuum construction, infrared decay,
+  or mass gap follows.
 
 ## Falsification checks
 

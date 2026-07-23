@@ -393,3 +393,60 @@ define the resulting \(W_p^{\rm post}\) before attempting a norm. Then prove
 the wall-contact hull inequality and a marked analogue of the Lemma-3/KP
 budget. Only after that fixed branch closes should the complete construction
 be repeated uniformly for each admissible shift and averaged.
+
+## 2026-07-22 -- one marked component through the RG-II Section-2 map
+
+### Established
+
+- Proved YM-RG-021 at one finite regulator and on one fixed compatible
+  partition. The localized source factor is inserted before RG II Eq. (2.2)
+  with the marked seed
+  \(Y_0^\bullet=A\cup\bigcup_{Y\in D}Y\), including
+  \(D=\varnothing\) and with no Mayer-subset factorial.
+- Separated globally source-independent objects from seed-derived geometry.
+  The global cutoff, Gaussian law, quadratic operator, fixed background/chart,
+  partition, and unmarked potentials are not differentiated, but every
+  marked cutoff split, \(P\)-sum, \(Z_0\), conditioned restriction,
+  \(Z_0'\), weakening family, and admissible output is reconstructed using
+  \(A\) in the seed.
+- Defined the exact decorated linear image
+  \[
+  W_p^{\rm post}(C)
+  =\sum_{A\supset Q_p}\mathcal T_{\pi;C,A}[W_{k,p}(A)]
+  =-\partial_tH_{p,t}(C)|_{t=0}.
+  \]
+  Equation (2.8)'s weakening derivatives act on the entire transformed
+  integrand and may hit the mark; those contributions are included rather
+  than treating the mark as an untouched decoration.
+- Proved the unique marked-component factorization and exact finite hard-core
+  numerator. In a disconnected output, only the component containing the
+  retained root carries \(W_p^{\rm post}\); every other component carries
+  ordinary \(H\).
+- Isolated a conditional marked Lemma-3 interface. Direct marked-integrand
+  domination plus common conditioned domains and marked gluing would give the
+  pointwise \((1-8\delta)(L/2)\kappa\) exponent. A rooted \(\ell^1\) norm
+  must additionally pay output-animal entropy; one explicit delta-unit spend
+  leaves \((1-9\delta)(L/2)\kappa\).
+- Added exact-arithmetic tests for unique-component product differentiation,
+  absence of leakage onto non-root components, the hard-core one-mark
+  numerator, and the extra derivative created by a source-dependent auxiliary
+  factor.
+
+### Not established
+
+- No direct marked conditioning/weakening majorant, common transformed
+  complex domain, marked gluing theorem, output-animal constant, or actual
+  post-polymerization norm for the Yang--Mills activities.
+- No pinned Kotecky--Preiss verification, wall-contact hull crosswalk, common
+  source disk, absolute convergence, or branchwise shifted synchronization.
+- No physical nonlinear \(U\) pullback, discharge of YM-RG-019's premises,
+  marginal projection, large-field estimate, RG iteration, continuum
+  construction, axioms, infrared decay, or Yang--Mills mass gap.
+
+### Next decision
+
+Prove or falsify the direct marked-domination hypothesis at RG II Eq. (2.8),
+where weakening derivatives can hit the transformed mark. In parallel, prove
+the marked tree-gluing and wall-contact hull inequalities and pay the output
+animal entropy explicitly. Only after that fixed-partition norm closes should
+the construction be repeated uniformly on every admitted shifted branch.
