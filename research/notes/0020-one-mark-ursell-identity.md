@@ -34,7 +34,10 @@ component identity while leaving that norm conditional. Note 0023 gives one
 explicit standard-closed-cube realization of the hull, animal, and pinned-KP
 premises below. Subsequent Note 0024 identifies the final connected ordinary
 RG-II gas with that model and gives a displayed-hierarchy-compatible ordinary
-smallness window. Neither note supplies the required marked norm.
+smallness window. Subsequent Note 0026 supplies the required marked norm and
+instantiates this note's connected first-jet bound on one fixed gas under an
+explicit doubled-amplitude refinement together with Note 0024's separate
+ordinary KP ceiling.
 
 The source is unmarked. Its exact relevant conventions are as follows.
 
@@ -581,22 +584,25 @@ tests](../../tests/test_rooted_ursell_coefficients.py).
 - Equation (22) is conditional on the canonical pinned KP condition, the
   post-polymerization marked norm, and the weighted hull crosswalk. None is
   inferred from unmarked Lemma 3. Note 0023 supplies explicit sufficient
-  cubical and numerical conditions for the first and third premises, but not
-  the marked norm.
+  cubical and numerical conditions for the first and third premises, and Note
+  0026 subsequently supplies the marked norm for the source-faithful
+  fixed-partition plaquette mark.
 - Equations (24)--(25) are conditional on a complete branchwise synchronized
   source construction. Bare-mark averaging from Note 0014 is not enough.
 - Note 0021 subsequently proves the exact fixed-partition passage of the mark
   through RG II Eqs. (2.2)--(2.10), including sharp cutoffs, Gaussian
   conditioning, weakening, and component factorization, and identifies the
   final mark as a decorated linear image of the earlier rooted family. Note
-  0025 proves its fixed-term marked domination; marked-seed resummation, the
-  final marked norm, and the uniform shifted-branch version remain unproved.
+  0025 proves its fixed-term marked domination, and Note 0026 proves its
+  positive resummation and final norm on one fixed partition. The uniform
+  shifted-branch version remains unproved.
 - Note 0024 identifies the final connected ordinary RG-II support class and
   metric with Note 0023's model and supplies one explicit ordinary
-  KP-smallness window. Nonvanishing on a common **external-source** disk, the
-  marked Lemma-3 analogue, decorated-mark control, and a uniform
-  differentiated fixed-partition expansion for every admitted shift remain
-  open. Consequently the physical connected marked expansion remains open.
+  KP-smallness window. Note 0026 supplies the marked Lemma-3 analogue,
+  decorated-mark control, and the connected derivative at \(t=0\) for one
+  fixed gas. Nonvanishing on a common **external-source** disk and a uniform
+  expansion for every admitted shift remain open. Consequently the physical
+  connected marked expansion remains open.
 - The physical \(U\)-chain pullback, realization of Note 0019's geometric
   premises, marginal projection, large fields, RG iteration, continuum
   construction, Osterwalder--Schrader axioms, infrared decay, and the

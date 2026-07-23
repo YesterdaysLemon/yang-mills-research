@@ -123,15 +123,17 @@ Kotecky--Preiss/hull-weight package for a separately declared standard
 closed-cube gas. Note 0024 identifies the final connected ordinary RG-II gas
 with that model and supplies a displayed-hierarchy-compatible ordinary
 KP-smallness window. Note 0025 corrects the source variable map and proves
-the fixed-term marked bound with zero relative-moment cost. Marked-seed
-kernel decay, tree/scale gluing, the decorated marked norm, differentiated
-absolute convergence, and shifted synchronization remain open. The scaled
+the fixed-term marked bound with zero relative-moment cost. Note 0026 proves
+the positive marked-seed and scale resummations, decorated marked norm, and
+connected first derivative at \(t=0\) on one fixed gas under an explicit
+doubled-amplitude refinement and Note 0024's separate ordinary KP ceiling.
+A common source disk and shifted synchronization remain open. The scaled
 \(U\) pullback, uniform
 realization of Note 0019's premises, and full physical coarse-field
 derivative/quasilocal norm,
-the summed fixed-partition marked norm, unit-translation covariance, and
-a physical convergent connected marked estimate are the first parts not
-settled by those auxiliary lemmas or the imported source-free theorem.
+unit-translation covariance and a physical convergent connected marked
+estimate are the first parts not settled by those auxiliary lemmas or the
+imported source-free theorem.
 
 ## Target theorem
 
@@ -240,13 +242,14 @@ infrared conclusions.
 - the literal-union hull, volume-uniform geometric animal bound, and explicit
   sufficient pinned Kotecky--Preiss/hull-weight conditions for the separately
   declared standard closed-cube gas (Note 0023), together with the final
-  ordinary source-class/metric/species identification and explicit
-  sufficient displayed-hierarchy ordinary KP window (Note 0024), and the
+  ordinary source-class/species identification, one-sided source-metric
+  crosswalk, and explicit sufficient displayed-hierarchy ordinary KP window
+  (Note 0024), and the
   source-faithful fixed-term marked contour domination with zero moment cost
-  (Note 0025), but without the positive marked-seed kernel decay, tree/scale
-  gluing, decorated marked activity norm, differentiated absolute
-  convergence, or synchronized shifted RG construction needed for the
-  physical application;
+  (Note 0025), followed by the positive marked-seed/scale resummation,
+  decorated marked norm, and fixed-gas connected first derivative at \(t=0\)
+  (Note 0026), but without a common source disk or synchronized shifted RG
+  construction needed for the physical application;
 - background-propagator decay and change-of-domain estimates;
 - RG I/II source-free local analytic polymer expansions.
 
@@ -284,8 +287,9 @@ None of those inputs supplies the displayed source-inserted polymer theorem.
    common-chart premises for the exact shifted family; construct the nonlinear
    \(U\) collar and pullback in an RG-scaled regularity norm. Note 0018 proves
    that the naive raw alternatives cannot satisfy this step.
-10. [ ] Carry exactly one rooted mark through RG II Eqs. (2.2)–(2.13), using
-   Lemma 3 for the unmarked decorations, and prove the connected sum converges.
+10. [x] Carry exactly one rooted mark through RG II Eqs. (2.2)–(2.13) on
+   one fixed compatible partition, using Lemma 3 for the unmarked
+   decorations, and prove the connected first-jet sum converges.
    Note 0020 settles the fixed-gas distinguished-slot algebra, including
    \(1/n!\), repeated labels, and the conditional pinned bound. Note 0021
     settles the finite fixed-partition cutoff, conditioning, weakening,
@@ -296,12 +300,17 @@ None of those inputs supplies the displayed source-inserted polymer theorem.
     literal-union hull, animal entropy,
     and sufficient pinned-KP crosswalk in its declared standard closed-cube
     model. Note 0024 identifies the final connected ordinary source gas with
-    that model and gives an explicit sufficient ordinary smallness window.
+    that support model through a one-sided metric extension and gives an
+    explicit sufficient ordinary smallness window.
     Note 0025 proves the source-faithful fixed-term marked contour bound with
-    zero moment loss. The marked-seed kernel decay, tree/scale gluing and
-    final norm, differentiated convergence, and shift synchronization remain
-    open.
-11. [ ] Perform the full symmetry/Ward-identity projection on the marked first
+    zero moment loss. Note 0026 proves the marked-seed/scale resummation,
+    final norm, and connected derivative at \(t=0\) under its doubled
+    hierarchy plus the separate ordinary KP ceiling.
+11. [ ] Construct a common source disk and synchronize the complete
+    fixed-partition construction over every admitted shift without
+    cross-shift gas interactions; then compose the physical \(U/J\)
+    pullbacks.
+12. [ ] Perform the full symmetry/Ward-identity projection on the marked first
    jet and classify all position/orientation mixing.
 
 ## Falsification tests

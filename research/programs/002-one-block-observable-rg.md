@@ -146,14 +146,17 @@ connected ordinary RG-II gas with that model and gives a
 displayed-hierarchy-compatible ordinary KP-smallness window. [Note
 0025](../notes/0025-conditioned-mark-routing.md) corrects the Section-2
 variable map and proves the fixed-term marked contour bound with the original
-Eq. (1.34) norm and zero relative-moment cost. The positive marked-seed
-kernel decay and tree/scale gluing, decorated marked norm, differentiated
-absolute convergence, and shifted-branch synchronization remain unproved.
+Eq. (1.34) norm and zero relative-moment cost. [Note
+0026](../notes/0026-marked-seed-resummation.md) proves the positive
+marked-seed and scale resummations, the aggregated decorated marked norm, and
+the absolutely convergent first derivative at \(t=0\) on one fixed gas under
+an explicit doubled-amplitude refinement together with Note 0024's separate
+ordinary KP ceiling. A common source disk and shifted-branch synchronization
+remain unproved.
 Unit-translation covariance, the scaled nonlinear \(U\) collar and pullback,
 uniform realization of Note 0019's premises,
-the summed fixed-partition marked norm, the full physical
-coarse-background derivative norm, and a physical rooted connected bound
-remain open.
+the full physical coarse-background derivative norm, and a physical rooted
+connected bound remain open.
 
 ## Target statement
 
@@ -341,9 +344,9 @@ and no mass gap.
 - [x] Carry the localized mark through the finite RG II Eqs. (2.1)--(2.10)
   algebra on one fixed compatible partition, define its decorated
   post-polymerization image, and prove the unique marked-component and exact
-  hard-core numerator identities; see Note 0021. Proving the summed marked
-  norm, differentiated convergence, and synchronized shifted construction
-  remains open.
+  hard-core numerator identities; see Note 0021. Note 0026 later proves the
+  summed marked norm and fixed-gas differentiated convergence; synchronized
+  shifted construction remains open.
 - [x] Apply one multivariable contour to the complete marked Eq. (2.8)
   integrand under explicit common \(L^1\)-holomorphy and joint-majorant
   hypotheses, retain no added product-rule multiplicity and the ordinary
@@ -354,17 +357,22 @@ and no mass gap.
   (2.14) variable routing and prove that the marked seed cutoff gives the
   fixed-term bound with unchanged second-stage radius,
   \(q_\gamma^\bullet=q_\gamma^{(0)}\), and zero moment loss; see Note 0025.
-  The positive marked-seed kernel decay and gluing estimates remain open.
+  Note 0026 subsequently closes the positive resummation.
+- [x] Prove the coloured \(D\)-family collision bound, \(P/Y_0/Z_0\)
+  coefficient preservation, doubled-amplitude scale susceptibility,
+  aggregated marked norm, and connected first-jet sum on one fixed gas; see
+  Note 0026. A common source disk and shifted synchronization remain open.
 - [x] In a separately declared standard closed-cube support model, prove the
   literal-union wall-contact hull inequality, a volume-uniform geometric
   animal bound, and explicit sufficient conditions for the canonical pinned
   Kotecky--Preiss and hull-weight interfaces; see Note 0023.
 - [x] Identify the final connected ordinary RG-II gas with Note 0023's
-  quotient cubical support class, contained-tree metric, incompatibility,
-  literal-union rule, and aggregated one-species convention, and exhibit a
-  displayed-hierarchy-compatible ordinary KP-smallness window; see Note 0024.
-  Intermediate support families and the decorated marked norm are not
-  covered.
+  quotient cubical support class, one-sided monotone source-metric extension,
+  incompatibility, literal-union rule, and aggregated one-species convention,
+  and exhibit a displayed-hierarchy-compatible ordinary KP-smallness window;
+  see Note 0024.
+  Intermediate support families are not covered by that source mapping; Note
+  0026 supplies a separate decorated marked corollary.
 - [x] Prove a common zero-free source disk from bounded observable range,
   conditional on the exact pointwise kernel and positive finite source-free
   weighted partition function; see Note 0007. This does not supply a complex

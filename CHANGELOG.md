@@ -4,6 +4,33 @@ All notable research-structure and claim-status changes are recorded here. Mathe
 
 ## 2026-07-23
 
+- Added YM-RG-026, a source-faithful one-colour corollary of RG II Eqs.
+  (2.26)--(2.38). The finite \(D\)-subfamily collision is counted exactly,
+  giving \(\varepsilon_\bullet=2\alpha _6^{-1}\mathcal B_\bullet\);
+  the \(P/Y_0/Z_0\) resummation preserves that root coefficient.
+- Proved the later scale stage by colour erasure and one positive
+  susceptibility,
+  \(y\partial_x\mathscr S_x\le(y/2x)\mathscr S_{2x}\), under the explicit
+  refinement that every ordinary scale-stage smallness condition also holds
+  at \(2\varepsilon _2\). This yields
+  \(C_{\rm sec}=4K_{\rm lift}\alpha _6^{-1}\) and the pointwise
+  \((1-8\delta)(L/2)\kappa\) exponent.
+- Closed the aggregated marked norm at exponent
+  \((1-9\delta)(L/2)\kappa\) and the connected first derivative at \(t=0\)
+  on one fixed gas at output exponent \(\kappa\), under the separately
+  retained ordinary ceiling
+  \(0<\varepsilon _1\le\varepsilon_{\rm KP}\). The
+  doubled-\(\varepsilon _2\) conditions do not imply this pinned-KP premise.
+  A common source disk, shifted synchronization, physical pullbacks, and
+  every continuum/mass-gap gate remain open.
+- Corrected the tree-metric crosswalk: Balaban's \(d_j\) is not identified
+  with Note 0023's auxiliary degenerate metric. Instead
+  \(d_{\rm aux}\le d_j\) and a direct source-metric
+  \(\sqrt{D+3}\) connector feed a new monotone-metric extension with the
+  same animal/KP constants. Note 0013's safe comparison is correspondingly
+  \(d_k(Y)\le m(Y)+1\), with one overall \(e^a\) prefactor.
+- Added exact-arithmetic collision, connector, susceptibility, constant, and
+  exponent regressions; added OBJ-030 and a new immutable-page source audit.
 - Published the S1 correction YM-RG-025 after direct immutable-page
   inspection of RG II Eqs. (2.3), (2.5), (2.6), (2.8), and (2.14).
   Contrary to the earlier schematic, the localized mark remains a function

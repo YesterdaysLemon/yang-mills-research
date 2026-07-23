@@ -294,7 +294,7 @@ a=(1-2\delta)\kappa,
 q_d=\frac{64e^a}{e^{\kappa_1}-1},
 \qquad
 \mathcal B_d=
-\frac{C_{\rm mark}e^{16\kappa_1}\varepsilon_1}{1-q_d}.
+\frac{e^aC_{\rm mark}e^{16\kappa_1}\varepsilon_1}{1-q_d}.
 \tag{16}
 \]
 
@@ -345,7 +345,7 @@ r_{U,\sigma,Y}^{-1}
 then the same sum closes only when \(q_de^{\theta_U}<1\), and its constant is
 
 \[
-\frac{c_UC_{\rm mark}e^{16\kappa_1}\varepsilon_1}
+\frac{c_Ue^aC_{\rm mark}e^{16\kappa_1}\varepsilon_1}
 {1-q_de^{\theta_U}}.
 \tag{21}
 \]

@@ -711,3 +711,78 @@ Transcribe and adapt RG II Eqs. (2.26)--(2.32). Combine the rooted input
 weight \(b_{p,A}\) with the ordinary \(D\)-weights for the enlarged seed,
 then prove or sharply delimit the first marked tree-gluing and scale
 conversion inequality.
+
+## 2026-07-23 -- fixed-partition marked-seed resummation
+
+### Established
+
+- Audited the immutable RG-II pp. 17--20 ledger for Eqs. (2.26)--(2.38).
+  The source is unmarked; every coloured statement below is a repository
+  corollary.
+- Proved the exact finite-family collision identity for
+  \(D\mapsto D\cup\{A\}\). Because Eq. (2.1) has no \(1/|D|!\), the two
+  possible preimages cost a safe factor \(2\), yielding
+  \[
+  \varepsilon_\bullet
+  =2\alpha _6^{-1}\mathcal B_\bullet
+  \]
+  at the \((1-4\delta)\kappa\) stage.
+- Adapted the printed \(P,Y_0,Z_0\) positive estimates. The unique root has
+  no empty-component case, the ordinary components retain
+  \(\varepsilon _2\), and the marked coefficient survives to the
+  \((1-5\delta)\kappa\) analogue of Eq. (2.35).
+- Proved the whole scale step by coefficientwise colour erasure. For the
+  finite positive majorant,
+  \[
+  \mathscr S^\bullet_{x,y}(Z)
+  \le y\partial_x\mathscr S_x(Z)
+  \le\frac{y}{2x}\mathscr S_{2x}(Z).
+  \]
+  Imposing every ordinary scale-stage smallness condition at
+  \(2\varepsilon _2\) gives
+  \[
+  |W_p^{\rm post}(Z)|
+  \le4K_{\rm lift}\alpha _6^{-1}\mathcal B_\bullet
+  e^{-(1-8\delta)(L/2)\kappa d_{k+1}(Z)}.
+  \]
+- Combined that pointwise estimate with the already proved animal,
+  final-gas, and pinned-KP interfaces. The aggregated fixed-partition marked
+  norm has exponent \((1-9\delta)(L/2)\kappa\), and the connected first
+  derivative at \(t=0\) converges at output exponent \(\kappa\), under the
+  separately imposed ordinary ceiling
+  \(0<\varepsilon _1\le\varepsilon_{\rm KP}\).
+- Corrected a source-metric overidentification found by the proof red-team.
+  The auxiliary degenerate tree size satisfies
+  \(d_{\rm aux}\le d_j\), while a direct contained-tree construction proves
+  the same \(\sqrt7\) connector for \(d_j\). Note 0023's monotone-metric
+  extension transfers the animal and KP constants without metric equality.
+  Note 0013 now uses \(d_k(Y)\le m(Y)+1\), costing one overall \(e^a\)
+  factor and avoiding an unsupported singleton convention.
+- Added exact algebraic regressions and requested three independent AI
+  audits. They found one missing rooted summation qualifier and the two
+  final-stage premises just described; all were repaired. No fatal defect
+  remained in their audited scope, and no independent human review was
+  performed.
+
+### Not established
+
+- No nonvanishing common external-source disk or analytic control at
+  \(t\ne0\).
+- No branchwise shifted-partition synchronization, unit-translation
+  covariance, or physical \(U/J\) pullback.
+- No proof that every imported but unenumerated source restriction is
+  preserved under the doubled-amplitude refinement.
+- No derivation of the ordinary KP ceiling from the doubled-amplitude
+  refinement; it remains a separate explicit smallness premise.
+- No intrinsic/raw comparison, large-field estimate, RG iteration,
+  continuum or infinite-volume construction, axioms, infrared decay, or
+  Yang--Mills mass gap.
+
+### Next decision
+
+Use the fixed-partition theorem as a completed local input. Attack shifted
+branch synchronization next: formulate each shifted gas on its own
+\(\pi^\sigma\), prove uniform constants and a common \(t=0\) derivative
+representation, and only then average the already connected branch
+coefficients. In parallel, keep the physical \(U/J\) pullbacks and Note
+0019's geometry premises as separate gates.

@@ -203,7 +203,7 @@ a=(1-2\delta)\kappa,
 q_d=\frac{64e^a}{e^{\kappa_1}-1},
 \qquad
 \mathcal B_d=
-\frac{C_{\rm mark}e^{16\kappa_1}\varepsilon_1}{1-q_d}.
+\frac{e^aC_{\rm mark}e^{16\kappa_1}\varepsilon_1}{1-q_d}.
 \tag{9}
 \]
 
@@ -345,10 +345,11 @@ continuous Euclidean symmetry in a continuum limit, remain open.
   layers remains visually unaudited. Only Note 0013's source-safe consequence
   is used.
 - Note 0021 subsequently proves the exact cutoff-conditioned marked algebra
-  on one fixed compatible branch. It does not synchronize the shifted family.
-  No convergent marked norm, marginal projection, profile mixing theorem,
-  large-field estimate, RG iteration, continuum construction, infrared decay,
-  or mass gap follows.
+  on one fixed compatible branch, and Note 0026 proves that branch's
+  convergent marked norm and first jet. Neither synchronizes the shifted
+  family. No marginal projection, profile-mixing theorem, large-field
+  estimate, RG iteration, continuum construction, infrared decay, or mass gap
+  follows.
 
 ## Falsification checks
 

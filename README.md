@@ -47,26 +47,31 @@ The main route is a Wilson lattice regulator followed by gauge-covariant renorma
 - [Note 0023: fixed-cubical hull, animal entropy, and pinned KP](research/notes/0023-fixed-cubical-hull-animals-kp.md)
 - [Note 0024: Balaban final-gas cubical instantiation and explicit KP window](research/notes/0024-balaban-final-gas-instantiation.md)
 - [Note 0025: source-faithful conditioned routing of one localized mark](research/notes/0025-conditioned-mark-routing.md)
+- [Note 0026: positive marked-seed resummation through the RG-II scale step](research/notes/0026-marked-seed-resummation.md)
 - [Bałaban theorem-level source map](literature/audits/2026-07-22-balaban-source-map.md)
 - [Bałaban imported-map audit](literature/audits/2026-07-22-balaban-imported-map.md)
 - [Bałaban final-gas/KP source audit](literature/audits/2026-07-22-balaban-final-gas-kp-map.md)
 - [Bałaban conditioned-mark routing audit](literature/audits/2026-07-23-balaban-conditioned-mark-routing.md)
+- [Bałaban marked-resummation source audit](literature/audits/2026-07-23-balaban-marked-resummation.md)
 
-Programs 002 and 003 are open theorem specifications, not results. The notes prove elementary conditional spectral, finite-regulator differentiation, and patch-local selected-branch consequences. They separately name both the intrinsic positive Borel branch kernel and the exact normalized RG-I Gaussian/cutoff coordinate law; neither is identified with the unrestricted raw fiber. A first marked insertion now has an exact background split, finite Mayer identity, rooted decomposition, a conditional RG-II \(d_k\)-weighted norm, and a normalized RG-admitted shifted-root cover for every plaquette in independent variables. On one common physical \((U,J)\) background chart, Note 0015 composes that family and records the exact chain rules; Note 0016 identifies \(J\) with RG I's finite-stencil holomorphic field and proves conditional independent-variable derivative norms on explicit complex tubes at fixed regulator. Note 0017 uses RG I's strict smaller physical representative domain to give a direct-\(J\) sup-norm collar, proves the exact source-measure cancellation and dual \(d_{\mathcal B}\) kernel sum, and obtains a conditional no-volume-loss pullback for the auxiliary-\(J\) chain-rule summand on one matched homogeneous layer. It also shows that the reverse fixed-scale/multiscale bound is not uniform across arbitrary layers. Note 0019 proves the forward all-layer extension under explicit seam-aware ownership, source-admissible interface, exact discrete-tree-lift, support-halo, mesh, and common-chart hypotheses; none of those new premises is silently attributed to the source. Note 0018 proves that a full complex raw per-bond \(U\)-log collar must collapse as \(O(\xi^2)\), and as \(O(\xi)\) in the scaled \(U_A=e^{i\xi A}U\) coordinate, even at the flat background; it replaces that impossible premise by explicit conditional hypotheses for a stronger RG-scaled regularity norm. This still does not prove physical coarse-field quasilocality: the concrete scaled \(U\) collar and pullback, uniform realization of Note 0019's premises, and full chart coefficients remain open. Note 0021 now gives one-fixed-partition algebraic compatibility for an interior rooted mark by rerunning the cutoff, conditioning, and weakening pipeline with that mark in the seed. The cover remains covariant only under finite-lattice symmetries preserving the next coarse lattice; full fine-lattice translation covariance, branchwise fixed-partition synchronization, the actual marked norm, the full physical coarse-derivative norm, and the convergent connected marked expansion remain open. The later work is to close those estimates, iterate to the dynamically generated scale, construct the continuum theory, and obtain regulator-uniform estimates while preserving nontrivial Yang--Mills ultraviolet behavior. No such Yang--Mills estimate is claimed here.
+Programs 002 and 003 are open theorem specifications, not results. The notes prove auxiliary finite-regulator and fixed-chart statements for a selected small-field branch; they do not identify that branch with the unrestricted raw transform. Notes 0021, 0025, and 0026 now carry one interior plaquette mark through the exact fixed-partition RG-II algebra, the source-faithful conditioned formula, and the positive \(D/P/Z_0\) plus scale resummations. Under the explicit doubled-\(\varepsilon _2\) refinement, this gives a fixed-partition pointwise bound and aggregated rooted marked norm; with Note 0024's separate ordinary KP ceiling, it also gives an absolutely convergent connected first derivative at \(t=0\). The result is still only in independent variables on one fixed gas. A common external-source disk, shifted-partition synchronization, unit-translation covariance, the scaled nonlinear \(U\) pullback, uniform realization of Note 0019's \(J\)-bridge premises, large fields, RG iteration, continuum construction, axioms, infrared decay, and the mass gap remain open. No Yang--Mills solution is claimed here.
 
 Note 0020 settles the exact distinguished-vertex Ursell formula, including
 its \(1/n!\) coefficient, repeated labels, and a conditional pinned cluster
 bound, for one fixed hard-core gas. Note 0021 now carries the localized mark
 through the finite RG-II Section-2 algebra, defines its decorated
 post-polymerization image, proves the unique marked-component factorization,
-and obtains the exact hard-core numerator. Its decay statement is explicitly
-conditional. Note 0025 now closes the direct fixed-term
-conditioning/weakening domination: the localized mark remains on the
-conditional interior \(B\), the marked seed cutoff supplies its Eq. (1.34)
-bound, and the relative Gaussian-moment cost is zero. The positive
-marked-seed resummation, actual decorated support/species identification,
-tree/scale gluing, numerical smallness, differentiated convergence, and
-branchwise shift synchronization remain open.
+and obtains the exact hard-core numerator. Note 0025 closes the direct
+fixed-term conditioning/weakening domination: the localized mark remains on
+the conditional interior \(B\), the marked seed cutoff supplies its
+Eq. (1.34) bound, and the relative Gaussian-moment cost is zero. Note 0026
+then proves the positive marked-seed resummation. The exact finite-subfamily
+collision costs a factor \(2\), while one doubled-amplitude susceptibility
+controls all later scale-stage choices. This yields
+\(C_{\rm sec}=4K_{\rm lift}\alpha _6^{-1}\), the
+\((1-8\delta)(L/2)\kappa\) pointwise exponent, the
+\((1-9\delta)(L/2)\kappa\) rooted marked norm, and the fixed-gas connected
+first-jet output at exponent \(\kappa\).
 
 Under its stated common \(L^1\)-holomorphy and joint-majorant hypotheses,
 Note 0022 proves that Eq. (2.8)'s whole-integrand weakening contour carries
@@ -75,9 +80,11 @@ with the ordinary Cauchy-radius factor if the marked term shares the source
 radius. It also corrects the conditional exponent bookkeeping to a parallel
 fork. Note 0025 corrects the earlier schematic transformed argument:
 Eqs. (2.5)--(2.14) never give the localized plaquette mark the standardized
-exterior \(X\) or second-stage weakening variables. The decisive missing
-estimate is now the positive \(A\)-to-output resummation of the enlarged
-marked seed, including its tree gluing and \(k\)-to-\(k+1\) scale conversion.
+exterior \(X\) or second-stage weakening variables. Note 0026 closes the
+resulting positive \(A\)-to-output resummation through the
+\(k\)-to-\(k+1\) scale conversion under the explicit requirement that every
+ordinary scale-stage smallness condition also hold at
+\(2\varepsilon _2\).
 
 Note 0023 closes the previously abstract hull/animal/KP implication inside a
 declared standard closed-cube model. The literal union pays an unavoidable
@@ -85,12 +92,17 @@ contact charge \(\sqrt7\) per ordinary occurrence in four dimensions, while
 an explicit rooted-animal estimate is uniform for
 \(\eta>64\log8\). Note 0024 then checks the immutable primary pages and
 identifies Balaban's final connected ordinary RG-II gas with that cubical
-model. It also exhibits a nonempty displayed-hierarchy-compatible
+support model through a one-sided source-metric comparison and a direct
+\(\sqrt7\) connector; it does not identify the source metric with the
+auxiliary degenerate-tree convention. It also exhibits a nonempty
+displayed-hierarchy-compatible
 \((\kappa,\varepsilon _1)\) sub-hierarchy satisfying the repository's
-explicit ordinary pinned-KP inequality. This is not yet the Yang--Mills
-estimate: marked-seed resummation, the final decorated marked norm, common
-external-source disk, shifted synchronization, physical pullbacks, and every
-continuum and infrared gate remain open.
+explicit ordinary pinned-KP inequality. Note 0026 imports that ordinary
+ceiling separately from its doubled-\(\varepsilon _2\) scale refinement.
+This is not yet the Yang--Mills estimate: Note 0026 closes the final
+decorated marked norm and connected first derivative only for one fixed gas
+at \(t=0\). A common external-source disk, shifted synchronization, physical
+pullbacks, and every continuum and infrared gate remain open.
 
 ## Evidence discipline
 

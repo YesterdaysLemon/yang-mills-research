@@ -415,11 +415,12 @@ and would not repair the old proof by itself: the composite reconstruction
 used to define \(W_{k,p}\) was proved only on its local analytic domain, and
 entireness without a growth order does not imply Gaussian integrability.
 
-## What remains
+## What remained at this checkpoint and the successor
 
 Equation (15) closes the direct conditioned-contour gate in Notes 0021--0022
 and sets the moment part of their loss ledger to zero. It does not sum over
-the marked seeds. The next estimate begins with a pinned version of the
+the marked seeds. At this checkpoint, the next estimate began with a pinned
+version of the
 source's Eqs. (2.27)--(2.29): the input decay of \(b_{p,A}\) must be combined
 with the ordinary \(D\)-weights to control
 
@@ -436,8 +437,8 @@ r_{\rm mom}=0,
 \tag{21}
 \]
 
-but a root/gluing or other geometric overhead may remain. The following are
-still open:
+but a root/gluing or other geometric overhead may remain. The following were
+therefore open at this checkpoint:
 
 - positive marked-seed \(A\)-to-\(Z\) kernel decay after every resummation;
 - the exact marked tree-gluing and scale-conversion inequalities;
@@ -449,6 +450,14 @@ still open:
 - large fields, RG iteration, the continuum theory, axioms, infrared decay,
   and the Yang--Mills mass gap.
 
+Subsequent [Note 0026](0026-marked-seed-resummation.md) closes the first
+three bullets and the fixed-partition part of the fourth: it proves the
+positive \(D/P/Z_0\) and scale resummations, controls the decorated
+multiplicity by a doubled-amplitude susceptibility, and obtains the rooted
+marked norm plus the absolutely convergent connected derivative at \(t=0\)
+on one fixed gas. It does **not** construct the regulator-uniform common
+source disk named in the fourth bullet. The last two bullets remain open.
+
 ## Exact boundary
 
 - The immutable source pages prove the variable-routing statements only for
@@ -457,6 +466,9 @@ still open:
 - Equations (10), (14), and (15) are fixed-term consequences. They neither
   differentiate an unmarked inequality nor infer a marked final activity
   from RG II Lemma 3.
+- Note 0026 is the separate successor that performs the positive marked
+  resummation; that later result does not enlarge this claim's fixed-history
+  scope.
 - The complex covariance causes no problem in pulling out (12): Eq. (2.15)
   first takes the absolute density and compares it with a positive Gaussian,
   while (12) is pointwise on the cutoff support.

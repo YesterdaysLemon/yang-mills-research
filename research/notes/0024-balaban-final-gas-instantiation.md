@@ -6,10 +6,10 @@ Kind: primary-source identification plus a conditional parameter-existence
 corollary
 
 Evidence: E2 (complete support/species mapping for the final ordinary gas,
-with the repository's explicit degenerate-tree and analytic-norm conventions,
-and an explicit sufficient parameter window under the displayed RG-I/RG-II
-hierarchy and the stated imported-monotonicity hypothesis; no marked activity
-estimate)
+with a proved one-sided auxiliary/source tree-metric crosswalk, the
+repository analytic-norm convention, and an explicit sufficient parameter
+window under the displayed RG-I/RG-II hierarchy and the stated
+imported-monotonicity hypothesis; no marked activity estimate)
 
 Novelty: none claimed
 
@@ -37,7 +37,7 @@ The final **connected ordinary polymer gas** constructed after RG II Eq.
 1. its species are the connected localization domains
    \(Z\in\mathcal D_{k+1}\), finite face-connected unions of closed cubes;
 2. its \(d_{k+1}\) is the side-length-normalized shortest contained-tree
-   metric used in Note 0023;
+   metric covered by Note 0023's monotone-metric extension;
 3. its hard-core incompatibility is exactly shared-cube or complete-wall
    contact;
 4. the internal \(D,P,Z_0\) histories are summed into one ordinary activity
@@ -76,10 +76,11 @@ all of them. The parameter conclusion is therefore conditional on those
 unlisted restrictions being preserved when \(\varepsilon _1\) is decreased,
 as every displayed \(\varepsilon _1\) restriction is.
 
-Neither statement supplies the post-polymerization marked norm. Note 0025
-subsequently proves the fixed-term marked conditioned-contour domination;
-marked-seed resummation and gluing, the source disk, and shifted
-synchronization remain open.
+Neither statement in this note supplies the post-polymerization marked norm.
+Note 0025 subsequently proves the fixed-term marked conditioned-contour
+domination, and Note 0026 supplies a separate one-colour resummation and
+fixed-partition norm under an explicit doubled-amplitude refinement. The
+common source disk and shifted synchronization remain open.
 
 ## The source cubulation and quotient convention
 
@@ -108,27 +109,50 @@ Equation (2) is exactly the support class declared in Note 0023. It also
 contains every face-connected literal union, rather than a selected subclass
 of shapes.
 
-## Equality of the two tree metrics
+## One-sided tree-metric crosswalk
 
 RG I defines \(d_j(X)\) by taking the length of a shortest tree graph that is
 contained in \(X\) and intersects every constituent cube, then dividing by
 the cube side \(M\). It stresses that the graph lies in continuous space and
 then states that a shortest graph can also be formed from cube edges.
 
-The latter shortest graph is a finite piecewise-linear contained tree, so it
-is admitted in Note 0023's infimum. Conversely, every tree admitted by Note
-0023 is a continuous-space contained tree of the class used in RG I.
-Consequently
+Write \(d_{\pi_j}^{\rm aux}\) for Note 0023's infimum, which explicitly
+allows a degenerate one-vertex tree. A shortest source graph formed from cube
+edges is a finite piecewise-linear contained tree, so it is admitted in that
+auxiliary infimum. Consequently
 
 \[
- d_j(X)=d_{\pi_j}(X).
+ d_{\pi_j}^{\rm aux}(X)\le d_j(X).
 \tag{3}
 \]
 
-In the Note-0023 formalization, a one-vertex, zero-edge tree is admitted. This
-is the standard degenerate-tree convention, but RG I does not separately
-spell it out. It should not be confused with a nearest-neighbor bond-tree
-metric.
+Equality is neither needed nor asserted. In particular, RG I does not spell
+out a one-vertex convention, while RG II Eq. (2.30) uses a positive
+volume-to-\(d_j\) comparison. Equation (3) keeps that source convention
+separate from the conservative auxiliary animal metric.
+
+The source metric itself has Note 0023's connector inequality. For a
+connected occurrence tuple, choose minimizing source trees in its supports
+and a spanning tree of the occurrence graph. Join two input trees inside
+their shared cube at cost at most \(M\sqrt D\), or inside the union of two
+face-adjacent cubes at cost at most \(M\sqrt{D+3}\), using a quotient-local
+lift at a periodic seam. The resulting connected finite graph is contained
+in the literal union and meets every constituent cube. Subdivision followed
+by graph-theoretic pruning gives an admitted source tree with no larger
+length. Hence
+
+\[
+d_j(R)
+\le d_j(A)+\sum_{i=1}^n d_j(X_i)+\sqrt{D+3}\,n.
+\tag{3a}
+\]
+
+Equations (3)--(3a) are precisely Note 0023's monotone-metric premises
+(15a)--(15b). Its cube-count, animal, pinned-KP, and rooted-output bounds
+therefore apply with \(d_j\) in every activity and output exponent, while
+the explicit auxiliary constant \(C_{\rm an}^{\rm geom}\) remains a valid
+upper bound. This is a one-sided comparison theorem, not a claim that the
+two tree conventions coincide.
 
 There are two equivalent coordinate descriptions at the second RG-II
 localization:
@@ -143,7 +167,8 @@ The first uses the preceding \(k\)-scale coordinates, in which a
 \(\pi_{k+1}\) cell has side \(LM\); the second rescales to the
 \(k+1\)-coordinates used in the RG-I definition. Only one of these scale
 factors may be applied. This note instantiates Note 0023 in the second
-convention, with \(s=M\).
+coordinate convention, with \(s=M\), through the monotone-metric extension
+rather than metric equality.
 
 ## Where the one final species comes from
 
@@ -304,7 +329,7 @@ Then \(\Delta>64\log8\). Choose the pinned weight
 \]
 
 The ordinary Note-0023 exponent ledger, together with the numerical budget
-that a future marked estimate would have to occupy, becomes
+subsequently occupied by Note 0026's marked estimate, becomes
 
 \[
   \begin{aligned}
@@ -318,8 +343,9 @@ that a future marked estimate would have to occupy, becomes
 
 In particular, \(0<32\alpha\le\Delta\) and
 \(a_{\rm out}+32\alpha\le a_\bullet^{\rm budget}\). The symbol
-\(a_\bullet^{\rm budget}\) is only the reserved exponent value suggested by
-the \(9\delta\) line; it is **not** a marked activity bound. Moreover,
+\(a_\bullet^{\rm budget}\) is only the reserved exponent value supplied by
+this unmarked note; it is **not by itself** a marked activity bound.
+Note 0026 later proves that bound independently. Moreover,
 
 \[
  C_{\rm an}^{\rm geom}(3\Delta/2)
@@ -392,7 +418,8 @@ this criterion, choose (13), or supply a numerical value for \(C_3\).
 - The final connected ordinary RG-II gas is no longer merely analogous to
   Note 0023's model: its support class, quotient seams, metric,
   incompatibility, literal union, and one aggregated ordinary species per
-  support instantiate that model.
+  support instantiate that model through the one-sided monotone-metric
+  extension.
 - Lemma 3 supplies the exact ordinary pointwise input form, uniformly on each
   relevant fixed-output source analytic domain; the norm notation used here
   is the repository supremum of that printed pointwise bound.
@@ -408,10 +435,11 @@ this criterion, choose (13), or supply a numerical value for \(C_3\).
 
 ## What remains open
 
-- The source gas is unmarked. No derivative of (1), marked Lemma-3 estimate,
-  post-polymerization marked norm, or marked gluing bound follows. Note 0025
-  separately proves a fixed-term cutoff domination for an inserted localized
-  mark, not a consequence of the unmarked activity bound (1).
+- The source gas and this claim are unmarked. No derivative of (1), marked
+  Lemma-3 estimate, post-polymerization marked norm, or marked gluing bound
+  follows from this note. Note 0025 separately proves a fixed-term cutoff
+  domination, and Note 0026 then proves a one-colour fixed-partition
+  resummation as a repository corollary under stronger smallness.
 - The intermediate \(Y_0,Z_0,\widetilde Z_0,Z'_0,X_0\) and random-walk
   supports retain their actual mixed-scale, disconnected, and interior-bond
   rules; this note proves no canonical least completion for them.
@@ -431,15 +459,17 @@ this criterion, choose (13), or supply a numerical value for \(C_3\).
    hull; diagonal separated seeds give competing minimal completions.
 3. Divide a \(k+1\)-rescaled tree length by \(LM\) and introduce a spurious
    extra factor \(L\).
-4. Retain \(D,P,Z_0\) as separate final species even though Eqs. (2.9) and
+4. Identify \(d_j\) with the auxiliary degenerate metric instead of proving
+   the one-sided comparison and the source-metric connector.
+5. Retain \(D,P,Z_0\) as separate final species even though Eqs. (2.9) and
    (2.13) sum them into \(H(Z)\).
-5. Import the \(\exp(5\kappa)\) factor from Eq. (2.39) into Lemma 3 and obtain
+6. Import the \(\exp(5\kappa)\) factor from Eq. (2.39) into Lemma 3 and obtain
    the wrong activity amplitude.
-6. Say that Lemma 3 prints (19), rather than deriving (19) by an additional
+7. Say that Lemma 3 prints (19), rather than deriving (19) by an additional
    repository choice of \(\alpha,\kappa,\varepsilon _1\).
-7. Differentiate (1) to obtain a marked bound; the elementary family
+8. Differentiate (1) to obtain a marked bound; the elementary family
    \(H_t=H_0+tN\) disproves that inference.
-8. Use (18) without also satisfying every earlier source restriction, or
+9. Use (18) without also satisfying every earlier source restriction, or
    choose \(\varepsilon _1\) before the constants entering \(C_3\) are fixed.
-9. Treat the unenumerated imported restrictions as proved downward-closed
+10. Treat the unenumerated imported restrictions as proved downward-closed
    merely because all restrictions displayed in RG I/II have that property.

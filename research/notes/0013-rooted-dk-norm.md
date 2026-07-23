@@ -27,20 +27,26 @@ is a connected finite union of \(M\)-cubes.
 RG I p. 257 writes the scale label as \(j\); this note relabels \(j=k\) and
 \(X=Y\). It defines \(d_k(Y)\) as \(M^{-1}\) times the length of a shortest
 tree graph contained in \(Y\) and meeting every cube of \(Y\). It also records
-the equivalent construction using cube edges. For the support (1), choose a
-spanning tree of the wall-adjacency graph on its \(m(Y)+1\) cubes and join the
-centers of adjacent cubes. Every segment has length \(M\), lies in the union
-of the two cubes sharing its wall, and the tree has \(m(Y)\) edges. Therefore
+an equivalent shortest construction using cube edges. For \(m(Y)\ge1\),
+choose a spanning tree of the wall-adjacency graph on its \(m(Y)+1\) cubes
+and join the centers of adjacent cubes. Every segment has length \(M\), lies
+in the union of the two cubes sharing its wall, and the tree has \(m(Y)\)
+edges. For \(m(Y)=0\), a single cube edge gives an admitted graph of normalized
+length \(1\). Thus, without imposing a degenerate one-vertex convention on
+the source metric,
 
 \[
-\boxed{d_k(Y)\le m(Y).}
+\boxed{d_k(Y)\le \max\{1,m(Y)\}\le m(Y)+1.}
 \tag{2}
 \]
 
-In particular \(d_k(Q_p)=0\), so the fully decoupled root term is retained.
+The fully decoupled root term is retained with the harmless weight
+\(e^a\). This avoids identifying Balaban's convention on singleton domains:
+RG II Eq. (2.30) is not compatible with using a zero singleton distance in
+every source estimate.
 For a different weakening partition made of larger \(R_1M_1\)-cubes, (2)
 must be replaced by an explicitly proved
-\(d_k(Y)\le c_{\rm geo}m(Y)\); no such generalization is used below.
+\(d_k(Y)\le c_{\rm geo}(m(Y)+1)\); no such generalization is used below.
 
 ## Imported pointwise estimate
 
@@ -96,7 +102,7 @@ Using (2), (3), and the animal count gives
 e^{a d_k(Y)}
 \sup_{\mathrm{Eq.\ (1.34)}|_Y}|W_{k,p}(Y)|\\
 &\qquad\le
-C_{\rm mark}e^{16\kappa _1}\varepsilon _1
+e^aC_{\rm mark}e^{16\kappa _1}\varepsilon _1
 \sum_{m\ge0}
 \left[
 \frac{D_0^2e^a}{e^{\kappa _1}-1}
@@ -114,7 +120,7 @@ Consequently, whenever \(q_d<1\),
 e^{(1-2\delta)\kappa d_k(Y)}
 \sup_{\mathrm{Eq.\ (1.34)}|_Y}|W_{k,p}(Y)|
 \le
-\frac{C_{\rm mark}e^{16\kappa _1}\varepsilon _1}{1-q_d}.
+\frac{e^aC_{\rm mark}e^{16\kappa _1}\varepsilon _1}{1-q_d}.
 }
 \tag{8}
 \]
@@ -124,7 +130,7 @@ This also gives the individual RG-II-style decay
 \[
 |W_{k,p}(Y)|
 \le
-\frac{C_{\rm mark}e^{16\kappa _1}\varepsilon _1}{1-q_d}
+\frac{e^aC_{\rm mark}e^{16\kappa _1}\varepsilon _1}{1-q_d}
 e^{-(1-2\delta)\kappa d_k(Y)}.
 \tag{9}
 \]
@@ -212,14 +218,16 @@ entropy hypotheses; it does not prove them for the actual activities.
   subsequently supplies an RG-admitted shifted-family cover for
   boundary-crossing plaquettes and transport under the subgroup preserving the
   next coarse lattice. Note 0021 subsequently proves one-fixed-partition
-  algebraic compatibility for an interior root; unit-translation covariance,
-  the marked norm, and shifted synchronization remain open.
+  algebraic compatibility for an interior root, and Note 0026 proves the
+  marked norm and first-jet sum on that fixed partition. Unit-translation
+  covariance and shifted synchronization remain open.
 - The activities are local only in independent \((U,J,B)\). No locality or
   quasilocality after the physical specialization
   \((U,J)=(U_{k+1}(W),J_{k+1}(W))\) is inferred.
 - Note 0021 subsequently proves the exact cutoff-conditioned marked
-  numerator/denominator algebra. No marked decay/convergence theorem, marginal
-  projection, profile-mixing theorem, or large-field bound follows.
+  numerator/denominator algebra, and Note 0026 proves the fixed-partition
+  marked decay and convergence theorem. No marginal projection,
+  profile-mixing theorem, or large-field bound follows.
 - The result concerns the exact selected RG-coordinate branch, not the
   intrinsic coarea or unrestricted raw law.
 - No RG iteration, continuum construction, Osterwalder--Schrader
@@ -229,8 +237,9 @@ entropy hypotheses; it does not prove them for the actual activities.
 
 - Replace wall adjacency by a different weakening geometry and check that the
   proof fails unless a new \(c_{\rm geo}\) is inserted.
-- Omit the root term \(m=0\) and lose \(d_k(Q_p)=0\).
-- Use \(d_k(Y)\le m(Y)\) in the wrong direction and observe that the weighted
+- Omit the root term \(m=0\) or its extra factor \(e^a\) and lose the
+  source-convention-safe singleton estimate.
+- Use \(d_k(Y)\le m(Y)+1\) in the wrong direction and observe that the weighted
   estimate no longer follows.
 - Set \(\delta\kappa=\log64\) and observe that (12) no longer proves strict
   convergence.

@@ -593,3 +593,83 @@ The first remaining estimate is the positive resummation of the enlarged
 seed through the source's Eqs. (2.26)--(2.32), including marked tree gluing
 and scale conversion. No final marked activity norm or physical connected
 observable follows yet.
+
+## 2026-07-23 -- marked-seed resummation through the RG-II scale step
+
+The same immutable RG-II PDF was inspected at printed pp. 17--20, Eqs.
+(2.26)--(2.38); its SHA-256 remains
+`EE39523A0F7B83AF958513C7BD6F9C7731934B40355EF5D6B0F7A68EE6D022FC`.
+The exact source ledger and repository/source boundary are recorded in the
+[marked-resummation
+audit](audits/2026-07-23-balaban-marked-resummation.md).
+
+The source sum in Eq. (2.1) is over finite subfamilies, with no
+\(1/|D|!\). For the enlarged marked seed this creates two possible
+preimages under \(D\mapsto D\cup\{A\}\) when an ordinary support equals the
+marked support. Combining this exact collision count with Eqs.
+(2.27)--(2.29) yields the rooted coefficient
+\[
+\varepsilon_\bullet=2\alpha _6^{-1}\mathcal B_\bullet
+\]
+at exponent \((1-4\delta)\kappa\). The printed \(P,Y_0,Z_0\) estimates then
+preserve that coefficient and reach the marked analogue of Eq. (2.35).
+
+From Eq. (2.35) onward, erasing the colour maps every marked scale-stage
+history to an ordinary history with one eligible raw component
+distinguished. For the finite positive majorant
+\(\mathscr S_x(Z)=\sum_Na_N(Z)x^N\),
+\[
+\mathscr S^\bullet_{x,y}(Z)
+\le y\partial_x\mathscr S_x(Z)
+\le\frac{y}{2x}\mathscr S_{2x}(Z).
+\]
+Rerunning the termwise-positive scale inequalities at doubled abstract
+amplitude gives
+\[
+|W_p^{\rm post}(Z)|
+\le4K_{\rm lift}\alpha _6^{-1}\mathcal B_\bullet
+e^{-(1-8\delta)(L/2)\kappa d_{k+1}(Z)}.
+\]
+This doubling and the envelope \(K_{\rm lift}\) are repository refinements,
+not formulas printed by Balaban.
+
+Note 0026 uses the previously audited animal/KP interface to obtain the
+\((1-9\delta)(L/2)\kappa\) rooted marked norm and the absolutely convergent
+connected first derivative at \(t=0\) on one fixed gas, with output exponent
+\(\kappa\). It does not construct a common source disk, synchronize shifted
+partitions, prove physical \(U/J\) pullbacks, or advance any continuum or
+mass-gap gate.
+
+## 2026-07-23 -- singleton-metric and final-KP correction
+
+A proof red-team found that the earlier source-identification wording was too
+strong. Note 0023's auxiliary animal metric explicitly admits a degenerate
+one-vertex tree, whereas Balaban does not state that singleton convention and
+RG II Eq. (2.30) uses a positive volume-to-\(d_j\) comparison. Note 0024 now
+uses only the rigorous one-sided facts
+
+\[
+d_{\pi_j}^{\rm aux}(Y)\le d_j(Y)
+\]
+
+and
+
+\[
+d_j(R)\le d_j(A)+\sum_i d_j(X_i)+\sqrt{D+3}\,n.
+\]
+
+The first follows because a shortest source cube-edge graph is admitted by
+the auxiliary infimum; the second is proved directly by joining source
+minimizers inside shared or face-adjacent cubes. Note 0023's new
+monotone-metric extension therefore transfers its cube-count, animal, hull,
+and KP constants without asserting metric equality. Consistently, Note 0013
+now uses the source-convention-safe bound \(d_k(Y)\le m(Y)+1\), retaining the
+singleton term at the cost of one overall \(e^a\) factor.
+
+The same red-team also found that Note 0026's connected Eq. (41) must import
+Note 0024's separate ordinary-gas premise
+\(0<\varepsilon _1\le\varepsilon_{\rm KP}\). The doubled-\(\varepsilon _2\)
+conditions control the marked scale susceptibility but do not imply pinned
+KP. Both premises are now explicit. The post-polymer marked estimate and
+animal norm were unaffected; the final connected conclusion is valid only
+under the additionally stated ordinary ceiling.

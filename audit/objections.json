@@ -166,12 +166,12 @@
       "severity": "S1",
       "status": "open",
       "targets": ["YM-RG-011"],
-      "summary": "The one-mark source split and Mayer identity have no independent human review; YM-RG-012 through YM-RG-019 supply conditional localization, shifted coverage, physical composition, derivative pullbacks, and an all-layer J bridge, YM-RG-020 settles the fixed-gas Ursell algebra, and YM-RG-021 constructs the decorated fixed-partition post-conditioning mark. Its actual norm, the physical quasilocal pullback, and the convergent connected estimate remain open.",
+      "summary": "The one-mark source split and Mayer identity have no independent human review. YM-RG-026 now closes the actual fixed-partition marked norm and first-jet sum, while the physical quasilocal pullback and shifted synchronized connected estimate remain open.",
       "resolution_requirements": [
         "Record a line-by-line human review tied to an immutable commit.",
         "Transcribe the full YM-RG-010 exponent into the exact RG-II Lemma-2 activity family used by the Mayer identity.",
         "Audit YM-RG-012 through YM-RG-016, then reconcile the shifted family with one fixed cluster partition and every later decay expenditure.",
-        "Use YM-RG-020's fixed-gas algebra, audit YM-RG-021's exact unique-mark passage through RG II Eqs. (2.2)-(2.10) and YM-RG-025's fixed-term domination, and then prove the marked-seed resummation, post-polymerization norm, and convergent rooted connected sum.",
+        "Use YM-RG-020's fixed-gas algebra and independently audit YM-RG-021's exact unique-mark passage, YM-RG-025's fixed-term domination, and YM-RG-026's resummation, post-polymerization norm, and rooted connected sum.",
         "Keep the finite algebraic identity separate from intrinsic/raw density matching, large fields, RG iteration, continuum limits, and the mass gap."
       ]
     },
@@ -180,14 +180,14 @@
       "severity": "S1",
       "status": "open",
       "targets": ["YM-RG-012"],
-      "summary": "The rooted plaquette cube-count lemma has no independent human review; YM-RG-013 through YM-RG-019 supply conditional d_k localization, shifted coverage, physical composition, derivatives, and an all-layer J extension, YM-RG-020 supplies fixed-gas connected algebra, and YM-RG-021 supplies the exact fixed-partition post-conditioning map. Unit translations, discharge of the geometry, the U pullback, the actual marked norm, and the physical connected expectation remain open.",
+      "summary": "The rooted plaquette cube-count lemma has no independent human review; YM-RG-026 carries it through the actual fixed-partition marked norm and first-jet sum. Unit translations, discharge of the physical geometry, the U pullback, and the physical connected expectation remain open.",
       "resolution_requirements": [
         "Record a line-by-line human review tied to an immutable commit.",
         "Verify the RG-I exponential link reconstruction, RG-II weakening contour, Eq. (1.21) norm conversion, and complex plaquette Lipschitz constant against the primary equations.",
         "Audit YM-RG-013's standard-branch degree, d_k geometry, and explicit entropy margin against the complete printed RG parameter hierarchy.",
         "Audit YM-RG-014's admitted shift count, stabilizer-symmetrized weakening, and coarse-lattice-preserving transport, then either prove unit-translation covariance or retain its absence.",
         "Audit YM-RG-017's J-summand pullback and YM-RG-019's conditional all-layer extension, then discharge its geometry/chart premises and prove the missing U collar and pullback.",
-        "Retain YM-RG-020's numerator-denominator and Ursell algebra, audit YM-RG-021's marked-seed passage through the sharp cutoff and conditioning, and prove the post-polymerization marked norm and sum converge.",
+        "Retain YM-RG-020's numerator-denominator algebra and independently audit YM-RG-021's sharp-cutoff passage plus YM-RG-026's post-polymerization norm and convergent sum.",
         "Keep the result separate from intrinsic/raw density matching, large fields, RG iteration, continuum limits, and the mass gap."
       ]
     },
@@ -196,13 +196,13 @@
       "severity": "S1",
       "status": "open",
       "targets": ["YM-RG-013"],
-      "summary": "The rooted d_k norm has no independent human review; YM-RG-014 through YM-RG-017 propagate, compose, differentiate, and pay the homogeneous-layer J-summand decay budget, while YM-RG-019 proves the forward all-layer budget only under unverified geometry and uniformity premises. No full physical derivative norm or later cluster decay expenditure is proved.",
+      "summary": "The rooted d_k norm has no independent human review; YM-RG-014 through YM-RG-017 propagate, compose, differentiate, and pay the homogeneous-layer J-summand decay budget, while YM-RG-019 proves the forward all-layer budget only under unverified geometry and uniformity premises. YM-RG-026 proves the later cluster-decay expenditure on one compatible fixed gas, but no synchronized physical derivative norm is proved.",
       "resolution_requirements": [
         "Record a line-by-line human review tied to an immutable commit.",
-        "Verify RG I's shortest-tree definition, the center-tree comparison d_k(Y)<=m(Y), and the four-dimensional degree bound D_0<=8.",
+        "Verify RG I's shortest-tree definition, the source-convention-safe comparison d_k(Y)<=m(Y)+1 including the singleton exp(a) prefactor, and the four-dimensional degree bound D_0<=8.",
         "Visually transcribe the dropped leading prefactor, signs, and parameter range in RG II Eq. (1.32), and reconcile delta kappa>log 64 with every subsequent RG-II entropy expenditure.",
         "Audit the translated standard geometry and actual n_p normalization for every admitted shift used by YM-RG-014; introduce c_geo for any nonstandard weakening partition.",
-        "Audit YM-RG-017's matched-layer identity and YM-RG-019's all-layer exponent spend, discharge the latter's interface/tree/support premises, construct the U pullback, then audit YM-RG-021's exact post-conditioning map and YM-RG-025's fixed-term domination, and prove the marked-seed resummation, one-fixed-partition norm, hull bound, and connected estimate.",
+        "Audit YM-RG-017's matched-layer identity and YM-RG-019's all-layer exponent spend, discharge the latter's premises, construct the U pullback, and independently audit YM-RG-021, YM-RG-025, and YM-RG-026's completed fixed-partition marked map, resummation, norm, hull application, and connected estimate.",
         "Keep the result separate from intrinsic/raw density matching, large fields, RG iteration, continuum limits, and the mass gap."
       ]
     },
@@ -211,7 +211,7 @@
       "severity": "S1",
       "status": "open",
       "targets": ["YM-RG-014"],
-      "summary": "The RG-admitted shifted-root cover has no independent human review; YM-RG-015 through YM-RG-017 supply fixed-chart physical specialization, derivatives, and a matched-layer J pullback, while YM-RG-019 supplies a bondwise all-layer bridge only under uniform shifted tree/support hypotheses. Unit translations, those hypotheses, one fixed Section-2 partition, and a full physical quasilocal norm remain open.",
+      "summary": "The RG-admitted shifted-root cover has no independent human review; YM-RG-015 through YM-RG-017 supply fixed-chart physical specialization, derivatives, and a matched-layer J pullback, while YM-RG-019 supplies a bondwise all-layer bridge only under uniform shifted tree/support hypotheses. YM-RG-026 closes one compatible fixed-partition gas, but unit translations, shifted-family synchronization, those hypotheses, and a full physical quasilocal norm remain open.",
       "resolution_requirements": [
         "Record a line-by-line human review tied to an immutable commit.",
         "Verify the M=L^m shift geometry, n_p count, and normalized no-orbit-entropy bound on the exact finite torus conventions.",
@@ -233,7 +233,7 @@
         "Quantify Proposition 9 Eq. (190)'s component indices, chart and differential-of-exponential factors, local auxiliary-J remainder, scale metrics, and norms in YM-RG-015's physical chain rule.",
         "Audit YM-RG-017's direct-J Banach ball and decay spend, then prove a regulator-uniform nonlinear U margin in compatible scaled charts.",
         "Retain the proved dual source convolution and YM-RG-019's conditional forward comparison, then derive its interface, tree-lift, support, mesh, and chart premises from the admitted family or replace the fixed metric with a compatible multiscale network norm.",
-        "Use YM-RG-020's branchwise separation rule and YM-RG-021's fixed-partition marked map to reconcile the shift family with complete Section-2 gases and prove the marked norm, hull bound, convergence, and connected one-mark sum before claiming a marked expectation bound.",
+        "Use YM-RG-020's branchwise separation rule and YM-RG-026's completed fixed-partition norm and connected sum to reconcile the shift family with complete Section-2 gases before claiming a physical marked expectation bound.",
         "Keep intrinsic/raw matching, large fields, RG iteration, continuum construction, infrared decay, and the mass gap outside this claim."
       ]
     },
@@ -249,7 +249,7 @@
         "Audit YM-RG-017's strict direct-J representative margin and YM-RG-018's raw-U obstruction, then construct a uniform nonlinear U tube in a compatible RG-scaled norm and a full product chart for every composed activity.",
         "Quantify every chart and differential-of-exponential coefficient and prove a uniform exponential bound for the physical auxiliary-J derivative.",
         "Retain YM-RG-017's dual source convolution and audit YM-RG-019's all-layer exponent budget, then discharge its interface, tree-lift, support, mesh, and common-chart premises; do not treat the unbounded reverse ratio as a forward obstruction.",
-        "Reconcile the shifted family with one fixed Section-2 partition and complete the connected one-mark bound before inferring any observable RG theorem.",
+        "Use YM-RG-026's completed one-fixed-partition connected bound, then reconcile and synchronize the shifted family before inferring any observable RG theorem.",
         "Keep intrinsic/raw matching, large fields, RG iteration, continuum construction, infrared decay, and the mass gap outside this claim."
       ]
     },
@@ -265,7 +265,7 @@
         "Verify the Eq. (190) source-density normalization, each scale factor used in E_J, the alternative rather than cumulative role of the two Laplacian rows, and every local chart conversion.",
         "Audit the dual l-infinity/l-one identity and Propagators-II Lemma 2.1 at alpha_gamma, including the separation hypothesis and exact source-measure cancellation.",
         "Verify the matched-layer identity tau_B=M d_k and endpoint allowance; treat the cross-layer L-power ratio only as failure of the reverse bound, and audit YM-RG-019's conditional forward extension without treating its interface, tree-lift, or support premises as source theorems.",
-        "Use YM-RG-018's scaled replacement hypotheses to construct the U collar and U-chain pullback, reconcile one fixed Section-2 partition, and prove the connected marked sum.",
+        "Use YM-RG-018's scaled replacement hypotheses to construct the U collar and U-chain pullback, then compose and synchronize YM-RG-026's fixed-partition connected marked sum.",
         "Keep intrinsic/raw matching, large fields, RG iteration, continuum construction, infrared decay, and the mass gap outside this claim."
       ]
     },
@@ -304,13 +304,13 @@
       "severity": "S1",
       "status": "open",
       "targets": ["YM-RG-020"],
-      "summary": "The fixed-gas one-mark Ursell identity and conditional pinned Kotecky-Preiss implication have no independent human review. YM-RG-021 constructs the fixed-partition post-conditioning mark algebraically, YM-RG-023 supplies the cubical hull/animal/KP interface, and YM-RG-024 closes the final ordinary source mapping plus a displayed-hierarchy KP window. The actual marked norm, differentiated convergence, branchwise shift synchronization, and physical source disk remain open.",
+      "summary": "The fixed-gas one-mark Ursell identity and conditional pinned Kotecky-Preiss implication have no independent human review. YM-RG-026 now supplies the actual fixed-partition marked norm under an explicit doubled-amplitude refinement and first-jet convergence under the additional ordinary KP ceiling. Branchwise shift synchronization, a common physical source disk, and physical pullbacks remain open.",
       "resolution_requirements": [
         "Record a line-by-line human review tied to an immutable commit, and verify the distinguished-slot 1/n! coefficient, repeated-label convention, and pinned Kotecky-Preiss normalization against a primary cluster-expansion reference.",
-        "Audit YM-RG-021's exact passage of the unique e^{-t Delta_p} mark through RG II Eqs. (2.1)-(2.10), including every A-dependent seed-derived split; independently verify YM-RG-025's fixed-term cutoff domination, then prove the positive marked-seed kernel and gluing estimates for the actual activities.",
+        "Audit YM-RG-021's exact passage of the unique e^{-t Delta_p} mark through RG II Eqs. (2.1)-(2.10), YM-RG-025's fixed-term cutoff domination, and YM-RG-026's positive marked-seed and scale-susceptibility estimates.",
         "For every admitted shift, prove a complete unmarked and marked expansion on the same pi^sigma representing the same normalized physical logarithmic derivative with uniform convergence; form branch coefficients before the 1/n_p average and introduce no cross-shift gas interactions.",
-        "Prove nonvanishing on a common external-source disk, differentiated absolute convergence, and the actual marked Lemma-3 activity bound.",
-        "Starting from YM-RG-024's final ordinary mapping, verify the decorated marked species count, marked norm, and exponent budget uniformly for the actual activities.",
+        "Prove nonvanishing on a common external-source disk if a finite source neighborhood, rather than only the first derivative at t=0, is required.",
+        "Independently verify YM-RG-026's decorated marked species count, marked norm, exponent budget, and fixed-gas differentiated convergence.",
         "Independently audit YM-RG-024's immutable-page mapping, C3 transcription, and displayed-hierarchy KP refinement, including the unenumerated imported-restriction caveat.",
         "Keep the physical U/J pullbacks, discharge of YM-RG-019's premises, large fields, RG iteration, continuum construction, Osterwalder-Schrader axioms, infrared decay, and the mass gap outside this claim."
       ]
@@ -320,14 +320,14 @@
       "severity": "S1",
       "status": "open",
       "targets": ["YM-RG-021"],
-      "summary": "The fixed-partition distinguished Section-2 map and marked-component factorization have no independent human review. Their finite algebra is exact under source-independent global kernels, and YM-RG-025 closes the fixed-term marked conditioning/weakening bound. Every displayed summed decay and rooted-norm estimate remains conditional on unproved marked-seed resummation, gluing, and animal-entropy hypotheses.",
+      "summary": "The fixed-partition distinguished Section-2 map and marked-component factorization have no independent human review. YM-RG-025 closes the fixed-term marked conditioning/weakening bound, and YM-RG-026 discharges the displayed summed decay and rooted-norm hypotheses under a doubled-amplitude refinement; its connected conclusion additionally imports the ordinary KP ceiling. The source remains unmarked and the combined corollary still needs independent review.",
       "resolution_requirements": [
         "Record a line-by-line human review tied to an immutable commit and verify the sign, D-empty term, absence of a Mayer-subset factorial, and unique-root component product.",
         "Transcribe RG II Eqs. (2.1)-(2.10) from clean immutable page images and check the P signs, Z_0 and Z_0-prime assignments, conditioned covariance, determinant convention, weakening derivatives, and component support rule.",
         "Prove that the fixed source seam leaves the global cutoff, covariance, quadratic operator, background, and chart independent of t while every A-dependent derived split and restricted operator is rerun with the marked seed.",
         "Independently verify YM-RG-025's correction that the mark remains on the conditional interior B, Dep_B W_{k,p}(A) lies in the cutoff-controlled independent-bond set I_k(A), and the fixed-term bound has unchanged second-stage radius and zero Gaussian-moment loss.",
-        "Prove the marked positive-kernel decay, tree-gluing and L/2 scale-conversion inequalities, and corrected fork exponent ledger uniformly in regulator, background, root, and fixed partition.",
-        "Use YM-RG-024's final ordinary support/hull/KP mapping, then verify the decorated marked species and norm, a common external-source disk, differentiated convergence, and branchwise shifted synchronization.",
+        "Independently verify YM-RG-026's marked positive-kernel decay, colour-erasure susceptibility, L/2 scale conversion, and corrected exponent ledger uniformly over the stated fixed-partition scope.",
+        "Use YM-RG-024's final ordinary support/hull/KP mapping and YM-RG-026's fixed-gas norm, then prove a common external-source disk and branchwise shifted synchronization.",
         "Keep the physical U/J pullbacks, marginal projection, large fields, RG iteration, continuum construction, axioms, infrared decay, and mass gap outside this claim."
       ]
     },
@@ -336,14 +336,14 @@
       "severity": "S1",
       "status": "open",
       "targets": ["YM-RG-022"],
-      "summary": "The whole-integrand Cauchy lemma exactly removes an artificial Leibniz multiplicity. YM-RG-025 corrects the earlier transformed-mark map and proves the actual fixed-term plaquette specialization with zero relative-moment cost. The resulting positive marked-seed kernel still lacks a summed A-to-output decay and gluing proof.",
+      "summary": "The whole-integrand Cauchy lemma exactly removes an artificial Leibniz multiplicity. YM-RG-025 corrects the earlier transformed-mark map and proves the actual fixed-term plaquette specialization; YM-RG-026 closes that specialization's summed A-to-output resummation on one fixed partition. A genuinely weakening-dependent mark still requires this claim's general joint-majorant hypotheses.",
       "resolution_requirements": [
         "Record a line-by-line human review tied to an immutable commit and verify the mixed FTC, multivariable contour, radius factor, Fubini assumptions, and absence of factorial or derivative-allocation coefficients.",
         "Independently audit YM-RG-025's immutable-page transcription of RG II Eqs. (2.5)-(2.8) and the complete Eq. (2.14) dependency map, including the interior B, exterior X, cutoff, complex precision, sigma, and tau variables.",
         "Verify that every fluctuation coordinate used by W_{k,p}(A,B) lies under chi_{k,Y_0^bullet} for the exact independent-bond and boundary conventions.",
         "For any future genuinely weakening-dependent mark, retain the general common-polydisc and joint-majorant hypotheses rather than reusing YM-RG-025's sigma-independent specialization.",
-        "Bound the resulting positive A-to-C kernel through every seed-dependent sum, marked gluing step, and scale conversion with uniform constants and the corrected fork ledger.",
-        "Use YM-RG-024's final ordinary support/hull/KP mapping, then verify the decorated marked species and norm, common external-source disk, differentiated convergence, shifted synchronization, and physical pullbacks.",
+        "Independently audit YM-RG-026's positive A-to-C resummation through every seed-dependent sum and scale conversion, including its collision and susceptibility constants.",
+        "Use YM-RG-026's fixed-partition marked norm and first-jet convergence, then prove a common external-source disk, shifted synchronization, and physical pullbacks.",
         "Keep large fields, RG iteration, continuum construction, axioms, infrared decay, and the Yang-Mills mass gap outside this claim."
       ]
     },
@@ -352,13 +352,13 @@
       "severity": "S1",
       "status": "open",
       "targets": ["YM-RG-023"],
-      "summary": "The standard-cube literal-union hull, animal count, and conditional pinned-KP interface have no independent human review. YM-RG-024 subsequently identifies the final ordinary RG-II class, metric, species, and a displayed-hierarchy activity window with this model, but intermediate and marked objects and the imported-restriction monotonicity caveat remain outside that closure.",
+      "summary": "The standard-cube literal-union hull, animal count, and conditional pinned-KP interface have no independent human review. YM-RG-024 identifies the final ordinary RG-II gas, and YM-RG-026 supplies the aggregated fixed-partition marked norm and first-jet application. Intermediate support families and the imported-restriction monotonicity caveat remain outside the source mapping.",
       "resolution_requirements": [
         "Record a line-by-line human review tied to an immutable commit and verify the contained-tree connector construction, closed-cell boundary convention, periodic quotient seam, and necessity of the additive contact charge.",
-        "Verify the depth-first covering bound N<=2^D(floor(2d)+1), the rooted-animal injection, grouped geometric series, and strict threshold eta>2^(D+2)log(2D), including the D=4 constants 16, 8, sqrt(7), and 64 log 8.",
+        "Verify the depth-first covering bound N<=2^D(floor(2d)+1), the rooted-animal injection, grouped geometric series, strict threshold eta>2^(D+2)log(2D), and monotone-metric extension, including the D=4 constants 16, 8, sqrt(7), and 64 log 8.",
         "Verify the affine pinned-weight split A_0=alpha 2^D and epsilon=alpha 2^(D+1), the (2D+1) contact neighborhood, every exponential prefactor, and the term-by-term use of the pinned cluster theorem from YM-RG-020.",
         "Independently audit YM-RG-024's immutable-page transcription of the final ordinary polymer class, quotient-periodic convention, d_{k+1} definition, union closure, and aggregation, while keeping the intermediate special domains separate.",
-        "Independently audit YM-RG-024's ordinary pointwise amplitude and displayed-hierarchy KP window, reconstruct the unenumerated imported restrictions, and prove the marked norm and decorated marked multiplicity before claiming differentiated convergence or a connected marked estimate.",
+        "Independently audit YM-RG-024's ordinary pointwise amplitude and KP window together with YM-RG-026's decorated marked norm, animal spend, and connected first-jet application.",
         "Keep the source disk, shifted synchronization, physical pullbacks, large fields, iteration, continuum construction, axioms, infrared decay, and mass gap outside this claim."
       ]
     },
@@ -367,14 +367,14 @@
       "severity": "S1",
       "status": "open",
       "targets": ["YM-RG-024"],
-      "summary": "The final-ordinary-gas source identification and explicit displayed-hierarchy KP window have no independent human review. The support/species mapping uses an explicit repository degenerate-tree convention and fixed-output supremum norm, while full parameter compatibility remains conditional on downward monotonicity of restrictions imported but not enumerated in RG I/II.",
+      "summary": "The final-ordinary-gas source identification and explicit displayed-hierarchy KP window have no independent human review. The support/species mapping now keeps the source tree size distinct from the auxiliary degenerate metric and uses a one-sided comparison plus direct source-metric connector; the fixed-output supremum norm and full parameter compatibility still require review.",
       "resolution_requirements": [
         "Record a line-by-line human review tied to an immutable commit.",
         "Recheck the Project Euclid file hashes and primary pages for the quotient cubulation, D_j support class, d_j metric, Eqs. (2.9)-(2.13), C3, Lemma 3, and Eqs. (2.39)-(2.41).",
-        "Verify the standard one-vertex degenerate-tree convention is compatible with every source use needed here, or isolate and handle singleton supports separately.",
+        "Verify the one-sided comparison d_aux<=d_j and the direct source-metric sqrt(7) connector; confirm that no step silently restores equality with the auxiliary degenerate metric.",
         "Audit the fixed-output analytic-domain supremum used to pass from the printed pointwise Eq. (2.38) bound to the ordinary activity norm without inventing one global field domain.",
         "Reconstruct the complete imported parameter chain and prove every unlisted epsilon1 restriction is preserved under downward shrinking after C3 is fixed; otherwise downgrade the source-compatibility conclusion to the displayed hierarchy only.",
-        "Keep all intermediate localization families and every marked, differentiated, shifted, physical, continuum, and infrared conclusion outside YM-RG-024."
+        "Keep all intermediate localization families and every marked or differentiated conclusion outside YM-RG-024 itself; YM-RG-026 is a separate repository corollary. Shifted, physical, continuum, and infrared conclusions remain open."
       ]
     },
     {
@@ -382,14 +382,30 @@
       "severity": "S1",
       "status": "open",
       "targets": ["YM-RG-025"],
-      "summary": "The source-faithful conditioned-mark routing correction and fixed-term cutoff domination have no independent human review. The result is limited to one auxiliary history and does not yet prove the summed marked-seed kernel or final marked activity norm.",
+      "summary": "The source-faithful conditioned-mark routing correction and fixed-term cutoff domination have no independent human review. YM-RG-026 subsequently sums the marked seed and proves a final fixed-partition norm, but that does not enlarge YM-RG-025's own fixed-history scope.",
       "resolution_requirements": [
         "Record a line-by-line human review tied to an immutable commit.",
         "Recheck the RG-II PDF hash and immutable pages for Eqs. (2.3), (2.5), (2.6), (2.8), (2.14), and (2.15), including the tilde-Z'_0 index, interior/exterior projections, Gamma_k ordering, and positive complex-precision comparison.",
         "Verify the exact independent-bond definition of chi_{k,Y_0^bullet} controls every B-coordinate in the first-stage localized W_{k,p}(A), including boundary conventions and the D-empty seed.",
         "Check that the common external (U,J) domain used for the fixed term is contained in the first-stage marked domain and that no second-stage operator is hidden inside W_{k,p}(A,B).",
-        "Prove the positive marked-seed A-to-output kernel decay, every D/P/Z_0/Z resummation, marked tree gluing, and k-to-k+1 scale conversion with uniform constants.",
-        "Keep the final decorated marked norm, source disk, shifted synchronization, physical pullbacks, large fields, iteration, continuum construction, axioms, infrared decay, and mass gap outside YM-RG-025."
+        "Independently audit YM-RG-026's positive marked-seed A-to-output kernel, every D/P/Z_0/Z resummation, and k-to-k+1 scale conversion.",
+        "Keep YM-RG-026's final norm outside YM-RG-025 itself, and keep the common source disk, shifted synchronization, physical pullbacks, large fields, iteration, continuum construction, axioms, infrared decay, and mass gap open."
+      ]
+    },
+    {
+      "id": "OBJ-030",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-026"],
+      "summary": "The one-colour positive resummation, doubled-amplitude scale susceptibility, final marked norm, and fixed-gas connected first-jet bound have no independent human review. They are repository corollaries of an unmarked source and depend on a symbolic O(1) envelope, unenumerated hierarchy monotonicity, a separate ordinary KP ceiling, and the one-sided source-metric crosswalk.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Recheck the immutable RG-II pages for Eqs. (2.26)-(2.38), the absence of a D-family factorial, the endpoint connector charges, the P-factor split, every scale-stage O(1), and the final hole restrictions.",
+        "Verify the exact two-preimage A-in-D collision identity and that it is absorbed once, and only once, before the later colour-erasure susceptibility.",
+        "Verify coefficientwise that erasing the mark maps every allowed post-P/Y_0 scale-stage history into an ordinary history with one eligible component distinguished and does not alter support, grouping, or hole rules.",
+        "Reconstruct the complete imported parameter hierarchy and prove that every ordinary restriction remains valid at 2 epsilon_2 after the other constants are frozen.",
+        "Independently check the animal-entropy spend, one-sided metric extension, decorated one-species accounting, the separate epsilon_1<=epsilon_KP premise, pinned-KP constants, and interpretation as only the first derivative at t=0 on one fixed gas.",
+        "Keep a common source disk, shifted synchronization, physical U/J pullbacks, large fields, RG iteration, continuum construction, axioms, infrared decay, and mass gap outside the claim."
       ]
     }
   ]

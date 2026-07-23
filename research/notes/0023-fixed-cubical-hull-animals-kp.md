@@ -37,9 +37,10 @@ animal, or numerical constants; those are repository results. This note by
 itself does not identify the source class with the declared model.
 Subsequent [Note
 0024](0024-balaban-final-gas-instantiation.md) performs that primary-source
-identification for the **final connected ordinary gas after RG II Eq.
-(2.10)** and supplies one explicit ordinary KP sub-hierarchy. It does not
-identify the intermediate support families or any marked activity.
+crosswalk for the **final connected ordinary gas after RG II Eq. (2.10)**,
+using the monotone-metric extension proved below, and supplies one explicit
+ordinary KP sub-hierarchy. It does not identify the intermediate support
+families or any marked activity.
 
 ## The fixed cubical model
 
@@ -262,6 +263,48 @@ dimensions,
 A finite torus has finitely many supports even below (13), but that fact
 alone supplies no volume-uniform constant.
 
+## Monotone-metric extension
+
+The zero-length convention in (2) is useful for a conservative animal
+majorant, but it need not be identified with a source's tree-size convention.
+Let \(\widetilde d\) be another nonnegative function on the same cubical
+supports such that
+
+\[
+d_{\mathcal Q}(Y)\le\widetilde d(Y)
+\tag{15a}
+\]
+
+and, for every connected occurrence tuple,
+
+\[
+\widetilde d(R)
+\le\widetilde d(A)+\sum_{i=1}^n\widetilde d(X_i)+b_Dn.
+\tag{15b}
+\]
+
+Then (7) implies the safe affine bound
+
+\[
+N(Y)\le B_D+2B_D\widetilde d(Y),
+\tag{15c}
+\]
+
+and the rooted animal sum in the larger metric is bounded by the already
+computed auxiliary constant:
+
+\[
+\sup_Q\sum_{Y\ni Q}e^{-\eta\widetilde d(Y)}
+\le C_{\rm an}^{\rm geom}(\eta).
+\tag{15d}
+\]
+
+Consequently every pinned-KP and rooted-output argument below remains valid,
+with exactly the same constants, after replacing every activity, hull, and
+output occurrence of \(d_{\mathcal Q}\) by \(\widetilde d\). Equations
+(15c)--(15d) replace the only cube-count and animal-sum uses, while (15b)
+replaces the hull connector. No equality of the two metrics is required.
+
 ## A concrete pinned KP criterion
 
 Now assume one ordinary polymer species per cubical support. Let its activity
@@ -428,9 +471,9 @@ smallness inequality or attribute that choice to the source; Note 0024
 subsequently proves that the final ordinary RG-II gas has a nonempty
 displayed-hierarchy-compatible \(\varepsilon _1\) window satisfying it.
 
-If the conditional pointwise marked bound of Note 0021 holds with constant
-\(C_{\rm sec}\mathcal B_{\rm in}\), then (12) at \(\eta=\Delta\) and
-(24) yield
+If the pointwise marked bound isolated conditionally in Note 0021 holds with
+constant \(C_{\rm sec}\mathcal B_{\rm in}\), then (12) at
+\(\eta=\Delta\) and (24) yield
 
 \[
  \sup_p\sum_{R\supset Q_p}
@@ -442,14 +485,21 @@ If the conditional pointwise marked bound of Note 0021 holds with constant
 \tag{28}
 \]
 
-Equation (28) remains conditional on the marked gates. Note 0024
-subsequently discharges the class, metric, seam, one-ordinary-species, and
-ordinary-amplitude/KP-window gates for the final gas. It does not prove the
-marked Lemma-3 bound or that the decorated marked output obeys the same
-species accounting. The large factor \(e^{a_{\rm out}\sqrt7}\) also shows why
-a qualitative statement that activities are small is not enough; the
-numerical hierarchy must beat the hull-contact fugacity and the crude animal
-constant.
+Note 0024 subsequently discharges the class, source-metric extension, seam,
+one-ordinary-species, and ordinary-amplitude/KP-window gates for the final
+gas. [Note 0026](0026-marked-seed-resummation.md) then proves the marked
+Lemma-3 analogue, treats the already aggregated marked output as the single
+decorated species used here, and instantiates (28) with
+\[
+C_{\rm sec}=4K_{\rm lift}\alpha _6^{-1},
+\qquad
+\mathcal B_{\rm in}=\mathcal B_\bullet.
+\]
+This discharge is restricted to one fixed partition and its explicit
+doubled-\(\varepsilon _2\) hierarchy. The large factor
+\(e^{a_{\rm out}\sqrt7}\) also shows why a qualitative statement that
+activities are small is not enough; the numerical hierarchy must beat the
+hull-contact fugacity and the crude animal constant.
 
 ## Executable checks
 
@@ -469,20 +519,24 @@ window are recorded in Note 0024.
   periodic quotient seams.
 - Equations (7)--(14) prove a volume-uniform geometric animal bound with the
   explicit sufficient four-dimensional threshold \(64\log8\).
+- Equations (15a)--(15d) extend the same constants to any larger source tree
+  size satisfying the same connector inequality; equality with the
+  auxiliary degenerate metric is unnecessary.
 - Equations (15)--(24) prove that an explicit pointwise ordinary activity
   bound and numerical smallness condition imply Note 0020's pinned KP and
   rooted output bound.
 - This claim alone makes no source identification. Subsequent Note 0024
   proves that RG II's final connected ordinary gas instantiates the declared
-  class, quotient-seam convention, metric, literal-union rule, and one-species
-  accounting, and gives a displayed-hierarchy-compatible ordinary
-  \(\varepsilon _1\) window for (27). It explicitly excludes intermediate
-  and marked supports.
-- Note 0025 subsequently proves the fixed-term marked conditioned-contour
-  domination. Positive marked-seed kernel decay, marked gluing, the final
-  marked norm, decorated-mark multiplicity, a common source disk,
-  differentiated absolute convergence, and shifted-branch synchronization
-  remain open.
+  class, quotient-seam convention, monotone source-metric extension,
+  literal-union rule, and one-species accounting, and gives a
+  displayed-hierarchy-compatible ordinary \(\varepsilon _1\) window for
+  (27). It explicitly excludes intermediate and marked supports.
+- Note 0025 proves the fixed-term marked conditioned-contour domination.
+  Note 0026 subsequently proves the positive resummation, final marked norm,
+  decorated-mark multiplicity bound, and connected first derivative at
+  \(t=0\) on one fixed gas, with this note's pinned step supplied by Note
+  0024's separate ordinary KP ceiling. A common source disk and
+  shifted-branch synchronization remain open.
 - The physical \(U/J\) pullbacks, marginal projection, large fields, RG
   iteration, continuum and infinite-volume construction, axioms,
   nontriviality, infrared decay, and the Yang--Mills mass gap remain open.
@@ -498,6 +552,8 @@ window are recorded in Note 0024.
 - Remove the \(b_Dn\) contact charge and test (5).
 - Use a lattice-bond or differently normalized tree metric with the Euclidean
   constant \(\sqrt{D+3}\).
+- Identify a larger source tree size with the auxiliary degenerate metric
+  instead of proving both (15a) and (15b).
 - Count decorated histories as one geometric species in (9).
 - Replace the strict threshold (13) by \(\eta>0\).
 - Omit the factor \(e^{\alpha B_D+a b_D}\) or the closed-neighborhood factor

@@ -276,7 +276,7 @@ a=(1-2\delta)\kappa,
 q_d=\frac{64e^a}{e^{\kappa_1}-1},
 \qquad
 \mathcal B_d=
-\frac{C_{\rm mark}e^{16\kappa_1}\varepsilon_1}{1-q_d},
+\frac{e^aC_{\rm mark}e^{16\kappa_1}\varepsilon_1}{1-q_d},
 \tag{11}
 \]
 

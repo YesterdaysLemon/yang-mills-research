@@ -413,6 +413,18 @@ Here \(C_{\rm sec}\) is uniform only if hypotheses 1--2 are uniform. Equation
 (23) is not established for the Yang--Mills activities until those hypotheses
 are proved term by term.
 
+Subsequent [Note 0026](0026-marked-seed-resummation.md) performs that
+term-by-term proof for the source-faithful plaquette mark on one fixed
+partition. Its coloured \(D\)-family lemma, \(P/Y_0/Z_0\) resummation, and
+positive scale susceptibility discharge hypotheses 1--2 under the explicit
+extra requirement that every scale-stage ordinary smallness condition holds
+also at \(2\varepsilon _2\). In that scope, (23) holds with
+\[
+C_{\rm sec}=4K_{\rm lift}\alpha _6^{-1}.
+\]
+The fork ledger (20b)--(22) is retained as the earlier conditional
+bookkeeping route; Note 0026 supplies the sharper direct proof.
+
 ## Pointwise decay is not the rooted norm
 
 Even conditional (23) does not give a rooted \(\ell^1\) norm at the same
@@ -471,8 +483,10 @@ additional strict numerical condition
 and a conditional pinned Kotecky--Preiss criterion in that same model.
 Subsequent Note 0024 identifies the final connected ordinary RG-II gas with
 the model and gives a sufficient displayed-hierarchy ordinary-activity
-window. It does not identify or bound the decorated marked species. The
-budget still leaves one further
+window. Subsequent Note 0026 identifies the already aggregated decorated
+marked output, proves (26) with
+\(C_{\rm an}=C_{\rm an}^{\rm geom}\), and closes the fixed-partition
+connected first-jet sum. The budget still leaves one further
 \(\delta\)-unit before the source's unmarked connected-output exponent
 \((1-10\delta)(L/2)\kappa\).
 
@@ -501,6 +515,10 @@ extra derivative term excluded by the frozen-source hypotheses. They do not
 test the Mayer seed, the decorated map (15), the logarithmic division in (19),
 the ordered-sum factorial/repeated-label convention already tested in Note
 0020, or any RG-II conditioning, weakening, geometry, or estimate.
+[The marked-resummation
+tests](../../tests/test_marked_seed_resummation.py) separately check the
+finite-family collision, connector, susceptibility, constant, and exponent
+algebra used by Note 0026.
 
 ## Exact boundary
 
@@ -512,27 +530,27 @@ the ordered-sum factorial/repeated-label convention already tested in Note
 - Equation (15) identifies \(W_p^{\rm post}\) as a decorated linear image of
   the complete pre-Section-2 family. It does not identify it termwise with a
   bare \(W_{k,p}(A)\).
-- Equations (23) and (26) are conditional implications under marked-seed
-  resummation, gluing, uniform-smallness, and output-animal hypotheses. Note
-  0025 proves the direct fixed-term conditioned-contour domination (20a),
-  corrects the source variable map, and sets \(r_{\rm mom}=0\). Note 0022
-  proves the general whole-integrand contour lemma and the fork ledger (22).
-  The positive \(A\)-to-output kernel decay and marked gluing premises remain
-  unproved for the RG-II construction.
+- Equations (23) and (26) were derived here as conditional implications under
+  marked-seed resummation, gluing, uniform-smallness, and output-animal
+  hypotheses. Note 0025 proves the direct fixed-term conditioned-contour
+  domination (20a), and Note 0026 subsequently discharges those positive
+  resummation and animal hypotheses on one fixed partition under its explicit
+  doubled-amplitude refinement.
 - Subsequent Note 0023 proves the output-animal estimate (28), a
   literal-union hull crosswalk, and a sufficient pinned-KP implication for
   its declared standard-cubical one-species model. Note 0024 identifies the
   final ordinary source class, quotient seams, metric, and aggregated
   ordinary species and supplies an explicit displayed-hierarchy smallness
-  window. Using the rooted marked conclusion here still requires the actual
-  decorated marked norm and any associated multiplicity control.
+  window. Note 0026 supplies the actual aggregated decorated marked norm and
+  controls its distinguished-component multiplicity by one positive
+  susceptibility.
 - No unmarked inequality has been differentiated. A common complex-source
   Lemma-3 theorem plus Cauchy would be an alternative route, but no such
   theorem is imported here.
-- Nonvanishing on a regulator-uniform source disk, absolute convergence for
-  the actual decorated activities, the marked counterpart of Note 0024's
-  final-ordinary mapping and KP window, branchwise shift synchronization, and
-  the final connected marked norm remain open.
+- Note 0026 proves absolute convergence of the connected first derivative at
+  \(t=0\) for the fixed gas under Note 0024's separate ordinary KP ceiling.
+  Nonvanishing on a common regulator-uniform source disk and branchwise shift
+  synchronization remain open.
 - The physical nonlinear \(U\) pullback, discharge of Note 0019's geometric
   premises, marginal projection, large fields, RG iteration, continuum
   construction, Osterwalder--Schrader axioms, infrared decay, and the

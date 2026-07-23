@@ -417,9 +417,11 @@ q_\gamma^\bullet=q_\gamma^{(0)}.
 \]
 
 The second-stage source radius is unchanged, no derivative hits the mark,
-and no relative Gaussian moment is required. The unresolved interface is
-now the positive resummation of the enlarged marked seed and its tree/scale
-gluing, not a common transformed marked domain.
+and no relative Gaussian moment is required. At this checkpoint the
+unresolved interface was the positive resummation of the enlarged marked
+seed and its tree/scale gluing, not a common transformed marked domain.
+Subsequent Note 0026 closes that interface for the source-faithful plaquette
+mark on one fixed partition.
 
 ## Correct exponent ledger: a fork
 
@@ -531,8 +533,11 @@ the real-cube counterexample, and failure of separate integrated majorants.
 The [conditioned-routing
 tests](../../tests/test_conditioned_mark_routing.py) separately check the
 unshifted two-coordinate Gaussian identity and the pointwise marked
-domination. They do not test the RG-II tree gluing, marked-seed resummation,
-or any regulator-uniform final activity estimate.
+domination. [The marked-resummation
+tests](../../tests/test_marked_seed_resummation.py) separately check the
+finite-family collision, connector, scale susceptibility, and exponent
+ledger; none of these executable checks certifies regulator-uniform
+mathematical truth.
 
 ## Exact boundary
 
@@ -550,16 +555,17 @@ or any regulator-uniform final activity estimate.
   confirms the Note-0021 endpoint if the total pre-gluing marked cost is at
   most two \(\delta\)-units and all gluing/resummation hypotheses hold.
 - The fixed-term marked conditioned-contour envelope is now proved in Note
-  0025 with zero relative-moment cost. No positive marked-seed
-  \(A\)-to-output kernel decay, marked tree gluing, source disk, absolute
-  convergence, shifted synchronization, or physical \(U/J\) pullback is
-  proved here.
+  0025 with zero relative-moment cost. Note 0026 subsequently proves the
+  positive \(A\)-to-output resummation, marked norm, and connected derivative
+  at \(t=0\) on one fixed gas. No common source disk, shifted
+  synchronization, or physical \(U/J\) pullback is proved here.
 - Subsequent Note 0023 proves an output-animal bound, literal-union hull
   crosswalk, and sufficient pinned Kotecky--Preiss criterion for a declared
   standard closed-cube, one-species support model. Note 0024 identifies the
   final connected ordinary RG-II gas with that model and supplies an explicit
-  sufficient displayed-hierarchy ordinary smallness window. The decorated
-  marked species and marked norm needed here remain open.
+  sufficient displayed-hierarchy ordinary smallness window. Note 0026
+  supplies the aggregated decorated marked species and norm under its
+  doubled-amplitude refinement.
 - No large-field estimate, RG iteration, continuum construction, axiomatic
   reconstruction, infrared decay estimate, or Yang--Mills mass gap follows.
 

@@ -122,8 +122,12 @@ Cluster expansions*, **CMP 116** (1988), 1–22,
   standardized exterior \(X\) and the second-stage weakening variables.
   The marked seed cutoff therefore supplies the Eq. (1.34) pointwise bound,
   giving the fixed-term ordinary majorant with zero relative-moment cost.
-  Positive marked-seed resummation, tree/scale gluing, convergence, and the
-  branchwise shifted construction remain separate hypotheses.
+  [Note
+  0026](../../research/notes/0026-marked-seed-resummation.md) subsequently
+  proves the positive marked-seed/scale resummation, final norm, and
+  connected derivative at \(t=0\) on one fixed gas under an explicit
+  doubled-amplitude refinement plus Note 0024's separate ordinary KP
+  ceiling. The branchwise shifted construction remains separate.
 - [Note
   0023](../../research/notes/0023-fixed-cubical-hull-animals-kp.md) takes
   Eqs. (2.11)--(2.13)'s cube-or-complete-wall incompatibility and
@@ -136,9 +140,11 @@ Cluster expansions*, **CMP 116** (1988), 1–22,
   constants and the piecewise-linear contained-tree model are repository results,
   not statements printed by RG II. [Note
   0024](../../research/notes/0024-balaban-final-gas-instantiation.md) then
-  identifies the final connected ordinary source gas with that model and
-  gives a displayed-hierarchy-compatible sufficient ordinary KP window. The
-  intermediate objects and decorated marked species remain excluded.
+  maps the final connected ordinary source gas through Note 0023's
+  one-sided monotone-metric extension and gives a
+  displayed-hierarchy-compatible sufficient ordinary KP window. The
+  intermediate objects remain excluded; Note 0026 supplies the separate
+  aggregated decorated marked corollary.
 - RG II Eqs. (1.9)--(1.10) give the finite weakening-variable decomposition
   and root-component cancellation; Eqs. (1.17)--(1.21) give the weakened
   reconstruction and its common \(|s(\Delta)|\le e^{\kappa _1}\) analytic
@@ -250,9 +256,9 @@ OS-positivity, continuum, or gap results.
 | External scalar source \(zf\), propagation under a block map, and \(\partial_z\), \(\partial_z^2\) bounds | No theorem located in the audited texts |
 | Source-jet norm, localized marginal projections, or volume-uniform first/second derivative bounds | No theorem located |
 | Inserted-observable decomposition compatible with the constant-profile derivative | No theorem located; the raw first-jet identity itself is algebraic once a coupling-independent raw transform is fixed |
-| One marked plaquette at the RG-II Mayer seam | Finite background split and Mayer algebra proved in Note 0011; Note 0012 proves the fixed-partition-interior mixed-difference/cube-count result; Note 0013 upgrades the standard \(M\)-cube branch to a conditional rooted \(d_k\) norm; Note 0014 covers every plaquette with a coarse-lattice-preserving shifted family; Note 0015 supplies fixed-chart physical composition; Note 0016 identifies the exact auxiliary field and supplies conditional fixed-regulator independent-variable derivative norms; Note 0017 supplies the strict representative-\(J\) collar, dual source convolution, and a homogeneous-layer \(J\)-summand pullback while disproving only the reverse uniform cross-layer bound; Note 0018 proves the naive raw \(U\) collars collapse and isolates a conditional scaled replacement; Note 0019 proves a conditional forward all-layer \(J\) bridge under unverified interface/tree/support/mesh/chart premises; Note 0020 proves the fixed-gas connected algebra; Note 0021 carries one localized mark through the exact fixed-partition Section-2 map and component factorization; Note 0025 proves fixed-term marked domination. Unit translations, discharge of the geometric and scaled-\(U\) premises, marked-seed resummation and the final marked norm, shifted synchronization, the full physical derivative norm, and the convergent connected marked expectation remain open |
-| Whole-integrand control of marked Eq. (2.8) weakening derivatives | Under common \(L^1\)-holomorphy and a joint majorant, Note 0022 proves the exact mixed-difference contour with no extra derivative-allocation entropy, and with the ordinary Cauchy-radius factor if that radius is shared. Note 0025 proves that the actual plaquette mark is weakening-independent and inherits the ordinary fixed-term majorant with zero moment loss. Marked-seed kernel decay and gluing estimates remain open |
-| Fixed-cubical hull, animals, and pinned KP | Note 0023 proves the literal-union connector inequality, a uniform geometric animal bound, and a sufficient pinned-KP system for one declared closed-cube model. Note 0024 verifies from primary pages that the final connected ordinary RG-II gas instantiates its support class, quotient seams, metric, incompatibility, literal union, and aggregated one-species convention, and gives an explicit displayed-hierarchy-compatible ordinary smallness window. The intermediate objects and decorated marked norm remain open |
+| One marked plaquette at the RG-II Mayer seam | Finite background split and Mayer algebra proved in Note 0011; Note 0012 proves the fixed-partition-interior mixed-difference/cube-count result; Note 0013 upgrades the standard \(M\)-cube branch to a conditional rooted \(d_k\) norm; Note 0014 covers every plaquette with a coarse-lattice-preserving shifted family; Notes 0015–0019 isolate the physical pullback and its open premises; Note 0020 proves the fixed-gas connected algebra; Note 0021 carries one localized mark through the exact fixed-partition Section-2 map; Note 0025 proves fixed-term marked domination; and Note 0026 proves the positive resummation, final marked norm, and connected derivative at \(t=0\) on one fixed gas. Unit translations, the scaled-\(U\) and geometric premises, a common source disk, shifted synchronization, and the physical connected marked expectation remain open |
+| Whole-integrand control of marked Eq. (2.8) weakening derivatives | Under common \(L^1\)-holomorphy and a joint majorant, Note 0022 proves the exact mixed-difference contour with no extra derivative-allocation entropy. Note 0025 proves that the actual plaquette mark is weakening-independent and inherits the ordinary fixed-term majorant with zero moment loss; Note 0026 closes its positive resummation on one fixed partition |
+| Fixed-cubical hull, animals, and pinned KP | Note 0023 proves the literal-union connector inequality, a uniform geometric animal bound, a monotone-metric extension, and a sufficient pinned-KP system for one declared closed-cube model. Note 0024 maps the final connected ordinary RG-II gas through that extension and supplies the ordinary smallness window. Note 0026 separately supplies the aggregated decorated marked norm and, under that ordinary ceiling, the fixed-gas first-jet application; intermediate objects remain outside the source identification |
 | One-loop coefficient in the source-inserted normalization | Not proved by RG I; its coupling theorem is deferred |
 | Reflection positivity of gauge-fixed/RG effective actions | No theorem located |
 | Continuum Schwinger functions, OS reconstruction, infinite-volume clustering, mass gap | Outside the verified scope |

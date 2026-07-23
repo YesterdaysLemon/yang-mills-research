@@ -324,7 +324,9 @@ C_\bullet=1,\qquad
 \tag{A5}
 \]
 
-This correction does not prove a final marked polymer norm. It closes only
-the fixed \(A,D,P,Z_0,Z\) conditioned-contour domination. The next source
-interface is the positive resummation of the enlarged seed (A1), including
-the marked tree-gluing and \(k\)-to-\(k+1\) scale conversion.
+This correction itself does not prove a final marked polymer norm. It closes
+only the fixed \(A,D,P,Z_0,Z\) conditioned-contour domination. Subsequent
+[Note 0026](../../research/notes/0026-marked-seed-resummation.md) and its
+[source audit](2026-07-23-balaban-marked-resummation.md) perform the positive
+resummation of the enlarged seed, including the \(k\)-to-\(k+1\) scale
+conversion, on one fixed partition.

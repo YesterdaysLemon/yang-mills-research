@@ -208,8 +208,8 @@ shifted-root cover for every plaquette and transport under the subgroup
 preserving the next coarse lattice. It does not prove unit-translation
 covariance or locality after the minimizing-background pullback. Note 0021
 subsequently proves the exact marked Section-2 algebra on one compatible fixed
-partition; its marked norm, convergence, and shifted synchronization remain
-open.
+partition, and Note 0026 subsequently proves its marked norm and connected
+first derivative at \(t=0\). Shifted synchronization remains open.
 
 Given (12), a marked activity \(W_{k,p}(A)\) and an unmarked Mayer
 family \(D\) have the rooted seed
@@ -223,7 +223,8 @@ That seed, rather than the unmarked union alone, must be carried through RG II
 Eqs. (2.2)–(2.10). The connected logarithm would then contain exactly one
 marked activity decorated by the already controlled unmarked activities. None
 of those rooted estimates is proved by (10). Note 0021 subsequently proves
-the finite distinguished-slot and component algebra, but not those estimates.
+the finite distinguished-slot and component algebra, and Note 0026 separately
+proves those positive estimates under its doubled-amplitude refinement.
 
 ## Exact boundary
 
@@ -236,9 +237,9 @@ the finite distinguished-slot and component algebra, but not those estimates.
 - This note alone proves no localization of \(\Delta_p\). Note 0012 separately
   supplies the independent-variable fixed-partition decomposition, and Note
   0013 its standard-branch \(d_k\) norm, and Note 0014 an all-plaquette
-  RG-admitted shifted cover; fixed-partition cluster compatibility, termwise
-  cluster differentiation, marginal projection, position/orientation mixing,
-  and the large-field estimate remain open.
+  RG-admitted shifted cover. Note 0026 closes fixed-partition cluster
+  differentiation at \(t=0\); shifted synchronization, marginal projection,
+  position/orientation mixing, and the large-field estimate remain open.
 - No RG iteration, continuum construction, Osterwalder–Schrader
   reconstruction, infrared decay estimate, or mass gap follows.
 

@@ -323,16 +323,17 @@ paper's componentwise Eq. (190) bounds is required.
 - Note 0014 subsequently supplies an RG-admitted shifted-family cover for
   arbitrary plaquette support and transport under the subgroup preserving the
   next coarse lattice. Note 0021 subsequently supplies the exact Section-2
-  distinguished-slot algebra on one compatible fixed partition. Neither note
-  proves unit-translation covariance, the marked Section-2 norm, or uniform
-  shifted synchronization.
+  distinguished-slot algebra on one compatible fixed partition, and Note
+  0026 supplies its marked Section-2 norm. Unit-translation covariance and
+  uniform shifted synchronization remain open.
 - The result is local in independent \((U,J,B)\), not in \(W\), and concerns
   the exact selected-coordinate branch only. It is not an intrinsic-coarea or
   unrestricted raw-fiber theorem.
 - Note 0021 subsequently proves the exact finite cutoff-conditioned marked
-  numerator algebra. No convergent marked norm, marginal projection, profile
-  mixing theorem, large-field estimate, RG iteration, continuum construction,
-  infrared decay, or mass gap follows.
+  numerator algebra, and Note 0026 supplies the convergent fixed-gas marked
+  norm and first jet. No marginal projection, profile-mixing theorem,
+  large-field estimate, RG iteration, continuum construction, infrared decay,
+  or mass gap follows.
 
 ## Falsification checks
 

@@ -281,8 +281,9 @@ independent \((U,J,B)\) variables and leaves shifted roots, the \(d_k\)-norm
 upgrade, full-partition Euclidean covariance, minimizing-background pullback,
 and connected marked expansion open. [Note
 0013](../../research/notes/0013-rooted-dk-norm.md) subsequently uses RG I's
-p. 257 shortest-tree definition \(d_k(Y)\le m(Y)\), RG II Eq. (1.32), and the
-source-safe hierarchy consequence and explicit repository margin
+p. 257 shortest-tree definition with the source-convention-safe comparison
+\(d_k(Y)\le m(Y)+1\), RG II Eq. (1.32), and the source-safe hierarchy
+consequence and explicit repository margin
 \(\delta\kappa>\log64\) to close the standard fixed-partition
 \(d_k\)-weighted norm. The numerical threshold is not attributed to the paper;
 the exact leading prefactor dropped by the available Eq. (1.32) text layers,
@@ -336,8 +337,11 @@ and has the ordinary Cauchy-radius price if that radius is shared. [Note
 0025](../../research/notes/0025-conditioned-mark-routing.md) subsequently
 corrects the conditioned variable map: the localized mark remains on the
 interior \(B\), and the marked seed cutoff gives the fixed-term ordinary
-majorant with no Gaussian-moment loss. The remaining analytic/combinatorial
-gate is the marked-seed resummation and tree/scale gluing. [Note
+majorant with no Gaussian-moment loss. [Note
+0026](../../research/notes/0026-marked-seed-resummation.md) subsequently
+proves the marked-seed and tree/scale resummation, final marked norm, and
+connected derivative at \(t=0\) on one fixed gas under Note 0024's separate
+ordinary KP ceiling. [Note
 0023](../../research/notes/0023-fixed-cubical-hull-animals-kp.md) separately
 uses RG II Eqs. (2.11)--(2.13)'s cube/full-wall incompatibility and
 literal-union grouping as a convention anchor. On a declared regular
@@ -348,13 +352,11 @@ Kotecky--Preiss system. Its four-dimensional constants
 \(b_4=\sqrt7\), size slope \(32\), and animal threshold \(64\log8\) are
 repository bookkeeping, not imported source constants.
 
-None of these notes imports a marked Lemma 3 or proves that the actual
-\(\mathcal D_{k+1}\) species, periodic convention, metric, decorations, and
-activity amplitudes instantiate Note 0023's model. The scaled nonlinear
-\(U\) pullback, uniform realization of Note 0019's geometry, actual
-fixed-partition marked envelope and kernel decay, actual hull/KP
-instantiation, shifted synchronization, convergence, and physical connected
-estimate remain open.
+No marked Lemma 3 is imported from Balaban. Note 0026 is instead a repository
+one-colour corollary using Note 0024's one-sided source-metric crosswalk and
+ordinary window together with Note 0023's model. The scaled nonlinear \(U\)
+pullback, uniform realization of Note 0019's geometry, a common source disk,
+shifted synchronization, and the physical connected estimate remain open.
 
 ## Regular configurations and gauge chart
 
