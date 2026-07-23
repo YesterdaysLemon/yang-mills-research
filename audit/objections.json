@@ -231,7 +231,7 @@
         "Record a line-by-line human review tied to an immutable commit.",
         "Audit RG I Eqs. (1.8), (1.10), (1.15)-(1.16), and (3.10)-(3.11) against YM-RG-016's exact auxiliary-J formula, covariance, differential, and qualitative fixed-chart decay statement.",
         "Quantify Proposition 9 Eq. (190)'s component indices, chart and differential-of-exponential factors, local auxiliary-J remainder, scale metrics, and norms in YM-RG-015's physical chain rule.",
-        "Audit YM-RG-017's direct-J Banach ball and decay spend, then prove a regulator-uniform nonlinear U margin in compatible scaled charts.",
+        "Audit YM-RG-017's direct-J Banach ball and decay spend. In light of YM-RG-035's diagonal-renorming no-go, obtain the nonlinear U margin through direct smoothing/cancellation, a two-norm theorem, a justified weighted target, or a proved exclusion of the offending finest rows.",
         "Retain the proved dual source convolution, YM-RG-019's conditional forward comparison, YM-RG-028's removal of H_T, YM-RG-029's completed support anchor, and YM-RG-030's H_J^conn-conditional completed tube; then prove H_J^conn and derive H_rho, bounded mesh, and common chart premises from the admitted family or replace the fixed metric with a compatible multiscale network norm.",
         "Use YM-RG-020's branchwise separation rule, YM-RG-026's fixed-gas norm, and YM-RG-027's shifted synchronization, then complete the U/J pullback before claiming a physical marked expectation bound.",
         "Keep intrinsic/raw matching, large fields, RG iteration, continuum construction, infrared decay, and the mass gap outside this claim."
@@ -246,7 +246,7 @@
       "resolution_requirements": [
         "Record a line-by-line human review tied to an immutable commit.",
         "Verify the RG-I auxiliary-J transcription, including the holomorphic im convention, gauge covariance, the D_U^{xi*}D_U^xi leading differential, and the full local derivative of F(U,A) at A=0.",
-        "Audit YM-RG-017's strict direct-J representative margin and YM-RG-018's raw-U obstruction, then construct a uniform nonlinear U tube in a compatible RG-scaled norm and a full product chart for every composed activity.",
+        "Audit YM-RG-017's strict direct-J representative margin, YM-RG-018's raw-U obstruction, and YM-RG-035's diagonal-renorming no-go; then construct a uniform nonlinear U tube or a stronger two-norm replacement for every composed activity.",
         "Quantify every chart and differential-of-exponential coefficient and prove a uniform exponential bound for the physical auxiliary-J derivative.",
         "Retain YM-RG-017's dual source convolution and audit YM-RG-019's all-layer exponent budget, YM-RG-028's endpoint replacement, YM-RG-029's completed support anchor, and YM-RG-030's H_J^conn-conditional completed tube; then prove H_J^conn and discharge H_rho, bounded mesh, and common-chart premises; do not treat the unbounded reverse ratio as a forward obstruction.",
         "Use YM-RG-026's completed fixed-partition connected bound and audit YM-RG-027's shifted synchronization, then complete the physical pullback before inferring any observable RG theorem.",
@@ -485,7 +485,7 @@
         "Check that the separated third parameter in RG II Eq. (1.34) permits the independent radius Delta_J while the smaller U constants still imply every derived condition-(iv) bound.",
         "Prove H_rc with common numerical margins for the actual minimizing physical family, every restriction, and every nested shifted branch.",
         "Rerun the complete marked construction in the product H-infinity algebra and verify both full global dual norms without a hidden restriction, volume, or branch factor.",
-        "Independently audit YM-RG-033's unweighted feature-row pullback and exact positive-decay restriction-quotient reduction together with YM-RG-034's exact curl reduction and physical-width extension. Then prove the remaining converted raw/gradient U rows, scale envelopes, and active-label metric halo. YM-RG-032 removes H_rho and mesh matching only from its support-anchored J summand.",
+        "Independently audit YM-RG-033's unweighted feature-row pullback and exact positive-decay restriction-quotient reduction together with YM-RG-034's exact curl reduction, physical-width extension, and YM-RG-035's diagonal-renorming no-go. Then prove the remaining converted raw/gradient U rows, a direct smoothing/cancellation or two-norm scale treatment, and the active-label metric halo. YM-RG-032 removes H_rho and mesh matching only from its support-anchored J summand.",
         "Keep the nonzero-source polymer disk, raw matching, large fields, RG iteration, continuum construction, axioms, infrared decay, and mass gap open."
       ]
     },
@@ -503,7 +503,7 @@
         "Verify the completed-family quantifiers in Ebar_J^conn, the suppressed finite source-component sum, and the fixed norm-equivalence factor absorbed into C_chi; none follows from H_rc.",
         "Audit the support-set distance inequality, empty-support convention, finite-dimensional l-infinity/l-one identity, and absence of support-cardinality, mesh, endpoint, polymer-exponent-loss, volume, or branch factors.",
         "Verify the one-coordinate countermodel and retain the distinction between worst-case-sharp geometry-only H_end and an activity-specific logically minimal hypothesis.",
-        "Prove H_end or an analytic substitute before claiming the stronger marked-plaquette-rooted J norm. YM-RG-033 separately gives only a conditional unweighted physical-U pullback and an exact positive-decay quotient reduction; YM-RG-034 proves its curl reduction and physical-width extension. Keep the converted raw/gradient rows, scale envelopes, active-label metric halo, nonzero-source polymer disk, raw matching, large fields, RG iteration, continuum construction, axioms, infrared decay, and mass gap open."
+        "Prove H_end or an analytic substitute before claiming the stronger marked-plaquette-rooted J norm. YM-RG-033 separately gives only a conditional unweighted physical-U pullback and an exact positive-decay quotient reduction; YM-RG-034 proves its curl reduction and physical-width extension; YM-RG-035 rules out diagonal row balancing as the scale repair. Keep the converted raw/gradient rows, direct smoothing/cancellation or a two-norm substitute, active-label metric halo, nonzero-source polymer disk, raw matching, large fields, RG iteration, continuum construction, axioms, infrared decay, and mass gap open."
       ]
     },
     {
@@ -521,7 +521,7 @@
         "Independently audit YM-RG-034's physical-width H_ext^U construction and its bounded-layer obstruction; do not replace it by zero extension or by the statement that restriction is a contraction.",
         "Anchor positive decay at YM-RG-034's complete physical-width raw/gradient feature collar or prove and pay the active-label tagged-metric halo; prove a separate endpoint or coefficient-weighted substitute before claiming marked-plaquette-rooted decay.",
         "Do not quotient longitudinal or gauge directions using the joint Ward identity after separately taking absolute values of the U and J summands.",
-        "Prove H_rc, the global and completed feature-scale envelopes, and all remaining physical-family uniformity premises.",
+        "After YM-RG-035's diagonal-renorming no-go, prove H_rc and resolve the surviving scale loss by direct smoothing/cancellation, a two-norm derivative theorem, a justified weighted physical-source target, or exclusion of the offending finest rows.",
         "Keep nonzero-source polymer activities, raw matching, large fields, RG iteration, continuum and infinite-volume construction, Osterwalder-Schrader reconstruction, infrared decay, and the Yang-Mills mass gap open."
       ]
     },
@@ -539,8 +539,27 @@
         "Audit the scalar cutoff product rule on inside, boundary-crossing, reverse-orientation, regulator-boundary, and shifted-branch stencils.",
         "Reproduce the flat abelian longitudinal path quotient exactly and confirm that its plaquette curl vanishes in dimension at least two.",
         "Prove the reduced converted K/gradient-K hypothesis H_01^U with common chart, gauge-restoration, source-component, and tagged-label constants.",
-        "Resolve the potentially divergent (L^j eta)^{-1}+(L^j eta)^{-2} envelope by a source-faithful scaled norm, cancellation, or support-scale theorem.",
+        "Use YM-RG-035's no-go to avoid repeating a diagonal scaled chart norm; resolve the divergent envelope by direct smoothing/cancellation, a two-norm derivative theorem, a justified weighted physical-source target, or a support-scale theorem.",
         "Prove the tagged-metric halo from ceil(rho/xi) gradient layers to active or marked-root labels before claiming those stronger weights.",
+        "Keep H_rc, nonzero-source activities, raw matching, large fields, iteration, continuum and infinite-volume construction, reconstruction, infrared decay, and the Yang-Mills mass gap open."
+      ]
+    },
+    {
+      "id": "OBJ-039",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-035"],
+      "summary": "The scale-balanced weighted cutoff and analytic-tube no-go have no independent human review. The exact algebra shows how s_j and s_j^2 cancel the printed raw/gradient row powers, but the physical conclusion is negative: a full diagonal raw/gradient row-cancelling chart ball has O(xi^2) radius and generic Cauchy restores the xi^{-2} loss. The unweighted-curl variant is handled separately by a flat longitudinal field. A common feature-tag atlas and scale-incidence bound are also unproved.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Recheck Eq. (190)'s output and input scale roles, the eta=xi one-step specialization, and that the source measure cancels only s_{j'}^{-d}.",
+        "Verify both weighted product-rule forms, all boundary cases, reverse orientations, and the constant Theta=sup t_e^2/min(r_-,r_+).",
+        "Reproduce the exact weighted scalar path quotient and confirm the hidden-jump lower bound has local collar norm one.",
+        "Verify the complex Cartan one-bond spectral-radius exclusion and every fixed norm-comparison factor in the O(xi^2) weighted-radius upper bound.",
+        "Verify that the flat longitudinal example has zero plaquette curl while violating RG I's unweighted gradient ceiling at fixed weighted radius.",
+        "Audit the abstract W-to-X inclusion constant, Banach-line Cauchy loss, and sharp one-dimensional saturation.",
+        "Prove or refute a common output-feature tag atlas and uniform scale-incidence bound in the actual completed geometry.",
+        "Seek direct smoothing/cancellation for the assembled physical synthesis, a two-norm completed derivative theorem, a justified weighted physical-source target, or an exact finest-row exclusion.",
         "Keep H_rc, nonzero-source activities, raw matching, large fields, iteration, continuum and infinite-volume construction, reconstruction, infrared decay, and the Yang-Mills mass gap open."
       ]
     }

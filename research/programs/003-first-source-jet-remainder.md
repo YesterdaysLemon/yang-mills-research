@@ -139,8 +139,11 @@ curl identity, reduces the source rows to the raw-RG and
 covariant-gradient-RG pair under \((\mathrm H_{\rm rc})\), and proves the
 extension on a collar of fixed physical thickness. Its flat abelian path
 shows that a fixed number of lattice layers cannot be uniform. The reduced
-converted rows, scale envelopes, and active-label metric halo remain
-conditional.
+converted rows, scale treatment, and active-label metric halo remain
+conditional. Note 0035 proves that the natural diagonal \(s_j,s_j^2\)
+row-balanced norm cancels the printed Eq. (190) powers and has a sharp
+weighted cutoff, but its common analytic radius is only \(O(\xi^2)\).
+Generic Cauchy therefore restores the \(\xi^{-2}\) loss.
 Note 0020 proves the exact one-mark Ursell formula
 and a conditional pinned cluster bound for one fixed hard-core gas, and shows
 that bare shifted marks cannot be mixed without branch synchronization or a
@@ -167,8 +170,9 @@ on every separate shifted branch, and synchronizes their connected first jets
 with no orbit factor. Notes 0007 and 0010 already give the selected-coordinate
 scalar source disk; source-dependent polymer activities and KP convergence at
 nonzero source remain open. Proof of \((\mathrm H_{\rm rc})\), common
-converted raw/gradient \(U\) rows and regulator-compatible scale envelopes,
-the active-label metric halo, common \(J\)-kernel/chart constants, any
+converted raw/gradient \(U\) rows and a direct smoothing/cancellation or
+two-norm substitute, the active-label metric halo, common
+\(J\)-kernel/chart constants, any
 stronger rooted endpoint substitute, and the full unconditional physical
 coarse-field derivative/quasilocal norm,
 unit-translation covariance and a physical convergent connected marked
@@ -278,11 +282,12 @@ infrared conclusions.
   \(J\) pullback without \((\mathrm H_\rho)\) or mesh matching (Note 0032),
   followed by the conditional unweighted physical-\(U\) pullback and exact
   positive-decay restriction-quotient reduction (Note 0033), and the exact
-  curl reduction plus physical-width quotient extension (Note 0034), without
-  a proof of \((\mathrm H_{\rm rc})\), common converted raw/gradient \(U\)
-  rows and regulator-compatible scale envelopes, the active-label metric
-  halo, common \(J\)-kernel constants, or a stronger plaquette-rooted
-  endpoint substitute;
+  curl reduction plus physical-width quotient extension (Note 0034),
+  followed by the diagonal scale-renorming no-go (Note 0035), without a
+  proof of \((\mathrm H_{\rm rc})\), common converted raw/gradient \(U\)
+  rows, direct smoothing/cancellation or a two-norm replacement, the
+  active-label metric halo, common \(J\)-kernel constants, or a stronger
+  plaquette-rooted endpoint substitute;
 - the exact fixed-gas distinguished-vertex Ursell identity, repeated-label
   convention, shifted-branch separation rule, and conditional pinned
   Kotecky--Preiss implication (Note 0020);
@@ -395,16 +400,22 @@ None of those inputs supplies the displayed source-inserted polymer theorem.
     quotient extension on a collar of fixed physical thickness, and prove by
     a flat abelian longitudinal path that a fixed lattice-layer width cannot
     be regulator uniform; see Note 0034.
-18. [ ] Complete the physical \(U/J\) first-jet pullbacks by proving
+18. [x] Prove the exact weighted quotient cutoff and sharp
+    \(\Theta/\rho\) dependence for the natural \(s_j,s_j^2\) row-balanced
+    norm, then prove by isolated Cartan-bond, curl-free longitudinal, and
+    one-dimensional Cauchy models that this diagonal renorming cannot
+    preserve a regulator-uniform analytic tube; see Note 0035.
+19. [ ] Complete the physical \(U/J\) first-jet pullbacks by proving
     \((\mathrm H_{\rm rc})\) for the actual minimizing family, pairing
     Eq. (190)'s \(K,\nabla K\) columns with the reduced raw/gradient norm,
-    proving common scale envelopes and the active-label metric halo if that
+    proving direct smoothing/cancellation for the assembled synthesis or a
+    valid two-norm substitute, proving the active-label metric halo if that
     stronger target is selected, and proving any endpoint statement required
     by the selected rooted norm.
-19. [ ] Separately construct source-dependent polymer activities and uniform
+20. [ ] Separately construct source-dependent polymer activities and uniform
     KP convergence on a nonzero-source disk. The selected-coordinate scalar
     disk itself is already supplied by Notes 0007 and 0010.
-20. [ ] Perform the full symmetry/Ward-identity projection on the marked first
+21. [ ] Perform the full symmetry/Ward-identity projection on the marked first
    jet and classify all position/orientation mixing.
 
 ## Falsification tests

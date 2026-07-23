@@ -451,8 +451,12 @@ Neither estimate has a bond-volume or shifted-branch factor.
   decay. Note 0034 proves the curvature-corrected curl identity, reduces the
   required source rows to the raw-RG and covariant-gradient-RG pair, and
   proves the quotient extension on a collar of fixed physical thickness.
-  The reduced converted rows, scale envelopes, active-label metric halo, and
-  \((\mathrm H_{\rm rc})\) for the physical family remain unproved.
+  Note 0035 then proves that multiplying those two rows by their matching
+  output scales does not repair the physical pullback: the common analytic
+  radius shrinks as \(O(\xi^2)\), and generic Cauchy restores the
+  \(\xi^{-2}\) loss. The reduced converted rows, a direct
+  smoothing/cancellation or two-norm replacement, the active-label metric
+  halo, and \((\mathrm H_{\rm rc})\) for the physical family remain unproved.
 - Equations (26)--(27) do not discharge Note 0019's
   \((\mathrm H_\rho)\), bounded mesh matching, or common kernel/chart
   constants. They also do not construct a nonzero scalar-source polymer
@@ -485,6 +489,10 @@ Neither estimate has a bond-volume or shifted-branch factor.
 - Infer (24) from a pointwise connected sum without the
   coefficientwise \(H^\infty\) rerun.
 - Promote the chart derivative (26) to an unconditional physical
-  coarse-field pullback without Note 0034's reduced converted rows and scale
-  envelopes, or anchor its physical-width feature collar at smaller active
-  labels without a tagged-metric crosswalk.
+  coarse-field pullback without Note 0034's reduced converted rows and a
+  regulator-uniform treatment of their output scales, or anchor its
+  physical-width feature collar at smaller active labels without a
+  tagged-metric crosswalk.
+- Replace that missing scale argument by a diagonal \(s_j,s_j^2\) chart
+  renorming without confronting Note 0035's \(O(\xi^2)\) analytic-radius
+  obstruction.

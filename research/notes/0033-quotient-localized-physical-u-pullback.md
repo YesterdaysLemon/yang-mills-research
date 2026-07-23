@@ -758,10 +758,12 @@ joint \(U/J\) theorem before absolute summation.
 - The hybrid theorem retains the full polymer exponent \(\kappa\). Positive
   source decay still requires \(0\le\gamma<\delta _0/8\).
 - \((\mathrm H_{\rm rc})\), common converted raw/gradient constants, common
-  scale envelopes, and the tagged-metric halo from Note 0034's
+  output-scale control, and the tagged-metric halo from Note 0034's
   \(\lceil\rho/\xi\rceil\)-layer feature collar to smaller active labels
-  remain open for the actual completed minimizing family. A fixed number of
-  lattice layers cannot replace that physical-width collar uniformly.
+  remain open for the actual completed minimizing family. Note 0035 proves
+  that the obvious diagonal \(s_j,s_j^2\) renorming does not provide that
+  control: its full analytic radius is only \(O(\xi^2)\). A fixed number of
+  lattice layers cannot replace the physical-width collar uniformly.
 - No nonzero-source polymer-activity disk, unrestricted raw-law comparison,
   unit-translation theorem, large-field estimate, RG iteration, continuum or
   infinite-volume construction, Osterwalder--Schrader reconstruction,
@@ -789,5 +791,7 @@ joint \(U/J\) theorem before absolute summation.
   absolute values of the \(U\) and \(J\) summands.
 - Drop the source measure, its inverse Eq. (190) density, the strengthened
   separated-cell premise, or the condition \(\gamma<\delta _0/8\).
+- Invoke a row-balanced chart norm as a uniform repair without paying Note
+  0035's \(O(\xi^2)\) analytic radius and resulting Cauchy loss.
 - Promote (19), (30), or (37) to an unconditional physical first jet, an
   unrestricted RG construction, a continuum theory, or a mass gap.

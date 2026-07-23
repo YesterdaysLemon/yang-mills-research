@@ -1367,3 +1367,88 @@ scaled relative-field norm absorb the
 \((L^j\eta)^{-1},(L^j\eta)^{-2}\) factors without changing the completed
 Banach tube. If not, look for a source-faithful cancellation or an exact
 support-scale restriction, and retain a counterexample if none exists.
+
+## 2026-07-23 -- scale-balanced physical-\(U\) renorming no-go
+
+### Established
+
+- Confirmed that the source measure cancels only Eq. (190)'s input-density
+  factor. Multiplying raw output occurrences by \(s_j\) and gradient
+  occurrences by \(s_j^2\) is the exact diagonal scaling that cancels the
+  two remaining output powers, conditional on the still-unproved converted
+  rows and one common output-feature tag atlas.
+- For arbitrary fixed raw scales \(r_b\), gradient scales \(t_e\), physical
+  edge lengths \(h_e\), and real transports, proved both exact weighted
+  product-rule forms and the quotient cutoff
+  \[
+  \|Q_Ia\|_{Y_{\rm sc}/N_I}
+  \le
+  \left(
+  1+\frac{c_{\rm Ad}^{\rm RG}\Theta}{\rho}
+  \right)M_{S_{I,\rho}}(a),
+  \qquad
+  \Theta=
+  \sup_e\frac{t_e^2}{\min(r_{e,-},r_{e,+})}.
+  \]
+- Proved that \(\Theta/\rho\) is necessary. In a scalar weighted path,
+  active endpoint values \(\pm\varepsilon^{-1}\) have exact quotient norm
+  \[
+  \max\left\{1,\frac{2S^2}{\varepsilon D}\right\}
+  =
+  \max\left\{1,\frac{2\Theta}{D}\right\}.
+  \]
+  A midpoint jump is invisible to endpoint collars of width below \(D/2\)
+  while their local feature norm stays one.
+- Tested the scale-balanced norm against the actual RG-I domain. On a
+  homogeneous finest patch \(s=\xi\), the isolated complex bond
+  \(a=-i(t/\xi)H\) has weighted raw/gradient/curl size \(O(t)\), but changes
+  an adjacent plaquette by \(e^{tH}-1\). The strict
+  \(O(\xi^2)\) curvature ceiling gives the explicit upper bound
+  \[
+  r_{{\rm sc},\xi}
+  \le
+  C_H\log\left(1+\frac{a_0\xi^2}{c_{\rm RG}}\right)
+  =
+  O(\xi^2).
+  \]
+- Showed that retaining unweighted curl does not repair the full tube. A
+  flat longitudinal step has zero plaquette curl, weighted size \(O(t)\),
+  and unweighted gradient \(O(t\xi^{-2})\), so RG I condition (ii) imposes
+  the same \(O(\xi^2)\) radius.
+- Proved the abstract renorming invariant. If
+  \(M=\|{\rm id}:W\to X\|\), an \(X\)-ball of radius \(r_X\) guarantees only
+  a \(W\)-ball of radius \(r_X/M\), and generic Cauchy costs
+  \(BM/r_X\). A one-dimensional linear function saturates this bound. With
+  the row-cancelling weight \(w=\xi^2\), the weighted source operator is
+  \(O(1)\) but the derivative bound is \(O(\xi^{-2})\).
+- Added eight focused regressions and a source-normalization audit. Three
+  source files were rechecked against their pinned local hashes; two
+  independent read-only scouts separately supplied the weighted-cutoff and
+  analytic-tube red teams. No independent human review was performed.
+
+### Not established
+
+- Equation (190) does not by itself supply the common branch-independent
+  output-feature tag atlas or the bounded scale-incidence constant
+  \(\Theta\).
+- The actual \(K,\nabla K\) conversion through the exponential chart, gauge
+  restoration, components, and tagged stencils remains open.
+- The no-go concerns a single full diagonal weighted chart ball and generic
+  Cauchy. It does not rule out direct smoothing/cancellation on the assembled
+  \(\mathcal A_Uh\), a stronger two-norm completed derivative theorem, a
+  justified weighted physical-source target, or exact exclusion of the
+  finest output rows.
+- \((\mathrm H_{\rm rc})\), active-label and marked-root metric halos,
+  nonzero-source activities, raw matching, large fields, RG iteration,
+  continuum construction, reconstruction, infrared decay, and the mass gap
+  remain open.
+
+### Next decision
+
+Do not repeat a diagonal renorming of the chart space. Attack the assembled
+source synthesis directly: determine whether the source-component sum,
+gauge restoration, covariant-gradient antisymmetry, or Ward-coupled
+\(U/J\) combination cancels the fine longitudinal/gradient mode before
+absolute summation. In parallel, formulate the weakest two-norm derivative
+estimate that would bypass generic Cauchy and construct a countermodel if
+the retained hypotheses cannot imply it.

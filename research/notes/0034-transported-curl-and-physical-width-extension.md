@@ -724,11 +724,15 @@ gauge-restoration hypotheses are bounded rather than scale gaining.
 
 Thus a candidate envelope
 \(C_{U,1}(L^j\eta)^{-1}+C_{U,2}(L^j\eta)^{-2}\) can still diverge when the
-smallest retained output scale tends to zero. A regulator-uniform physical
-theorem needs either the matching scaled source/output norm, a cancellation
-not used here, or a separate proof that the completed family never takes the
-unweighted supremum over those fine rows. This note does not hide that issue
-inside \(C_{\rm eq}\) or \(C_{\rm ext}(\rho)\).
+smallest retained output scale tends to zero. Note 0035 tests the matching
+diagonal source/output norm: it cancels the printed row powers, but its full
+analytic radius is at most \(O(\xi^2)\), so generic Cauchy restores the same
+\(\xi^{-2}\) loss. A regulator-uniform physical theorem therefore still
+needs direct smoothing or cancellation for the assembled synthesis, a
+genuinely stronger two-norm derivative theorem, a justified weighted
+physical-source target, or a proof that the completed family never contains
+the offending fine rows. This note does not hide that issue inside
+\(C_{\rm eq}\) or \(C_{\rm ext}(\rho)\).
 
 ## Exact boundary
 
@@ -742,7 +746,9 @@ inside \(C_{\rm eq}\) or \(C_{\rm ext}(\rho)\).
   constant for arbitrary active sets.
 - Equations (20) and (38) remain conditional on
   \((\mathrm H_{\rm rc})\), the reduced converted source rows, the relevant
-  common scale envelopes, and the strengthened separated-cell premise.
+  regulator-uniform output-scale treatment, and the strengthened
+  separated-cell premise. Note 0035 rules out the naive diagonal
+  row-balancing treatment.
 - Feature-collar anchoring is proved. Active-bond anchoring still needs a
   multiscale metric halo for \(m_\rho(\xi)\) layers; marked-plaquette
   anchoring still needs the downstream endpoint budget.
@@ -768,5 +774,8 @@ inside \(C_{\rm eq}\) or \(C_{\rm ext}(\rho)\).
   common unscaled tagged-metric halo without proving the metric crosswalk.
 - Hide the possible divergence of the raw/gradient scale envelope inside a
   chart, norm-equivalence, or extension constant.
+- Claim that multiplying raw and gradient rows by \(s_j\) and \(s_j^2\)
+  closes the gate without paying Note 0035's \(O(\xi^2)\) common analytic
+  radius.
 - Promote (20) or (38) to an unconditional physical first jet, continuum
   construction, infrared theorem, or Yang--Mills mass gap.

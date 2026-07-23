@@ -4,6 +4,45 @@ All notable research-structure and claim-status changes are recorded here. Mathe
 
 ## 2026-07-23
 
+- Added YM-RG-035. The natural scale-balanced raw/gradient norm
+  \[
+  \|a\|_{Y_{\rm sc}}
+  =
+  \max\left\{
+  \sup_b r_b|a_b|_{\rm RG},
+  \sup_e t_e^2|D_ea|_{\rm RG}
+  \right\}
+  \]
+  exactly cancels Eq. (190)'s \(s_j^{-1}\) and \(s_j^{-2}\) output powers
+  after the still-conditional converted-row and output-tag crosswalk.
+- Proved the exact weighted restriction-quotient cutoff
+  \[
+  \|Q_Ia\|_{Y_{\rm sc}/N_I}
+  \le
+  \left(1+\frac{c_{\rm Ad}^{\rm RG}\Theta}{\rho}\right)
+  M_{S_{I,\rho}}(a),
+  \qquad
+  \Theta=\sup_e
+  \frac{t_e^2}{\min(r_{e,-},r_{e,+})}.
+  \]
+  A normalized weighted path proves that the
+  \(\Theta/\rho\) dependence is order-sharp; a common physical-width
+  constant therefore needs a common feature-tag and scale-incidence theorem.
+- Proved that this diagonal renorming cannot replace Note 0031's chart norm.
+  On a homogeneous finest patch, an isolated complex Cartan bond has
+  \(O(1)\) weighted norm but an \(O(1)\) plaquette change, so every full
+  diagonal raw/gradient row-cancelling weighted ball in the RG-I curvature
+  domain has radius \(O(\xi^2)\). A curl-free longitudinal step gives the
+  same power from RG I condition (ii), even if unweighted curl is retained.
+- Proved the abstract Cauchy no-go: rescaling a source operator to unit
+  weighted norm introduces the inverse inclusion constant in the inherited
+  weighted tube, sharply restoring the \(\xi^{-2}\) loss. Simple max-to-sum
+  changes cannot alter that power.
+- Kept direct smoothing/cancellation, a two-norm completed derivative
+  theorem, a justified weighted physical-source target, and finest-row
+  exclusion as open alternatives. Added eight focused regressions, a
+  source-normalization audit, and OBJ-039; project status remains Exploratory
+  E0 and unsolved.
 - Added YM-RG-034. For a positively oriented plaquette with
   \(P=d\bar U(p)\), the prefix-transported curl obeys the exact identity
   \[

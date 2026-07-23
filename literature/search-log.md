@@ -978,3 +978,56 @@ diverge at the finest output scale. The chart normalization has no unused
 \(\xi\) factor under the current bounded conversion hypotheses. All
 nonzero-source, large-field, iteration, continuum, reconstruction, infrared,
 and mass-gap gates remain open.
+
+## 2026-07-23 -- scale-balanced physical-\(U\) renorming audit
+
+Primary files:
+
+- `tmp/pdfs/gauge-fixing-conditions.pdf`,
+  SHA-256
+  `7EC039DA62530FC27385914F6EB5F2FC08539EB895A4C286ABEB7EC4ED5805EB`;
+- `tmp/pdfs/rg-i-full.pdf`,
+  SHA-256
+  `1C2D2E500FD1E6A1A7981FED259CC2354EBCF64E473FD564BFC3F2C4D7DFBE2A`;
+- `tmp/pdfs/propagators-ii.pdf`,
+  SHA-256
+  `6CC4F26316AF0DC7F41B39FA75E2F2F9F90C24E1927253B4DFCF0B02D751D72F`.
+
+Gauge-fixing Eq. (1.36) supplies the matching raw and covariant-gradient
+scale shapes. Separately, variational-paper Proposition-9 Eq. (190) carries
+the corresponding output powers \(s_j^{-1}\) and \(s_j^{-2}\) together with
+the input density \(s_{j'}^{-d}\). The source measure cancels only the last
+factor.
+On the one-step specialization \(\eta=\xi\), weighting raw output
+occurrences by \(s_j\) and gradient output occurrences by \(s_j^2\)
+therefore cancels the two printed output powers algebraically. The printed
+formulas attach \(j\) to an output occurrence; they do not by themselves
+provide one globally consistent tag for every shared bond or stencil in the
+completed shifted family.
+
+No new theorem is attributed to the papers. YM-RG-035 proves from the
+two-point product rule that the corresponding physical-width quotient
+constant is
+\[
+1+\frac{c_{\rm Ad}^{\rm RG}\Theta}{\rho},
+\qquad
+\Theta=\sup_e\frac{t_e^2}{\min(r_{e,-},r_{e,+})},
+\]
+and a weighted scalar path shows that the \(\Theta/\rho\) dependence is
+order-sharp.
+
+The same renorming fails the analytic-domain test. On a homogeneous finest
+patch, an isolated complex Cartan bond has bounded row-balanced norm but
+changes an adjacent plaquette by \(O(1)\), whereas RG I condition (iii)
+allows only \(O(\xi^2)\) curvature. A curl-free longitudinal step separately
+violates RG I condition (ii). Hence a full row-balanced chart ball has radius
+at most \(O(\xi^2)\), and the exact one-dimensional inclusion/Cauchy model
+restores the \(\xi^{-2}\) dual loss.
+
+This closes only the diagonal-renorming branch. Direct smoothing or
+cancellation for the assembled synthesis, a two-norm completed derivative
+theorem, a justified weighted physical-source target, or a proof that the
+offending finest output rows are absent remains open. So do
+\((\mathrm H_{\rm rc})\), the completed feature-tag atlas, nonzero-source
+activities, large fields, iteration, continuum construction, infrared
+decay, and the mass gap.
