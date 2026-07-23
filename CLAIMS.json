@@ -1622,7 +1622,7 @@
         "The global and completed feature-scale envelopes remain assumptions. YM-RG-035 proves that merely multiplying the raw and gradient chart rows by s_j and s_j^2 shrinks the common analytic radius as O(xi^2) and does not close this gate.",
         "YM-RG-034 proves a common restriction-quotient extension constant for a feature collar of fixed physical thickness and proves that a fixed number of lattice layers cannot be uniform for arbitrary active sets.",
         "The proved positive-gamma norm can now be anchored at YM-RG-034's physical-width raw/gradient feature collar. Moving to exact active-bond labels still needs a tagged-metric crosswalk for ceil(rho/xi) layers; moving to the marked plaquette needs a further endpoint or coefficient-weighted substitute.",
-        "Ward covariance couples U and J directions and does not remove longitudinal U directions after the two summands are separately absolutized.",
+        "Ward covariance couples U and J directions and does not remove longitudinal U directions after the two summands are separately absolutized. YM-RG-036 supplies the exact joint product-quotient theorem before absolute summation, but its operator norm is not bounded by the retained abstract hypotheses.",
         "No nonzero-source polymer activities, unrestricted raw-law comparison, unit translations, large fields, RG iteration, continuum or infinite-volume construction, Osterwalder-Schrader reconstruction, infrared decay, or mass gap follows."
       ],
       "falsification_tests": [
@@ -1641,7 +1641,7 @@
         "No independent human review has been recorded.",
         "Independently verify the exact restriction-quotient dual identity, weighted phase duality, and sharpness of the quotient-synthesis norm.",
         "Use YM-RG-034's exact curl reduction, then audit the remaining converted raw and covariant-gradient Eq. (190) rows, including source components, scale factors, chart maps, and tagged stencil labels.",
-        "After YM-RG-035's diagonal-renorming no-go, prove direct smoothing/cancellation for the assembled synthesis, a stronger two-norm derivative theorem, a justified weighted physical-source target, or exclusion of the offending finest output rows.",
+        "Use YM-RG-036's exact joint quotient and differentiated range audit, then prove source-faithful smoothing on the actual constrained K/gradient-K range, a range-restricted tube or weak-dual theorem, a justified physical-source restriction, or structural annihilation of the transverse same-cell range.",
         "Use YM-RG-034's physical-width H_ext^U instance and either anchor at its complete raw/gradient feature collar or prove and pay the active-label tagged-metric halo.",
         "Prove H_rc for the actual minimizing family and keep all downstream continuum and infrared gates open."
       ],
@@ -1682,7 +1682,7 @@
       "known_limitations": [
         "H_rc remains unproved for the actual completed minimizing family.",
         "The exact curl algebra removes an independent curl-kernel row, but it does not prove the common converted raw and covariant-gradient K rows through the selected chart and gauge restoration.",
-        "The candidate raw/gradient scale envelope contains (L^j eta)^{-1} and (L^j eta)^{-2} and can diverge as the smallest output scale tends to zero. YM-RG-035 proves that a matching diagonal scaled chart norm alone returns the loss through an O(xi^2) analytic radius; direct cancellation, a two-norm theorem, a weighted physical target, or a support-scale theorem remains necessary.",
+        "The candidate raw/gradient scale envelope contains (L^j eta)^{-1} and (L^j eta)^{-2} and can diverge as the smallest output scale tends to zero. YM-RG-035 proves that a matching diagonal scaled chart norm alone returns the loss through an O(xi^2) analytic radius. YM-RG-036 proves the exact joint Ward quotient and vertical transfer, but the retained abstract hypotheses still permit a transverse same-cell loss; source-faithful actual-range control remains necessary.",
         "The uniform extension collar has ceil(rho/xi) lattice layers. It can fill a small finite regulator, weakening the feature-anchor source distance, and no common active-label tagged-metric halo is proved.",
         "The cutoff theorem is a quotient estimate using the local germ of an existing global representative; it is not a linear right inverse from arbitrary restriction data.",
         "No nonzero-source polymer activities, unrestricted raw-law comparison, unit translations, large fields, RG iteration, continuum or infinite-volume construction, Osterwalder-Schrader reconstruction, infrared decay, or mass gap follows."
@@ -1704,7 +1704,7 @@
         "Independently verify the four-link orientation algebra, curvature correction, norm-equivalence constants, and compatibility with Balaban Eqs. (1.1) and (1.47)-(1.50).",
         "Audit the cutoff product rule on reverse orientations, regulator boundaries, and every completed shifted gradient stencil.",
         "Prove H_rc for the actual physical family and the reduced converted K/gradient-K rows with common chart, component, label, and scale constants.",
-        "Use YM-RG-035's no-go to avoid repeating a diagonal scaled chart norm; resolve the regulator-divergent raw/gradient envelope by direct smoothing/cancellation, a two-norm theorem, a justified weighted physical target, or support-scale restriction.",
+        "Use YM-RG-036's exact joint quotient and source range constraints; resolve the regulator-divergent raw/gradient envelope through actual-range smoothing, a range-restricted tube or weak-dual theorem, a justified physical-source restriction, or transverse-range annihilation.",
         "Prove the tagged-metric halo from the physical-width feature collar to active or marked-root labels if that stronger target is required.",
         "Keep all continuum, reconstruction, infrared, and mass-gap gates open."
       ],
@@ -1744,7 +1744,7 @@
       "known_limitations": [
         "The weighted quotient theorem is abstract after feature scales are fixed. Eq. (190) does not by itself provide one branch-independent tag atlas or a common bound on Theta.",
         "The source-balanced norm cancels the printed row powers only after the still-unproved conversion of K and gradient K through the relative chart and gauge restoration.",
-        "The no-go concerns a single full weighted chart ball and generic Cauchy. It does not rule out direct smoothing or cancellation for the assembled synthesis, a stronger two-norm completed derivative theorem, a deliberately weighted physical-source target, or a proof that offending fine output rows are absent.",
+        "The no-go concerns a single full weighted chart ball and generic Cauchy. YM-RG-036 tests joint Ward cancellation and vertical scale transfer: it identifies the exact quotient constant but shows that the retained abstract hypotheses still permit a same-cell transverse loss. It does not rule out source-faithful smoothing on the actual constrained range, a range-restricted tube or weak-dual theorem, a deliberately weighted physical-source target, or structural transverse annihilation.",
         "H_rc remains unproved for the actual minimizing family, and the active-label or marked-root metric halo remains open.",
         "No nonzero-source polymer activities, unrestricted raw-law comparison, unit translations, large fields, RG iteration, continuum or infinite-volume construction, Osterwalder-Schrader reconstruction, infrared decay, or mass gap follows."
       ],
@@ -1766,11 +1766,72 @@
         "Verify the isolated complex Cartan spike against the strict RG I curvature condition and the curl-free longitudinal step against condition (ii).",
         "Audit the abstract inclusion/Cauchy no-go and its sharp one-dimensional saturation.",
         "Determine whether the actual completed feature geometry supplies a common tag atlas and bounded Theta.",
-        "Seek a direct smoothing/cancellation, two-norm derivative theorem, weighted physical-source formulation, or finest-row exclusion rather than repeating diagonal renorming.",
+        "Use YM-RG-036's differentiated range constraints to seek actual-range smoothing, a range-restricted tube or weak-dual theorem, a justified physical-source formulation, or transverse-range annihilation rather than repeating diagonal renorming.",
         "Keep all construction, reconstruction, infrared, and mass-gap gates open."
       ],
       "novelty_claim": false,
       "provenance": "AI-assisted weighted cutoff algebra and finite-dimensional countermodel analysis using Balaban's printed scale factors and the repository's covariant tube; no novelty claimed.",
+      "last_audited_commit": null
+    },
+    {
+      "id": "YM-RG-036",
+      "kind": "Lemma",
+      "statement": "For each completed coefficient, combine the physical relative-U column A_alpha and its induced auxiliary variation L_Ubar A_alpha into V_alpha=(A_alpha,L_Ubar A_alpha) before taking absolute values. On the normalized U/J product tube, quotient jointly by coefficient-inactive directions and simultaneous gauge tangents. Conditional on the completed coefficientwise Ward identity, finite-dimensional source-phase and quotient duality prove that the sharp coefficient-independent physical first-jet constant is exactly ||Q_H K_F^w|| from source l-infinity into the product quotient; a unit-bidisc example shows that separately absolutizing the U and J summands can destroy an exact Ward cancellation, while arbitrary source phases forbid relying on cancellation between different source columns. Propagators-II vertical decay transfers s_j^{-q} to L^q s_j'^{-q} after spending decay under Eq. (2.59), but same-layer same-cell labels retain the finest eta^{-q} loss. A bounded gauge-invariant commuting-Cartan plaquette coefficient supplies a logical transverse same-cell s^{-2} countermodel to any conclusion from the retained abstract rowwise, product-tube, locality, and Ward hypotheses alone.",
+      "scope_and_quantifiers": "One finite regulator and RG step; finite-dimensional source and external-coordinate spaces; one completed coefficient at a retained real center at a time. The phase/quotient theorem is exact after its physical columns, inactive subspace, product tube, and Ward premise are fixed. The vertical transfer requires alpha=(lambda-lambda')/delta_0 in (0,1), Propagators-II condition (2.59) at that alpha, and (lambda-lambda')RM >= q log L. The transverse construction is an abstract logical countermodel, not an actual Balaban coefficient or a claim about the differentiated range of the actual kernel.",
+      "status": "proved-in-repo",
+      "evidence_level": "E2",
+      "dependencies": [
+        "YM-RG-003",
+        "YM-RG-016",
+        "YM-RG-029",
+        "YM-RG-030",
+        "YM-RG-031",
+        "YM-RG-032",
+        "YM-RG-033",
+        "YM-RG-034",
+        "YM-RG-035"
+      ],
+      "external_hypotheses": [
+        "The common converted physical columns A_alpha from the variational kernel K, including the selected exponential chart, gauge restoration, component normalization, source measure, and tagged raw/gradient stencils.",
+        "A completed coefficientwise Ward identity DF[Gamma_xi phi]=0 on the normalized product tube, together with Note 0029's exact coefficient-inactive directions; this Ward identity is not proved for every completed coefficient.",
+        "For a completed-family corollary, common product-tube radii, a summable coefficient majorant B_conn, and a regulator-uniform bound on the joint quotient-synthesis norm.",
+        "For the vertical transfer, Propagators II Eqs. (2.59)-(2.60) at the spent exponent and the current interpretation of same-layer same-cell source labels in variational-paper Eq. (190)."
+      ],
+      "sources": [
+        "https://doi.org/10.1007/BF01229381",
+        "https://doi.org/10.1007/BF01240221",
+        "https://doi.org/10.1007/BF01215223"
+      ],
+      "proof_anchor": "research/notes/0036-joint-ward-quotient-and-transverse-obstruction.md",
+      "known_limitations": [
+        "The completed Ward identity and the common converted physical columns remain hypotheses. The theorem identifies the exact missing joint constant but does not bound it for the actual completed family.",
+        "The variational paper's differentiated averaging and projected Landau conditions give a right-inverse normalization and projected output-divergence constraint. No source-faithful estimate on that actual constrained range is proved here.",
+        "Vertical decay transfers output powers to the input scale; it does not remove the diagonal same-cell finest-scale loss for the current unweighted all-layer source class.",
+        "The transverse Wilson-plaquette coefficient is a logical countermodel to the retained abstract hypotheses. It is not claimed to equal an actual Balaban polymer coefficient or to satisfy the still-unconverted kernel range constraints.",
+        "H_rc remains unproved for the actual minimizing family, and no nonzero-source polymer activities, unrestricted raw-law comparison, unit translations, large fields, RG iteration, continuum or infinite-volume construction, Osterwalder-Schrader reconstruction, infrared decay, or mass gap follows."
+      ],
+      "falsification_tests": [
+        "Take absolute values of the U and J chain-rule summands separately and then claim that the Ward cancellation was preserved.",
+        "Quotient only the U direction, omit the induced J gauge tangent or the coefficient-inactive subspace, or assume the completed Ward identity without proof.",
+        "Invoke cancellation between different source columns despite the arbitrary phases in the source l-infinity ball.",
+        "Rename the projected Landau condition D* K=0, identify Delta K with D*D K, or convert the output gradient into an unprinted source derivative.",
+        "Spend vertical decay without alpha in (0,1), without Eq. (2.59) at that alpha, or without retaining the one-layer L^q and input-scale factors.",
+        "Exclude the same-layer same-cell label without a separate physical-source support theorem.",
+        "Identify the abstract gauge-invariant countermodel with an actual Balaban coefficient or claim that it violates the differentiated kernel range constraints.",
+        "Promote the sharp quotient reduction or negative abstract model to an unconditional physical first jet, continuum construction, infrared theorem, or Yang-Mills mass gap."
+      ],
+      "reviewers": [],
+      "open_objections": [
+        "No independent human review has been recorded.",
+        "Independently audit the finite-dimensional product-quotient duality, sharpness construction, and one-coordinate lower bound.",
+        "Prove the completed coefficientwise Ward identity with the correct simultaneous U/J tangent and every gauge-fixing or boundary contribution.",
+        "Convert the common variational K and gradient-K columns through the actual chart and gauge restoration, preserving the differentiated right-inverse and projected Landau range constraints.",
+        "Determine whether those actual range constraints eliminate or smooth every same-cell transverse fine column strongly enough to bound the joint quotient synthesis.",
+        "If the source class is changed to a weighted or coarse-layer class, justify that physical target independently rather than treating the vertical transfer as an unweighted bound.",
+        "Keep H_rc, nonzero-source activities, raw matching, large fields, iteration, continuum and infinite-volume construction, reconstruction, infrared decay, and all mass-gap gates open."
+      ],
+      "novelty_claim": false,
+      "provenance": "AI-assisted finite-dimensional product-quotient duality, primary-source range audit, vertical scale transfer, and explicit logical countermodel; no novelty claimed.",
       "last_audited_commit": null
     },
     {
@@ -1813,7 +1874,8 @@
         "YM-RG-032",
         "YM-RG-033",
         "YM-RG-034",
-        "YM-RG-035"
+        "YM-RG-035",
+        "YM-RG-036"
       ],
       "external_hypotheses": [
         "The exact Eq. (0.12) averaging map, raw group-delta transform, fixed small-field domain, local gauge chart, minimizing branch, and background-propagator estimates recorded in the imported-map audit.",
@@ -1830,7 +1892,7 @@
       "proof_anchor": "research/programs/003-first-source-jet-remainder.md",
       "known_limitations": [
         "This is an unproved small-field theorem specification.",
-        "YM-RG-010 fixes the operational selected-coordinate law, YM-RG-012 supplies a conditional independent-variable cube-count norm, YM-RG-013 upgrades the standard branch to d_k, YM-RG-014 supplies an all-plaquette shifted cover, YM-RG-015 supplies fixed-patch analytic physical composition, YM-RG-016 supplies conditional independent-variable derivative norms, YM-RG-017 supplies a one-layer J pullback, YM-RG-018 rules out naive raw U collars, YM-RG-019 supplies a conditional all-layer J pullback, YM-RG-020 supplies fixed-gas Ursell algebra, YM-RG-021 supplies the exact fixed-partition marked map, YM-RG-023 and YM-RG-024 close the ordinary hull/KP mapping, YM-RG-025 closes the fixed-term marked bound, YM-RG-026 closes the marked resummation and norm on one fixed gas, YM-RG-027 synchronizes the shifted first jets, YM-RG-028 removes the discrete-tree-lift premise, YM-RG-029 closes completed external-field support anchors, YM-RG-030 closes the completed affine-J tube under H_J^conn, YM-RG-031 supplies a concrete covariant-curl U/J product tube under H_rc, YM-RG-032 removes H_rho and mesh matching from a support-anchored physical-J norm while isolating H_end for the stronger plaquette-rooted target, YM-RG-033 gives a conditional unweighted physical-U pullback plus the exact positive-decay restriction-quotient reduction, YM-RG-034 proves the exact curl reduction and a physical-width quotient extension while ruling out a uniform fixed-layer collar, and YM-RG-035 proves that diagonal scale balancing returns the finest-scale loss through the analytic radius. Intrinsic/raw comparison, proof of H_rc for the physical family, common converted raw/gradient U rows, direct smoothing/cancellation or a two-norm substitute, any active-label metric halo or required rooted endpoint substitute, unit translations, a nonzero-t polymer-activity disk, the unconditional physical connected expansion, and projection remain open.",
+        "YM-RG-010 fixes the operational selected-coordinate law, YM-RG-012 supplies a conditional independent-variable cube-count norm, YM-RG-013 upgrades the standard branch to d_k, YM-RG-014 supplies an all-plaquette shifted cover, YM-RG-015 supplies fixed-patch analytic physical composition, YM-RG-016 supplies conditional independent-variable derivative norms, YM-RG-017 supplies a one-layer J pullback, YM-RG-018 rules out naive raw U collars, YM-RG-019 supplies a conditional all-layer J pullback, YM-RG-020 supplies fixed-gas Ursell algebra, YM-RG-021 supplies the exact fixed-partition marked map, YM-RG-023 and YM-RG-024 close the ordinary hull/KP mapping, YM-RG-025 closes the fixed-term marked bound, YM-RG-026 closes the marked resummation and norm on one fixed gas, YM-RG-027 synchronizes the shifted first jets, YM-RG-028 removes the discrete-tree-lift premise, YM-RG-029 closes completed external-field support anchors, YM-RG-030 closes the completed affine-J tube under H_J^conn, YM-RG-031 supplies a concrete covariant-curl U/J product tube under H_rc, YM-RG-032 removes H_rho and mesh matching from a support-anchored physical-J norm while isolating H_end for the stronger plaquette-rooted target, YM-RG-033 gives a conditional unweighted physical-U pullback plus the exact positive-decay restriction-quotient reduction, YM-RG-034 proves the exact curl reduction and a physical-width quotient extension while ruling out a uniform fixed-layer collar, YM-RG-035 proves that diagonal scale balancing returns the finest-scale loss through the analytic radius, and YM-RG-036 supplies the exact joint Ward quotient and vertical scale trade while isolating the surviving abstract transverse same-cell obstruction. Intrinsic/raw comparison, proof of H_rc for the physical family, common converted raw/gradient U rows, source-faithful control of their actual constrained range or a range-restricted tube/weak-dual substitute, any active-label metric halo or required rooted endpoint substitute, unit translations, a nonzero-t polymer-activity disk, the unconditional physical connected expansion, and projection remain open.",
         "Even a proof would leave the second jet, large fields, RG iteration, continuum construction, and mass gap open."
       ],
       "falsification_tests": [
@@ -1843,8 +1905,8 @@
       "reviewers": [],
       "open_objections": [
         "YM-RG-009 proves patch-local transported-chart covariance, but global overlap compatibility and comparison with the unrestricted raw transform remain open.",
-        "YM-RG-017 supplies the direct-J collar and one-layer J pullback; YM-RG-018 proves that naive raw U collars collapse; YM-RG-019 supplies the all-layer J bridge only under unverified premises; YM-RG-026 supplies the independent-variable fixed-gas marked norm; YM-RG-027 synchronizes the shifted first jets; YM-RG-028 removes H_T; YM-RG-029 closes completed support halos; YM-RG-030 closes the completed affine-J tube under H_J^conn; YM-RG-031 replaces the raw-U obstruction by a covariant-curl product tube under H_rc; YM-RG-032 proves a support-anchored physical-J norm without H_rho or mesh matching; YM-RG-033 gives an unweighted physical-U pullback under common converted feature rows while isolating the sharp positive-decay quotient moment; YM-RG-034 proves the curl reduction and physical-width quotient extension; and YM-RG-035 rules out diagonal scale balancing as a uniform-tube repair. Proof of H_rc, common converted raw/gradient U rows, direct smoothing/cancellation or a two-norm substitute, the active-label metric halo, a rooted endpoint substitute when that stronger norm is required, unit translations, and a nonzero-t polymer-activity disk remain open.",
-        "YM-RG-020 through YM-RG-035 now close the fixed-partition marked algebra, positive resummation, decorated norm, ordinary KP interface, connected derivative at t=0, branchwise first-jet synchronization, conditional endpoint replacement, completed support anchor, conditional completed-J derivative norm, an H_rc-conditional complex U/J product tube, a hybrid support-anchored physical-J pullback, a conditional unweighted physical-U pullback with an exact positive-decay quotient reduction, the physical-width quotient extension after exact curl reduction, and the diagonal-renorming no-go boundary. An unconditional convergent physical pulled-back cluster expansion remains unproved.",
+        "YM-RG-017 supplies the direct-J collar and one-layer J pullback; YM-RG-018 proves that naive raw U collars collapse; YM-RG-019 supplies the all-layer J bridge only under unverified premises; YM-RG-026 supplies the independent-variable fixed-gas marked norm; YM-RG-027 synchronizes the shifted first jets; YM-RG-028 removes H_T; YM-RG-029 closes completed support halos; YM-RG-030 closes the completed affine-J tube under H_J^conn; YM-RG-031 replaces the raw-U obstruction by a covariant-curl product tube under H_rc; YM-RG-032 proves a support-anchored physical-J norm without H_rho or mesh matching; YM-RG-033 gives an unweighted physical-U pullback under common converted feature rows while isolating the sharp positive-decay quotient moment; YM-RG-034 proves the curl reduction and physical-width quotient extension; YM-RG-035 rules out diagonal scale balancing as a uniform-tube repair; and YM-RG-036 proves the exact joint Ward quotient but shows that the retained abstract hypotheses do not control the transverse same-cell range. Proof of H_rc, common converted raw/gradient U rows, source-faithful actual-range control or a range-restricted tube/weak-dual substitute, the active-label metric halo, a rooted endpoint substitute when that stronger norm is required, unit translations, and a nonzero-t polymer-activity disk remain open.",
+        "YM-RG-020 through YM-RG-036 now close the fixed-partition marked algebra, positive resummation, decorated norm, ordinary KP interface, connected derivative at t=0, branchwise first-jet synchronization, conditional endpoint replacement, completed support anchor, conditional completed-J derivative norm, an H_rc-conditional complex U/J product tube, a hybrid support-anchored physical-J pullback, a conditional unweighted physical-U pullback with an exact positive-decay quotient reduction, the physical-width quotient extension after exact curl reduction, the diagonal-renorming no-go boundary, and the exact joint-Ward quotient reduction with its abstract transverse obstruction. An unconditional convergent physical pulled-back cluster expansion remains unproved.",
         "Uniform locality of the projected first-jet sector is unproved."
       ],
       "novelty_claim": false,
@@ -1890,7 +1952,8 @@
         "YM-RG-032",
         "YM-RG-033",
         "YM-RG-034",
-        "YM-RG-035"
+        "YM-RG-035",
+        "YM-RG-036"
       ],
       "external_hypotheses": [
         "The selected RG I Eq. (0.12) averaging map and raw group-delta transform, the separately named YM-RG-010 exact coordinate law, an explicit intrinsic-coordinate-unrestricted distinction, exact marked domain/norm transcription, and every needed source-free small- and large-field estimate verified in full text before use."
@@ -1915,7 +1978,7 @@
       ],
       "reviewers": [],
       "open_objections": [
-        "The selected branch has patch-local transported-chart covariance, a scalar source disk, an all-plaquette coarse-lattice-equivariant d_k marked family, fixed-patch physical composition, conditional J pullbacks, a proof that naive raw U collars collapse, YM-RG-020 through YM-RG-027's fixed-partition algebra, positive resummation, final norm, ordinary KP interface, connected derivative at t=0, and shifted first-jet synchronization, plus YM-RG-028's endpoint replacement, YM-RG-029's completed support anchors, YM-RG-030's completed affine-J tube under H_J^conn, YM-RG-031's concrete covariant-curl U/J product tube under H_rc, YM-RG-032's support-anchored physical-J norm without H_rho or mesh matching, YM-RG-033's conditional unweighted physical-U pullback plus exact positive-decay restriction-quotient reduction, YM-RG-034's exact curl reduction and physical-width quotient extension, and YM-RG-035's scale-balanced renorming no-go. Proof of H_rc for the actual physical family, common converted raw/gradient U rows, direct smoothing/cancellation or a two-norm substitute, the active-label metric halo, any stronger rooted endpoint substitute, global overlap compatibility, unit translations, a nonzero-t polymer-activity disk, the unconditional physical connected estimate, later profile norms, and relation to the unrestricted raw transform remain open.",
+        "The selected branch has patch-local transported-chart covariance, a scalar source disk, an all-plaquette coarse-lattice-equivariant d_k marked family, fixed-patch physical composition, conditional J pullbacks, a proof that naive raw U collars collapse, YM-RG-020 through YM-RG-027's fixed-partition algebra, positive resummation, final norm, ordinary KP interface, connected derivative at t=0, and shifted first-jet synchronization, plus YM-RG-028's endpoint replacement, YM-RG-029's completed support anchors, YM-RG-030's completed affine-J tube under H_J^conn, YM-RG-031's concrete covariant-curl U/J product tube under H_rc, YM-RG-032's support-anchored physical-J norm without H_rho or mesh matching, YM-RG-033's conditional unweighted physical-U pullback plus exact positive-decay restriction-quotient reduction, YM-RG-034's exact curl reduction and physical-width quotient extension, YM-RG-035's scale-balanced renorming no-go, and YM-RG-036's exact joint-Ward quotient and abstract transverse obstruction. Proof of H_rc for the actual physical family, common converted raw/gradient U rows, source-faithful actual-range control or a range-restricted tube/weak-dual substitute, the active-label metric halo, any stronger rooted endpoint substitute, global overlap compatibility, unit translations, a nonzero-t polymer-activity disk, the unconditional physical connected estimate, later profile norms, and relation to the unrestricted raw transform remain open.",
         "The theorem may duplicate or fail to follow from existing source-free estimates.",
         "The source-dependent extension of the separate large-field operation has not been derived."
       ],

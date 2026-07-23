@@ -521,7 +521,7 @@
         "Independently audit YM-RG-034's physical-width H_ext^U construction and its bounded-layer obstruction; do not replace it by zero extension or by the statement that restriction is a contraction.",
         "Anchor positive decay at YM-RG-034's complete physical-width raw/gradient feature collar or prove and pay the active-label tagged-metric halo; prove a separate endpoint or coefficient-weighted substitute before claiming marked-plaquette-rooted decay.",
         "Do not quotient longitudinal or gauge directions using the joint Ward identity after separately taking absolute values of the U and J summands.",
-        "After YM-RG-035's diagonal-renorming no-go, prove H_rc and resolve the surviving scale loss by direct smoothing/cancellation, a two-norm derivative theorem, a justified weighted physical-source target, or exclusion of the offending finest rows.",
+        "Use YM-RG-036's exact joint quotient and differentiated range audit, then prove H_rc and resolve the surviving scale loss by source-faithful smoothing on the actual constrained range, a range-restricted tube or weak-dual theorem, a justified physical-source restriction, or structural transverse annihilation.",
         "Keep nonzero-source polymer activities, raw matching, large fields, RG iteration, continuum and infinite-volume construction, Osterwalder-Schrader reconstruction, infrared decay, and the Yang-Mills mass gap open."
       ]
     },
@@ -539,7 +539,7 @@
         "Audit the scalar cutoff product rule on inside, boundary-crossing, reverse-orientation, regulator-boundary, and shifted-branch stencils.",
         "Reproduce the flat abelian longitudinal path quotient exactly and confirm that its plaquette curl vanishes in dimension at least two.",
         "Prove the reduced converted K/gradient-K hypothesis H_01^U with common chart, gauge-restoration, source-component, and tagged-label constants.",
-        "Use YM-RG-035's no-go to avoid repeating a diagonal scaled chart norm; resolve the divergent envelope by direct smoothing/cancellation, a two-norm derivative theorem, a justified weighted physical-source target, or a support-scale theorem.",
+        "Use YM-RG-036's exact joint quotient and source range constraints; resolve the divergent envelope through actual-range smoothing, a range-restricted tube or weak-dual theorem, a justified physical-source restriction, or transverse-range annihilation.",
         "Prove the tagged-metric halo from ceil(rho/xi) gradient layers to active or marked-root labels before claiming those stronger weights.",
         "Keep H_rc, nonzero-source activities, raw matching, large fields, iteration, continuum and infinite-volume construction, reconstruction, infrared decay, and the Yang-Mills mass gap open."
       ]
@@ -559,8 +559,26 @@
         "Verify that the flat longitudinal example has zero plaquette curl while violating RG I's unweighted gradient ceiling at fixed weighted radius.",
         "Audit the abstract W-to-X inclusion constant, Banach-line Cauchy loss, and sharp one-dimensional saturation.",
         "Prove or refute a common output-feature tag atlas and uniform scale-incidence bound in the actual completed geometry.",
-        "Seek direct smoothing/cancellation for the assembled physical synthesis, a two-norm completed derivative theorem, a justified weighted physical-source target, or an exact finest-row exclusion.",
+        "Use YM-RG-036's differentiated range constraints to seek actual-range smoothing, a range-restricted tube or weak-dual theorem, a justified physical-source restriction, or transverse-range annihilation.",
         "Keep H_rc, nonzero-source activities, raw matching, large fields, iteration, continuum and infinite-volume construction, reconstruction, infrared decay, and the Yang-Mills mass gap open."
+      ]
+    },
+    {
+      "id": "OBJ-040",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-036"],
+      "summary": "The joint Ward-quotient theorem, vertical scale transfer, and transverse countermodel have no independent human review. Application to the completed physical coefficient remains conditional on the completed Ward identity, converted physical columns, and source-faithful use of the differentiated kernel range constraints. The countermodel establishes insufficiency of the retained abstract hypotheses only.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Recheck the complex finite-dimensional source-phase identity, product-quotient duality, frozen-annihilator sharpness statement, and one-coordinate lower bound.",
+        "Prove the completed coefficientwise Ward identity with the complexified simultaneous U/J gauge tangent, correct gauge-fixing terms, and coefficient-inactive subspace.",
+        "Visually recheck variational-paper Eqs. (20)-(21) and (181)-(190), including the common-kernel typing, right-inverse normalization, projected Landau-divergence condition, output/input variables, and absence of a printed signed or source-derivative identity.",
+        "Verify Propagators II Eqs. (2.59)-(2.60) at alpha=(lambda-lambda')/delta_0, the retained exponent, one-layer L^q cost, input-scale factor, and same-layer same-cell diagonal.",
+        "Reproduce the SU(2) determinant identity, commuting-Cartan transported curl, exact Wilson-plaquette derivative, uniform tube bound, and normalized quotient-functional lower bound.",
+        "Do not identify the logical transverse countermodel with an actual Balaban coefficient or claim that the actual kernel violates its differentiated range constraints.",
+        "Prove a source-faithful bound on the actual constrained joint synthesis, a range-restricted tube or weak-dual estimate, a justified physical-source restriction, or a structural transverse annihilation theorem.",
+        "Keep H_rc, nonzero-source activities, raw matching, large fields, iteration, continuum and infinite-volume construction, reconstruction, infrared decay, and every Yang-Mills mass-gap gate open."
       ]
     }
   ]

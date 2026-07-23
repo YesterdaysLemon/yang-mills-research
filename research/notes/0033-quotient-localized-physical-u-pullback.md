@@ -712,7 +712,7 @@ columns satisfy arbitrarily strong off-diagonal decay. Hence the global
 weighted norm can lose exponentially in the regulator diameter even when
 the physical local composition is uniformly bounded.
 
-## Ward identities do not remove the longitudinal sector
+## Ward identities do not remove the longitudinal sector from separate bounds
 
 For a simultaneous infinitesimal gauge direction, covariance gives a joint
 identity of the form
@@ -728,8 +728,11 @@ D_J\widehat{\mathcal C}[\delta_\phi J]
 It does not give
 \(D_U^\Phi\widehat{\mathcal C}[a_\phi]=0\). The present bounds take absolute
 values of the \(U\)- and \(J\)-chain-rule summands separately. Therefore the
-longitudinal sector cannot be discarded. Exploiting (45) would require a new
-joint \(U/J\) theorem before absolute summation.
+longitudinal sector cannot be discarded in this separate-\(U\) theorem.
+Note 0036 supplies the exact joint \(U/J\) phase/quotient theorem before
+absolute summation. It preserves any internal Ward cancellation, but the
+resulting joint quotient-synthesis norm is not bounded by the retained
+abstract hypotheses.
 
 ## Exact boundary
 
@@ -744,6 +747,12 @@ joint \(U/J\) theorem before absolute summation.
 - Equation (30) identifies the sharp coefficient-independent quotient
   synthesis moment for a positive source-distance weight. Finiteness with
   common constants is not proved merely by quotient duality.
+- Note 0036 replaces separate \(U\)- and \(J\)-absolute sums by joint
+  physical columns and quotients the product tube by simultaneous-gauge and
+  inactive directions. That exact joint theorem does not prove a uniform
+  bound on the actual physical synthesis; its same-cell transverse model
+  shows the retained abstract rowwise, locality, product-tube, and Ward
+  hypotheses are insufficient.
 - Equation (37) is conditional on both
   \((\mathrm H_{\rm row}^U)\) and
   \((\mathrm H_{\rm ext}^U)\) in its original formulation. Note 0034 proves
@@ -762,7 +771,11 @@ joint \(U/J\) theorem before absolute summation.
   \(\lceil\rho/\xi\rceil\)-layer feature collar to smaller active labels
   remain open for the actual completed minimizing family. Note 0035 proves
   that the obvious diagonal \(s_j,s_j^2\) renorming does not provide that
-  control: its full analytic radius is only \(O(\xi^2)\). A fixed number of
+  control: its full analytic radius is only \(O(\xi^2)\). Note 0036 proves
+  that vertical decay merely transfers the loss to the input scale and
+  narrows the next target to the actual differentiated kernel range, a
+  range-restricted tube or weak-dual estimate, a justified source
+  restriction, or structural transverse annihilation. A fixed number of
   lattice layers cannot replace the physical-width collar uniformly.
 - No nonzero-source polymer-activity disk, unrestricted raw-law comparison,
   unit-translation theorem, large-field estimate, RG iteration, continuum or

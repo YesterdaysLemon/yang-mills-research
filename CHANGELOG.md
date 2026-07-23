@@ -4,6 +4,46 @@ All notable research-structure and claim-status changes are recorded here. Mathe
 
 ## 2026-07-23
 
+- Added YM-RG-036. The exact physical source column is the joint pair
+  \(V_\alpha=(A_\alpha,L_{\bar U}A_\alpha)\); taking the \(U\)- and
+  induced-\(J\) contributions together before absolute summation preserves
+  internal Ward cancellation.
+- On the normalized product tube, proved the conditional sharp identity
+  \[
+  \sup_{\|G\|_\infty\le B,\ DG(0)|_H=0}
+  \sum_\alpha\mu_\alpha w_\alpha|DG(0)[V_\alpha]|
+  =
+  B\|Q_HK^w\|_{\ell^\infty\to E_\xi/H}.
+  \]
+  A unit-bidisc model proves that separate absolute values can lose an exact
+  Ward cancellation, while source phase duality and the one-column lower
+  bound rule out relying on cancellation among different source labels.
+- Differentiated the variational paper's averaging and projected Landau
+  conditions to record the actual common kernel's right-inverse
+  normalization and projected output-divergence constraint. Equation (190)
+  prints five bounds on one kernel, not signed cancellations or source
+  derivatives.
+- Proved the exact Propagators-II vertical trade
+  \[
+  s_j^{-q}e^{-\lambda d_{\mathcal B}}
+  \le
+  L^qs_{j'}^{-q}e^{-\lambda'd_{\mathcal B}}
+  \]
+  under Eq. (2.59) at the spent exponent. It transfers the output loss to
+  the input scale; the same-layer same-cell source label still contributes
+  the finest \(\eta^{-q}\) power.
+- Built a uniformly bounded gauge-invariant commuting-Cartan
+  Wilson-plaquette coefficient whose transverse same-cell derivative is
+  \(O(s^{-2})\). This is a logical countermodel to the retained abstract
+  rowwise, locality, product-tube, and Ward hypotheses, not an actual
+  Balaban coefficient or a statement about the actual differentiated kernel
+  range.
+- Narrowed the next positive target to a source-faithful estimate on those
+  actual range constraints, a range-restricted analytic tube or weak-dual
+  theorem, a justified physical-source restriction, or structural
+  transverse-range annihilation. Added seven focused regressions, a
+  primary-source audit, and OBJ-040; project status remains Exploratory E0
+  and unsolved.
 - Added YM-RG-035. The natural scale-balanced raw/gradient norm
   \[
   \|a\|_{Y_{\rm sc}}

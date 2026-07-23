@@ -1452,3 +1452,94 @@ gauge restoration, covariant-gradient antisymmetry, or Ward-coupled
 absolute summation. In parallel, formulate the weakest two-norm derivative
 estimate that would bypass generic Cauchy and construct a countermodel if
 the retained hypotheses cannot imply it.
+
+## 2026-07-23 -- joint Ward quotient and transverse same-cell obstruction
+
+### Established
+
+- Combined each physical relative-\(U\) source column with its exact induced
+  auxiliary variation:
+  \[
+  V_\alpha=(A_\alpha,L_{\bar U}A_\alpha),
+  \qquad
+  \mathcal L_\alpha^{\rm phys}
+  =\ell_U[A_\alpha]+\ell_J[L_{\bar U}A_\alpha].
+  \]
+  Source phase duality therefore acts after the internal \(U/J\)
+  cancellation rather than after two separate triangle inequalities.
+- On the normalized \(U/J\) product tube, formed the complex quotient by
+  both coefficient-inactive directions and complexified simultaneous gauge
+  tangents. Conditional on the completed Ward identity, proved the exact
+  joint quotient bound.
+- Froze an arbitrary complex annihilator \(H\) and synthesis \(K^w\) and
+  proved the sharp coefficient-independent identity
+  \[
+  \sup_{\|G\|_\infty\le B,\ DG(0)|_H=0}
+  \sum_\alpha\mu_\alpha w_\alpha|DG(0)[V_\alpha]|
+  =
+  B\|Q_HK^w\|_{\ell^\infty\to E_\xi/H}.
+  \]
+  A unit-bidisc model shows that separate \(U\)- and \(J\)-absolute values
+  can produce an \(O(M)\) loss when the exact joint derivative is zero.
+  The dual formula and one-coordinate lower bound show that arbitrary source
+  phases prevent a proof based on cancellation among different columns.
+- Audited the common variational kernel directly. Equation (190)'s five
+  rows bound \(K\), its output gradient, a localized Hölder gradient,
+  \(D^*DK\), and \(\Delta K\); they are not five kernels and print no
+  signed row cancellation. Differentiating Eqs. (20)--(21) gives
+  \[
+  D_AQ_j(U_k,\eta\mathcal H)[\eta K_{\cdot,c}]=\mathbf e_c,
+  \qquad
+  R(U_k)D_{U_k}^{\eta *}K_{\cdot,c}=0.
+  \]
+  These are a right-inverse normalization and projected output-divergence
+  condition, not \(D^*K=0\) or a source integration-by-parts identity.
+- Under Propagators II condition (2.59) at
+  \(\alpha=(\lambda-\lambda')/\delta_0\in(0,1)\), proved the exact vertical
+  trade
+  \[
+  s_j^{-q}e^{-\lambda d_{\mathcal B}(y,y')}
+  \le
+  L^qs_{j'}^{-q}e^{-\lambda'd_{\mathcal B}(y,y')}.
+  \]
+  It transfers the output power to the input scale. The diagonal source
+  label \(j'=j,y'=y\) has zero distance, so the finest unweighted all-layer
+  moment remains at least \(\eta^{-q}\).
+- Constructed a bounded gauge-invariant logical countermodel on a commuting
+  \(SU(2)\) Cartan background. For one same-cell bond direction,
+  \(\mathcal D^sa_s=\pm s^{-2}H\), and the local coefficient
+  \[
+  F_s=s^{-4}\left(1-\tfrac12\operatorname{Tr}dU(p)\right)
+  \]
+  has exact derivative
+  \(\pm\sin(cs^2)/s^4\asymp s^{-2}\). It survives inactive and Ward
+  quotients.
+- Added seven focused regressions and a visually checked primary-source
+  audit with pinned PDF hashes. Three read-only hostile audits were used
+  during integration. No independent human review was performed.
+
+### Not established
+
+- The completed coefficientwise Ward identity remains a hypothesis, as do
+  the common converted physical columns through the exponential chart,
+  gauge restoration, source components, and tagged raw/gradient stencils.
+- The transverse coefficient is a logical countermodel to the retained
+  abstract rowwise, locality, product-tube, and Ward hypotheses. It is not
+  an actual Balaban coefficient and is not claimed to satisfy or violate the
+  differentiated right-inverse and projected Landau range constraints.
+- No regulator-uniform bound on the actual joint quotient synthesis has
+  been proved. Vertical decay does not bound the current unweighted
+  same-cell all-layer source class.
+- \((\mathrm H_{\rm rc})\), the active-label metric halo, nonzero-source
+  activities, raw matching, unit translations, large fields, RG iteration,
+  continuum and infinite-volume construction, reconstruction, infrared
+  decay, and the mass gap remain open.
+
+### Next decision
+
+Use the differentiated averaging and projected Landau equations as exact
+range constraints on the actual common \(K,\nabla K\) columns. Test whether
+their assembled physical \(U/J\) synthesis gains two powers on every
+same-cell transverse column. In parallel, formulate a range-restricted
+analytic tube or weak-quotient-dual estimate and compare it with a
+physically justified weighted or coarse-layer source class.

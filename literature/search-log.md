@@ -1031,3 +1031,79 @@ offending finest output rows are absent remains open. So do
 \((\mathrm H_{\rm rc})\), the completed feature-tag atlas, nonzero-source
 activities, large fields, iteration, continuum construction, infrared
 decay, and the mass gap.
+
+## 2026-07-23 -- joint Ward quotient, common-kernel range, and vertical-decay audit
+
+Primary files:
+
+- `tmp/pdfs/variational-background.pdf`,
+  SHA-256
+  `1F480977608AD36286D074841E3DBB02CE842113F92B818D8BD88BCCFF88DF3C`;
+- `tmp/pdfs/propagators-ii.pdf`,
+  SHA-256
+  `6CC4F26316AF0DC7F41B39FA75E2F2F9F90C24E1927253B4DFCF0B02D751D72F`.
+
+The rendered pages visually checked for YM-RG-036 were variational-paper
+printed p. 281 Eqs. (20)--(21), pp. 307--308 Eqs. (181)--(190), printed
+p. 309 Proposition 9, and Propagators II printed pp. 234--235 Eqs.
+(2.59)--(2.60) and (2.68)--(2.69).
+
+The variational paper defines one common kernel
+\[
+K_{\mu\nu}(B;x,y')
+=
+\frac{\delta\mathcal H_\mu(B,x)}{\delta B_\nu(y')}.
+\]
+Equation (190)'s five rows bound this kernel, its output gradient, a
+localized Hölder gradient difference, \(D^*DK\), and \(\Delta K\). They
+are not independent kernels, and the source prints no signed cancellation
+among those norm bounds. It also prints no \(\nabla_{y'}K\), zero source
+moment, or identity \(\nabla_xK=-\nabla_{y'}K\).
+
+Differentiating Eqs. (20)--(21) gives a right-inverse normalization and
+projected Landau-divergence constraint for every kernel column:
+\[
+D_AQ_j(U_k,\eta\mathcal H)[\eta K_{\cdot,c}]
+=\mathbf e_c,
+\qquad
+R(U_k)D_{U_k}^{\eta *}K_{\cdot,c}=0.
+\]
+These are promising range conditions, but they are not \(D^*K=0\), a
+source integration-by-parts identity, or the completed coefficient's Ward
+identity.
+
+Propagators II Eq. (2.60), with the strengthened condition (2.59) retained
+at \(\alpha=(\lambda-\lambda')/\delta_0\in(0,1)\), gives the exact trade
+\[
+s_j^{-q}e^{-\lambda d_{\mathcal B}(y,y')}
+\le
+L^qs_{j'}^{-q}e^{-\lambda'd_{\mathcal B}(y,y')}
+\]
+when
+\[
+\frac14\alpha\delta_0RM
+>
+2d\log c_0(\alpha/2)+1,
+\qquad
+(\lambda-\lambda')RM\ge q\log L.
+\]
+This transfers the output power to the input scale. The diagonal label
+\(j'=j,y'=y\) has zero distance, so the current unweighted all-layer source
+space still contains the finest \(\eta^{-q}\) loss.
+
+YM-RG-036 is repository algebra after those source facts. It combines the
+physical \(U\) and induced \(J\) derivatives before taking absolute values,
+quotients the product tube by inactive and simultaneous-gauge directions,
+and proves the resulting quotient-synthesis norm is the sharp
+coefficient-independent constant. A unit-bidisc model shows that separate
+absolute values can destroy an exact Ward cancellation. A commuting-Cartan
+Wilson-plaquette model then shows that the current abstract rowwise,
+locality, product-tube, and Ward hypotheses still permit a same-cell
+transverse \(s^{-2}\) loss. That model is not asserted to be an actual
+Balaban coefficient or to satisfy the differentiated range constraints.
+
+The completed Ward premise, converted common physical columns, a
+source-faithful estimate on their actual range, \((\mathrm H_{\rm rc})\),
+nonzero-source activities, raw matching, large fields, iteration, continuum
+construction, reconstruction, infrared decay, and the mass gap remain
+open.

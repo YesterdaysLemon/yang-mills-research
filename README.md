@@ -57,6 +57,7 @@ The main route is a Wilson lattice regulator followed by gauge-covariant renorma
 - [Note 0033: quotient-localized physical-U pullback](research/notes/0033-quotient-localized-physical-u-pullback.md)
 - [Note 0034: transported curl closure and physical-width quotient extension](research/notes/0034-transported-curl-and-physical-width-extension.md)
 - [Note 0035: scale-balanced physical-U renorming no-go](research/notes/0035-scale-balanced-u-renorming-no-go.md)
+- [Note 0036: joint Ward quotient and transverse same-cell obstruction](research/notes/0036-joint-ward-quotient-and-transverse-obstruction.md)
 - [Bałaban theorem-level source map](literature/audits/2026-07-22-balaban-source-map.md)
 - [Bałaban imported-map audit](literature/audits/2026-07-22-balaban-imported-map.md)
 - [Bałaban final-gas/KP source audit](literature/audits/2026-07-22-balaban-final-gas-kp-map.md)
@@ -71,12 +72,29 @@ The main route is a Wilson lattice regulator followed by gauge-covariant renorma
 - [Bałaban quotient-localized U-pullback audit](literature/audits/2026-07-23-balaban-quotient-localized-u-pullback.md)
 - [Bałaban transported-curl and quotient-extension audit](literature/audits/2026-07-23-balaban-transported-curl-extension.md)
 - [Bałaban scale-balanced U-renorming audit](literature/audits/2026-07-23-balaban-scale-balanced-u-renorming.md)
+- [Bałaban joint-Ward, kernel-range, and vertical-decay audit](literature/audits/2026-07-23-balaban-joint-ward-transverse.md)
 
 Programs 002 and 003 are open theorem specifications, not results. The notes prove auxiliary finite-regulator and fixed-chart statements for a selected small-field branch; they do not identify that branch with the unrestricted raw transform. Notes 0021, 0025, and 0026 carry one interior plaquette mark through the exact fixed-partition RG-II algebra, the source-faithful conditioned formula, and the positive \(D/P/Z_0\) plus scale resummations. Under the explicit doubled-\(\varepsilon _2\) refinement and Note 0024's separate ordinary KP ceiling, this gives an absolutely convergent connected first derivative at \(t=0\). Under the added periodic compatibility \(LM\mid N\) and a nonempty common external branch domain, Note 0027 repeats the complete construction on every nested shifted branch, proves that all branch numerator/denominator pairs reconstruct the same dual-number integral up to a nonzero scalar, and averages only the completed connected coefficients. Note 0028 removes Note 0019's artificial discrete-tree-lift hypothesis and its \(\tau\) loss by a periodic covering-space endpoint argument. Note 0029 then carries external-\((U,J)\) restriction locality through the marked dual-number map and literal-union connected sum. It retains RG I's exact bond-intersection support convention and uses the admitted integer-wall closed cubulations to prove zero endpoint halos for the completed external-\(J\) coefficient. Under the completed representative compatibility hypothesis \((\mathrm H_J^{\rm conn})\), Note 0030 applies the affine \(J\) margin at the output scale and reruns the marked connected estimate in coefficientwise local \(H^\infty\) norms. Note 0031 gives a concrete full complex \(U/J\) product tube in a covariant-curl relative-log norm under the stronger common real-center hypothesis \((\mathrm H_{\rm rc})\). Its ordered-matrix estimate proves an explicit positive \(U\) radius and the product Banach rerun gives full \(U\)-chart and \(J\) dual derivative norms without bond-volume or shifted-branch factors. Note 0032 composes that completed \(J\) derivative with the audited Eq. (190) kernel in a support-anchored hybrid norm. It needs no \((\mathrm H_\rho)\), mesh comparison, endpoint allowance, or loss from the polymer exponent \(\kappa\); the source-kernel weight still requires \(0\le\gamma<\delta _0/8\). The stronger marked-plaquette-rooted norm instead follows from the less structured aggregate hypothesis \((\mathrm H_{\rm end})\).
 
 Note 0033 treats the physical-\(U\) summand. Under common converted Eq. (190) feature rows and a common global scale envelope, it proves an unweighted source sum without a coordinate, bond-volume, mesh, or branch factor. For positive source decay it replaces the false direct-\(J\) coordinate-dual argument by exact restriction-quotient duality and identifies the sharp quotient-synthesis kernel moment. Note 0034 then proves the exact curvature-corrected transported-curl identity. Under \((\mathrm H_{\rm rc})\), the full raw/gradient/operator/curl norm is uniformly equivalent to its raw-RG plus covariant-gradient-RG pair, so no independent operator or curl source row is needed. A scalar cutoff proves the quotient extension on a collar of fixed physical thickness, while a flat abelian longitudinal path proves that a fixed number of lattice layers cannot be regulator uniform. The remaining physical-\(U\) gates are the converted raw and gradient Eq. (190) rows, regulator-compatible scale envelopes, a tagged-metric halo when anchoring at the smaller active labels, and \((\mathrm H_{\rm rc})\) for the actual minimizing family.
 
-Note 0035 tests the obvious scale-envelope repair and rules it out in its naive form. Weighting raw and gradient output occurrences by \(s_j\) and \(s_j^2\) cancels Eq. (190)'s printed powers, and an exact weighted cutoff gives a physical-width quotient constant \(1+c_{\rm Ad}^{\rm RG}\Theta/\rho\). But on the finest scale a one-bond complex direction has \(O(1)\) weighted norm and an \(O(1)\) plaquette change, while RG I permits only \(O(\xi^2)\). The full weighted analytic radius is therefore at most \(O(\xi^2)\), and generic Cauchy restores the same \(\xi^{-2}\) loss. An unweighted curl row does not help because a flat longitudinal step has zero curl and violates the unweighted gradient ceiling. The next viable target must use direct smoothing/cancellation for the assembled synthesis, a genuinely stronger two-norm derivative theorem, a justified weighted physical-source target, or an exact exclusion of the offending finest rows.
+Note 0035 tests the obvious scale-envelope repair and rules it out in its naive form. Weighting raw and gradient output occurrences by \(s_j\) and \(s_j^2\) cancels Eq. (190)'s printed powers, and an exact weighted cutoff gives a physical-width quotient constant \(1+c_{\rm Ad}^{\rm RG}\Theta/\rho\). But on the finest scale a one-bond complex direction has \(O(1)\) weighted norm and an \(O(1)\) plaquette change, while RG I permits only \(O(\xi^2)\). The full weighted analytic radius is therefore at most \(O(\xi^2)\), and generic Cauchy restores the same \(\xi^{-2}\) loss. An unweighted curl row does not help because a flat longitudinal step has zero curl and violates the unweighted gradient ceiling. This leaves structured cancellation, a range-sensitive derivative theorem, a justified physical-source restriction, or structural exclusion of the offending finest rows; Note 0036 tests that boundary further.
+
+Note 0036 tests the strongest exact Ward-cancellation version of that route.
+It combines each physical \(U\) column with its induced auxiliary-\(J\)
+variation before absolute summation and quotients the product tube jointly
+by inactive and simultaneous-gauge directions. Conditional on the completed
+Ward identity, the resulting quotient-synthesis norm is the exact sharp
+coefficient-independent constant; separately absolutizing the two summands
+can destroy a real cancellation. Propagators-II vertical decay can transfer
+the output powers to the input scale, but the same-layer same-cell label
+retains the finest loss. A gauge-invariant transverse logical countermodel
+then shows that the current abstract rowwise, locality, product-tube, and
+Ward hypotheses still permit an \(s^{-2}\) column. It is not an actual
+Balaban coefficient. The narrowed next target is a source-faithful estimate
+on the actual kernel range constraints, a range-restricted analytic tube or
+weak-dual theorem, a justified physical-source restriction, or a structural
+annihilation of the transverse same-cell range.
 
 The selected-coordinate scalar source disk was already proved in Notes 0007 and 0010. Source-dependent polymer activities at nonzero source, unit-translation covariance, the remaining physical-family uniformity and rooted-locality gates, large fields, RG iteration, continuum construction, axioms, infrared decay, and the mass gap remain open. No Yang--Mills solution is claimed here.
 
@@ -252,6 +270,27 @@ inside the RG-I domain has radius \(O(\xi^2)\); the inherited weighted-dual
 Cauchy estimate is therefore \(O(B_{\rm conn}\xi^{-2})\). This is a no-go
 for simple renorming, not a no-go for structured smoothing or cancellation
 on the actual \(K\)-image.
+
+Note 0036 replaces separate \(U\)- and \(J\)-absolute bounds by the joint
+physical columns
+\[
+V_\alpha=(A_\alpha,L_{\bar U}A_\alpha).
+\]
+After quotienting the normalized product tube by coefficient-inactive and
+simultaneous-gauge directions \(H_F\), the exact missing constant is
+\[
+\left\|Q_{H_F}K_F^w\right\|_{\ell^\infty\to E_\xi/H_F}.
+\]
+This preserves internal Ward cancellation, but arbitrary source phases
+still align different column values. Spending vertical decay transfers
+\(s_j^{-q}\) to \(L^qs_{j'}^{-q}\), while the diagonal
+\(j'=j,y'=y\) retains the finest-scale power. A bounded local
+gauge-invariant Wilson-plaquette functional detects a commuting-Cartan
+same-cell transverse column of order \(s^{-2}\) under the retained abstract
+hypotheses. The actual variational kernel also satisfies differentiated
+right-inverse and projected Landau constraints, so the countermodel does not
+settle its range; exploiting those exact constraints is the next positive
+test.
 
 Note 0032 does complete the auxiliary-\(J\) kernel composition in a hybrid
 norm. If \(S_{p,s,R}\) is the tagged multiscale-label set of the completed

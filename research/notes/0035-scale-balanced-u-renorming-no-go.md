@@ -643,16 +643,20 @@ The scaled norm solves two algebraic subproblems:
 
 It does **not** close the physical-\(U\) pullback. Equations (37)--(43) show
 that replacing Note 0031's chart norm by \(Y_{\rm sc}\) returns the finest
-scale loss through the analytic radius. The next viable alternatives are:
+scale loss through the analytic radius. Note 0036 subsequently tests the
+joint-Ward and vertical-distance alternatives: the exact joint quotient
+preserves internal \(U/J\) cancellation, but vertical decay only transfers
+the scale power and a same-cell transverse gauge-invariant logical model
+survives the retained abstract hypotheses. The narrowed alternatives are:
 
-- prove direct smoothing or cancellation for the assembled
-  \(\mathcal A_Uh\) in Note 0031's unweighted norm;
-- prove a two-norm estimate for the completed derivative that is stronger
-  than generic Cauchy;
+- exploit the differentiated right-inverse and projected Landau constraints
+  of the actual common \(K,\nabla K\) range to prove direct smoothing;
+- prove a range-restricted analytic tube or weak-quotient-dual estimate
+  stronger than generic product-tube Cauchy;
 - impose and justify a deliberately scale-weighted physical-source target;
   or
-- prove that the completed coefficient never sees the offending finest
-  output occurrences.
+- prove that the completed coefficients structurally annihilate the
+  offending transverse same-cell range.
 
 ## Exact boundary
 
@@ -672,8 +676,10 @@ scale loss through the analytic radius. The next viable alternatives are:
   model.
 - The common Eq. (190) chart/gauge conversion, output tag atlas,
   scale-incidence bound, \((\mathrm H_{\rm rc})\) for the physical family,
-  any smoothing/cancellation theorem, and every later Yang--Mills gate
-  remain open.
+  completed Ward premise, and actual-range control remain open. Note 0036
+  gives the exact joint quotient and vertical transfer but no uniform bound
+  on the actual constrained synthesis. Every later Yang--Mills gate remains
+  open.
 - No independent human review has been performed.
 
 ## Falsification checklist
