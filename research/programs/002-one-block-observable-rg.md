@@ -116,10 +116,17 @@ zeroth-order value norm. [Note
 0016](../notes/0016-auxiliary-j-cauchy-tubes.md) identifies RG I's exact
 finite-stencil physical auxiliary field and proves conditional rooted
 independent-variable derivative norms on full complex tubes at fixed
-regulator. Unit-translation covariance, uniform tubes and chart constants,
-the multiscale-to-polymer metric bridge, single-partition cluster
-compatibility, the quantitative physical coarse-background derivative norm,
-and the rooted connected cluster bound remain open.
+regulator. [Note
+0017](../notes/0017-strict-j-margin-metric-pullback.md) adds a strict
+direct-\(J\) representative collar, the dual source-metric kernel sum, and a
+conditional homogeneous-layer pullback for the auxiliary-\(J\) chain-rule
+summand; it also disproves a uniform reverse cross-layer bound while leaving
+the forward interface theorem needed by the pullback open. Unit-translation
+covariance, the nonlinear \(U\) collar and
+pullback, uniform chart constants, a compatible multiscale network norm,
+single-partition cluster compatibility, the full physical
+coarse-background derivative norm, and the rooted connected cluster bound
+remain open.
 
 ## Target statement
 
@@ -292,6 +299,11 @@ and no mass gap.
   see Note 0016. Uniform radii/chart constants, the
   \(d_{\mathcal B}\)-to-\(d_{k,\sigma}\) bridge, and the physical Eq. (190)
   derivative norm remain open.
+- [x] Use RG I's strict smaller physical representative domain to obtain the
+  direct-\(J\) sup-norm collar, prove the dual Eq. (190) source convolution,
+  and close the auxiliary-\(J\) pullback on one matched homogeneous layer;
+  see Note 0017. The nonlinear \(U\) pullback and cross-layer network
+  geometry remain open.
 - [x] Prove a common zero-free source disk from bounded observable range,
   conditional on the exact pointwise kernel and positive finite source-free
   weighted partition function; see Note 0007. This does not supply a complex
@@ -299,8 +311,9 @@ and no mass gap.
 - [x] Derive the fixed source-free background jet and transcribe Eq. (190)'s
   five componentwise derivative bounds; see Note 0004. Note 0016 reduces the
   physical auxiliary-field derivative to those rows plus a local remainder,
-  but uniform chart factors, metric comparison, convolution, and entropy
-  specialization remain open.
+  and Note 0017 proves the dual convolution and one-layer \(J\)-summand
+  specialization. Uniform chart factors, the \(U\) summand, and cross-layer
+  geometry remain open.
 - [ ] Classify every relevant/marginal source counterterm and the profile
   mixing map.
 - [ ] Differentiate the small-field stationary/background construction

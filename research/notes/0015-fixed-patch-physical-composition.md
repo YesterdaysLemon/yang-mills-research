@@ -363,13 +363,15 @@ also provide all of the following:
 1. quantitative coordinate, differential-of-exponential, gauge-restoration,
    and RG I Eq. (3.11) local-remainder factors relating Eq. (190)'s component
    kernel to both terms in (9);
-2. volume- and scale-uniform full complex coordinate tubes for the \(U\) and
-   \(J\) activity derivatives; Note 0016 proves only the corresponding
-   fixed-regulator/conditional Cauchy norm;
-3. a scale-by-scale comparison between Eq. (190)'s multiscale contour
-   distance and the
-   \(d_{k,\sigma}\) polymer metric;
-4. a compatible convolution estimate between those two metrics; and
+2. a volume- and scale-uniform nonlinear \(U\) coordinate tube; Note 0017
+   supplies the separate direct-\(J\) sup-norm collar under its strict
+   representative hypothesis;
+3. a cross-layer network comparison between Eq. (190)'s multiscale contour
+   distance and the \(d_{k,\sigma}\) polymer metric; Note 0017 proves only the
+   matched homogeneous-layer identity, disproves a uniform reverse bound,
+   and leaves the forward interface bound needed here unresolved;
+4. the \(U\)-summand pullback in the compatible norm; Note 0017 supplies the
+   dual source convolution and homogeneous-layer auxiliary-\(J\) summand; and
 5. enough exponential slack to pay that convolution and the animal
    entropy without consuming later RG-II decay requirements.
 

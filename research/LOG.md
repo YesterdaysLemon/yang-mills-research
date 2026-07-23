@@ -181,3 +181,57 @@ shift family with one Section-2 partition, carry the unique mark through Eqs.
 vacuum mass separately.
 Refute or rewrite YM-RG-004 if the marked remainder fails quasilocality,
 analyticity, or volume uniformity.
+
+## 2026-07-22 — strict \(J\) margin and source-metric pullback
+
+### Established
+
+- Rechecked RG I Eqs. (1.11)--(1.16) and the printed p. 263 smaller-domain
+  discussion. The direct independent \(J\) bound is condition (iii), while
+  condition (iv) uses auxiliary fields derived from \(U\) and is unchanged
+  by an independent \(J\) perturbation.
+- Proved YM-RG-017 under one explicitly frozen strict physical
+  representative hierarchy. The direct bond-sup \(J\) coordinate has the
+  full complex collar
+  \(\Delta_J=\alpha_0-\bar\alpha_0\), and the rooted activity derivative norm
+  is \(\mathcal B_d/\Delta_J\). This refinement does not use regulator-family
+  compactness and does not create a \(U\) collar.
+- Put Proposition 9 Eq. (190) in its source-density normalization. The
+  \(s_{j'}^d\) source measure cancels the printed \(s_{j'}^{-d}\) kernel
+  factor exactly. Propagators-II Lemma 2.1 then gives a dual
+  \(d_{\mathcal B}\)-weighted source row sum at every
+  \(0\le\gamma<\delta_0/8\).
+- Used finite-dimensional \(\ell^\infty\)-\(\ell^1\) duality before summing
+  output cells. This composes the Eq. (190) kernel with the Cauchy activity
+  derivative without a polymer-volume factor.
+- On one scale-matched homogeneous layer, proved the contained-tree
+  comparison
+  \(D_{\mathcal B}(q,Y)\le M d_{k,\sigma}(Y)+2d(M+1)\) and the conditional
+  auxiliary-\(J\) pullback norm with exponent budget
+  \(a_*+\gamma M\le a\).
+- Proved that no uniform reverse metric bound follows: travel \(r-r_0\)
+  layers coarser changes the fixed-scale/multiscale ratio by
+  \(L^{r-r_0}/M\). This does not obstruct the forward inequality needed by
+  the pullback. That direction remains unproved because interface charges
+  and alignment of generic Note 0014 shifts have not been controlled.
+
+### Not established
+
+- No regulator-uniform nonlinear \(U\)-activity collar or
+  \(D_U\widehat W[D\mathcal U\,h]\) pullback.
+- No uniform bound for every differential-of-exponential,
+  gauge-restoration, and local auxiliary-\(J\) coefficient across the chart
+  family.
+- No cross-layer network norm compatible with the full shifted family.
+- No one-fixed-partition connected marked expectation, RG iteration,
+  continuum construction, infrared estimate, or Yang--Mills mass gap.
+
+### Next decision
+
+Prove the one-sided cross-layer interface bound needed by the pullback, define
+a multiscale network norm using the Propagators-II layer weights and interface
+penalties, or prove that the marked construction can be confined to one
+matched layer. In
+parallel, derive a quantitative stability theorem for the scaled relative
+\(U\)-chart constraints; only then combine both chain-rule summands and enter
+the fixed Section-2 connected expansion.

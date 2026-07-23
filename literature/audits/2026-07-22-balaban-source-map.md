@@ -110,8 +110,16 @@ Cluster expansions*, **CMP 116** (1988), 1–22,
   remainder. Full complex chart tubes give fixed-regulator rooted
   independent-variable derivative norms, and Eq. (190) gives qualitative
   auxiliary-field derivative decay on each fixed chart. These repository
-  lemmas are not printed in RG II and do not yet give a regulator-uniform
-  physical coarse-field derivative or quasilocal norm.
+  lemmas are not printed in RG II. [Note
+  0017](../../research/notes/0017-strict-j-margin-metric-pullback.md) then
+  uses RG I's strict smaller physical representative domain to give a direct
+  \(J\) collar under a frozen hierarchy, proves the Eq. (190) source-density
+  cancellation and dual weighted sum, and closes the auxiliary-\(J\)
+  pullback on one matched layer. It also disproves a uniform reverse
+  cross-layer bound; the forward interface bound used by the pullback remains
+  unproved. The nonlinear \(U\) pullback and a compatible multiscale network
+  geometry remain open, so there is still no full
+  regulator-uniform physical derivative or quasilocal norm.
 
 ### Convergent expansions: conditional complete-density scheme
 
@@ -177,7 +185,7 @@ OS-positivity, continuum, or gap results.
 | External scalar source \(zf\), propagation under a block map, and \(\partial_z\), \(\partial_z^2\) bounds | No theorem located in the audited texts |
 | Source-jet norm, localized marginal projections, or volume-uniform first/second derivative bounds | No theorem located |
 | Inserted-observable decomposition compatible with the constant-profile derivative | No theorem located; the raw first-jet identity itself is algebraic once a coupling-independent raw transform is fixed |
-| One marked plaquette at the RG-II Mayer seam | Finite background split and Mayer algebra proved in Note 0011; Note 0012 proves the fixed-partition-interior mixed-difference/cube-count result; Note 0013 upgrades the standard \(M\)-cube branch to a conditional rooted \(d_k\) norm; Note 0014 covers every plaquette with a coarse-lattice-preserving shifted family; Note 0015 supplies fixed-chart physical composition; Note 0016 identifies the exact auxiliary field and supplies conditional fixed-regulator independent-variable derivative norms; unit translations, uniform tubes/chart constants, the \(d_{\mathcal B}\)-to-\(d_k\) bridge, one-fixed-partition compatibility, the physical derivative norm, and the connected marked expectation remain open |
+| One marked plaquette at the RG-II Mayer seam | Finite background split and Mayer algebra proved in Note 0011; Note 0012 proves the fixed-partition-interior mixed-difference/cube-count result; Note 0013 upgrades the standard \(M\)-cube branch to a conditional rooted \(d_k\) norm; Note 0014 covers every plaquette with a coarse-lattice-preserving shifted family; Note 0015 supplies fixed-chart physical composition; Note 0016 identifies the exact auxiliary field and supplies conditional fixed-regulator independent-variable derivative norms; Note 0017 supplies the strict representative-\(J\) collar, dual source convolution, and a homogeneous-layer \(J\)-summand pullback while disproving only the reverse uniform cross-layer bound; unit translations, the nonlinear \(U\) collar/pullback, the forward interface theorem, compatible multiscale geometry, one-fixed-partition compatibility, the full physical derivative norm, and the connected marked expectation remain open |
 | One-loop coefficient in the source-inserted normalization | Not proved by RG I; its coupling theorem is deferred |
 | Reflection positivity of gauge-fixed/RG effective actions | No theorem located |
 | Continuum Schwinger functions, OS reconstruction, infinite-volume clustering, mass gap | Outside the verified scope |

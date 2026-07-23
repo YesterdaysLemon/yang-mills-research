@@ -259,3 +259,41 @@ summation lemma under the paper's strengthened separation condition. This is
 not the rooted polymer metric \(d_{k,\sigma}\). A uniform cell/scale map,
 layer-interface comparison, physical chain-rule convolution, and explicit
 entropy budget remain open.
+
+## 2026-07-22 — strict \(J\) interior and metric-density audit
+
+[RG I](https://scispace.com/pdf/renormalization-group-approach-to-lattice-gauge-field-3ygai0vxt1.pdf)
+pp. 262--263 was rechecked at Eqs. (1.11)--(1.16) and the paragraph following
+the definition of \(\mathcal U_j^c\). Condition (iii), Eq. (1.14), contains
+the independent direct bound \(\lVert J\rVert_\infty<\gamma_0\), normally
+with \(\gamma_0=\alpha_0\). Condition (iv) tests
+\((U_n(M^j(U)),J_n(M^j(U)))\), where \(J_n\) is derived from \(U\) by
+Eq. (1.8); it does not depend on the independent input \(J\).
+
+The next paragraph chooses smaller constants
+\(\alpha_0'<\alpha_0\), \(\alpha_1'<\alpha_1\), states that Proposition 9
+makes condition (iv) hold for sufficiently small \(\alpha_0'\), and then
+specializes to physical auxiliary fields satisfying
+\(\lVert J\rVert_\infty<\alpha_0'\). RG I declares the outer constants
+independent of \(X,j\), and Theorem 3 chooses the hierarchy for fixed \(M\).
+Thus a frozen strict representative hierarchy gives the formal direct
+\(J\)-margin \(\alpha_0-\alpha_0'\). The source does not turn this into a
+nonlinear \(U\)-chart radius.
+
+The Eq. (190) audit was then combined with [Propagators
+II](https://doi.org/10.1007/BF01240221) Lemma 2.1. With
+\(s_j=L^j\eta\), the functional derivative acts with source measure
+\(s_{j'}^d\), which cancels Eq. (190)'s \(s_{j'}^{-d}\) target-density factor.
+For \(0\le\gamma<\delta_0/8\), the remaining exponent is
+\(\alpha_\gamma\delta_0\), where
+\(\alpha_\gamma=1/8-\gamma/\delta_0\). This gives the dual weighted source
+row sum used in Note 0017.
+
+On a matched homogeneous layer, Eq. (2.46) measures lattice length in
+\(s_r\) units while RG I's \(d_k\) measures the same contained-tree length
+in \(M s_r\) units. The tree metrics therefore differ by \(M\), up to bounded
+endpoint paths. Across layers, however, a segment \(r-r_0\) levels coarser
+has fixed-scale/multiscale ratio \(L^{r-r_0}/M\). Equation (2.57)'s interface
+penalty controls the layer-index sum but not travel inside the coarse layer,
+and the Note 0014 shifted cells need not align at deeper layers. No
+regulator-uniform cross-layer fixed-scale comparison was found.

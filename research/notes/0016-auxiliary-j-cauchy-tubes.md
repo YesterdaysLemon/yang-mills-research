@@ -228,6 +228,15 @@ containment in Note 0015, openness in the chosen representative charts, and
 the finiteness of the \((p,\sigma,Y)\) family give some common radii
 \(r_{U,N,k},r_{J,N,k}>0\). No lower bound uniform in \(N\) or \(k\) follows.
 
+**Subsequent refinement.** The last sentence concerns radii obtained from
+compactness alone. [Note 0017](0017-strict-j-margin-metric-pullback.md)
+separately uses RG I's strict smaller physical representative domain. Under
+its named hypothesis \((\mathrm H_J)\), the linear direct-\(J\) coordinate has
+the explicit radius
+\(\Delta_J=\alpha_0-\bar\alpha_0\), independent of \(N,k,p,\sigma,Y\).
+This does not produce a \(U\)-radius and does not follow from the visible
+\(1+\beta\) enlargement by itself.
+
 ## Cauchy bounds without a polymer-volume loss
 
 Put
@@ -365,6 +374,12 @@ suppressed in the chart-dependent constant in (7). Until that is done,
 neither (7) nor (17)--(18) is a summable physical coarse-field derivative
 norm.
 
+Note 0017 proves the exact source-measure cancellation, a dual
+\(d_{\mathcal B}\)-weighted kernel sum with no polymer-volume loss, and a
+conditional one-layer pullback for the \(D_J\)-chain-rule summand. The
+nonlinear \(U\)-collar, uniform chart coefficients, and all layer interfaces
+remain open, so the full physical derivative norm is still not proved.
+
 ## Exact boundary
 
 - The exact physical \(J\) formula, its holomorphy, and its covariance are no
@@ -374,8 +389,10 @@ norm.
   its third parameter is not enlarged.
 - The fixed-regulator common radii obtained by compactness may shrink with
   volume, scale, chart choice, or changes in the admitted polymer family; the
-  underlying polymer-specific margins need not be uniform. Equations
-  (17)--(18) expose that dependence rather than hiding it.
+  underlying polymer-specific margins need not be uniform. Under Note 0017's
+  strict representative hypothesis the direct-\(J\) radius is the exception;
+  no analogous \(U\) conclusion is available. Equations (17)--(18) expose the
+  remaining dependence rather than hiding it.
 - Cross-regulator use would also require a coherent RG-normalized family of
   chart norms; positive numerical radii in unrelated norms would not suffice.
 - No coarse-field strict locality, uniform quasilocal derivative, fixed

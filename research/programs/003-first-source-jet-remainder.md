@@ -100,8 +100,11 @@ conditional fixed-chart composition, exact \(U\)-and-\(J\) chain rules, and
 zeroth-order norm are supplied by Note 0015. Note 0016 identifies the exact
 physical auxiliary field, reduces its differential to the Eq. (190)-controlled
 background derivative plus a local remainder, and gives conditional
-independent-variable derivative norms on fixed-regulator complex tubes. The
-uniform physical coarse-field derivative/quasilocal norm,
+independent-variable derivative norms on fixed-regulator complex tubes. Note
+0017 supplies a strict direct-\(J\) representative collar, the dual
+Eq. (190) source convolution, and a conditional homogeneous-layer pullback
+for the auxiliary-\(J\) chain-rule summand. The nonlinear \(U\) pullback,
+cross-layer geometry, and full physical coarse-field derivative/quasilocal norm,
 one-fixed-partition cluster compatibility, unit-translation covariance, and
 connected marked expectation are the first parts not settled by those
 auxiliary lemmas or the imported source-free theorem.
@@ -195,6 +198,10 @@ infrared conclusions.
   norms on explicit fixed-regulator tubes (Note 0016), without uniform tube
   radii/chart constants, a \(d_{\mathcal B}\)-to-\(d_{k,\sigma}\) comparison,
   the physical chain-rule convolution, or a connected bound;
+- the strict representative-\(J\) collar, dual source-measure kernel sum, and
+  conditional homogeneous-layer pullback for the auxiliary-\(J\) chain-rule
+  summand (Note 0017), without a uniform nonlinear \(U\) collar, uniform chart
+  conversions, or a cross-layer compatible network norm;
 - background-propagator decay and change-of-domain estimates;
 - RG I/II source-free local analytic polymer expansions.
 
@@ -223,12 +230,16 @@ None of those inputs supplies the displayed source-inserted polymer theorem.
 7. [x] Transcribe RG I's exact physical auxiliary field and differential, and
    use full complex Cauchy tubes to prove conditional rooted \(D_U\)- and
    \(D_J\)-operator norms at fixed regulator; see Note 0016.
-8. [ ] Prove regulator-uniform tube radii and chart factors, compare
-   \(d_{\mathcal B}\) with \(d_{k,\sigma}\), and close the Eq. (190) physical
-   chain-rule convolution with explicit entropy slack.
-9. [ ] Carry exactly one rooted mark through RG II Eqs. (2.2)–(2.13), using
+8. [x] Prove the strict direct-\(J\) collar, dual Eq. (190) source
+   convolution, and the auxiliary-\(J\) pullback on a matched homogeneous
+   layer; see Note 0017. The note also disproves a uniform reverse
+   cross-layer bound and leaves the forward interface bound unresolved.
+9. [ ] Prove the nonlinear \(U\) collar and pullback, quantify all chart
+   factors uniformly, and construct a cross-layer compatible network norm
+   for the full shifted family.
+10. [ ] Carry exactly one rooted mark through RG II Eqs. (2.2)–(2.13), using
    Lemma 3 for the unmarked decorations, and prove the connected sum converges.
-10. [ ] Perform the full symmetry/Ward-identity projection on the marked first
+11. [ ] Perform the full symmetry/Ward-identity projection on the marked first
    jet and classify all position/orientation mixing.
 
 ## Falsification tests

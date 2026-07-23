@@ -102,8 +102,12 @@ factors, quantitative control of the exact auxiliary-\(J\) differential, a
 metric/norm crosswalk, uniform activity Cauchy margins, convolution control,
 and new entropy slack. Note 0016 supplies the exact finite-stencil
 auxiliary-field reduction and conditional fixed-regulator Cauchy bounds, but
-not those uniform crosswalks. Accordingly, no
-standalone quantitative quasilocal activity bound is part of this E2 lemma.
+not those uniform crosswalks. Note 0017 subsequently supplies the strict
+direct-\(J\) representative collar, dual source-density convolution, and a
+conditional homogeneous-layer \(J\)-summand pullback; it also exhibits the
+failure of a uniform reverse cross-layer comparison while leaving the
+forward interface bound unresolved. Accordingly, no full standalone
+quantitative quasilocal activity bound is part of this E2 lemma.
 
 Finally, the fixed-background source factor
 

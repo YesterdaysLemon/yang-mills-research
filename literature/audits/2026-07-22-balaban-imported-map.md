@@ -310,8 +310,14 @@ holomorphic equivariant map
 Eqs. (3.10)--(3.11) reduce its first differential to the covariant Laplacian
 term plus the derivative of a local remainder. Note 0016 also obtains
 conditional independent-variable activity derivative norms from full complex
-Cauchy tubes at fixed regulator. It proves no uniform physical coarse-field
-derivative tail, one-fixed-partition compatibility, or connected estimate.
+Cauchy tubes at fixed regulator. [Note
+0017](../../research/notes/0017-strict-j-margin-metric-pullback.md) uses RG
+I's separate strict smaller physical representative domain to obtain a
+direct-\(J\) collar under a frozen hierarchy, then proves the source-density
+kernel sum and a homogeneous-layer physical pullback for the auxiliary-\(J\)
+chain-rule summand. The nonlinear \(U\) pullback, cross-layer network
+geometry, one-fixed-partition compatibility, and connected estimate remain
+open.
 
 ## Regular configurations and gauge chart
 
@@ -388,11 +394,15 @@ Lemma 2.1, Eqs. (2.59)--(2.63), pp. 233--234, gives the required exponential
 summation/convolution bound under the paper's stronger separation condition.
 
 This is not the rooted polymer distance \(d_{k,\sigma}\) used in Notes
-0013--0016. The repository has not yet matched the papers' layer cells and
-scale parameters to the shifted localization cubes, controlled crossings of
-layer interfaces, or proved a uniform comparison constant. Consequently the
-source-metric convolution theorem cannot yet be inserted into the physical
-marked-activity norm.
+0013--0017. Note 0017 proves the source-measure cancellation and dual
+exponential sum, and on one matched homogeneous layer compares the
+multiscale diameter to the contained-tree metric with an \(M\) factor. It
+also shows that a reverse comparison does not extend uniformly: travel in a
+layer \(r-r_0\) levels coarser has fixed-scale/multiscale ratio
+\(L^{r-r_0}/M\). The reciprocal ratio helps, rather than obstructs, the
+forward inequality used in the pullback. That forward cross-layer theorem
+still does not follow from the audited definitions because interface charges
+and generic shifted-cell alignment have not been controlled.
 
 ## Variational minimizer and analytic branch
 
@@ -427,9 +437,11 @@ theories](https://doi.org/10.1007/BF01229381), **CMP 102** (1985), 277–309:
   0004](../../research/notes/0004-fixed-background-source-jet.md) records the
   indexed display. Combined with RG I's exact local auxiliary-field formula,
   Eq. (190) gives qualitative exponential decay of the physical \(J\)
-  derivative on one fixed compact chart, as recorded in Note 0016. It is still
-  not an activity derivative, a \(d_k\)-polymer-summation theorem, or a
-  connected-expectation bound.
+  derivative on one fixed compact chart, as recorded in Note 0016. Note 0017
+  composes this kernel with the direct-\(J\) activity derivative using
+  \(\ell^\infty\)-\(\ell^1\) duality, avoiding a polymer-volume factor, and
+  proves a conditional one-layer \(d_k\)-summed result. It is still not the
+  full \(U\)-and-\(J\) physical derivative or a connected-expectation bound.
 
 Because \(\mathcal O_f(U)=4\sum_p f_ps(U_p)\) is gauge invariant, its value on
 the source-free minimizing orbit is well defined without selecting a
