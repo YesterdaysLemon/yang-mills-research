@@ -106,19 +106,34 @@ Pin the exact Bałaban block-map definitions and norms, then perform a theorem-l
   random-walk terms supplies exact weakened transport under the subgroup
   preserving the next coarse lattice. This does not prove unit-translation
   covariance or compatibility with one fixed Section-2 cluster partition.
-- Proved YM-RG-015 on one explicitly assumed common holomorphic physical
-  \((U,J)\) chart: evaluation of the shifted family preserves the exact
+- Proved YM-RG-015 on one common holomorphic physical \((U,J)\) chart:
+  evaluation of the shifted family preserves the exact
   all-plaquette identity, joint holomorphy, strict fluctuation locality,
   zero-fluctuation centering, transported real-chart covariance, and the
   zeroth-order \(d_k\) norm. The exact chain rule keeps both the \(U\)- and
-  \(J\)-derivative terms. This is not a coarse-field quasilocality theorem;
-  the Eq. (190) metric/norm bridge, the auxiliary-\(J\) derivative, and every
-  connected estimate remain open.
+  \(J\)-derivative terms.
+- Proved YM-RG-016 at fixed regulator. RG I defines
+  \(J=\mathscr J_\xi(U)=D_U^{\xi *}\xi^{-2}\pi\operatorname{im}(dU)\), so the
+  physical auxiliary field is a finite-stencil holomorphic equivariant
+  function of the minimizing background. Its exact first differential is the
+  covariant Laplacian term plus the derivative of RG I's local remainder.
+  Compact containment in full complex chart tubes gives conditional rooted
+  operator-norm bounds \(\mathcal B_d/r_U\) and \(\mathcal B_d/r_J\) for the
+  independent-variable activity derivatives. Proposition 9 Eq. (190) also
+  gives qualitative exponential decay for the composed auxiliary-field
+  derivative on each fixed chart, with a deliberately nonuniform constant.
 
 ### Corrections forced by the audit
 
 - Bałaban's `J` is an auxiliary analytic field, not the scalar observable
   source in Program 002; the new source is named `z`.
+- RG I actually defines that auxiliary field and its gauge law explicitly;
+  treating the physical \(J\)-lift as an independent holomorphy hypothesis was
+  too conservative. The correction does not supply uniform chart radii or a
+  physical activity derivative norm.
+- Proposition 9's decay uses the multiscale distance \(d_{\mathcal B}\), not
+  the rooted polymer distance \(d_{k,\sigma}\). No equality or uniform
+  comparison between them is assumed.
 - The marginal action is evaluated on a constrained fine minimizing
   background, not automatically as a plain Wilson action of the coarse field.
 - RG I announces but defers the proof of its `SU(2)` coupling-flow theorem; it
@@ -135,10 +150,11 @@ Pin the exact Bałaban block-map definitions and norms, then perform a theorem-l
 - No quasilocal source propagation or source-marked first/second-derivative
   expectation bound. Notes 0012--0014 control the pre-integration mark in
   independent variables, including its standard-branch \(d_k\) norm and an
-  all-plaquette shifted cover. Note 0015 supplies only fixed-chart physical
-  composition and the same zeroth-order value norm, not a coarse-background
-  derivative tail, one-fixed-partition cluster compatibility, or the connected
-  expectation.
+  all-plaquette shifted cover. Notes 0015--0016 supply fixed-chart physical
+  composition, the exact auxiliary-field reduction, and conditional
+  fixed-regulator independent-variable derivative norms, but not a uniform
+  physical coarse-background derivative tail, one-fixed-partition cluster
+  compatibility, or the connected expectation.
 - No regulator-uniform control of the raw conditional cumulants; their exact
   identities alone do not imply locality or smallness.
 - The selected full-cutoff chart branch now has a patch-local Borel kernel and
@@ -156,11 +172,12 @@ Pin the exact Bałaban block-map definitions and norms, then perform a theorem-l
 
 ### Next decision
 
-Build the exact Eq. (190) coordinate/differential, metric, norm, auxiliary-
-\(J\), Cauchy-margin, convolution, and entropy crosswalk needed to turn Note
-0015's chain rule into a summable coarse-field derivative norm. Then reconcile
-the shift family with one Section-2 partition, carry the unique mark through
-Eqs. (2.2)–(2.13), and prove the rooted connected sum converges. Track raw
+Quantify full complex tube radii and all chart/differential-of-exponential
+factors uniformly, then prove the \(d_{\mathcal B}\)-to-\(d_{k,\sigma}\)
+comparison and exponential convolution budget needed to turn Notes 0015--0016
+into a summable physical coarse-field derivative norm. Then reconcile the
+shift family with one Section-2 partition, carry the unique mark through Eqs.
+(2.2)–(2.13), and prove the rooted connected sum converges. Track raw
 vacuum mass separately.
 Refute or rewrite YM-RG-004 if the marked remainder fails quasilocality,
 analyticity, or volume uniformity.

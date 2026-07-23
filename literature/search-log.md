@@ -151,9 +151,11 @@ minimizing-background pullback, and the connected marked expectation remained
 open. Note 0014 subsequently supplied an all-plaquette RG-admitted shifted
 cover and coarse-lattice-preserving transport. Unit translations and
 one-fixed-partition cluster compatibility remain open. Note 0015 subsequently
-supplied only conditional fixed-chart physical composition, exact chain rules,
-and preservation of the zeroth-order value norm. The coarse-field derivative
-norm and connected marked expectation remain open.
+supplied conditional fixed-chart physical composition, exact chain rules, and
+preservation of the zeroth-order value norm. Note 0016 then identified the
+exact auxiliary field and supplied fixed-regulator conditional
+independent-variable derivative norms. The uniform physical coarse-field
+derivative norm and connected marked expectation remain open.
 
 ## 2026-07-22 — RG-II Eq. (1.32) prefactor audit
 
@@ -211,8 +213,49 @@ requires
 \(\delta_0/8\) exponent must not be copied from Eq. (189), which has
 \(\delta_0/4\).
 
-This closes the literal component/scale transcription in Note 0004. It does
-not provide the auxiliary-\(J\) derivative, chart/differential factors,
-\(d_k\)-metric comparison, activity Cauchy margins, convolution or animal
-entropy slack, one-fixed-partition compatibility, or a connected marked
-expectation. Note 0015 uses none of these bounds for its zeroth-order norm.
+This closes the literal component/scale transcription in Note 0004. By itself
+it does not provide the physical auxiliary-\(J\) differential,
+chart/differential factors, \(d_k\)-metric comparison, activity Cauchy margins,
+convolution or animal entropy slack, one-fixed-partition compatibility, or a
+connected marked expectation. Note 0015 uses none of these bounds for its
+zeroth-order norm; Note 0016 supplies the exact \(J\)-reduction and only
+fixed-regulator conditional Cauchy bounds.
+
+## 2026-07-22 — auxiliary J, analytic tubes, and metric audit
+
+The primary scan of [RG
+I](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-109/issue-2/Renormalization-group-approach-to-lattice-gauge-field-theories-I-Generation/cmp/1104116842.pdf)
+was inspected at Eqs. (1.8), (1.10), (1.15)--(1.16), (3.1), and
+(3.10)--(3.11). Equation (1.8) defines
+
+\[
+\mathscr J_\xi(U)=D_U^{\xi *}\xi^{-2}\pi\operatorname{im}(dU),
+\qquad \operatorname{im}X=(X-X^{-1})/(2i),
+\]
+
+and Eqs. (1.15)--(1.16) evaluate it on the minimizing background. The map is
+finite-stencil and holomorphic in the selected complex link chart. Equation
+(1.10) specifies the adjoint transformation convention for the \((U,J)\)
+pair, and substitution in the displayed definition gives covariance in that
+convention. Differentiating Eq. (3.11) retains both the leading
+\(D_U^{\xi *}D_U^\xi A\) term and the derivative at zero of the local remainder
+\(F(U,A)\). The latter must not be dropped.
+
+[RG II](https://doi.org/10.1007/BF01239022) Eq. (1.34) was rechecked for a
+Cauchy collar. The activity domain enlarges its first two regular-field
+parameters by \(1+\beta\), but does not print a full additive Banach-ball
+radius in representative \(U\) coordinates, and its third parameter is not
+enlarged. Thus it does not by itself give a uniform \(J\)-radius. At fixed
+regulator, compact containment in explicitly chosen open representative
+charts does give positive, generally nonuniform full complex tube radii. This
+is the scope used in Note 0016.
+
+Finally, [*Propagators and renormalization transformations for lattice gauge
+theories II*](https://projecteuclid.org/download/pdf_1/euclid.cmp/1103941783),
+CMP 96, pp. 230--234, was inspected at Eqs. (2.45)--(2.48), (2.54), and
+(2.59)--(2.63). These define the multiscale contour distance
+\(d_{\mathcal B}\), prove its triangle inequality, and give an exponential
+summation lemma under the paper's strengthened separation condition. This is
+not the rooted polymer metric \(d_{k,\sigma}\). A uniform cell/scale map,
+layer-interface comparison, physical chain-rule convolution, and explicit
+entropy budget remain open.

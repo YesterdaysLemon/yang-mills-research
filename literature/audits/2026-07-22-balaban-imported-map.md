@@ -298,12 +298,20 @@ obtained by a repository finite-stabilizer average, not quoted from the paper.
 Unit translations, one-fixed-partition cluster compatibility, the pullback,
 and the connected expansion remained open at that stage. [Note
 0015](../../research/notes/0015-fixed-patch-physical-composition.md)
-subsequently composes the shifted family on one explicitly assumed common
-holomorphic physical \((U,J)\) chart. It preserves the exact identity,
+subsequently composes the shifted family on one common holomorphic physical
+\((U,J)\) chart. It preserves the exact identity,
 fluctuation locality and centering, transported real-chart covariance, and the
 zeroth-order \(d_k\) norm, and records the complete \(U\)-and-\(J\) chain rule.
-It proves no coarse-field derivative tail, one-fixed-partition compatibility,
-or connected estimate.
+[Note 0016](../../research/notes/0016-auxiliary-j-cauchy-tubes.md) corrects the
+former separate \(J\)-lift hypothesis: RG I Eqs. (1.8), (1.10), and
+(1.15)--(1.16) define the physical auxiliary field as the finite-stencil
+holomorphic equivariant map
+\(\mathscr J_\xi(U)=D_U^{\xi *}\xi^{-2}\pi\operatorname{im}(dU)\). RG I
+Eqs. (3.10)--(3.11) reduce its first differential to the covariant Laplacian
+term plus the derivative of a local remainder. Note 0016 also obtains
+conditional independent-variable activity derivative norms from full complex
+Cauchy tubes at fixed regulator. It proves no uniform physical coarse-field
+derivative tail, one-fixed-partition compatibility, or connected estimate.
 
 ## Regular configurations and gauge chart
 
@@ -367,6 +375,25 @@ legitimizes source derivatives for that one Gaussian integral. It is not the
 scalar composite plaquette source coupled to the full interacting Wilson
 measure, and it supplies no interacting source-marked cluster theorem.
 
+### Multiscale metric and exponential convolution
+
+T. Bałaban, [*Propagators and renormalization transformations for lattice
+gauge theories II*](https://projecteuclid.org/download/pdf_1/euclid.cmp/1103941783),
+**CMP 96** (1984), 223–250, supplies the metric behind the variational
+paper's decay notation. Eqs. (2.45)--(2.48), pp. 230--231, use
+\(s_j=L^j\eta\) and a shortest multiscale contour measured in local scale
+units to define \(d_{\mathcal B}\). Equation (2.53) identifies the associated
+cell as \(\Delta(y)=B^j(y)\), and Eq. (2.54) gives the triangle inequality.
+Lemma 2.1, Eqs. (2.59)--(2.63), pp. 233--234, gives the required exponential
+summation/convolution bound under the paper's stronger separation condition.
+
+This is not the rooted polymer distance \(d_{k,\sigma}\) used in Notes
+0013--0016. The repository has not yet matched the papers' layer cells and
+scale parameters to the shifted localization cubes, controlled crossings of
+layer interfaces, or proved a uniform comparison constant. Consequently the
+source-metric convolution theorem cannot yet be inserted into the physical
+marked-activity norm.
+
 ## Variational minimizer and analytic branch
 
 T. Bałaban, [The variational problem and background fields in renormalization
@@ -398,9 +425,11 @@ theories](https://doi.org/10.1007/BF01229381), **CMP 102** (1985), 277–309:
   \((L^{j'}\eta)^{-d}\exp[-\delta_0d(y,y')/8]\); the third row assumes
   \(\operatorname{supp}\zeta\subset\widetilde\Delta(y)\). [Note
   0004](../../research/notes/0004-fixed-background-source-jet.md) records the
-  indexed display. Equation (190) is a first-minimizer-derivative theorem, not
-  an activity, auxiliary-\(J\), polymer-summation, or connected-expectation
-  bound.
+  indexed display. Combined with RG I's exact local auxiliary-field formula,
+  Eq. (190) gives qualitative exponential decay of the physical \(J\)
+  derivative on one fixed compact chart, as recorded in Note 0016. It is still
+  not an activity derivative, a \(d_k\)-polymer-summation theorem, or a
+  connected-expectation bound.
 
 Because \(\mathcal O_f(U)=4\sum_p f_ps(U_p)\) is gauge invariant, its value on
 the source-free minimizing orbit is well defined without selecting a

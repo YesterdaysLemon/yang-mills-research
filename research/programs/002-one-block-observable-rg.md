@@ -112,8 +112,13 @@ shifted-family cover for every plaquette and transport under the subgroup
 preserving the next coarse lattice. [Note
 0015](../notes/0015-fixed-patch-physical-composition.md) conditionally composes
 that family on one common physical \((U,J)\) chart and preserves its
-zeroth-order value norm. Unit-translation covariance, single-partition cluster
-compatibility, the quantitative coarse-background derivative/quasilocal norm,
+zeroth-order value norm. [Note
+0016](../notes/0016-auxiliary-j-cauchy-tubes.md) identifies RG I's exact
+finite-stencil physical auxiliary field and proves conditional rooted
+independent-variable derivative norms on full complex tubes at fixed
+regulator. Unit-translation covariance, uniform tubes and chart constants,
+the multiscale-to-polymer metric bridge, single-partition cluster
+compatibility, the quantitative physical coarse-background derivative norm,
 and the rooted connected cluster bound remain open.
 
 ## Target statement
@@ -277,19 +282,25 @@ and no mass gap.
   no additional orbit entropy and prove transport under the subgroup
   preserving the next coarse lattice; see Note 0014. Unit translations and
   one-fixed-partition cluster compatibility remain open.
-- [x] On one explicitly assumed common holomorphic physical \((U,J)\) chart,
+- [x] On one common holomorphic physical \((U,J)\) chart,
   compose the shifted family, preserve its exact identity, fluctuation
   locality, centering, covariance, and zeroth-order norm, and record the full
-  chain rules; see Note 0015. The Eq. (190) coarse-field derivative norm and
-  quasilocality remain open.
+  chain rules; see Note 0015.
+- [x] Identify the exact physical auxiliary field from RG I, retain its local
+  differential remainder, and prove conditional rooted \(D_U\)- and
+  \(D_J\)-operator norms on explicit full complex tubes at fixed regulator;
+  see Note 0016. Uniform radii/chart constants, the
+  \(d_{\mathcal B}\)-to-\(d_{k,\sigma}\) bridge, and the physical Eq. (190)
+  derivative norm remain open.
 - [x] Prove a common zero-free source disk from bounded observable range,
   conditional on the exact pointwise kernel and positive finite source-free
   weighted partition function; see Note 0007. This does not supply a complex
   coarse-field domain or marked-polymer locality.
 - [x] Derive the fixed source-free background jet and transcribe Eq. (190)'s
-  five componentwise derivative bounds; see Note 0004. Their physical-chart,
-  auxiliary-\(J\), activity-norm, convolution, and entropy specialization
-  remains open.
+  five componentwise derivative bounds; see Note 0004. Note 0016 reduces the
+  physical auxiliary-field derivative to those rows plus a local remainder,
+  but uniform chart factors, metric comparison, convolution, and entropy
+  specialization remain open.
 - [ ] Classify every relevant/marginal source counterterm and the profile
   mixing map.
 - [ ] Differentiate the small-field stationary/background construction

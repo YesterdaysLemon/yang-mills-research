@@ -97,10 +97,14 @@ RG-II variables. Note 0013 upgrades it to the conditional
 an explicit entropy margin. Note 0014 supplies an RG-admitted shifted-family
 cover for every plaquette and coarse-lattice-preserving transport. The
 conditional fixed-chart composition, exact \(U\)-and-\(J\) chain rules, and
-zeroth-order norm are supplied by Note 0015. The Eq. (190) coarse-field
-derivative/quasilocal norm, one-fixed-partition cluster compatibility,
-unit-translation covariance, and connected marked expectation are the first
-parts not settled by those auxiliary lemmas or the imported source-free theorem.
+zeroth-order norm are supplied by Note 0015. Note 0016 identifies the exact
+physical auxiliary field, reduces its differential to the Eq. (190)-controlled
+background derivative plus a local remainder, and gives conditional
+independent-variable derivative norms on fixed-regulator complex tubes. The
+uniform physical coarse-field derivative/quasilocal norm,
+one-fixed-partition cluster compatibility, unit-translation covariance, and
+connected marked expectation are the first parts not settled by those
+auxiliary lemmas or the imported source-free theorem.
 
 ## Target theorem
 
@@ -145,7 +149,7 @@ infrared conclusions.
 - exact finite-regulator conditional-cumulant identity (Note 0003);
 - unique minimizing orbit plus analytic gauge-fixed branch (Note 0004), with
   the variational paper's five Eq. (190) component bounds transcribed but not
-  yet crosswalked to the physical \(U\)-and-\(J\) activity derivative norm;
+  yet crosswalked uniformly to the physical activity derivative norm;
 - pointwise positive fiber kernels for proper smooth submersions (Note 0005),
   conditional on proving the selected map and cutoff satisfy its hypotheses;
 - RG I's local analytic constraint straightening and a positive precompact
@@ -183,8 +187,14 @@ infrared conclusions.
 - the conditional fixed-chart physical composition, exact all-plaquette
   identity, fluctuation locality, centering, \(U\)-and-\(J\) chain rules,
   transported real-chart covariance, and inherited zeroth-order \(d_k\) norm
-  (Note 0015), without a coarse-field derivative norm, Eq. (190) metric
-  crosswalk, auxiliary-\(J\) decay estimate, or connected bound;
+  (Note 0015), without a physical coarse-field derivative norm or connected
+  bound;
+- the exact finite-stencil physical auxiliary field, its holomorphy,
+  covariance, and full first-differential reduction, qualitative nonuniform
+  fixed-chart decay, and conditional rooted independent-variable derivative
+  norms on explicit fixed-regulator tubes (Note 0016), without uniform tube
+  radii/chart constants, a \(d_{\mathcal B}\)-to-\(d_{k,\sigma}\) comparison,
+  the physical chain-rule convolution, or a connected bound;
 - background-propagator decay and change-of-domain estimates;
 - RG I/II source-free local analytic polymer expansions.
 
@@ -207,15 +217,18 @@ None of those inputs supplies the displayed source-inserted polymer theorem.
    transport under the subgroup preserving the next coarse lattice; see Note
    0014. Full unit-translation covariance and cluster-partition compatibility
    remain open.
-6. [x] Compose the shifted family with one explicitly assumed common
-   holomorphic physical \((U,J)\) lift, prove centering and the exact chain
+6. [x] Compose the shifted family with one common holomorphic physical
+   \((U,J)\) pair, prove centering and the exact chain
    rules, and preserve the zeroth-order norm; see Note 0015.
-7. [ ] Turn the Eq. (190) minimizing-background kernel and the auxiliary
-   \(J\)-derivative into a summable coarse-field derivative norm using an
-   explicit chart, metric, Cauchy-margin, convolution, and entropy crosswalk.
-8. [ ] Carry exactly one rooted mark through RG II Eqs. (2.2)–(2.13), using
+7. [x] Transcribe RG I's exact physical auxiliary field and differential, and
+   use full complex Cauchy tubes to prove conditional rooted \(D_U\)- and
+   \(D_J\)-operator norms at fixed regulator; see Note 0016.
+8. [ ] Prove regulator-uniform tube radii and chart factors, compare
+   \(d_{\mathcal B}\) with \(d_{k,\sigma}\), and close the Eq. (190) physical
+   chain-rule convolution with explicit entropy slack.
+9. [ ] Carry exactly one rooted mark through RG II Eqs. (2.2)–(2.13), using
    Lemma 3 for the unmarked decorations, and prove the connected sum converges.
-9. [ ] Perform the full symmetry/Ward-identity projection on the marked first
+10. [ ] Perform the full symmetry/Ward-identity projection on the marked first
    jet and classify all position/orientation mixing.
 
 ## Falsification tests

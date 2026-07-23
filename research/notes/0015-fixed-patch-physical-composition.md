@@ -22,9 +22,9 @@ has two logically different consequences:
 
 The first is finite-dimensional and is proved here. The second requires a
 metric-and-norm crosswalk for the component estimates in the variational
-paper's Proposition 9 Eq. (190), an equally explicit formula for the auxiliary
-\(J\)-background, Cauchy margins for the activity derivatives, and new decay
-slack. It remains open.
+paper's Proposition 9 Eq. (190), quantitative control of the exact auxiliary
+\(J\)-map defined in RG I Eq. (1.8), full coordinate tubes for Cauchy
+estimates, and new decay slack. It remains open.
 
 This distinction prevents the word *pullback* from silently turning an
 analytic composition into a summable coarse-field locality theorem.
@@ -76,23 +76,45 @@ Define the physical background lift
 \tag{2}
 \]
 
-The theorem below is conditional on the following fixed-patch facts.
+RG I Eqs. (1.8) and (1.15)--(1.16) identify the second component exactly:
 
-1. The chosen representatives of both components in (2) are jointly
+\[
+\mathcal J(\omega)
+=\mathscr J_{\xi_{k+1}}(\mathcal U(\omega)),
+\qquad
+\mathscr J_\xi(U)
+=D_U^{\xi *}\xi^{-2}\pi\operatorname{im}(dU).
+\tag{2a}
+\]
+
+RG I Eq. (1.10) specifies the adjoint transformation convention for the
+\((U,J)\) pair; substituting a gauge-transformed link field into the
+finite-stencil formula (2a) gives covariance in that convention. The theorem
+below is conditional on the following fixed-patch facts.
+
+1. The chosen representative of the minimizing \(\mathcal U\)-branch is
    holomorphic on a neighborhood of
-   \(\overline{\Omega_{\mathbb C}}\). Proposition 9 supplies the analytic
-   minimizing \(\mathcal U\)-branch. Holomorphy of the particular auxiliary
-   \(\mathcal J\)-lift used by RG II is retained as a separate hypothesis; it
-   is not inferred from Eq. (190).
-2. For every \(\omega\in\overline{\Omega_{\mathbb C}}\), plaquette \(p\),
-   admitted shift \(\sigma\), root-connected polymer \(Y\), and fluctuation
-   \(\varphi\) in a named fixed complex domain
-   \(\mathfrak F_Y^\sigma\),
-   \((\mathcal U(\omega),\mathcal J(\omega),\varphi)\) stays inside the
-   transported Eq. (1.34) domain on \(Y\). The finite regulator makes this a
-   finite common-domain requirement, not a volume-uniform radius theorem.
-3. On \(\Omega_{\mathbb R}\), the lift is equivariant between the transported
-   Proposition 9 charts under the subgroup \(\Gamma_{N,L}\) from Note 0014.
+   \(\overline{\Omega_{\mathbb C}}\), as supplied by Proposition 9. Equation
+   (2a), a finite-stencil holomorphic expression on the selected link chart,
+   then makes the pair in (2) jointly holomorphic. No separate
+   \(J\)-holomorphy hypothesis is needed.
+2. For every plaquette \(p\), admitted shift \(\sigma\), and root-connected
+   polymer \(Y\), choose a named precompact complex fluctuation domain
+   \(\mathfrak F_Y^\sigma\) such that the closure of
+   \[
+   \left\{
+   (\mathcal U(\omega),\mathcal J(\omega),\varphi):
+   \omega\in\overline{\Omega_{\mathbb C}},\quad
+   \varphi\in\mathfrak F_Y^\sigma
+   \right\}
+   \]
+   is contained in the transported open Eq. (1.34) domain on \(Y\). The
+   finite regulator makes this a finite compact-containment requirement, not
+   a volume-uniform radius theorem.
+3. On \(\Omega_{\mathbb R}\), the minimizing \(\mathcal U\)-branch is
+   equivariant between the transported Proposition 9 charts under the
+   subgroup \(\Gamma_{N,L}\) from Note 0014. Equation (2a) and RG I Eq. (1.10)
+   then give equivariance of the pair.
 
 These hypotheses name exactly the chart and domain needed for composition.
 They do not assert a global background atlas.
@@ -105,8 +127,8 @@ For later suprema, name the fixed product domain
 \tag{3}
 \]
 
-Hypothesis 2 says that its closure in the coarse variable maps into the
-transported Eq. (1.34) domain on \(Y\).
+Hypothesis 2 says that the full composed closure, including the fluctuation
+domain, maps into the transported Eq. (1.34) domain on \(Y\).
 
 ## The physically evaluated activities
 
@@ -213,6 +235,17 @@ D\mathcal W_{k,p}[h,\psi]
 where every derivative of \(\widehat W_{k,p}\) on the right is evaluated at
 \((\sigma,Y;\mathcal U(\omega),\mathcal J(\omega),\varphi)\).
 Neither the \(U\)-term nor the \(J\)-term may be dropped.
+Using (2a), its coarse derivative is not independent:
+
+\[
+D\mathcal J(\omega)
+=D\mathscr J_{\xi_{k+1}}(\mathcal U(\omega))
+ \,D\mathcal U(\omega).
+\tag{9a}
+\]
+
+Note 0016 records RG I Eq. (3.11)'s exact local formula for the first factor
+and the resulting conditional Cauchy bounds for the activity derivatives.
 
 Put \(D\iota h=(D\mathcal U h,D\mathcal J h)\). The second derivative has
 the compact exact form
@@ -327,15 +360,17 @@ several derived spatial/covariant derivatives. This is the correct input for
 To turn (9) into a summable coarse-field derivative norm, a later lemma must
 also provide all of the following:
 
-1. the exact coordinate and differential-of-exponential factors relating
-   Eq. (190)'s component kernel to \(D\mathcal U\) in (9);
-2. a formula and decay estimate for \(D\mathcal J\), or a proof reducing it to
-   the transcribed \(\mathcal U\)-kernel;
-3. a scale-by-scale comparison between Eq. (190)'s distance and the
+1. quantitative coordinate, differential-of-exponential, gauge-restoration,
+   and RG I Eq. (3.11) local-remainder factors relating Eq. (190)'s component
+   kernel to both terms in (9);
+2. volume- and scale-uniform full complex coordinate tubes for the \(U\) and
+   \(J\) activity derivatives; Note 0016 proves only the corresponding
+   fixed-regulator/conditional Cauchy norm;
+3. a scale-by-scale comparison between Eq. (190)'s multiscale contour
+   distance and the
    \(d_{k,\sigma}\) polymer metric;
-4. uniform Cauchy margins for \(D_U\widehat W\) and
-   \(D_J\widehat W\) on the composed Eq. (1.34) domain; and
-5. enough exponential slack to pay the resulting convolution and animal
+4. a compatible convolution estimate between those two metrics; and
+5. enough exponential slack to pay that convolution and the animal
    entropy without consuming later RG-II decay requirements.
 
 Until those steps are proved, (4) must not be called a quasilocal coarse-field
@@ -344,17 +379,19 @@ activity.
 ## Exact boundary
 
 - This is a conditional theorem on one finite regulator, one common
-  relatively compact background chart, and a jointly holomorphic physical
-  \((U,J)\) lift whose image stays in the transported Eq. (1.34) domains.
+  relatively compact background chart, the exact RG-I physical \(J\)-map,
+  and a composed image compactly contained in the transported Eq. (1.34)
+  domains.
 - The only quantitative estimate asserted here is the inherited zeroth-order
   value norm (12). No derivative norm, uniform complex radius, or
   regulator-independent background locality constant is obtained.
 - Locality is strict only in the independent fluctuation \(\varphi\). No
   support or exponential-tail statement in \(\omega\) is proved.
-- Proposition 9 Eq. (190) applies only to the minimizing-background component
-  described in the primary paper. It does not itself bound the auxiliary
-  \(J\)-lift, the activity derivatives, their convolution, or a connected
-  expectation.
+- Proposition 9 Eq. (190) applies directly only to the minimizing-background
+  component described in the primary paper. RG I Eq. (3.11) reduces the
+  auxiliary \(J\)-derivative to that component plus a local remainder, but the
+  quantitative chart factors, uniform activity tubes, metric convolution,
+  and connected expectation remain unproved.
 - The shift label remains. Nothing here reconciles the family with one fixed
   Section-2 cluster partition.
 - No intrinsic/coarea/unrestricted-raw density comparison, cutoff-conditioned

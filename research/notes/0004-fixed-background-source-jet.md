@@ -98,8 +98,11 @@ This is a componentwise first-background-derivative theorem for the
 minimizer. It is not a derivative bound for a polymer activity. A finite
 chain rule can use it as the minimizing-background input, but a quantitative
 activity estimate additionally needs the chart/differential-of-exponential
-factors, the auxiliary-\(J\) derivative, a metric/norm crosswalk, activity
-Cauchy margins, convolution control, and new entropy slack. Accordingly, no
+factors, quantitative control of the exact auxiliary-\(J\) differential, a
+metric/norm crosswalk, uniform activity Cauchy margins, convolution control,
+and new entropy slack. Note 0016 supplies the exact finite-stencil
+auxiliary-field reduction and conditional fixed-regulator Cauchy bounds, but
+not those uniform crosswalks. Accordingly, no
 standalone quantitative quasilocal activity bound is part of this E2 lemma.
 
 Finally, the fixed-background source factor
@@ -155,6 +158,6 @@ by that representation. Controlling the difference is the next open theorem.
   classification, or large-field estimate is proved.
 - Equation (190)'s component indices and scale factors are transcribed above,
   but no quantitative quasilocal activity bound is claimed without the
-  remaining chart, auxiliary-\(J\), metric/norm, Cauchy, convolution, and
-  entropy crosswalk.
+  remaining uniform chart, local-remainder, \(d_{\mathcal B}\)-to-
+  \(d_{k,\sigma}\), Cauchy-radius, convolution, and entropy crosswalk.
 - Nothing here removes a regulator or constructs continuum Yang–Mills theory.
