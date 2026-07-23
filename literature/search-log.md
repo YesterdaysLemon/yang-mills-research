@@ -425,3 +425,34 @@ marked conditioning/weakening estimate. The accessible scan corrupts some
 operator glyphs in Eqs. (2.3), (2.5), (2.6), and (2.8); their operation types
 and support rules are clear, but a clean immutable page-image transcription
 is still required before quoting every symbol verbatim.
+
+## 2026-07-22 -- Eq. (2.8) whole-integrand Cauchy audit
+
+[RG II Cluster
+Expansions](https://doi.org/10.1007/BF01239022) applies the Section-1
+weakening decomposition to the complete standardized function in Eq. (2.8).
+The Section-1 discussion uses complex weakening variables on
+\(|s(\Delta)|\le e^{\kappa_1}\) and represents the derivatives by Cauchy
+contours. Section 2 then treats each Eq. (2.14) term as analytic in the
+complex weakening and Mayer parameters before estimating the whole
+conditioned Gaussian expression.
+
+Under the stated common \(L^1\)-holomorphy and joint-majorant hypotheses,
+Note 0022 records the exact repository consequence for a distinguished mark:
+the integrated mixed derivative equals an alternating endpoint difference
+and one iterated contour of the complete marked integrand. The bound has
+\(\prod_e(R_e-1)^{-1}\), with no added \(2^{|S|}\),
+decoration-allocation factor, or factorial. Expanding product rules before
+taking absolute values would introduce those factors artificially.
+
+This does not import the unmarked Eq. (2.14) estimate for the mark. The
+earlier Eq. (1.34) marked norm controls the original fluctuation-field domain,
+whereas the conditioned and standardized formula evaluates the marked factor
+at a transformed argument involving an unbounded Gaussian variable and
+complex weakening parameters. A common transformed holomorphy domain and one
+joint relative Gaussian-moment envelope remain to be proved from the full
+formula. Separate marked and unmarked integrated bounds are insufficient.
+The OCR does not cleanly settle every transformed cutoff glyph. If a sharp
+cutoff depends on the weakening variables and lacks a holomorphic extension,
+it must be kept outside the contour and controlled by a separate valid
+real-derivative estimate with its allocation loss exposed.

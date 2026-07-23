@@ -58,3 +58,17 @@ All notable research-structure and claim-status changes are recorded here. Mathe
   separate output-animal entropy spend. The actual marked norm, hull/KP
   crosswalk, shifted synchronization, physical pullbacks, continuum
   construction, and mass gap remain open.
+- Added YM-RG-022: rewrote the active Eq. (2.8) weakening operation as one
+  exact mixed difference and, under explicit common \(L^1\)-holomorphy and
+  joint-majorant hypotheses, one multivariable contour of the complete marked
+  integrand. This captures every derivative placement with no extra Leibniz,
+  decoration-allocation, or factorial multiplicity, and with the ordinary
+  Cauchy-radius factors if that radius is shared. The application reduces to
+  a positive seed-dependent kernel under one joint conditioned-contour
+  Gaussian majorant. Real-domain control, separate integrated bounds, and the
+  original Eq. (1.34) input norm are proved insufficient substitutes. The
+  conditional exponent ledger is corrected to a parallel fork: up to two
+  delta-units of total pre-gluing marked cost still meet the source-free
+  \((1-8\delta)(L/2)\kappa\) endpoint. The actual transformed-mark envelope,
+  marked gluing, kernel decay, animal/KP/hull estimates, and all later gates
+  remain open.

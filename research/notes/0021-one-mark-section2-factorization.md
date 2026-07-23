@@ -327,11 +327,13 @@ e^{(1-2\delta)\kappa d_k(A)}
 Assume all of the following for this fixed partition.
 
 1. **Direct marked domination.** After spending at most one \(\delta\)-unit
-   of the input tree exponent for the distinguished-root overhead, every term
-   defining (8) is bounded by the norm of its unique \(W_{k,p}(A)\) factor
-   times the same positive unmarked decoration majorant used in the proof of
-   RG II Lemma 3, uniformly on one common conditioned and weakened complex
-   domain.
+   of the input tree exponent for the distinguished-root overhead and joint
+   conditioned-contour moment, every term defining (8) is bounded by the norm
+   of its unique \(W_{k,p}(A)\) factor times the same positive unmarked
+   decoration majorant used in the proof of RG II Lemma 3, uniformly on one
+   common conditioned and weakened complex domain. Note 0022 makes this
+   joint-majorant requirement precise and proves that one whole-integrand
+   Cauchy contour adds no separate Leibniz multiplicity.
 2. **Marked gluing geometry.** The seed (6), every enlargement, and its output
    obey the marked versions of the source's tree-gluing inequalities,
    including the scale conversion
@@ -347,20 +349,27 @@ Assume all of the following for this fixed partition.
    regulator, and the admitted background.
 
 These are additional marked hypotheses. They are not consequences of the
-printed source-free bound. Under them, the source's loss ledger can be run
-with the one distinguished factor held outside the ordinary decoration sums:
+printed source-free bound. The loss ledger is a fork, not an additive chain.
+If the **total pre-gluing** marked overhead, including the root and joint
+conditioned-contour moment, is \(r\delta\kappa\), the premise above gives
+\(r\le1\). The marked input and ordinary \(D/Y_0\) resummation run in
+parallel. Assuming gluing has no further metric-proportional loss, it retains
+the weaker branch; the four later source losses then give
 
 \[
-1-2\delta\ \longrightarrow\ 1-3\delta\ \longrightarrow\
-1-4\delta\ \longrightarrow\ 1-5\delta\ \longrightarrow\
-1-6\delta\ \longrightarrow\ 1-7\delta\ \longrightarrow\
-1-8\delta.
+\begin{aligned}
+&\left(1-2\delta\longrightarrow1-(2+r)\delta\right)
+\quad\parallel\quad
+\left(1-2\delta\longrightarrow1-4\delta\right),\\
+&\hspace{9mm}\xrightarrow{\text{gluing and four later losses}}
+1-\bigl(\max\{4,2+r\}+4\bigr)\delta
+=1-8\delta,
+\qquad r\le1.
+\end{aligned}
 \tag{22}
 \]
 
-The first loss reserves the rooted marked overhead; the remaining losses pay
-the unmarked Section-2 resummations and the \(L/2\) scale conversion. Thus the
-conditional marked Lemma-3 implication is
+Thus the conditional marked Lemma-3 implication is
 
 \[
 |W_p^{\rm post}(C)|
@@ -456,8 +465,11 @@ the ordered-sum factorial/repeated-label convention already tested in Note
   bare \(W_{k,p}(A)\).
 - Equations (23) and (26) are conditional implications under direct marked
   domination, common-domain, marked-gluing, uniform-smallness, and
-  output-animal hypotheses. Those premises remain unproved for the actual
-  RG-II construction.
+  output-animal hypotheses. Note 0022 proves that a single contour of the
+  whole marked weakening integrand introduces no extra derivative-allocation
+  factor and corrects the conditional loss ledger to the fork (22). The
+  actual common transformed domain, joint Gaussian majorant, positive-kernel
+  decay, and the other premises remain unproved for the RG-II construction.
 - No unmarked inequality has been differentiated. A common complex-source
   Lemma-3 theorem plus Cauchy would be an alternative route, but no such
   theorem is imported here.

@@ -43,6 +43,7 @@ The main route is a Wilson lattice regulator followed by gauge-covariant renorma
 - [Note 0019: conditional forward multiscale cell-map bridge](research/notes/0019-forward-multiscale-cell-map.md)
 - [Note 0020: one-mark Ursell identity on a fixed polymer gas](research/notes/0020-one-mark-ursell-identity.md)
 - [Note 0021: one marked component through the RG-II Section-2 map](research/notes/0021-one-mark-section2-factorization.md)
+- [Note 0022: whole-integrand Cauchy control for the Section-2 mark](research/notes/0022-whole-integrand-marked-cauchy.md)
 - [Bałaban theorem-level source map](literature/audits/2026-07-22-balaban-source-map.md)
 - [Bałaban imported-map audit](literature/audits/2026-07-22-balaban-imported-map.md)
 
@@ -57,6 +58,16 @@ and obtains the exact hard-core numerator. Its decay statement is explicitly
 conditional: the direct marked conditioning/weakening domination, gluing
 geometry, output-animal entropy, wall-contact hull crosswalk, convergence,
 and branchwise shift synchronization remain open.
+
+Under its stated common \(L^1\)-holomorphy and joint-majorant hypotheses,
+Note 0022 proves that Eq. (2.8)'s whole-integrand weakening contour carries
+the mark with no extra Leibniz or decoration-allocation multiplicity, and
+with the ordinary Cauchy-radius factor if the marked term shares the source
+radius. It also corrects the conditional exponent bookkeeping to a parallel
+fork. The decisive missing estimate is now a joint conditioned-contour
+Gaussian envelope for the transformed plaquette mark; the original
+Eq. (1.34) input norm and separate integrated bounds do not imply that
+envelope.
 
 ## Evidence discipline
 

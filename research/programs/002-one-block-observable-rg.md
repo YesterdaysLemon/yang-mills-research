@@ -131,9 +131,15 @@ distinguished-vertex Ursell formula and a conditional pinned bound on one
 fixed hard-core gas. [Note
 0021](../notes/0021-one-mark-section2-factorization.md) constructs the exact
 decorated post-conditioning activity and unique marked-component
-factorization on one compatible fixed partition. Its direct marked
-conditioning/weakening domination, rooted norm, hull crosswalk, convergence,
-and shifted-branch synchronization remain unproved.
+factorization on one compatible fixed partition. [Note
+0022](../notes/0022-whole-integrand-marked-cauchy.md) proves that one contour
+of the complete marked weakening integrand, under common \(L^1\)-holomorphy
+and a joint majorant, has no extra derivative-allocation multiplicity and has
+the ordinary radius price if that radius is shared. It reduces the estimate
+to a joint conditioned-contour Gaussian envelope and positive seed-dependent
+kernel. That actual envelope and kernel
+decay, the rooted norm, hull crosswalk, convergence, and shifted-branch
+synchronization remain unproved.
 Unit-translation covariance, the scaled nonlinear \(U\) collar and pullback,
 uniform realization of Note 0019's premises,
 the actual single-partition marked estimate, the full physical
@@ -329,6 +335,13 @@ and no mass gap.
   hard-core numerator identities; see Note 0021. Proving the direct marked
   domination, rooted norm, hull weight, convergence, and synchronized shifted
   construction remains open.
+- [x] Apply one multivariable contour to the complete marked Eq. (2.8)
+  integrand under explicit common \(L^1\)-holomorphy and joint-majorant
+  hypotheses, retain no added product-rule multiplicity and the ordinary
+  Cauchy-radius factor if that radius is shared, reduce the estimate to one
+  positive seed-dependent kernel, and correct the conditional exponent ledger
+  to a parallel fork; see Note 0022. The actual transformed-mark Gaussian
+  envelope, kernel decay, and gluing estimates remain open.
 - [x] Prove a common zero-free source disk from bounded observable range,
   conditional on the exact pointwise kernel and positive finite source-free
   weighted partition function; see Note 0007. This does not supply a complex

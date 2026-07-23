@@ -112,9 +112,14 @@ and a conditional pinned cluster bound for one fixed hard-core gas, and shows
 that bare shifted marks cannot be mixed without branch synchronization or a
 proved common-gas embedding. Note 0021 constructs the exact decorated
 post-conditioning activity, unique marked-component factorization, and finite
-hard-core numerator on one compatible fixed partition. It does not prove the
-direct marked conditioning/weakening domination, synchronization, marked
-norm, convergence, or hull-weight premises. The scaled \(U\) pullback, uniform
+hard-core numerator on one compatible fixed partition. Note 0022 proves that
+under common \(L^1\)-holomorphy and a joint majorant, the complete marked
+weakening integrand can be estimated by one contour without extra
+derivative-allocation entropy, and with the ordinary radius price if that
+radius is shared. It isolates the missing joint conditioned-contour Gaussian
+envelope and positive kernel. It does not prove
+that envelope, synchronization, marked norm, convergence, or hull-weight
+premises. The scaled \(U\) pullback, uniform
 realization of Note 0019's premises, and full physical coarse-field
 derivative/quasilocal norm,
 the actual fixed-partition marked estimate, unit-translation covariance, and
@@ -222,7 +227,10 @@ infrared conclusions.
   Kotecky--Preiss implication (Note 0020);
 - the exact fixed-partition decorated post-conditioning mark, unique
   marked-component factorization, and finite hard-core numerator (Note 0021),
-  without the direct marked conditioning/weakening bound, actual activity
+  together with the exact whole-integrand marked Cauchy reduction under
+  explicit common-domain and joint-majorant hypotheses and the corrected
+  conditional exponent fork (Note 0022), but without the actual
+  joint transformed-mark Gaussian envelope, positive-kernel decay, activity
   norm, hull crosswalk, absolute convergence, or synchronized shifted RG
   construction needed for the physical application;
 - background-propagator decay and change-of-domain estimates;
@@ -266,10 +274,13 @@ None of those inputs supplies the displayed source-inserted polymer theorem.
    Lemma 3 for the unmarked decorations, and prove the connected sum converges.
    Note 0020 settles the fixed-gas distinguished-slot algebra, including
    \(1/n!\), repeated labels, and the conditional pinned bound. Note 0021
-   settles the finite fixed-partition cutoff, conditioning, weakening,
-   post-polymerization image, component factorization, and hard-core numerator
-   algebra. The direct marked domination, gluing/hull metric, animal entropy,
-   shift synchronization, and convergence remain open.
+    settles the finite fixed-partition cutoff, conditioning, weakening,
+    post-polymerization image, component factorization, and hard-core numerator
+    algebra. Under its explicit common \(L^1\)-holomorphy and joint-majorant
+    hypotheses, Note 0022 removes an artificial product-rule multiplicity and
+    reduces direct weakening to one joint conditioned-contour envelope and
+    positive kernel. That envelope, kernel decay, gluing/hull metric, animal
+    entropy, shift synchronization, and convergence remain open.
 11. [ ] Perform the full symmetry/Ward-identity projection on the marked first
    jet and classify all position/orientation mixing.
 

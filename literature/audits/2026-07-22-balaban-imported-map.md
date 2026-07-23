@@ -328,11 +328,16 @@ labels, the wall-contact compatibility convention, and each shifted branch
 separate. [Note
 0021](../../research/notes/0021-one-mark-section2-factorization.md)
 subsequently constructs the exact decorated post-conditioning mark and unique
-marked-component factorization on one compatible fixed partition. Neither
-note imports a marked Lemma 3. The scaled nonlinear \(U\) pullback, uniform
-realization of Note 0019's geometry, actual fixed-partition marked estimate,
-hull crosswalk, shifted synchronization, convergence, and physical connected
-estimate remain open.
+marked-component factorization on one compatible fixed partition. [Note
+0022](../../research/notes/0022-whole-integrand-marked-cauchy.md) proves that
+under common \(L^1\)-holomorphy and a joint majorant, one contour of the
+complete marked Eq. (2.8) integrand has no extra product-rule multiplicity
+and has the ordinary Cauchy-radius price if that radius is shared. It then
+isolates the missing joint conditioned-contour Gaussian envelope. None of these notes
+imports a marked Lemma 3. The scaled nonlinear \(U\) pullback, uniform
+realization of Note 0019's geometry, actual fixed-partition marked envelope
+and kernel decay, hull crosswalk, shifted synchronization, convergence, and
+physical connected estimate remain open.
 
 ## Regular configurations and gauge chart
 

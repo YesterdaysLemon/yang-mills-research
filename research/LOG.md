@@ -450,3 +450,60 @@ where weakening derivatives can hit the transformed mark. In parallel, prove
 the marked tree-gluing and wall-contact hull inequalities and pay the output
 animal entropy explicitly. Only after that fixed-partition norm closes should
 the construction be repeated uniformly on every admitted shifted branch.
+
+## 2026-07-22 -- whole-integrand Cauchy reduction for the marked term
+
+### Established
+
+- Proved YM-RG-022 for one finite active Eq. (2.8) weakening set. The
+  integrated mixed derivative is exactly the alternating endpoint difference
+  and has the iterated contour representation
+  \[
+  \prod_{e\in S}(E_e^1-E_e^0)F
+  =\frac1{(2\pi i)^{|S|}}
+  \oint F(\zeta)
+  \prod_{e\in S}\frac{d\zeta_e}{\zeta_e(\zeta_e-1)}.
+  \]
+- Under common \(L^1\)-holomorphy and one joint majorant, applying that
+  contour to the complete marked integrand captures every weakening
+  derivative that hits the mark or ordinary decorations. The price is exactly
+  \(\prod_e(R_e-1)^{-1}\), with no additional \(2^{|S|}\),
+  decoration-allocation factor, or factorial.
+- If the marked term shares the source radius \(R=e^{\kappa_1}\), this is the
+  ordinary weakening factor. A smaller marked radius incurs the explicit
+  relative penalty
+  \(((e^{\kappa_1}-1)/(R_*-1))^{|S|}\), which cannot be hidden as a fixed
+  tree-exponent loss without a proved \(|S|\)-to-metric inequality.
+- Reduced the conditional marked activity estimate to a positive
+  seed-dependent kernel \(K_\pi(C,A)\). The remaining analytic input is one
+  joint conditioned-contour relative Gaussian-moment envelope for the
+  transformed mark and the ordinary Eq. (2.14) majorant.
+- Corrected Note 0021's conditional loss bookkeeping. The marked branch,
+  including every root and joint-moment loss, and the ordinary \(D/Y_0\)
+  branch run in parallel; their weaker exponent is glued before the four
+  later source losses. A total pre-gluing marked cost of at most two
+  delta-units therefore still ends at
+  \((1-8\delta)(L/2)\kappa\).
+- Added exact-arithmetic tests for the mixed FTC identity, the product-rule
+  allocation trap, failure of real-cube control, failure of multiplying
+  separate integrated majorants, and loss outside a smaller analytic disk.
+
+### Not established
+
+- No proof that the actual conditioned, standardized plaquette argument stays
+  in the Eq. (1.34) marked domain on the full complex weakening contour.
+- No joint marked/unmarked Gaussian envelope, positive-kernel decay, marked
+  gluing, output-animal constant, pinned Kotecky--Preiss condition, or hull
+  crosswalk.
+- No common source disk, absolute convergence, branchwise shifted
+  synchronization, physical \(U/J\) pullback, large-field estimate, RG
+  iteration, continuum construction, axioms, infrared decay, or Yang--Mills
+  mass gap.
+
+### Next decision
+
+Audit the full conditioned Eq. (2.14) formula from a clean page image and
+either prove the joint transformed-mark Gaussian envelope or record a sharp
+counterexample for the actual argument. In parallel, close the fixed-output
+wall-contact hull and animal geometry so that a successful kernel estimate
+can enter the pinned connected expansion without another hidden loss.

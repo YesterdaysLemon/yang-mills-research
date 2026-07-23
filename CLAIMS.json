@@ -933,7 +933,7 @@
       "external_hypotheses": [
         "RG II Eqs. (2.1)-(2.10) for the finite unordered Mayer subset expansion, cutoff inclusion-exclusion, seed-dependent Z_0 resummation, Gaussian conditioning and standardization, covariance-square-root weakening, localization into H(Z,Z_0), and exact component factorization.",
         "For the exact derivative, the Note-0011 source seam: the global cutoff, Gaussian law, quadratic operator, fixed background and chart, partition, and unmarked potentials are independent of the scalar source parameter; every marked derived domain and restricted operator is nevertheless reconstructed from its A-dependent seed.",
-        "For the conditional pointwise estimate, after at most one delta-unit of input tree-exponent overhead, direct absolute domination of every transformed and weakened marked term by its marked input norm times the same positive ordinary-decoration majorant used in Lemma 3, on one common conditioned and weakened complex domain.",
+        "For the conditional pointwise estimate, after at most one delta-unit of input tree-exponent overhead, the joint conditioned-contour marked/unmarked majorant and positive-kernel decay isolated by YM-RG-022, on one common conditioned and weakened complex domain.",
         "For the conditional rooted norm, marked tree-gluing and scale-conversion inequalities, regulator- and root-uniform ordinary smallness constants, and a finite output-animal constant C_an(eta)."
       ],
       "sources": [
@@ -941,9 +941,9 @@
       ],
       "proof_anchor": "research/notes/0021-one-mark-section2-factorization.md",
       "known_limitations": [
-        "The exact result is algebraic. The actual direct marked-domination, common conditioned domain, marked gluing inequalities, uniform constants, and output-animal estimate needed for the displayed conditional norm have not been proved.",
+        "The exact result is algebraic. YM-RG-022 removes an artificial derivative-allocation multiplicity, but the actual joint conditioned-contour majorant, positive-kernel decay, common transformed domain, marked gluing inequalities, uniform constants, and output-animal estimate needed for the displayed conditional norm have not been proved.",
         "The derived cutoff split, P-sum, Z_0, conditioned restriction, Z_0 prime, weakening family, and admissible outputs depend combinatorially on A and must be rerun; W_p^post is not a bare W_{k,p}(A) multiplying a precomputed unmarked H.",
-        "RG II Eq. (2.8) weakens the whole transformed integrand, so weakening derivatives may hit the mark through its transformed B arguments. The exact distinguished-slot map includes those terms, but their norm remains open.",
+        "RG II Eq. (2.8) weakens the whole transformed integrand, so weakening derivatives may hit the mark through its transformed B arguments. YM-RG-022 controls all placements by one contour under a joint majorant; proving that majorant and domain for the actual transformed argument remains open.",
         "No common source disk, absolute convergence, pinned Kotecky-Preiss condition, wall-contact hull/d_k crosswalk, or branchwise shifted synchronization is proved.",
         "The result is local only in independent (U,J,B) coordinates and does not prove the physical U/J pullbacks, marginal projection, large fields, iteration, continuum construction, axioms, infrared decay, or mass gap."
       ],
@@ -959,13 +959,59 @@
       "reviewers": [],
       "open_objections": [
         "No independent human review has been recorded.",
-        "Prove the direct marked conditioned/weakening domination and every marked tree-gluing inequality instead of retaining them as hypotheses.",
+        "Use YM-RG-022's whole-integrand contour and prove the actual common transformed domain, joint marked/unmarked Gaussian envelope, positive-kernel decay, and every marked tree-gluing inequality instead of retaining them as hypotheses.",
         "Prove the output-animal constant, canonical pinned condition, hull/d_k crosswalk, absolute convergence, and a common source disk with a positive retained exponent.",
         "Repeat the complete construction uniformly on each admitted shifted partition before the normalized branchwise average.",
         "Obtain a clean immutable page-image transcription of the OCR-damaged operator formulas used in Eqs. (2.3), (2.5), (2.6), and (2.8)."
       ],
       "novelty_claim": false,
       "provenance": "AI-assisted one-distinguished-slot corollary of Balaban's unmarked finite Section-2 algebra and component factorization; no marked theorem is attributed to the source and no novelty is claimed.",
+      "last_audited_commit": null
+    },
+    {
+      "id": "YM-RG-022",
+      "kind": "Lemma",
+      "statement": "For one finite marked RG-II Section-2 term with active weakening set S, if the entire standardized marked integrand is L1-holomorphic and jointly integrably dominated on a common polydisc of radii R_e>1, its exact mixed weakening difference is bounded by the joint majorant times product_e (R_e-1)^(-1). This single whole-integrand contour includes every derivative placement and has no additional Leibniz, decoration-allocation, or factorial multiplicity. If it shares the source radius exp(kappa_1), it has the ordinary weakening price. The result reduces the direct marked estimate to one positive seed-dependent kernel and identifies a conditioned-contour relative Gaussian-moment bound as the missing actual input. The conditional exponent ledger is a parallel fork: a total pre-gluing marked cost of at most two delta-units does not worsen the (1-8delta)(L/2)kappa endpoint, while a smaller analytic radius or larger cost must be paid explicitly.",
+      "scope_and_quantifiers": "One finite regulator; one fixed compatible partition; one fixed A,D,P,Z_0,Z auxiliary term at a time, followed by a conditional absolute auxiliary sum; one finite active weakening-variable set; first source jet only. The exact mixed-difference and contour identities are unconditional under their stated holomorphy assumptions. Every Yang-Mills activity estimate, positive-kernel bound, and exponent endpoint remains conditional on the named joint conditioned-contour, gluing, and ordinary resummation hypotheses.",
+      "status": "proved-in-repo",
+      "evidence_level": "E2",
+      "dependencies": [
+        "YM-RG-013",
+        "YM-RG-021"
+      ],
+      "external_hypotheses": [
+        "RG II Eqs. (1.9)-(1.10) and the following Cauchy construction for the whole weakening function, plus Eq. (2.8)'s reuse of that decomposition on the complete standardized integrand.",
+        "For the conditional application, L1-holomorphy and one joint marked/unmarked integrable majorant on a common complex weakening polydisc; separate input-domain or separate L1 estimates are not substituted for this premise.",
+        "For the displayed conditional endpoint, the marked gluing and all source-free resummation and scale-conversion hypotheses isolated in YM-RG-021."
+      ],
+      "sources": [
+        "https://doi.org/10.1007/BF01239022"
+      ],
+      "proof_anchor": "research/notes/0022-whole-integrand-marked-cauchy.md",
+      "known_limitations": [
+        "The actual transformed plaquette mark has not been proved holomorphic and jointly Gaussian-dominated on the full complex second-stage weakening contour. The standardized Gaussian variable is unbounded, so literal inheritance from the original Eq. (1.34) field domain is not assumed. Any weakening-dependent nonholomorphic cutoff must remain outside the contour or receive its own valid derivative estimate.",
+        "The positive seed-dependent kernel is defined and conditionally bounds the marked activity, but its A-to-C decay, marked gluing, resummation, and regulator-uniform constants are not proved.",
+        "A smaller marked analytic radius produces an explicit factor exponential in the number of weakening variables. No tree-metric conversion for that loss is silently assumed.",
+        "No output-animal estimate, pinned Kotecky-Preiss condition, hull crosswalk, source disk, absolute convergence, shifted synchronization, physical U/J pullback, large-field estimate, iteration, continuum construction, axioms, infrared decay, or mass gap is proved."
+      ],
+      "falsification_tests": [
+        "Replace the whole-product contour by separate product-rule estimates and expose the artificial 2^|S| or larger derivative-allocation factor.",
+        "Use only a real-cube bound; the product of (2z_i-1) has unit supremum there and mixed difference 2^|S|.",
+        "Infer a marked weakening estimate from the unmarked one; U=1 and M=product_i z_i give zero unmarked mixed difference and unit marked mixed difference.",
+        "Multiply separate L1 majorants; two functions concentrated on an event of mass epsilon have unit separate integrals and product integral epsilon^(-1).",
+        "Use the original marked input disk at a transformed point outside it; powers (z/r)^n have unit inner-disk norm and unbounded outer values.",
+        "Append the marked loss after the complete ordinary ledger instead of joining the parallel branches and obtain the wrong endpoint."
+      ],
+      "reviewers": [],
+      "open_objections": [
+        "No independent human review has been recorded.",
+        "Transcribe the full conditioned Eq. (2.14) integrand from a clean immutable page image and prove that the actual transformed plaquette mark shares the source complex weakening domain.",
+        "Prove a joint relative Gaussian-moment envelope for the marked factor and ordinary Eq. (2.14) majorant, uniformly in A, root, regulator, background, and fixed partition.",
+        "Bound the resulting positive A-to-C kernel through marked gluing and every resummation without adding hidden support or derivative-allocation entropy.",
+        "Then prove the output-animal, pinned Kotecky-Preiss, hull, source-disk, convergence, and shifted-branch interfaces before using the marked activity physically."
+      ],
+      "novelty_claim": false,
+      "provenance": "AI-assisted elementary whole-integrand Cauchy corollary and obstruction audit keyed to Balaban's unmarked weakening construction; no marked theorem is attributed to the source and no novelty is claimed.",
       "last_audited_commit": null
     },
     {
@@ -994,7 +1040,8 @@
         "YM-RG-018",
         "YM-RG-019",
         "YM-RG-020",
-        "YM-RG-021"
+        "YM-RG-021",
+        "YM-RG-022"
       ],
       "external_hypotheses": [
         "The exact Eq. (0.12) averaging map, raw group-delta transform, fixed small-field domain, local gauge chart, minimizing branch, and background-propagator estimates recorded in the imported-map audit.",
@@ -1057,7 +1104,8 @@
         "YM-RG-018",
         "YM-RG-019",
         "YM-RG-020",
-        "YM-RG-021"
+        "YM-RG-021",
+        "YM-RG-022"
       ],
       "external_hypotheses": [
         "The selected RG I Eq. (0.12) averaging map and raw group-delta transform, the separately named YM-RG-010 exact coordinate law, an explicit intrinsic-coordinate-unrestricted distinction, exact marked domain/norm transcription, and every needed source-free small- and large-field estimate verified in full text before use."
