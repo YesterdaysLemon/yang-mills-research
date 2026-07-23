@@ -1,0 +1,468 @@
+# Program 003: the first source-jet fluctuation remainder
+
+Claim ID: `YM-RG-004`
+
+Status: Open theorem specification
+
+Evidence: E0
+
+Initial group: \(SU(2)\)
+
+Novelty: not claimed
+
+## Frozen setup
+
+Use the Euclidean-symmetric RG I Eq. (0.12) average and the raw group-delta
+transform selected in the [imported-map
+audit](../../literature/audits/2026-07-22-balaban-imported-map.md). Retain the
+odd-\(L>11\) geometry and use the fixed-\(\varepsilon_1\) small-field cutoff,
+not the coupling-dependent alternative, for this first theorem.
+
+The unrestricted raw group-delta transform remains a separate object: ordinary
+disintegration only gives almost-everywhere conditional probabilities, and the
+audited sources do not exclude remote logarithmic branches. This theorem is
+therefore explicitly restricted to RG I's selected near-identity fixed-cutoff
+branch rather than silently identifying that branch with the unrestricted
+fiber.
+
+[Note 0008](../notes/0008-full-fixed-cutoff-branch.md) uses RG II
+Eqs. (1.19)–(1.20) to prove that the **complete** Eq. (2.9)
+independent-bond cube stays inside one regular analytic chart. For each finite
+regulator and admitted real coarse field \(V\), it defines the intrinsic
+pointwise finite nonzero positive branch measure
+\(K_k^{\rm chart}(V,dU)\).
+
+[Note 0009](../notes/0009-parameterized-fixed-cube-kernel.md) proves that on
+one named relatively compact Proposition 9 patch these measures form a Borel
+kernel, analytic tests have real-analytic integrals and local holomorphic
+continuations, and real coarse gauge transformations push the kernel forward
+between equivariantly transported charts. It does not build a compatible
+global atlas or identify the intrinsic density term by term with RG I
+Eq. (2.12).
+
+[Note 0010](../notes/0010-exact-rg-coordinate-law.md) separately names the
+exact normalized probability law of RG I Eqs. (2.12)–(2.13), retaining its
+Gaussian, cutoff, full fluctuation exponent, and every coordinate-dependent
+Jacobian:
+
+\[
+\nu_{k,V}^{\rm RG}(dB)=
+\frac{
+\chi_k(B)e^{\Psi_k^{\rm RG}(V,B)}
+d\mu_{\Gamma_k(V)}(B)
+}{Z_k^{\rm RG}(V)}.
+\tag{1}
+\]
+
+This program now adopts (1) as its operational law because RG II's
+fluctuation/cluster construction acts on that printed coordinate integral. It
+does **not** identify (1) with a normalized intrinsic-coarea law or an
+unrestricted raw-fiber conditional. Only factors constant in \(B\) and the
+observable source cancel projectively.
+
+The coordinate branch, cutoff, and full source-free weight in (1) are frozen
+at source zero, so they are independent of \(z\) and \(f\). They may still
+depend on the source-free coupling/background construction; the
+constant-profile coupling identity must continue to be stated for the
+coupling-independent raw transform, not assumed for (1).
+
+[Note 0007](../notes/0007-projective-source-kernels.md) shows that no
+volume-independent lower bound on the raw branch mass is needed. Note 0010
+proves positivity, patch-local analytic-test regularity, real gauge covariance,
+and the explicit common zero-free source disk for (1). The remaining theorem
+must prove marked-polymer locality for this exact normalized RG coordinate law.
+
+For a real plaquette profile \(f\) supported in one coarse block and normalized
+by Program 002's \(\|f\|_{C^6_{\rm disc}}\le1\), let
+
+\[
+\mathcal O_f(V,B)=4\sum_p f_p s(\mathscr U_k(V,B)_p).
+\]
+
+Note 0010 gives the exact RG-coordinate first jet as a finite-dimensional
+expectation, while Note 0004 gives the fixed-background term on the unique
+minimizing orbit. Define their deliberately labeled difference
+
+\[
+\mathcal J_f^{\rm RG}(V)=
+\mathbb E_{\nu^{\rm RG}_{k,V}}[\mathcal O_f(V,B)]
+-\mathcal O_f(U_1(V)).
+\]
+
+Note 0011 settles its exact background split and one-mark Mayer algebra. Note
+0012 proves the exact rooted decomposition and a conditional cube-count norm,
+uniform over plaquettes interior to one fixed partition, in the independent
+RG-II variables. Note 0013 upgrades it to the conditional
+\((1-2\delta)\kappa d_k\)-weighted norm on the standard \(M\)-cube branch under
+an explicit entropy margin. Note 0014 supplies an RG-admitted shifted-family
+cover for every plaquette and coarse-lattice-preserving transport. The
+conditional fixed-chart composition, exact \(U\)-and-\(J\) chain rules, and
+zeroth-order norm are supplied by Note 0015. Note 0016 identifies the exact
+physical auxiliary field, reduces its differential to the Eq. (190)-controlled
+background derivative plus a local remainder, and gives conditional
+independent-variable derivative norms on fixed-regulator complex tubes. Note
+0017 supplies a strict direct-\(J\) representative collar, the dual
+Eq. (190) source convolution, and a conditional homogeneous-layer pullback
+for the auxiliary-\(J\) chain-rule summand. Note 0018 proves that naive raw
+and \(\xi\)-scaled bond-sup \(U\) collars collapse and isolates the necessary
+RG-scaled replacement hypotheses. Note 0019 proves a conditional all-layer
+\(J\)-summand extension under explicit geometry and common-chart premises.
+Note 0028 removes its discrete-tree-lift premise and supplies zero support
+halos for first-stage direct-\(J\) activities. Note 0029 carries
+external-field locality through the completed literal-union coefficient and
+uses the source bond-intersection convention plus the admitted integer-wall
+cubulation to supply zero completed support halos. Under its completed
+representative compatibility hypothesis \((\mathrm H_J^{\rm conn})\),
+strengthening Note 0017's local \((\mathrm H_J)\), Note 0030 carries the
+strict affine-\(J\) margin through every completed output domain and proves
+the coefficientwise tube norm and full dual derivative norm. Proof of
+\((\mathrm H_J^{\rm conn})\) and common chart constants remain conditional.
+Note 0031 supplies a concrete covariant-curl relative-log \(U\) radius and a
+common \(U/J\) product tube under the stronger common real-center hypothesis
+\((\mathrm H_{\rm rc})\). On that retained family it is a sufficient
+replacement for \((\mathrm H_J^{\rm conn})\), and the product
+\(H^\infty\) rerun gives both completed dual derivative norms. Uniform proof
+of \((\mathrm H_{\rm rc})\) for the actual minimizing family remains open.
+Note 0032 composes the completed \(J\)-derivative with the Eq. (190) kernel
+in a support-anchored hybrid norm without Note 0019's
+\((\mathrm H_\rho)\), mesh comparison, endpoint allowance, or loss from the
+polymer exponent \(\kappa\). Pure plaquette-rooted decay instead needs the aggregate
+\((\mathrm H_{\rm end})\) inequality or a coefficient-weighted substitute;
+common kernel/chart constants remain conditional.
+Note 0033 treats the physical-\(U\) summand. Common converted Eq. (190) rows
+and a global scale envelope give
+an unweighted source sum without a coordinate or volume factor. For positive
+source decay, exact restriction-quotient duality identifies the sharp
+synthesis moment, and a feature-support-anchored bound follows under
+\((\mathrm H_{\rm ext}^U)\). Note 0034 proves the exact curvature-corrected
+curl identity, reduces the source rows to the raw-RG and
+covariant-gradient-RG pair under \((\mathrm H_{\rm rc})\), and proves the
+extension on a collar of fixed physical thickness. Its flat abelian path
+shows that a fixed number of lattice layers cannot be uniform. The reduced
+converted rows, scale treatment, and active-label metric halo remain
+conditional. Note 0035 proves that the natural diagonal \(s_j,s_j^2\)
+row-balanced norm cancels the printed Eq. (190) powers and has a sharp
+weighted cutoff, but its common analytic radius is only \(O(\xi^2)\).
+Generic Cauchy therefore restores the \(\xi^{-2}\) loss.
+Note 0036 then combines each physical \(U\) column with its induced
+auxiliary-\(J\) variation before absolute summation. It proves the exact
+joint Ward-quotient constant, records the common kernel's differentiated
+right-inverse and projected Landau constraints and the vertical scale trade,
+and isolates a gauge-invariant same-cell transverse logical obstruction.
+Note 0037 derives the exact differentiated elliptic factorization.
+Separately, in a source-normalized homogeneous one-step Cartan finite model,
+a localized coarse bond has nonzero coarse curl, and discrete Stokes forces
+every right inverse in the model to retain gradient/curl order \(s^{-2}\).
+The model's embedding into the full multiscale \(H_1\) domain and Hessian
+selector, the completed Ward premise, converted columns, and a weak-dual
+statement on any surviving transverse range remain open.
+Note 0020 proves the exact one-mark Ursell formula
+and a conditional pinned cluster bound for one fixed hard-core gas, and shows
+that bare shifted marks cannot be mixed without branch synchronization or a
+proved common-gas embedding. Note 0021 constructs the exact decorated
+post-conditioning activity, unique marked-component factorization, and finite
+hard-core numerator on one compatible fixed partition. Note 0022 proves that
+under common \(L^1\)-holomorphy and a joint majorant, the complete marked
+weakening integrand can be estimated by one contour without extra
+derivative-allocation entropy, and with the ordinary radius price if that
+radius is shared. It isolates a positive seed-dependent kernel. Note 0023
+proves a literal-union hull,
+volume-uniform animal entropy, and an explicit sufficient pinned
+Kotecky--Preiss/hull-weight package for a separately declared standard
+closed-cube gas. Note 0024 identifies the final connected ordinary RG-II gas
+with that model and supplies a displayed-hierarchy-compatible ordinary
+KP-smallness window. Note 0025 corrects the source variable map and proves
+the fixed-term marked bound with zero relative-moment cost. Note 0026 proves
+the positive marked-seed and scale resummations, decorated marked norm, and
+connected first derivative at \(t=0\) on one fixed gas under an explicit
+doubled-amplitude refinement and Note 0024's separate ordinary KP ceiling.
+Under the added \(LM\mid N\) and nonempty common-domain hypotheses, Note 0027
+lifts the two-scale cubulations, reconstructs the same dual-number integral
+on every separate shifted branch, and synchronizes their connected first jets
+with no orbit factor. Notes 0007 and 0010 already give the selected-coordinate
+scalar source disk; source-dependent polymer activities and KP convergence at
+nonzero source remain open. Proof of \((\mathrm H_{\rm rc})\), common
+converted raw/gradient \(U\) rows and source-faithful control of their actual
+differentiated range by smoothing, a range-restricted tube, or a weak-dual
+estimate, the active-label metric halo, common
+\(J\)-kernel/chart constants, any
+stronger rooted endpoint substitute, and the full unconditional physical
+coarse-field derivative/quasilocal norm,
+unit-translation covariance and a physical convergent connected marked
+estimate are the first parts not settled by those auxiliary lemmas or the
+imported source-free theorem.
+
+## Target theorem
+
+On one named relatively compact admitted regular coarse-field patch, derive a polymer
+representation
+
+\[
+\mathcal J_f^{\rm RG}(V)=M_f(V)+\sum_X K_{X,f}(V),
+\qquad
+M_f=\Pi_{\rm rel}\mathcal J_f^{\rm RG},
+\]
+
+with all of the following properties.
+
+1. **Complete projection.** Classify every first-jet relevant/marginal
+   operator and every allowed position/orientation mixing of \(f\); do not
+   assume a scalar energy renormalization factor.
+2. **Gauge invariance.** The projected term and each localized activity are
+   invariant under coarse gauge transformations.
+3. **Quasilocality.** The profile-mixing kernels, projected coefficients, and
+   polymer activities have summable exponential decay away from
+   \(\operatorname{supp}f\), in explicitly copied Bałaban norms.
+4. **Uniformity.** Constants are independent of torus size, cutoff scale, and
+   source location for fixed admitted \(g,L\) and normalized \(f\). These are
+   normalized cumulant/polymer constants, not a lower bound on the raw product
+   cutoff mass.
+5. **Analytic domain.** The coarse-field analyticity domain is exactly the
+   gauge-fixed regular patch supplied by the imported theorems; no global
+   logarithm or gauge slice is used.
+6. **Source-free compatibility.** The proof derives the representation by
+   differentiating a source-inserted construction or by a justified insertion
+   into the cluster expansion. It may not infer source bounds merely by
+   differentiating a source-free final estimate.
+
+This target covers one source derivative in the fixed small-field branch only.
+It deliberately excludes the second source derivative, coupling-dependent
+cutoffs, the large-field complement, RG iteration, continuum limits, and
+infrared conclusions.
+
+## Available inputs
+
+- exact finite-regulator conditional-cumulant identity (Note 0003);
+- unique minimizing orbit plus analytic gauge-fixed branch (Note 0004), with
+  the variational paper's five Eq. (190) component bounds transcribed but not
+  yet crosswalked uniformly to the physical activity derivative norm;
+- pointwise positive fiber kernels for proper smooth submersions (Note 0005),
+  conditional on proving the selected map and cutoff satisfy its hypotheses;
+- RG I's local analytic constraint straightening and a positive precompact
+  background-centered fiber ball (Note 0006), without full-cutoff uniformity;
+- projective invariance, centered-score differentiation, and a uniform
+  bounded-observable source disk once a named pointwise kernel gives a positive
+  finite source-free weighted partition function (Note 0007);
+- RG II's complete-cube containment and the resulting pointwise positive
+  measure on the entire selected fixed-cutoff chart branch (Note 0008),
+  without an unrestricted-fiber comparison;
+- the patch-local Borel kernel, analytic-test regularity, local holomorphic
+  continuation, and transported-chart covariance of that intrinsic branch
+  measure (Note 0009), without a global compatible atlas or a termwise match
+  to RG I Eq. (2.12);
+- the separately named exact normalized RG-I Eq. (2.13) coordinate law, its
+  fixed-domain analyticity, centered-score derivative, source disk, and real
+  gauge covariance (Note 0010), without identifying it with the intrinsic or
+  unrestricted raw laws;
+- the exact finite-regulator background-centered mark, first-jet split, range
+  bound, and one-mark Mayer identity at the RG-II Section 2 seam (Note 0011),
+  without by itself supplying localization;
+- the exact independent-variable rooted decomposition and conditional
+  fixed-partition-interior cube-count norm for one plaquette mark (Note 0012),
+  without by itself supplying shifted roots, minimizing-background pullback,
+  or a connected marked expectation;
+- the rooted \((1-2\delta)\kappa d_k\)-weighted norm on the standard
+  wall-adjacent \(M\)-cube branch (Note 0013), under the source-safe hierarchy
+  consequence and explicit added entropy margin
+  \(\delta\kappa>\log64\), without a claim that this numerical threshold or the
+  exact text-layer-dropped prefactor is printed as transcribed in RG II;
+- the normalized RG-admitted shifted-family cover for every plaquette and
+  transport under the subgroup preserving the next coarse lattice (Note
+  0014), without unit-translation covariance or minimizing-background
+  quasilocality; Note 0027 later supplies separate-branch first-jet
+  compatibility, not a mixed gas;
+- the conditional fixed-chart physical composition, exact all-plaquette
+  identity, fluctuation locality, centering, \(U\)-and-\(J\) chain rules,
+  transported real-chart covariance, and inherited zeroth-order \(d_k\) norm
+  (Note 0015), without a physical coarse-field derivative norm or connected
+  bound;
+- the exact finite-stencil physical auxiliary field, its holomorphy,
+  covariance, and full first-differential reduction, qualitative nonuniform
+  fixed-chart decay, and conditional rooted independent-variable derivative
+  norms on explicit fixed-regulator tubes (Note 0016), without uniform tube
+  radii/chart constants, a \(d_{\mathcal B}\)-to-\(d_{k,\sigma}\) comparison,
+  the physical chain-rule convolution, or a connected bound;
+- the strict representative-\(J\) collar, dual source-measure kernel sum, and
+  conditional homogeneous-layer pullback for the auxiliary-\(J\) chain-rule
+  summand (Note 0017), together with the raw-\(U\) collar obstruction and
+  conditional scaled-collar template (Note 0018), the conditional all-layer
+  \(J\)-summand bridge (Note 0019), and the periodic endpoint replacement
+  plus first-stage direct-\(J\) anchors (Note 0028), followed by completed
+  literal-union external-\(J\) support (Note 0029) and the completed affine
+  \(J\) tube and derivative norm under \((\mathrm H_J^{\rm conn})\) (Note
+  0030), the concrete covariant-\(U\) product tube under
+  \((\mathrm H_{\rm rc})\) (Note 0031), and the support-anchored physical
+  \(J\) pullback without \((\mathrm H_\rho)\) or mesh matching (Note 0032),
+  followed by the conditional unweighted physical-\(U\) pullback and exact
+  positive-decay restriction-quotient reduction (Note 0033), and the exact
+  curl reduction plus physical-width quotient extension (Note 0034),
+  followed by the diagonal scale-renorming no-go (Note 0035), the exact
+  joint Ward-quotient and vertical trade, and the transverse same-cell
+  obstruction (Note 0036), followed by the elliptic factorization and
+  source-normalized finite-model coarse-Stokes obstruction (Note 0037),
+  without a proof of its full multiscale \(H_1\) embedding,
+  \((\mathrm H_{\rm rc})\), common converted raw/gradient \(U\)
+  rows, completed weak-dual control on any surviving coarse-curl range,
+  or a range-restricted tube/justified source replacement, the
+  active-label metric halo, common \(J\)-kernel constants, or a stronger
+  plaquette-rooted endpoint substitute;
+- the exact fixed-gas distinguished-vertex Ursell identity, repeated-label
+  convention, shifted-branch separation rule, and conditional pinned
+  Kotecky--Preiss implication (Note 0020);
+- the exact fixed-partition decorated post-conditioning mark, unique
+  marked-component factorization, and finite hard-core numerator (Note 0021),
+  together with the exact whole-integrand marked Cauchy reduction under
+  explicit common-domain and joint-majorant hypotheses and the corrected
+  conditional exponent fork (Note 0022);
+- the literal-union hull, volume-uniform geometric animal bound, and explicit
+  sufficient pinned Kotecky--Preiss/hull-weight conditions for the separately
+  declared standard closed-cube gas (Note 0023), together with the final
+  ordinary source-class/species identification, one-sided source-metric
+  crosswalk, and explicit sufficient displayed-hierarchy ordinary KP window
+  (Note 0024), and the
+  source-faithful fixed-term marked contour domination with zero moment cost
+  (Note 0025), followed by the positive marked-seed/scale resummation,
+  decorated marked norm, and fixed-gas connected first derivative at \(t=0\)
+  (Note 0026), and the nested shifted first-jet synchronization with no orbit
+  factor (Note 0027), but without nonzero-source polymer activities or the
+  unconditional physical \(U/J\) pullbacks;
+- background-propagator decay and change-of-domain estimates;
+- RG I/II source-free local analytic polymer expansions.
+
+None of those inputs supplies the displayed source-inserted polymer theorem.
+
+## First derivation route
+
+1. [x] Insert \(z\mathcal O_f\) through the source-independent RG-I coordinate
+   changes and work with Note 0010's full fixed-cube law.
+2. [x] Keep every \(B\)-dependent factor, differentiate at \(z=0\), isolate
+   \(\mathcal O_f(U_1(V))\), and derive the exact one-mark Mayer identity; see
+   Note 0011.
+3. [x] Prove a rooted decomposition of the background-centered mark on RG II
+   Eq. (1.34) with a conditional cube-count norm uniform over plaquettes
+   interior to one fixed partition; see Note 0012.
+4. [x] Upgrade the standard \(M\)-cube branch to the conditional rooted
+   \(d_k\)-weighted norm on the standard branch
+   with strict entropy slack; see Note 0013.
+5. [x] Cover every plaquette by the RG-admitted shifted family and record
+   transport under the subgroup preserving the next coarse lattice; see Note
+   0014. Full unit-translation covariance remains open; Note 0027 later
+   supplies first-jet compatibility by keeping every complete gas separate.
+6. [x] Compose the shifted family with one common holomorphic physical
+   \((U,J)\) pair, prove centering and the exact chain
+   rules, and preserve the zeroth-order norm; see Note 0015.
+7. [x] Transcribe RG I's exact physical auxiliary field and differential, and
+   use full complex Cauchy tubes to prove conditional rooted \(D_U\)- and
+   \(D_J\)-operator norms at fixed regulator; see Note 0016.
+8. [x] Prove the strict direct-\(J\) collar, dual Eq. (190) source
+   convolution, and the auxiliary-\(J\) pullback on a matched homogeneous
+   layer; see Note 0017. The note also disproves a uniform reverse
+   cross-layer bound. Note 0019 proves the forward all-layer implication
+   conditionally under its named geometry and uniformity premises.
+9. [x] Remove Note 0019's discrete-tree-lift premise and its \(\tau\)
+   loss by a periodic covering-space endpoint argument, and prove zero
+   support halos for the first-stage direct-\(J\) activities; see Note 0028.
+   Ownership/interface, bounded mesh, proof of
+   \((\mathrm H_J^{\rm conn})\), and common-chart constants remain open;
+   Note 0030 subsequently closes the completed affine-\(J\) tube under that
+   hypothesis.
+10. [x] Carry exactly one rooted mark through RG II Eqs. (2.2)–(2.13) on
+   one fixed compatible partition, using Lemma 3 for the unmarked
+   decorations, and prove the connected first-jet sum converges.
+   Note 0020 settles the fixed-gas distinguished-slot algebra, including
+   \(1/n!\), repeated labels, and the conditional pinned bound. Note 0021
+    settles the finite fixed-partition cutoff, conditioning, weakening,
+    post-polymerization image, component factorization, and hard-core numerator
+    algebra. Under its explicit common \(L^1\)-holomorphy and joint-majorant
+    hypotheses, Note 0022 removes an artificial product-rule multiplicity and
+    reduces direct weakening to one positive kernel. Note 0023 closes the
+    literal-union hull, animal entropy,
+    and sufficient pinned-KP crosswalk in its declared standard closed-cube
+    model. Note 0024 identifies the final connected ordinary source gas with
+    that support model through a one-sided metric extension and gives an
+    explicit sufficient ordinary smallness window.
+    Note 0025 proves the source-faithful fixed-term marked contour bound with
+    zero moment loss. Note 0026 proves the marked-seed/scale resummation,
+    final norm, and connected derivative at \(t=0\) under its doubled
+    hierarchy plus the separate ordinary KP ceiling.
+11. [x] Synchronize the complete fixed-partition construction over every
+    admitted nested shift at first-jet level without cross-shift gas
+    interactions, under \(LM\mid N\) and the nonempty common-domain
+    hypothesis; see Note 0027.
+12. [x] Prove that the completed normalized coefficient depends only on
+    external bond coordinates intersecting the interior of its literal
+    output union and, on the admitted integer-wall closed cubulations, has
+    zero external-\(J\) support halos; see Note 0029.
+13. [x] Under \((\mathrm H_J^{\rm conn})\), construct the completed
+    affine-\(J\) common tube, rerun the connected bound in coefficientwise
+    local \(H^\infty\) norms, and prove the full dual derivative norm without
+    a bond-volume loss; see Note 0030.
+14. [x] Under \((\mathrm H_{\rm rc})\), construct a concrete covariant-curl
+    relative-log \(U\) collar, combine it with the independent-\(J\) margin,
+    rerun the completed connected norm on the product tube, and prove both
+    full dual derivative norms; see Note 0031.
+15. [x] Compose the completed \(J\)-derivative norm with the Eq. (190)
+    auxiliary-\(J\) kernel in a support-anchored hybrid norm, without
+    \((\mathrm H_\rho)\), mesh matching, or loss from the polymer exponent
+    \(\kappa\); retain \(\gamma<\delta _0/8\) and isolate
+    \((\mathrm H_{\rm end})\) or a coefficient-weighted substitute for the
+    stronger plaquette-rooted target; see Note 0032.
+16. [x] Under common converted feature Eq. (190) rows, prove the
+    unweighted physical-\(U\) source sum without a coordinate or volume
+    factor; use exact restriction-quotient duality to identify the sharp
+    positive-decay synthesis moment; and derive its feature-support-anchored
+    sufficient bound under \((\mathrm H_{\rm ext}^U)\); see Note 0033.
+17. [x] Prove the exact curvature-corrected transported-curl identity,
+    uniformly reduce Note 0031's four-entry norm to its raw-RG and
+    covariant-gradient-RG pair under \((\mathrm H_{\rm rc})\), prove the
+    quotient extension on a collar of fixed physical thickness, and prove by
+    a flat abelian longitudinal path that a fixed lattice-layer width cannot
+    be regulator uniform; see Note 0034.
+18. [x] Prove the exact weighted quotient cutoff and sharp
+    \(\Theta/\rho\) dependence for the natural \(s_j,s_j^2\) row-balanced
+    norm, then prove by isolated Cartan-bond, curl-free longitudinal, and
+    one-dimensional Cauchy models that this diagonal renorming cannot
+    preserve a regulator-uniform analytic tube; see Note 0035.
+19. [x] Combine the physical \(U\) and induced \(J\) columns before
+    absolute summation; prove exact complex joint phase/quotient duality,
+    record the differentiated common-kernel range constraints and vertical
+    scale trade, and isolate the gauge-invariant same-cell transverse
+    obstruction; see Note 0036.
+20. [x] Derive the exact differentiated elliptic factorization, identify
+    \(D_B\mathcal H(0)=H_1\), and construct a source-normalized homogeneous
+    Cartan finite model in which an exact projected-Landau representative
+    plus discrete Stokes prevents a localized coarse-bond column from
+    gaining two powers in the strong raw/gradient/curl norm; see Note 0037.
+21. [ ] Complete the physical \(U/J\) first-jet pullbacks by proving
+    \((\mathrm H_{\rm rc})\) for the actual minimizing family, pairing
+    Eq. (190)'s \(K,\nabla K\) columns with the reduced raw/gradient norm,
+    proving or disproving the finite model's full multiscale \(H_1\)
+    embedding/Hessian survival, then proving completed weak-dual control on
+    any surviving coarse-curl range, a range-restricted tube, or a justified
+    curl-free/smoothed/weighted source restriction, proving the active-label
+    metric halo if that stronger target is selected, and proving any endpoint
+    statement required by the selected rooted norm.
+22. [ ] Separately construct source-dependent polymer activities and uniform
+    KP convergence on a nonzero-source disk. The selected-coordinate scalar
+    disk itself is already supplied by Notes 0007 and 0010.
+23. [ ] Perform the full symmetry/Ward-identity projection on the marked first
+    jet and classify all position/orientation mixing.
+
+## Falsification tests
+
+- A proof silently replaces \(\nu^{\rm RG}\) by the unmatched intrinsic coarea
+  or unrestricted raw-fiber law.
+- A later argument silently crosses unrelated background charts without an
+  overlap theorem.
+- A fixed cutoff still creates a boundary/source derivative term omitted by
+  the derivation.
+- The marked activity has an unsummable tail or a constant grows with volume.
+- A profile-orientation mixing term survives outside the proposed projection.
+- Gauge fixing creates a noncovariant marked activity.
+- A proof uses Proposition 9 outside its local analytic patch.
+- A source-free bound is differentiated without a common analytic source
+  domain.
+
+Failure of this bounded theorem would force Program 002 to change map, source
+class, projection, or route. Success would still be only an auxiliary E2
+small-field result and would not establish a continuum theory or mass gap.

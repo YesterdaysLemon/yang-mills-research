@@ -12,3 +12,6 @@ Thumbs.db
 *.log
 *.out
 *.pdf
+*.synctex.gz
+!paper/*.pdf
+/tmp/

@@ -18,7 +18,7 @@
       "targets": ["YM-TARGET-001"],
       "summary": "No positive physical-unit decay rate has been proved uniformly through ultraviolet and infinite-volume limits.",
       "resolution_requirements": [
-        "Prove the regulator-uniform estimate, justify passage to the continuum theory, and satisfy the density and reconstruction hypotheses."
+        "Prove the regulator-uniform estimate, justify passage to the continuum theory, and satisfy the totality and corrected reconstruction hypotheses."
       ]
     },
     {
@@ -29,6 +29,576 @@
       "summary": "The auxiliary spectral lemma has not received independent human review.",
       "resolution_requirements": [
         "Record a line-by-line review tied to an immutable commit."
+      ]
+    },
+    {
+      "id": "OBJ-004",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-SPEC-002"],
+      "summary": "The conditional OS gap-transfer lemma has not received independent human review.",
+      "resolution_requirements": [
+        "Check the spectral-support argument, the totality step, and every regulator-limit quantifier against an immutable commit."
+      ]
+    },
+    {
+      "id": "OBJ-005",
+      "severity": "S2",
+      "status": "open",
+      "targets": ["YM-RG-001"],
+      "summary": "Patch-local intrinsic and exact RG-coordinate laws, real covariance, a source disk, and first-mark Mayer algebra now exist, but the unrestricted raw transform, rooted quasilocal source estimates, complete marginal projections, and large-field source extension remain uncontrolled.",
+      "resolution_requirements": [
+        "Either compare the intrinsic, RG-coordinate, and unrestricted raw laws quantitatively or keep their theorems separately labeled, and transcribe the exact marked domain norms.",
+        "Derive the first two source jets with explicit identity/action projections and volume-uniform bounds.",
+        "Extend or refute the construction on the separately defined large-field domain."
+      ]
+    },
+    {
+      "id": "OBJ-006",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-002"],
+      "summary": "The raw-block source-jet lemma has not received independent human review, and its coupling-independent kernel hypothesis is not yet matched to the selected Bałaban implementation.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Audit whether the selected raw block kernel, small-field indicator, and normalization depend on inverse coupling."
+      ]
+    },
+    {
+      "id": "OBJ-007",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-003"],
+      "summary": "The fixed-background source-jet corollary has not received independent human review; Eq. (190)'s component factors are transcribed and YM-RG-017 proves a dual source sum plus a homogeneous-layer J-summand pullback, but no full U-and-J activity quasilocal bound has been proved.",
+      "resolution_requirements": [
+        "Audit the representative-independence and holomorphic-extension arguments against Proposition 9 and recheck the five imported Eq. (190) lines against the scan.",
+        "Audit YM-RG-016's exact auxiliary-J differential, YM-RG-017's direct-J collar and source convolution, YM-RG-019's conditional all-layer exponent budget, YM-RG-028's endpoint replacement, YM-RG-029's completed support anchor, and YM-RG-030's H_J^conn-conditional completed tube; then prove H_J^conn, discharge H_rho, bounded mesh, and common constants, and prove the nonlinear U pullback before promoting a full physical chain-rule decay bound."
+      ]
+    },
+    {
+      "id": "OBJ-008",
+      "severity": "S2",
+      "status": "open",
+      "targets": ["YM-RG-004"],
+      "summary": "No rooted marked cluster expansion controls the fluctuation difference between the exact RG-coordinate first jet and its minimizing-background term.",
+      "resolution_requirements": [
+        "Use the exact YM-RG-010 selected-coordinate law and carry a marked plaquette insertion through the fluctuation and connected-cluster steps without identifying it with the intrinsic or unrestricted raw law.",
+        "Classify every projected mixing term and prove volume-, cutoff-, and location-uniform quasilocal bounds."
+      ]
+    },
+    {
+      "id": "OBJ-009",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-005"],
+      "summary": "The pointwise coarea-kernel corollary has not received independent human review; Notes 0006 and 0008 match its local density to the selected chart branch, but not to the unrestricted raw fiber.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Either verify proper support, covariance, and positive normal Jacobian for the unrestricted Eq. (0.12) fiber or keep all applications explicitly branch restricted."
+      ]
+    },
+    {
+      "id": "OBJ-010",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-006"],
+      "summary": "The local Bałaban fiber chart has not received independent human review; Note 0008 separately controls the complete selected cutoff branch, but the exact local radii and unrestricted-fiber relation remain open.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Transcribe the exact local radius, norm, Haar-density, and determinant dependencies and verify that the chosen local ball closes inside every chart and away from every rank boundary."
+      ]
+    },
+    {
+      "id": "OBJ-011",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-007"],
+      "summary": "The projective-kernel and bounded-source-disk lemma has not received independent human review; YM-RG-008 supplies a selected chart-branch application, but the unrestricted transform and coarse-field/connected source-marked locality remain open.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Verify the SU(2) profile range and support-size constants in the finally selected one-block norm.",
+        "For every use, identify the exact named source-independent kernel and keep selected-branch and unrestricted-transform statements separate."
+      ]
+    },
+    {
+      "id": "OBJ-012",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-008"],
+      "summary": "The complete fixed-cutoff chart-branch measure has not received independent human review or been matched quantitatively to the unrestricted raw transform; YM-RG-009 supplies only patch-local transported-chart covariance and test-integral regularity.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Construct compatible overlap data if the patch-local YM-RG-009 kernel is used across independently chosen background charts.",
+        "Either prove the off-branch complement is fiber-null or keep every theorem explicitly restricted to the selected near-identity branch.",
+        "Reconcile the intrinsic coarea normalization with RG I Eq. (2.12) and the coupling-independent raw convention."
+      ]
+    },
+    {
+      "id": "OBJ-013",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-009"],
+      "summary": "The parameterized fixed-cube branch kernel has no independent human review, global chart-overlap theorem, or regulator-uniform complex background radius.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Check the parameterized analytic construction of h, C, and D against the primary proofs on the complete closed cube.",
+        "Build and verify compatible transition rules on every overlapping background patch needed by a later RG iteration.",
+        "Keep holomorphic test-integral continuation distinct from a positive complex measure and from arbitrary Borel-set regularity.",
+        "Audit YM-RG-010's exact RG-I/II coordinate law term by term before using it in the marked expansion."
+      ]
+    },
+    {
+      "id": "OBJ-014",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-010"],
+      "summary": "The exact normalized RG-I coordinate law has no independent human review, termwise machine-checkable Eq. (2.12) transcription, or density match to the intrinsic and unrestricted laws.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Transcribe every Eq. (2.12) exponent, determinant, covariance, cutoff, scaling, and source-independent scalar convention into explicit notation.",
+        "Verify positivity, analytic dependence, and Eq. (2.16) covariance directly against that complete transcription.",
+        "Either prove a full density identity with the intrinsic coarea law or keep the two normalized expectations separately labeled.",
+        "Do not infer a coupling derivative, marked-polymer estimate, large-field result, continuum limit, or mass gap from this finite-coordinate law."
+      ]
+    },
+    {
+      "id": "OBJ-015",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-011"],
+      "summary": "The one-mark source split and Mayer identity have no independent human review. YM-RG-026 closes the fixed-partition marked norm and YM-RG-027 synchronizes the completed shifted first jets, while the physical quasilocal pullback and nonzero-t polymer expansion remain open.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Transcribe the full YM-RG-010 exponent into the exact RG-II Lemma-2 activity family used by the Mayer identity.",
+        "Audit YM-RG-012 through YM-RG-016 and YM-RG-027's separate-branch shifted synchronization, including every later decay expenditure.",
+        "Use YM-RG-020's fixed-gas algebra and independently audit YM-RG-021's exact unique-mark passage, YM-RG-025's fixed-term domination, YM-RG-026's resummation and norm, and YM-RG-027's projective branch reconstruction.",
+        "Keep the finite algebraic identity separate from intrinsic/raw density matching, large fields, RG iteration, continuum limits, and the mass gap."
+      ]
+    },
+    {
+      "id": "OBJ-016",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-012"],
+      "summary": "The rooted plaquette cube-count lemma has no independent human review; YM-RG-026 carries it through the actual fixed-partition marked norm and first-jet sum. Unit translations, discharge of the physical geometry, the U pullback, and the physical connected expectation remain open.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Verify the RG-I exponential link reconstruction, RG-II weakening contour, Eq. (1.21) norm conversion, and complex plaquette Lipschitz constant against the primary equations.",
+        "Audit YM-RG-013's standard-branch degree, d_k geometry, and explicit entropy margin against the complete printed RG parameter hierarchy.",
+        "Audit YM-RG-014's admitted shift count, stabilizer-symmetrized weakening, and coarse-lattice-preserving transport, then either prove unit-translation covariance or retain its absence.",
+        "Audit YM-RG-017's J-summand pullback, YM-RG-019's conditional all-layer extension, YM-RG-028's endpoint replacement, YM-RG-029's completed support anchor, and YM-RG-030's H_J^conn-conditional completed tube; then prove H_J^conn, discharge H_rho, bounded mesh, and common-chart premises, and prove the missing U collar and pullback.",
+        "Retain YM-RG-020's numerator-denominator algebra and independently audit YM-RG-021's sharp-cutoff passage plus YM-RG-026's post-polymerization norm and convergent sum.",
+        "Keep the result separate from intrinsic/raw density matching, large fields, RG iteration, continuum limits, and the mass gap."
+      ]
+    },
+    {
+      "id": "OBJ-017",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-013"],
+      "summary": "The rooted d_k norm has no independent human review; YM-RG-014 through YM-RG-017 propagate, compose, differentiate, and pay the homogeneous-layer J-summand decay budget, while YM-RG-019 proves the forward all-layer budget only under unverified geometry and uniformity premises. YM-RG-026 proves the later cluster-decay expenditure on one compatible fixed gas, but no synchronized physical derivative norm is proved.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Verify RG I's shortest-tree definition, the source-convention-safe comparison d_k(Y)<=m(Y)+1 including the singleton exp(a) prefactor, and the four-dimensional degree bound D_0<=8.",
+        "Visually transcribe the dropped leading prefactor, signs, and parameter range in RG II Eq. (1.32), and reconcile delta kappa>log 64 with every subsequent RG-II entropy expenditure.",
+        "Audit the translated standard geometry and actual n_p normalization for every admitted shift used by YM-RG-014; introduce c_geo for any nonstandard weakening partition.",
+        "Audit YM-RG-017's matched-layer identity, YM-RG-019's all-layer exponent spend, YM-RG-028's endpoint replacement, YM-RG-029's completed support anchor, and YM-RG-030's H_J^conn-conditional completed tube; prove H_J^conn, discharge H_rho, bounded mesh, and common constants, construct the U pullback, and independently audit YM-RG-021, YM-RG-025, and YM-RG-026's completed fixed-partition marked map, resummation, norm, hull application, and connected estimate.",
+        "Keep the result separate from intrinsic/raw density matching, large fields, RG iteration, continuum limits, and the mass gap."
+      ]
+    },
+    {
+      "id": "OBJ-018",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-014"],
+      "summary": "The RG-admitted shifted-root cover has no independent human review; YM-RG-015 through YM-RG-017 supply fixed-chart physical specialization, derivatives, and a matched-layer J pullback, YM-RG-019 supplies a conditional bondwise all-layer bridge, YM-RG-028 removes its discrete tree lift, YM-RG-029 closes completed support halos, and YM-RG-030 closes the completed affine-J tube under H_J^conn. YM-RG-026 closes one gas and YM-RG-027 synchronizes the complete shifted first jets, but proof of H_J^conn, unit translations, H_rho, mesh matching, common constants, a nonzero-t polymer expansion, and a full physical quasilocal norm remain open.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Verify the M=L^m shift geometry, n_p count, and normalized no-orbit-entropy bound on the exact finite torus conventions.",
+        "Check the Reynolds average of generalized-random-walk terms, representative independence, fixed-point uniqueness step, and pullback/pushforward convention against RG I Eqs. (2.17)-(2.18) and RG II Eqs. (1.3)-(1.4).",
+        "Either construct covariance under unit translations moving the next coarse lattice or keep that symmetry outside the claim.",
+        "Independently audit YM-RG-027's discharge of H_sync: the nested lift count, complete unmarked and marked reconstruction on every separate branch, and normalization only after the connected map.",
+        "Retain YM-RG-017's direct-J result, YM-RG-019's conditional all-layer J bridge, YM-RG-028's endpoint replacement, YM-RG-029's completed support anchor, and YM-RG-030's H_J^conn-conditional completed tube; then prove H_J^conn, discharge H_rho, bounded mesh, and common constants, and prove the nonlinear U collar/pullback before claiming a full physical derivative norm; keep all intrinsic/raw, large-field, continuum, and mass-gap claims separate."
+      ]
+    },
+    {
+      "id": "OBJ-019",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-015"],
+      "summary": "The fixed-patch physical composition lemma has no independent human review. YM-RG-016 discharges the former assumed auxiliary-J map, and YM-RG-017 supplies a strict direct-J collar plus a matched-layer J pullback, but the common U domain and full uniform physical quasilocal derivative remain open.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Audit RG I Eqs. (1.8), (1.10), (1.15)-(1.16), and (3.10)-(3.11) against YM-RG-016's exact auxiliary-J formula, covariance, differential, and qualitative fixed-chart decay statement.",
+        "Quantify Proposition 9 Eq. (190)'s component indices, chart and differential-of-exponential factors, local auxiliary-J remainder, scale metrics, and norms in YM-RG-015's physical chain rule.",
+        "Audit YM-RG-017's direct-J Banach ball and decay spend. In light of YM-RG-035's diagonal-renorming no-go, obtain the nonlinear U margin through direct smoothing/cancellation, a two-norm theorem, a justified weighted target, or a proved exclusion of the offending finest rows.",
+        "Retain the proved dual source convolution, YM-RG-019's conditional forward comparison, YM-RG-028's removal of H_T, YM-RG-029's completed support anchor, and YM-RG-030's H_J^conn-conditional completed tube; then prove H_J^conn and derive H_rho, bounded mesh, and common chart premises from the admitted family or replace the fixed metric with a compatible multiscale network norm.",
+        "Use YM-RG-020's branchwise separation rule, YM-RG-026's fixed-gas norm, and YM-RG-027's shifted synchronization, then complete the U/J pullback before claiming a physical marked expectation bound.",
+        "Keep intrinsic/raw matching, large fields, RG iteration, continuum construction, infrared decay, and the mass gap outside this claim."
+      ]
+    },
+    {
+      "id": "OBJ-020",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-016"],
+      "summary": "The exact auxiliary-J and Cauchy-tube lemma has no independent human review. YM-RG-017 supplies a strict representative-J collar and homogeneous-layer J pullback, YM-RG-018 rules out naive raw U collars, and YM-RG-019 supplies a conditional all-layer J bridge; no scaled U collar, unconditional source-instantiated bridge, or full physical coarse-field derivative norm is proved.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Verify the RG-I auxiliary-J transcription, including the holomorphic im convention, gauge covariance, the D_U^{xi*}D_U^xi leading differential, and the full local derivative of F(U,A) at A=0.",
+        "Audit YM-RG-017's strict direct-J representative margin, YM-RG-018's raw-U obstruction, and YM-RG-035's diagonal-renorming no-go; then construct a uniform nonlinear U tube or a stronger two-norm replacement for every composed activity.",
+        "Quantify every chart and differential-of-exponential coefficient and prove a uniform exponential bound for the physical auxiliary-J derivative.",
+        "Retain YM-RG-017's dual source convolution and audit YM-RG-019's all-layer exponent budget, YM-RG-028's endpoint replacement, YM-RG-029's completed support anchor, and YM-RG-030's H_J^conn-conditional completed tube; then prove H_J^conn and discharge H_rho, bounded mesh, and common-chart premises; do not treat the unbounded reverse ratio as a forward obstruction.",
+        "Use YM-RG-026's completed fixed-partition connected bound and audit YM-RG-027's shifted synchronization, then complete the physical pullback before inferring any observable RG theorem.",
+        "Keep intrinsic/raw matching, large fields, RG iteration, continuum construction, infrared decay, and the mass gap outside this claim."
+      ]
+    },
+    {
+      "id": "OBJ-021",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-017"],
+      "summary": "The strict-J and dual metric-pullback lemma has no independent human review; its final physical estimate is restricted to the auxiliary-J chain-rule summand on one matched homogeneous layer with fixed-chart conversion constants.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Verify RG I Eqs. (1.11)-(1.16) and the p. 263 smaller-domain argument, including one frozen small-field hierarchy and the representative used by every shifted activity chart.",
+        "Verify the Eq. (190) source-density normalization, each scale factor used in E_J, the alternative rather than cumulative role of the two Laplacian rows, and every local chart conversion.",
+        "Audit the dual l-infinity/l-one identity and Propagators-II Lemma 2.1 at alpha_gamma, including the separation hypothesis and exact source-measure cancellation.",
+        "Verify the matched-layer identity tau_B=M d_k and endpoint allowance; treat the cross-layer L-power ratio only as failure of the reverse bound, and audit YM-RG-019's conditional forward extension, YM-RG-028's endpoint replacement, and YM-RG-029's repository completed support theorem without treating H_rho or a common tube as source theorems.",
+        "Use YM-RG-018's scaled replacement hypotheses to construct the U collar and U-chain pullback, then compose YM-RG-027's already synchronized independent-variable first jet.",
+        "Keep intrinsic/raw matching, large fields, RG iteration, continuum construction, infrared decay, and the mass gap outside this claim."
+      ]
+    },
+    {
+      "id": "OBJ-022",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-018"],
+      "summary": "The raw-U collar obstruction has no independent human review; it closes only the naive full independent-link bond-sup norms and leaves the needed RG-scaled chart theorem conditional.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Verify RG I Eq. (1.14) and RG II Eq. (1.34), including the full-U first parameter, complex orbit quantifier, and fixed-M dependence of the hierarchy.",
+        "Audit the four-link semisimple complex direction, open-ball endpoint, spectral-radius lower bound under every SL(2,C) similarity, and retained matrix-norm comparison constant.",
+        "Verify the raw-to-xi-scaled coordinate conversion and reject any claim of a positive uniform bond-sup radius.",
+        "Construct a coherent RG-scaled Banach norm, shared split representative atlas, strict Eq. (1.13)-(1.14) margins including a fixed direct-J margin below the un-enlarged alpha_0, and uniform Lipschitz constants before using the conditional collar.",
+        "Compose the resulting U derivative with the minimizing-background kernel and keep connected expansion, large fields, RG iteration, continuum construction, infrared decay, and the mass gap outside this claim."
+      ]
+    },
+    {
+      "id": "OBJ-023",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-019"],
+      "summary": "The all-layer forward cell-map and auxiliary-J pullback lemma has no independent human review. YM-RG-028 removes its exact discrete-tree-lift premise, YM-RG-029 supplies zero-halo anchors for completed connected coefficients, and YM-RG-030 supplies their affine-J tube under H_J^conn, but proof of H_J^conn, source-admissible interface geometry, mesh matching, and common regulator-family chart constants remain conditional.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Derive the periodic coordinatewise ownership map, no-skipped-interface property, same-layer bond admissibility, and on-surface mesh-switch route from the exact Propagators-II domains and Eq. (2.46) bond convention.",
+        "Independently audit YM-RG-028's covering-space endpoint replacement, sqrt(d) slope, additive allowance, and removal of H_T and tau.",
+        "Independently audit YM-RG-029's completed literal-union external-coordinate support theorem and zero-halo anchors, then audit YM-RG-030's H_J^conn-to-output-domain and local H-infinity tube argument.",
+        "Prove b_*, C_chi, c_1(alpha_gamma), the E_J envelope, Delta_J^{-1}, and the prior activity constant common over the admitted regulator and background-chart family.",
+        "Keep the reverse metric comparison, nonlinear U collar and pullback, physical connected expansion, nonzero-t polymer activities, large fields, RG iteration, continuum construction, infrared decay, and mass gap outside this claim."
+      ]
+    },
+    {
+      "id": "OBJ-024",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-020"],
+      "summary": "The fixed-gas one-mark Ursell identity and conditional pinned Kotecky-Preiss implication have no independent human review. YM-RG-026 supplies the fixed-partition marked norm, and YM-RG-027 synchronizes the completed shifted first jets. The selected-coordinate scalar disk already exists; a nonzero-t polymer-activity disk and physical pullbacks remain open.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit, and verify the distinguished-slot 1/n! coefficient, repeated-label convention, and pinned Kotecky-Preiss normalization against a primary cluster-expansion reference.",
+        "Audit YM-RG-021's exact passage of the unique e^{-t Delta_p} mark through RG II Eqs. (2.1)-(2.10), YM-RG-025's fixed-term cutoff domination, and YM-RG-026's positive marked-seed and scale-susceptibility estimates.",
+        "Independently audit YM-RG-027's complete unmarked and marked reconstruction on every nested shift, projective scalar cancellation, uniform convergence, post-connected normalization, and absence of cross-shift gas interactions.",
+        "Construct source-dependent polymer activities and uniform KP convergence on a nonzero-t disk if a finite polymer neighborhood, rather than only the first derivative at t=0, is required; do not confuse it with the existing selected-coordinate scalar disk.",
+        "Independently verify YM-RG-026's decorated marked species count, marked norm, exponent budget, and fixed-gas differentiated convergence.",
+        "Independently audit YM-RG-024's immutable-page mapping, C3 transcription, and displayed-hierarchy KP refinement, including the unenumerated imported-restriction caveat.",
+        "Keep the physical U/J pullbacks, discharge of YM-RG-019's premises, large fields, RG iteration, continuum construction, Osterwalder-Schrader axioms, infrared decay, and the mass gap outside this claim."
+      ]
+    },
+    {
+      "id": "OBJ-025",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-021"],
+      "summary": "The fixed-partition distinguished Section-2 map and marked-component factorization have no independent human review. YM-RG-025 closes the fixed-term marked conditioning/weakening bound, and YM-RG-026 discharges the displayed summed decay and rooted-norm hypotheses under a doubled-amplitude refinement; its connected conclusion additionally imports the ordinary KP ceiling. The source remains unmarked and the combined corollary still needs independent review.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit and verify the sign, D-empty term, absence of a Mayer-subset factorial, and unique-root component product.",
+        "Transcribe RG II Eqs. (2.1)-(2.10) from clean immutable page images and check the P signs, Z_0 and Z_0-prime assignments, conditioned covariance, determinant convention, weakening derivatives, and component support rule.",
+        "Prove that the fixed source seam leaves the global cutoff, covariance, quadratic operator, background, and chart independent of t while every A-dependent derived split and restricted operator is rerun with the marked seed.",
+        "Independently verify YM-RG-025's correction that the mark remains on the conditional interior B, Dep_B W_{k,p}(A) lies in the cutoff-controlled independent-bond set I_k(A), and the fixed-term bound has unchanged second-stage radius and zero Gaussian-moment loss.",
+        "Independently verify YM-RG-026's marked positive-kernel decay, colour-erasure susceptibility, L/2 scale conversion, and corrected exponent ledger uniformly over the stated fixed-partition scope.",
+        "Use YM-RG-024's final ordinary support/hull/KP mapping and YM-RG-026's fixed-gas norm, independently audit YM-RG-027's shifted synchronization, and separately construct any needed nonzero-t polymer-activity disk.",
+        "Keep the physical U/J pullbacks, marginal projection, large fields, RG iteration, continuum construction, axioms, infrared decay, and mass gap outside this claim."
+      ]
+    },
+    {
+      "id": "OBJ-026",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-022"],
+      "summary": "The whole-integrand Cauchy lemma exactly removes an artificial Leibniz multiplicity. YM-RG-025 corrects the earlier transformed-mark map and proves the actual fixed-term plaquette specialization; YM-RG-026 closes that specialization's summed A-to-output resummation on one fixed partition. A genuinely weakening-dependent mark still requires this claim's general joint-majorant hypotheses.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit and verify the mixed FTC, multivariable contour, radius factor, Fubini assumptions, and absence of factorial or derivative-allocation coefficients.",
+        "Independently audit YM-RG-025's immutable-page transcription of RG II Eqs. (2.5)-(2.8) and the complete Eq. (2.14) dependency map, including the interior B, exterior X, cutoff, complex precision, sigma, and tau variables.",
+        "Verify that every fluctuation coordinate used by W_{k,p}(A,B) lies under chi_{k,Y_0^bullet} for the exact independent-bond and boundary conventions.",
+        "For any future genuinely weakening-dependent mark, retain the general common-polydisc and joint-majorant hypotheses rather than reusing YM-RG-025's sigma-independent specialization.",
+        "Independently audit YM-RG-026's positive A-to-C resummation through every seed-dependent sum and scale conversion, including its collision and susceptibility constants.",
+        "Use YM-RG-026's fixed-partition marked norm, independently audit YM-RG-027's shifted synchronization, and then construct the nonzero-t polymer-activity disk and physical pullbacks.",
+        "Keep large fields, RG iteration, continuum construction, axioms, infrared decay, and the Yang-Mills mass gap outside this claim."
+      ]
+    },
+    {
+      "id": "OBJ-027",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-023"],
+      "summary": "The standard-cube literal-union hull, animal count, and conditional pinned-KP interface have no independent human review. YM-RG-024 identifies the final ordinary RG-II gas, and YM-RG-026 supplies the aggregated fixed-partition marked norm and first-jet application. Intermediate support families and the imported-restriction monotonicity caveat remain outside the source mapping.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit and verify the contained-tree connector construction, closed-cell boundary convention, periodic quotient seam, and necessity of the additive contact charge.",
+        "Verify the depth-first covering bound N<=2^D(floor(2d)+1), the rooted-animal injection, grouped geometric series, strict threshold eta>2^(D+2)log(2D), and monotone-metric extension, including the D=4 constants 16, 8, sqrt(7), and 64 log 8.",
+        "Verify the affine pinned-weight split A_0=alpha 2^D and epsilon=alpha 2^(D+1), the (2D+1) contact neighborhood, every exponential prefactor, and the term-by-term use of the pinned cluster theorem from YM-RG-020.",
+        "Independently audit YM-RG-024's immutable-page transcription of the final ordinary polymer class, quotient-periodic convention, d_{k+1} definition, union closure, and aggregation, while keeping the intermediate special domains separate.",
+        "Independently audit YM-RG-024's ordinary pointwise amplitude and KP window together with YM-RG-026's decorated marked norm, animal spend, and connected first-jet application.",
+        "Keep YM-RG-027's separate shifted synchronization, the nonzero-t polymer-activity disk, physical pullbacks, large fields, iteration, continuum construction, axioms, infrared decay, and mass gap outside this claim."
+      ]
+    },
+    {
+      "id": "OBJ-028",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-024"],
+      "summary": "The final-ordinary-gas source identification and explicit displayed-hierarchy KP window have no independent human review. The support/species mapping now keeps the source tree size distinct from the auxiliary degenerate metric and uses a one-sided comparison plus direct source-metric connector; the fixed-output supremum norm and full parameter compatibility still require review.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Recheck the Project Euclid file hashes and primary pages for the quotient cubulation, D_j support class, d_j metric, Eqs. (2.9)-(2.13), C3, Lemma 3, and Eqs. (2.39)-(2.41).",
+        "Verify the one-sided comparison d_aux<=d_j and the direct source-metric sqrt(7) connector; confirm that no step silently restores equality with the auxiliary degenerate metric.",
+        "Audit the fixed-output analytic-domain supremum used to pass from the printed pointwise Eq. (2.38) bound to the ordinary activity norm without inventing one global field domain.",
+        "Reconstruct the complete imported parameter chain and prove every unlisted epsilon1 restriction is preserved under downward shrinking after C3 is fixed; otherwise downgrade the source-compatibility conclusion to the displayed hierarchy only.",
+        "Keep all intermediate localization families and every marked or differentiated conclusion outside YM-RG-024 itself; YM-RG-026 and YM-RG-027 are separate repository corollaries. Physical pullbacks, nonzero-t polymer activities, continuum, and infrared conclusions remain open."
+      ]
+    },
+    {
+      "id": "OBJ-029",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-025"],
+      "summary": "The source-faithful conditioned-mark routing correction and fixed-term cutoff domination have no independent human review. YM-RG-026 subsequently sums the marked seed and proves a final fixed-partition norm, but that does not enlarge YM-RG-025's own fixed-history scope.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Recheck the RG-II PDF hash and immutable pages for Eqs. (2.3), (2.5), (2.6), (2.8), (2.14), and (2.15), including the tilde-Z'_0 index, interior/exterior projections, Gamma_k ordering, and positive complex-precision comparison.",
+        "Verify the exact independent-bond definition of chi_{k,Y_0^bullet} controls every B-coordinate in the first-stage localized W_{k,p}(A), including boundary conventions and the D-empty seed.",
+        "Check that the common external (U,J) domain used for the fixed term is contained in the first-stage marked domain and that no second-stage operator is hidden inside W_{k,p}(A,B).",
+        "Independently audit YM-RG-026's positive marked-seed A-to-output kernel, every D/P/Z_0/Z resummation, and k-to-k+1 scale conversion.",
+        "Keep YM-RG-026's final norm and YM-RG-027's shifted synchronization outside YM-RG-025 itself, and keep the nonzero-t polymer-activity disk, physical pullbacks, large fields, iteration, continuum construction, axioms, infrared decay, and mass gap open."
+      ]
+    },
+    {
+      "id": "OBJ-030",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-026"],
+      "summary": "The one-colour positive resummation, doubled-amplitude scale susceptibility, final marked norm, and fixed-gas connected first-jet bound have no independent human review. They are repository corollaries of an unmarked source and depend on a symbolic O(1) envelope, unenumerated hierarchy monotonicity, a separate ordinary KP ceiling, and the one-sided source-metric crosswalk.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Recheck the immutable RG-II pages for Eqs. (2.26)-(2.38), the absence of a D-family factorial, the endpoint connector charges, the P-factor split, every scale-stage O(1), and the final hole restrictions.",
+        "Verify the exact two-preimage A-in-D collision identity and that it is absorbed once, and only once, before the later colour-erasure susceptibility.",
+        "Verify coefficientwise that erasing the mark maps every allowed post-P/Y_0 scale-stage history into an ordinary history with one eligible component distinguished and does not alter support, grouping, or hole rules.",
+        "Reconstruct the complete imported parameter hierarchy and prove that every ordinary restriction remains valid at 2 epsilon_2 after the other constants are frozen.",
+        "Independently check the animal-entropy spend, one-sided metric extension, decorated one-species accounting, the separate epsilon_1<=epsilon_KP premise, pinned-KP constants, and interpretation as only the first derivative at t=0 on one fixed gas.",
+        "Keep YM-RG-027's separate shifted synchronization, the nonzero-t polymer-activity disk, physical U/J pullbacks, large fields, RG iteration, continuum construction, axioms, infrared decay, and mass gap outside the claim."
+      ]
+    },
+    {
+      "id": "OBJ-031",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-027"],
+      "summary": "The nested shifted first-jet synchronization theorem has no independent human review. It is a repository transport and dual-number corollary of unmarked source formulas, depends on exact reconstruction of one fixed global cutoff/Gaussian integral on every branch, and inherits all uniformity caveats of YM-RG-026.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Verify the shifted unmarked Lemma-2 identity, B-independent and source-parameter-independent scalar convention, covariance of the global cutoff and Gaussian law, and exact Schur-complement interpretation of every branch-conditioned measure; dependence on the external U,J coordinates is allowed.",
+        "Verify that the transported branch domains have a nonempty common holomorphic intersection containing the physical real source-free point, and restrict every fixed-(U,J) projective comparison and shifted sum to it.",
+        "Audit commutation of D and P subsets, signs, smallest Z_0 and Z'_0 assignments, determinants, standardization, weakening derivatives, component factorization, incompatibility, hulls, and metrics with the nested transport.",
+        "Verify LM divides N, the L^4 lift count, the unique inherited output root, nested-pair stabilizer equivariance, and the coarse-lattice group action modulo LM.",
+        "Check projective scalar cancellation and the sign of Z_s-epsilon N_{p,s}; form every connected branch before dividing once by the full lifted count and introduce no cross-shift interactions.",
+        "Independently verify that every YM-RG-026 constant and smallness premise is uniform over the transported branches, including the imported-restriction monotonicity caveat and separate ordinary KP ceiling.",
+        "Keep the existing selected-coordinate scalar zero-free disk distinct from the unproved nonzero-t polymer-activity/KP disk, and keep physical pullbacks, raw matching, large fields, iteration, continuum construction, axioms, infrared decay, and mass gap open."
+      ]
+    },
+    {
+      "id": "OBJ-032",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-028"],
+      "summary": "The endpoint-distance replacement for the discrete tree lift and the first-stage direct-J zero-halo specialization have no independent human review. YM-RG-029 subsequently closes the completed support anchor and YM-RG-030 closes its affine-J tube under H_J^conn, but the all-layer corollary still inherits proof of H_J^conn and YM-RG-019's unproved interface, mesh, and uniform-chart premises.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Verify the periodic covering lift, P/eta and P/(Mb eta) integrality, sqrt(d) Euclidean-to-l1 conversion, epsilon-minimizer limit, closed localization-cube convention, endpoint allowance, and empty-support convention.",
+        "Check the exact first-stage independent-J dependency set, full-bond interior condition, deterministic periodic base-site anchor, and h=h_q=0 conclusion.",
+        "Independently audit YM-RG-029 before extending h=0 to completed Section-2 coefficients, and independently audit YM-RG-030's separate H_J^conn-conditional completed tube.",
+        "For a plaquette-rooted physical-J norm, prove H_end or a coefficient-weighted substitute; YM-RG-032 removes H_rho and mesh matching only for its support-anchored hybrid norm. Common representative, source-kernel, chart-conversion, Cauchy-radius, and activity-uniformity premises remain.",
+        "Keep the nonlinear U pullback, nonzero-t polymer activities, raw matching, large fields, iteration, continuum construction, axioms, infrared decay, and mass gap open."
+      ]
+    },
+    {
+      "id": "OBJ-033",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-029"],
+      "summary": "The completed literal-union external-J support theorem has no independent human review. It proves vanishing outside the final support and zero endpoint halos, but not a common complex tube or derivative magnitude.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Verify RG I p. 251's bond-intersection convention and RG II's p. 14 final-activity locality statement plus p. 15 identification and analyticity of external (U,J) fields against the pinned PDFs.",
+        "Audit coefficientwise marked locality through the enlarged seed, conditioning, exterior standardization, second weakening, output resummation, component factorization, and connected logarithm.",
+        "Verify that every contributing final tuple has literal union R, repeated labels do not alter support, and the Ursell and post-connected normalization factors are field independent.",
+        "Retain the source bond-intersection convention and verify the integer-wall closed-cubulation lemma, deterministic bond anchors, and inherited plaquette-root anchors on every nested shifted branch.",
+        "Independently audit YM-RG-030's H_J^conn-to-output-domain crosswalk and local H-infinity rerun before accepting its completed Cauchy derivative; retain H_J^conn and all remaining physical-pullback hypotheses.",
+        "Keep common kernel/chart constants, any stronger plaquette-rooted endpoint substitute, the nonlinear U pullback, nonzero-t polymer activities, raw matching, large fields, iteration, continuum construction, axioms, infrared decay, and mass gap open. YM-RG-032 separately proves a support-anchored J norm without H_rho or mesh matching."
+      ]
+    },
+    {
+      "id": "OBJ-034",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-030"],
+      "summary": "The completed affine-J tube and coefficientwise H-infinity connected norm have no independent human review. The result is conditional on the simultaneous completed representative hypothesis H_J^conn, which strengthens YM-RG-017's local H_J, and must not be confused with a physical-source disk or an unconditional physical pullback.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Verify RG I pp. 262-263 condition by condition: additive independent J changes only condition (iii), while condition (iv) uses J_n derived from U.",
+        "Verify RG II Eq. (1.34), Lemma 2, printed p. 15, and Lemma 3 against the pinned PDFs, including the two-parameter output-domain shorthand and the unchanged direct-J ceiling alpha_0.",
+        "Check that H_J^conn supplies one raw affine representative compatible on every input, intermediate, output, and shifted domain, and that restriction and shift transport preserve the l-infinity margin.",
+        "Rerun the marked seed, D/P/Z_0, doubled-amplitude scale susceptibility, final marked norm, and pinned Ursell estimate in coefficientwise local H-infinity norms; do not interchange support-dependent suprema with a pointwise sum.",
+        "Verify literal-union restriction of every connected tuple, exact cancellation of the shifted branch count, and equality of support-restricted and global dual norms by coordinate projection and zero-extension.",
+        "Keep H_J^conn itself, common kernel/chart constants, any stronger plaquette-rooted endpoint substitute, the scaled nonlinear U pullback, nonzero-source polymer activities, raw matching, large fields, RG iteration, continuum construction, axioms, infrared decay, and mass gap open. YM-RG-032 separately removes H_rho and mesh matching from its support-anchored J norm."
+      ]
+    },
+    {
+      "id": "OBJ-035",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-031"],
+      "summary": "The real-center covariant-U tube and product H-infinity connected norm have no independent human review. The explicit complex plaquette estimate is proved in the repository, but uniformity is conditional on the common real-center hypothesis H_rc and the result is not yet a physical coarse-background pullback.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Verify the relative-link reverse-orientation convention, transported four-exponential plaquette factorization, covariant-curl normalization, and noncommuting Taylor remainder.",
+        "Recheck RG I printed pp. 262-263: condition (i) keeps the real group-valued factor fixed, condition (ii) admits the complex relative field, condition (iii) controls total curvature and independent J, and the proof of condition (iv) depends only on U.",
+        "Check that the separated third parameter in RG II Eq. (1.34) permits the independent radius Delta_J while the smaller U constants still imply every derived condition-(iv) bound.",
+        "Prove H_rc with common numerical margins for the actual minimizing physical family, every restriction, and every nested shifted branch.",
+        "Rerun the complete marked construction in the product H-infinity algebra and verify both full global dual norms without a hidden restriction, volume, or branch factor.",
+        "Independently audit YM-RG-033's unweighted feature-row pullback and exact positive-decay restriction-quotient reduction together with YM-RG-034's exact curl reduction, physical-width extension, and YM-RG-035's diagonal-renorming no-go. Then prove the remaining converted raw/gradient U rows, a direct smoothing/cancellation or two-norm scale treatment, and the active-label metric halo. YM-RG-032 removes H_rho and mesh matching only from its support-anchored J summand.",
+        "Keep the nonzero-source polymer disk, raw matching, large fields, RG iteration, continuum construction, axioms, infrared decay, and mass gap open."
+      ]
+    },
+    {
+      "id": "OBJ-036",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-032"],
+      "summary": "The support-anchored physical-J kernel pullback has no independent human review. It removes H_rho and mesh matching only by weakening the target from marked-plaquette-rooted decay to decay from the complete active external-J support, and it retains the completed tube, common Eq. (190) constants, separated-cell convolution, and completed output-scale envelope.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Recheck the variational-paper Eq. (190) output/input layer roles, inverse source density, component norms, and every local conversion entering the physical auxiliary-J kernel.",
+        "Recheck Propagators II Lemma 2.1 and Eqs. (2.59)-(2.63), including the strengthened separation condition and the exact gamma<delta_0/8 exponent budget.",
+        "Verify that each active coordinate has a valid tagged Eq. (190) output label, that the pulled-back pseudometric and tagged root are well typed, and that importing YM-RG-028's A,B uses the corresponding rho anchors without silently assuming them for arbitrary label choices.",
+        "Verify the completed-family quantifiers in Ebar_J^conn, the suppressed finite source-component sum, and the fixed norm-equivalence factor absorbed into C_chi; none follows from H_rc.",
+        "Audit the support-set distance inequality, empty-support convention, finite-dimensional l-infinity/l-one identity, and absence of support-cardinality, mesh, endpoint, polymer-exponent-loss, volume, or branch factors.",
+        "Verify the one-coordinate countermodel and retain the distinction between worst-case-sharp geometry-only H_end and an activity-specific logically minimal hypothesis.",
+        "Prove H_end or an analytic substitute before claiming the stronger marked-plaquette-rooted J norm. YM-RG-033 separately gives only a conditional unweighted physical-U pullback and an exact positive-decay quotient reduction; YM-RG-034 proves its curl reduction and physical-width extension; YM-RG-035 rules out diagonal row balancing as the scale repair. Keep the converted raw/gradient rows, direct smoothing/cancellation or a two-norm substitute, active-label metric halo, nonzero-source polymer disk, raw matching, large fields, RG iteration, continuum construction, axioms, infrared decay, and mass gap open."
+      ]
+    },
+    {
+      "id": "OBJ-037",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-033"],
+      "summary": "The quotient-localized physical-U pullback has no independent human review. YM-RG-034 subsequently proves the exact curl reduction and a physical-width quotient extension, but the unweighted and positive-distance corollaries remain conditional on common converted raw/gradient Eq. (190) rows and scale envelopes. Active-bond anchoring still needs a tagged-metric halo for a collar with ceil(rho/xi) lattice layers.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Recheck the variational-paper Eq. (190) K and gradient rows, source-density normalization, output/input layer roles, finite source-component factors, and Propagators-II convolution.",
+        "Use YM-RG-034's exact xi-normalized curl reduction, then prove the remaining converted raw-RG and background-covariant-gradient Eq. (190) rows with tagged labels and common chart/gauge-restoration constants.",
+        "Verify the unweighted l-infinity source synthesis, feature supremum, finite-dimensional phase duality, and absence of coordinate, bond-volume, mesh, or branch factors.",
+        "Audit completed external-U locality, the restriction quotient X_U/N_I, exact equality of the supported global and quotient dual norms, and sharpness of the weighted quotient-synthesis moment.",
+        "Independently audit YM-RG-034's physical-width H_ext^U construction and its bounded-layer obstruction; do not replace it by zero extension or by the statement that restriction is a contraction.",
+        "Anchor positive decay at YM-RG-034's complete physical-width raw/gradient feature collar or prove and pay the active-label tagged-metric halo; prove a separate endpoint or coefficient-weighted substitute before claiming marked-plaquette-rooted decay.",
+        "Do not quotient longitudinal or gauge directions using the joint Ward identity after separately taking absolute values of the U and J summands.",
+        "Use YM-RG-037's finite-model range audit, then prove H_rc and test the full multiscale H_1 domain/Hessian selector or resolve the surviving scale loss by a range-restricted tube, weak-dual theorem, justified physical-source restriction, or structural transverse annihilation.",
+        "Keep nonzero-source polymer activities, raw matching, large fields, RG iteration, continuum and infinite-volume construction, Osterwalder-Schrader reconstruction, infrared decay, and the Yang-Mills mass gap open."
+      ]
+    },
+    {
+      "id": "OBJ-038",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-034"],
+      "summary": "The transported-curl reduction and physical-width quotient extension have no independent human review. The exact algebra removes separate raw-operator/curl source rows and the cutoff closes H_ext at feature-collar level, but the result still assumes H_rc for the physical family and does not prove converted K/gradient-K rows, regulator-compatible scale envelopes, or the active-label metric halo.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Recheck the gauge-fixing paper Eqs. (1.1), (1.36), and (1.47)-(1.50), RG I Eq. (1.13), both pinned PDF hashes, and the identification of the repository gradient convention.",
+        "Verify all four prefix transports and reverse-link signs in the curvature-corrected curl identity, including the xi^{-1} normalization.",
+        "Verify the RG-to-operator and adjoint-transport norm constants, the use of real/unitary H_rc centers, and the uniform C_eq bound.",
+        "Audit the scalar cutoff product rule on inside, boundary-crossing, reverse-orientation, regulator-boundary, and shifted-branch stencils.",
+        "Reproduce the flat abelian longitudinal path quotient exactly and confirm that its plaquette curl vanishes in dimension at least two.",
+        "Prove the reduced converted K/gradient-K hypothesis H_01^U with common chart, gauge-restoration, source-component, and tagged-label constants.",
+        "Use YM-RG-037's finite-model obstruction; test the full multiscale H_1 domain/Hessian selector or resolve the divergent envelope through a range-restricted tube, weak-dual theorem, justified physical-source restriction, or transverse-range annihilation.",
+        "Prove the tagged-metric halo from ceil(rho/xi) gradient layers to active or marked-root labels before claiming those stronger weights.",
+        "Keep H_rc, nonzero-source activities, raw matching, large fields, iteration, continuum and infinite-volume construction, reconstruction, infrared decay, and the Yang-Mills mass gap open."
+      ]
+    },
+    {
+      "id": "OBJ-039",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-035"],
+      "summary": "The scale-balanced weighted cutoff and analytic-tube no-go have no independent human review. The exact algebra shows how s_j and s_j^2 cancel the printed raw/gradient row powers, but the physical conclusion is negative: a full diagonal raw/gradient row-cancelling chart ball has O(xi^2) radius and generic Cauchy restores the xi^{-2} loss. The unweighted-curl variant is handled separately by a flat longitudinal field. A common feature-tag atlas and scale-incidence bound are also unproved.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Recheck Eq. (190)'s output and input scale roles, the eta=xi one-step specialization, and that the source measure cancels only s_{j'}^{-d}.",
+        "Verify both weighted product-rule forms, all boundary cases, reverse orientations, and the constant Theta=sup t_e^2/min(r_-,r_+).",
+        "Reproduce the exact weighted scalar path quotient and confirm the hidden-jump lower bound has local collar norm one.",
+        "Verify the complex Cartan one-bond spectral-radius exclusion and every fixed norm-comparison factor in the O(xi^2) weighted-radius upper bound.",
+        "Verify that the flat longitudinal example has zero plaquette curl while violating RG I's unweighted gradient ceiling at fixed weighted radius.",
+        "Audit the abstract W-to-X inclusion constant, Banach-line Cauchy loss, and sharp one-dimensional saturation.",
+        "Prove or refute a common output-feature tag atlas and uniform scale-incidence bound in the actual completed geometry.",
+        "Use YM-RG-037's finite-model obstruction to test the full multiscale H_1 domain/Hessian selector, a range-restricted tube or weak-dual theorem, a justified physical-source restriction, or transverse-range annihilation.",
+        "Keep H_rc, nonzero-source activities, raw matching, large fields, iteration, continuum and infinite-volume construction, reconstruction, infrared decay, and the Yang-Mills mass gap open."
+      ]
+    },
+    {
+      "id": "OBJ-040",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-036"],
+      "summary": "The joint Ward-quotient theorem, vertical scale transfer, and transverse countermodel have no independent human review. Application to the completed physical coefficient remains conditional on the completed Ward identity, converted physical columns, and source-faithful use of the differentiated kernel range constraints. The countermodel establishes insufficiency of the retained abstract hypotheses only.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Recheck the complex finite-dimensional source-phase identity, product-quotient duality, frozen-annihilator sharpness statement, and one-coordinate lower bound.",
+        "Prove the completed coefficientwise Ward identity with the complexified simultaneous U/J gauge tangent, correct gauge-fixing terms, and coefficient-inactive subspace.",
+        "Visually recheck variational-paper Eqs. (20)-(21) and (181)-(190), including the common-kernel typing, right-inverse normalization, projected Landau-divergence condition, output/input variables, and absence of a printed signed or source-derivative identity.",
+        "Verify Propagators II Eqs. (2.59)-(2.60) at alpha=(lambda-lambda')/delta_0, the retained exponent, one-layer L^q cost, input-scale factor, and same-layer same-cell diagonal.",
+        "Reproduce the SU(2) determinant identity, commuting-Cartan transported curl, exact Wilson-plaquette derivative, uniform tube bound, and normalized quotient-functional lower bound.",
+        "Do not identify the logical transverse countermodel with an actual Balaban coefficient or claim that the actual kernel violates its differentiated range constraints.",
+        "Use YM-RG-037's source-normalized finite-model obstruction to test the full multiscale H_1 embedding and Hessian selector; if the modeled transverse range survives, prove a completed weak-dual annihilation/cancellation theorem, a range-restricted tube, or a justified physical-source restriction.",
+        "Keep H_rc, nonzero-source activities, raw matching, large fields, iteration, continuum and infinite-volume construction, reconstruction, infrared decay, and every Yang-Mills mass-gap gate open."
+      ]
+    },
+    {
+      "id": "OBJ-041",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-037"],
+      "summary": "The elliptic range factorization and source-normalized finite periodic Cartan Stokes obstruction have no independent human review. The finite model proves that right-inverse normalization and projected-Landau orthogonality alone do not force a two-power strong-norm gain, but its embedding into the full multiscale H_1 domain and Hessian-selected range is unproved.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Visually recheck averaging-paper Eqs. (14)-(15) and printed p. 28, gauge-fixing printed p. 80, and variational-paper Eqs. (20)-(21), (129), and (174)-(190) against the pinned PDF hashes.",
+        "Independently verify the distinction among H, H_0, H_1, the nonlinear restoration HD(A'), and the later Landau-to-axial gauge transformation.",
+        "Reproduce the algebra deriving the elliptic factorization and Delta_a H_0 source, including every fixed-background and inverse-domain premise.",
+        "Reproduce the source-normalized L=2, d=4 finite model of Q_0 and Q'_0, the rational coarse-bond representative, the projected-Landau orthogonality proof, and the cochain/Stokes identity.",
+        "Check every measure, eta, block-scale, path-length, orientation, two-form row-mass, raw, gradient, and curl normalization.",
+        "Prove or disprove an embedding of the homogeneous periodic model into the full multiscale H_1 domain, complete Q' nullspace, boundary conditions, and Hessian selector.",
+        "Do not extend the Cartan result to generic noncommuting backgrounds without controlled transport, commutator, boundary, multiscale, and Hessian perturbation estimates.",
+        "Prove the common physical chart and gauge-restoration conversion, completed simultaneous U/J Ward identity, and the action of the completed weak dual on any source-faithfully surviving coarse-curl range.",
+        "If a curl-free, smoothed, weighted, or separated source class is adopted, justify it as the intended physical target rather than as an algebraic escape.",
+        "Keep H_rc, nonzero-source activities, raw matching, large fields, iteration, continuum and infinite-volume construction, reconstruction, infrared decay, and every Yang-Mills mass-gap gate open."
       ]
     }
   ]

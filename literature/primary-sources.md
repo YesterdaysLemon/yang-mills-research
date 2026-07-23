@@ -11,10 +11,19 @@ This is a seed list, not a completed literature review.
 - H. David Politzer, [Reliable perturbative results for strong interactions?](https://doi.org/10.1103/PhysRevLett.30.1346) (1973).
 - Konrad Osterwalder and Erhard Seiler, [Gauge field theories on a lattice](https://doi.org/10.1016/0003-4916(78)90039-8) (1978).
 - Martin Lüscher, [Construction of a self-adjoint, strictly positive transfer matrix for Euclidean lattice gauge theories](https://doi.org/10.1007/BF01614090) (1977).
+- Tadeusz Bałaban, [Averaging operations for lattice gauge theories](https://doi.org/10.1007/BF01211042) (1985).
+- Tadeusz Bałaban, [Spaces of regular gauge field configurations on a lattice and gauge fixing conditions](https://doi.org/10.1007/BF01466594) (1985).
+- Tadeusz Bałaban, [Propagators for lattice gauge theories in a background field](https://doi.org/10.1007/BF01240355) (1985).
+- Tadeusz Bałaban, [The variational problem and background fields in renormalization group method for lattice gauge theories](https://doi.org/10.1007/BF01229381) (1985).
 - Tadeusz Bałaban, [Renormalization group approach to lattice gauge field theories I](https://doi.org/10.1007/BF01215223) (1987).
 - Tadeusz Bałaban, [Renormalization group approach to lattice gauge field theories II](https://doi.org/10.1007/BF01239022) (1988).
+- Roman Kotecký and David Preiss, [Cluster expansion for abstract polymer models](https://doi.org/10.1007/BF01211762) (1986).
+- Roberto Fernandez and Aldo Procacci, [Cluster expansion for abstract polymer models. New bounds from an old approach](https://arxiv.org/abs/math-ph/0605041v2) (version 2, 2006; [published DOI](https://doi.org/10.1007/s00220-007-0279-2)).
 - Tadeusz Bałaban, [Convergent renormalization expansions for lattice gauge theories](https://doi.org/10.1007/BF01217741) (1988).
+- Ralph Howard, [The Kinematic Formula in Riemannian Homogeneous Spaces](https://doi.org/10.1090/memo/0509) (1993), Appendix A for the smooth coarea formula.
+- Herbert Federer, [Geometric Measure Theory](https://doi.org/10.1007/978-3-642-62010-2), Sections 3.2.20–3.2.22 for general coarea machinery.
 - Tadeusz Bałaban, [Large field renormalization I](https://doi.org/10.1007/BF01257412) (1989).
+- Tadeusz Bałaban, [Large field renormalization II](https://doi.org/10.1007/BF01238433) (1989).
 - Jacques Magnen, Vincent Rivasseau, and Roland Sénéor, [Construction of YM4 with an infrared cutoff](https://doi.org/10.1007/BF02097397) (1993).
 - Isadore Singer, [Some remarks on the Gribov ambiguity](https://doi.org/10.1007/BF01609471) (1978).
 

@@ -6,7 +6,7 @@ Chosen scaffold: Wilson lattice → gauge-covariant RG → local observables →
 
 ## Why this route
 
-The Wilson regulator is finite-dimensional, compact, and exactly gauge invariant. Osterwalder–Seiler reflection positivity and Lüscher's transfer-matrix construction provide the right positivity/spectral scaffolding at nonzero lattice spacing. Bałaban's program supplies unusually deep ultraviolet control through gauge-covariant block transformations, localized effective actions, cluster expansions, coupling renormalization, and large-field analysis.
+The Wilson regulator is finite-dimensional, compact, and exactly gauge invariant. Osterwalder–Seiler reflection positivity and Lüscher's transfer-matrix construction provide the right positivity/spectral scaffolding at nonzero lattice spacing. Bałaban's program supplies unusually deep ultraviolet control through gauge-covariant block transformations, localized source-free effective actions, cluster expansions, conditional coupling recursions, and large-field analysis.
 
 Those are ingredients, not the desired continuum theory. The missing core is to control renormalized local gauge-invariant observables through the running-coupling crossover and prove that the flow enters a volume-uniform massive regime while retaining all reconstruction and nontriviality properties.
 
