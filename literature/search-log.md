@@ -456,3 +456,56 @@ The OCR does not cleanly settle every transformed cutoff glyph. If a sharp
 cutoff depends on the weakening variables and lacks a holomorphic extension,
 it must be kept outside the contour and controlled by a separate valid
 real-derivative estimate with its allocation loss exposed.
+
+## 2026-07-22 -- fixed-cubical hull, animal, and pinned-KP audit
+
+[RG II Cluster
+Expansions](https://doi.org/10.1007/BF01239022) Eqs. (2.11)--(2.13) supply
+the convention being modeled: sharing a cube or a complete cube wall is
+incompatible, and a connected tuple is grouped by its literal union. They do
+not print a contained-tree hull theorem, a rooted-animal constant, or the
+numerical Kotecky--Preiss criterion below.
+
+[Note
+0023](../research/notes/0023-fixed-cubical-hull-animals-kp.md) proves those
+statements in a declared standard model of closed cubes on one fixed
+cubulation. For the side-length-normalized piecewise-linear contained-tree metric,
+the literal union of one marked and \(n\) ordinary occurrences obeys
+
+\[
+d(R)\le d(A)+\sum_i d(X_i)+\sqrt{D+3}\,n.
+\]
+
+The proof uses one connector for each edge of an occurrence-graph spanning
+tree; in \(D=4\), the safe shared-cube and full-wall costs are \(2\) and
+\(\sqrt7\). It treats periodic seams in the quotient cubical complex and
+retains repeated occurrences in the cluster sum even though they do not
+enlarge the union.
+
+The same model gives \(N(Y)\le2^D+2^{D+1}d(Y)\). Combining this with a
+depth-first rooted-animal encoding yields, in four dimensions,
+
+\[
+C_{\rm an}^{\rm geom}(\eta)
+\le
+\frac{(8^{32}-1)/63}{1-8^{32}e^{-\eta/2}},
+\qquad
+\eta>64\log8.
+\]
+
+With an ordinary pointwise bound \(h e^{-\beta d(X)}\), pinned weight
+\(A(X)=\alpha N(X)\), and hull weight
+\(c(X)=a(d(X)+\sqrt7)\), Note 0023 then gives the explicit sufficient
+condition
+
+\[
+9h\,e^{16\alpha+a\sqrt7}
+C_{\rm an}^{\rm geom}(\beta-a-32\alpha)\le\alpha.
+\]
+
+This is theorem-level repository geometry, not an identification of the
+source's actual polymer species. The audit has not verified that RG II's
+\(\mathcal D_{k+1}\), periodic convention, decorations, or activity
+amplitude satisfy the declared model and smallness inequality. The marked
+conditioned-contour bound, marked norm, source disk, absolute convergence,
+and shifted-branch synchronization also remain open.

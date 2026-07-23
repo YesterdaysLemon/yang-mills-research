@@ -421,11 +421,29 @@ a_{\rm post}=(1-9\delta)\frac L2\kappa,
 \]
 
 requires \(\delta<1/9\) for a positive exponent and a sufficiently large
-animal-entropy margin. It leaves one further \(\delta\)-unit before the
-source's unmarked connected-output exponent
-\((1-10\delta)(L/2)\kappa\). This is only a compatible budget; it does not
-prove the pinned Kotecky--Preiss condition or the hull inequality required by
-Note 0020.
+animal-entropy margin. Subsequent Note 0023 proves, for its declared standard
+\(D\)-dimensional closed-cube support model,
+
+\[
+C_{\rm an}^{\rm geom}(\eta)
+\le
+\frac{S_D}{1-(2D)^{2^{D+1}}e^{-\eta/2}},
+\qquad
+\eta>2^{D+2}\log(2D),
+\quad
+S_D=\sum_{j=0}^{2^D-1}(2D)^{2j}.
+\tag{28}
+\]
+
+In \(D=4\), using the one-\(\delta\) choice in (27) therefore requires the
+additional strict numerical condition
+\(\delta(L/2)\kappa>64\log8\). Note 0023 also supplies a literal-union hull
+and a conditional pinned Kotecky--Preiss criterion in that same model. These
+facts do not identify the actual RG-II output supports, metric, or decorated
+species with the declared model, and they do not verify the required
+ordinary-activity smallness. The budget still leaves one further
+\(\delta\)-unit before the source's unmarked connected-output exponent
+\((1-10\delta)(L/2)\kappa\).
 
 ## Fixed partition, shifts, and the physical pullback
 
@@ -470,12 +488,19 @@ the ordered-sum factorial/repeated-label convention already tested in Note
   factor and corrects the conditional loss ledger to the fork (22). The
   actual common transformed domain, joint Gaussian majorant, positive-kernel
   decay, and the other premises remain unproved for the RG-II construction.
+- Subsequent Note 0023 proves the output-animal estimate (28), a
+  literal-union hull crosswalk, and a sufficient pinned-KP implication for
+  its declared standard-cubical one-species model. Using those results here
+  still requires identification of the actual RG-II output class, periodic
+  seams, metric, and decoration multiplicities, together with the strict
+  entropy and activity-smallness inequalities.
 - No unmarked inequality has been differentiated. A common complex-source
   Lemma-3 theorem plus Cauchy would be an alternative route, but no such
   theorem is imported here.
-- Nonvanishing on a regulator-uniform source disk, absolute convergence, the
-  pinned Kotecky--Preiss condition, wall-contact hull geometry, branchwise
-  shift synchronization, and the final connected marked norm remain open.
+- Nonvanishing on a regulator-uniform source disk, absolute convergence for
+  the actual decorated activities, the Note-0023 model identification and
+  numerical KP/entropy hypotheses, branchwise shift synchronization, and the
+  final connected marked norm remain open.
 - The physical nonlinear \(U\) pullback, discharge of Note 0019's geometric
   premises, marginal projection, large fields, RG iteration, continuum
   construction, Osterwalder--Schrader axioms, infrared decay, and the

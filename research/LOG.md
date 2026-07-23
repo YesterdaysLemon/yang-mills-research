@@ -507,3 +507,75 @@ either prove the joint transformed-mark Gaussian envelope or record a sharp
 counterexample for the actual argument. In parallel, close the fixed-output
 wall-contact hull and animal geometry so that a successful kernel estimate
 can enter the pinned connected expansion without another hidden loss.
+
+## 2026-07-22 -- fixed-cubical hull, animal entropy, and pinned KP
+
+### Established
+
+- Proved YM-RG-023 in a declared standard cubical support model. For a
+  connected occurrence tuple with cube-or-complete-wall incompatibility, its
+  literal support union is the unique least admitted hull and
+  \[
+  d(R)\le d(A)+\sum_i d(X_i)+\sqrt{D+3}\,n.
+  \]
+  In four dimensions the safe contact charge is \(\sqrt7\). Three consecutive
+  closed cells show that no universal zero contact charge can work.
+- Proved the sharper contained-tree cube-count estimate
+  \[
+  N(Y)\le2^D\bigl(\lfloor2d(Y)\rfloor+1\bigr),
+  \]
+  and the rooted face-connected animal count \((2D)^{2m}\) for \(m\) added
+  cubes.
+- Grouped the count exactly into distance shells. With
+  \(B=2^D\), \(q=2D\), and
+  \(S_D=\sum_{j=0}^{B-1}q^{2j}\),
+  \[
+  C_{\rm an}(\eta)
+  \le\frac{S_D}{1-q^{2B}e^{-\eta/2}}
+  \]
+  whenever \(\eta>2^{D+2}\log(2D)\). The four-dimensional sufficient
+  threshold is \(64\log8\), not the earlier input cube-count margin
+  \(\log64\).
+- For one ordinary species per support, derived the explicit sufficient
+  pinned-KP condition
+  \[
+  (2D+1)h e^{\alpha2^D+a\sqrt{D+3}}
+  C_{\rm an}(\beta-a-\alpha2^{D+1})\le\alpha.
+  \]
+  The affine size split gives Note 0020's exact parameters
+  \(A_0=\alpha2^D\) and \(\epsilon=\alpha2^{D+1}\).
+- Combined the geometry with Note 0020's hull weight. In four dimensions,
+  writing \(\lambda=(L/2)\kappa\), \(\Delta=\delta\lambda\), and taking the
+  intended exponents \((1-8\delta)\lambda\),
+  \((1-9\delta)\lambda\), and \((1-10\delta)\lambda\), a sufficient system
+  is \(\Delta>64\log8\), \(0<32\alpha\le\Delta\), and the displayed strict
+  KP smallness inequality.
+- Added executable connector, seam, counterexample, small-animal, distance
+  shell, threshold, and geometric-series tests. Three independent AI audits
+  separately checked the hull connector, animal count, and KP constants;
+  no independent human review was performed.
+
+### Not established
+
+- No immutable primary-source identification yet shows that the actual
+  RG-II output class, special domains, periodic seams, \(d_{k+1}\) metric,
+  literal-union closure, and decoration aggregation instantiate the declared
+  model.
+- The source's ordinary amplitude has not been identified with the \(h\) in
+  Note 0023's model or verified against its strict parameter window; the
+  required marked norm is also unproved.
+- No joint transformed-mark Gaussian envelope, positive marked-kernel decay,
+  marked gluing, common source disk, absolute convergence, or branchwise
+  shifted synchronization.
+- No physical \(U/J\) pullback, marginal projection, large-field estimate,
+  RG iteration, continuum construction, axioms, infrared decay, or
+  Yang--Mills mass gap.
+
+### Next decision
+
+Audit the exact source definition of the RG-II output polymers and
+\(d_{k+1}\) from immutable page images. If it matches the standard-cube
+model, verify the actual decoration count and the numerical ordinary
+smallness inequality. In parallel, return to the decisive analytic gate:
+prove or falsify the joint conditioned-contour Gaussian envelope and the
+positive marked \(A\)-to-\(C\) kernel decay.

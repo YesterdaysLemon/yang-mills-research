@@ -117,9 +117,15 @@ under common \(L^1\)-holomorphy and a joint majorant, the complete marked
 weakening integrand can be estimated by one contour without extra
 derivative-allocation entropy, and with the ordinary radius price if that
 radius is shared. It isolates the missing joint conditioned-contour Gaussian
-envelope and positive kernel. It does not prove
-that envelope, synchronization, marked norm, convergence, or hull-weight
-premises. The scaled \(U\) pullback, uniform
+envelope and positive kernel. Note 0023 proves a literal-union hull,
+volume-uniform animal entropy, and an explicit sufficient pinned
+Kotecky--Preiss/hull-weight package for a separately declared standard
+closed-cube gas. It does not identify that model with the actual RG-II output
+class or verify its decorated multiplicities, ordinary numerical smallness,
+or marked norm. The transformed envelope, kernel decay, marked gluing,
+actual class identification, numerical KP premise, marked norm, absolute
+convergence, and shifted synchronization remain open. The scaled \(U\)
+pullback, uniform
 realization of Note 0019's premises, and full physical coarse-field
 derivative/quasilocal norm,
 the actual fixed-partition marked estimate, unit-translation covariance, and
@@ -229,10 +235,14 @@ infrared conclusions.
   marked-component factorization, and finite hard-core numerator (Note 0021),
   together with the exact whole-integrand marked Cauchy reduction under
   explicit common-domain and joint-majorant hypotheses and the corrected
-  conditional exponent fork (Note 0022), but without the actual
-  joint transformed-mark Gaussian envelope, positive-kernel decay, activity
-  norm, hull crosswalk, absolute convergence, or synchronized shifted RG
-  construction needed for the physical application;
+  conditional exponent fork (Note 0022);
+- the literal-union hull, volume-uniform geometric animal bound, and explicit
+  sufficient pinned Kotecky--Preiss/hull-weight conditions for the separately
+  declared standard closed-cube gas (Note 0023), but without identification
+  of the actual RG-II output class and metric, decorated-species control, the
+  joint transformed-mark Gaussian envelope, positive-kernel decay, marked
+  activity norm, numerical activity smallness, absolute convergence, or
+  synchronized shifted RG construction needed for the physical application;
 - background-propagator decay and change-of-domain estimates;
 - RG I/II source-free local analytic polymer expansions.
 
@@ -279,8 +289,12 @@ None of those inputs supplies the displayed source-inserted polymer theorem.
     algebra. Under its explicit common \(L^1\)-holomorphy and joint-majorant
     hypotheses, Note 0022 removes an artificial product-rule multiplicity and
     reduces direct weakening to one joint conditioned-contour envelope and
-    positive kernel. That envelope, kernel decay, gluing/hull metric, animal
-    entropy, shift synchronization, and convergence remain open.
+    positive kernel. Note 0023 closes the literal-union hull, animal entropy,
+    and sufficient pinned-KP crosswalk only in its declared standard
+    closed-cube model. The actual source-class and metric identification,
+    decorated multiplicities, transformed envelope, kernel decay, marked
+    gluing and norm, numerical activity smallness, shift synchronization, and
+    absolute convergence remain open.
 11. [ ] Perform the full symmetry/Ward-identity projection on the marked first
    jet and classify all position/orientation mixing.
 

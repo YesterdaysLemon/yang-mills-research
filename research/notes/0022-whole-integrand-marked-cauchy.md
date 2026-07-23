@@ -511,10 +511,15 @@ plaquette argument, tree gluing, or any regulator-uniform estimate.
 - Equation (24) corrects the conditional ledger to a parallel fork. It
   confirms the Note-0021 endpoint if the total pre-gluing marked cost is at
   most two \(\delta\)-units and all gluing/resummation hypotheses hold.
-- No marked conditioned-contour envelope, marked tree gluing, output-animal
-  bound, pinned Kotecky--Preiss condition, hull crosswalk, source disk,
+- No marked conditioned-contour envelope, marked tree gluing, source disk,
   absolute convergence, shifted synchronization, or physical \(U/J\)
-  pullback is proved.
+  pullback is proved here.
+- Subsequent Note 0023 proves an output-animal bound, literal-union hull
+  crosswalk, and sufficient pinned Kotecky--Preiss criterion for a declared
+  standard closed-cube, one-species support model. Its identification with
+  the actual RG-II output class, metric, periodic seams, and decorated
+  species, and its strict numerical entropy and activity-smallness
+  hypotheses, remain open.
 - No large-field estimate, RG iteration, continuum construction, axiomatic
   reconstruction, infrared decay estimate, or Yang--Mills mass gap follows.
 

@@ -30,7 +30,11 @@ bound. It does not prove that the plaquette mark of Notes 0011--0014 survives
 RG II's cutoff expansion, Gaussian conditioning, covariance weakening,
 component factorization, and final polymerization with the required norm.
 Note 0021 subsequently proves the exact finite fixed-partition passage and
-component identity while leaving that norm conditional.
+component identity while leaving that norm conditional. Note 0023
+subsequently gives one explicit standard-closed-cube realization of the hull,
+animal, and pinned-KP premises below. It does not identify that declared
+support model with the actual RG-II output class or verify the required
+activity constants.
 
 The source is unmarked. Its exact relevant conventions are as follows.
 
@@ -355,6 +359,15 @@ operations. No positive numerical value of \(a_{\rm out}\) follows until
 (16), the survival of (21), and the hull inequality (19) are proved for the
 actual post-conditioning activities.
 
+Subsequent Note 0023 verifies one concrete sufficient package for
+(13), (16), and (19)--(20) in a declared standard cubulation: literal-union
+hulls, the piecewise-linear contained-tree metric, one ordinary species per
+unlabelled support, a pointwise ordinary activity bound, and explicit strict
+animal-entropy and smallness inequalities. Applying that package here still
+requires an exact identification of the RG-II output species, seams,
+incompatibility, and metric with that model, control of any decoration
+multiplicity, and verification of its numerical hypotheses.
+
 ## Shift labels must remain outside the gas
 
 For an admissible shift \(\sigma\), the partition \(\pi^\sigma\), species
@@ -562,10 +575,13 @@ tests](../../tests/test_rooted_ursell_coefficients.py).
   compatibility relation, and unmarked activity family.
 - Equations (14)--(15) require a fixed-partition hull closed under every
   connected incompatibility tuple. Abstract graph connectivity alone is not
-  the needed geometric theorem.
+  the needed geometric theorem. Subsequent Note 0023 supplies such a theorem
+  for its declared standard closed-cube, literal-union support model.
 - Equation (22) is conditional on the canonical pinned KP condition, the
   post-polymerization marked norm, and the weighted hull crosswalk. None is
-  inferred from unmarked Lemma 3.
+  inferred from unmarked Lemma 3. Note 0023 supplies explicit sufficient
+  cubical and numerical conditions for the first and third premises, but not
+  the marked norm.
 - Equations (24)--(25) are conditional on a complete branchwise synchronized
   source construction. Bare-mark averaging from Note 0014 is not enough.
 - Note 0021 subsequently proves the exact fixed-partition passage of the mark
@@ -573,9 +589,12 @@ tests](../../tests/test_rooted_ursell_coefficients.py).
   conditioning, weakening, and component factorization, and identifies the
   final mark as a decorated linear image of the earlier rooted family. Its
   direct marked bound and uniform shifted-branch version remain unproved.
-- Nonvanishing, a common source disk, absolute KP convergence, a marked
-  Lemma-3 analogue, the exact hull/\(d_k\) gluing inequality, and a uniform
-  fixed-partition expansion for every admitted shift remain open.
+- Nonvanishing, a common source disk, the marked Lemma-3 analogue, the
+  identification of the actual RG-II support class and metric with Note
+  0023's cubical model, decorated-species control, verification of its
+  strict numerical KP/entropy hypotheses, and a uniform fixed-partition
+  expansion for every admitted shift remain open. Consequently absolute KP
+  convergence for the actual activities remains open.
 - The physical \(U\)-chain pullback, realization of Note 0019's geometric
   premises, marginal projection, large fields, RG iteration, continuum
   construction, Osterwalder--Schrader axioms, infrared decay, and the

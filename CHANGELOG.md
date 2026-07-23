@@ -72,3 +72,16 @@ All notable research-structure and claim-status changes are recorded here. Mathe
   \((1-8\delta)(L/2)\kappa\) endpoint. The actual transformed-mark envelope,
   marked gluing, kernel decay, animal/KP/hull estimates, and all later gates
   remain open.
+- Added YM-RG-023: in an explicit standard closed-cube support model, proved
+  that the literal union of a connected cube-or-wall incompatibility tuple is
+  the least admitted hull and satisfies a contained-tree bound with contact
+  charge \(\sqrt{D+3}\) per ordinary occurrence. Proved
+  \(N(Y)\le2^D(\lfloor2d(Y)\rfloor+1)\), the rooted-animal count
+  \((2D)^{2m}\), and a volume-uniform animal constant for
+  \(\eta>2^{D+2}\log(2D)\), giving the four-dimensional threshold
+  \(64\log8\). With a pointwise ordinary activity bound, one species per
+  support, an independent marked norm, and the displayed strict smallness
+  system, this verifies Note 0020's hull crosswalk and pinned KP implication.
+  Identification of the actual RG-II class, metric, decorations, activity
+  constants, marked norm, convergence, and every later physical gate remains
+  open.

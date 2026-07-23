@@ -137,8 +137,15 @@ of the complete marked weakening integrand, under common \(L^1\)-holomorphy
 and a joint majorant, has no extra derivative-allocation multiplicity and has
 the ordinary radius price if that radius is shared. It reduces the estimate
 to a joint conditioned-contour Gaussian envelope and positive seed-dependent
-kernel. That actual envelope and kernel
-decay, the rooted norm, hull crosswalk, convergence, and shifted-branch
+kernel. [Note
+0023](../notes/0023-fixed-cubical-hull-animals-kp.md) proves a literal-union
+hull, a volume-uniform animal bound, and an explicit sufficient pinned
+Kotecky--Preiss/hull-weight package for a separately declared standard
+closed-cube model with one species per support. It does not identify that
+model with the actual RG-II output class or verify decorated multiplicities,
+the ordinary numerical smallness, or the marked norm. The actual transformed
+envelope and kernel decay, source-class identification, marked norm,
+numerical KP hypothesis, absolute convergence, and shifted-branch
 synchronization remain unproved.
 Unit-translation covariance, the scaled nonlinear \(U\) collar and pullback,
 uniform realization of Note 0019's premises,
@@ -333,8 +340,9 @@ and no mass gap.
   algebra on one fixed compatible partition, define its decorated
   post-polymerization image, and prove the unique marked-component and exact
   hard-core numerator identities; see Note 0021. Proving the direct marked
-  domination, rooted norm, hull weight, convergence, and synchronized shifted
-  construction remains open.
+  domination, actual output-class identification, rooted norm, numerical
+  cluster smallness, convergence, and synchronized shifted construction
+  remains open.
 - [x] Apply one multivariable contour to the complete marked Eq. (2.8)
   integrand under explicit common \(L^1\)-holomorphy and joint-majorant
   hypotheses, retain no added product-rule multiplicity and the ordinary
@@ -342,6 +350,13 @@ and no mass gap.
   positive seed-dependent kernel, and correct the conditional exponent ledger
   to a parallel fork; see Note 0022. The actual transformed-mark Gaussian
   envelope, kernel decay, and gluing estimates remain open.
+- [x] In a separately declared standard closed-cube support model, prove the
+  literal-union wall-contact hull inequality, a volume-uniform geometric
+  animal bound, and explicit sufficient conditions for the canonical pinned
+  Kotecky--Preiss and hull-weight interfaces; see Note 0023. Identification
+  with the actual RG-II output class and metric, decorated-species control,
+  the marked norm, numerical activity smallness, absolute convergence, and
+  shifted-branch synchronization remain open.
 - [x] Prove a common zero-free source disk from bounded observable range,
   conditional on the exact pointwise kernel and positive finite source-free
   weighted partition function; see Note 0007. This does not supply a complex

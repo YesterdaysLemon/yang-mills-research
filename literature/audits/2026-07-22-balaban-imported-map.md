@@ -333,11 +333,24 @@ marked-component factorization on one compatible fixed partition. [Note
 under common \(L^1\)-holomorphy and a joint majorant, one contour of the
 complete marked Eq. (2.8) integrand has no extra product-rule multiplicity
 and has the ordinary Cauchy-radius price if that radius is shared. It then
-isolates the missing joint conditioned-contour Gaussian envelope. None of these notes
-imports a marked Lemma 3. The scaled nonlinear \(U\) pullback, uniform
-realization of Note 0019's geometry, actual fixed-partition marked envelope
-and kernel decay, hull crosswalk, shifted synchronization, convergence, and
-physical connected estimate remain open.
+isolates the missing joint conditioned-contour Gaussian envelope. [Note
+0023](../../research/notes/0023-fixed-cubical-hull-animals-kp.md) separately
+uses RG II Eqs. (2.11)--(2.13)'s cube/full-wall incompatibility and
+literal-union grouping as a convention anchor. On a declared regular
+closed-cube model with the side-length-normalized piecewise-linear contained-tree
+metric, it proves the literal-union hull and contact charge, a
+volume-uniform rooted-animal estimate, and an explicit sufficient pinned
+Kotecky--Preiss system. Its four-dimensional constants
+\(b_4=\sqrt7\), size slope \(32\), and animal threshold \(64\log8\) are
+repository bookkeeping, not imported source constants.
+
+None of these notes imports a marked Lemma 3 or proves that the actual
+\(\mathcal D_{k+1}\) species, periodic convention, metric, decorations, and
+activity amplitudes instantiate Note 0023's model. The scaled nonlinear
+\(U\) pullback, uniform realization of Note 0019's geometry, actual
+fixed-partition marked envelope and kernel decay, actual hull/KP
+instantiation, shifted synchronization, convergence, and physical connected
+estimate remain open.
 
 ## Regular configurations and gauge chart
 

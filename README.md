@@ -44,6 +44,7 @@ The main route is a Wilson lattice regulator followed by gauge-covariant renorma
 - [Note 0020: one-mark Ursell identity on a fixed polymer gas](research/notes/0020-one-mark-ursell-identity.md)
 - [Note 0021: one marked component through the RG-II Section-2 map](research/notes/0021-one-mark-section2-factorization.md)
 - [Note 0022: whole-integrand Cauchy control for the Section-2 mark](research/notes/0022-whole-integrand-marked-cauchy.md)
+- [Note 0023: fixed-cubical hull, animal entropy, and pinned KP](research/notes/0023-fixed-cubical-hull-animals-kp.md)
 - [Bałaban theorem-level source map](literature/audits/2026-07-22-balaban-source-map.md)
 - [Bałaban imported-map audit](literature/audits/2026-07-22-balaban-imported-map.md)
 
@@ -55,9 +56,9 @@ bound, for one fixed hard-core gas. Note 0021 now carries the localized mark
 through the finite RG-II Section-2 algebra, defines its decorated
 post-polymerization image, proves the unique marked-component factorization,
 and obtains the exact hard-core numerator. Its decay statement is explicitly
-conditional: the direct marked conditioning/weakening domination, gluing
-geometry, output-animal entropy, wall-contact hull crosswalk, convergence,
-and branchwise shift synchronization remain open.
+conditional: the direct marked conditioning/weakening domination, actual
+RG-II support-class identification, marked gluing, numerical smallness,
+convergence, and branchwise shift synchronization remain open.
 
 Under its stated common \(L^1\)-holomorphy and joint-majorant hypotheses,
 Note 0022 proves that Eq. (2.8)'s whole-integrand weakening contour carries
@@ -68,6 +69,16 @@ fork. The decisive missing estimate is now a joint conditioned-contour
 Gaussian envelope for the transformed plaquette mark; the original
 Eq. (1.34) input norm and separate integrated bounds do not imply that
 envelope.
+
+Note 0023 closes the previously abstract hull/animal/KP implication inside a
+declared standard closed-cube model. The literal union pays an unavoidable
+contact charge \(\sqrt7\) per ordinary occurrence in four dimensions, while
+an explicit rooted-animal estimate is uniform for
+\(\eta>64\log8\). Together with a pointwise ordinary activity bound and an
+independent marked norm, its displayed smallness system implies Note 0020's
+pinned connected bound. This is not yet the Yang--Mills estimate: the actual
+RG-II output class, metric, decorations, marked norm, and numerical activity
+constants have not been proved to satisfy that model.
 
 ## Evidence discipline
 
