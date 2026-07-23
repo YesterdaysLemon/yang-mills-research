@@ -17,6 +17,8 @@ This is a seed list, not a completed literature review.
 - Tadeusz Bałaban, [The variational problem and background fields in renormalization group method for lattice gauge theories](https://doi.org/10.1007/BF01229381) (1985).
 - Tadeusz Bałaban, [Renormalization group approach to lattice gauge field theories I](https://doi.org/10.1007/BF01215223) (1987).
 - Tadeusz Bałaban, [Renormalization group approach to lattice gauge field theories II](https://doi.org/10.1007/BF01239022) (1988).
+- Roman Kotecký and David Preiss, [Cluster expansion for abstract polymer models](https://doi.org/10.1007/BF01211762) (1986).
+- Roberto Fernandez and Aldo Procacci, [Cluster expansion for abstract polymer models. New bounds from an old approach](https://arxiv.org/abs/math-ph/0605041v2) (version 2, 2006; [published DOI](https://doi.org/10.1007/s00220-007-0279-2)).
 - Tadeusz Bałaban, [Convergent renormalization expansions for lattice gauge theories](https://doi.org/10.1007/BF01217741) (1988).
 - Ralph Howard, [The Kinematic Formula in Riemannian Homogeneous Spaces](https://doi.org/10.1090/memo/0509) (1993), Appendix A for the smooth coarea formula.
 - Herbert Federer, [Geometric Measure Theory](https://doi.org/10.1007/978-3-642-62010-2), Sections 3.2.20–3.2.22 for general coarea machinery.

@@ -351,3 +351,48 @@ discrete lift and a proximity error as separate hypotheses, along with
 bounded site/bond/plaquette support anchors and mesh ratio. The resulting
 all-layer auxiliary-\(J\) pullback is a proved implication from those
 premises, not evidence that the primary sources establish them uniformly.
+
+## 2026-07-22 -- fixed-gas one-mark cluster audit
+
+[RG II Cluster
+Expansions](https://doi.org/10.1007/BF01239022) Eqs. (2.1)--(2.13), Lemma 3
+Eq. (2.38), and Eq. (2.41) were rechecked at formula level. Equation (2.11)
+uses an ordered hard-core gas with one exterior \(1/n!\); sharing a full cube
+wall is incompatible. Equations (2.12)--(2.13) use the unnormalized connected
+graph coefficient and group by the union of the tuple.
+
+Differentiating the fixed-gas logarithm selects one distinguished slot, so an
+\(r\)-vertex marked term has \(1/(r-1)!\), not \(1/r!\) and not both
+\(1/(r-1)!\) and a separate slot sum. Repeated polymer labels remain necessary
+in the logarithm even though reflexive incompatibility removes them from the
+partition function. Note 0020 records this exact algebra and a conditional
+pinned Kotecky--Preiss consequence.
+
+That pinned consequence was version-pinned to Fernandez--Procacci,
+[*Cluster expansion for abstract polymer models. New bounds from an old
+approach*](https://arxiv.org/abs/math-ph/0605041v2), version 2. Equation
+(2.7) is exactly the positive pinned Ursell series, Eq. (2.15) is the
+Kotecky--Preiss condition after
+\(\rho(X)=|K(X)|e^{c(X)}\) and \(a=A\), and Eqs. (2.14)--(2.15) give
+\(\Pi_Y(\rho)\le e^{A(Y)}\). Pages 3--4 of the primary PDF were rendered and
+visually checked. The publication DOI is
+[10.1007/s00220-007-0279-2](https://doi.org/10.1007/s00220-007-0279-2);
+the original Kotecky--Preiss article is
+[10.1007/BF01211762](https://doi.org/10.1007/BF01211762).
+
+The source decay ledger is unmarked:
+\[
+|H(Z)|\le C_3\varepsilon_1
+e^{-(1-8\delta)(L/2)\kappa d_{k+1}(Z)}
+\]
+and then
+\[
+|E^{(k+1)}(X)|\le O(1)C_3\varepsilon_1
+e^{-(1-10\delta)(L/2)\kappa d_{k+1}(X)}.
+\]
+The induction chooses \((1-10\delta)L/2=1\). The primary text layer corrupts
+some digits and fractions; the surrounding primary equations and an
+independent clean transcription agree, but an immutable page-image audit is
+still open. RG II prints no marked analogue. Carrying the plaquette mark
+through cutoffs, conditioning, weakening, and final polymerization, proving
+its norm and hull crosswalk, and synchronizing each shifted gas remain open.

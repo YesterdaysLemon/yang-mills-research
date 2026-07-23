@@ -330,3 +330,66 @@ Either discharge \((\mathrm H_\rho)\), \((\mathrm H_T)\), and
 an interface specification and move to the one-fixed-partition rooted
 connected mark. In parallel, the scaled \(U\)-chart theorem from Note 0018
 remains the missing second chain-rule summand.
+
+## 2026-07-22 -- one-mark Ursell identity on a fixed gas
+
+### Established
+
+- Rechecked RG II Eqs. (2.1)--(2.13). Equation (2.11) is an ordered
+  hard-core gas with one exterior \(1/n!\); full wall contact is
+  incompatible. Equations (2.12)--(2.13) use the connected-graph coefficient
+  without an internal factorial and group clusters by their union.
+- Proved YM-RG-020 for one fixed finite hard-core gas. Differentiating its
+  logarithm produces one distinguished mark and \(1/n!\) for \(n\) unmarked
+  occurrences. Repeated labels are required in the log even though they
+  vanish from the hard-core partition function.
+- Separated the exact finite numerator/denominator identity from the formal
+  or absolutely convergent Ursell series. No convergence at arbitrary
+  complex activities is inferred merely from finite volume and a nonzero
+  partition function.
+- Under an explicit canonical pinned Kotecky--Preiss condition,
+  post-polymerization marked norm, and hull-weight crosswalk, proved the
+  conditional rooted output bound
+  \[
+  \sup_p\sum_{R\supset Q_p}e^{a_{\rm out}d_\pi(R)}
+  |\mathcal C_{p,\pi}^\bullet(R)|
+  \le e^{A_0}\mathcal B_\bullet,
+  \qquad a_{\rm out}+\epsilon\le a_\bullet.
+  \]
+- Version-pinned the pinned estimate to Fernandez--Procacci
+  arXiv:math-ph/0605041v2 Eqs. (2.7), (2.14), and (2.15), with the exact
+  \(\rho=|K|e^c\), \(a=A\) notation map; visually checked the relevant primary
+  PDF pages.
+- Proved by finite counterexample that bare shifted activities cannot in
+  general be mixed before the connected map. Absent a proved common-gas
+  embedding, branches must be completed on their own partitions before the
+  normalized \(1/n_p\) average.
+- Rechecked the unmarked source ledger:
+  \((1-8\delta)(L/2)\kappa\) in Eq. (2.38) and
+  \((1-10\delta)(L/2)\kappa\) in Eq. (2.41). The source does not print a
+  marked analogue.
+- Added executable coefficient checks for the one-species reciprocal,
+  repeated labels, compatible-spectator cancellation, and the three-vertex
+  star. Three independent AI audits passed after distinguishing the
+  post-polymerization positive mark from Notes 0012--0014's pre-Section-2
+  activity.
+
+### Not established
+
+- No construction of the post-conditioning marked activity through RG II
+  Eqs. (2.2)--(2.10), and no identification of it with the earlier
+  \(W_{k,p}^\sigma\).
+- No common source disk, marked Lemma-3 norm, absolute KP convergence,
+  wall-contact hull/\(d_k\) crosswalk, or positive numerical output exponent.
+- No branchwise shifted source synchronization or common-gas embedding.
+- No physical nonlinear \(U\) pullback, realization of Note 0019's premises,
+  large-field estimate, RG iteration, continuum construction, infrared
+  estimate, or Yang--Mills mass gap.
+
+### Next decision
+
+Carry the unique mark through Eqs. (2.2)--(2.10) on one fixed partition and
+define the resulting \(W_p^{\rm post}\) before attempting a norm. Then prove
+the wall-contact hull inequality and a marked analogue of the Lemma-3/KP
+budget. Only after that fixed branch closes should the complete construction
+be repeated uniformly for each admissible shift and averaged.

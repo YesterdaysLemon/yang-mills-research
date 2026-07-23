@@ -66,10 +66,20 @@ Cluster expansions*, **CMP 116** (1988), 1–22,
   effective-action construction and the proof of RG I's Theorem 3.
 - Lemma 2, p. 11, Eqs. (1.41)–(1.43), gives a local analytic
   fluctuation-action decomposition with gauge-invariance and decay bounds.
-- Eqs. (2.12)–(2.13), p. 14, give the connected/exponentiated cluster
-  expansion for the new effective interaction.
-- Lemma 3, p. 20, Eq. (2.38), gives an exponentially decaying activity bound;
-  the final paragraph on p. 22 closes the inductive proof.
+- Eq. (2.11), p. 14, is the ordered hard-core gas with one exterior
+  \(1/n!\). Its compatibility is zero when two polymers share a cube or a
+  complete cube wall. Eqs. (2.12)–(2.13) use the connected-graph coefficient
+  with no internal factorial and group the logarithm by
+  \(X=\bigcup_i Z_i\).
+- Lemma 3, p. 20, Eq. (2.38), gives the unmarked bound
+  \(C_3\varepsilon_1
+  e^{-(1-8\delta)(L/2)\kappa d_{k+1}(Z)}\). Equation (2.41) spends two more
+  delta units and gives
+  \(O(1)C_3\varepsilon_1
+  e^{-(1-10\delta)(L/2)\kappa d_{k+1}(X)}\). The induction then chooses
+  \((1-10\delta)L/2=1\). The accessible primary text layer corrupts some
+  digits and fractions; the surrounding formulas fix this ledger, but an
+  immutable page-image transcription remains open.
 - These are source-free activity bounds. The paper's \(J\) is an auxiliary
   gauge-field/derivative variable in the analytic induction, not a scalar
   observable source.
@@ -78,6 +88,14 @@ Cluster expansions*, **CMP 116** (1988), 1–22,
   0011](../../research/notes/0011-one-mark-mayer-seam.md) inserts one
   background-centered plaquette mark and proves the finite one-mark Mayer
   identity there.
+- [Note
+  0020](../../research/notes/0020-one-mark-ursell-identity.md) differentiates
+  the exact fixed-gas connected formula and proves the distinguished-slot
+  \(1/n!\) coefficient, the need for repeated polymer labels, and a
+  conditional pinned Kotecky--Preiss implication. RG II does not print this
+  marked theorem, and its unmarked Lemma 3 does not bound the differentiated
+  activity. The post-conditioning mark, hull metric, convergence, and
+  branchwise shifted construction remain separate hypotheses.
 - RG II Eqs. (1.9)--(1.10) give the finite weakening-variable decomposition
   and root-component cancellation; Eqs. (1.17)--(1.21) give the weakened
   reconstruction and its common \(|s(\Delta)|\le e^{\kappa _1}\) analytic

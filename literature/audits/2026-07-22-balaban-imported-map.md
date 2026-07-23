@@ -320,9 +320,16 @@ bond-sup \(U\) collars collapse and records the conditional RG-scaled
 replacement. Note 0019 proves a forward all-layer auxiliary-\(J\) pullback
 only under explicit seam-aware ownership, source-admissible interface,
 exact tree-lift, support-halo, mesh, and common-chart premises; those
-premises are not imported source theorems. The scaled nonlinear \(U\)
-pullback, uniform realization of Note 0019's geometry,
-one-fixed-partition compatibility, and connected estimate remain open.
+premises are not imported source theorems. [Note
+0020](../../research/notes/0020-one-mark-ursell-identity.md) separately proves
+the exact one-mark Ursell algebra and a conditional pinned bound for one fixed
+hard-core gas. It keeps the \(1/n!\) distinguished-slot factor, repeated
+labels, the wall-contact compatibility convention, and each shifted branch
+separate. It does not import a marked Lemma 3 or construct the
+post-conditioning mark. The scaled nonlinear \(U\) pullback, uniform
+realization of Note 0019's geometry, actual fixed-partition marked
+construction, hull crosswalk, convergence, and physical connected estimate
+remain open.
 
 ## Regular configurations and gauge chart
 

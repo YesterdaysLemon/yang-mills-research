@@ -126,10 +126,14 @@ all-layer \(J\)-summand implication under explicit interface, tree-lift,
 support, mesh, and common-chart premises, without deriving those premises
 from the source. Note 0018 proves that naive raw and \(\xi\)-scaled bond-sup
 \(U\) collars collapse and leaves the RG-scaled replacement conditional.
+[Note 0020](../notes/0020-one-mark-ursell-identity.md) proves the exact
+distinguished-vertex Ursell formula and a conditional pinned bound on one
+fixed hard-core gas, but not the post-conditioning marked activity, hull
+crosswalk, convergence, or shifted-branch synchronization needed here.
 Unit-translation covariance, the scaled nonlinear \(U\) collar and pullback,
 uniform realization of Note 0019's premises,
-single-partition cluster compatibility, the full physical
-coarse-background derivative norm, and the rooted connected cluster bound
+the actual single-partition marked construction, the full physical
+coarse-background derivative norm, and a physical rooted connected bound
 remain open.
 
 ## Target statement
@@ -311,6 +315,11 @@ and no mass gap.
   specifies the missing scaled chart estimates. Note 0019 extends the
   \(J\)-summand conditionally across layers. Its interface/tree/support
   premises and the scaled nonlinear \(U\) pullback remain open.
+- [x] Prove the exact one-mark connected-graph formula, repeated-label
+  convention, and conditional pinned Kotecky--Preiss implication for one
+  fixed hard-core gas; see Note 0020. Carrying the actual mark through RG II
+  Eqs. (2.1)--(2.10), synchronizing every shifted branch, and proving its
+  marked norm, hull weight, and convergence remain open.
 - [x] Prove a common zero-free source disk from bounded observable range,
   conditional on the exact pointwise kernel and positive finite source-free
   weighted partition function; see Note 0007. This does not supply a complex

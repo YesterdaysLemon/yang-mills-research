@@ -107,11 +107,17 @@ for the auxiliary-\(J\) chain-rule summand. Note 0018 proves that naive raw
 and \(\xi\)-scaled bond-sup \(U\) collars collapse and isolates the necessary
 RG-scaled replacement hypotheses. Note 0019 proves a conditional all-layer
 \(J\)-summand extension under explicit interface, tree-lift, support, mesh,
-and common-chart premises. The scaled \(U\) pullback, uniform realization of
-Note 0019's premises, and full physical coarse-field derivative/quasilocal norm,
-one-fixed-partition cluster compatibility, unit-translation covariance, and
-connected marked expectation are the first parts not settled by those
-auxiliary lemmas or the imported source-free theorem.
+and common-chart premises. Note 0020 proves the exact one-mark Ursell formula
+and a conditional pinned cluster bound for one fixed hard-core gas, and shows
+that bare shifted marks cannot be mixed without branch synchronization or a
+proved common-gas embedding. It does not construct
+the post-conditioning marked activity or prove the synchronization, marked
+norm, convergence, or hull-weight premises. The scaled \(U\) pullback, uniform
+realization of Note 0019's premises, and full physical coarse-field
+derivative/quasilocal norm,
+the actual fixed-partition marked RG construction, unit-translation covariance,
+and a physical connected marked estimate are the first parts not settled by
+those auxiliary lemmas or the imported source-free theorem.
 
 ## Target theorem
 
@@ -209,6 +215,11 @@ infrared conclusions.
   all-layer \(J\)-summand bridge (Note 0019), without a concrete RG-scaled
   \(U\) norm or a proof of Note 0019's interface, tree-lift, support, mesh,
   and uniform-chart premises;
+- the exact fixed-gas distinguished-vertex Ursell identity, repeated-label
+  convention, shifted-branch separation rule, and conditional pinned
+  Kotecky--Preiss implication (Note 0020), without the post-conditioning mark,
+  marked activity norm, hull crosswalk, absolute convergence, or synchronized
+  shifted RG construction needed for the physical application;
 - background-propagator decay and change-of-domain estimates;
 - RG I/II source-free local analytic polymer expansions.
 
@@ -248,6 +259,10 @@ None of those inputs supplies the displayed source-inserted polymer theorem.
    that the naive raw alternatives cannot satisfy this step.
 10. [ ] Carry exactly one rooted mark through RG II Eqs. (2.2)–(2.13), using
    Lemma 3 for the unmarked decorations, and prove the connected sum converges.
+   Note 0020 settles the fixed-gas distinguished-slot algebra, including
+   \(1/n!\), repeated labels, and the conditional pinned bound. The cutoff,
+   conditioning, post-polymerization mark, hull metric, shift synchronization,
+   and convergence parts of this step remain open.
 11. [ ] Perform the full symmetry/Ward-identity projection on the marked first
    jet and classify all position/orientation mixing.
 
