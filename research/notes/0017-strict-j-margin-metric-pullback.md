@@ -158,8 +158,10 @@ Consequently, under \((\mathrm H_J)\), Note 0016 Eq. (18) sharpens to
 
 The constant in (9) is independent of volume, RG step, plaquette, shift, and
 polymer once the fixed-\(M\) hypothesis \((\mathrm H_J)\) holds. There is no
-corresponding conclusion for \(U\): varying \(U\) changes every nonlinear
-regularity and derived-pair condition.
+corresponding direct-sup-norm conclusion for \(U\): varying \(U\) changes
+every nonlinear regularity and derived-pair condition. Note 0018 sharpens
+this boundary by proving that the naive raw and \(\xi\)-scaled bond-sup
+\(U\)-radii collapse and by isolating a conditional RG-scaled replacement.
 
 ## The Eq. (190) kernel as a weighted source density
 
@@ -411,27 +413,27 @@ segment the opposite ratio is
 \(d_{\mathcal B}/d_{k,\sigma}=M/L^{r-r_0}\le M\), so coarse travel by itself
 helps a bound of the form \(d_{\mathcal B}\le C d_{k,\sigma}\).
 
-The needed forward comparison nevertheless remains unproved across general
-layered contours. Propagators II Eq. (2.57) charges a genuine interface change
-by an \(RM\) contribution, and Lemma 2.1 Eq. (2.60) controls the sum over layer
-indices, but this note has not bounded all such interface charges by the
-fixed-scale contained-tree length.
+The needed forward comparison nevertheless remains unproved in this note
+across general layered contours. A source recheck corrects one earlier
+description: Propagators II Eq. (2.57) is a lower bound on actual travel
+between distinct layer surfaces used in the Eq. (2.58) summation, not an
+additive \(RM\) toll in the definition of \(d_{\mathcal B}\). Thus an ordinary
+fine path already pays its interface travel.
 
-There is also an unresolved cell-alignment issue. If the Propagators-II layer
-grids retain the fixed origin of the unshifted hierarchy, Note 0014's shifts
-in \((L\mathbb Z/M\mathbb Z)^4\) need not be divisible by a deeper layer
-spacing. Once a layer cell exceeds an \(M\)-cube it also cannot be a subcell
-of the shifted partition. Thus the exact matched-cell identification used in
-(22) is not automatic for the full shifted family. This observation does not
-rule out a one-sided inequality with a bounded alignment allowance; proving
-such an allowance requires an explicit common-origin/cell map.
+Likewise, nonalignment between Note 0014's shifted \(M\)-grid and a deeper
+Propagators-II grid is not by itself a one-sided obstruction. A bondwise proof
+could map each fine site to its multiscale cell and bound the
+\(d_{\mathcal B}\) distance of the cells assigned to two fine nearest
+neighbors. What is missing here is that explicit tie-broken cell map, its
+uniform nearest-neighbor constant, and a support/root statement placing every
+output coordinate within a bounded fine-lattice halo of \(Y\).
 
 Equation (25) falsifies only the reverse half of a uniform equivalence. The
-shift mismatch and the unbounded interface accounting leave the forward
-\(d_{\mathcal B}\)-to-\(d_{k,\sigma}\) estimate needed by (22) unresolved; they
-do not refute it. A later proof may establish that one-sided interface theorem,
-restrict the admissible layer geometry, or replace the fixed-scale polymer norm
-by a compatible multiscale network norm.
+missing cell-map and support premises leave the forward
+\(d_{\mathcal B}\)-to-\(d_{k,\sigma}\) estimate needed by (22) unresolved in
+this note; they do not refute it. A later proof may establish the bondwise
+cell-map theorem, restrict the admitted support geometry, or replace the
+fixed-scale polymer norm by a compatible multiscale network norm.
 
 ## Exact boundary
 
@@ -441,7 +443,8 @@ by a compatible multiscale network norm.
 - Equation (24) controls only the
   \(D_J\widehat W[D\mathcal J\,h]\) summand of Note 0016's physical chain
   rule. The \(D_U\widehat W[D\mathcal U\,h]\) summand still lacks a uniform
-  nonlinear \(U\)-chart collar.
+  nonlinear \(U\)-chart collar in a concrete RG-scaled regularity norm;
+  Note 0018 rules out the naive bond-sup alternatives.
 - The source-metric convolution is proved before identifying
   \(d_{\mathcal B}\) with \(d_{k,\sigma}\). Equation (22) is deliberately
   conditional on a matched homogeneous layer. The primary sources audited so
@@ -470,7 +473,8 @@ by a compatible multiscale network norm.
 - Set \(\gamma=\delta_0/8\) and observe that the reserved exponential sum has
   no positive exponent.
 - Apply (22) across an unverified layer interface and reject the comparison.
-- Use (25) to reject the forward bound
-  \(d_{\mathcal B}\le C d_{k,\sigma}\) and identify the reversed inequality.
+- Attempt to use (25) to reject the forward bound
+  \(d_{\mathcal B}\le C d_{k,\sigma}\), reject that inference, and identify
+  the reversed inequality that (25) actually obstructs.
 - Add both Eq. (190) Laplacian rows as independent leading terms and identify
   the double counting.

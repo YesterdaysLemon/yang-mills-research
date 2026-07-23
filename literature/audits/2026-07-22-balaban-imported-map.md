@@ -315,7 +315,9 @@ Cauchy tubes at fixed regulator. [Note
 I's separate strict smaller physical representative domain to obtain a
 direct-\(J\) collar under a frozen hierarchy, then proves the source-density
 kernel sum and a homogeneous-layer physical pullback for the auxiliary-\(J\)
-chain-rule summand. The nonlinear \(U\) pullback, cross-layer network
+chain-rule summand. Note 0018 proves that full naive raw and \(\xi\)-scaled
+bond-sup \(U\) collars collapse and records the conditional RG-scaled
+replacement. The scaled nonlinear \(U\) pullback, cross-layer network
 geometry, one-fixed-partition compatibility, and connected estimate remain
 open.
 

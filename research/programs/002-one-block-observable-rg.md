@@ -121,8 +121,10 @@ regulator. [Note
 direct-\(J\) representative collar, the dual source-metric kernel sum, and a
 conditional homogeneous-layer pullback for the auxiliary-\(J\) chain-rule
 summand; it also disproves a uniform reverse cross-layer bound while leaving
-the forward interface theorem needed by the pullback open. Unit-translation
-covariance, the nonlinear \(U\) collar and
+the forward interface theorem needed by the pullback open. Note 0018 proves
+that naive raw and \(\xi\)-scaled bond-sup \(U\) collars collapse and leaves
+the RG-scaled replacement conditional. Unit-translation covariance, the
+scaled nonlinear \(U\) collar and
 pullback, uniform chart constants, a compatible multiscale network norm,
 single-partition cluster compatibility, the full physical
 coarse-background derivative norm, and the rooted connected cluster bound
@@ -302,8 +304,9 @@ and no mass gap.
 - [x] Use RG I's strict smaller physical representative domain to obtain the
   direct-\(J\) sup-norm collar, prove the dual Eq. (190) source convolution,
   and close the auxiliary-\(J\) pullback on one matched homogeneous layer;
-  see Note 0017. The nonlinear \(U\) pullback and cross-layer network
-  geometry remain open.
+  see Note 0017. Note 0018 closes the naive raw-\(U\) radius route and
+  specifies the missing scaled chart estimates. The scaled nonlinear
+  \(U\) pullback and cross-layer network geometry remain open.
 - [x] Prove a common zero-free source disk from bounded observable range,
   conditional on the exact pointwise kernel and positive finite source-free
   weighted partition function; see Note 0007. This does not supply a complex

@@ -363,9 +363,11 @@ also provide all of the following:
 1. quantitative coordinate, differential-of-exponential, gauge-restoration,
    and RG I Eq. (3.11) local-remainder factors relating Eq. (190)'s component
    kernel to both terms in (9);
-2. a volume- and scale-uniform nonlinear \(U\) coordinate tube; Note 0017
-   supplies the separate direct-\(J\) sup-norm collar under its strict
-   representative hypothesis;
+2. a volume- and scale-uniform nonlinear \(U\) coordinate tube in a coherent
+   RG-scaled regularity norm; Note 0017 supplies the separate direct-\(J\)
+   sup-norm collar, while Note 0018 proves that the naive raw and
+   \(U_A=e^{i\xi A}U\) bond-sup \(U\) radii collapse and isolates the scaled
+   replacement hypotheses;
 3. a cross-layer network comparison between Eq. (190)'s multiscale contour
    distance and the \(d_{k,\sigma}\) polymer metric; Note 0017 proves only the
    matched homogeneous-layer identity, disproves a uniform reverse bound,

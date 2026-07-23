@@ -376,9 +376,12 @@ norm.
 
 Note 0017 proves the exact source-measure cancellation, a dual
 \(d_{\mathcal B}\)-weighted kernel sum with no polymer-volume loss, and a
-conditional one-layer pullback for the \(D_J\)-chain-rule summand. The
-nonlinear \(U\)-collar, uniform chart coefficients, and all layer interfaces
-remain open, so the full physical derivative norm is still not proved.
+conditional one-layer pullback for the \(D_J\)-chain-rule summand. Note 0018
+then proves that full raw and \(U_A=e^{i\xi A}U\) per-bond sup-norm
+\(U\)-radii necessarily collapse as the regulator is removed. A collar in a
+concrete RG-scaled regularity norm, uniform chart coefficients, and all layer
+interfaces remain open, so the full physical derivative norm is still not
+proved.
 
 ## Exact boundary
 
@@ -390,9 +393,10 @@ remain open, so the full physical derivative norm is still not proved.
 - The fixed-regulator common radii obtained by compactness may shrink with
   volume, scale, chart choice, or changes in the admitted polymer family; the
   underlying polymer-specific margins need not be uniform. Under Note 0017's
-  strict representative hypothesis the direct-\(J\) radius is the exception;
-  no analogous \(U\) conclusion is available. Equations (17)--(18) expose the
-  remaining dependence rather than hiding it.
+  strict representative hypothesis the direct-\(J\) radius is the exception.
+  Note 0018 shows more than absence of a conclusion for \(U\): in the naive
+  raw and \(\xi\)-scaled per-bond sup norms the radius must vanish. Only its
+  explicitly conditional RG-scaled replacement remains viable.
 - Cross-regulator use would also require a coherent RG-normalized family of
   chart norms; positive numerical radii in unrelated norms would not suffice.
 - No coarse-field strict locality, uniform quasilocal derivative, fixed
@@ -407,7 +411,8 @@ remain open, so the full physical derivative norm is still not proved.
 - Let the physical \(J\)-values approach the boundary \(|J|=\alpha_0\) and
   observe that (8) gives no common positive \(J\)-radius.
 - Use an unscaled raw-log \(U\)-coordinate in place of
-  \(U_A=e^{i\xi A}U\) and expose the hidden factor of \(\xi\) in the radius.
+  \(U_A=e^{i\xi A}U\) and expose the hidden factor of \(\xi\) in the radius;
+  then check Note 0018 and observe that both naive radii still collapse.
 - Replace the norm balls (10)--(11) by coordinate-axis discs and identify the
   possible field-dimension factor.
 - Set \(q_de^{\theta_U}=1\) in (20)--(21) and observe that the proof loses

@@ -292,8 +292,35 @@ row sum used in Note 0017.
 On a matched homogeneous layer, Eq. (2.46) measures lattice length in
 \(s_r\) units while RG I's \(d_k\) measures the same contained-tree length
 in \(M s_r\) units. The tree metrics therefore differ by \(M\), up to bounded
-endpoint paths. Across layers, however, a segment \(r-r_0\) levels coarser
-has fixed-scale/multiscale ratio \(L^{r-r_0}/M\). Equation (2.57)'s interface
-penalty controls the layer-index sum but not travel inside the coarse layer,
-and the Note 0014 shifted cells need not align at deeper layers. No
-regulator-uniform cross-layer fixed-scale comparison was found.
+endpoint paths. Across layers, a segment \(r-r_0\) levels coarser has
+fixed-scale/multiscale ratio \(L^{r-r_0}/M\), so this example rules out only
+the reverse comparison \(d_k\lesssim d_{\mathcal B}\). A later visual and
+text-layer recheck corrected an earlier description of Eq. (2.57): it is a
+lower bound on actual travel between distinct layer surfaces used in the
+Eq. (2.58) summation, not an additive interface toll in the definition of
+\(d_{\mathcal B}\). The forward comparison
+\(d_{\mathcal B}\lesssim d_k+1\) therefore remains viable and reduces to an
+explicit local cell-map, support-halo, and root-anchor lemma; it is not
+refuted by shifted-grid misalignment.
+
+## 2026-07-22 -- full complex \(U\)-collar audit
+
+[RG I](https://scispace.com/pdf/renormalization-group-approach-to-lattice-gauge-field-3ygai0vxt1.pdf)
+Eqs. (1.10)--(1.16) and printed pp. 262--263 were rechecked together with
+[RG II](https://scispace.com/pdf/renormalization-group-approach-to-lattice-gauge-field-4penm4k7hc.pdf)
+Eqs. (1.34)--(1.35. The outer activity domain requires the full complex
+field to satisfy
+\(|dU-1|<(1+\beta)\alpha_0\xi^2\) in some complex gauge representative.
+The union-of-orbits wording does not create a raw collar: plaquette holonomy
+is changed only by similarity, so its spectrum is invariant.
+
+At the flat pair, four independent complex plaquette logs of norm \(t\) can
+be chosen so that the holonomy is \(e^{4tH}\). This gives the exact
+operator-norm condition-(iii) threshold
+\(\frac14\log(1+(1+\beta)\alpha_0\xi^2)\), with an explicit
+finite-dimensional norm-comparison constant for the retained paper norm.
+Consequently the raw log radius is \(O(\xi^2)\), and the radius in
+\(U_A=e^{i\xi A}U\) is \(O(\xi)\). RG I's p. 263 smaller-domain paragraph
+still gives a conditional route in a norm controlling Eq. (1.13) and the
+scaled plaquette increment, but it supplies neither that norm nor its
+uniform chart constants.

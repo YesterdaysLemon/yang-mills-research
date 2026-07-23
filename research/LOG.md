@@ -235,3 +235,43 @@ matched layer. In
 parallel, derive a quantitative stability theorem for the scaled relative
 \(U\)-chart constraints; only then combine both chain-rule summands and enter
 the fixed Section-2 connected expansion.
+
+## 2026-07-22 -- raw \(U\)-collar obstruction
+
+### Established
+
+- Rechecked that RG II Eq. (1.34)'s first parameter makes RG I condition
+  (iii) read \(|dU-1|<(1+\beta)\alpha_0\xi^2\) on the full complex \(U\),
+  while membership remains existential over its complex gauge orbit.
+- Proved YM-RG-018 at the identity physical pair. A four-link semisimple
+  complex plaquette direction has holonomy \(e^{4tH}\). Its spectrum is
+  unchanged by every \(SL(2,\mathbb C)\) gauge transformation, so a full raw
+  operator-sup log ball can have radius at most
+  \[
+  \frac14\log\left(1+
+  \frac{(1+\beta)\alpha_0\xi^2}{c_{\rm RG}}\right)=O(\xi^2).
+  \]
+- Converted the result to the relative coordinate
+  \(U_A=e^{i\xi A}U\): its naive per-bond operator-sup radius is at most
+  \(O(\xi)\). Thus neither radius can be uniform as \(\xi\downarrow0\).
+- Isolated the only viable positive replacement currently justified: a
+  shared split representative with strict smaller-domain margins and uniform
+  Eq. (1.13) plus scaled-plaquette Lipschitz estimates in a stronger
+  RG-scaled Banach norm. Under those unproved hypotheses, the p. 263
+  inclusion and Banach-space Cauchy formula give the desired collar and
+  \(D_U\)-activity bound.
+
+### Not established
+
+- No concrete RG-scaled \(U\) norm or uniform Eq. (1.13) BCH estimate.
+- No common shifted representative atlas, physical \(U\)-chain pullback, or
+  uniform chart coefficients.
+- No connected marked expansion, large-field estimate, RG iteration,
+  continuum construction, infrared estimate, or Yang--Mills mass gap.
+
+### Next decision
+
+Define the smallest scaled regularity norm that controls both RG I
+Eq. (1.13) and \(\xi^{-2}\Delta(dU)\), or close the fixed-partition rooted
+connected expansion first. The naive raw-radius route is now closed rather
+than merely unaudited.

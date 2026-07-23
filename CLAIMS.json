@@ -687,7 +687,7 @@
       ],
       "proof_anchor": "research/notes/0016-auxiliary-j-cauchy-tubes.md",
       "known_limitations": [
-        "Compactness and finiteness alone produce positive coordinate tubes only at a fixed regulator. YM-RG-017 separately gives a uniform direct-J sup-norm collar under a strict physical representative hierarchy; no uniform U collar is proved.",
+        "Compactness and finiteness alone produce positive coordinate tubes only at a fixed regulator. YM-RG-017 separately gives a uniform direct-J sup-norm collar under a strict physical representative hierarchy; YM-RG-018 proves that the naive raw and xi-scaled per-bond U radii necessarily collapse, while a collar in a stronger RG-scaled regularity norm remains conditional.",
         "No coherent RG-normalized identification of the U- and J-chart norms across regulators or scales is proved.",
         "RG II Eq. (1.34)'s first two enlarged parameters do not by themselves give a numerical U radius, and its third parameter controlling the direct J bound is not enlarged; YM-RG-017 uses RG I's separate strict smaller physical domain rather than the beta enlargement.",
         "The chartwise J-derivative decay has a regulator-, scale-, and chart-dependent constant; the differential-of-exponential, gauge-restoration, and local-remainder factors are not transcribed in a sharp common norm.",
@@ -707,7 +707,7 @@
       "open_objections": [
         "No independent human review has been recorded.",
         "The exact local remainder and chart factors in the physical J derivative need a scale-explicit primary-source transcription.",
-        "YM-RG-017 gives a strict direct-J sup-norm collar under a named physical representative hierarchy, but a uniform full product tube and nonlinear U radius have not been proved.",
+        "YM-RG-017 gives a strict direct-J sup-norm collar under a named physical representative hierarchy. YM-RG-018 rules out a uniform U radius in the naive raw and xi-scaled bond-sup log norms and leaves a compatible RG-scaled full product tube unproved.",
         "YM-RG-017 closes the dual source convolution and homogeneous-layer comparison for the J summand only; the forward cross-layer interface theorem and the full U-and-J physical pullback remain open.",
         "The shift family is not yet compatible with one fixed Section-2 connected cluster expansion."
       ],
@@ -742,7 +742,7 @@
       "known_limitations": [
         "The strict-J collar assumes that the split chart uses the raw affine direct-J coordinate with the bond-sup norm; a different coordinate or norm requires a uniform crosswalk.",
         "The fixed-chart source kernel has the honest envelope C_{J,4}s_j^{-3}+C_{J,2}s_j^{-2}+C_{J,1}s_j^{-1}; no regulator-uniform bound for those coefficients is proved.",
-        "The one-layer result controls only D_J W[D J h], not the D_U W[D U h] chain-rule summand; no uniform nonlinear U activity-domain collar is proved.",
+        "The one-layer result controls only D_J W[D J h], not the D_U W[D U h] chain-rule summand; YM-RG-018 proves that the naive raw and xi-scaled bond-sup U collars collapse and gives only a conditional template in a stronger RG-scaled regularity norm.",
         "The one-layer diameter-from-tree comparison is not an interface theorem and cannot be used when the shifted polymer or admissible contour crosses an unverified multiscale layer boundary.",
         "No one-fixed-partition compatibility, connected marked expectation, large-field estimate, RG iteration, continuum construction, infrared decay, or mass gap follows."
       ],
@@ -759,11 +759,56 @@
       "open_objections": [
         "No independent human review has been recorded.",
         "The p. 263 source hierarchy and representative transport need a line-by-line audit across every shifted activity chart.",
-        "Uniform local chart coefficients and a nonlinear U collar remain unproved.",
+        "Uniform local chart coefficients and a nonlinear U collar in a concrete RG-scaled regularity norm remain unproved; YM-RG-018 rules out the naive raw alternatives.",
         "A full layer-interface metric theorem and one-fixed-partition connected marked expansion remain open."
       ],
       "novelty_claim": false,
       "provenance": "AI-assisted representative-domain, Banach-duality, and weighted-kernel corollary of the cited RG-I/II, variational, and propagator formulas plus YM-RG-016; no novelty claimed.",
+      "last_audited_commit": null
+    },
+    {
+      "id": "YM-RG-018",
+      "kind": "Lemma",
+      "statement": "At the flat SU(2) background, any full complex independent-link raw log ball contained in RG II Eq. (1.34)'s outer activity domain has radius at most (1/4) log(1+(1+beta)alpha_0 xi^2/c_RG)=O(xi^2), and the corresponding U_A=exp(i xi A) bond-sup radius is O(xi); the obstruction survives every complex gauge representative by plaquette-spectrum invariance. Under separately named strict smaller-domain representatives and uniform RG-scaled Eq. (1.13)-(1.14) chart estimates, a positive scaled collar and its pulled-back chart derivative bound follow conditionally.",
+      "scope_and_quantifiers": "Four-dimensional SU(2); the identity independent-variable pair (U,J)=(1,0); a localization domain containing one full interior elementary plaquette whose four links are independent coordinates; the full complex sl(2,C) per-bond operator-sup log ball with a printed-norm spectral comparison c_RG; RG I scale xi tending to zero in one fixed-M hierarchy; RG II Eq. (1.34)'s first parameter (1+beta)alpha_0. The positive replacement is conditional on one shared split representative, strict smaller-domain margins including a fixed direct-J margin below the un-enlarged third parameter alpha_0, a coherent RG-scaled Banach norm, and uniform Eq. (1.13) and plaquette-increment Lipschitz estimates.",
+      "status": "proved-in-repo",
+      "evidence_level": "E2",
+      "dependencies": [
+        "YM-RG-017"
+      ],
+      "external_hypotheses": [
+        "RG I Eqs. (1.10)-(1.16) for the complex gauge-orbit domain, especially the full-U curvature inequality in condition (iii), and its p. 263 qualitative smaller-domain mechanism.",
+        "RG II Eqs. (1.34)-(1.35) for the outer independent-variable domain with first parameter (1+beta)alpha_0 and physical specialization.",
+        "For the conditional positive template only, hypothesis (H_U): one common split representative, strict Eq. (1.13)-(1.14) margins including direct J below the un-enlarged alpha_0, chart validity, and volume-, location-, and step-uniform Lipschitz constants in one fixed-M hierarchy."
+      ],
+      "sources": [
+        "https://doi.org/10.1007/BF01215223",
+        "https://doi.org/10.1007/BF01239022"
+      ],
+      "proof_anchor": "research/notes/0018-raw-u-collar-obstruction.md",
+      "known_limitations": [
+        "The proved obstruction concerns a full complex independent-link ball about the identity; it does not rule out a fixed-xi radius, a gauge-slice ball, a constrained minimizing-background image, or a derivative/curvature-weighted RG-scaled norm.",
+        "The exact curvature threshold is sharp in operator-norm normalization; a retained paper norm carries the explicit finite-dimensional comparison c_RG and other orbit-domain conditions may shrink the radius further.",
+        "The conditional scaled-collar template does not construct its Banach norm, prove Eq. (1.13) BCH regularity, establish a common shifted representative atlas, or bound the physical U pullback.",
+        "The independent J coordinate is held fixed during the obstruction; this is an activity-U Cauchy direction, not the composed physical curve J=scrJ_xi(U).",
+        "No connected marked expansion, large-field estimate, RG iteration, continuum construction, infrared decay, or mass gap follows."
+      ],
+      "falsification_tests": [
+        "Conjugate the four-link adversarial plaquette by an arbitrary SL(2,C) gauge transformation and verify that its spectral radius is unchanged.",
+        "Use a nilpotent instead of semisimple Cartan direction and observe that complex similarity can destroy the intended norm obstruction.",
+        "Check the open-ball endpoint: for every radius strictly above the threshold, the adversarial field has strictly smaller norm and violates the strict curvature inequality.",
+        "Convert from U=exp(i a) to U=exp(i xi A) and verify the extra division by xi, giving O(xi) rather than O(xi^2).",
+        "Use a boundary plaquette or constrained link family and identify the missing four-independent-coordinate premise.",
+        "Attempt to infer RG I Eq. (1.13) from scaled plaquette control alone and identify the unproved local representative/BCH estimate."
+      ],
+      "reviewers": [],
+      "open_objections": [
+        "No independent human review has been recorded.",
+        "The exact matrix-norm convention in the imported RG hierarchy needs a line-by-line immutable-source audit.",
+        "No concrete RG-scaled U norm, shared representative atlas, uniform chart estimates, or physical U-chain pullback has been proved."
+      ],
+      "novelty_claim": false,
+      "provenance": "AI-assisted elementary plaquette-spectrum obstruction and conditional smaller-domain Cauchy corollary of the cited RG-I/II formulas; no novelty claimed.",
       "last_audited_commit": null
     },
     {
@@ -788,7 +833,8 @@
         "YM-RG-014",
         "YM-RG-015",
         "YM-RG-016",
-        "YM-RG-017"
+        "YM-RG-017",
+        "YM-RG-018"
       ],
       "external_hypotheses": [
         "The exact Eq. (0.12) averaging map, raw group-delta transform, fixed small-field domain, local gauge chart, minimizing branch, and background-propagator estimates recorded in the imported-map audit.",
@@ -805,7 +851,7 @@
       "proof_anchor": "research/programs/003-first-source-jet-remainder.md",
       "known_limitations": [
         "This is an unproved small-field theorem specification.",
-        "YM-RG-010 fixes the operational selected-coordinate law, YM-RG-012 supplies a conditional independent-variable cube-count norm, YM-RG-013 upgrades the standard branch to d_k, YM-RG-014 supplies an all-plaquette shifted cover, YM-RG-015 supplies fixed-patch analytic physical composition, YM-RG-016 supplies the exact auxiliary-J reduction plus conditional independent-variable derivative norms, and YM-RG-017 supplies a strict representative-J collar plus a conditional homogeneous-layer J pullback; intrinsic/raw comparison, global chart compatibility, the U pullback, cross-layer geometry, unit translations, one-fixed-partition compatibility, connected expansion, and projection remain open.",
+        "YM-RG-010 fixes the operational selected-coordinate law, YM-RG-012 supplies a conditional independent-variable cube-count norm, YM-RG-013 upgrades the standard branch to d_k, YM-RG-014 supplies an all-plaquette shifted cover, YM-RG-015 supplies fixed-patch analytic physical composition, YM-RG-016 supplies the exact auxiliary-J reduction plus conditional independent-variable derivative norms, YM-RG-017 supplies a strict representative-J collar plus a conditional homogeneous-layer J pullback, and YM-RG-018 rules out naive raw U collars while isolating the scaled replacement hypotheses; intrinsic/raw comparison, global chart compatibility, the scaled U pullback, cross-layer geometry, unit translations, one-fixed-partition compatibility, connected expansion, and projection remain open.",
         "Even a proof would leave the second jet, large fields, RG iteration, continuum construction, and mass gap open."
       ],
       "falsification_tests": [
@@ -818,7 +864,7 @@
       "reviewers": [],
       "open_objections": [
         "YM-RG-009 proves patch-local transported-chart covariance, but global overlap compatibility and comparison with the unrestricted raw transform remain open.",
-        "YM-RG-017 supplies the direct-J collar, dual Eq. (190) source convolution, and homogeneous-layer J pullback, but the nonlinear U collar and pullback, forward cross-layer interface bound, uniform chart constants, unit translations, and one-fixed-partition cluster compatibility remain open.",
+        "YM-RG-017 supplies the direct-J collar, dual Eq. (190) source convolution, and homogeneous-layer J pullback; YM-RG-018 proves that naive raw U collars collapse, but the scaled U collar and pullback, forward cross-layer bridge, uniform chart constants, unit translations, and one-fixed-partition cluster compatibility remain open.",
         "No rooted connected source-marked RG II cluster expansion has been derived.",
         "Uniform locality of the projected first-jet sector is unproved."
       ],
@@ -847,7 +893,8 @@
         "YM-RG-014",
         "YM-RG-015",
         "YM-RG-016",
-        "YM-RG-017"
+        "YM-RG-017",
+        "YM-RG-018"
       ],
       "external_hypotheses": [
         "The selected RG I Eq. (0.12) averaging map and raw group-delta transform, the separately named YM-RG-010 exact coordinate law, an explicit intrinsic-coordinate-unrestricted distinction, exact marked domain/norm transcription, and every needed source-free small- and large-field estimate verified in full text before use."
@@ -872,7 +919,7 @@
       ],
       "reviewers": [],
       "open_objections": [
-        "The selected branch has patch-local transported-chart covariance, a source disk, an all-plaquette coarse-lattice-equivariant d_k marked family, fixed-patch physical composition, the exact auxiliary-J reduction, a strict representative-J collar, and a conditional homogeneous-layer J pullback, but the nonlinear U pullback, cross-layer geometry, global overlap compatibility, unit translations, one-fixed-partition compatibility, later-Lemma-3 profile norms, and relation to the unrestricted raw transform remain open.",
+        "The selected branch has patch-local transported-chart covariance, a source disk, an all-plaquette coarse-lattice-equivariant d_k marked family, fixed-patch physical composition, the exact auxiliary-J reduction, a strict representative-J collar, a conditional homogeneous-layer J pullback, and a proof that naive raw U collars collapse, but the scaled U pullback, cross-layer geometry, global overlap compatibility, unit translations, one-fixed-partition compatibility, later-Lemma-3 profile norms, and relation to the unrestricted raw transform remain open.",
         "The theorem may duplicate or fail to follow from existing source-free estimates.",
         "The source-dependent extension of the separate large-field operation has not been derived."
       ],
