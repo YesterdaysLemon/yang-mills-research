@@ -97,6 +97,13 @@ Pin the exact Bałaban block-map definitions and norms, then perform a theorem-l
   bookkeeping, not a printed Bałaban constant. The exact leading prefactor
   dropped by the available RG II Eq. (1.32) text layers remains visually
   unaudited.
+- Proved YM-RG-014 for \(M=L^m\), \(m\ge2\): the RG-admitted translations by
+  multiples of \(L\) give every plaquette at least \((M/L-1)^4\) interior
+  roots. A normalized shifted-family average preserves the Note 0013 weighted
+  norm without an orbit factor. A finite stabilizer average of the generalized
+  random-walk terms supplies exact weakened transport under the subgroup
+  preserving the next coarse lattice. This does not prove unit-translation
+  covariance or compatibility with one fixed Section-2 cluster partition.
 
 ### Corrections forced by the audit
 
@@ -116,10 +123,10 @@ Pin the exact Bałaban block-map definitions and norms, then perform a theorem-l
 ### Not established
 
 - No quasilocal source propagation or source-marked first/second-derivative
-  expectation bound. Notes 0012--0013 control only the fixed-partition-interior
-  pre-integration mark in independent variables, including its standard-branch
-  \(d_k\) norm, not shifted roots, the coarse-background pullback, or the
-  connected expectation.
+  expectation bound. Notes 0012--0014 control the pre-integration mark in
+  independent variables, including its standard-branch \(d_k\) norm and an
+  all-plaquette shifted cover, not the coarse-background pullback,
+  one-fixed-partition cluster compatibility, or the connected expectation.
 - No regulator-uniform control of the raw conditional cumulants; their exact
   identities alone do not imply locality or smallness.
 - The selected full-cutoff chart branch now has a patch-local Borel kernel and
@@ -137,8 +144,8 @@ Pin the exact Bałaban block-map definitions and norms, then perform a theorem-l
 
 ### Next decision
 
-Construct shifted roots and record their Euclidean transport, prove the
-Eq. (190) minimizing-background pullback preserves a summable marked norm, then
+Transcribe the fixed-patch minimizing-background chain rule and identify the
+additional margins needed to turn Eq. (190) into a summable marked norm, then
 carry the unique mark through Eqs. (2.2)–(2.13) and prove the rooted connected
 sum converges. Track raw vacuum mass separately.
 Refute or rewrite YM-RG-004 if the marked remainder fails quasilocality,

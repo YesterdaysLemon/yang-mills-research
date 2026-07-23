@@ -146,8 +146,11 @@ audit stage. Notes 0009--0012 later supplied patch-local transported covariance,
 local analytic-test continuation, and a conditional independent-variable
 cube-count localization for one mark. Note 0013 subsequently supplied the
 standard fixed-partition \(d_k\)-weighted upgrade under an explicit entropy
-margin. Global patch compatibility, shifted roots, the minimizing-background
-pullback, and the connected marked expectation remain open.
+margin. At that stage global patch compatibility, shifted roots, the
+minimizing-background pullback, and the connected marked expectation remained
+open. Note 0014 subsequently supplied an all-plaquette RG-admitted shifted
+cover and coarse-lattice-preserving transport. Unit translations and
+one-fixed-partition cluster compatibility remain open.
 
 ## 2026-07-22 — RG-II Eq. (1.32) prefactor audit
 
@@ -164,3 +167,20 @@ Note 0013 uses only the weaker consequence
 identified by the audit. Its strict \(\delta\kappa>\log64\) margin is derived
 repository bookkeeping, not a quotation of the paper. An archived visual
 transcription remains an open source-audit item.
+
+## 2026-07-22 — RG-I Eq. (2.17) shifted-root transport audit
+
+RG I p. 269 was rechecked against the [primary
+article](https://doi.org/10.1007/BF01215223). The sentence before Eq. (2.17)
+restricts the Euclidean symmetry to one preserving
+\(\mathbb T^{(k+1)}\); Eq. (2.17) defines the field pullback, and the discussion
+after Eqs. (2.17)--(2.18) supplies the induced split and orthogonal fluctuation
+transformation. It does not print covariance for arbitrary unit shifts or for
+RG II's intermediate weakening variables.
+
+Note 0014 therefore uses only translations by multiples of \(L\) and makes
+the generalized-random-walk weakening equivariant by an explicit finite
+stabilizer average. That Reynolds symmetrization is repository algebra: it
+preserves the exact propagator sum, localization, and analytic bound, but is
+not attributed to Bałaban as the printed expansion. Full unit-translation
+covariance remains open.

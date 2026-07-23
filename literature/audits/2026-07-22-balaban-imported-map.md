@@ -286,7 +286,16 @@ source-safe hierarchy consequence and explicit repository margin
 \(\delta\kappa>\log64\) to close the standard fixed-partition
 \(d_k\)-weighted norm. The numerical threshold is not attributed to the paper;
 the exact leading prefactor dropped by the available Eq. (1.32) text layers,
-shifted roots, the pullback, and the connected expansion remain open.
+shifted roots, the pullback, and the connected expansion remain open. [Note
+0014](../../research/notes/0014-equivariant-shifted-roots.md) subsequently
+covers every plaquette with the RG-admitted \(L\)-spaced shift orbit for
+\(M=L^m\), \(m\ge2\), retaining the same weighted norm after normalization.
+RG I's symmetry restriction preceding Eq. (2.17), its field pullback, and the
+post-Eq. (2.18) fluctuation transformation support transport only under the
+subgroup preserving the next coarse lattice. Exact intermediate weakening is
+obtained by a repository finite-stabilizer average, not quoted from the paper.
+Unit translations, one-fixed-partition cluster compatibility, the pullback,
+and the connected expansion remain open.
 
 ## Regular configurations and gauge chart
 

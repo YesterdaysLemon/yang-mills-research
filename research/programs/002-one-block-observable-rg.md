@@ -106,9 +106,12 @@ does not itself localize the marked insertion. [Note
 exact independent-variable rooted decomposition and conditional cube-count
 norm for fixed-partition interior plaquettes. [Note
 0013](../notes/0013-rooted-dk-norm.md) upgrades that norm on the standard
-\(M\)-cube branch under an explicit entropy margin. Shifted roots,
-full-partition Euclidean covariance, the coarse-background pullback, and the
-rooted connected cluster bound remain open.
+\(M\)-cube branch under an explicit entropy margin. [Note
+0014](../notes/0014-equivariant-shifted-roots.md) gives an RG-admitted
+shifted-family cover for every plaquette and transport under the subgroup
+preserving the next coarse lattice. Unit-translation covariance,
+single-partition cluster compatibility, the coarse-background pullback, and
+the rooted connected cluster bound remain open.
 
 ## Target statement
 
@@ -259,12 +262,16 @@ and no mass gap.
 - [x] Prove the exact independent-variable decomposition for each
   fixed-partition interior plaquette and a conditional cube-count norm uniform
   over those plaquettes; see Note 0012. The \(d_k\) upgrade is checked in the next
-  item; shifted roots, the minimizing-background pullback, and connected bounds
-  remain open.
+  item, and the shifted cover in the item after it; the minimizing-background
+  pullback and connected bounds remain open.
 - [x] Upgrade the standard wall-adjacent \(M\)-cube branch to a rooted
   \((1-2\delta)\kappa d_k\)-weighted norm under the explicit entropy margin;
-  see Note 0013. Shifted roots, the pullback, and the connected bound remain
-  open.
+  see Note 0013. The shifted cover is checked in the next item; the pullback
+  and connected bound remain open.
+- [x] Cover every plaquette by the normalized RG-admitted shifted family with
+  no additional orbit entropy and prove transport under the subgroup
+  preserving the next coarse lattice; see Note 0014. Unit translations and
+  one-fixed-partition cluster compatibility remain open.
 - [x] Prove a common zero-free source disk from bounded observable range,
   conditional on the exact pointwise kernel and positive finite source-free
   weighted partition function; see Note 0007. This does not supply a complex

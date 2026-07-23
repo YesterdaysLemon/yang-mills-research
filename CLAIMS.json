@@ -458,7 +458,7 @@
       "proof_anchor": "research/notes/0011-one-mark-mayer-seam.md",
       "known_limitations": [
         "The identity concerns the exact YM-RG-010 selected-coordinate law, not the intrinsic coarea law or unrestricted raw-fiber conditional.",
-        "This lemma alone does not localize the background-centered mark; YM-RG-012 separately proves the fixed-partition-interior decomposition and YM-RG-013 its standard-branch d_k norm under explicit entropy margins.",
+        "This lemma alone does not localize the background-centered mark; YM-RG-012 separately proves the fixed-partition-interior decomposition, YM-RG-013 its standard-branch d_k norm, and YM-RG-014 an all-plaquette shifted cover under explicit margins.",
         "The result proves only the first source jet at finite regulator and does not justify a full source-dependent RG induction or termwise infinite-volume limit.",
         "No marginal projection, profile-mixing classification, large-field control, RG iteration, continuum construction, infrared statement, or mass gap follows."
       ],
@@ -473,7 +473,7 @@
       "open_objections": [
         "No independent human review has been recorded.",
         "The exact correspondence between the full YM-RG-010 exponent and every activity in RG II Lemma 2 still needs termwise transcription.",
-        "YM-RG-012 and YM-RG-013 supply the fixed-partition-interior localization and standard-branch d_k norm, but shifted roots, the minimizing-background pullback, later Lemma-3 norm, and connected marked expectation remain open."
+        "YM-RG-012 through YM-RG-014 supply the fixed-partition localization, standard-branch d_k norm, and an all-plaquette shifted cover; unit translations, one-fixed-partition cluster compatibility, the minimizing-background pullback, later Lemma-3 norm, and connected marked expectation remain open."
       ],
       "novelty_claim": false,
       "provenance": "AI-assisted finite-dimensional source split and elementary one-mark Mayer algebra at the cited RG-II seam; no novelty claimed.",
@@ -501,9 +501,9 @@
       "proof_anchor": "research/notes/0012-rooted-plaquette-localization.md",
       "known_limitations": [
         "The result is conditional on the explicit q<1 parameter margin and directly controls localization-cube count; YM-RG-013 separately upgrades the standard M-cube branch to d_k, while other weakening geometries and the later Lemma-3 activity norm remain open.",
-        "Locality is only in independent (U,J,B) variables; substitution of the nonlocal minimizing background requires a separate quasilocal pullback theorem.",
-        "No Euclidean covariance theorem is proved; the partition-preserving transport identity must be recorded, followed by shifted partitions or an equivariant root symmetrization for the full lattice group.",
-        "The result does not carry the mark through cutoff conditioning, Gaussian localization, or the connected cluster sum, and its l1 profile corollary covers only plaquettes strictly interior to cubes of the fixed partition.",
+        "Locality is only in independent (U,J,B) variables; the physical specialization (U,J)=(U_{k+1}(W),J_{k+1}(W)) requires a separate quasilocal pullback theorem.",
+        "YM-RG-014 supplies an RG-admitted shifted-family cover and transport under the subgroup preserving the next coarse lattice; unit-translation covariance and the full fine-lattice space group remain open.",
+        "The result does not carry the mark through cutoff conditioning, Gaussian localization, or the connected cluster sum; YM-RG-014 extends the profile cover to every plaquette but does not place all shift labels in one fixed cluster partition.",
         "It concerns the exact selected-coordinate branch, not the intrinsic coarea or unrestricted raw-fiber conditional, and implies no RG iteration, continuum construction, infrared statement, or mass gap."
       ],
       "falsification_tests": [
@@ -517,8 +517,8 @@
       "reviewers": [],
       "open_objections": [
         "No independent human review has been recorded.",
-        "YM-RG-013 instantiates the standard four-dimensional wall-adjacency constant and a sufficient entropy margin, but compatibility outside that specialized branch remains open.",
-        "The full Euclidean root convention, minimizing-background pullback, later Lemma-3 norm, and connected marked expansion remain open."
+        "YM-RG-013 instantiates the standard four-dimensional wall-adjacency constant and a sufficient entropy margin, and YM-RG-014 transports it over the admitted shift orbit; compatibility with other weakening geometries remains open.",
+        "YM-RG-014 covers every plaquette with a coarse-lattice-preserving shifted family, but unit-translation covariance, one-fixed-partition cluster compatibility, minimizing-background pullback, later Lemma-3 norm, and the connected marked expansion remain open."
       ],
       "novelty_claim": false,
       "provenance": "AI-assisted marked mixed-difference and matrix-Lipschitz corollary of the cited RG-I/II finite-regulator construction; no novelty claimed.",
@@ -548,7 +548,7 @@
         "The numerical threshold delta kappa>log 64 is explicit repository one-mark animal bookkeeping, not a verbatim printed Bałaban constant.",
         "The exact leading prefactor in the printed RG II Eq. (1.32) hierarchy remains visually unaudited; the proof uses only the weaker consequence common to the candidate text-layer readings.",
         "The geometry comparison d_k(Y)<=m(Y) is specialized to the standard wall-adjacent M-cube branch; other weakening partitions require a new c_geo.",
-        "Only fixed-partition interior plaquettes and independent (U,J,B) locality are covered; shifted roots, Euclidean covariance, and the minimizing-background pullback remain open.",
+        "This lemma itself covers only fixed-partition interior plaquettes and independent (U,J,B) locality; YM-RG-014 adds an all-plaquette shifted family and coarse-lattice-preserving transport, while unit translations and the minimizing-background pullback remain open.",
         "The norm has not been carried through cutoff conditioning or the connected Section-2 cluster expansion and is not yet matched to the later Lemma-3 exponent.",
         "No intrinsic/raw density comparison, large-field control, RG iteration, continuum construction, infrared statement, or mass gap follows."
       ],
@@ -563,10 +563,57 @@
       "open_objections": [
         "No independent human review has been recorded.",
         "The explicit log 64 margin must be checked against every later parameter choice and decay expenditure before iteration.",
-        "Shifted-root covariance, minimizing-background quasilocality, and the connected one-mark cluster bound remain open."
+        "YM-RG-014 supplies a shifted family for every plaquette and coarse-lattice-preserving transport, but unit-translation covariance, minimizing-background quasilocality, one-fixed-partition cluster compatibility, and the connected one-mark cluster bound remain open."
       ],
       "novelty_claim": false,
       "provenance": "AI-assisted finite-regulator geometry and entropy corollary of YM-RG-012 and the cited RG-I/II definitions; no novelty claimed.",
+      "last_audited_commit": null
+    },
+    {
+      "id": "YM-RG-014",
+      "kind": "Lemma",
+      "statement": "For one finite four-dimensional SU(2) RG step with M=L^m and m>=2, the YM-RG-013 activities admit an exact normalized shifted-family decomposition for every plaquette, with the same rooted exp((1-2 delta) kappa d_k) norm and exact transport under the finite-lattice subgroup preserving the next coarse lattice.",
+      "scope_and_quantifiers": "One finite d=4 regulator and RG step; SU(2); periodic fine lattice of side N with M|N; M=L^m, m>=2; L-spaced shifts only; independent (U,J,B) variables on transported copies of the RG II Eq. (1.34) local domain; all YM-RG-012 and YM-RG-013 hypotheses; coarse-lattice-preserving hypercubic subgroup only.",
+      "status": "proved-in-repo",
+      "evidence_level": "E2",
+      "dependencies": [
+        "YM-RG-013"
+      ],
+      "external_hypotheses": [
+        "RG I p. 257 standard localization domains and shortest-tree d_k geometry.",
+        "The coarse-lattice-preserving Euclidean symmetry class preceding RG I Eq. (2.17), the Eq. (2.17) field pullback, and the induced split/fluctuation transformation discussed after Eqs. (2.17)-(2.18).",
+        "RG II generalized-random-walk expansions, their analytic bounds, and uniqueness of the local fixed points in Eqs. (1.3)-(1.4).",
+        "The source-safe hierarchy consequence and explicit entropy margin used by YM-RG-013."
+      ],
+      "sources": [
+        "https://doi.org/10.1007/BF01215223",
+        "https://doi.org/10.1007/BF01239022"
+      ],
+      "proof_anchor": "research/notes/0014-equivariant-shifted-roots.md",
+      "known_limitations": [
+        "The shift orbit contains only translations by multiples of L; unit translations moving the next coarse lattice and the full fine-lattice space group are not covered.",
+        "The equivariant weakening is obtained by a finite stabilizer average of transported generalized-random-walk terms; it is a repository construction, not the particular expansion printed by Balaban.",
+        "The result is a family indexed by a shift and polymer, not one activity family on a single fixed partition; compatibility with the RG-II Section-2 cluster sum remains open.",
+        "The reflection proof uses Tr(X^-1)=Tr(X) in SL(2,C) and is restricted to SU(2); no higher-rank extension is claimed.",
+        "Locality remains in independent (U,J,B), not after physical minimizing-background specialization; no global background-chart compatibility is proved.",
+        "No intrinsic/raw density comparison, connected marked expectation, large-field control, RG iteration, continuum construction, infrared statement, or mass gap follows."
+      ],
+      "falsification_tests": [
+        "Set m=1 and place a plaquette on an admitted wall; verify that the positive interior-root count can fail.",
+        "Enumerate admitted L-spaced shifts and verify n_p=product_i(n-f_i(p)) with f_i in {0,1} and n_p>0.",
+        "Remove the 1/n_p normalization and recover an unwanted orbit factor in the weighted norm.",
+        "Use an unsymmetrized random-walk expansion and identify the missing intermediate-weakening covariance.",
+        "Apply a unit translation that moves the next coarse lattice and reject use of the transport theorem.",
+        "Erase the shift label inside one fixed Section-2 cluster sum and identify the missing compatibility theorem."
+      ],
+      "reviewers": [],
+      "open_objections": [
+        "No independent human review has been recorded.",
+        "The finite stabilizer average must be reconciled with the exact unmarked Section-2 decorations before a connected marked expansion is claimed.",
+        "Unit-translation covariance, the physical (U,J) minimizing-background pullback, and the connected one-mark cluster bound remain open."
+      ],
+      "novelty_claim": false,
+      "provenance": "AI-assisted finite-regulator shifted-cover and Reynolds-symmetrization corollary of YM-RG-013 and the cited RG-I/II constructions; no novelty claimed.",
       "last_audited_commit": null
     },
     {
@@ -587,7 +634,8 @@
         "YM-RG-010",
         "YM-RG-011",
         "YM-RG-012",
-        "YM-RG-013"
+        "YM-RG-013",
+        "YM-RG-014"
       ],
       "external_hypotheses": [
         "The exact Eq. (0.12) averaging map, raw group-delta transform, fixed small-field domain, local gauge chart, minimizing branch, and background-propagator estimates recorded in the imported-map audit.",
@@ -604,7 +652,7 @@
       "proof_anchor": "research/programs/003-first-source-jet-remainder.md",
       "known_limitations": [
         "This is an unproved small-field theorem specification.",
-        "YM-RG-010 fixes the operational selected-coordinate law, YM-RG-012 supplies a conditional independent-variable cube-count norm, and YM-RG-013 upgrades the standard fixed-partition branch to d_k; intrinsic/raw comparison, global chart compatibility, shifted roots, the minimizing-background pullback, connected expansion, and projection remain open.",
+        "YM-RG-010 fixes the operational selected-coordinate law, YM-RG-012 supplies a conditional independent-variable cube-count norm, YM-RG-013 upgrades the standard branch to d_k, and YM-RG-014 supplies an all-plaquette shifted cover; intrinsic/raw comparison, global chart compatibility, unit translations, one-fixed-partition cluster compatibility, the minimizing-background pullback, connected expansion, and projection remain open.",
         "Even a proof would leave the second jet, large fields, RG iteration, continuum construction, and mass gap open."
       ],
       "falsification_tests": [
@@ -617,7 +665,7 @@
       "reviewers": [],
       "open_objections": [
         "YM-RG-009 proves patch-local transported-chart covariance, but global overlap compatibility and comparison with the unrestricted raw transform remain open.",
-        "YM-RG-013 closes only the standard fixed-partition d_k norm; shifted roots and the componentwise Eq. (190) minimizing-background pullback remain untranscribed.",
+        "YM-RG-014 supplies an all-plaquette shifted family only for the coarse-lattice-preserving symmetry class; unit translations, one-fixed-partition cluster compatibility, and the componentwise Eq. (190) minimizing-background pullback remain untranscribed.",
         "No rooted connected source-marked RG II cluster expansion has been derived.",
         "Uniform locality of the projected first-jet sector is unproved."
       ],
@@ -642,7 +690,8 @@
         "YM-RG-010",
         "YM-RG-011",
         "YM-RG-012",
-        "YM-RG-013"
+        "YM-RG-013",
+        "YM-RG-014"
       ],
       "external_hypotheses": [
         "The selected RG I Eq. (0.12) averaging map and raw group-delta transform, the separately named YM-RG-010 exact coordinate law, an explicit intrinsic-coordinate-unrestricted distinction, exact marked domain/norm transcription, and every needed source-free small- and large-field estimate verified in full text before use."
@@ -667,7 +716,7 @@
       ],
       "reviewers": [],
       "open_objections": [
-        "The selected branch has patch-local transported-chart covariance, a source disk, and a fixed-partition-interior d_k marked norm, but global overlap compatibility, shifted/equivariant roots, pullback/later-Lemma-3 profile norms, and relation to the unrestricted raw transform remain open.",
+        "The selected branch has patch-local transported-chart covariance, a source disk, and an all-plaquette coarse-lattice-equivariant d_k marked family, but global overlap compatibility, unit translations, one-fixed-partition cluster compatibility, pullback/later-Lemma-3 profile norms, and relation to the unrestricted raw transform remain open.",
         "The theorem may duplicate or fail to follow from existing source-free estimates.",
         "The source-dependent extension of the separate large-field operation has not been derived."
       ],

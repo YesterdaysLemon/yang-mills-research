@@ -166,11 +166,11 @@
       "severity": "S1",
       "status": "open",
       "targets": ["YM-RG-011"],
-      "summary": "The one-mark source split and Mayer identity have no independent human review; YM-RG-012 and YM-RG-013 supply a fixed-partition-interior localization and d_k norm, but not shifted roots, the pullback, or the connected marked estimate.",
+      "summary": "The one-mark source split and Mayer identity have no independent human review; YM-RG-012 through YM-RG-014 supply localization, a standard-branch d_k norm, and an all-plaquette shifted cover, but not the physical pullback or connected marked estimate.",
       "resolution_requirements": [
         "Record a line-by-line human review tied to an immutable commit.",
         "Transcribe the full YM-RG-010 exponent into the exact RG-II Lemma-2 activity family used by the Mayer identity.",
-        "Audit YM-RG-012 and YM-RG-013, then extend their fixed-partition-interior d_k norm to shifted roots with a fully equivariant convention and compatible later decay expenditures.",
+        "Audit YM-RG-012 through YM-RG-014, then reconcile the shifted family with one fixed cluster partition and every later decay expenditure.",
         "Carry the unique mark through RG II Eqs. (2.2)-(2.13) and prove the rooted connected sum converges.",
         "Keep the finite algebraic identity separate from intrinsic/raw density matching, large fields, RG iteration, continuum limits, and the mass gap."
       ]
@@ -180,12 +180,12 @@
       "severity": "S1",
       "status": "open",
       "targets": ["YM-RG-012"],
-      "summary": "The rooted plaquette cube-count lemma has no independent human review; YM-RG-013 upgrades the standard M-cube branch to d_k, but shifted roots, the minimizer pullback, and the connected marked expectation remain open.",
+      "summary": "The rooted plaquette cube-count lemma has no independent human review; YM-RG-013 upgrades the standard M-cube branch to d_k and YM-RG-014 covers every plaquette, but unit translations, the minimizer pullback, and the connected marked expectation remain open.",
       "resolution_requirements": [
         "Record a line-by-line human review tied to an immutable commit.",
         "Verify the RG-I exponential link reconstruction, RG-II weakening contour, Eq. (1.21) norm conversion, and complex plaquette Lipschitz constant against the primary equations.",
         "Audit YM-RG-013's standard-branch degree, d_k geometry, and explicit entropy margin against the complete printed RG parameter hierarchy.",
-        "Extend the d_k norm to shifted roots and construct a root assignment covariant under the full required lattice symmetry group.",
+        "Audit YM-RG-014's admitted shift count, stabilizer-symmetrized weakening, and coarse-lattice-preserving transport, then either prove unit-translation covariance or retain its absence.",
         "Prove the Eq. (190) minimizing-background pullback is quasilocal on one common analytic patch.",
         "Carry the marked seed through RG II Eqs. (2.2)-(2.13), including the sharp cutoff and numerator-denominator cancellation, and prove the connected marked sum converges.",
         "Keep the result separate from intrinsic/raw density matching, large fields, RG iteration, continuum limits, and the mass gap."
@@ -196,14 +196,29 @@
       "severity": "S1",
       "status": "open",
       "targets": ["YM-RG-013"],
-      "summary": "The rooted d_k norm has no independent human review and its explicit entropy threshold has not been propagated through shifted roots, the minimizing-background pullback, or the later cluster decay expenditures.",
+      "summary": "The rooted d_k norm has no independent human review; YM-RG-014 propagates it through the admitted shifted family, but not the minimizing-background pullback or later cluster decay expenditures.",
       "resolution_requirements": [
         "Record a line-by-line human review tied to an immutable commit.",
         "Verify RG I's shortest-tree definition, the center-tree comparison d_k(Y)<=m(Y), and the four-dimensional degree bound D_0<=8.",
         "Visually transcribe the dropped leading prefactor, signs, and parameter range in RG II Eq. (1.32), and reconcile delta kappa>log 64 with every subsequent RG-II entropy expenditure.",
-        "Generalize the geometry with an explicit c_geo for every shifted or nonstandard weakening partition actually used.",
-        "Prove partition transport, the Eq. (190) minimizing-background pullback, and the connected one-mark Section-2 bound in compatible weighted norms.",
+        "Audit the translated standard geometry and actual n_p normalization for every admitted shift used by YM-RG-014; introduce c_geo for any nonstandard weakening partition.",
+        "Prove one-fixed-partition compatibility, the Eq. (190) physical (U,J) minimizing-background pullback, and the connected one-mark Section-2 bound in compatible weighted norms.",
         "Keep the result separate from intrinsic/raw density matching, large fields, RG iteration, continuum limits, and the mass gap."
+      ]
+    },
+    {
+      "id": "OBJ-018",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-014"],
+      "summary": "The RG-admitted shifted-root cover has no independent human review and has not been reconciled with unit translations, one fixed Section-2 cluster partition, or the physical minimizing-background specialization.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Verify the M=L^m shift geometry, n_p count, and normalized no-orbit-entropy bound on the exact finite torus conventions.",
+        "Check the Reynolds average of generalized-random-walk terms, representative independence, fixed-point uniqueness step, and pullback/pushforward convention against RG I Eqs. (2.17)-(2.18) and RG II Eqs. (1.3)-(1.4).",
+        "Either construct covariance under unit translations moving the next coarse lattice or keep that symmetry outside the claim.",
+        "Reconcile the shift label with the unmarked Section-2 decorations before using YM-RG-014 in a connected cluster sum.",
+        "Prove the physical (U,J) minimizer pullback in a summable marked norm and keep all intrinsic/raw, large-field, continuum, and mass-gap claims separate."
       ]
     }
   ]

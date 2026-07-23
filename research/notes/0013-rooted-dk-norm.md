@@ -207,10 +207,14 @@ through RG II Eqs. (2.2)--(2.13).
 - The theorem is conditional on Note 0012, the selected \(\pi_k\) geometry,
   the source-safe consequence (10), common to the candidate readings of RG II
   Eq. (1.32), and the explicit added entropy margin (13).
-- It covers plaquettes strictly interior to one fixed partition. Shifted roots,
-  boundary-crossing plaquettes, and Euclidean covariance remain open.
+- It covers plaquettes strictly interior to one fixed partition. Note 0014
+  subsequently supplies an RG-admitted shifted-family cover for
+  boundary-crossing plaquettes and transport under the subgroup preserving the
+  next coarse lattice; unit-translation covariance and one-fixed-partition
+  cluster compatibility remain open.
 - The activities are local only in independent \((U,J,B)\). No locality or
-  quasilocality after \(U=U_{k+1}(W)\) is inferred.
+  quasilocality after the physical specialization
+  \((U,J)=(U_{k+1}(W),J_{k+1}(W))\) is inferred.
 - No cutoff-conditioned marked cluster sum, connected numerator/denominator
   cancellation, marginal projection, profile-mixing theorem, or large-field
   bound follows.

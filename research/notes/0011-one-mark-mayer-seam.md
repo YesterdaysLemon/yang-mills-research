@@ -203,9 +203,11 @@ Note 0012 subsequently proves (12) on the independent RG-II \((U,J,B)\)
 domain for plaquettes interior to one fixed localization partition, with a
 conditional interior-location-uniform cube-count norm. Note 0013 upgrades that
 norm to the target (13) for the standard wall-adjacent \(M\)-cube branch under
-an explicit entropy margin. Neither note proves shifted roots, locality after
-the minimizing-background pullback, full-partition Euclidean covariance, or
-the connected marked expansion.
+an explicit entropy margin. Note 0014 subsequently gives an RG-admitted
+shifted-root cover for every plaquette and transport under the subgroup
+preserving the next coarse lattice. It does not prove unit-translation
+covariance, locality after the minimizing-background pullback, compatibility
+with one fixed cluster partition, or the connected marked expansion.
 
 Given (12), a marked activity \(W_{k,p}(A)\) and an unmarked Mayer
 family \(D\) have the rooted seed
@@ -230,9 +232,10 @@ of those rooted estimates is proved by (10).
   discrete \(C^6\) source norm.
 - This note alone proves no localization of \(\Delta_p\). Note 0012 separately
   supplies the independent-variable fixed-partition decomposition, and Note
-  0013 its standard-branch \(d_k\) norm; shifted roots, termwise cluster
-  differentiation, marginal projection, position/orientation mixing, and the
-  large-field estimate remain open.
+  0013 its standard-branch \(d_k\) norm, and Note 0014 an all-plaquette
+  RG-admitted shifted cover; fixed-partition cluster compatibility, termwise
+  cluster differentiation, marginal projection, position/orientation mixing,
+  and the large-field estimate remain open.
 - No RG iteration, continuum construction, Osterwalder–Schrader
   reconstruction, infrared decay estimate, or mass gap follows.
 

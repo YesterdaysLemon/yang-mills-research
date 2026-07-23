@@ -301,8 +301,8 @@ covariance weakening, component factorization, and connected graph sum in RG
 II Eqs. (2.2)--(2.13).
 
 Locality in independent \((U,J,B)\) variables also does not become locality in
-the coarse field \(W\) after the nonlocal substitution
-\(U=U_{k+1}(W)\). A separate quasilocal pullback theorem using the variational
+the coarse field \(W\) after the physical nonlocal specialization
+\((U,J)=(U_{k+1}(W),J_{k+1}(W))\). A separate quasilocal pullback theorem using the variational
 paper's componentwise Eq. (190) bounds is required.
 
 ## Exact boundary
@@ -320,6 +320,10 @@ paper's componentwise Eq. (190) bounds is required.
 - The supremum and profile corollary cover only
   \(\mathcal P_{\rm int}(\mathcal Q)\); a shifted-root construction is required
   before arbitrary plaquette support is covered.
+- Note 0014 subsequently supplies an RG-admitted shifted-family cover for
+  arbitrary plaquette support and transport under the subgroup preserving the
+  next coarse lattice. It does not prove unit-translation covariance or
+  compatibility with one fixed Section-2 cluster partition.
 - The result is local in independent \((U,J,B)\), not in \(W\), and concerns
   the exact selected-coordinate branch only. It is not an intrinsic-coarea or
   unrestricted raw-fiber theorem.

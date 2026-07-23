@@ -94,8 +94,12 @@ Cluster expansions*, **CMP 116** (1988), 1–22,
   norm on the standard fixed-partition \(M\)-cube branch, conditional on the
   source-safe consequence \(\kappa _1-1\ge(1-\delta)\kappa\) and explicit
   repository entropy margin \(\delta\kappa>\log64\). The available text layers
-  drop the exact printed leading prefactor; its visual transcription and shifted
-  roots remain open.
+  drop the exact printed leading prefactor; its visual transcription remains
+  open. [Note 0014](../../research/notes/0014-equivariant-shifted-roots.md)
+  averages the marked family over the RG-admitted \(L\)-spaced shifts, using a
+  repository stabilizer average to make the intermediate weakening equivariant.
+  It covers every plaquette and transports under the subgroup preserving the
+  next coarse lattice, not under arbitrary unit translations.
 
 ### Convergent expansions: conditional complete-density scheme
 
@@ -161,7 +165,7 @@ OS-positivity, continuum, or gap results.
 | External scalar source \(zf\), propagation under a block map, and \(\partial_z\), \(\partial_z^2\) bounds | No theorem located in the audited texts |
 | Source-jet norm, localized marginal projections, or volume-uniform first/second derivative bounds | No theorem located |
 | Inserted-observable decomposition compatible with the constant-profile derivative | No theorem located; the raw first-jet identity itself is algebraic once a coupling-independent raw transform is fixed |
-| One marked plaquette at the RG-II Mayer seam | Finite background split and Mayer algebra proved in Note 0011; Note 0012 proves the fixed-partition-interior mixed-difference/cube-count result; Note 0013 upgrades the standard \(M\)-cube branch to a conditional rooted \(d_k\) norm; shifted roots, pullback, and the connected marked expectation remain open |
+| One marked plaquette at the RG-II Mayer seam | Finite background split and Mayer algebra proved in Note 0011; Note 0012 proves the fixed-partition-interior mixed-difference/cube-count result; Note 0013 upgrades the standard \(M\)-cube branch to a conditional rooted \(d_k\) norm; Note 0014 covers every plaquette with a coarse-lattice-preserving shifted family; unit translations, one-fixed-partition cluster compatibility, pullback, and the connected marked expectation remain open |
 | One-loop coefficient in the source-inserted normalization | Not proved by RG I; its coupling theorem is deferred |
 | Reflection positivity of gauge-fixed/RG effective actions | No theorem located |
 | Continuum Schwinger functions, OS reconstruction, infinite-volume clustering, mass gap | Outside the verified scope |

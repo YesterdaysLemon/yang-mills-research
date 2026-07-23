@@ -92,10 +92,12 @@ minimizing orbit. Define their deliberately labeled difference
 Note 0011 settles its exact background split and one-mark Mayer algebra. Note
 0012 proves the exact rooted decomposition and a conditional cube-count norm,
 uniform over plaquettes interior to one fixed partition, in the independent
-RG-II variables. Note 0013 upgrades it to the exact
+RG-II variables. Note 0013 upgrades it to the conditional
 \((1-2\delta)\kappa d_k\)-weighted norm on the standard \(M\)-cube branch under
-an explicit entropy margin. The shifted-root extension,
-minimizing-background pullback, and connected marked expectation are the first
+an explicit entropy margin. Note 0014 supplies an RG-admitted shifted-family
+cover for every plaquette and coarse-lattice-preserving transport. The
+minimizing-background pullback, one-fixed-partition cluster compatibility,
+unit-translation covariance, and connected marked expectation are the first
 parts not settled by those auxiliary lemmas or the imported source-free theorem.
 
 ## Target theorem
@@ -164,13 +166,17 @@ infrared conclusions.
   without by itself supplying localization;
 - the exact independent-variable rooted decomposition and conditional
   fixed-partition-interior cube-count norm for one plaquette mark (Note 0012),
-  without shifted roots, minimizing-background pullback, or a connected
-  marked expectation;
+  without by itself supplying shifted roots, minimizing-background pullback,
+  or a connected marked expectation;
 - the rooted \((1-2\delta)\kappa d_k\)-weighted norm on the standard
   wall-adjacent \(M\)-cube branch (Note 0013), under the source-safe hierarchy
   consequence and explicit added entropy margin
   \(\delta\kappa>\log64\), without a claim that this numerical threshold or the
   exact text-layer-dropped prefactor is printed as transcribed in RG II;
+- the normalized RG-admitted shifted-family cover for every plaquette and
+  transport under the subgroup preserving the next coarse lattice (Note
+  0014), without unit-translation covariance, one-fixed-partition cluster
+  compatibility, or minimizing-background quasilocality;
 - background-propagator decay and change-of-domain estimates;
 - RG I/II source-free local analytic polymer expansions.
 
@@ -189,12 +195,16 @@ None of those inputs supplies the displayed source-inserted polymer theorem.
 4. [x] Upgrade the standard \(M\)-cube branch to the conditional rooted
    \(d_k\)-weighted norm on the standard branch
    with strict entropy slack; see Note 0013.
-5. [ ] Extend to shifted roots, record Euclidean transport, and prove the
-   Eq. (190) minimizing-background pullback is quasilocal in a summable marked
-   norm.
-6. [ ] Carry exactly one rooted mark through RG II Eqs. (2.2)–(2.13), using
+5. [x] Cover every plaquette by the RG-admitted shifted family and record
+   transport under the subgroup preserving the next coarse lattice; see Note
+   0014. Full unit-translation covariance and cluster-partition compatibility
+   remain open.
+6. [ ] Prove the physical \((U,J)\) minimizing-background pullback is
+   quasilocal in a summable marked norm using the exact Eq. (190) component
+   kernel and an explicit metric/norm crosswalk.
+7. [ ] Carry exactly one rooted mark through RG II Eqs. (2.2)–(2.13), using
    Lemma 3 for the unmarked decorations, and prove the connected sum converges.
-7. [ ] Perform the full symmetry/Ward-identity projection on the marked first
+8. [ ] Perform the full symmetry/Ward-identity projection on the marked first
    jet and classify all position/orientation mixing.
 
 ## Falsification tests
