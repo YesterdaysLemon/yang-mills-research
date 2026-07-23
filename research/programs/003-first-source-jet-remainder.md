@@ -106,8 +106,11 @@ Eq. (190) source convolution, and a conditional homogeneous-layer pullback
 for the auxiliary-\(J\) chain-rule summand. Note 0018 proves that naive raw
 and \(\xi\)-scaled bond-sup \(U\) collars collapse and isolates the necessary
 RG-scaled replacement hypotheses. Note 0019 proves a conditional all-layer
-\(J\)-summand extension under explicit interface, tree-lift, support, mesh,
-and common-chart premises. Note 0020 proves the exact one-mark Ursell formula
+\(J\)-summand extension under explicit geometry and common-chart premises.
+Note 0028 removes its discrete-tree-lift premise and supplies zero support
+halos for first-stage direct-\(J\) activities; ownership/interface, bounded
+mesh, completed-gas support, and common chart constants remain conditional.
+Note 0020 proves the exact one-mark Ursell formula
 and a conditional pinned cluster bound for one fixed hard-core gas, and shows
 that bare shifted marks cannot be mixed without branch synchronization or a
 proved common-gas embedding. Note 0021 constructs the exact decorated
@@ -132,8 +135,9 @@ lifts the two-scale cubulations, reconstructs the same dual-number integral
 on every separate shifted branch, and synchronizes their connected first jets
 with no orbit factor. Notes 0007 and 0010 already give the selected-coordinate
 scalar source disk; source-dependent polymer activities and KP convergence at
-nonzero source remain open. The scaled \(U\) pullback, uniform
-realization of Note 0019's premises, and full physical coarse-field
+nonzero source remain open. The scaled \(U\) pullback, the remaining
+ownership/interface, mesh, completed-gas support, and common-chart premises
+from Note 0019, and the full physical coarse-field
 derivative/quasilocal norm,
 unit-translation covariance and a physical convergent connected marked
 estimate are the first parts not settled by those auxiliary lemmas or the
@@ -232,10 +236,11 @@ infrared conclusions.
 - the strict representative-\(J\) collar, dual source-measure kernel sum, and
   conditional homogeneous-layer pullback for the auxiliary-\(J\) chain-rule
   summand (Note 0017), together with the raw-\(U\) collar obstruction and
-  conditional scaled-collar template (Note 0018), and the conditional
-  all-layer \(J\)-summand bridge (Note 0019), without a concrete RG-scaled
-  \(U\) norm or a proof of Note 0019's interface, tree-lift, support, mesh,
-  and uniform-chart premises;
+  conditional scaled-collar template (Note 0018), the conditional all-layer
+  \(J\)-summand bridge (Note 0019), and the periodic endpoint replacement
+  plus first-stage direct-\(J\) anchors (Note 0028), without a concrete
+  RG-scaled \(U\) norm or a proof of Note 0019's ownership/interface,
+  bounded-mesh, completed-gas support, and uniform-chart premises;
 - the exact fixed-gas distinguished-vertex Ursell identity, repeated-label
   convention, shifted-branch separation rule, and conditional pinned
   Kotecky--Preiss implication (Note 0020);
@@ -289,10 +294,11 @@ None of those inputs supplies the displayed source-inserted polymer theorem.
    layer; see Note 0017. The note also disproves a uniform reverse
    cross-layer bound. Note 0019 proves the forward all-layer implication
    conditionally under its named geometry and uniformity premises.
-9. [ ] Discharge Note 0019's interface, tree-lift, support, mesh, and
-   common-chart premises for the exact shifted family; construct the nonlinear
-   \(U\) collar and pullback in an RG-scaled regularity norm. Note 0018 proves
-   that the naive raw alternatives cannot satisfy this step.
+9. [x] Remove Note 0019's discrete-tree-lift premise and its \(\tau\)
+   loss by a periodic covering-space endpoint argument, and prove zero
+   support halos for the first-stage direct-\(J\) activities; see Note 0028.
+   Ownership/interface, bounded mesh, completed-gas external-\(J\) support,
+   and common-chart constants remain open.
 10. [x] Carry exactly one rooted mark through RG II Eqs. (2.2)–(2.13) on
    one fixed compatible partition, using Lemma 3 for the unmarked
    decorations, and prove the connected first-jet sum converges.
@@ -317,7 +323,8 @@ None of those inputs supplies the displayed source-inserted polymer theorem.
     interactions, under \(LM\mid N\) and the nonempty common-domain
     hypothesis; see Note 0027.
 12. [ ] Compose the physical \(U/J\) first-jet pullbacks by constructing the
-    scaled nonlinear \(U\) collar and discharging Note 0019's geometric and
+    scaled nonlinear \(U\) collar and discharging Note 0019's remaining
+    ownership/interface, bounded-mesh, completed-gas support, and
     uniform-chart premises.
 13. [ ] Separately construct source-dependent polymer activities and uniform
     KP convergence on a nonzero-source disk. The selected-coordinate scalar

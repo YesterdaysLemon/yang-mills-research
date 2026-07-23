@@ -49,14 +49,16 @@ The main route is a Wilson lattice regulator followed by gauge-covariant renorma
 - [Note 0025: source-faithful conditioned routing of one localized mark](research/notes/0025-conditioned-mark-routing.md)
 - [Note 0026: positive marked-seed resummation through the RG-II scale step](research/notes/0026-marked-seed-resummation.md)
 - [Note 0027: shifted first-jet synchronization through nested Section-2 branches](research/notes/0027-shifted-first-jet-synchronization.md)
+- [Note 0028: periodic endpoint bridge without tree digitization](research/notes/0028-endpoint-distance-bridge.md)
 - [Bałaban theorem-level source map](literature/audits/2026-07-22-balaban-source-map.md)
 - [Bałaban imported-map audit](literature/audits/2026-07-22-balaban-imported-map.md)
 - [Bałaban final-gas/KP source audit](literature/audits/2026-07-22-balaban-final-gas-kp-map.md)
 - [Bałaban conditioned-mark routing audit](literature/audits/2026-07-23-balaban-conditioned-mark-routing.md)
 - [Bałaban marked-resummation source audit](literature/audits/2026-07-23-balaban-marked-resummation.md)
 - [Bałaban shifted first-jet transport audit](literature/audits/2026-07-23-balaban-shifted-first-jet-transport.md)
+- [Bałaban contained-tree to multiscale-endpoint audit](literature/audits/2026-07-23-endpoint-distance-bridge.md)
 
-Programs 002 and 003 are open theorem specifications, not results. The notes prove auxiliary finite-regulator and fixed-chart statements for a selected small-field branch; they do not identify that branch with the unrestricted raw transform. Notes 0021, 0025, and 0026 carry one interior plaquette mark through the exact fixed-partition RG-II algebra, the source-faithful conditioned formula, and the positive \(D/P/Z_0\) plus scale resummations. Under the explicit doubled-\(\varepsilon _2\) refinement and Note 0024's separate ordinary KP ceiling, this gives an absolutely convergent connected first derivative at \(t=0\). Under the added periodic compatibility \(LM\mid N\) and a nonempty common external branch domain, Note 0027 repeats the complete construction on every nested shifted branch, proves that all branch numerator/denominator pairs reconstruct the same dual-number integral up to a nonzero scalar, and averages only the completed connected coefficients. The selected-coordinate scalar source disk was already proved in Notes 0007 and 0010. Source-dependent polymer activities at nonzero source, unit-translation covariance, the scaled nonlinear \(U\) pullback, uniform realization of Note 0019's \(J\)-bridge premises, large fields, RG iteration, continuum construction, axioms, infrared decay, and the mass gap remain open. No Yang--Mills solution is claimed here.
+Programs 002 and 003 are open theorem specifications, not results. The notes prove auxiliary finite-regulator and fixed-chart statements for a selected small-field branch; they do not identify that branch with the unrestricted raw transform. Notes 0021, 0025, and 0026 carry one interior plaquette mark through the exact fixed-partition RG-II algebra, the source-faithful conditioned formula, and the positive \(D/P/Z_0\) plus scale resummations. Under the explicit doubled-\(\varepsilon _2\) refinement and Note 0024's separate ordinary KP ceiling, this gives an absolutely convergent connected first derivative at \(t=0\). Under the added periodic compatibility \(LM\mid N\) and a nonempty common external branch domain, Note 0027 repeats the complete construction on every nested shifted branch, proves that all branch numerator/denominator pairs reconstruct the same dual-number integral up to a nonzero scalar, and averages only the completed connected coefficients. Note 0028 removes Note 0019's artificial discrete-tree-lift hypothesis and its \(\tau\) loss by a periodic covering-space endpoint argument, and supplies zero support halos for the first-stage direct-\(J\) activities. It does not prove the remaining ownership/interface hypothesis, bounded mesh matching, completed-gas external-\(J\) support, common chart constants, or the nonlinear \(U\) pullback. The selected-coordinate scalar source disk was already proved in Notes 0007 and 0010. Source-dependent polymer activities at nonzero source, unit-translation covariance, those remaining physical \(U/J\) pullback gates, large fields, RG iteration, continuum construction, axioms, infrared decay, and the mass gap remain open. No Yang--Mills solution is claimed here.
 
 Note 0020 settles the exact distinguished-vertex Ursell formula, including
 its \(1/n!\) coefficient, repeated labels, and a conditional pinned cluster
@@ -82,6 +84,21 @@ modulo \(LM\), runs each gas separately over
 \(\mathbb C[\epsilon]/(\epsilon^2)\), and proves projective equality before
 forming the logarithm. Normalizing the completed branch coefficients by the
 full lifted count costs no orbit factor. No cross-shift gas is introduced.
+
+Note 0028 replaces the discrete-tree-lift premise in Note 0019 by a direct
+periodic endpoint estimate. A continuous contained tree of Euclidean length
+\(\ell\) gives at most \(\sqrt d\,\ell/\eta\) fine-lattice endpoint steps;
+after the two within-cube allowances this yields
+\[
+D_{\mathcal B}(q_p,Y)
+\le c_{\rm nn}\!\left[
+\sqrt d\,Mb\,d_{k,\sigma}(Y)+2dMb+h+h_q
+\right].
+\]
+For first-stage direct-\(J\) activities, the already proved interior-bond
+support gives \(h=h_q=0\). The ownership/interface hypothesis
+\((\mathrm H_\rho)\), bounded mesh ratio, completed-gas support, common
+analytic constants, and every nonlinear-\(U\) issue remain open.
 
 Under its stated common \(L^1\)-holomorphy and joint-majorant hypotheses,
 Note 0022 proves that Eq. (2.8)'s whole-integrand weakening contour carries

@@ -320,8 +320,11 @@ chain-rule summand. Note 0018 proves that full naive raw and \(\xi\)-scaled
 bond-sup \(U\) collars collapse and records the conditional RG-scaled
 replacement. Note 0019 proves a forward all-layer auxiliary-\(J\) pullback
 only under explicit seam-aware ownership, source-admissible interface,
-exact tree-lift, support-halo, mesh, and common-chart premises; those
-premises are not imported source theorems. [Note
+support, mesh, and common-chart premises. Note 0028 removes the exact
+tree-lift through a repository periodic-endpoint argument and separately
+uses Note 0012's locality plus deterministic base-site anchors to remove the
+first-stage direct-\(J\) halos; neither corollary nor the remaining premises
+is an imported source theorem. [Note
 0020](../../research/notes/0020-one-mark-ursell-identity.md) separately proves
 the exact one-mark Ursell algebra and a conditional pinned bound for one fixed
 hard-core gas. It keeps the \(1/n!\) distinguished-slot factor, repeated
@@ -355,7 +358,8 @@ repository bookkeeping, not imported source constants.
 No marked Lemma 3 is imported from Balaban. Note 0026 is instead a repository
 one-colour corollary using Note 0024's one-sided source-metric crosswalk and
 ordinary window together with Note 0023's model. The scaled nonlinear \(U\)
-pullback, uniform realization of Note 0019's geometry, a nonzero-source
+pullback, uniform realization of Note 0019's remaining ownership/interface,
+mesh, completed-gas support, and chart geometry, a nonzero-source
 polymer-activity disk, and the physical connected estimate remain open.
 Subsequent Note 0027 separately transports the complete construction over
 nested shifted branches and synchronizes their first jets.

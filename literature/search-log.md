@@ -695,3 +695,29 @@ first-jet synchronization gate. Earlier ledger phrases saying that a
 already give the selected-coordinate scalar zero-free disk, whereas
 source-dependent polymer activities and uniform KP convergence at nonzero
 source remain unproved.
+
+## 2026-07-23 -- contained-tree endpoint bridge
+
+No new external paper was needed. The immutable RG-I and Propagators-II
+records were reused in the
+[endpoint audit](audits/2026-07-23-endpoint-distance-bridge.md).
+
+RG I p. 257 supplies the side-length-normalized continuous contained-tree
+metric. Propagators II Eqs. (2.45)--(2.54) supply the multiscale labels,
+contour metric, and triangle inequality. Neither source states a discrete
+fine-bond realization of the contained tree or the periodic endpoint
+comparison used here.
+
+YM-RG-028 is therefore a repository quotient-geometry corollary. Lifting the
+complete continuous route to the periodic cover converts Euclidean tree
+length to fine-lattice endpoint distance with the safe factor \(\sqrt d\).
+Applying Note 0019's already conditional ownership estimate only afterward,
+to a separate fine geodesic, removes \((\mathrm H_T)\) and \(\tau\) without
+assigning an ownership label to off-lattice tree points.
+
+The first-stage zero-halo result is likewise a repository application of
+Note 0012's independent-variable interior locality. It is not a source
+theorem about the external-\(J\) support of completed Section-2 connected
+coefficients. The ownership/interface hypothesis, bounded mesh, common
+analytic constants, nonlinear \(U\) pullback, and every continuum or
+mass-gap gate remain open.

@@ -185,10 +185,14 @@ Cluster expansions*, **CMP 116** (1988), 1–22,
   pullback on one matched layer. It also disproves a uniform reverse
   cross-layer bound. Note 0019 proves the forward all-layer \(J\)-summand
   implication only under explicit seam-aware ownership, source-admissible
-  interface, discrete-tree-lift, support, mesh, and common-chart premises;
-  the source does not print those premises. Note 0018 proves that the naive
-  full raw and \(\xi\)-scaled bond-sup \(U\) collars collapse. A scaled \(U\)
-  pullback and uniform realization of Note 0019's geometry remain open, so
+  interface, support, mesh, and common-chart premises. Note 0028 replaces
+  the discrete-tree-lift premise by a repository periodic-endpoint lemma and
+  supplies zero halos for first-stage direct-\(J\) support; the source does
+  not print that corollary or the remaining premises. Note 0018 proves that
+  the naive full raw and \(\xi\)-scaled bond-sup \(U\) collars collapse. A
+  scaled \(U\) pullback and uniform realization of Note 0019's remaining
+  ownership/interface, mesh, completed-gas support, and chart geometry remain
+  open, so
   there is still no full regulator-uniform physical derivative or quasilocal
   norm.
 
@@ -256,7 +260,7 @@ OS-positivity, continuum, or gap results.
 | External scalar source \(zf\), propagation under a block map, and \(\partial_z\), \(\partial_z^2\) bounds | No theorem located in the audited texts |
 | Source-jet norm, localized marginal projections, or volume-uniform first/second derivative bounds | No theorem located |
 | Inserted-observable decomposition compatible with the constant-profile derivative | No theorem located; the raw first-jet identity itself is algebraic once a coupling-independent raw transform is fixed |
-| One marked plaquette at the RG-II Mayer seam | Finite background split and Mayer algebra proved in Note 0011; Note 0012 proves the fixed-partition-interior mixed-difference/cube-count result; Note 0013 upgrades the standard \(M\)-cube branch to a conditional rooted \(d_k\) norm; Note 0014 covers every plaquette with a coarse-lattice-preserving shifted family; Notes 0015–0019 isolate the physical pullback and its open premises; Note 0020 proves the fixed-gas connected algebra; Note 0021 carries one localized mark through the exact fixed-partition Section-2 map; Note 0025 proves fixed-term marked domination; Note 0026 proves the positive resummation, final marked norm, and connected derivative at \(t=0\) on one fixed gas; and Note 0027 synchronizes the complete nested shifted first jets without mixing gases. Unit translations, the scaled-\(U\) and geometric premises, a nonzero-source polymer-activity disk, and the physical connected marked expectation remain open |
+| One marked plaquette at the RG-II Mayer seam | Finite background split and Mayer algebra proved in Note 0011; Note 0012 proves the fixed-partition-interior mixed-difference/cube-count result; Note 0013 upgrades the standard \(M\)-cube branch to a conditional rooted \(d_k\) norm; Note 0014 covers every plaquette with a coarse-lattice-preserving shifted family; Notes 0015–0019 isolate the physical pullback and its open premises; Note 0020 proves the fixed-gas connected algebra; Note 0021 carries one localized mark through the exact fixed-partition Section-2 map; Note 0025 proves fixed-term marked domination; Note 0026 proves the positive resummation, final marked norm, and connected derivative at \(t=0\) on one fixed gas; Note 0027 synchronizes the complete nested shifted first jets without mixing gases; and Note 0028 removes the discrete-tree-lift premise and first-stage direct-\(J\) halos from the conditional metric bridge. Unit translations, the scaled-\(U\) pullback, ownership/interface and mesh matching, completed-gas support, common chart constants, a nonzero-source polymer-activity disk, and the physical connected marked expectation remain open |
 | Whole-integrand control of marked Eq. (2.8) weakening derivatives | Under common \(L^1\)-holomorphy and a joint majorant, Note 0022 proves the exact mixed-difference contour with no extra derivative-allocation entropy. Note 0025 proves that the actual plaquette mark is weakening-independent and inherits the ordinary fixed-term majorant with zero moment loss; Note 0026 closes its positive resummation on one fixed partition |
 | Fixed-cubical hull, animals, and pinned KP | Note 0023 proves the literal-union connector inequality, a uniform geometric animal bound, a monotone-metric extension, and a sufficient pinned-KP system for one declared closed-cube model. Note 0024 maps the final connected ordinary RG-II gas through that extension and supplies the ordinary smallness window. Note 0026 separately supplies the aggregated decorated marked norm and, under that ordinary ceiling, the fixed-gas first-jet application; intermediate objects remain outside the source identification |
 | One-loop coefficient in the source-inserted normalization | Not proved by RG I; its coupling theorem is deferred |

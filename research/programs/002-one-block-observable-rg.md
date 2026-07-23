@@ -122,8 +122,12 @@ direct-\(J\) representative collar, the dual source-metric kernel sum, and a
 conditional homogeneous-layer pullback for the auxiliary-\(J\) chain-rule
 summand; it also disproves a uniform reverse cross-layer bound while leaving
 the forward direction unresolved in that note. Note 0019 proves the
-all-layer \(J\)-summand implication under explicit interface, tree-lift,
-support, mesh, and common-chart premises, without deriving those premises
+all-layer \(J\)-summand implication under explicit geometry and
+common-chart premises. [Note
+0028](../notes/0028-endpoint-distance-bridge.md) removes its artificial
+discrete-tree-lift premise and supplies zero support halos for the
+first-stage direct-\(J\) activities, but does not derive the ownership
+interface, bounded mesh, completed-gas support, or common chart constants
 from the source. Note 0018 proves that naive raw and \(\xi\)-scaled bond-sup
 \(U\) collars collapse and leaves the RG-scaled replacement conditional.
 [Note 0020](../notes/0020-one-mark-ursell-identity.md) proves the exact
@@ -159,7 +163,8 @@ gases or paying an orbit factor. The selected-coordinate scalar source disk
 was already proved in Notes 0007 and 0010; a source-dependent
 polymer-activity disk remains unproved.
 Unit-translation covariance, the scaled nonlinear \(U\) collar and pullback,
-uniform realization of Note 0019's premises,
+the remaining Note 0019 ownership/interface, mesh, completed-gas support,
+and common-chart premises,
 the full physical coarse-background derivative norm, and a physical rooted
 connected bound remain open.
 
@@ -333,7 +338,7 @@ and no mass gap.
 - [x] Identify the exact physical auxiliary field from RG I, retain its local
   differential remainder, and prove conditional rooted \(D_U\)- and
   \(D_J\)-operator norms on explicit full complex tubes at fixed regulator;
-  see Note 0016. Uniform radii/chart constants, the
+  see Note 0016. Uniform radii/chart constants, the remaining
   source realization of Note 0019's conditional
   \(d_{\mathcal B}\)-to-\(d_{k,\sigma}\) bridge and the full physical
   Eq. (190) derivative norm remain open.
@@ -342,8 +347,13 @@ and no mass gap.
   and close the auxiliary-\(J\) pullback on one matched homogeneous layer;
   see Note 0017. Note 0018 closes the naive raw-\(U\) radius route and
   specifies the missing scaled chart estimates. Note 0019 extends the
-  \(J\)-summand conditionally across layers. Its interface/tree/support
-  premises and the scaled nonlinear \(U\) pullback remain open.
+  \(J\)-summand conditionally across layers. Note 0028 removes its
+  discrete-tree-lift premise and supplies first-stage direct-\(J\) anchors.
+  The ownership interface, bounded mesh, completed-gas support, common
+  constants, and scaled nonlinear \(U\) pullback remain open.
+- [x] Replace the continuous-tree digitization premise by a periodic
+  covering-space endpoint estimate, including the safe \(\sqrt d\) slope
+  and zero first-stage direct-\(J\) support halos; see Note 0028.
 - [x] Prove the exact one-mark connected-graph formula, repeated-label
   convention, and conditional pinned Kotecky--Preiss implication for one
   fixed hard-core gas; see Note 0020.
@@ -392,9 +402,10 @@ and no mass gap.
   five componentwise derivative bounds; see Note 0004. Note 0016 reduces the
   physical auxiliary-field derivative to those rows plus a local remainder,
   and Note 0017 proves the dual convolution and one-layer \(J\)-summand
-  specialization. Note 0019 gives a conditional all-layer extension. Uniform
-  realization of its chart/geometric premises and the \(U\) summand remain
-  open.
+  specialization. Note 0019 gives a conditional all-layer extension, and
+  Note 0028 removes its tree-digitization premise. Uniform realization of
+  the remaining ownership/interface, mesh, completed-gas support, and chart
+  premises and the \(U\) summand remain open.
 - [ ] Classify every relevant/marginal source counterterm and the profile
   mixing map.
 - [ ] Differentiate the small-field stationary/background construction

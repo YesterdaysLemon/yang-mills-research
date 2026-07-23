@@ -434,8 +434,10 @@ missing cell-map and support premises leave the forward
 this note; they do not refute it. Note 0019 later proves the bondwise forward
 implication conditionally under its explicit \((\mathrm H_\rho)\),
 \((\mathrm H_T)\), \((\mathrm H_I)\), bounded-mesh, and common-chart
-hypotheses. It does not derive those premises from the primary source or
-repair the reverse bound.
+hypotheses. Subsequent Note 0028 removes \((\mathrm H_T)\) and \(\tau\) by
+a direct endpoint argument and supplies \(h=h_q=0\) for the first-stage
+direct-\(J\) family; the interface, mesh, completed-gas support, and
+common-chart premises remain.
 
 ## Exact boundary
 
@@ -458,10 +460,12 @@ repair the reverse bound.
   A finite fixed-chart constant is not an RG-iteration theorem.
 - Note 0021 supplies exact one-fixed-partition marked algebra, and Note 0026
   supplies its independent-variable marked norm and connected first jet.
-  Note 0027 synchronizes the nested shifted first jets. No physical pulled-back
-  convergent expectation, nonzero-source polymer-activity disk, large-field
-  estimate, RG iteration, continuum construction, infrared decay, or
-  Yang--Mills mass gap follows.
+  Note 0027 synchronizes the nested shifted first jets, and Note 0028 removes
+  the unnecessary discrete-tree lift from the conditional all-layer
+  auxiliary-\(J\) bridge. No physical pulled-back convergent expectation,
+  completed-gas support theorem, nonzero-source polymer-activity disk,
+  large-field estimate, RG iteration, continuum construction, infrared
+  decay, or Yang--Mills mass gap follows.
 
 ## Falsification checks
 

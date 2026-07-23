@@ -4,6 +4,23 @@ All notable research-structure and claim-status changes are recorded here. Mathe
 
 ## 2026-07-23
 
+- Added YM-RG-028, a periodic quotient-endpoint replacement for the
+  discrete-tree-lift premise in YM-RG-019. Lifting the complete continuous
+  route to the torus cover gives the safe endpoint slope
+  \(\sqrt d\,Mb\) and the explicit allowance \(2dMb+h+h_q\), with no
+  lattice-rounding constant.
+- Removed \((\mathrm H_T)\) and \(\tau\) from the conditional all-layer
+  auxiliary-\(J\) implication. The retained exponent budget is
+  \(a_*+\gamma c_{\rm nn}\sqrt d\,Mb_*\le a\); bounded mesh ratio and every
+  ownership/interface clause in \((\mathrm H_\rho)\) remain assumptions.
+- Specialized the support anchors for the first-stage direct-\(J\)
+  activities of Notes 0012--0014. Full interior-bond locality and the
+  interior plaquette base site give \(h=h_q=0\). No completed Section-2
+  external-\(J\) support theorem is claimed.
+- Added nine endpoint-geometry regressions, a primary-source boundary
+  audit, and OBJ-032. Common chart constants, the nonlinear \(U\) pullback,
+  physical connected first-jet bound, and all later construction and gap
+  gates remain open.
 - Added YM-RG-027, a nested shifted first-jet synchronization corollary.
   Input shifts modulo \(M\) are lifted to all two-scale branches modulo
   \(LM\), with \(LM\mid N\), so the input and output cubulations, inherited

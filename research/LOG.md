@@ -855,3 +855,59 @@ input. Attack the physical pullback next: construct a concrete RG-scaled
 nonlinear \(U\) collar and discharge the interface, tree-lift, support, mesh,
 and uniform-chart hypotheses in Note 0019. Keep a nonzero-\(t\) polymer disk
 as a separate analytic gate.
+
+## 2026-07-23 -- endpoint-distance bridge without tree digitization
+
+### Established
+
+- Replaced Note 0019's exact discrete fine-tree lift \((\mathrm H_T)\) by a
+  quotient endpoint proof. Lifting the complete continuous route to the
+  periodic cover gives
+  \[
+  \operatorname {dist}_\eta(z_p,z_x)
+  \le
+  \sqrt d\,Mb\,d_{k,\sigma}(Y)+2dMb+h+h_q.
+  \]
+  The \(\sqrt d\) factor is the safe Euclidean-to-coordinate conversion;
+  no lattice-rounding term or proximity error \(\tau\) is needed.
+- Combined that estimate with Note 0019's retained
+  \(c_{\rm nn}=d(L+2)+1\) endpoint theorem to obtain the refined conditional
+  all-layer auxiliary-\(J\) budget
+  \(a_*+\gamma c_{\rm nn}\sqrt d\,Mb_*\le a\).
+- Audited the first-stage direct-\(J\) support from Note 0012's repository
+  locality conclusion. A deterministic base-site anchor for every full
+  interior bond and the strictly interior plaquette base site give
+  \(h=h_q=0\).
+- Added nine regression tests covering the periodic seam, the safe
+  \(\sqrt d\) conversion, a diagonal-corridor failure of coefficient one,
+  the two-cube endpoint allowance, the absence of \(\tau\), mesh-ratio
+  dependence, and the support boundary.
+- Three independent AI red-teams checked the quotient proof and the
+  direct-\(J\) specialization. They forced explicit \(P/\eta\) and
+  \(P/(Mb\eta)\) divisibility, lifting of the entire concatenated route,
+  closed-support versus half-open-ownership separation, epsilon minimizers,
+  the empty-support convention, and the completed-gas boundary. No
+  independent human review was performed.
+
+### Not established
+
+- Every ownership, interface, no-skipped-layer, outer-collar,
+  source-admissibility, and seam clause in Note 0019's
+  \((\mathrm H_\rho)\) remains conditional.
+- Bounded mesh matching and common representative, chart, source-kernel,
+  Cauchy-radius, and activity constants remain hypotheses.
+- The \(h=h_q=0\) result is only for first-stage direct-\(J\) activities.
+  External-\(J\) support and quantitative common tubes for the completed
+  YM-RG-027 connected coefficients remain open.
+- No RG-scaled nonlinear \(U\) collar or physical connected first-jet bound
+  follows. Nonzero-source polymer activities, large fields, RG iteration,
+  continuum construction, axioms, infrared decay, and the mass gap remain
+  open.
+
+### Next decision
+
+Audit the completed Section-2 external-\(J\) dependency set and the exact
+Propagators-II ownership/interface geometry. In parallel, seek quantitative
+common Cauchy tubes for the completed shifted coefficients. Only after those
+gates close should the refined endpoint estimate be composed with an
+RG-scaled nonlinear \(U\) collar into a physical connected first-jet bound.

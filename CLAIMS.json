@@ -692,7 +692,7 @@
         "RG II Eq. (1.34)'s first two enlarged parameters do not by themselves give a numerical U radius, and its third parameter controlling the direct J bound is not enlarged; YM-RG-017 uses RG I's separate strict smaller physical domain rather than the beta enlargement.",
         "The chartwise J-derivative decay has a regulator-, scale-, and chart-dependent constant; the differential-of-exponential, gauge-restoration, and local-remainder factors are not transcribed in a sharp common norm.",
         "The Cauchy estimates control derivatives in independent U and J variables. YM-RG-017 proves a conditional physical pullback only for the auxiliary-J chain-rule summand on one matched layer, not the full physical derivative.",
-        "Proposition 9's multiscale contour distance d_B is not the shifted contained-tree metric d_{k,sigma}; YM-RG-017 proves the matched-layer comparison and disproves a uniform reverse bound, while YM-RG-019 proves the needed forward comparison only under explicit unverified interface, tree-lift, mesh, and support hypotheses.",
+        "Proposition 9's multiscale contour distance d_B is not the shifted contained-tree metric d_{k,sigma}; YM-RG-017 proves the matched-layer comparison and disproves a uniform reverse bound. YM-RG-019 gives a conditional forward interface theorem, and YM-RG-028 removes its discrete-tree-lift premise and supplies first-stage direct-J anchors, while H_rho, mesh, completed-gas support, and uniform-chart hypotheses remain open.",
         "This claim itself supplies no Section-2 compatibility or connected marked estimate; YM-RG-026 separately closes the independent-variable fixed-gas interfaces and YM-RG-027 synchronizes their shifted first jets. No physical pulled-back connected expectation, nonzero-t polymer expansion, large-field estimate, RG iteration, continuum construction, infrared decay, or mass gap follows."
       ],
       "falsification_tests": [
@@ -708,7 +708,7 @@
         "No independent human review has been recorded.",
         "The exact local remainder and chart factors in the physical J derivative need a scale-explicit primary-source transcription.",
         "YM-RG-017 gives a strict direct-J sup-norm collar under a named physical representative hierarchy. YM-RG-018 rules out a uniform U radius in the naive raw and xi-scaled bond-sup log norms and leaves a compatible RG-scaled full product tube unproved.",
-        "YM-RG-017 closes the dual source convolution and homogeneous-layer comparison for the J summand; YM-RG-019 extends it conditionally across layers, but its geometric premises and the full U-and-J physical pullback remain open.",
+        "YM-RG-017 closes the dual source convolution and homogeneous-layer comparison for the J summand; YM-RG-019 extends it conditionally across layers, and YM-RG-028 removes the discrete-tree-lift premise and first-stage support halos. H_rho, mesh, completed-gas support, uniform-chart constants, and the full U-and-J physical pullback remain open.",
         "The shift family is not yet compatible with one fixed Section-2 connected cluster expansion."
       ],
       "novelty_claim": false,
@@ -760,7 +760,7 @@
         "No independent human review has been recorded.",
         "The p. 263 source hierarchy and representative transport need a line-by-line audit across every shifted activity chart.",
         "Uniform local chart coefficients and a nonlinear U collar in a concrete RG-scaled regularity norm remain unproved; YM-RG-018 rules out the naive raw alternatives.",
-        "A full layer-interface metric theorem remains open. YM-RG-026 supplies the independent-variable fixed-partition connected first jet and YM-RG-027 synchronizes its shifted branches, but neither supplies the physical pullback."
+        "YM-RG-028 removes the discrete-tree-lift premise from YM-RG-019 and supplies first-stage direct-J anchors, but H_rho, mesh matching, completed-gas support, and uniform chart constants remain open. YM-RG-026 supplies the independent-variable fixed-partition connected first jet and YM-RG-027 synchronizes its shifted branches, but neither supplies the physical pullback."
       ],
       "novelty_claim": false,
       "provenance": "AI-assisted representative-domain, Banach-duality, and weighted-kernel corollary of the cited RG-I/II, variational, and propagator formulas plus YM-RG-016; no novelty claimed.",
@@ -835,10 +835,10 @@
       "proof_anchor": "research/notes/0019-forward-multiscale-cell-map.md",
       "known_limitations": [
         "Propagators II does not print rho, H_rho, H_T, H_I, or the constant d(L+2)+1; this repository proves the implication from those hypotheses, not that the source geometry satisfies them uniformly.",
-        "H_T assumes exact no-length-increase in the tree lift. The error tau controls only proximity, and a discretization length loss would require an additional slope or additive constant.",
+        "H_T assumes exact no-length-increase in the tree lift. YM-RG-028 subsequently shows that the endpoint consequence does not require H_T or tau, at the safe sqrt(d) slope and explicit endpoint allowance.",
         "Uniformity holds only for fixed d, L, and M with bounded b, tau, h, h_q and common C_chi, c_1(alpha_gamma), E_J, Delta_J^{-1}, and prior activity constants.",
         "The comparison is only d_B <= C d_k+C_0. It does not repair YM-RG-017's counterexample to a regulator-uniform reverse comparison.",
-        "The result controls only the auxiliary-J chain-rule summand. YM-RG-026 supplies the actual marked norm and convergent first jet on one compatible fixed partition, and YM-RG-027 synchronizes the shifted branch first jets, but this claim does not construct their RG-scaled U/J pullback, nonzero-t polymer expansion, large-field control, RG iteration, continuum theory, or mass gap."
+        "The result controls only the auxiliary-J chain-rule summand. YM-RG-028 removes H_T and supplies h=h_q=0 only for first-stage direct-J activities; H_rho, completed-gas support, mesh, and common-chart premises remain. YM-RG-026 supplies the actual marked norm and convergent first jet on one compatible fixed partition, and YM-RG-027 synchronizes the shifted branch first jets, but this claim does not construct their RG-scaled U/J pullback, nonzero-t polymer expansion, large-field control, RG iteration, continuum theory, or mass gap."
       ],
       "falsification_tests": [
         "Move the mesh-switch point strictly outside the interface and reject charging the resulting partly outer coarse bond wholly at the inner scale.",
@@ -854,9 +854,9 @@
       "open_objections": [
         "No independent human review has been recorded.",
         "Derive the seam-aware ownership and surface-switch route from the exact Propagators-II domain and bond conventions, rather than retaining H_rho.",
-        "Construct a uniform discrete tree lift and exact site/bond/plaquette support anchors for the shifted family, rather than retaining H_T and H_I.",
+        "Use YM-RG-028's endpoint replacement instead of constructing H_T; discharge H_rho and mesh matching, and audit the external-coordinate support anchors of completed Section-2 connected coefficients.",
         "Prove every chart, margin, and source-kernel constant uniform over the regulator family.",
-        "Construct the missing RG-scaled U collar and U-chain pullback, use YM-RG-026's fixed-partition norm and YM-RG-027's shifted first-jet synchronization as inputs, and then prove the physical connected estimate."
+        "Construct the missing RG-scaled U collar and U-chain pullback, use YM-RG-026's fixed-partition norm, YM-RG-027's shifted first-jet synchronization, and YM-RG-028's endpoint bridge as inputs, and then prove the physical connected estimate."
       ],
       "novelty_claim": false,
       "provenance": "AI-assisted conditional cubical cell-map, graph-lift, and weighted auxiliary-J pullback corollary of the cited RG-I/Propagators-II definitions plus YM-RG-017; no novelty claimed.",
@@ -1282,6 +1282,61 @@
       "last_audited_commit": null
     },
     {
+      "id": "YM-RG-028",
+      "kind": "Lemma",
+      "statement": "Let the periodic fine torus have P/eta integral, let shifted localization cubes have side Mb eta with P/(Mb eta) integral, and retain YM-RG-019's seam-aware nearest-neighbor ownership hypothesis H_rho and support anchors with halos h,h_q. A lifted continuous endpoint route through an epsilon-minimizing contained Euclidean tree gives dist_eta(z_p,z_x) <= sqrt(d) Mb d_{k,sigma}(Y)+2dMb+h+h_q. Consequently D_B(q_p,Y) <= c_nn sqrt(d) Mb d_{k,sigma}(Y)+c_nn(2dMb+h+h_q), with c_nn=d(L+2)+1, without a discrete tree lift or tau. For the first-stage activities of YM-RG-012 through YM-RG-014, independent-J locality and deterministic bond/source base-site anchors give h=h_q=0. Under the remaining hypotheses of YM-RG-019, the all-layer auxiliary-J bound follows with exponent budget a_*+gamma c_nn sqrt(d) M b_*<=a and C_{0,*}=c_nn(2dMb_*+h+h_q).",
+      "scope_and_quantifiers": "Finite periodic regulator with P/eta and P/(Mb eta) integral; fixed dimension d, odd L>=3, M, and finite mesh ratio b; one connected union of geometric closed shifted localization cubes containing its plaquette root; Euclidean contained-tree length, with the sqrt(d) conversion retained; fine-site source and output anchors. The h=h_q=0 specialization is only for the first-stage direct-J derivative of the localized independent-variable activities. The all-layer corollary remains conditional on H_rho, bounded b, and every common source-kernel, chart, Cauchy, and activity constant retained from YM-RG-017 and YM-RG-019.",
+      "status": "proved-in-repo",
+      "evidence_level": "E2",
+      "dependencies": [
+        "YM-RG-012",
+        "YM-RG-013",
+        "YM-RG-014",
+        "YM-RG-017",
+        "YM-RG-019"
+      ],
+      "external_hypotheses": [
+        "RG I p. 257's side-length-normalized contained-tree metric on geometric closed localization cubes.",
+        "Propagators II Eqs. (2.45)-(2.54) for the physical multiscale label set, admissible-contour metric, cell blocks, and triangle inequality, together with YM-RG-019's repository H_rho ownership and nearest-neighbor theorem.",
+        "YM-RG-012's post-Eq. (8) repository conclusion giving independent-(U,J,B) interior locality in the RG-II decoupled-variable sense, plus a fixed global orientation/base-site rule for independent J bonds.",
+        "For the conditional all-layer J corollary: YM-RG-017's strict-J and source-kernel assumptions plus YM-RG-019's bounded mesh and common C_chi, c_1(alpha_gamma), E_J, Delta_J^(-1), and activity constants."
+      ],
+      "sources": [
+        "https://doi.org/10.1007/BF01215223",
+        "https://doi.org/10.1007/BF01240221"
+      ],
+      "proof_anchor": "research/notes/0028-endpoint-distance-bridge.md",
+      "known_limitations": [
+        "The endpoint lemma removes only YM-RG-019's artificial discrete-tree-lift hypothesis H_T and tau. Every interface, ownership, no-skipped-layer, outer-collar, source-admissibility, and seam clause in H_rho remains conditional.",
+        "The sqrt(d) factor is the safe Euclidean-to-l1 displacement conversion. Replacing it by one requires a separately certified rectilinear or l1 source convention.",
+        "The h=h_q=0 support result applies only to the first-stage direct-J derivative. External-coordinate locality for completed Section-2 connected coefficients has not been audited.",
+        "The slope is proportional to b, so an unbounded mesh ratio prevents regulator-uniform control.",
+        "The all-layer J estimate still assumes common representative, chart, source-kernel, Cauchy-radius, and activity constants; their finite-regulator existence does not prove uniformity.",
+        "No concrete RG-scaled nonlinear U collar, physical U-summand, physical connected YM-RG-027 coefficient bound, nonzero-t polymer disk, raw-law comparison, large-field estimate, RG iteration, continuum construction, infrared decay, or mass gap follows."
+      ],
+      "falsification_tests": [
+        "Apply the ownership map rho to off-lattice tree points instead of to the endpoints of a separate fine geodesic.",
+        "Ignore the covering-space lift at the periodic seam or allow P/eta or P/(Mb eta) to be nonintegral.",
+        "Use coefficient one for Euclidean tree length and test a diagonal corridor attaining the sqrt(d) l1-to-l2 ratio.",
+        "Assume the shortest contained tree is attained rather than use epsilon-minimizers.",
+        "Delete every additive endpoint allowance and compare opposite outer anchors in two adjacent cubes with the source-safe d_k<=1 bound.",
+        "Use half-open ownership cells as the geometric closed localization support and create a false shared-wall nonattainment.",
+        "Give I_J(Y) a bond not wholly contained in int Y, or extend h=0 to completed connected coefficients without a support audit.",
+        "Let b grow without bound or treat H_rho and the common chart constants as consequences of the endpoint lemma."
+      ],
+      "reviewers": [],
+      "open_objections": [
+        "No independent human review has been recorded.",
+        "Independently verify the covering-space proof, sqrt(d) length conversion, epsilon-minimizer passage, closed-cube convention, endpoint allowances, and empty derivative-support convention.",
+        "Audit the exact independent-J bond support and periodic base-site anchor rule for every shifted first-stage activity.",
+        "Discharge H_rho, the mesh matching, and the common source-kernel/chart constants before calling the auxiliary-J bound unconditional.",
+        "Prove external U/J support and quantitative common Cauchy tubes for the completed YM-RG-027 coefficients before using this geometry in a physical connected first-jet theorem."
+      ],
+      "novelty_claim": false,
+      "provenance": "AI-assisted quotient-torus endpoint and support-anchor corollary of the audited contained-tree and multiscale-metric definitions; no novelty claimed.",
+      "last_audited_commit": null
+    },
+    {
       "id": "YM-RG-004",
       "kind": "Open Question",
       "statement": "On one named relatively compact analytic background patch for the complete selected RG I Eq. (0.12) near-identity branch with its fixed small-field cutoff, decompose the difference between the exact normalized RG-I coordinate-law plaquette-source first jet and its minimizing-background value into completely classified projected terms and gauge-invariant exponentially localized polymers with cutoff-, volume-, and source-location-independent bounds.",
@@ -1313,7 +1368,8 @@
         "YM-RG-024",
         "YM-RG-025",
         "YM-RG-026",
-        "YM-RG-027"
+        "YM-RG-027",
+        "YM-RG-028"
       ],
       "external_hypotheses": [
         "The exact Eq. (0.12) averaging map, raw group-delta transform, fixed small-field domain, local gauge chart, minimizing branch, and background-propagator estimates recorded in the imported-map audit.",
@@ -1330,7 +1386,7 @@
       "proof_anchor": "research/programs/003-first-source-jet-remainder.md",
       "known_limitations": [
         "This is an unproved small-field theorem specification.",
-        "YM-RG-010 fixes the operational selected-coordinate law, YM-RG-012 supplies a conditional independent-variable cube-count norm, YM-RG-013 upgrades the standard branch to d_k, YM-RG-014 supplies an all-plaquette shifted cover, YM-RG-015 supplies fixed-patch analytic physical composition, YM-RG-016 supplies conditional independent-variable derivative norms, YM-RG-017 supplies a one-layer J pullback, YM-RG-018 rules out naive raw U collars, YM-RG-019 supplies a conditional all-layer J pullback, YM-RG-020 supplies fixed-gas Ursell algebra, YM-RG-021 supplies the exact fixed-partition marked map, YM-RG-023 and YM-RG-024 close the ordinary hull/KP mapping, YM-RG-025 closes the fixed-term marked bound, YM-RG-026 closes the marked resummation and norm on one fixed gas, and YM-RG-027 synchronizes the shifted first jets. Intrinsic/raw comparison, global chart compatibility, the scaled U pullback, discharge of YM-RG-019's premises, unit translations, a nonzero-t polymer-activity disk, the physical connected expansion, and projection remain open.",
+        "YM-RG-010 fixes the operational selected-coordinate law, YM-RG-012 supplies a conditional independent-variable cube-count norm, YM-RG-013 upgrades the standard branch to d_k, YM-RG-014 supplies an all-plaquette shifted cover, YM-RG-015 supplies fixed-patch analytic physical composition, YM-RG-016 supplies conditional independent-variable derivative norms, YM-RG-017 supplies a one-layer J pullback, YM-RG-018 rules out naive raw U collars, YM-RG-019 supplies a conditional all-layer J pullback, YM-RG-020 supplies fixed-gas Ursell algebra, YM-RG-021 supplies the exact fixed-partition marked map, YM-RG-023 and YM-RG-024 close the ordinary hull/KP mapping, YM-RG-025 closes the fixed-term marked bound, YM-RG-026 closes the marked resummation and norm on one fixed gas, YM-RG-027 synchronizes the shifted first jets, and YM-RG-028 removes the discrete-tree-lift premise and first-stage direct-J halos from the conditional endpoint bridge. Intrinsic/raw comparison, global chart compatibility, the scaled U pullback, the remaining H_rho, mesh, completed-gas support, and common-chart premises, unit translations, a nonzero-t polymer-activity disk, the physical connected expansion, and projection remain open.",
         "Even a proof would leave the second jet, large fields, RG iteration, continuum construction, and mass gap open."
       ],
       "falsification_tests": [
@@ -1343,8 +1399,8 @@
       "reviewers": [],
       "open_objections": [
         "YM-RG-009 proves patch-local transported-chart covariance, but global overlap compatibility and comparison with the unrestricted raw transform remain open.",
-        "YM-RG-017 supplies the direct-J collar and one-layer J pullback; YM-RG-018 proves that naive raw U collars collapse; YM-RG-019 supplies the all-layer J bridge only under unverified premises; YM-RG-026 supplies the independent-variable fixed-gas marked norm; and YM-RG-027 synchronizes the shifted first jets. The scaled U collar and pullback, discharge of those premises, unit translations, and a nonzero-t polymer-activity disk remain open.",
-        "YM-RG-020 through YM-RG-027 now close the fixed-partition marked algebra, positive resummation, decorated norm, ordinary KP interface, connected derivative at t=0, and branchwise first-jet synchronization. A convergent physical pulled-back cluster expansion remains unproved.",
+        "YM-RG-017 supplies the direct-J collar and one-layer J pullback; YM-RG-018 proves that naive raw U collars collapse; YM-RG-019 supplies the all-layer J bridge only under unverified premises; YM-RG-026 supplies the independent-variable fixed-gas marked norm; YM-RG-027 synchronizes the shifted first jets; and YM-RG-028 removes H_T and first-stage direct-J halos. The scaled U collar and pullback, H_rho, mesh, completed-gas support, common constants, unit translations, and a nonzero-t polymer-activity disk remain open.",
+        "YM-RG-020 through YM-RG-028 now close the fixed-partition marked algebra, positive resummation, decorated norm, ordinary KP interface, connected derivative at t=0, branchwise first-jet synchronization, and the conditional endpoint replacement. A convergent physical pulled-back cluster expansion remains unproved.",
         "Uniform locality of the projected first-jet sector is unproved."
       ],
       "novelty_claim": false,
@@ -1382,7 +1438,8 @@
         "YM-RG-024",
         "YM-RG-025",
         "YM-RG-026",
-        "YM-RG-027"
+        "YM-RG-027",
+        "YM-RG-028"
       ],
       "external_hypotheses": [
         "The selected RG I Eq. (0.12) averaging map and raw group-delta transform, the separately named YM-RG-010 exact coordinate law, an explicit intrinsic-coordinate-unrestricted distinction, exact marked domain/norm transcription, and every needed source-free small- and large-field estimate verified in full text before use."
@@ -1407,7 +1464,7 @@
       ],
       "reviewers": [],
       "open_objections": [
-        "The selected branch has patch-local transported-chart covariance, a scalar source disk, an all-plaquette coarse-lattice-equivariant d_k marked family, fixed-patch physical composition, conditional J pullbacks, a proof that naive raw U collars collapse, and YM-RG-020 through YM-RG-027's fixed-partition algebra, positive resummation, final norm, ordinary KP interface, connected derivative at t=0, and shifted first-jet synchronization. YM-RG-019's geometric premises, the scaled U pullback, global overlap compatibility, unit translations, a nonzero-t polymer-activity disk, the physical connected estimate, later profile norms, and relation to the unrestricted raw transform remain open.",
+        "The selected branch has patch-local transported-chart covariance, a scalar source disk, an all-plaquette coarse-lattice-equivariant d_k marked family, fixed-patch physical composition, conditional J pullbacks, a proof that naive raw U collars collapse, YM-RG-020 through YM-RG-027's fixed-partition algebra, positive resummation, final norm, ordinary KP interface, connected derivative at t=0, and shifted first-jet synchronization, plus YM-RG-028's endpoint replacement and first-stage direct-J anchors. YM-RG-019's remaining H_rho, mesh, completed-gas support, and common-chart premises, the scaled U pullback, global overlap compatibility, unit translations, a nonzero-t polymer-activity disk, the physical connected estimate, later profile norms, and relation to the unrestricted raw transform remain open.",
         "The theorem may duplicate or fail to follow from existing source-free estimates.",
         "The source-dependent extension of the separate large-field operation has not been derived."
       ],

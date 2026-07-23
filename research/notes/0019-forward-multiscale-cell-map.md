@@ -41,6 +41,12 @@ not print all the cell-ownership, interface-collar, mesh-matching,
 discrete-tree-lift, and support premises below. This note therefore states
 them rather than silently treating them as source theorems.
 
+Subsequent Note 0028 proves that the endpoint consequence does not require
+the discrete-tree-lift premise: a covering-space argument applied to an
+\(\varepsilon\)-minimizing continuous tree removes
+\((\mathrm H_T)\) and \(\tau\), at the safe price of a \(\sqrt d\) factor in
+the slope. The original conditional route is retained below for audit.
+
 ## Tagged cells and the ownership map
 
 Fix dimension \(d\), odd block ratio \(L\ge3\), finest Propagators-II
@@ -315,6 +321,12 @@ base site may be used in (17), making \(h_q=0\) and \(q_p\) independent of
 \(\sigma\). The constants \(h,h_q\) are measured in finest bonds and must be
 common over the family.
 
+Subsequent Note 0028 discharges this halo premise with \(h=h_q=0\) for the
+first-stage direct-\(J\) derivatives of Notes 0012--0014, using their
+repository interior-locality conclusion and deterministic bond/source
+base-site anchors. It does not extend that conclusion to completed
+Section-2 connected coefficients.
+
 Choose fine sites in \(Q_{p,\sigma}\) and in a cube of \(Y\) realizing the
 two halo distances. Hypothesis \((\mathrm H_T)\) joins each such site to
 \(\widetilde T_Y\). Joining the root anchor to the tree, traveling on the
@@ -439,6 +451,17 @@ homogeneous layer. It remains conditional on the new geometric, support,
 mesh, and common-chart hypotheses. The exponent price is
 \(\gamma c_{\rm nn}Mb_*\), not merely \(\gamma M\).
 
+Subsequent Note 0028 updates the endpoint comparison, constants, and exponent
+budget in (19)--(21) and (23)--(24) to the source-convention-safe values
+\[
+C_*^{\rm end}=c_{\rm nn}\sqrt d\,Mb_*,
+\qquad
+C_{0,*}^{\rm end}=c_{\rm nn}(2dMb_*+h+h_q),
+\]
+and removes \((\mathrm H_T)\) and \(\tau\). All
+\((\mathrm H_\rho)\), mesh, representative, kernel, and common-chart
+hypotheses remain.
+
 ## Exact boundary
 
 - Propagators II prints the multiscale label set, admissible-contour metric,
@@ -449,7 +472,8 @@ mesh, and common-chart hypotheses. The exponent price is
   does not define \(\rho\).
 - RG I's contained tree is continuous. The discrete tree lift
   \((\mathrm H_T)\), including both (15) and the common error \(\tau\) in
-  (15a), is not a source theorem established here.
+  (15a), is not a source theorem established here. Subsequent Note 0028
+  shows that it is unnecessary for the endpoint comparison.
 - The identification or uniformly bounded ratio between Note 0014's current
   mesh and the Propagators-II finest mesh is an explicit premise. If
   \(b\to\infty\), the forward constant diverges.
@@ -458,9 +482,10 @@ mesh, and common-chart hypotheses. The exponent price is
   coordinate makes \(D_{\mathcal B}(q,Y)\) unbounded.
 - Equation (19) is one sided. It neither contradicts nor repairs Note 0017's
   failure of the reverse comparison.
-- Regulator-uniform constants are claimed only for fixed \(d,L,M\) and
-  uniformly bounded \(b,\tau,h,h_q\). They are not uniform in growing block
-  ratios, mesh ratios, or support/discretization halos.
+- For this note's original proof, regulator-uniform constants require fixed
+  \(d,L,M\) and uniformly bounded \(b,\tau,h,h_q\). Note 0028 removes
+  \(\tau\), but not the bounded-\(b\), interface, or remaining support
+  requirements.
 - Equation (26) is regulator uniform only under the explicitly common
   \(C_\chi,c_1(\alpha_\gamma),\overline E_J,\Delta_J^{-1}\), and
   \(\mathcal B_d\). Their finiteness at one regulator is not enough.
@@ -488,9 +513,10 @@ mesh, and common-chart hypotheses. The exponent price is
 - Omit the periodic seam rule and produce two possible values of \(\rho\) for
   the same periodic site.
 - Treat the continuous shortest tree as an identical finest-bond tree. A
-  shifted row of three closed cubes can put the continuous minimizer on a
-  boundary/coset not realized by the chosen fine graph; demand
-  \((\mathrm H_T)\) instead.
+  shifted row of closed cubes can put the continuous minimizer on a
+  boundary/coset not realized by the chosen fine graph. This note's original
+  proof required \((\mathrm H_T)\); subsequent Note 0028 avoids the
+  digitization entirely by bounding only the quotient endpoints.
 - Let \(b=L^r\to\infty\) while a shifted-tree edge lies in layer zero and
   reject a regulator-uniform \(C\).
 - Set \(Y=Q_{p,\sigma}\) and move one output anchor arbitrarily far away to
