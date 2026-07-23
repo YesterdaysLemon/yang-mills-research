@@ -105,8 +105,10 @@ independent-variable derivative norms on fixed-regulator complex tubes. Note
 Eq. (190) source convolution, and a conditional homogeneous-layer pullback
 for the auxiliary-\(J\) chain-rule summand. Note 0018 proves that naive raw
 and \(\xi\)-scaled bond-sup \(U\) collars collapse and isolates the necessary
-RG-scaled replacement hypotheses. The scaled \(U\) pullback, cross-layer
-geometry, and full physical coarse-field derivative/quasilocal norm,
+RG-scaled replacement hypotheses. Note 0019 proves a conditional all-layer
+\(J\)-summand extension under explicit interface, tree-lift, support, mesh,
+and common-chart premises. The scaled \(U\) pullback, uniform realization of
+Note 0019's premises, and full physical coarse-field derivative/quasilocal norm,
 one-fixed-partition cluster compatibility, unit-translation covariance, and
 connected marked expectation are the first parts not settled by those
 auxiliary lemmas or the imported source-free theorem.
@@ -203,9 +205,10 @@ infrared conclusions.
 - the strict representative-\(J\) collar, dual source-measure kernel sum, and
   conditional homogeneous-layer pullback for the auxiliary-\(J\) chain-rule
   summand (Note 0017), together with the raw-\(U\) collar obstruction and
-  conditional scaled-collar template (Note 0018), without a concrete
-  RG-scaled \(U\) norm, uniform chart conversions, or a cross-layer compatible
-  network norm;
+  conditional scaled-collar template (Note 0018), and the conditional
+  all-layer \(J\)-summand bridge (Note 0019), without a concrete RG-scaled
+  \(U\) norm or a proof of Note 0019's interface, tree-lift, support, mesh,
+  and uniform-chart premises;
 - background-propagator decay and change-of-domain estimates;
 - RG I/II source-free local analytic polymer expansions.
 
@@ -237,11 +240,12 @@ None of those inputs supplies the displayed source-inserted polymer theorem.
 8. [x] Prove the strict direct-\(J\) collar, dual Eq. (190) source
    convolution, and the auxiliary-\(J\) pullback on a matched homogeneous
    layer; see Note 0017. The note also disproves a uniform reverse
-   cross-layer bound and leaves the forward interface bound unresolved.
-9. [ ] Construct the nonlinear \(U\) collar and pullback in an RG-scaled
-   regularity norm, quantify all chart factors uniformly, and construct a
-   cross-layer compatible network norm for the full shifted family. Note 0018
-   proves that the naive raw alternatives cannot satisfy this step.
+   cross-layer bound. Note 0019 proves the forward all-layer implication
+   conditionally under its named geometry and uniformity premises.
+9. [ ] Discharge Note 0019's interface, tree-lift, support, mesh, and
+   common-chart premises for the exact shifted family; construct the nonlinear
+   \(U\) collar and pullback in an RG-scaled regularity norm. Note 0018 proves
+   that the naive raw alternatives cannot satisfy this step.
 10. [ ] Carry exactly one rooted mark through RG II Eqs. (2.2)–(2.13), using
    Lemma 3 for the unmarked decorations, and prove the connected sum converges.
 11. [ ] Perform the full symmetry/Ward-identity projection on the marked first

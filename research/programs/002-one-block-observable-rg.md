@@ -121,11 +121,13 @@ regulator. [Note
 direct-\(J\) representative collar, the dual source-metric kernel sum, and a
 conditional homogeneous-layer pullback for the auxiliary-\(J\) chain-rule
 summand; it also disproves a uniform reverse cross-layer bound while leaving
-the forward interface theorem needed by the pullback open. Note 0018 proves
-that naive raw and \(\xi\)-scaled bond-sup \(U\) collars collapse and leaves
-the RG-scaled replacement conditional. Unit-translation covariance, the
-scaled nonlinear \(U\) collar and
-pullback, uniform chart constants, a compatible multiscale network norm,
+the forward direction unresolved in that note. Note 0019 proves the
+all-layer \(J\)-summand implication under explicit interface, tree-lift,
+support, mesh, and common-chart premises, without deriving those premises
+from the source. Note 0018 proves that naive raw and \(\xi\)-scaled bond-sup
+\(U\) collars collapse and leaves the RG-scaled replacement conditional.
+Unit-translation covariance, the scaled nonlinear \(U\) collar and pullback,
+uniform realization of Note 0019's premises,
 single-partition cluster compatibility, the full physical
 coarse-background derivative norm, and the rooted connected cluster bound
 remain open.
@@ -299,14 +301,16 @@ and no mass gap.
   differential remainder, and prove conditional rooted \(D_U\)- and
   \(D_J\)-operator norms on explicit full complex tubes at fixed regulator;
   see Note 0016. Uniform radii/chart constants, the
-  \(d_{\mathcal B}\)-to-\(d_{k,\sigma}\) bridge, and the physical Eq. (190)
-  derivative norm remain open.
+  source realization of Note 0019's conditional
+  \(d_{\mathcal B}\)-to-\(d_{k,\sigma}\) bridge and the full physical
+  Eq. (190) derivative norm remain open.
 - [x] Use RG I's strict smaller physical representative domain to obtain the
   direct-\(J\) sup-norm collar, prove the dual Eq. (190) source convolution,
   and close the auxiliary-\(J\) pullback on one matched homogeneous layer;
   see Note 0017. Note 0018 closes the naive raw-\(U\) radius route and
-  specifies the missing scaled chart estimates. The scaled nonlinear
-  \(U\) pullback and cross-layer network geometry remain open.
+  specifies the missing scaled chart estimates. Note 0019 extends the
+  \(J\)-summand conditionally across layers. Its interface/tree/support
+  premises and the scaled nonlinear \(U\) pullback remain open.
 - [x] Prove a common zero-free source disk from bounded observable range,
   conditional on the exact pointwise kernel and positive finite source-free
   weighted partition function; see Note 0007. This does not supply a complex
@@ -315,8 +319,9 @@ and no mass gap.
   five componentwise derivative bounds; see Note 0004. Note 0016 reduces the
   physical auxiliary-field derivative to those rows plus a local remainder,
   and Note 0017 proves the dual convolution and one-layer \(J\)-summand
-  specialization. Uniform chart factors, the \(U\) summand, and cross-layer
-  geometry remain open.
+  specialization. Note 0019 gives a conditional all-layer extension. Uniform
+  realization of its chart/geometric premises and the \(U\) summand remain
+  open.
 - [ ] Classify every relevant/marginal source counterterm and the profile
   mixing map.
 - [ ] Differentiate the small-field stationary/background construction

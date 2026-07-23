@@ -275,3 +275,58 @@ Define the smallest scaled regularity norm that controls both RG I
 Eq. (1.13) and \(\xi^{-2}\Delta(dU)\), or close the fixed-partition rooted
 connected expansion first. The naive raw-radius route is now closed rather
 than merely unaudited.
+
+## 2026-07-22 -- conditional forward multiscale cell-map bridge
+
+### Established
+
+- Corrected the metric bookkeeping to retain Propagators II's physical set
+  \(\mathcal B\) and pull its metric back to a tagged cover through the
+  tag-forgetting projection. The pullback is a pseudometric and inherits the
+  source triangle inequality.
+- Under the explicit cubical hypothesis \((\mathrm H_\rho)\), proved that the
+  coordinatewise half-open ownership map obeys
+  \[
+  d_{\mathcal B}(\rho(z),\rho(z'))
+  \le [d(L+2)+1]\operatorname {dist}_\eta(z,z').
+  \]
+  The interface route approaches the inner-owned surface through the outer
+  collar, switches meshes on the surface, and takes its first coarse bond
+  with open interior in the inner layer.
+- Separated RG I's continuous contained-tree definition from the additional
+  exact fine-bond lift \((\mathrm H_T)\). With its proximity error \(\tau\),
+  the support/root halo premise \((\mathrm H_I)\), and mesh ratio \(b\),
+  proved
+  \[
+  D_{\mathcal B}(q_p,Y)
+  \le c_{\rm nn}
+  [Mb\,d_{k,\sigma}(Y)+2dMb+2\tau+h+h_q].
+  \]
+- Combined the forward comparison with YM-RG-017's dual source convolution.
+  Under common regulator-family margins, chart factors, kernel constants,
+  and \(b\le b_*\), obtained the conditional all-layer auxiliary-\(J\)
+  pullback with exponent budget
+  \(a_*+\gamma c_{\rm nn}Mb_*\le a\).
+- Ran two independent adversarial audits. They forced the on-surface switch,
+  explicit same-layer bond admissibility, original-scale indexing, tagged
+  pseudometric, exact tree-lift wording, and uniform-constant quantifiers;
+  both latest-state re-audits passed.
+
+### Not established
+
+- Propagators II does not print \(\rho\), \((\mathrm H_\rho)\), or the
+  constant \(d(L+2)+1\); the exact domain/bond geometry has not yet been
+  shown to satisfy those premises uniformly.
+- No uniform construction of the exact no-length-increase tree lift, output
+  anchors, support halos, or mesh-ratio bound for the full shifted family.
+- No physical nonlinear \(U\) pullback, one-fixed-partition connected marked
+  sum, large-field estimate, RG iteration, continuum construction, infrared
+  estimate, or Yang--Mills mass gap.
+
+### Next decision
+
+Either discharge \((\mathrm H_\rho)\), \((\mathrm H_T)\), and
+\((\mathrm H_I)\) from the exact finite-regulator geometry, or keep them as
+an interface specification and move to the one-fixed-partition rooted
+connected mark. In parallel, the scaled \(U\)-chart theorem from Note 0018
+remains the missing second chain-rule summand.

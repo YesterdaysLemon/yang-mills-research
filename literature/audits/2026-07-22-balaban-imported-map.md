@@ -317,9 +317,12 @@ direct-\(J\) collar under a frozen hierarchy, then proves the source-density
 kernel sum and a homogeneous-layer physical pullback for the auxiliary-\(J\)
 chain-rule summand. Note 0018 proves that full naive raw and \(\xi\)-scaled
 bond-sup \(U\) collars collapse and records the conditional RG-scaled
-replacement. The scaled nonlinear \(U\) pullback, cross-layer network
-geometry, one-fixed-partition compatibility, and connected estimate remain
-open.
+replacement. Note 0019 proves a forward all-layer auxiliary-\(J\) pullback
+only under explicit seam-aware ownership, source-admissible interface,
+exact tree-lift, support-halo, mesh, and common-chart premises; those
+premises are not imported source theorems. The scaled nonlinear \(U\)
+pullback, uniform realization of Note 0019's geometry,
+one-fixed-partition compatibility, and connected estimate remain open.
 
 ## Regular configurations and gauge chart
 

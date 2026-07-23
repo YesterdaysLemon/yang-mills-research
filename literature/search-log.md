@@ -324,3 +324,30 @@ Consequently the raw log radius is \(O(\xi^2)\), and the radius in
 still gives a conditional route in a norm controlling Eq. (1.13) and the
 scaled plaquette increment, but it supplies neither that norm nor its
 uniform chart constants.
+
+## 2026-07-22 -- forward multiscale cell-map audit
+
+[Propagators
+II](https://projecteuclid.org/download/pdf_1/euclid.cmp/1103941783)
+Eqs. (2.45)--(2.54) were rechecked against the forward direction isolated
+above. Equation (2.45) gives the physical union \(\mathcal B\), Eq. (2.46)
+defines the layer-normalized admissible-contour metric, Eq. (2.47) decomposes
+an already admissible contour, Eq. (2.53) identifies \(\Delta(y)=B^j(y)\),
+and Eq. (2.54) gives the triangle inequality. These equations do not define
+a seam-aware fine-site ownership map or prove a nearest-neighbor interface
+route.
+
+The source-compatible candidate used in Note 0019 approaches an inner-owned
+surface through an outer collar, touches it only at a common coarse-grid
+endpoint, switches meshes there, and takes the first coarse bond with open
+interior in the inner layer. Under that route and the other named cubical
+premises, the local cost is \(d+dL+1+d=d(L+2)+1\). This numerical lemma is
+repository bookkeeping, not a constant printed in the paper.
+
+[RG I](https://doi.org/10.1007/BF01215223) p. 257 defines \(d_k\) through a
+continuous contained tree. It does not make that minimizer an identical
+finest-bond tree. Note 0019 therefore retains an exact no-length-increase
+discrete lift and a proximity error as separate hypotheses, along with
+bounded site/bond/plaquette support anchors and mesh ratio. The resulting
+all-layer auxiliary-\(J\) pullback is a proved implication from those
+premises, not evidence that the primary sources establish them uniformly.

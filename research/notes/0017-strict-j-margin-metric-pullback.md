@@ -431,9 +431,11 @@ output coordinate within a bounded fine-lattice halo of \(Y\).
 Equation (25) falsifies only the reverse half of a uniform equivalence. The
 missing cell-map and support premises leave the forward
 \(d_{\mathcal B}\)-to-\(d_{k,\sigma}\) estimate needed by (22) unresolved in
-this note; they do not refute it. A later proof may establish the bondwise
-cell-map theorem, restrict the admitted support geometry, or replace the
-fixed-scale polymer norm by a compatible multiscale network norm.
+this note; they do not refute it. Note 0019 later proves the bondwise forward
+implication conditionally under its explicit \((\mathrm H_\rho)\),
+\((\mathrm H_T)\), \((\mathrm H_I)\), bounded-mesh, and common-chart
+hypotheses. It does not derive those premises from the primary source or
+repair the reverse bound.
 
 ## Exact boundary
 
@@ -448,8 +450,10 @@ fixed-scale polymer norm by a compatible multiscale network norm.
 - The source-metric convolution is proved before identifying
   \(d_{\mathcal B}\) with \(d_{k,\sigma}\). Equation (22) is deliberately
   conditional on a matched homogeneous layer. The primary sources audited so
-  far do not supply the shifted-cell map or the needed one-sided contour bound
-  across every layer interface. Equation (25) rules out only the reverse bound.
+  far do not supply Note 0019's shifted-cell map, interface route, discrete
+  tree lift, or support halos. Under those additional premises Note 0019 gives
+  a conditional all-layer \(J\)-summand bound. Equation (25) here rules out
+  only the reverse metric comparison.
 - Uniformity of \(C_\chi\) and the local coefficients in (13) remains open.
   A finite fixed-chart constant is not an RG-iteration theorem.
 - No one-fixed-partition compatibility, connected marked expectation,
