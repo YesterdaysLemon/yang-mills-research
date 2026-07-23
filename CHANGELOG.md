@@ -4,6 +4,37 @@ All notable research-structure and claim-status changes are recorded here. Mathe
 
 ## 2026-07-23
 
+- Added YM-RG-032. For each completed coefficient, the tagged multiscale
+  labels of its structural active external-\(J\) coordinates define a
+  support set \(S_{p,s,R}\). Replacing the old plaquette-root triangle by
+  the pulled-back tagged-pseudometric inequality
+  \(d_{\widetilde{\mathcal B}}(S,\widetilde y')\le
+  d_{\widetilde{\mathcal B}}(\widetilde y_b,\widetilde y')\) composes the completed
+  \(J\)-derivative norm with the audited Eq. (190) kernel convolution.
+- Proved the support-anchored bound
+  \[
+  \sum_{s,R}e^{\kappa d(R)}
+  \sum_{j',y'}\mu(j',y')e^{\gamma d_{\widetilde{\mathcal B}}(S_R,\widetilde y')}
+  |\mathcal L_R^{J,\rm conn}(j',y')|
+  \le
+  \frac{C_\chi c_1(\alpha_\gamma)\overline E_J^{\rm conn}
+  B_{\rm conn}}{\Delta_{\rm tube}}.
+  \]
+  It retains the full \(\kappa\) exponent and needs no
+  \((\mathrm H_\rho)\), mesh comparison, endpoint allowance,
+  support-volume factor, or shifted-branch factor.
+- Isolated the sufficient aggregate endpoint hypothesis
+  \((\mathrm H_{\rm end})\) for the stronger plaquette-rooted norm and proved
+  its exponent budget \(a_*+\gamma A\le\kappa\) and constant
+  \(e^{\gamma B}\). A one-coordinate countermodel shows that endpoint
+  information or an analytic weighted substitute is indispensable for a
+  uniform positive-\(\gamma\) rooted inference.
+- Kept the wording sharp: \((\mathrm H_{\rm end})\) is worst-case sharp as a
+  geometry-only condition, not logically minimal for each coefficient
+  family. Common Eq. (190) constants, the completed tube hypothesis,
+  \((\mathrm H_{\rm rc})\), and the physical \(U\) pullback remain open.
+  Added eight focused regressions, a source-boundary audit, and OBJ-036;
+  project status remains Exploratory E0 and unsolved.
 - Added YM-RG-031. Under the common real-center hypothesis
   \((\mathrm H_{\rm rc})\), the relative chart
   \(\Phi_{\bar U}(a)=e^{i\xi a}\bar U\) has a full complex radius in a

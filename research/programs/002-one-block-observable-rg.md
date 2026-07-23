@@ -136,8 +136,7 @@ completed-coefficient affine-\(J\) tube and full dual derivative norm under
 its completed compatibility hypothesis
 \((\mathrm H_J^{\rm conn})\), strengthening Note 0017's local
 \((\mathrm H_J)\). It does not prove that simultaneous representative
-hypothesis or derive the ownership interface, bounded mesh, or common chart
-constants from the source. Note 0018 proves that naive
+hypothesis or common chart constants from the source. Note 0018 proves that naive
 raw and \(\xi\)-scaled bond-sup
 \(U\) collars collapse. [Note
 0031](../notes/0031-real-center-covariant-u-tube.md) supplies a concrete
@@ -146,6 +145,14 @@ under the stronger common real-center hypothesis
 \((\mathrm H_{\rm rc})\). It proves both completed dual derivative norms but
 does not prove the common real-center family or the physical Eq. (190)
 \(U\)-kernel pullback.
+[Note 0032](../notes/0032-support-anchored-physical-j-pullback.md)
+composes the completed \(J\)-derivative with the Eq. (190) kernel in a
+support-anchored hybrid norm without \((\mathrm H_\rho)\), mesh matching,
+endpoint allowance, or loss from the polymer exponent \(\kappa\); the
+kernel weight still requires \(\gamma<\delta _0/8\). The stronger
+plaquette-rooted norm still needs \((\mathrm H_{\rm end})\) or a
+coefficient-weighted substitute, and common kernel/chart constants remain
+conditional.
 [Note 0020](../notes/0020-one-mark-ursell-identity.md) proves the exact
 distinguished-vertex Ursell formula and a conditional pinned bound on one
 fixed hard-core gas. [Note
@@ -179,10 +186,9 @@ gases or paying an orbit factor. The selected-coordinate scalar source disk
 was already proved in Notes 0007 and 0010; a source-dependent
 polymer-activity disk remains unproved.
 Unit-translation covariance, proof of \((\mathrm H_{\rm rc})\), the physical
-Eq. (190) \(U\) pullback, and the remaining Note 0019
-ownership/interface, mesh, and common-chart premises,
-the full physical coarse-background derivative norm, and a physical rooted
-connected bound remain open.
+Eq. (190) \(U\) pullback, common kernel/chart constants, any stronger rooted
+endpoint substitute, the full physical coarse-background derivative norm,
+and a physical rooted connected bound remain open.
 
 ## Target statement
 
@@ -369,9 +375,11 @@ and no mass gap.
   supplies the completed affine-\(J\) tube and derivative norm under
   \((\mathrm H_J^{\rm conn})\). Note 0031 supplies the covariant-\(U\)
   product tube and both completed dual norms under
-  \((\mathrm H_{\rm rc})\). Proof of \((\mathrm H_{\rm rc})\), the
-  ownership interface, bounded mesh, common constants, and the physical
-  Eq. (190) \(U\) pullback remain open.
+  \((\mathrm H_{\rm rc})\). Note 0032 supplies the support-anchored physical
+  \(J\) pullback without \((\mathrm H_\rho)\) or mesh matching. Proof of
+  \((\mathrm H_{\rm rc})\), common constants, the physical Eq. (190)
+  \(U\) pullback, and any stronger plaquette-rooted endpoint substitute
+  remain open.
 - [x] Replace the continuous-tree digitization premise by a periodic
   covering-space endpoint estimate, including the safe \(\sqrt d\) slope
   and zero first-stage direct-\(J\) support halos; see Note 0028.
@@ -388,6 +396,12 @@ and no mass gap.
   relative-log \(U\) collar, combine it with the independent-\(J\) tube,
   rerun the completed marked norm in product \(H^\infty\), and prove both
   full dual derivative norms; see Note 0031.
+- [x] Compose the completed \(J\)-derivative norm with the Eq. (190)
+  auxiliary-\(J\) kernel in a support-anchored hybrid norm without
+  \((\mathrm H_\rho)\), mesh matching, or loss from the polymer exponent
+  \(\kappa\); retain \(\gamma<\delta _0/8\) and isolate the
+  sufficient aggregate endpoint condition for the stronger
+  plaquette-rooted norm; see Note 0032.
 - [x] Prove the exact one-mark connected-graph formula, repeated-label
   convention, and conditional pinned Kotecky--Preiss implication for one
   fixed hard-core gas; see Note 0020.
@@ -439,9 +453,11 @@ and no mass gap.
   specialization. Note 0019 gives a conditional all-layer extension, and
   Note 0028 removes its tree-digitization premise. Note 0029 closes the
   completed support anchor. Note 0030 closes the completed affine-\(J\) tube
-  and derivative norm under \((\mathrm H_J^{\rm conn})\). Proof of
-  \((\mathrm H_J^{\rm conn})\), uniform realization of the remaining
-  ownership/interface, mesh, and chart premises, and the \(U\) summand remain
+  and derivative norm under \((\mathrm H_J^{\rm conn})\). Note 0032 closes
+  the support-anchored physical-\(J\) pullback without
+  \((\mathrm H_\rho)\) or mesh matching. Proof of
+  \((\mathrm H_{\rm rc})\), common kernel/chart constants, any stronger
+  plaquette-rooted endpoint substitute, and the physical \(U\) summand remain
   open.
 - [ ] Classify every relevant/marginal source counterterm and the profile
   mixing map.

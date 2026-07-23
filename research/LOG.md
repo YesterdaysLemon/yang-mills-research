@@ -1107,3 +1107,86 @@ physical background derivative is bounded in the new covariant-\(U\) norm
 with the same multiscale source density. In parallel, replace
 \((\mathrm H_\rho)\) by a metric statement native to the actual admissible
 contours or exhibit a minimal counterexample.
+
+## 2026-07-23 -- support-anchored physical-\(J\) pullback
+
+### Established
+
+- Reopened the exact Eq. (190) ledger. Its output label is tagged by its
+  layer \(j_b\), the source label by \(j'\), and the inverse source density
+  \(\mu(j',y')^{-1}\) cancels the physical source measure. A fixed
+  finite-dimensional norm-equivalence factor is absorbed into \(C_\chi\) so
+  that the kernel and completed direct-\(J\) derivative use the same block
+  norm.
+- For each completed coefficient, formed the tagged active-label set
+  \[
+  S_{p,s,R}
+  =
+  \{\widetilde y_b:
+  b\in I^{\rm conn}_{J,p,s}(R)\}.
+  \]
+  On the disjoint tagged space, used the pulled-back pseudometric
+  \(d_{\widetilde{\mathcal B}}((j,y),(j',y'))
+  =d_{\mathcal B}(y,y')\).
+  Empty structural support is declared a zero chain contribution before the
+  set distance is formed.
+- Used
+  \(d_{\widetilde{\mathcal B}}(S_{p,s,R},\widetilde y')
+  \le d_{\widetilde{\mathcal B}}(\widetilde y_b,\widetilde y')\)
+  for every active coordinate, then applied Note 0017's unchanged
+  Propagators-II convolution and exact finite-dimensional
+  \(\ell^\infty/\ell^1\) duality. Combining with Note 0030 or Note 0031 gives
+  \[
+  \sum_{s,R}e^{\kappa d_{k+1,s}(R)}
+  \sum_{j',y'}\mu(j',y')
+  e^{\gamma d_{\widetilde{\mathcal B}}(S_{p,s,R},\widetilde y')}
+  |\mathcal L_{p,s,R}^{J,\rm conn}(j',y')|
+  \le
+  \frac{C_\chi c_1(\alpha_\gamma)\overline E_J^{\rm conn}
+  B_{\rm conn}}{\Delta_{\rm tube}}.
+  \]
+- The hybrid theorem invokes neither \((\mathrm H_\rho)\) nor Notes
+  0019/0028's mesh and endpoint construction. It retains the full
+  \(\kappa\) exponent and has no support-cardinality, bond-volume, or
+  shifted-branch factor.
+- Isolated the sufficient aggregate endpoint condition
+  \[
+  \sup_{\widetilde y\in S_{p,s,R}}
+  d_{\widetilde{\mathcal B}}(\widetilde q_{p,s},\widetilde y)
+  \le A d_{k+1,s}(R)+B.
+  \]
+  With \(a_*+\gamma A\le\kappa\), it recovers the stronger
+  plaquette-rooted norm at cost \(e^{\gamma B}\).
+- Built a one-coordinate finite-model counterexample: the unweighted kernel,
+  tube, derivative, and support-anchored factors stay equal to one, and the
+  common polymer factor stays \(e^\kappa\), while the active label moves
+  distance \(n\) from the plaquette root. The rooted/support-anchored ratio
+  grows as \(e^{\gamma n}\). This proves a logical no-go from the retained
+  inequalities alone.
+- Two independent hostile audits accepted the hybrid proof and forced four
+  corrections before publication: tagged labels, a completed-family
+  \(\overline E_J^{\rm conn}\), component-norm matching, and the distinction
+  between worst-case geometry sharpness and literal logical minimality. No
+  independent human review was performed.
+
+### Not established
+
+- Common \(C_\chi\), local conversion constants, the strengthened
+  Propagators-II separation condition, and
+  \(\overline E_J^{\rm conn}<\infty\) remain hypotheses.
+- The support-anchored norm is not pure decay from the marked plaquette.
+  The aggregate endpoint hypothesis or a coefficient-weighted substitute
+  remains necessary for that stronger target.
+- \((\mathrm H_{\rm rc})\) for the actual minimizing family and the physical
+  \(U\) Eq. (190) pullback remain open.
+- No nonzero-source polymer disk, intrinsic/raw comparison, unit
+  translations, large fields, RG iteration, continuum construction,
+  axioms, infrared decay, or mass gap has been proved.
+
+### Next decision
+
+Attack the physical \(U\) kernel-to-covariant-curl norm directly. In
+parallel, inspect the actual admissible-contour geometry for the aggregate
+\((\mathrm H_{\rm end})\) inequality or a coefficient-weighted endpoint
+moment, without rebuilding the stronger global ownership map unless the
+source forces it.

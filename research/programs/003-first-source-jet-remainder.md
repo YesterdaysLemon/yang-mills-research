@@ -116,8 +116,7 @@ representative compatibility hypothesis \((\mathrm H_J^{\rm conn})\),
 strengthening Note 0017's local \((\mathrm H_J)\), Note 0030 carries the
 strict affine-\(J\) margin through every completed output domain and proves
 the coefficientwise tube norm and full dual derivative norm. Proof of
-\((\mathrm H_J^{\rm conn})\), ownership/interface, bounded mesh, and common
-chart constants remain conditional.
+\((\mathrm H_J^{\rm conn})\) and common chart constants remain conditional.
 Note 0031 supplies a concrete covariant-curl relative-log \(U\) radius and a
 common \(U/J\) product tube under the stronger common real-center hypothesis
 \((\mathrm H_{\rm rc})\). On that retained family it is a sufficient
@@ -125,6 +124,12 @@ replacement for \((\mathrm H_J^{\rm conn})\), and the product
 \(H^\infty\) rerun gives both completed dual derivative norms. Uniform proof
 of \((\mathrm H_{\rm rc})\) for the actual minimizing family and the
 Eq. (190) kernel-to-\(U\)-norm pullback remain open.
+Note 0032 composes the completed \(J\)-derivative with the Eq. (190) kernel
+in a support-anchored hybrid norm without Note 0019's
+\((\mathrm H_\rho)\), mesh comparison, endpoint allowance, or exponent
+loss. Pure plaquette-rooted decay instead needs the aggregate
+\((\mathrm H_{\rm end})\) inequality or a coefficient-weighted substitute;
+common kernel/chart constants remain conditional.
 Note 0020 proves the exact one-mark Ursell formula
 and a conditional pinned cluster bound for one fixed hard-core gas, and shows
 that bare shifted marks cannot be mixed without branch synchronization or a
@@ -151,8 +156,8 @@ on every separate shifted branch, and synchronizes their connected first jets
 with no orbit factor. Notes 0007 and 0010 already give the selected-coordinate
 scalar source disk; source-dependent polymer activities and KP convergence at
 nonzero source remain open. Proof of \((\mathrm H_{\rm rc})\), the physical
-Eq. (190) \(U\) pullback, the remaining ownership/interface, mesh, and common-chart
-premises from Note 0019, and the full unconditional physical coarse-field
+Eq. (190) \(U\) pullback, common kernel/chart constants, any stronger rooted
+endpoint substitute, and the full unconditional physical coarse-field
 derivative/quasilocal norm,
 unit-translation covariance and a physical convergent connected marked
 estimate are the first parts not settled by those auxiliary lemmas or the
@@ -256,10 +261,12 @@ infrared conclusions.
   plus first-stage direct-\(J\) anchors (Note 0028), followed by completed
   literal-union external-\(J\) support (Note 0029) and the completed affine
   \(J\) tube and derivative norm under \((\mathrm H_J^{\rm conn})\) (Note
-  0030), without a proof of \((\mathrm H_J^{\rm conn})\), a concrete
-  RG-scaled \(U\) norm, or a proof
-  of Note 0019's ownership/interface, bounded-mesh, and uniform-chart
-  premises;
+  0030), the concrete covariant-\(U\) product tube under
+  \((\mathrm H_{\rm rc})\) (Note 0031), and the support-anchored physical
+  \(J\) pullback without \((\mathrm H_\rho)\) or mesh matching (Note 0032),
+  without a proof of \((\mathrm H_{\rm rc})\), common Eq. (190) constants,
+  the physical \(U\) pullback, or a stronger plaquette-rooted endpoint
+  substitute;
 - the exact fixed-gas distinguished-vertex Ursell identity, repeated-label
   convention, shifted-branch separation rule, and conditional pinned
   Kotecky--Preiss implication (Note 0020);
@@ -355,14 +362,21 @@ None of those inputs supplies the displayed source-inserted polymer theorem.
     relative-log \(U\) collar, combine it with the independent-\(J\) margin,
     rerun the completed connected norm on the product tube, and prove both
     full dual derivative norms; see Note 0031.
-15. [ ] Compose the unconditional physical \(U/J\) first-jet pullbacks by
-    proving \((\mathrm H_{\rm rc})\) for the actual minimizing family,
-    pairing Eq. (190) with the new \(U\) norm, and discharging Note 0019's
-    remaining ownership/interface, bounded-mesh, and uniform-chart premises.
-16. [ ] Separately construct source-dependent polymer activities and uniform
+15. [x] Compose the completed \(J\)-derivative norm with the Eq. (190)
+    auxiliary-\(J\) kernel in a support-anchored hybrid norm, without
+    \((\mathrm H_\rho)\), mesh matching, or loss from the polymer exponent
+    \(\kappa\); retain \(\gamma<\delta _0/8\) and isolate
+    \((\mathrm H_{\rm end})\) or a coefficient-weighted substitute for the
+    stronger plaquette-rooted target; see Note 0032.
+16. [ ] Complete the physical \(U/J\) first-jet pullbacks by proving
+    \((\mathrm H_{\rm rc})\) for the actual minimizing family, pairing
+    Eq. (190) with the new \(U\) norm, and proving common kernel/chart
+    constants plus any endpoint statement required by the selected target
+    norm.
+17. [ ] Separately construct source-dependent polymer activities and uniform
     KP convergence on a nonzero-source disk. The selected-coordinate scalar
     disk itself is already supplied by Notes 0007 and 0010.
-17. [ ] Perform the full symmetry/Ward-identity projection on the marked first
+18. [ ] Perform the full symmetry/Ward-identity projection on the marked first
    jet and classify all position/orientation mixing.
 
 ## Falsification tests

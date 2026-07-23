@@ -809,3 +809,54 @@ disk.
 \((\mathrm H_\rho)\), bounded mesh matching, common kernel/chart constants,
 the scaled nonlinear \(U\) pullback, and every later Yang--Mills gate remain
 open.
+
+## 2026-07-23 -- support-anchored physical-J pullback
+
+No new source theorem is asserted. The directly inspected variational-paper
+Eq. (190) transcription from Notes 0004 and 0017 and the pinned
+Propagators-II convolution were reused. The latter PDF has SHA-256
+
+```text
+6CC4F26316AF0DC7F41B39FA75E2F2F9F90C24E1927253B4DFCF0B02D751D72F
+```
+
+The source formula is coordinatewise: an output coordinate tagged by
+\(\widetilde y_b=(j_b,y_b)\) has exponential decay to the source label
+\(\widetilde y'=(j',y')\). It does not require a global nearest-neighbor
+ownership map merely to state that kernel estimate.
+On the disjoint tagged space, YM-RG-032 explicitly uses the pulled-back
+pseudometric
+\(d_{\widetilde{\mathcal B}}((j,y),(j',y'))
+=d_{\mathcal B}(y,y')\).
+
+YM-RG-032 is a repository reweighting. For the structural completed support
+from YM-RG-029, form
+\[
+S_{p,s,R}=\{\widetilde y_b:b\in I^{\rm conn}_{J,p,s}(R)\}.
+\]
+The tautology
+\[
+d_{\widetilde{\mathcal B}}(S_{p,s,R},\widetilde y')
+\le d_{\widetilde{\mathcal B}}(\widetilde y_b,\widetilde y')
+\]
+allows the unchanged Eq. (190) convolution to be summed against the exact
+finite-dimensional completed \(J\)-dual norm. This yields a
+support-anchored physical-\(J\) norm without
+\((\mathrm H_\rho)\), mesh matching, an endpoint allowance, or a spend from
+the polymer exponent.
+
+The resulting norm is not rooted solely at the marked plaquette. The
+stronger target follows from the aggregate endpoint inequality
+\[
+\sup_{\widetilde y\in S_{p,s,R}}
+d_{\widetilde{\mathcal B}}(\widetilde q_{p,s},\widetilde y)
+\le A d_{k+1,s}(R)+B,
+\]
+or from an analytic coefficient-weighted substitute. A one-coordinate
+countermodel shows that no positive-\(\gamma\) rooted estimate follows from
+the unweighted derivative and kernel bounds alone. The endpoint condition is
+therefore worst-case sharp as a geometry-only route, not logically minimal
+for every coefficient family.
+
+Common kernel/chart constants, the completed tube input, the physical
+\(U\) pullback, and all later construction and mass-gap gates remain open.
