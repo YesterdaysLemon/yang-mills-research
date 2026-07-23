@@ -327,8 +327,11 @@ repository interior-locality conclusion and deterministic bond/source
 base-site anchors. Subsequent Note 0029 extends the zero-halo conclusion to
 the completed Section-2 connected coefficients by using final-activity
 bond-intersection locality, the literal-union connected map, and the
-integer-wall closed-cubulation lemma. A common completed-coefficient Cauchy
-tube remains separate.
+integer-wall closed-cubulation lemma. Subsequent Note 0030 separately closes
+the completed-coefficient affine-\(J\) Cauchy tube under
+\((\mathrm H_J^{\rm conn})\); the present note's
+\((\mathrm H_\rho)\), mesh, and common
+kernel/chart hypotheses remain separate.
 
 Choose fine sites in \(Q_{p,\sigma}\) and in a cube of \(Y\) realizing the
 two halo distances. Hypothesis \((\mathrm H_T)\) joins each such site to

@@ -72,7 +72,7 @@
       "summary": "The fixed-background source-jet corollary has not received independent human review; Eq. (190)'s component factors are transcribed and YM-RG-017 proves a dual source sum plus a homogeneous-layer J-summand pullback, but no full U-and-J activity quasilocal bound has been proved.",
       "resolution_requirements": [
         "Audit the representative-independence and holomorphic-extension arguments against Proposition 9 and recheck the five imported Eq. (190) lines against the scan.",
-        "Audit YM-RG-016's exact auxiliary-J differential, YM-RG-017's direct-J collar and source convolution, YM-RG-019's conditional all-layer exponent budget, YM-RG-028's endpoint replacement, and YM-RG-029's completed support anchor; then construct the common completed-J tube, discharge H_rho, bounded mesh, and common constants, and prove the nonlinear U pullback before promoting a full physical chain-rule decay bound."
+        "Audit YM-RG-016's exact auxiliary-J differential, YM-RG-017's direct-J collar and source convolution, YM-RG-019's conditional all-layer exponent budget, YM-RG-028's endpoint replacement, YM-RG-029's completed support anchor, and YM-RG-030's H_J^conn-conditional completed tube; then prove H_J^conn, discharge H_rho, bounded mesh, and common constants, and prove the nonlinear U pullback before promoting a full physical chain-rule decay bound."
       ]
     },
     {
@@ -186,7 +186,7 @@
         "Verify the RG-I exponential link reconstruction, RG-II weakening contour, Eq. (1.21) norm conversion, and complex plaquette Lipschitz constant against the primary equations.",
         "Audit YM-RG-013's standard-branch degree, d_k geometry, and explicit entropy margin against the complete printed RG parameter hierarchy.",
         "Audit YM-RG-014's admitted shift count, stabilizer-symmetrized weakening, and coarse-lattice-preserving transport, then either prove unit-translation covariance or retain its absence.",
-        "Audit YM-RG-017's J-summand pullback, YM-RG-019's conditional all-layer extension, YM-RG-028's endpoint replacement, and YM-RG-029's completed support anchor, then construct the common completed-J tube, discharge H_rho, bounded mesh, and common-chart premises, and prove the missing U collar and pullback.",
+        "Audit YM-RG-017's J-summand pullback, YM-RG-019's conditional all-layer extension, YM-RG-028's endpoint replacement, YM-RG-029's completed support anchor, and YM-RG-030's H_J^conn-conditional completed tube; then prove H_J^conn, discharge H_rho, bounded mesh, and common-chart premises, and prove the missing U collar and pullback.",
         "Retain YM-RG-020's numerator-denominator algebra and independently audit YM-RG-021's sharp-cutoff passage plus YM-RG-026's post-polymerization norm and convergent sum.",
         "Keep the result separate from intrinsic/raw density matching, large fields, RG iteration, continuum limits, and the mass gap."
       ]
@@ -202,7 +202,7 @@
         "Verify RG I's shortest-tree definition, the source-convention-safe comparison d_k(Y)<=m(Y)+1 including the singleton exp(a) prefactor, and the four-dimensional degree bound D_0<=8.",
         "Visually transcribe the dropped leading prefactor, signs, and parameter range in RG II Eq. (1.32), and reconcile delta kappa>log 64 with every subsequent RG-II entropy expenditure.",
         "Audit the translated standard geometry and actual n_p normalization for every admitted shift used by YM-RG-014; introduce c_geo for any nonstandard weakening partition.",
-        "Audit YM-RG-017's matched-layer identity, YM-RG-019's all-layer exponent spend, YM-RG-028's endpoint replacement, and YM-RG-029's completed support anchor; construct the common completed-J tube, discharge H_rho, bounded mesh, and common constants, construct the U pullback, and independently audit YM-RG-021, YM-RG-025, and YM-RG-026's completed fixed-partition marked map, resummation, norm, hull application, and connected estimate.",
+        "Audit YM-RG-017's matched-layer identity, YM-RG-019's all-layer exponent spend, YM-RG-028's endpoint replacement, YM-RG-029's completed support anchor, and YM-RG-030's H_J^conn-conditional completed tube; prove H_J^conn, discharge H_rho, bounded mesh, and common constants, construct the U pullback, and independently audit YM-RG-021, YM-RG-025, and YM-RG-026's completed fixed-partition marked map, resummation, norm, hull application, and connected estimate.",
         "Keep the result separate from intrinsic/raw density matching, large fields, RG iteration, continuum limits, and the mass gap."
       ]
     },
@@ -211,14 +211,14 @@
       "severity": "S1",
       "status": "open",
       "targets": ["YM-RG-014"],
-      "summary": "The RG-admitted shifted-root cover has no independent human review; YM-RG-015 through YM-RG-017 supply fixed-chart physical specialization, derivatives, and a matched-layer J pullback, YM-RG-019 supplies a conditional bondwise all-layer bridge, YM-RG-028 removes its discrete tree lift, and YM-RG-029 closes completed support halos. YM-RG-026 closes one gas and YM-RG-027 synchronizes the complete shifted first jets, but unit translations, H_rho, mesh matching, a common completed-J tube, common constants, a nonzero-t polymer expansion, and a full physical quasilocal norm remain open.",
+      "summary": "The RG-admitted shifted-root cover has no independent human review; YM-RG-015 through YM-RG-017 supply fixed-chart physical specialization, derivatives, and a matched-layer J pullback, YM-RG-019 supplies a conditional bondwise all-layer bridge, YM-RG-028 removes its discrete tree lift, YM-RG-029 closes completed support halos, and YM-RG-030 closes the completed affine-J tube under H_J^conn. YM-RG-026 closes one gas and YM-RG-027 synchronizes the complete shifted first jets, but proof of H_J^conn, unit translations, H_rho, mesh matching, common constants, a nonzero-t polymer expansion, and a full physical quasilocal norm remain open.",
       "resolution_requirements": [
         "Record a line-by-line human review tied to an immutable commit.",
         "Verify the M=L^m shift geometry, n_p count, and normalized no-orbit-entropy bound on the exact finite torus conventions.",
         "Check the Reynolds average of generalized-random-walk terms, representative independence, fixed-point uniqueness step, and pullback/pushforward convention against RG I Eqs. (2.17)-(2.18) and RG II Eqs. (1.3)-(1.4).",
         "Either construct covariance under unit translations moving the next coarse lattice or keep that symmetry outside the claim.",
         "Independently audit YM-RG-027's discharge of H_sync: the nested lift count, complete unmarked and marked reconstruction on every separate branch, and normalization only after the connected map.",
-        "Retain YM-RG-017's direct-J result, YM-RG-019's conditional all-layer J bridge, YM-RG-028's endpoint replacement, and YM-RG-029's completed support anchor; then construct the common completed-J tube, discharge H_rho, bounded mesh, and common constants, and prove the nonlinear U collar/pullback before claiming a full physical derivative norm; keep all intrinsic/raw, large-field, continuum, and mass-gap claims separate."
+        "Retain YM-RG-017's direct-J result, YM-RG-019's conditional all-layer J bridge, YM-RG-028's endpoint replacement, YM-RG-029's completed support anchor, and YM-RG-030's H_J^conn-conditional completed tube; then prove H_J^conn, discharge H_rho, bounded mesh, and common constants, and prove the nonlinear U collar/pullback before claiming a full physical derivative norm; keep all intrinsic/raw, large-field, continuum, and mass-gap claims separate."
       ]
     },
     {
@@ -232,7 +232,7 @@
         "Audit RG I Eqs. (1.8), (1.10), (1.15)-(1.16), and (3.10)-(3.11) against YM-RG-016's exact auxiliary-J formula, covariance, differential, and qualitative fixed-chart decay statement.",
         "Quantify Proposition 9 Eq. (190)'s component indices, chart and differential-of-exponential factors, local auxiliary-J remainder, scale metrics, and norms in YM-RG-015's physical chain rule.",
         "Audit YM-RG-017's direct-J Banach ball and decay spend, then prove a regulator-uniform nonlinear U margin in compatible scaled charts.",
-        "Retain the proved dual source convolution, YM-RG-019's conditional forward comparison, YM-RG-028's removal of H_T, and YM-RG-029's completed support anchor; then construct the common completed-J tube and derive H_rho, bounded mesh, and common chart premises from the admitted family or replace the fixed metric with a compatible multiscale network norm.",
+        "Retain the proved dual source convolution, YM-RG-019's conditional forward comparison, YM-RG-028's removal of H_T, YM-RG-029's completed support anchor, and YM-RG-030's H_J^conn-conditional completed tube; then prove H_J^conn and derive H_rho, bounded mesh, and common chart premises from the admitted family or replace the fixed metric with a compatible multiscale network norm.",
         "Use YM-RG-020's branchwise separation rule, YM-RG-026's fixed-gas norm, and YM-RG-027's shifted synchronization, then complete the U/J pullback before claiming a physical marked expectation bound.",
         "Keep intrinsic/raw matching, large fields, RG iteration, continuum construction, infrared decay, and the mass gap outside this claim."
       ]
@@ -248,7 +248,7 @@
         "Verify the RG-I auxiliary-J transcription, including the holomorphic im convention, gauge covariance, the D_U^{xi*}D_U^xi leading differential, and the full local derivative of F(U,A) at A=0.",
         "Audit YM-RG-017's strict direct-J representative margin and YM-RG-018's raw-U obstruction, then construct a uniform nonlinear U tube in a compatible RG-scaled norm and a full product chart for every composed activity.",
         "Quantify every chart and differential-of-exponential coefficient and prove a uniform exponential bound for the physical auxiliary-J derivative.",
-        "Retain YM-RG-017's dual source convolution and audit YM-RG-019's all-layer exponent budget, YM-RG-028's endpoint replacement, and YM-RG-029's completed support anchor, then construct the common completed-J tube and discharge H_rho, bounded mesh, and common-chart premises; do not treat the unbounded reverse ratio as a forward obstruction.",
+        "Retain YM-RG-017's dual source convolution and audit YM-RG-019's all-layer exponent budget, YM-RG-028's endpoint replacement, YM-RG-029's completed support anchor, and YM-RG-030's H_J^conn-conditional completed tube; then prove H_J^conn and discharge H_rho, bounded mesh, and common-chart premises; do not treat the unbounded reverse ratio as a forward obstruction.",
         "Use YM-RG-026's completed fixed-partition connected bound and audit YM-RG-027's shifted synchronization, then complete the physical pullback before inferring any observable RG theorem.",
         "Keep intrinsic/raw matching, large fields, RG iteration, continuum construction, infrared decay, and the mass gap outside this claim."
       ]
@@ -289,12 +289,12 @@
       "severity": "S1",
       "status": "open",
       "targets": ["YM-RG-019"],
-      "summary": "The all-layer forward cell-map and auxiliary-J pullback lemma has no independent human review. YM-RG-028 removes its exact discrete-tree-lift premise and YM-RG-029 supplies zero-halo anchors for completed connected coefficients, but source-admissible interface geometry, mesh matching, a common completed-J tube, and common regulator-family chart constants remain conditional.",
+      "summary": "The all-layer forward cell-map and auxiliary-J pullback lemma has no independent human review. YM-RG-028 removes its exact discrete-tree-lift premise, YM-RG-029 supplies zero-halo anchors for completed connected coefficients, and YM-RG-030 supplies their affine-J tube under H_J^conn, but proof of H_J^conn, source-admissible interface geometry, mesh matching, and common regulator-family chart constants remain conditional.",
       "resolution_requirements": [
         "Record a line-by-line human review tied to an immutable commit.",
         "Derive the periodic coordinatewise ownership map, no-skipped-interface property, same-layer bond admissibility, and on-surface mesh-switch route from the exact Propagators-II domains and Eq. (2.46) bond convention.",
         "Independently audit YM-RG-028's covering-space endpoint replacement, sqrt(d) slope, additive allowance, and removal of H_T and tau.",
-        "Independently audit YM-RG-029's completed literal-union external-coordinate support theorem and zero-halo anchors; then construct the common completed-J tube.",
+        "Independently audit YM-RG-029's completed literal-union external-coordinate support theorem and zero-halo anchors, then audit YM-RG-030's H_J^conn-to-output-domain and local H-infinity tube argument.",
         "Prove b_*, C_chi, c_1(alpha_gamma), the E_J envelope, Delta_J^{-1}, and the prior activity constant common over the admitted regulator and background-chart family.",
         "Keep the reverse metric comparison, nonlinear U collar and pullback, physical connected expansion, nonzero-t polymer activities, large fields, RG iteration, continuum construction, infrared decay, and mass gap outside this claim."
       ]
@@ -430,12 +430,12 @@
       "severity": "S1",
       "status": "open",
       "targets": ["YM-RG-028"],
-      "summary": "The endpoint-distance replacement for the discrete tree lift and the first-stage direct-J zero-halo specialization have no independent human review. YM-RG-029 subsequently closes the completed support anchor, but the all-layer corollary still inherits YM-RG-019's unproved interface, mesh, common completed-J tube, and uniform-chart premises.",
+      "summary": "The endpoint-distance replacement for the discrete tree lift and the first-stage direct-J zero-halo specialization have no independent human review. YM-RG-029 subsequently closes the completed support anchor and YM-RG-030 closes its affine-J tube under H_J^conn, but the all-layer corollary still inherits proof of H_J^conn and YM-RG-019's unproved interface, mesh, and uniform-chart premises.",
       "resolution_requirements": [
         "Record a line-by-line human review tied to an immutable commit.",
         "Verify the periodic covering lift, P/eta and P/(Mb eta) integrality, sqrt(d) Euclidean-to-l1 conversion, epsilon-minimizer limit, closed localization-cube convention, endpoint allowance, and empty-support convention.",
         "Check the exact first-stage independent-J dependency set, full-bond interior condition, deterministic periodic base-site anchor, and h=h_q=0 conclusion.",
-        "Independently audit YM-RG-029 before extending h=0 to completed Section-2 coefficients, and keep the common completed-J tube separate.",
+        "Independently audit YM-RG-029 before extending h=0 to completed Section-2 coefficients, and independently audit YM-RG-030's separate H_J^conn-conditional completed tube.",
         "Discharge H_rho, bounded mesh matching, strict representative, source-kernel, chart-conversion, Cauchy-radius, and activity-uniformity premises before claiming an unconditional physical J pullback.",
         "Keep the nonlinear U pullback, nonzero-t polymer activities, raw matching, large fields, iteration, continuum construction, axioms, infrared decay, and mass gap open."
       ]
@@ -452,8 +452,24 @@
         "Audit coefficientwise marked locality through the enlarged seed, conditioning, exterior standardization, second weakening, output resummation, component factorization, and connected logarithm.",
         "Verify that every contributing final tuple has literal union R, repeated labels do not alter support, and the Ursell and post-connected normalization factors are field independent.",
         "Retain the source bond-intersection convention and verify the integer-wall closed-cubulation lemma, deterministic bond anchors, and inherited plaquette-root anchors on every nested shifted branch.",
-        "Construct a regulator-uniform full l-infinity completed-J tube and a tube-uniform weighted connected norm before claiming a Cauchy derivative or physical J pullback.",
+        "Independently audit YM-RG-030's H_J^conn-to-output-domain crosswalk and local H-infinity rerun before accepting its completed Cauchy derivative; retain H_J^conn and all remaining physical-pullback hypotheses.",
         "Keep H_rho, bounded mesh matching, common kernel/chart constants, the nonlinear U pullback, nonzero-t polymer activities, raw matching, large fields, iteration, continuum construction, axioms, infrared decay, and mass gap open."
+      ]
+    },
+    {
+      "id": "OBJ-034",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-030"],
+      "summary": "The completed affine-J tube and coefficientwise H-infinity connected norm have no independent human review. The result is conditional on the simultaneous completed representative hypothesis H_J^conn, which strengthens YM-RG-017's local H_J, and must not be confused with a physical-source disk or an unconditional physical pullback.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Verify RG I pp. 262-263 condition by condition: additive independent J changes only condition (iii), while condition (iv) uses J_n derived from U.",
+        "Verify RG II Eq. (1.34), Lemma 2, printed p. 15, and Lemma 3 against the pinned PDFs, including the two-parameter output-domain shorthand and the unchanged direct-J ceiling alpha_0.",
+        "Check that H_J^conn supplies one raw affine representative compatible on every input, intermediate, output, and shifted domain, and that restriction and shift transport preserve the l-infinity margin.",
+        "Rerun the marked seed, D/P/Z_0, doubled-amplitude scale susceptibility, final marked norm, and pinned Ursell estimate in coefficientwise local H-infinity norms; do not interchange support-dependent suprema with a pointwise sum.",
+        "Verify literal-union restriction of every connected tuple, exact cancellation of the shifted branch count, and equality of support-restricted and global dual norms by coordinate projection and zero-extension.",
+        "Keep H_J^conn itself, H_rho, bounded mesh matching, common kernel/chart constants, the scaled nonlinear U pullback, nonzero-source polymer activities, raw matching, large fields, RG iteration, continuum construction, axioms, infrared decay, and mass gap open."
       ]
     }
   ]

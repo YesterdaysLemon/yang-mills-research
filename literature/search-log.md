@@ -698,9 +698,15 @@ source remain unproved.
 
 ## 2026-07-23 -- contained-tree endpoint bridge
 
-No new external paper was needed. The immutable RG-I and Propagators-II
-records were reused in the
+The immutable RG-I and Propagators-II records were reused in the
 [endpoint audit](audits/2026-07-23-endpoint-distance-bridge.md).
+The correct Propagators-II Project Euclid PDF was separately pinned as
+`tmp/pdfs/propagators-ii.pdf`, with SHA-256
+`6CC4F26316AF0DC7F41B39FA75E2F2F9F90C24E1927253B4DFCF0B02D751D72F`.
+It is distinct from `tmp/pdfs/rg-ii.pdf`, SHA-256
+`EE39523A0F7B83AF958513C7BD6F9C7731934B40355EF5D6B0F7A68EE6D022FC`,
+which is the later RG-II cluster-expansion paper and does not contain Eqs.
+(2.45)--(2.54).
 
 RG I p. 257 supplies the side-length-normalized continuous contained-tree
 metric. Propagators II Eqs. (2.45)--(2.54) supply the multiscale labels,
@@ -765,3 +771,41 @@ It does not give a regulator-uniform full \(\ell^\infty\) \(J\)-tube or a
 tube-uniform connected norm. Those quantitative inputs remain necessary for
 a no-volume-loss Cauchy derivative estimate and the physical \(J\)
 pullback.
+
+## 2026-07-23 -- completed affine-J tube
+
+No new external paper was needed. The immutable RG-I and RG-II PDFs were
+reused; their hashes and the exact page map are recorded in the
+[completed-tube
+audit](audits/2026-07-23-balaban-completed-j-cauchy-tube.md).
+
+RG I printed p. 262 separates its domain conditions: (i) and (ii) involve
+\(U\), (iii) gives the direct independent-\(J\) ceiling, and (iv) tests a
+\(J_n\) derived from \(U\). Printed p. 263 gives the qualitative smaller
+physical domain that motivates Note 0017's explicit
+\((\mathrm H_J)\). It does not provide simultaneous representative
+compatibility across every overlapping chart in a completed shifted branch.
+
+RG II Eq. (1.34) retains the direct ceiling \(\alpha _0\), Lemma 2 puts the
+localized potentials on that domain, and printed p. 15 places the
+potentials, quadratic forms, covariances, final activities, and connected
+output on the corresponding external \((U,J)\) analytic spaces. Lemma 3 is
+uniform throughout the fixed-output domain.
+
+YM-RG-030 is a repository corollary. Under its stronger completed
+compatibility hypothesis \((\mathrm H_J^{\rm conn})\), restriction and
+shifted relabelling preserve the full affine radius
+\(\Delta_J=\alpha _0-\bar\alpha _0\). The marked and connected positive
+estimates must then be rerun in local \(H^\infty\) norms. This gives the sum
+of coefficientwise tube suprema with
+\(B_{\rm conn}^{\rm tube}=B_{\rm conn}\); a pointwise support-sum estimate
+alone has the wrong quantifier order. Banach-line Cauchy and YM-RG-029
+locality give the full dual \(\ell^\infty\) derivative norm without a bond
+count.
+
+The result remains conditional on \((\mathrm H_J^{\rm conn})\). It is a
+transverse independent-\(J\) tube, not a nonzero plaquette-source polymer
+disk.
+\((\mathrm H_\rho)\), bounded mesh matching, common kernel/chart constants,
+the scaled nonlinear \(U\) pullback, and every later Yang--Mills gate remain
+open.

@@ -364,9 +364,12 @@ stays in the completed coefficient domain and
 \boxed{
 \sup_p
 \sup_{(U,J)\in\mathfrak K_p^{\rm phys}}
-\sum_{s,R}
+\sum_{\substack{s\in\widetilde{\mathcal A}_{M,L}(p)\\
+R\supset\widehat Q_{p,s}}}
 e^{\kappa d_{k+1,s}(R)}
-\sup_{\lVert w\rVert_{\ell^\infty}<\Delta_J^{\rm conn}}
+\sup_{\substack{\operatorname {supp}w\subset
+\mathsf E_s^{\rm loc}(R)\\
+\lVert w\rVert_{\ell^\infty}<\Delta_J^{\rm conn}}}
 \left|
 \widehat{\mathcal C}_p^+(s,R;U,J+w)
 \right|
@@ -439,6 +442,23 @@ note. In particular, neither Note 0016's fixed-regulator compactness radii
 nor Note 0027's nonempty common intersection supplies the uniform tube
 bound (21).
 
+**Subsequent closure.** [Note
+0030](0030-completed-j-cauchy-tube.md) introduces the completed
+representative compatibility hypothesis \((\mathrm H_J^{\rm conn})\),
+strengthening Note 0017's local \((\mathrm H_J)\), and applies its margin at
+the output scale. It reruns the marked and connected estimates in
+coefficientwise local \(H^\infty\) norms. Under that hypothesis and Notes
+0024--0027's retained
+gas premises, it proves (20)--(21) with
+\[
+\Delta_J^{\rm conn}=\alpha _0-\bar\alpha _0,
+\qquad
+B_{\rm conn}^{\rm tube}=B_{\rm conn}.
+\]
+It also proves (22) and hence the conditional implication (25). The other
+premises of (25), including \((\mathrm H_\rho)\), bounded mesh matching, and
+common source-kernel/chart constants, remain open.
+
 ## Exact boundary
 
 - Bałaban proves the unmarked locality (5) and the unmarked
@@ -454,7 +474,9 @@ bound (21).
   introduced.
 - The result closes the completed external-\(J\) support-anchor premise. It
   does not close \((\mathrm H_\rho)\), bounded mesh matching, common
-  source-kernel/chart constants, or the tube hypothesis (20)--(21).
+  source-kernel/chart constants, or by itself the tube hypothesis
+  (20)--(21). Subsequent Note 0030 closes that tube hypothesis under
+  \((\mathrm H_J^{\rm conn})\).
 - External-\(U\) restriction locality does not overcome the raw-\(U\) collar
   obstruction in Note 0018 and does not construct an RG-scaled nonlinear
   \(U\) pullback.

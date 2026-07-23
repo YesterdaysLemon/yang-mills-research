@@ -111,9 +111,13 @@ Note 0028 removes its discrete-tree-lift premise and supplies zero support
 halos for first-stage direct-\(J\) activities. Note 0029 carries
 external-field locality through the completed literal-union coefficient and
 uses the source bond-intersection convention plus the admitted integer-wall
-cubulation to supply zero completed support halos; a common completed-\(J\)
-tube, ownership/interface, bounded mesh, and common chart constants remain
-conditional.
+cubulation to supply zero completed support halos. Under its completed
+representative compatibility hypothesis \((\mathrm H_J^{\rm conn})\),
+strengthening Note 0017's local \((\mathrm H_J)\), Note 0030 carries the
+strict affine-\(J\) margin through every completed output domain and proves
+the coefficientwise tube norm and full dual derivative norm. Proof of
+\((\mathrm H_J^{\rm conn})\), ownership/interface, bounded mesh, and common
+chart constants remain conditional.
 Note 0020 proves the exact one-mark Ursell formula
 and a conditional pinned cluster bound for one fixed hard-core gas, and shows
 that bare shifted marks cannot be mixed without branch synchronization or a
@@ -139,9 +143,9 @@ lifts the two-scale cubulations, reconstructs the same dual-number integral
 on every separate shifted branch, and synchronizes their connected first jets
 with no orbit factor. Notes 0007 and 0010 already give the selected-coordinate
 scalar source disk; source-dependent polymer activities and KP convergence at
-nonzero source remain open. The scaled \(U\) pullback, the common
-completed-\(J\) tube, the remaining ownership/interface, mesh, and
-common-chart premises from Note 0019, and the full physical coarse-field
+nonzero source remain open. The scaled \(U\) pullback, proof of
+\((\mathrm H_J^{\rm conn})\), the remaining ownership/interface, mesh, and common-chart
+premises from Note 0019, and the full unconditional physical coarse-field
 derivative/quasilocal norm,
 unit-translation covariance and a physical convergent connected marked
 estimate are the first parts not settled by those auxiliary lemmas or the
@@ -243,9 +247,12 @@ infrared conclusions.
   conditional scaled-collar template (Note 0018), the conditional all-layer
   \(J\)-summand bridge (Note 0019), and the periodic endpoint replacement
   plus first-stage direct-\(J\) anchors (Note 0028), followed by completed
-  literal-union external-\(J\) support (Note 0029), without a concrete
-  RG-scaled \(U\) norm, a common completed-\(J\) tube, or a proof of Note
-  0019's ownership/interface, bounded-mesh, and uniform-chart premises;
+  literal-union external-\(J\) support (Note 0029) and the completed affine
+  \(J\) tube and derivative norm under \((\mathrm H_J^{\rm conn})\) (Note
+  0030), without a proof of \((\mathrm H_J^{\rm conn})\), a concrete
+  RG-scaled \(U\) norm, or a proof
+  of Note 0019's ownership/interface, bounded-mesh, and uniform-chart
+  premises;
 - the exact fixed-gas distinguished-vertex Ursell identity, repeated-label
   convention, shifted-branch separation rule, and conditional pinned
   Kotecky--Preiss implication (Note 0020);
@@ -302,8 +309,10 @@ None of those inputs supplies the displayed source-inserted polymer theorem.
 9. [x] Remove Note 0019's discrete-tree-lift premise and its \(\tau\)
    loss by a periodic covering-space endpoint argument, and prove zero
    support halos for the first-stage direct-\(J\) activities; see Note 0028.
-   Ownership/interface, bounded mesh, a completed-\(J\) tube, and
-   common-chart constants remain open.
+   Ownership/interface, bounded mesh, proof of
+   \((\mathrm H_J^{\rm conn})\), and common-chart constants remain open;
+   Note 0030 subsequently closes the completed affine-\(J\) tube under that
+   hypothesis.
 10. [x] Carry exactly one rooted mark through RG II Eqs. (2.2)–(2.13) on
    one fixed compatible partition, using Lemma 3 for the unmarked
    decorations, and prove the connected first-jet sum converges.
@@ -331,14 +340,18 @@ None of those inputs supplies the displayed source-inserted polymer theorem.
     external bond coordinates intersecting the interior of its literal
     output union and, on the admitted integer-wall closed cubulations, has
     zero external-\(J\) support halos; see Note 0029.
-13. [ ] Compose the physical \(U/J\) first-jet pullbacks by constructing the
-    completed-\(J\) common tube and scaled nonlinear \(U\) collar, and by
-    discharging Note 0019's remaining ownership/interface, bounded-mesh, and
-    uniform-chart premises.
-14. [ ] Separately construct source-dependent polymer activities and uniform
+13. [x] Under \((\mathrm H_J^{\rm conn})\), construct the completed
+    affine-\(J\) common tube, rerun the connected bound in coefficientwise
+    local \(H^\infty\) norms, and prove the full dual derivative norm without
+    a bond-volume loss; see Note 0030.
+14. [ ] Compose the unconditional physical \(U/J\) first-jet pullbacks by
+    proving \((\mathrm H_J^{\rm conn})\), constructing the scaled nonlinear \(U\)
+    collar, and discharging Note 0019's remaining ownership/interface,
+    bounded-mesh, and uniform-chart premises.
+15. [ ] Separately construct source-dependent polymer activities and uniform
     KP convergence on a nonzero-source disk. The selected-coordinate scalar
     disk itself is already supplied by Notes 0007 and 0010.
-15. [ ] Perform the full symmetry/Ward-identity projection on the marked first
+16. [ ] Perform the full symmetry/Ward-identity projection on the marked first
    jet and classify all position/orientation mixing.
 
 ## Falsification tests

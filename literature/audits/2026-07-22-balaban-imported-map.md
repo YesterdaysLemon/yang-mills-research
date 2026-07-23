@@ -366,10 +366,13 @@ No marked Lemma 3 is imported from Balaban. Note 0026 is instead a repository
 one-colour corollary using Note 0024's one-sided source-metric crosswalk and
 ordinary window together with Note 0023's model. The scaled nonlinear \(U\)
 pullback, uniform realization of Note 0019's remaining ownership/interface,
-mesh, common completed-\(J\) tube, and chart geometry, a nonzero-source
-polymer-activity disk, and the physical connected estimate remain open.
-Subsequent Note 0027 separately transports the complete construction over
-nested shifted branches and synchronizes their first jets.
+mesh, and chart geometry, proof of
+\((\mathrm H_J^{\rm conn})\), a nonzero-source polymer-activity disk, and
+the unconditional physical connected estimate remain open. Subsequent Note
+0027 separately transports the complete construction over nested shifted
+branches and synchronizes their first jets; Note 0030 then supplies the
+completed affine-\(J\) tube and derivative norm under
+\((\mathrm H_J^{\rm conn})\).
 
 ## Regular configurations and gauge chart
 
@@ -444,6 +447,10 @@ units to define \(d_{\mathcal B}\). Equation (2.53) identifies the associated
 cell as \(\Delta(y)=B^j(y)\), and Eq. (2.54) gives the triangle inequality.
 Lemma 2.1, Eqs. (2.59)--(2.63), pp. 233--234, gives the required exponential
 summation/convolution bound under the paper's stronger separation condition.
+The inspected PDF has SHA-256
+`6CC4F26316AF0DC7F41B39FA75E2F2F9F90C24E1927253B4DFCF0B02D751D72F`;
+it is the CMP 96 Propagators-II paper, not the distinct CMP 116 RG-II
+cluster-expansion PDF.
 
 This is not the rooted polymer distance \(d_{k,\sigma}\) used in Notes
 0013--0017. Note 0017 proves the source-measure cancellation and dual

@@ -464,8 +464,11 @@ common tube, and common-chart premises remain.
   supplies its independent-variable marked norm and connected first jet.
   Note 0027 synchronizes the nested shifted first jets, and Note 0028 removes
   the unnecessary discrete-tree lift from the conditional all-layer
-  auxiliary-\(J\) bridge. Note 0029 closes completed-coefficient support but
-  not its common Cauchy tube. No physical pulled-back convergent expectation,
+  auxiliary-\(J\) bridge. Note 0029 closes completed-coefficient support, and
+  subsequent Note 0030 strengthens this note's local \((\mathrm H_J)\) to
+  \((\mathrm H_J^{\rm conn})\) and closes the common affine-\(J\) Cauchy tube
+  and derivative norm under that stronger hypothesis. No unconditional physical
+  pulled-back convergent expectation,
   nonzero-source polymer-activity disk, large-field estimate, RG iteration,
   continuum construction, infrared decay, or Yang--Mills mass gap follows.
 

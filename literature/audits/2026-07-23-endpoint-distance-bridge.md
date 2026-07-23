@@ -5,6 +5,31 @@ Date: 2026-07-23
 Purpose: separate the metric facts imported by YM-RG-028 from the
 repository's periodic endpoint and support-anchor corollaries.
 
+## Immutable source records
+
+The official Project Euclid PDFs were inspected directly:
+
+```text
+RG I             1C2D2E500FD1E6A1A7981FED259CC2354EBCF64E473FD564BFC3F2C4D7DFBE2A
+Propagators II   6CC4F26316AF0DC7F41B39FA75E2F2F9F90C24E1927253B4DFCF0B02D751D72F
+```
+
+Stable mirrors:
+
+- [RG I](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-109/issue-2/Renormalization-group-approach-to-lattice-gauge-field-theories-I-Generation/cmp/1104116842.pdf)
+- [Propagators II](https://projecteuclid.org/journals/communications-in-mathematical-physics/volume-96/issue-2/Propagators-and-renormalization-transformations-for-lattice-gauge-theories-II/cmp/1103941783.pdf)
+
+For Propagators II, one-based PDF pages 9--11 are printed pp. 231--233:
+Eqs. (2.45)--(2.47) are on p. 231, the block identity used as Eq. (2.53)
+is on p. 232, and Eq. (2.54) is on p. 233. The local ignored file is
+`tmp/pdfs/propagators-ii.pdf`.
+
+This source is not `tmp/pdfs/rg-ii.pdf`, whose distinct digest
+`EE39523A0F7B83AF958513C7BD6F9C7731934B40355EF5D6B0F7A68EE6D022FC`
+belongs to *Renormalization Group Approach to Lattice Gauge Field Theories
+II. Cluster Expansions*, CMP 116 (1988). The two papers must not be used
+interchangeably.
+
 ## Imported source facts
 
 1. RG I p. 257 defines \(d_k(Y)\) by the side-length-normalized length of a

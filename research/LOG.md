@@ -970,3 +970,69 @@ norm throughout that tube. With that in hand, Banach Cauchy and Notes
 0019/0028/0029 would close the conditional physical \(J\)-summand without a
 bond-volume loss. Audit \((\mathrm H_\rho)\) and the scaled nonlinear \(U\)
 collar in parallel.
+
+## 2026-07-23 -- completed affine-J tube and connected derivative norm
+
+### Established
+
+- Rechecked RG I printed pp. 262--263. Conditions (i) and (ii) involve only
+  \(U\), condition (iii) imposes the direct independent-\(J\) ceiling, and
+  condition (iv) uses \(J_n\) derived from \(U\). Thus an affine independent
+  \(J\) perturbation changes only condition (iii).
+- Rechecked RG II Eq. (1.34), Lemma 2, and printed p. 15. The localized
+  potentials, quadratic forms, covariances, final activities, and connected
+  output share an external analytic domain whose direct-\(J\) ceiling is
+  \(\alpha _0\).
+- Under the completed representative compatibility hypothesis
+  \((\mathrm H_J^{\rm conn})\), strengthening Note 0017's local
+  \((\mathrm H_J)\), restriction contraction and isometric shift transport
+  carry the radius
+  \[
+  \Delta_J=\alpha _0-\bar\alpha _0
+  \]
+  through every local domain in a completed branch.
+- Reran Notes 0024--0026 in the support-local Banach algebras
+  \(H^\infty(\mathbb T_{p,s,R})\). The marked input norm and ordinary Lemma-3
+  norm are already suprema over their full source domains, so every positive
+  resummation and pinned-cluster majorant is unchanged. Coefficientwise
+  literal-union grouping proves
+  \[
+  \sum_{s,R}e^{\kappa d_{k+1,s}(R)}
+  \sup_{\mathbb T_{p,s,R}}
+  |\widehat{\mathcal C}_p^+(s,R)|
+  \le B_{\rm conn}.
+  \]
+  This is the required sum of coefficientwise suprema, not a reversed
+  sup/sum inference.
+- Banach-line Cauchy plus Note 0029 locality gives the full global
+  \((\ell^\infty)^*\) norm bounded by
+  \(B_{\rm conn}/\Delta_J\). Coordinate projection and zero-extension prove
+  equality of the support-restricted and global dual norms without a bond
+  count.
+- Under Note 0019's remaining hypotheses, the completed physical-\(J\)
+  chain-rule summand now follows. Added seven YM-RG-030 regressions,
+  including a complex-gauge non-isometry check, plus one Propagators-II
+  source-identity regression, a primary-domain audit, and OBJ-034. No
+  independent human review was performed.
+
+### Not established
+
+- \((\mathrm H_J^{\rm conn})\) remains a hypothesis. RG I supplies a
+  qualitative smaller-domain mechanism, not a numerical common
+  \(\bar\alpha _0\) or a representative atlas simultaneously compatible
+  across every overlapping local chart and shifted branch.
+- Note 0019's \((\mathrm H_\rho)\), bounded output mesh matching, and common
+  source-kernel/chart constants remain conditional.
+- The affine independent-\(J\) tube is not a disk of physical pairs and is
+  not the still-missing nonzero plaquette-source polymer expansion.
+- No RG-scaled nonlinear \(U\) collar or pullback, intrinsic/raw comparison,
+  unit-translation theorem, large-field estimate, RG iteration, continuum
+  construction, axioms, infrared decay, or mass gap has been proved.
+
+### Next decision
+
+Audit and either discharge or sharply falsify \((\mathrm H_\rho)\) against
+the exact Propagators-II ownership/interface geometry. In parallel, construct
+the concrete RG-scaled nonlinear \(U\) norm and common representative atlas
+needed to turn the remaining conditional \(J\) result and the \(U\) summand
+into one physical connected first-jet estimate.

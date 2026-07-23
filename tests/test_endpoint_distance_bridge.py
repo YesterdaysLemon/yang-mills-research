@@ -165,6 +165,25 @@ class EndpointDistanceBridgeTests(unittest.TestCase):
         self.assertIn("completed Section-2 connected", note)
         self.assertIn("No independent human review", note)
 
+    def test_audit_pins_the_correct_propagators_ii_pdf(self) -> None:
+        audit = (
+            ROOT
+            / "literature"
+            / "audits"
+            / "2026-07-23-endpoint-distance-bridge.md"
+        ).read_text(encoding="utf-8")
+
+        self.assertIn(
+            "6CC4F26316AF0DC7F41B39FA75E2F2F9F90C24E1927253B4DFCF0B02D751D72F",
+            audit,
+        )
+        self.assertIn("tmp/pdfs/propagators-ii.pdf", audit)
+        self.assertIn("not `tmp/pdfs/rg-ii.pdf`", audit)
+        self.assertIn(
+            "The two papers must not be used interchangeably",
+            " ".join(audit.split()),
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

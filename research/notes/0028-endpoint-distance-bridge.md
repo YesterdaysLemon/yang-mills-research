@@ -343,8 +343,10 @@ tree-digitization and support-halo premises for the first-stage direct-\(J\)
 family. It does not prove \((\mathrm H_\rho)\), the mesh bound, common chart
 constants, or the corresponding derivative theorem for the completed
 YM-RG-027 coefficients. Subsequent Note 0029 supplies zero support halos for
-those completed coefficients on the admitted integer-wall cubulations, but
-still no common Cauchy tube or derivative norm.
+those completed coefficients on the admitted integer-wall cubulations.
+Subsequent Note 0030 supplies their common affine-\(J\) Cauchy tube and
+derivative norm under \((\mathrm H_J^{\rm conn})\), independently of this
+endpoint lemma.
 
 ## Exact boundary
 

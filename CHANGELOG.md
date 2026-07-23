@@ -4,6 +4,28 @@ All notable research-structure and claim-status changes are recorded here. Mathe
 
 ## 2026-07-23
 
+- Added YM-RG-030. Under the new completed representative compatibility
+  hypothesis \((\mathrm H_J^{\rm conn})\), strengthening Note 0017's local
+  \((\mathrm H_J)\), the output-scale RG-I/II domains admit the common
+  completed affine-\(J\) radius
+  \(\Delta_J=\alpha _0-\bar\alpha _0\).
+- Reran the positive marked resummation and pinned connected expansion in
+  coefficientwise support-local \(H^\infty\) norms. This proves the strong
+  sum of tube suprema with
+  \(B_{\rm conn}^{\rm tube}=B_{\rm conn}\); it is not obtained by
+  interchanging support-dependent suprema with a pointwise sum.
+- Applied Banach-line Cauchy and YM-RG-029's exact support projection to
+  prove the full global \((\ell^\infty)^*\) completed-\(J\) derivative norm
+  \(B_{\rm conn}/\Delta_J\) without a bond-volume factor.
+- Closed the completed physical-\(J\) chain-rule summand conditionally on
+  YM-RG-019's remaining \((\mathrm H_\rho)\), bounded-mesh, and common
+  kernel/chart hypotheses. Proof of \((\mathrm H_J^{\rm conn})\), those
+  remaining premises, the nonlinear \(U\) pullback, and every later
+  construction or mass-gap gate remain open.
+- Added seven analytic-norm and representative-compatibility regressions,
+  one Propagators-II source-identity regression, a pinned primary-domain
+  audit, and OBJ-034. Repository and official-problem status remain
+  Exploratory E0 and unsolved.
 - Added YM-RG-029, the completed external-\(J\) support theorem. RG II's
   printed final-activity locality, the marked dual-number Section-2 map, and
   the literal-union connected grouping imply that

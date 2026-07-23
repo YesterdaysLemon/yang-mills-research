@@ -130,9 +130,14 @@ first-stage direct-\(J\) activities. [Note
 0029](../notes/0029-completed-external-j-support.md) proves zero support
 halos for the completed connected coefficient through final-activity
 locality, RG I's bond-intersection convention, the literal-union map, and
-the integer-wall cubulation lemma. It does not provide the common
-completed-coefficient Cauchy tube or derive the ownership interface, bounded
-mesh, or common chart constants from the source. Note 0018 proves that naive
+the integer-wall cubulation lemma. [Note
+0030](../notes/0030-completed-j-cauchy-tube.md) then provides the common
+completed-coefficient affine-\(J\) tube and full dual derivative norm under
+its completed compatibility hypothesis
+\((\mathrm H_J^{\rm conn})\), strengthening Note 0017's local
+\((\mathrm H_J)\). It does not prove that simultaneous representative
+hypothesis or derive the ownership interface, bounded mesh, or common chart
+constants from the source. Note 0018 proves that naive
 raw and \(\xi\)-scaled bond-sup
 \(U\) collars collapse and leaves the RG-scaled replacement conditional.
 [Note 0020](../notes/0020-one-mark-ursell-identity.md) proves the exact
@@ -168,7 +173,7 @@ gases or paying an orbit factor. The selected-coordinate scalar source disk
 was already proved in Notes 0007 and 0010; a source-dependent
 polymer-activity disk remains unproved.
 Unit-translation covariance, the scaled nonlinear \(U\) collar and pullback,
-the completed-\(J\) common tube, and the remaining Note 0019
+proof of \((\mathrm H_J^{\rm conn})\), and the remaining Note 0019
 ownership/interface, mesh, and common-chart premises,
 the full physical coarse-background derivative norm, and a physical rooted
 connected bound remain open.
@@ -354,9 +359,11 @@ and no mass gap.
   specifies the missing scaled chart estimates. Note 0019 extends the
   \(J\)-summand conditionally across layers. Note 0028 removes its
   discrete-tree-lift premise and supplies first-stage direct-\(J\) anchors.
-  Note 0029 supplies completed-coefficient zero-halo anchors. The common
-  completed-\(J\) tube, ownership interface, bounded mesh, common constants,
-  and scaled nonlinear \(U\) pullback remain open.
+  Note 0029 supplies completed-coefficient zero-halo anchors. Note 0030
+  supplies the completed affine-\(J\) tube and derivative norm under
+  \((\mathrm H_J^{\rm conn})\). Proof of
+  \((\mathrm H_J^{\rm conn})\), the ownership interface, bounded mesh,
+  common constants, and the scaled nonlinear \(U\) pullback remain open.
 - [x] Replace the continuous-tree digitization premise by a periodic
   covering-space endpoint estimate, including the safe \(\sqrt d\) slope
   and zero first-stage direct-\(J\) support halos; see Note 0028.
@@ -364,7 +371,11 @@ and no mass gap.
   dual-number Section-2 map and literal-union connected coefficient, proving
   the exact bond-intersection support set and zero completed external-\(J\)
   support halos on the admitted integer-wall cubulations; see Note 0029.
-  The common tube and derivative norm remain open.
+- [x] Under \((\mathrm H_J^{\rm conn})\), carry the strict affine-\(J\)
+  margin through
+  every completed output domain, rerun the marked connected estimate in
+  coefficientwise local \(H^\infty\) norms, and prove the full dual
+  derivative norm without a bond count; see Note 0030.
 - [x] Prove the exact one-mark connected-graph formula, repeated-label
   convention, and conditional pinned Kotecky--Preiss implication for one
   fixed hard-core gas; see Note 0020.
@@ -415,9 +426,11 @@ and no mass gap.
   and Note 0017 proves the dual convolution and one-layer \(J\)-summand
   specialization. Note 0019 gives a conditional all-layer extension, and
   Note 0028 removes its tree-digitization premise. Note 0029 closes the
-  completed support anchor. A common completed-\(J\) tube, uniform
-  realization of the remaining ownership/interface, mesh, and chart
-  premises, and the \(U\) summand remain open.
+  completed support anchor. Note 0030 closes the completed affine-\(J\) tube
+  and derivative norm under \((\mathrm H_J^{\rm conn})\). Proof of
+  \((\mathrm H_J^{\rm conn})\), uniform realization of the remaining
+  ownership/interface, mesh, and chart premises, and the \(U\) summand remain
+  open.
 - [ ] Classify every relevant/marginal source counterterm and the profile
   mixing map.
 - [ ] Differentiate the small-field stationary/background construction
