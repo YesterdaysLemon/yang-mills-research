@@ -485,7 +485,7 @@
         "Check that the separated third parameter in RG II Eq. (1.34) permits the independent radius Delta_J while the smaller U constants still imply every derived condition-(iv) bound.",
         "Prove H_rc with common numerical margins for the actual minimizing physical family, every restriction, and every nested shifted branch.",
         "Rerun the complete marked construction in the product H-infinity algebra and verify both full global dual norms without a hidden restriction, volume, or branch factor.",
-        "Pair Proposition 9 Eq. (190) quantitatively with the covariant-curl U norm and prove every required U-side metric crosswalk and common chart/kernel constant. YM-RG-032 removes H_rho and mesh matching only from its support-anchored J summand.",
+        "Independently audit YM-RG-033's unweighted feature-row pullback and exact positive-decay restriction-quotient reduction, then prove its common converted U-feature rows, scale envelopes, and local extension theorem. YM-RG-032 removes H_rho and mesh matching only from its support-anchored J summand.",
         "Keep the nonzero-source polymer disk, raw matching, large fields, RG iteration, continuum construction, axioms, infrared decay, and mass gap open."
       ]
     },
@@ -503,7 +503,26 @@
         "Verify the completed-family quantifiers in Ebar_J^conn, the suppressed finite source-component sum, and the fixed norm-equivalence factor absorbed into C_chi; none follows from H_rc.",
         "Audit the support-set distance inequality, empty-support convention, finite-dimensional l-infinity/l-one identity, and absence of support-cardinality, mesh, endpoint, polymer-exponent-loss, volume, or branch factors.",
         "Verify the one-coordinate countermodel and retain the distinction between worst-case-sharp geometry-only H_end and an activity-specific logically minimal hypothesis.",
-        "Prove H_end or an analytic substitute before claiming the stronger marked-plaquette-rooted norm, and keep the physical U pullback, nonzero-source polymer disk, raw matching, large fields, RG iteration, continuum construction, axioms, infrared decay, and mass gap open."
+        "Prove H_end or an analytic substitute before claiming the stronger marked-plaquette-rooted J norm. YM-RG-033 separately gives only a conditional unweighted physical-U pullback and an exact positive-decay quotient reduction; keep its common feature rows, scale envelopes, extension theorem, nonzero-source polymer disk, raw matching, large fields, RG iteration, continuum construction, axioms, infrared decay, and mass gap open."
+      ]
+    },
+    {
+      "id": "OBJ-037",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-033"],
+      "summary": "The quotient-localized physical-U pullback has no independent human review. The unweighted result is conditional on common converted Eq. (190) rows for all four covariant-U features and a global scale envelope. Positive source decay is reduced exactly to a restriction-quotient synthesis norm, but its common bound additionally assumes a genuine local feature-extension theorem and, for active-bond anchoring, an explicit collar halo.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Recheck the variational-paper Eq. (190) K and gradient rows, source-density normalization, output/input layer roles, finite source-component factors, and Propagators-II convolution.",
+        "Prove the full converted feature-row hypothesis H_row^U: raw RG and operator rows, background-covariant gradient, exact transported covariant-curl identity with the xi^{-1} normalization, bounded stencil decomposition, tagged labels, and common chart/gauge-restoration constants.",
+        "Verify the unweighted l-infinity source synthesis, feature supremum, finite-dimensional phase duality, and absence of coordinate, bond-volume, mesh, or branch factors.",
+        "Audit completed external-U locality, the restriction quotient X_U/N_I, exact equality of the supported global and quotient dual norms, and sharpness of the weighted quotient-synthesis moment.",
+        "Prove H_ext^U with a regulator-, center-, branch-, support-, and shift-uniform constant. Do not replace it by zero extension or by the statement that restriction is a contraction.",
+        "Anchor positive decay at the complete feature collar or prove and pay the active-label halo exp(gamma H_U); prove a separate endpoint or coefficient-weighted substitute before claiming marked-plaquette-rooted decay.",
+        "Do not quotient longitudinal or gauge directions using the joint Ward identity after separately taking absolute values of the U and J summands.",
+        "Prove H_rc, the global and completed feature-scale envelopes, and all remaining physical-family uniformity premises.",
+        "Keep nonzero-source polymer activities, raw matching, large fields, RG iteration, continuum and infinite-volume construction, Osterwalder-Schrader reconstruction, infrared decay, and the Yang-Mills mass gap open."
       ]
     }
   ]

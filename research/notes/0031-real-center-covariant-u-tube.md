@@ -444,11 +444,13 @@ Neither estimate has a bond-volume or shifted-branch factor.
 - Proposition 7 is stated for Lie-algebra-valued real perturbations. This
   note uses only its surrounding plaquette algebra as provenance and proves
   the needed complex estimate independently.
-- The derivative in (26) is a relative-log chart derivative. Turning it into
-  the physical coarse-field \(U\)-summand still requires a quantitative
-  pairing of Proposition 9 Eq. (190)'s background kernel with the norm
-  (11), including chart conversion factors and the multiscale metric
-  convolution.
+- The derivative in (26) is a relative-log chart derivative. Note 0033
+  supplies an unweighted physical coarse-field \(U\)-summand under common
+  converted Proposition 9 Eq. (190) feature rows and a global scale
+  envelope, then identifies the exact restriction-quotient moment and a
+  local extension hypothesis for positive source decay. Those converted
+  rows, the covariant-curl identity, scale envelopes, and extension theorem
+  remain unproved for the physical family.
 - Equations (26)--(27) do not discharge Note 0019's
   \((\mathrm H_\rho)\), bounded mesh matching, or common kernel/chart
   constants. They also do not construct a nonzero scalar-source polymer
@@ -480,5 +482,6 @@ Neither estimate has a bond-volume or shifted-branch factor.
   \((\mathrm H_{\rm rc})\) holds.
 - Infer (24) from a pointwise connected sum without the
   coefficientwise \(H^\infty\) rerun.
-- Promote the chart derivative (26) to a physical coarse-field pullback
-  without the Eq. (190) norm and metric crosswalk.
+- Promote the chart derivative (26) to an unconditional physical
+  coarse-field pullback without Note 0033's common converted feature rows,
+  scale envelopes, and, for positive decay, restriction-quotient extension.

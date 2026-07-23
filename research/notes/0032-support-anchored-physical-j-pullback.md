@@ -577,11 +577,14 @@ endpoint distance, and a coefficient-weighted endpoint moment can be weaker.
 - The countermodel establishes logical sharpness relative to the retained
   inequalities, not a failure of the actual Balaban geometry.
 - The result supplies only the physical auxiliary-\(J\) chain-rule summand.
-  It does not supply the physical \(U\) pullback, prove
-  \((\mathrm H_{\rm rc})\), construct nonzero-source polymer activities,
-  compare with the unrestricted raw law, control large fields, iterate the
-  RG, construct a continuum theory, prove the Osterwalder--Schrader axioms,
-  establish infrared decay, or prove a Yang--Mills mass gap.
+  Note 0033 separately supplies a conditional unweighted physical-\(U\)
+  pullback and the exact positive-decay restriction-quotient reduction; its
+  common feature rows, scale envelopes, and extension theorem remain open.
+  Neither note proves \((\mathrm H_{\rm rc})\), constructs nonzero-source
+  polymer activities, compares with the unrestricted raw law, controls large
+  fields, iterates the RG, constructs a continuum theory, proves the
+  Osterwalder--Schrader axioms, establishes infrared decay, or proves a
+  Yang--Mills mass gap.
 - No independent human review has been performed.
 
 ## Falsification checklist
@@ -602,6 +605,6 @@ endpoint distance, and a coefficient-weighted endpoint moment can be weaker.
   0019's global ownership/interface hypothesis.
 - Call \((\mathrm H_{\rm end})\) logically minimal for every coefficient
   family rather than worst-case sharp for geometry-only control.
-- Claim that (17) proves marked-plaquette-rooted locality, the physical
-  \(U\)-summand, an unrestricted RG theorem, a continuum theory, or a mass
-  gap.
+- Claim that (17) proves marked-plaquette-rooted locality, Note 0033's
+  separately conditional physical \(U\)-summand, an unrestricted RG theorem,
+  a continuum theory, or a mass gap.

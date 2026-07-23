@@ -122,14 +122,20 @@ common \(U/J\) product tube under the stronger common real-center hypothesis
 \((\mathrm H_{\rm rc})\). On that retained family it is a sufficient
 replacement for \((\mathrm H_J^{\rm conn})\), and the product
 \(H^\infty\) rerun gives both completed dual derivative norms. Uniform proof
-of \((\mathrm H_{\rm rc})\) for the actual minimizing family and the
-Eq. (190) kernel-to-\(U\)-norm pullback remain open.
+of \((\mathrm H_{\rm rc})\) for the actual minimizing family remains open.
 Note 0032 composes the completed \(J\)-derivative with the Eq. (190) kernel
 in a support-anchored hybrid norm without Note 0019's
-\((\mathrm H_\rho)\), mesh comparison, endpoint allowance, or exponent
-loss. Pure plaquette-rooted decay instead needs the aggregate
+\((\mathrm H_\rho)\), mesh comparison, endpoint allowance, or loss from the
+polymer exponent \(\kappa\). Pure plaquette-rooted decay instead needs the aggregate
 \((\mathrm H_{\rm end})\) inequality or a coefficient-weighted substitute;
 common kernel/chart constants remain conditional.
+Note 0033 treats the physical-\(U\) summand. Common converted Eq. (190) rows
+for all four features in the covariant norm and a global scale envelope give
+an unweighted source sum without a coordinate or volume factor. For positive
+source decay, exact restriction-quotient duality identifies the sharp
+synthesis moment, and a feature-support-anchored bound follows under
+\((\mathrm H_{\rm ext}^U)\). The covariant-curl conversion, scale envelopes,
+and extension theorem remain conditional.
 Note 0020 proves the exact one-mark Ursell formula
 and a conditional pinned cluster bound for one fixed hard-core gas, and shows
 that bare shifted marks cannot be mixed without branch synchronization or a
@@ -155,10 +161,11 @@ lifts the two-scale cubulations, reconstructs the same dual-number integral
 on every separate shifted branch, and synchronizes their connected first jets
 with no orbit factor. Notes 0007 and 0010 already give the selected-coordinate
 scalar source disk; source-dependent polymer activities and KP convergence at
-nonzero source remain open. Proof of \((\mathrm H_{\rm rc})\), the physical
-Eq. (190) \(U\) pullback, common kernel/chart constants, any stronger rooted
-endpoint substitute, and the full unconditional physical coarse-field
-derivative/quasilocal norm,
+nonzero source remain open. Proof of \((\mathrm H_{\rm rc})\), common
+converted \(U\)-feature rows and scale envelopes, the positive-decay
+restriction-quotient extension, common \(J\)-kernel/chart constants, any
+stronger rooted endpoint substitute, and the full unconditional physical
+coarse-field derivative/quasilocal norm,
 unit-translation covariance and a physical convergent connected marked
 estimate are the first parts not settled by those auxiliary lemmas or the
 imported source-free theorem.
@@ -264,9 +271,11 @@ infrared conclusions.
   0030), the concrete covariant-\(U\) product tube under
   \((\mathrm H_{\rm rc})\) (Note 0031), and the support-anchored physical
   \(J\) pullback without \((\mathrm H_\rho)\) or mesh matching (Note 0032),
-  without a proof of \((\mathrm H_{\rm rc})\), common Eq. (190) constants,
-  the physical \(U\) pullback, or a stronger plaquette-rooted endpoint
-  substitute;
+  followed by the conditional unweighted physical-\(U\) pullback and exact
+  positive-decay restriction-quotient reduction (Note 0033), without a proof
+  of \((\mathrm H_{\rm rc})\), common converted \(U\)-feature rows and scale
+  envelopes, the positive-decay extension theorem, common \(J\)-kernel
+  constants, or a stronger plaquette-rooted endpoint substitute;
 - the exact fixed-gas distinguished-vertex Ursell identity, repeated-label
   convention, shifted-branch separation rule, and conditional pinned
   Kotecky--Preiss implication (Note 0020);
@@ -286,7 +295,7 @@ infrared conclusions.
   decorated marked norm, and fixed-gas connected first derivative at \(t=0\)
   (Note 0026), and the nested shifted first-jet synchronization with no orbit
   factor (Note 0027), but without nonzero-source polymer activities or the
-  physical \(U/J\) pullbacks;
+  unconditional physical \(U/J\) pullbacks;
 - background-propagator decay and change-of-domain estimates;
 - RG I/II source-free local analytic polymer expansions.
 
@@ -368,15 +377,21 @@ None of those inputs supplies the displayed source-inserted polymer theorem.
     \(\kappa\); retain \(\gamma<\delta _0/8\) and isolate
     \((\mathrm H_{\rm end})\) or a coefficient-weighted substitute for the
     stronger plaquette-rooted target; see Note 0032.
-16. [ ] Complete the physical \(U/J\) first-jet pullbacks by proving
+16. [x] Under common converted four-feature Eq. (190) rows, prove the
+    unweighted physical-\(U\) source sum without a coordinate or volume
+    factor; use exact restriction-quotient duality to identify the sharp
+    positive-decay synthesis moment; and derive its feature-support-anchored
+    sufficient bound under \((\mathrm H_{\rm ext}^U)\); see Note 0033.
+17. [ ] Complete the physical \(U/J\) first-jet pullbacks by proving
     \((\mathrm H_{\rm rc})\) for the actual minimizing family, pairing
-    Eq. (190) with the new \(U\) norm, and proving common kernel/chart
-    constants plus any endpoint statement required by the selected target
-    norm.
-17. [ ] Separately construct source-dependent polymer activities and uniform
+    Eq. (190) with every feature in the new \(U\) norm, proving the
+    covariant-curl identity, common feature rows, scale envelopes, and local
+    extension theorem, and proving any endpoint statement required by the
+    selected target norm.
+18. [ ] Separately construct source-dependent polymer activities and uniform
     KP convergence on a nonzero-source disk. The selected-coordinate scalar
     disk itself is already supplied by Notes 0007 and 0010.
-18. [ ] Perform the full symmetry/Ward-identity projection on the marked first
+19. [ ] Perform the full symmetry/Ward-identity projection on the marked first
    jet and classify all position/orientation mixing.
 
 ## Falsification tests

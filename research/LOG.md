@@ -1190,3 +1190,85 @@ parallel, inspect the actual admissible-contour geometry for the aggregate
 \((\mathrm H_{\rm end})\) inequality or a coefficient-weighted endpoint
 moment, without rebuilding the stronger global ownership map unless the
 source forces it.
+
+## 2026-07-23 -- quotient-localized physical-\(U\) pullback
+
+### Established
+
+- Separated the zero-source-distance and positive-source-distance problems.
+  Under the named common converted Eq. (190) feature-row hypothesis, the
+  source \(\ell^\infty\) synthesis maps directly into Note 0031's full
+  covariant \(U\) norm. The source measure algebraically cancels Eq. (190)'s
+  inverse density, and the Propagators-II convolution is taken featurewise
+  before the global supremum.
+- Combined that operator bound with finite-dimensional source phase duality
+  and Note 0031's completed \(U^*\) derivative norm. This proves the
+  conditional unweighted physical-\(U\) estimate
+  \[
+  \sum_{s,R}e^{\kappa d_{k+1,s}(R)}
+  \sum_\alpha\mu_\alpha
+  |\mathcal L_{p,s,R}^{U,\rm conn}(\alpha)|
+  \le
+  \frac{
+  C_{\chi,U}c_1(1/8)\overline E_U^{\rm glob}B_{\rm conn}
+  }{r_U}
+  \]
+  without a coordinate, bond-volume, mesh, or branch factor.
+- Named the completed active external-\(U\) set using Note 0029's existing
+  external-\((U,J)\) restriction locality. For
+  \(N_I=\{a:a|_I=0\}\), the supported derivative descends isometrically from
+  the global covariant space \(X_{\bar U,\xi}\) to the restriction quotient
+  \(X_{\bar U,\xi}/N_I\).
+- For a positive source weight, defined the weighted restriction-quotient
+  synthesis norm \(\mathfrak M_{U,\gamma}(I,S)\). Finite-dimensional phase
+  and quotient duality prove that it is exactly the sharp
+  coefficient-independent constant multiplying the completed \(U^*\)
+  derivative norm.
+- Under the separately named local feature-extension hypothesis
+  \((\mathrm H_{\rm ext}^U)\), bounded that sharp moment featurewise by
+  \(C_{\rm ext}C_{\chi,U}c_1(\alpha_\gamma)
+  \overline E_U^{\rm conn}\). Anchoring at the complete feature collar
+  introduces no feature-cardinality factor. Anchoring at the smaller active
+  raw-bond labels costs the explicit factor \(e^{\gamma H_U}\).
+- Built finite countermodels showing three distinct hazards: zero extension
+  can invent a \(1/\xi\) boundary cost; raw coordinate \(\ell^1\) can exceed
+  the coupled covariant dual norm by \(2/\xi\); and a global
+  positive-weight synthesis norm can grow exponentially in regulator
+  diameter while the local quotient composition stays equal to one.
+- Audited the Ward boundary. Gauge covariance couples the independent
+  \(U\) and \(J\) derivatives and does not make the longitudinal \(U\)
+  summand vanish after the two terms are separately absolutized.
+- Added nine focused regressions and a source-boundary audit. Three hostile
+  AI reviews forced the restriction-quotient formulation, full four-feature
+  ledger, source-intent wording correction, and explicit multi-link stencil
+  label hypothesis. No independent human review was performed.
+
+### Not established
+
+- The common converted feature rows remain a hypothesis. Raw and
+  covariant-gradient rows are expected from \(K,\nabla K\) after bounded
+  chart conversion, but the covariant curl needs an exact transported
+  four-link identity with the correct \(\xi^{-1}\) normalization.
+- Equation (190)'s \(D^*D K\) and \(\Delta K\) rows are auxiliary-\(J\)
+  Laplacian rows, not substitutes for the curl conversion. Its
+  single-output-site label also does not place an entire gradient or curl
+  stencil in one cell; a bounded tagged decomposition remains necessary.
+- The global and completed scale envelopes, the local extension constant,
+  any active-label collar halo, and \((\mathrm H_{\rm rc})\) for the actual
+  physical minimizing family remain unproved.
+- The positive-\(\gamma\) theorem is feature-support anchored. A
+  marked-plaquette-rooted target still needs an aggregate endpoint or
+  coefficient-weighted substitute.
+- No nonzero-source polymer disk, intrinsic/raw comparison, unit
+  translations, large fields, RG iteration, continuum construction,
+  axioms, infrared decay, or mass gap has been proved.
+
+### Next decision
+
+Prove the exact local transported identity that converts the Proposition-9
+\(K,\nabla K\) columns into Note 0031's covariant curl, including the
+multi-link tagged decomposition and every \(\xi\) factor. In parallel, test
+whether a multiscale Lipschitz/Whitney extension on the actual completed
+cell collars proves \((\mathrm H_{\rm ext}^U)\), or whether a joint
+Ward-compatible \(U/J\) synthesis before absolute summation gives a strictly
+weaker route.

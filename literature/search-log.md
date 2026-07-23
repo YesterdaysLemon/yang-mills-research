@@ -285,7 +285,7 @@ nonlinear \(U\)-chart radius.
 The Eq. (190) audit was then combined with [Propagators
 II](https://doi.org/10.1007/BF01240221) Lemma 2.1. With
 \(s_j=L^j\eta\), the functional derivative acts with source measure
-\(s_{j'}^d\), which cancels Eq. (190)'s \(s_{j'}^{-d}\) target-density factor.
+\(s_{j'}^d\), which cancels Eq. (190)'s \(s_{j'}^{-d}\) source-density factor.
 For \(0\le\gamma<\delta_0/8\), the remaining exponent is
 \(\alpha_\gamma\delta_0\), where
 \(\alpha_\gamma=1/8-\gamma/\delta_0\). This gives the dual weighted source
@@ -860,3 +860,56 @@ for every coefficient family.
 
 Common kernel/chart constants, the completed tube input, the physical
 \(U\) pullback, and all later construction and mass-gap gates remain open.
+
+## 2026-07-23 -- quotient-localized physical-U pullback
+
+No new external theorem is asserted. The Proposition 9 Eq. (190)
+transcription in Notes 0004, 0016, and 0017 was rechecked against the
+existing source audit. The five printed rows remain
+
+\[
+K,\quad \nabla K,\quad \zeta\nabla K,\quad
+D_{U_k}^{\eta *}D_{U_k}^{\eta}K,\quad
+\Delta_{U_k}^{\eta}K,
+\]
+
+with output weights \(s_j^{-1},s_j^{-2},s_j^{-2-\beta},s_j^{-3},s_j^{-3}\)
+and common source factor
+\(s_{j'}^{-d}e^{-(\delta _0/8)d_{\mathcal B}(y,y')}\).
+The source measure \(s_{j'}^d\) algebraically cancels the inverse density.
+The Propagators-II PDF used for the convolution retains SHA-256
+
+```text
+6CC4F26316AF0DC7F41B39FA75E2F2F9F90C24E1927253B4DFCF0B02D751D72F
+```
+
+The source does not print the assembled four-feature operator estimate
+needed by Note 0031's covariant \(U\) norm. Raw RG and operator features can
+use \(K\) after chart conversion; the covariant gradient uses \(K\) and
+\(\nabla K\). The covariant curl still needs an exact transported
+four-link identity with the correct \(\xi^{-1}\) normalization. The printed
+\(D^*D K\) and \(\Delta K\) rows belong to the auxiliary-\(J\) differential
+and are not curl substitutes. A multi-link feature also needs a bounded
+decomposition into tagged Eq. (190) output terms; \(x\in\Delta(y)\) does not
+place an entire stencil in one cell.
+
+YM-RG-033 first proves a repository operator-duality corollary. At
+\(\gamma=0\), common converted feature rows and a global scale envelope map
+the source \(\ell^\infty\) ball into Note 0031's global \(U\) ball. Source
+phase duality then gives the unweighted physical-\(U\) sum without a
+coordinate or volume factor.
+
+For positive source weight, Note 0029's completed external-\(U\) locality
+lets the coefficient derivative descend isometrically to the restriction
+quotient \(X_{\bar U,\xi}/N_I\). The weighted quotient-synthesis operator
+norm is exactly the sharp coefficient-independent missing kernel moment. A
+feature-support-anchored estimate follows from the separately named local
+extension hypothesis \((\mathrm H_{\rm ext}^U)\); active-bond anchoring
+also pays a separately assumed collar halo.
+
+The common converted feature rows, covariant-curl identity, global and local
+scale envelopes, local extension theorem, and
+\((\mathrm H_{\rm rc})\) for the actual minimizing family remain open.
+Nothing in this audit establishes nonzero-source polymer activities, a
+large-field step, iteration, a continuum theory, infrared decay, or a mass
+gap.

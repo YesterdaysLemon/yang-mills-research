@@ -54,6 +54,7 @@ The main route is a Wilson lattice regulator followed by gauge-covariant renorma
 - [Note 0030: completed affine-J tube and Banach connected norm](research/notes/0030-completed-j-cauchy-tube.md)
 - [Note 0031: real-center covariant-U tube and product Banach norm](research/notes/0031-real-center-covariant-u-tube.md)
 - [Note 0032: support-anchored physical-J pullback without H-rho](research/notes/0032-support-anchored-physical-j-pullback.md)
+- [Note 0033: quotient-localized physical-U pullback](research/notes/0033-quotient-localized-physical-u-pullback.md)
 - [Bałaban theorem-level source map](literature/audits/2026-07-22-balaban-source-map.md)
 - [Bałaban imported-map audit](literature/audits/2026-07-22-balaban-imported-map.md)
 - [Bałaban final-gas/KP source audit](literature/audits/2026-07-22-balaban-final-gas-kp-map.md)
@@ -65,8 +66,13 @@ The main route is a Wilson lattice regulator followed by gauge-covariant renorma
 - [Bałaban completed affine-J tube audit](literature/audits/2026-07-23-balaban-completed-j-cauchy-tube.md)
 - [Bałaban real-center U-tube audit](literature/audits/2026-07-23-balaban-real-center-u-tube.md)
 - [Bałaban support-anchored J-pullback audit](literature/audits/2026-07-23-balaban-support-anchored-j-pullback.md)
+- [Bałaban quotient-localized U-pullback audit](literature/audits/2026-07-23-balaban-quotient-localized-u-pullback.md)
 
-Programs 002 and 003 are open theorem specifications, not results. The notes prove auxiliary finite-regulator and fixed-chart statements for a selected small-field branch; they do not identify that branch with the unrestricted raw transform. Notes 0021, 0025, and 0026 carry one interior plaquette mark through the exact fixed-partition RG-II algebra, the source-faithful conditioned formula, and the positive \(D/P/Z_0\) plus scale resummations. Under the explicit doubled-\(\varepsilon _2\) refinement and Note 0024's separate ordinary KP ceiling, this gives an absolutely convergent connected first derivative at \(t=0\). Under the added periodic compatibility \(LM\mid N\) and a nonempty common external branch domain, Note 0027 repeats the complete construction on every nested shifted branch, proves that all branch numerator/denominator pairs reconstruct the same dual-number integral up to a nonzero scalar, and averages only the completed connected coefficients. Note 0028 removes Note 0019's artificial discrete-tree-lift hypothesis and its \(\tau\) loss by a periodic covering-space endpoint argument. Note 0029 then carries external-\((U,J)\) restriction locality through the marked dual-number map and literal-union connected sum. It retains RG I's exact bond-intersection support convention and uses the admitted integer-wall closed cubulations to prove zero endpoint halos for the completed external-\(J\) coefficient. Under the completed representative compatibility hypothesis \((\mathrm H_J^{\rm conn})\), Note 0030 applies the affine \(J\) margin at the output scale and reruns the marked connected estimate in coefficientwise local \(H^\infty\) norms. Note 0031 gives a concrete full complex \(U/J\) product tube in a covariant-curl relative-log norm under the stronger common real-center hypothesis \((\mathrm H_{\rm rc})\). Its ordered-matrix estimate proves an explicit positive \(U\) radius and the product Banach rerun gives full \(U\)-chart and \(J\) dual derivative norms without bond-volume or shifted-branch factors. Note 0032 composes that completed \(J\) derivative with the audited Eq. (190) kernel in a support-anchored hybrid norm. It needs no \((\mathrm H_\rho)\), mesh comparison, endpoint allowance, or loss from the polymer exponent \(\kappa\); the source-kernel weight still requires \(0\le\gamma<\delta _0/8\). The stronger marked-plaquette-rooted norm instead follows from the less structured aggregate hypothesis \((\mathrm H_{\rm end})\). The remaining physical gates include proof of \((\mathrm H_{\rm rc})\) for the actual minimizing family, the Eq. (190) \(U\)-kernel pullback, common chart/kernel constants, and an endpoint or coefficient-weighted substitute whenever pure plaquette-rooted decay is required. The selected-coordinate scalar source disk was already proved in Notes 0007 and 0010. Source-dependent polymer activities at nonzero source, unit-translation covariance, those remaining physical \(U/J\) pullback gates, large fields, RG iteration, continuum construction, axioms, infrared decay, and the mass gap remain open. No Yang--Mills solution is claimed here.
+Programs 002 and 003 are open theorem specifications, not results. The notes prove auxiliary finite-regulator and fixed-chart statements for a selected small-field branch; they do not identify that branch with the unrestricted raw transform. Notes 0021, 0025, and 0026 carry one interior plaquette mark through the exact fixed-partition RG-II algebra, the source-faithful conditioned formula, and the positive \(D/P/Z_0\) plus scale resummations. Under the explicit doubled-\(\varepsilon _2\) refinement and Note 0024's separate ordinary KP ceiling, this gives an absolutely convergent connected first derivative at \(t=0\). Under the added periodic compatibility \(LM\mid N\) and a nonempty common external branch domain, Note 0027 repeats the complete construction on every nested shifted branch, proves that all branch numerator/denominator pairs reconstruct the same dual-number integral up to a nonzero scalar, and averages only the completed connected coefficients. Note 0028 removes Note 0019's artificial discrete-tree-lift hypothesis and its \(\tau\) loss by a periodic covering-space endpoint argument. Note 0029 then carries external-\((U,J)\) restriction locality through the marked dual-number map and literal-union connected sum. It retains RG I's exact bond-intersection support convention and uses the admitted integer-wall closed cubulations to prove zero endpoint halos for the completed external-\(J\) coefficient. Under the completed representative compatibility hypothesis \((\mathrm H_J^{\rm conn})\), Note 0030 applies the affine \(J\) margin at the output scale and reruns the marked connected estimate in coefficientwise local \(H^\infty\) norms. Note 0031 gives a concrete full complex \(U/J\) product tube in a covariant-curl relative-log norm under the stronger common real-center hypothesis \((\mathrm H_{\rm rc})\). Its ordered-matrix estimate proves an explicit positive \(U\) radius and the product Banach rerun gives full \(U\)-chart and \(J\) dual derivative norms without bond-volume or shifted-branch factors. Note 0032 composes that completed \(J\) derivative with the audited Eq. (190) kernel in a support-anchored hybrid norm. It needs no \((\mathrm H_\rho)\), mesh comparison, endpoint allowance, or loss from the polymer exponent \(\kappa\); the source-kernel weight still requires \(0\le\gamma<\delta _0/8\). The stronger marked-plaquette-rooted norm instead follows from the less structured aggregate hypothesis \((\mathrm H_{\rm end})\).
+
+Note 0033 treats the physical-\(U\) summand. Under common converted Eq. (190) rows for every feature in Note 0031's covariant norm and a common global scale envelope, it proves an unweighted source sum without a coordinate, bond-volume, mesh, or branch factor. For positive source decay it replaces the false direct-\(J\) coordinate-dual argument by exact restriction-quotient duality and identifies the sharp quotient-synthesis kernel moment. A feature-support-anchored bound follows only under the new local extension hypothesis \((\mathrm H_{\rm ext}^U)\); active-bond anchoring additionally pays an explicit collar halo. The common converted feature rows, covariant-curl identity, scale envelopes, extension theorem, and \((\mathrm H_{\rm rc})\) for the actual minimizing family remain open.
+
+The selected-coordinate scalar source disk was already proved in Notes 0007 and 0010. Source-dependent polymer activities at nonzero source, unit-translation covariance, the remaining physical-family uniformity and rooted-locality gates, large fields, RG iteration, continuum construction, axioms, infrared decay, and the mass gap remain open. No Yang--Mills solution is claimed here.
 
 Note 0020 settles the exact distinguished-vertex Ursell formula, including
 its \(1/n!\) coefficient, repeated labels, and a conditional pinned cluster
@@ -172,8 +178,29 @@ complete shifted branch. The product \(H^\infty\) rerun preserves
 \(B_{\rm conn}\), and Cauchy gives the full dual bounds
 \(B_{\rm conn}/r_U\) and \(B_{\rm conn}/\Delta_J\). The matrix estimate is
 proved; uniform existence of the common real centers is still a hypothesis.
-The Eq. (190) kernel-to-norm pairing needed for the physical \(U\) pullback
-also remains open.
+
+Note 0033 supplies the functional-analytic part of the physical-\(U\)
+pairing. Under its still-open common converted feature rows and global scale
+envelope,
+\[
+\sum_{s,R}e^{\kappa d_{k+1,s}(R)}
+\sum_\alpha\mu_\alpha
+\left|\mathcal L_{p,s,R}^{U,\rm conn}(\alpha)\right|
+\le
+\frac{
+C_{\chi,U}c_1(1/8)\overline E_U^{\rm glob}B_{\rm conn}
+}{r_U}.
+\]
+For \(0<\gamma<\delta _0/8\), completed external-\(U\) locality instead
+leads to the restriction quotient \(X_{\bar U,\xi}/N_I\). The weighted
+quotient-synthesis norm is the sharp coefficient-independent missing
+constant. A feature-support-anchored bound follows under
+\((\mathrm H_{\rm ext}^U)\) with constant
+\(C_{\rm ext}C_{\chi,U}c_1(\alpha_\gamma)
+\overline E_U^{\rm conn}B_{\rm conn}/r_U\).
+Neither the converted covariant-curl row, common scale envelopes, nor this
+positive-decay extension theorem is currently proved for the physical
+family.
 
 Note 0032 does complete the auxiliary-\(J\) kernel composition in a hybrid
 norm. If \(S_{p,s,R}\) is the tagged multiscale-label set of the completed

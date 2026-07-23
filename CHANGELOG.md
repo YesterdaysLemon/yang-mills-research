@@ -4,6 +4,35 @@ All notable research-structure and claim-status changes are recorded here. Mathe
 
 ## 2026-07-23
 
+- Added YM-RG-033. Under Note 0031's completed covariant-\(U\) dual norm
+  and the explicitly conditional common converted Eq. (190) feature rows, a
+  global feature-scale envelope gives the unweighted physical-\(U\) bound
+  \[
+  \sum_{s,R}e^{\kappa d(R)}
+  \sum_\alpha\mu_\alpha|\mathcal L_R^{U,\rm conn}(\alpha)|
+  \le
+  \frac{C_{\chi,U}c_1(1/8)\overline E_U^{\rm glob}B_{\rm conn}}{r_U}
+  \]
+  without a coordinate, bond-volume, mesh, or branch factor.
+- Replaced the invalid direct-\(J\) coordinate-duality analogy by exact
+  restriction-quotient duality. For positive source weight the sharp
+  coefficient-independent constant is the quotient-synthesis operator norm
+  \(\mathfrak M_{U,\gamma}(I,S)\).
+- Derived a feature-support-anchored positive-\(\gamma\) bound under the new
+  local extension hypothesis \((\mathrm H_{\rm ext}^U)\), with constant
+  \(C_{\rm ext}C_{\chi,U}c_1(\alpha_\gamma)
+  \overline E_U^{\rm conn}B_{\rm conn}/r_U\). Active-bond anchoring pays the
+  explicit collar factor \(e^{\gamma H_U}\); a plaquette-rooted norm still
+  needs a further endpoint or coefficient-weighted substitute.
+- Added countermodels showing that zero extension can invent an inverse-mesh
+  loss, raw coordinate \(\ell^1\) can exceed the coupled \(U\)-dual norm by
+  \(2/\xi\), and a global positive-weight kernel norm can lose exponentially
+  in regulator diameter. Ward covariance does not remove the longitudinal
+  sector after the \(U\) and \(J\) summands are separately absolutized.
+- Kept \((\mathrm H_{\rm rc})\), the common four-feature conversion,
+  covariant-curl identity, scale envelopes, and positive-decay extension
+  theorem open. Added nine focused regressions, a source-boundary audit, and
+  OBJ-037; project status remains Exploratory E0 and unsolved.
 - Added YM-RG-032. For each completed coefficient, the tagged multiscale
   labels of its structural active external-\(J\) coordinates define a
   support set \(S_{p,s,R}\). Replacing the old plaquette-root triangle by
