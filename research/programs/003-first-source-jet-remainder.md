@@ -149,8 +149,13 @@ auxiliary-\(J\) variation before absolute summation. It proves the exact
 joint Ward-quotient constant, records the common kernel's differentiated
 right-inverse and projected Landau constraints and the vertical scale trade,
 and isolates a gauge-invariant same-cell transverse logical obstruction.
-The completed Ward premise, converted columns, and a bound on the actual
-constrained range remain open.
+Note 0037 derives the exact differentiated elliptic factorization.
+Separately, in a source-normalized homogeneous one-step Cartan finite model,
+a localized coarse bond has nonzero coarse curl, and discrete Stokes forces
+every right inverse in the model to retain gradient/curl order \(s^{-2}\).
+The model's embedding into the full multiscale \(H_1\) domain and Hessian
+selector, the completed Ward premise, converted columns, and a weak-dual
+statement on any surviving transverse range remain open.
 Note 0020 proves the exact one-mark Ursell formula
 and a conditional pinned cluster bound for one fixed hard-core gas, and shows
 that bare shifted marks cannot be mixed without branch synchronization or a
@@ -293,10 +298,12 @@ infrared conclusions.
   curl reduction plus physical-width quotient extension (Note 0034),
   followed by the diagonal scale-renorming no-go (Note 0035), the exact
   joint Ward-quotient and vertical trade, and the transverse same-cell
-  obstruction (Note 0036), without a proof of
+  obstruction (Note 0036), followed by the elliptic factorization and
+  source-normalized finite-model coarse-Stokes obstruction (Note 0037),
+  without a proof of its full multiscale \(H_1\) embedding,
   \((\mathrm H_{\rm rc})\), common converted raw/gradient \(U\)
-  rows, source-faithful control of their actual constrained range or a
-  range-restricted tube/weak-dual replacement, the
+  rows, completed weak-dual control on any surviving coarse-curl range,
+  or a range-restricted tube/justified source replacement, the
   active-label metric halo, common \(J\)-kernel constants, or a stronger
   plaquette-rooted endpoint substitute;
 - the exact fixed-gas distinguished-vertex Ursell identity, repeated-label
@@ -421,18 +428,24 @@ None of those inputs supplies the displayed source-inserted polymer theorem.
     record the differentiated common-kernel range constraints and vertical
     scale trade, and isolate the gauge-invariant same-cell transverse
     obstruction; see Note 0036.
-20. [ ] Complete the physical \(U/J\) first-jet pullbacks by proving
+20. [x] Derive the exact differentiated elliptic factorization, identify
+    \(D_B\mathcal H(0)=H_1\), and construct a source-normalized homogeneous
+    Cartan finite model in which an exact projected-Landau representative
+    plus discrete Stokes prevents a localized coarse-bond column from
+    gaining two powers in the strong raw/gradient/curl norm; see Note 0037.
+21. [ ] Complete the physical \(U/J\) first-jet pullbacks by proving
     \((\mathrm H_{\rm rc})\) for the actual minimizing family, pairing
     Eq. (190)'s \(K,\nabla K\) columns with the reduced raw/gradient norm,
-    proving source-faithful control of their differentiated range through
-    direct smoothing, a range-restricted tube, a weak-dual theorem, or a
-    justified source restriction, proving the active-label metric halo if that
-    stronger target is selected, and proving any endpoint statement required
-    by the selected rooted norm.
-21. [ ] Separately construct source-dependent polymer activities and uniform
+    proving or disproving the finite model's full multiscale \(H_1\)
+    embedding/Hessian survival, then proving completed weak-dual control on
+    any surviving coarse-curl range, a range-restricted tube, or a justified
+    curl-free/smoothed/weighted source restriction, proving the active-label
+    metric halo if that stronger target is selected, and proving any endpoint
+    statement required by the selected rooted norm.
+22. [ ] Separately construct source-dependent polymer activities and uniform
     KP convergence on a nonzero-source disk. The selected-coordinate scalar
     disk itself is already supplied by Notes 0007 and 0010.
-22. [ ] Perform the full symmetry/Ward-identity projection on the marked first
+23. [ ] Perform the full symmetry/Ward-identity projection on the marked first
     jet and classify all position/orientation mixing.
 
 ## Falsification tests

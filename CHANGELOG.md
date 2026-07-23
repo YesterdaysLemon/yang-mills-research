@@ -4,6 +4,48 @@ All notable research-structure and claim-status changes are recorded here. Mathe
 
 ## 2026-07-23
 
+- Added a 16-page LaTeX/PDF research handoff,
+  `paper/finite_regulator_source_insertions.{tex,pdf}`. It separates exact
+  finite-regulator algebra, conditional pullbacks, no-go results,
+  source-normalized models, and every still-open Clay obligation; it is
+  explicitly not a solution claim.
+- Added YM-RG-037. Differentiating the variational equations and writing
+  \(A_B=\mathcal A_0(B)+H_0B\) gives the exact factorization
+  \[
+  D_B\mathcal H(B)
+  =
+  (I-HD'(A_B))
+  (\Delta_a-\Delta^{(2)}+V''(A_B))^{-1}\Delta_aH_0.
+  \]
+  The source expansion also gives \(D_B\mathcal H(0)=H_1\).
+- Corrected the differentiated range typing: for the physical source-density
+  convention, the coordinate column constrained by the average is
+  \(\kappa_c=\mu_cA_c\). The right-inverse and projected-Landau equations
+  define an affine slice with transverse nullspace
+  \(\ker C_B\cap\ker S_B\).
+- Constructed a source-normalized homogeneous \(L=2\) finite periodic
+  model on a flat \(SU(2)\) Cartan line. Its \(Q_0,Q'_0\), and Landau
+  normalizations form an exact finite block-cochain model; embedding it
+  into the source's full multiscale \(H_1\) domain is left open.
+- Constructed an explicit rational localized coarse-bond representative
+  satisfying the projected Landau condition. Cochain compatibility and
+  discrete Stokes prove that every right inverse in that model obeys
+  \[
+  \|\kappa\|_\infty\ge s^{-1},\qquad
+  \|\nabla^\eta\kappa\|_\infty\ge\tfrac12s^{-2},\qquad
+  \|d^\eta\kappa\|_\infty\ge s^{-2}.
+  \]
+  Thus right-inverse normalization and projected-Landau orthogonality alone
+  do not force a two-power strong-norm gain in the model.
+- Kept the result at its exact boundary: the full multiscale \(H_1\)
+  embedding and Hessian-selected range are not identified, and no completed
+  physical coefficient is proved to detect the modeled transverse range.
+  Source-faithful smoothing, a completed weak-dual theorem,
+  range-restricted tube, or independently justified source class remains
+  open.
+- Added focused exact-arithmetic regressions, a visually checked three-paper
+  source audit with pinned PDF hashes, and OBJ-041. Project status remains
+  Exploratory E0 and the official problem remains unsolved.
 - Added YM-RG-036. The exact physical source column is the joint pair
   \(V_\alpha=(A_\alpha,L_{\bar U}A_\alpha)\); taking the \(U\)- and
   induced-\(J\) contributions together before absolute summation preserves

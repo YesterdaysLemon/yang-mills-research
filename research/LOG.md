@@ -1543,3 +1543,97 @@ their assembled physical \(U/J\) synthesis gains two powers on every
 same-cell transverse column. In parallel, formulate a range-restricted
 analytic tube or weak-quotient-dual estimate and compare it with a
 physically justified weighted or coarse-layer source class.
+
+## 2026-07-23 -- elliptic range factorization and coarse-curl Stokes obstruction
+
+### Established
+
+- Corrected the physical-column normalization. If
+  \(D_B\mathcal H[h]=\sum_c\mu_cA_ch_c\), the column constrained by the
+  differentiated averaging equation is
+  \(\kappa_c=\mu_cA_c\):
+  \[
+  C_B\kappa_c=e_c,\qquad S_B\kappa_c=0.
+  \]
+  The complete finite-dimensional solution set is an affine slice with
+  transverse freedom \(\ker C_B\cap\ker S_B\).
+- Derived from variational Eqs. (182)--(183) the exact fixed-background
+  factorization
+  \[
+  D_B\mathcal H(B)
+  =
+  (I-HD'(A_B))
+  (\Delta_a-\Delta^{(2)}+V''(A_B))^{-1}\Delta_aH_0.
+  \]
+  Equation (129) gives the exact \(\Delta_aH_0\) source, and Eq. (177)
+  gives \(D_B\mathcal H(0)=H_1\).
+- Constructed a source-normalized homogeneous \(L=2\) finite periodic model
+  of the flat-Cartan \(Q_0,Q'_0\), and Landau normalizations. It reduces to
+  the block path average, block scalar mean, and projection onto
+  \(\Delta\ker Q'_0\).
+- Constructed a rational \(4\times4\) representative for one localized
+  coarse horizontal bond. It satisfies both the exact coarse average and
+  projected Landau equation.
+- Proved the cochain identity \(d_cC=C_2d\). The localized coarse source
+  has nonzero coarse curl, so discrete Stokes forces every representative
+  in the finite model to obey
+  \[
+  \|\kappa\|_\infty\ge s^{-1},\qquad
+  \|\nabla^\eta\kappa\|_\infty\ge\tfrac12s^{-2},\qquad
+  \|d^\eta\kappa\|_\infty\ge s^{-2}.
+  \]
+  The explicit Landau representative gives matching upper powers.
+- Added exact-arithmetic regressions and a visually checked primary-source
+  audit with three pinned PDF hashes. Three separate AI read-only scouts
+  separately checked the elliptic source algebra, affine range, and
+  discrete Hodge model. No independent human review was performed.
+
+### Not established
+
+- The Stokes theorem is a source-normalized finite-model obstruction.
+  Embedding it into the full multiscale \(H_1\) domain, complete \(Q'\)
+  nullspace, boundary conditions, and Hessian-selected range is not proved.
+  Generic noncommuting transport and the complete physical
+  chart/gauge-restoration conversion also remain open.
+- No completed coefficient is proved to detect the modeled transverse
+  range. Source-faithful smoothing or a simultaneous \(U/J\) weak-dual
+  annihilation/cancellation could still close the physical first jet.
+- A curl-free, smoothed, weighted, or separated physical source class could
+  avoid the localized coarse-curl premise, but such a target has not been
+  justified.
+- \((\mathrm H_{\rm rc})\), the active-label metric halo, nonzero-source
+  activities, raw matching, unit translations, large fields, RG iteration,
+  continuum and infinite-volume construction, reconstruction, infrared
+  decay, and the mass gap remain open.
+
+### Next decision
+
+First prove or disprove an embedding of the homogeneous finite model into
+the full multiscale \(H_1\) domain and Hessian selector. If the coarse-curl
+mode survives, test the completed simultaneous \(U/J\) derivative directly
+on that range: either prove structural weak-dual annihilation/cancellation
+or obtain a source-faithful lower countermodel. In parallel, formulate the
+weakest justified source restriction or range-restricted tube without
+changing the intended observable.
+
+## 2026-07-23 -- finite-regulator research handoff paper
+
+- Wound down the open-ended attack into
+  `paper/finite_regulator_source_insertions.tex` and its compiled PDF.
+- Organized the ledger into exact source identities, the conditional
+  fixed-gas marked first jet, completed support and analytic tubes, the
+  physical-\(U\) obstruction sequence, the exact elliptic factorization,
+  and the source-normalized finite-model Stokes theorem.
+- Promoted the source-audit correction into the paper's main boundary:
+  embedding the finite periodic Cartan model into the full multiscale
+  \(H_1\) domain, complete \(Q'\) nullspace, boundary conditions, and
+  Hessian-selected range is open.
+- Added an assumption ledger, Clay-obligation matrix, ordered handoff
+  decision tree, repository/claim crosswalk, and future-agent falsification
+  checklist.
+- Compiled a 16-page letter-size PDF with Tectonic. The final TeX log has
+  no overfull boxes, underfull boxes, undefined references, or LaTeX
+  warnings. All pages were rendered to PNG and visually inspected; the
+  temporary QA renders are not repository evidence.
+- Repository status remains Exploratory E0. No independent human review,
+  continuum construction, infrared theorem, or mass gap is claimed.

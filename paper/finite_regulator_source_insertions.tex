@@ -1,0 +1,1154 @@
+\documentclass[11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[margin=1in]{geometry}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb,amsthm,mathtools}
+\usepackage{booktabs,longtable,tabularx,array}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue!55!black,
+  citecolor=green!45!black,
+  urlcolor=blue!65!black,
+  pdftitle={Finite-Regulator Source Insertions and Obstruction Tests},
+  pdfauthor={YesterdaysLemon; AI-assisted open research ledger}
+}
+
+\setlist{nosep}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em}
+\setlength{\emergencystretch}{3em}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{remark}[theorem]{Remark}
+
+\newcommand{\YM}{Yang--Mills}
+\newcommand{\RG}{\mathrm{RG}}
+\newcommand{\E}{\mathbb E}
+\newcommand{\dd}{\mathrm d}
+\newcommand{\Hrc}{(\mathrm H_{\mathrm{rc}})}
+\newcommand{\HJ}{(\mathrm H_J^{\mathrm{conn}})}
+\newcommand{\claim}[1]{\texttt{#1}}
+\newcommand{\repo}{\href{https://github.com/YesterdaysLemon/yang-mills-research}
+  {yang-mills-research}}
+
+\title{\textbf{Finite-Regulator Source Insertions and Obstruction Tests}\\
+\large in a Gauge-Covariant \(SU(2)\) Renormalization Step\\[0.5em]
+\normalsize An exploratory research handoff}
+\author{YesterdaysLemon\\
+\small assembled from an AI-assisted open research ledger}
+\date{23 July 2026}
+
+\begin{document}
+\maketitle
+
+\begin{center}
+\fcolorbox{red!60!black}{red!4}{
+\begin{minipage}{0.91\textwidth}
+\textbf{Status.}
+This paper is not a solution of the \YM{} existence and mass gap problem.
+It proves no continuum limit, no infinite-volume quantum field theory, and
+no mass gap.  It reports finite-regulator algebra, conditional one-step
+constructions, and obstruction tests from an exploratory public repository.
+The repository-level evidence status is E0; the strongest individual
+auxiliary claims are internally checked at E2 and have no independent human
+review.
+\end{minipage}}
+\end{center}
+
+\begin{abstract}
+We record the outcome of an exploratory attempt to insert a local
+plaquette-energy source into a gauge-covariant, Ba{\l}aban-type
+renormalization step for four-dimensional \(SU(2)\) Wilson lattice gauge
+theory.  On one selected finite-regulator small-field branch, the work
+derives exact source-jet identities, transports one marked plaquette through
+the finite \(\RG\)-II hard-core and cluster algebra, and isolates explicit
+conditional hypotheses under which completed external-field derivatives
+would be uniformly local.  Several natural repairs of the remaining
+physical-\(U\) pullback fail: independent-link complex collars shrink like
+the square of the lattice scale; diagonal scale balancing restores the same
+loss through Cauchy estimates; and separate absolute values destroy possible
+within-column \(U/J\) Ward cancellation.
+
+The final checkpoint has two parts.  First, differentiation of the
+variational background equations gives an exact affine range description
+and elliptic factorization for the source kernel.  Second, a
+source-normalized finite periodic Cartan model has an exact cochain
+identity.  A localized coarse bond has nonzero coarse curl, and discrete
+Stokes forces raw \(s^{-1}\) and gradient/curl \(s^{-2}\) lower bounds for
+every right inverse in that model.  The retained primary sources do
+\emph{not} establish that this finite model embeds into their full
+multiscale \(H_1\) domain or Hessian-selected range.  That embedding,
+completed weak-dual control, nonzero-source polymer analyticity, large
+fields, iteration, regulator removal, reconstruction, and the infrared mass
+gap all remain open.  The purpose of this paper is to preserve the exact
+discoveries and failure modes in a form suitable for future researchers and
+future language-model agents.
+\end{abstract}
+
+\tableofcontents
+
+\section{Status, target, and interpretation}
+
+\subsection{The actual problem}
+
+The Clay problem asks, for every compact simple gauge group \(G\), for a
+nontrivial pure \YM{} quantum field theory on four-dimensional space,
+axiomatic control at least at the level described by Jaffe and Witten, the
+required short-distance \YM{} behavior, and a reconstructed Hamiltonian
+whose spectrum has a finite positive gap above the vacuum
+\cite{jaffewitten}.  A finite lattice, a formal path integral, perturbation
+theory, numerical glueball data, or a fixed-coupling strong-coupling gap is
+not this theorem.
+
+The working scaffold in the repository is
+\[
+\begin{gathered}
+\text{Wilson regulator}
+\longrightarrow
+\text{gauge-covariant \(\RG\)}
+\longrightarrow
+\text{local observables}
+\\[-0.2em]
+\longrightarrow
+\text{OS reconstruction}
+\longrightarrow
+\text{infrared bridge}
+\longrightarrow
+\text{spectral gap}.
+\end{gathered}
+\tag{1.1}
+\]
+Wilson's compact regulator supplies exact finite-dimensional gauge
+invariance \cite{wilson1974}.  Osterwalder--Schrader reconstruction,
+Osterwalder--Seiler lattice positivity, and L\"uscher's transfer matrix
+describe the desired positivity and spectral scaffolding
+\cite{os1973,os1975,osterwalderseiler,luscher}.  Ba{\l}aban's papers provide
+the principal ultraviolet \(\RG\) input used here
+\cite{balaban1984propagatorsII,balaban1985averaging,
+balaban1985gaugefixing,balaban1985backgroundpropagators,
+balaban1985variational,balaban1987rgi,balaban1988rgii}.
+
+These inputs do not supply the arrows in (1.1).  In particular, if \(a\) is
+the lattice spacing and \(T_a\) has leading spectral values
+\(\lambda_0,\lambda_1\), then
+\[
+m_{\mathrm{lat}}(a)=-\log\frac{\lambda_1}{\lambda_0},
+\qquad
+\Delta_{\mathrm{phys}}(a)=\frac{m_{\mathrm{lat}}(a)}{a}.
+\tag{1.2}
+\]
+A finite nonzero continuum gap would require
+\[
+m_{\mathrm{lat}}(a)=a\Delta+o(a).
+\tag{1.3}
+\]
+A fixed positive gap in lattice units normally corresponds to a correlation
+length of order one lattice spacing and does not establish (1.3).
+
+\subsection{Evidence vocabulary}
+
+The public ledger \repo{} separates project status from the status of an
+individual auxiliary statement.  Its current interpretation is:
+\begin{itemize}
+  \item \textbf{E0 (project):} exploratory; no candidate solution wording is
+  permitted.
+  \item \textbf{E1 (individual):} a derivation or source transcription with
+  incomplete independent checks.
+  \item \textbf{E2 (individual):} exact finite algebra or a primary-source
+  consequence with executable regressions and explicit objections.
+\end{itemize}
+No E2 label certifies deep mathematical truth.  The tests check identities,
+finite countermodels, links, and governance boundaries.  No independent
+human expert has reviewed the chain.
+
+\subsection{Scope of this report}
+
+The developed material concerns:
+\begin{itemize}
+  \item finite four-dimensional periodic regulators;
+  \item primarily the group \(SU(2)\);
+  \item one gauge-covariant block step;
+  \item a selected near-identity small-field branch;
+  \item one localized plaquette mark and predominantly the first source
+  derivative at \(t=0\);
+  \item conditional external-\((U,J)\) analytic tubes.
+\end{itemize}
+It does not identify the selected coordinate law with the unrestricted raw
+block transform.  It does not construct a nonzero-source polymer disk, treat
+the complete large-field operation, iterate the \(\RG\), remove either
+regulator, restore all Euclidean symmetries, reconstruct a continuum
+Hilbert space, or prove infrared decay.
+
+\section{Finite source identities and the selected branch}
+
+\subsection{Finite positive kernels}
+
+Let \((\Omega,\nu)\) be a finite measure space, let \(w>0\) be integrable,
+and let \(O\) be a bounded real observable.  Write
+\[
+Z(t)=\int_\Omega e^{-tO(\omega)}w(\omega)\,\dd\nu(\omega),
+\qquad
+\mathcal Z(t)=\frac{Z(t)}{Z(0)}.
+\tag{2.1}
+\]
+The following basic statement is independent of gauge theory.
+
+\begin{proposition}[Exact finite source jets]
+\label{prop:source-jets}
+For (2.1),
+\[
+\left.\partial_t\log Z(t)\right|_{t=0}=-\E(O),
+\qquad
+\left.\partial_t^2\log Z(t)\right|_{t=0}
+=\operatorname{Var}(O).
+\tag{2.2}
+\]
+Mixed derivatives give covariances.  The normalized ratio \(\mathcal Z\) is
+unchanged by any positive, source-independent rescaling of \(w\).
+Furthermore, a centered bounded observable gives an explicit zero-free
+scalar disk; one convenient bound used in the ledger is
+\[
+|z|<\frac{2\log 2}{\operatorname{diam}O}.
+\tag{2.3}
+\]
+\end{proposition}
+
+This proposition gives exact finite-volume cumulants and projective
+invariance.  It does not give a polymer expansion at \(t\ne0\), uniformity
+in a regulator, or a continuum measure.
+
+\subsection{Wilson fields and a local mark}
+
+On a finite torus \(\Lambda\), an \(SU(2)\) bond field assigns
+\(U(b)\in SU(2)\) to each oriented nearest-neighbor bond, with
+\(U(-b)=U(b)^{-1}\).  For an oriented plaquette \(p\), let \(U(p)\) be the
+ordered product around its boundary.  A representative local
+plaquette-energy insertion is
+\[
+O_p(U)=1-\frac12\operatorname{Re}\operatorname{Tr}U(p).
+\tag{2.4}
+\]
+The Wilson action is a sum of such terms.  A profile source would replace
+the action by \(S(U)+\sum_p t_pO_p(U)\).
+
+The research program asks for a one-step formula in which derivatives in
+\(t_p\) are represented by gauge-invariant, exponentially localized
+coarse operators and polymer remainders with volume-independent constants.
+The first source derivative is represented algebraically by a dual number
+\(\epsilon\), \(\epsilon^2=0\).  This keeps exactly one marked occurrence
+through products without pretending that a common nonzero source disk has
+already been proved.
+
+\subsection{Selected coordinate law}
+
+The Ba{\l}aban variational construction provides a local analytic
+minimizing background on an admitted small-field patch
+\cite{balaban1985variational}.  The repository combines that construction
+with the \(\RG\)-I chart covariance
+\cite{balaban1987rgi,balaban1985variational}, fixes one near-identity
+branch, retains the chosen gauge chart and cutoff, and normalizes the
+resulting finite integrand to a probability law.  Within one relatively
+compact patch, analytic tests and scalar source ratios are holomorphic, and
+real coarse gauge transformations act by push-forward.
+
+\begin{remark}[The selected/raw distinction]
+The selected branch is an operational coordinate law.  No theorem in the
+ledger identifies it with the unrestricted group-delta block transform.
+All source results below inherit this restriction unless explicitly stated
+otherwise.
+\end{remark}
+
+\section{One marked plaquette through the finite \(\RG\) algebra}
+
+\subsection{Distinguished-vertex Ursell algebra}
+
+Consider a finite hard-core polymer gas with activities \(z(X)\), and add a
+single marked activity \(\dot z_p(X)\epsilon\).  Differentiating the
+connected logarithm selects exactly one distinguished occurrence.  The
+ledger checks the connected-graph/Ursell coefficient including repeated
+labels and the \(1/n!\) convention.  Non-root components have zero marked
+derivative, so the derivative of a product selects the unique component
+containing the mark.
+
+This is elementary but important: expanding a derivative over all later
+placements manufactures terms that are absent from the exact dual-number
+product.  The mark must be routed through the actual factorization before
+absolute values are taken.
+
+\subsection{Conditioning and the whole-integrand contour}
+
+The marked weakening integrand contains conditioning factors, Gaussian
+relative-field factors, cutoffs, and later scale reorganizations.  The
+repository uses one Cauchy contour for the \emph{whole} integrand.  Separate
+majorants for separately differentiated factors do not bound the product
+unless a common holomorphic domain and a joint integrable majorant are
+available.
+
+The source-faithful routing calculation places the local mark on the
+conditional interior field \(B\), not on a shifted variable chosen only for
+convenience.  For the relative Gaussian factor, the mark is independent of
+the relative variable, so its additional Gaussian moment cost is exactly
+zero.  This closes a finite-term routing issue; it is not a proof of a
+nonzero-source gas.
+
+\subsection{Marked resummation and a fixed-gas first jet}
+
+After the Section-2 reorganization in Ba{\l}aban's \(\RG\)-II cluster
+construction \cite{balaban1988rgii}, the ledger obtains one decorated marked
+activity and a unique marked-component factorization.  Under its explicit
+smallness hierarchy, doubled marked-amplitude refinement, and a separate
+ordinary Koteck\'y--Preiss ceiling \cite{koteckypreiss}, the marked seed
+can be resummed with positive bounds.
+
+In the notation of the ledger, a representative bound is
+\[
+|W_p^{\mathrm{post}}(Z)|
+\le
+4K_{\mathrm{lift}}\alpha_6^{-1}\mathcal B_\bullet
+\exp\!\left[
+  -(1-8\delta)\frac L2\kappa\,d_{k+1}(Z)
+\right].
+\tag{3.1}
+\]
+After the designated animal-entropy spend, the rooted exponent is
+\[
+(1-9\delta)\frac L2\kappa.
+\tag{3.2}
+\]
+The final source hierarchy chooses
+\((1-10\delta)(L/2)\kappa=\kappa\), leaving the declared output exponent.
+
+\begin{theorem}[Conditional fixed-regulator marked first jet]
+\label{thm:marked-first-jet}
+Assume the complete fixed-gas source hierarchy recorded in claims
+\claim{YM-RG-020}--\claim{YM-RG-027}, including the separate ordinary
+pinned ceiling, the doubled marked-amplitude condition, periodic
+compatibility \(LM\mid N\), and a nonempty common shifted-branch domain.
+Then one interior plaquette mark passes exactly through the finite
+\(\RG\)-II algebra.  Its final connected derivative at \(t=0\) is absolutely
+summable with the output polymer exponent \(\kappa\), and completed
+shifted-branch numerator/denominator pairs represent the same projective
+first jet without an orbit factor.
+\end{theorem}
+
+\textbf{Boundary of Theorem \ref{thm:marked-first-jet}.}
+It is a first derivative at \(t=0\) in independent external coordinates.
+It neither constructs source-dependent activities on a common \(t\)-disk
+nor converts the derivative to the physical minimizing coarse field.
+
+\subsection{Geometry, animals, and completed support}
+
+For the declared closed-cube model, the literal union of a connected tuple
+is the least admitted hull.  A contained-tree metric and rooted-animal count
+give an explicit sufficient entropy window.  In four dimensions the
+convenient threshold appearing in the ledger is
+\[
+\eta_{\mathrm{animal}}>64\log 8.
+\tag{3.3}
+\]
+The final ordinary \(\RG\)-II gas is mapped into this abstract bound only
+after keeping its one-sided metric comparison and species aggregation
+explicit.
+
+The shifted-branch construction is synchronized over dual numbers.
+Periodic covering-space endpoint geometry removes an artificial tree-lift
+hypothesis.  Because the completed coefficient is grouped by its literal
+union and the Ursell and normalization factors are field-independent, the
+external-\((U,J)\) dependence is confined to bonds whose geometric segments
+meet the interior of that union.  On the aligned integer-wall cubulations,
+the completed \(J\)-support has zero endpoint halo.
+
+\section{Conditional physical pullbacks}
+
+\subsection{The affine \(J\) tube}
+
+Let \(\widehat{\mathcal C}_p^+(s,R;U,J)\) denote a completed connected
+coefficient.  The compatibility hypothesis \(\HJ\) requires one raw affine
+\(J\) representative whose restrictions agree across all overlapping
+charts on each complete shifted branch.  Under that hypothesis, the
+existing marked majorant can be rerun in a coefficientwise local
+\(H^\infty\) norm:
+\[
+\sum_{s,R} e^{\kappa d_{k+1,s}(R)}
+\sup_{\|J-\bar J\|_\infty<\Delta_J}
+|\widehat{\mathcal C}_p^+(s,R;U,J)|
+\le B_{\mathrm{conn}}.
+\tag{4.1}
+\]
+Banach-line Cauchy and the exact support theorem then give
+\[
+\sum_{s,R} e^{\kappa d_{k+1,s}(R)}
+\|D_J\widehat{\mathcal C}_p^+(s,R)\|
+\le \frac{B_{\mathrm{conn}}}{\Delta_J},
+\tag{4.2}
+\]
+with no bond-volume or branch factor.
+
+The hypothesis \(\HJ\) is not proved by the source papers.  Equation (4.2)
+is therefore a conditional completion theorem, not an unconditional
+physical source derivative.
+
+\subsection{A product \(U/J\) tube}
+
+Raw independent-link \(U\) balls are poorly adapted to the curvature domain.
+The ledger instead introduces a relative-log, background-covariant norm
+controlling raw values, covariant gradients, and transported plaquette
+curls.  Under the real-center hypothesis \(\Hrc\), every retained physical
+center has one real/unitary representative with a uniform curvature margin.
+Ordered matrix estimates then give a positive product \(U/J\) tube and full
+dual derivative norms.
+
+Neither the primary-source audit nor the finite tests prove \(\Hrc\) for
+the entire completed minimizing family.  This is one of the main unresolved
+uniformity assumptions.
+
+\subsection{Support-anchored physical \(J\)}
+
+Let \(S_{p,s,R}\) be the complete active external-\(J\) support of a
+coefficient.  After composing the completed \(J\)-derivative with the
+audited source kernel, the repository obtains, under its common kernel and
+chart constants,
+\begin{align}
+&\sum_{s,R} e^{\kappa d_{k+1,s}(R)}
+\sum_{y'}\mu(y')
+e^{\gamma d_{\mathcal B}(S_{p,s,R},y')}
+\bigl|\mathcal L^{J,\mathrm{conn}}_{p,s,R}(y')\bigr|
+\notag\\
+&\hspace{3em}\le
+\frac{
+  C_\chi c_1(\alpha_\gamma)
+  \overline E_J^{\mathrm{conn}}B_{\mathrm{conn}}
+}{
+  \Delta_{\mathrm{tube}}
+},
+\qquad
+0\le\gamma<\frac{\delta_0}{8}.
+\tag{4.3}
+\end{align}
+The weight is anchored at the \emph{full active support}, not automatically
+at the marked plaquette.  A stronger plaquette-rooted theorem needs an
+additional endpoint or coefficient-weighted hypothesis.
+
+\subsection{Physical \(U\), quotient synthesis, and transported curl}
+
+For an active bond set \(I\), directions invisible to the coefficient form
+a nullspace \(N_I\).  The supported derivative naturally lives in the dual
+of the quotient \(X_U/N_I\), not in raw coordinate \(\ell^1\).  Exact
+finite-dimensional phase duality reduces the conditional physical-\(U\)
+estimate to a quotient-synthesis operator norm for the converted source
+columns.
+
+The covariant curl is not an independent mystery row.  Under the real-center
+curvature margin, the ledger proves the exact four-link identity
+\[
+\mathcal D_{\bar U}^{\xi}a
+=
+D_\mu^\xi a_\nu-D_\nu^\xi a_\mu
++
+\xi^{-1}
+\bigl(I-\operatorname{Ad}_{d\bar U(p)}\bigr)
+\bigl(a_\nu+T_\nu a_\mu\bigr).
+\tag{4.4}
+\]
+Consequently, the raw/gradient/operator/curl norm is uniformly equivalent
+to a raw-plus-covariant-gradient norm on that real-center tube.  A Lipschitz
+cutoff of fixed physical width \(\rho\) yields
+\[
+C_{\mathrm{ext}}(\rho)
+\le C_{\mathrm{eq}}
+\left(1+\frac{c_{\mathrm{Ad}}^{\mathrm{RG}}}{\rho}\right).
+\tag{4.5}
+\]
+A flat longitudinal path proves that a fixed number \(m\) of lattice layers
+necessarily costs order \(1/(m\xi)\).  Thus a fixed-layer collar cannot
+replace the physical-width collar uniformly as \(\xi\to0\).
+
+\section{Why the obvious strong-norm repairs fail}
+
+\subsection{Independent-link collars}
+
+On the finest homogeneous patch, a complex perturbation concentrated on one
+bond changes an adjacent plaquette at first order.  The small-field
+curvature domain allows only \(O(\xi^2)\) deviation in the relevant
+coordinates.  Therefore a full complex independent-link ball contained in
+that domain has radius at most \(O(\xi^2)\).  Generic Cauchy estimates on
+such a ball carry an \(O(\xi^{-2})\) loss.
+
+This is a finite-regulator analytic-domain obstruction.  It does not say
+that every structured source direction is bad.
+
+\subsection{Diagonal scale balancing}
+
+The source kernel bounds in the variational paper contain raw and gradient
+output powers of the schematic form \(s_j^{-1}\) and \(s_j^{-2}\)
+\cite{balaban1985variational}.  Weighting the chart norm by \(s_j\) and
+\(s_j^2\) cancels those powers algebraically.  However, the same weights
+make the full chart ball's admissible radius \(O(\xi^2)\) on the finest
+patch.  Banach-line Cauchy returns the \(O(\xi^{-2})\) loss.
+
+\begin{proposition}[Scale-renorming no-go]
+\label{prop:renorm-no-go}
+A diagonal raw/gradient weighting that cancels the printed
+\(s_j^{-1},s_j^{-2}\) row powers does not, by itself, produce a
+regulator-uniform physical-\(U\) derivative theorem through generic Cauchy
+estimates.  The analytic radius collapses with the same scale power that
+the row weighting removes.
+\end{proposition}
+
+A separate flat curl-free longitudinal example shows that retaining an
+unweighted curl component does not evade the gradient-domain obstruction.
+Proposition \ref{prop:renorm-no-go} does not rule out a range-restricted
+tube, a direct weak-dual estimate, or structural cancellation.
+
+\subsection{The joint \(U/J\) Ward quotient}
+
+A physical coarse-source column changes both the relative \(U\) field and
+the auxiliary \(J\) coordinate.  Write
+\[
+V_\alpha=(A_\alpha,L_{\bar U}A_\alpha).
+\tag{5.1}
+\]
+The two summands must be paired before absolute values.  A one-dimensional
+bidisc example in the ledger shows that separate absolute values can destroy
+an exact Ward cancellation.
+
+Let \(H_F\) contain coefficient-inactive directions and simultaneous
+complexified gauge tangents.  Conditional on the completed coefficientwise
+Ward identity, the sharp coefficient-independent first-jet constant is
+\[
+\bigl\|Q_{H_F}K_F^w\bigr\|_{
+  \ell^\infty(\text{sources})\to E_\xi/H_F}.
+\tag{5.2}
+\]
+Arbitrary phases in the \(\ell^\infty\) source ball forbid relying on
+cancellation between distinct source columns.  Genuine cancellation must
+occur within each joint \(U/J\) column or in the quotient.
+
+The Ward premise and a regulator-uniform bound for the actual converted
+synthesis are not proved.  A bounded gauge-invariant Cartan plaquette
+functional gives a logical same-cell transverse countermodel under the
+retained abstract hypotheses, but that countermodel is not an actual
+Ba{\l}aban polymer coefficient.
+
+\section{Exact elliptic factorization and a finite-model Stokes obstruction}
+
+\subsection{Measure-normalized columns}
+
+Let \(c\) be a physical coarse-source coordinate with source measure
+\(\mu_c\).  Use the density convention
+\[
+D_B\mathcal H[h]=\sum_c\mu_cA_ch_c.
+\tag{6.1}
+\]
+The coordinate column constrained by differentiation is
+\[
+\kappa_c=\mu_cA_c.
+\tag{6.2}
+\]
+At a fixed source center \(\bar B\), define the differentiated averaging
+and projected-Landau operators \(C_{\bar B}\) and \(S_{\bar B}\).  Under
+the repository density convention (6.1), differentiating variational-paper
+Eqs.~(20)--(21) gives \cite{balaban1985variational}
+\[
+C_{\bar B}\kappa_c=e_c,
+\qquad
+S_{\bar B}\kappa_c=0.
+\tag{6.3}
+\]
+Applying (6.3) to the density \(A_c\) instead of the coordinate column
+\(\kappa_c\) loses a source-measure factor.
+
+\begin{proposition}[Affine constrained range]
+\label{prop:affine-range}
+Let \(C:X\to Y\) and \(S:X\to Z\) be maps between finite-dimensional Hilbert
+spaces, and assume \(C|_{\ker S}\) is onto.  If
+\(\mathcal Z=\ker C\cap\ker S\) and \(R_C:Y\to\ker S\) is any right inverse,
+then all solutions of \(C\kappa=e\), \(S\kappa=0\) are
+\[
+\kappa=R_Ce+\mathcal Z.
+\tag{6.4}
+\]
+A detector \(\ell\in X^*\) is fixed by these constraints exactly when
+\[
+\ell|_{\mathcal Z}=0
+\quad\Longleftrightarrow\quad
+\ell\in\operatorname{ran}C^*+\operatorname{ran}S^*.
+\tag{6.5}
+\]
+\end{proposition}
+
+Thus averaging and projected Landau select an affine slice, not a unique
+column.  The variational Hessian supplies the additional selection.
+
+\subsection{The exact differentiated factorization}
+
+The variational source uses three different constrained lifts
+\cite{balaban1985variational}: \(H\) is the original lift used in the
+nonlinear restoration \(HD(A')\), \(H_1\) is the improved lift in
+Eqs.~(174)--(177), and \(H_0\) is the alternative lift in
+Eqs.~(179)--(190).  They must not be identified with one another or with
+the later Landau-to-axial gauge map.  Put
+\[
+A_B=\mathcal A_0(B)+H_0B,
+\qquad
+T_B=D_BA_B,
+\qquad
+W_B=V''(A_B).
+\tag{6.6}
+\]
+With
+\(\widetilde G=(\Delta_a-\Delta^{(2)})^{-1}\), the differentiated equation
+in the variational paper is
+\[
+\frac{\delta\mathcal A_0}{\delta B}
++\widetilde G\,W_BT_B
+=\widetilde G\Delta^{(2)}H_0.
+\tag{6.7}
+\]
+Since \(\delta_B\mathcal A_0=T_B-H_0\), multiplication by
+\(\widetilde G^{-1}\) gives
+\[
+\bigl(\Delta_a-\Delta^{(2)}+W_B\bigr)T_B
+=\Delta_aH_0.
+\tag{6.8}
+\]
+The background derivative is therefore
+\[
+\boxed{
+K_B=D_B\mathcal H(B)
+=
+\bigl(I-HD'(A_B)\bigr)
+\bigl(\Delta_a-\Delta^{(2)}+V''(A_B)\bigr)^{-1}
+\Delta_aH_0.
+}
+\tag{6.9}
+\]
+Equation (129) of the source, together with
+\(G=\Delta_a^{-1}\), implies
+\[
+\Delta_aH_0
+=
+Q^*(QGQ^*)^{-1}
+\bigl(L^{j(\cdot)}\eta\bigr)^{-1}.
+\tag{6.10}
+\]
+The order-\(-2\) inverse in (6.9) is fed by an order-\(+2\) source.  It
+cannot be read in isolation as a two-power smoothing theorem.  The printed
+expansion also yields the exact consequence
+\[
+K_0=D_B\mathcal H(0)=H_1.
+\tag{6.11}
+\]
+Equations (6.8) and (6.9) are derived from the printed differentiated
+Eqs.~(182)--(183); (6.10) is derived from printed Eq.~(129) and the
+preceding definition \(G=\Delta_a^{-1}\); and (6.11) is the derivative
+consequence of the printed expansion (177)
+\cite{balaban1985variational}.  The Stokes calculation below has a
+deliberately weaker status.
+
+\subsection{A source-normalized finite periodic model}
+
+Take
+\[
+\Lambda_f=(\mathbb Z/4\mathbb Z)^2
+\times(\mathbb Z/2\mathbb Z)^2,
+\qquad
+\Lambda_c=(\mathbb Z/2\mathbb Z)^2
+\times(\mathbb Z/1\mathbb Z)^2,
+\tag{6.12}
+\]
+and set \(L=2\).  Restrict to a fixed Cartan generator \(T\in\mathfrak{su}(2)\)
+and fields constant in the last two coordinates.  Write
+\(a=\eta\kappa\).  The finite model retains the flat-Cartan \(Q_0,Q'_0\)
+and projected-Landau normalizations:
+\begin{align}
+(Ca)_1(X,Y)
+&=\frac14\sum_{r\in\{0,1\}^2}\sum_{t=0}^1
+a_1\bigl(2(X,Y)+r+te_1\bigr),
+\notag\\
+(Ca)_2(X,Y)
+&=\frac14\sum_{r\in\{0,1\}^2}\sum_{t=0}^1
+a_2\bigl(2(X,Y)+r+te_2\bigr).
+\tag{6.13}
+\end{align}
+The scalar block map is the full four-dimensional mean; on invariant fields
+it restricts to the \(2\times2\) mean.  The model Landau projector is the
+orthogonal projection onto \(\Delta\ker P_4\).
+
+\begin{remark}[Source boundary]
+The averaging and gauge-fixing papers support the normalizations used in
+(6.13) \cite{balaban1985averaging,balaban1985gaugefixing}.  They do not,
+in the material audited here, prove that the anisotropic finite periodic
+model (6.12) is an embedded patch of the complete multiscale \(H_1\)
+construction, its full \(Q'\) nullspace, or its boundary conditions.
+\end{remark}
+
+\subsection{Exact representative and discrete Stokes}
+
+Let \(e_c\) be one positive coarse \(1\)-bond at \((X,Y)=(0,0)\).
+The following rational field is extended constantly in the spectator
+coordinates, with \(a_2=a_3=a_4=0\):
+\[
+a_1=
+\begin{pmatrix}
+\frac14&\frac34&\frac14&-\frac14\\
+\frac14&\frac34&\frac14&-\frac14\\
+0&0&0&0\\
+0&0&0&0
+\end{pmatrix}.
+\tag{6.14}
+\]
+Direct substitution gives \(Ca=e_c\).  If \(g=d^*a\), then
+\[
+g=
+\begin{pmatrix}
+-\frac12&-\frac12&\frac12&\frac12\\
+-\frac12&-\frac12&\frac12&\frac12\\
+0&0&0&0\\
+0&0&0&0
+\end{pmatrix}.
+\tag{6.15}
+\]
+The field \(\Delta g\) is constant on each full \(2^4\) block.  Hence
+\(\Delta g\in\operatorname{ran}P_4^*=(\ker P_4)^\perp\), so
+\[
+g\perp\Delta\ker P_4,
+\qquad
+Rd^*a=0.
+\tag{6.16}
+\]
+Thus the model's localized right-inverse/Landau slice is nonempty.
+
+The bond map is a cochain map:
+\[
+d_cC=C_2d,
+\tag{6.17}
+\]
+where a selected row of \(C\) has \(\ell^1\)-mass \(2\) and a selected row
+of \(C_2\) has \(\ell^1\)-mass \(4\).  Since
+\((d_ce_c)(0,0)=1\), every model field with \(Ca=e_c\) obeys
+\[
+\|a\|_\infty\ge\frac12,
+\qquad
+\|da\|_\infty\ge\frac14,
+\qquad
+\|\delta a\|_\infty\ge\frac18.
+\tag{6.18}
+\]
+With \(s=2\eta\) and \(\kappa=\eta^{-1}a\), this becomes:
+
+\begin{theorem}[Finite-model coarse-curl obstruction]
+\label{thm:stokes}
+Every right inverse of the localized source in the finite model
+(6.12)--(6.13), with or without the projected-Landau condition, satisfies
+\[
+\boxed{
+\|\kappa\|_\infty\ge s^{-1},
+\qquad
+\|\nabla^\eta\kappa\|_\infty\ge\frac12s^{-2},
+\qquad
+\|d^\eta\kappa\|_\infty\ge s^{-2}.
+}
+\tag{6.19}
+\]
+The representative (6.14) has matching powers:
+\[
+\|\kappa\|_\infty\le\frac32s^{-1},
+\qquad
+\|\nabla^\eta\kappa\|_\infty,\,
+\|d^\eta\kappa\|_\infty\le3s^{-2}.
+\tag{6.20}
+\]
+\end{theorem}
+
+Theorem \ref{thm:stokes} is an exact rational finite-dimensional theorem.
+It proves that right-inverse normalization and projected-Landau
+orthogonality alone do not force a two-power strong-norm gain in this model.
+It does \emph{not} prove that the actual \(H_1\) column contains this model,
+that the full Hessian selector retains the curl mode, or that a completed
+physical coefficient detects it.
+
+\section{Research handoff}
+
+\subsection{The next decision, in order}
+
+The most informative next work is not another generic strong-norm estimate.
+It is the following decision tree.
+
+\begin{enumerate}
+  \item \textbf{Embedding test.}
+  Prove or disprove that the homogeneous Cartan finite model can be embedded
+  into the full multiscale \(H_1\) domain with its complete \(Q'\) nullspace,
+  domain decomposition, boundary conditions, and Hessian selection.
+
+  \item \textbf{If the curl survives, test the completed weak dual.}
+  For each completed coefficient, evaluate the actual within-column
+  functional
+  \[
+  D_U\widehat{\mathcal C}[A_\alpha]
+  +
+  D_J\widehat{\mathcal C}[L_{\bar U}A_\alpha]
+  \tag{7.1}
+  \]
+  on the surviving coarse-curl range after the simultaneous Ward quotient.
+  Either prove annihilation/cancellation or construct a source-faithful
+  completed coefficient that detects the mode.
+
+  \item \textbf{If strong columns remain incompatible, change the analytic
+  object honestly.}
+  Formulate a range-restricted tube, a direct weak-quotient-dual estimate,
+  or a physically justified curl-free, smoothed, weighted, or separated
+  source class.  Do not silently change the intended plaquette observable.
+
+  \item \textbf{Complete the existing first-jet prerequisites.}
+  Prove \(\Hrc\), the common converted raw/gradient rows, the completed Ward
+  identity, the active-label metric halo when required, and the compatible
+  \(J\)-representative atlas.
+
+  \item \textbf{Only then build the nonzero-source and iterative theory.}
+  Construct source-dependent polymer activities on a common disk, add large
+  fields, prove unit translations and projection, iterate the \(\RG\), and
+  begin regulator removal.
+\end{enumerate}
+
+\subsection{Assumption ledger}
+
+\begin{longtable}{>{\raggedright\arraybackslash}p{0.23\textwidth}
+                  >{\raggedright\arraybackslash}p{0.30\textwidth}
+                  >{\raggedright\arraybackslash}p{0.37\textwidth}}
+\toprule
+\textbf{Item} & \textbf{What exists} & \textbf{What remains} \\
+\midrule
+\endfirsthead
+\toprule
+\textbf{Item} & \textbf{What exists} & \textbf{What remains} \\
+\midrule
+\endhead
+Selected branch &
+Finite normalized law, local holomorphy, gauge-covariant push-forward &
+Equality with the unrestricted raw transform; global chart compatibility \\
+
+Marked first jet &
+Exact dual-number routing and conditional fixed-gas convergence at \(t=0\) &
+Common nonzero-source polymer disk and second source jet \\
+
+Completed support &
+Literal-union external support and zero \(J\)-endpoint halo on aligned cells &
+Unit-translation theorem and any stronger marked-root metric halo \\
+
+Affine \(J\) tube &
+Conditional coefficientwise \(H^\infty\) rerun and dual bound &
+\(\HJ\) compatible representative atlas \\
+
+Product \(U/J\) tube &
+Explicit norm and radius under a real-center curvature margin &
+\(\Hrc\) for the full physical family \\
+
+Source kernel &
+Audited row bounds, exact affine range, exact elliptic factorization &
+Complete chart/restoration conversion and uniform physical synthesis \\
+
+Stokes mode &
+Exact source-normalized finite-model lower bound &
+Embedding into full multiscale \(H_1\) and Hessian-selected survival \\
+
+Ward quotient &
+Exact finite-dimensional quotient/phase theorem &
+Completed coefficientwise Ward identity and actual uniform quotient norm \\
+
+Large fields and iteration &
+Source-free route-level literature context &
+Source-dependent large-field operation, iteration, projection, running flow \\
+
+Continuum and infrared &
+Only a roadmap and conditional reconstruction lemmas &
+Every construction, nontriviality, OS, infinite-volume, decay, and gap gate \\
+\bottomrule
+\end{longtable}
+
+\subsection{Clay obligation matrix}
+
+\begin{center}
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{0.28\textwidth}
+                             >{\raggedright\arraybackslash}X}
+\toprule
+\textbf{Obligation} & \textbf{State at this handoff} \\
+\midrule
+Every compact simple group & Open; the calculations are primarily \(SU(2)\). \\
+Continuum theory on \(\mathbb R^4\) & Open; only finite regulators appear. \\
+Infinite volume & Open. \\
+Nontriviality & Open. \\
+Local continuum observables and UV behavior & Open. \\
+OS/Wightman-strength axioms and reconstruction & Open. \\
+Finite positive physical mass gap & Open; no infrared bridge exists. \\
+Independent expert review & None recorded. \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+\section{Reproducibility and source boundary}
+
+\subsection{Repository map}
+
+The authoritative machine-readable state is in
+\path{STATUS.json}, \path{CLAIMS.json}, and
+\path{audit/objections.json}.  The principal research narrative is in
+\path{research/LOG.md}.  The most relevant notes are grouped below.
+
+\begin{center}
+\begin{tabularx}{\textwidth}{>{\raggedright\arraybackslash}p{0.22\textwidth}
+                             >{\raggedright\arraybackslash}X}
+\toprule
+\textbf{Notes/claims} & \textbf{Role} \\
+\midrule
+0020--0022 &
+Distinguished-vertex Ursell identity, exact marked Section-2
+factorization, and whole-integrand Cauchy. \\
+0023--0024 &
+Literal-union geometry, rooted animals, and explicit ordinary pinned
+Koteck\'y--Preiss interface. \\
+0025--0027 &
+Source-faithful conditioning, positive marked resummation, and shifted
+first-jet synchronization. \\
+0028--0029 &
+Periodic endpoint bridge and completed external support. \\
+0030--0032 &
+Conditional affine/product tubes and support-anchored physical \(J\). \\
+0033--0034 &
+Physical-\(U\) quotient synthesis, transported-curl reduction, and
+physical-width extension. \\
+0035 &
+Diagonal scale-renorming no-go. \\
+0036 &
+Joint Ward quotient, vertical scale trade, and an abstract transverse
+countermodel. \\
+0037 &
+Exact elliptic factorization plus the source-normalized finite-model
+coarse-curl Stokes obstruction. \\
+\bottomrule
+\end{tabularx}
+\end{center}
+
+The focused finite-model regression is
+\path{tests/test_elliptic_range_factorization_stokes_obstruction.py}.
+Repository-wide checks are run with
+\begin{verbatim}
+python scripts/verify_repository.py
+python -m unittest discover -s tests -v
+\end{verbatim}
+The frozen handoff snapshot is checkpoint \claim{YM-RG-037} on branch
+\texttt{codex/first-source-audit}, with 141 passing tests and public draft
+\href{https://github.com/YesterdaysLemon/yang-mills-research/pull/5}
+{pull request 5}.  The final immutable commit identifier is recorded in the
+repository history and pull-request head rather than embedded circularly in
+this artifact.
+These commands certify neither the primary literature nor the deep
+mathematics.  They are guards against algebraic drift and status inflation.
+
+\subsection{Primary-source audit boundary}
+
+The retained local audits visually checked the relevant pages of:
+\begin{itemize}
+  \item Ba{\l}aban's averaging paper for the linear and nonlinear block-map
+  normalizations \cite{balaban1985averaging};
+  \item the gauge-fixing paper for the projected Landau operator
+  \cite{balaban1985gaugefixing};
+  \item the variational paper for the three distinct lifts, the background
+  expansion, and the differentiated equations
+  \cite{balaban1985variational};
+  \item \emph{Propagators II} for the multiscale distance/decay transfer
+  \cite{balaban1984propagatorsII};
+  \item \(\RG\) I and II for the selected small-field and cluster scaffolds
+  \cite{balaban1987rgi,balaban1988rgii}.
+\end{itemize}
+Every imported-versus-derived distinction should be preserved.  In
+particular:
+\begin{itemize}
+  \item \(H,H_0,H_1\) are distinct operators;
+  \item (6.9) and (6.10) are algebraic consequences, not separately printed
+  displays;
+  \item (6.11) is the derivative consequence of a printed expansion;
+  \item Theorem \ref{thm:stokes} is repository finite-model algebra, not a
+  theorem printed by Ba{\l}aban and not a proved \(H_1\) embedding.
+\end{itemize}
+
+\section{Conclusion}
+
+The project did not solve the \YM{} existence and mass gap problem.  It did
+produce a useful finite-regulator map of one local-observable bottleneck.
+The one-mark cluster algebra is substantially organized; exact support and
+quotient structures are known; and several seductive norm-based repairs
+have concrete countermodels.  The differentiated variational equations have
+an exact elliptic factorization, while the final Stokes model shows why the
+normalized range constraints alone should not be mistaken for strong
+smoothing.
+
+The most important negative discovery is methodological: a Green operator,
+a weighted norm, a Ward slogan, or a projected Landau condition cannot be
+read separately from its source normalization, analytic radius, coefficient
+dual, and domain.  The most important positive handoff is a sharp next
+experiment: determine whether the full multiscale Hessian-selected
+\(H_1\) range contains the finite-model curl mode, and if it does, test the
+completed simultaneous \(U/J\) weak dual on that range before investing in
+further strong-column estimates.
+
+\appendix
+
+\section{Exact nonclaims}
+
+For avoidance of doubt, this paper does not establish any of the following:
+\begin{enumerate}
+  \item equality between the selected small-field branch and the
+  unrestricted raw block transform;
+  \item source-dependent polymer activities on a common nonzero source disk;
+  \item a common real-center theorem \(\Hrc\) for the completed physical
+  family;
+  \item converted raw/gradient source rows with regulator-uniform constants;
+  \item the completed coefficientwise simultaneous \(U/J\) Ward identity;
+  \item embedding of the finite Stokes model into the full \(H_1\) range;
+  \item a source-dependent large-field theorem;
+  \item \(\RG\) iteration, marginal projection, or control of the running
+  coupling through a dynamical mass scale;
+  \item continuum or infinite-volume existence, nontriviality, Euclidean
+  covariance, OS reconstruction, physical-unit exponential decay, or a
+  mass gap;
+  \item extension from the initial \(SU(2)\) calculations to every compact
+  simple group.
+\end{enumerate}
+
+\section{Future-agent falsification checklist}
+
+A future agent should reject any proposed continuation that:
+\begin{itemize}
+  \item applies the differentiated right-inverse identity to \(A_c\) rather
+  than \(\kappa_c=\mu_cA_c\);
+  \item identifies \(H,H_0,H_1\), or calls the nonlinear restoration a gauge
+  transformation;
+  \item reads the inverse in (6.9) as smoothing while deleting its
+  \(\Delta_aH_0\) source;
+  \item replaces projected Landau \(RD^*K=0\) by full Landau \(D^*K=0\);
+  \item calls the anisotropic finite periodic model an actual multiscale
+  source patch without proving the embedding;
+  \item takes separate absolute values of the \(U\) and induced-\(J\)
+  summands before using the Ward quotient;
+  \item relies on cancellation between source columns despite arbitrary
+  source phases;
+  \item spends output decay without checking the same-layer same-cell
+  diagonal;
+  \item hides an \(O(\xi^2)\) analytic radius inside a weighted norm constant;
+  \item promotes a finite-regulator, conditional, or model statement to a
+  continuum construction or mass gap.
+\end{itemize}
+
+\begin{thebibliography}{99}
+\raggedright
+\small
+
+\bibitem{jaffewitten}
+A.~Jaffe and E.~Witten,
+\emph{Quantum Yang--Mills Theory},
+official Clay Mathematics Institute problem description,
+\url{https://www.claymath.org/wp-content/uploads/2022/06/yangmills.pdf}.
+
+\bibitem{wilson1974}
+K.~G.~Wilson,
+\emph{Confinement of quarks},
+Physical Review D \textbf{10} (1974), 2445,
+\href{https://doi.org/10.1103/PhysRevD.10.2445}
+{doi:10.1103/PhysRevD.10.2445}.
+
+\bibitem{os1973}
+K.~Osterwalder and R.~Schrader,
+\emph{Axioms for Euclidean Green's functions},
+Communications in Mathematical Physics (1973),
+\href{https://doi.org/10.1007/BF01645738}{doi:10.1007/BF01645738}.
+
+\bibitem{os1975}
+K.~Osterwalder and R.~Schrader,
+\emph{Axioms for Euclidean Green's functions II},
+Communications in Mathematical Physics (1975),
+\href{https://doi.org/10.1007/BF01608978}{doi:10.1007/BF01608978}.
+
+\bibitem{osterwalderseiler}
+K.~Osterwalder and E.~Seiler,
+\emph{Gauge field theories on a lattice},
+Annals of Physics (1978),
+\href{https://doi.org/10.1016/0003-4916(78)90039-8}
+{doi:10.1016/0003-4916(78)90039-8}.
+
+\bibitem{luscher}
+M.~L\"uscher,
+\emph{Construction of a self-adjoint, strictly positive transfer matrix
+for Euclidean lattice gauge theories},
+Communications in Mathematical Physics (1977),
+\href{https://doi.org/10.1007/BF01614090}{doi:10.1007/BF01614090}.
+
+\bibitem{balaban1984propagatorsII}
+T.~Ba{\l}aban,
+\emph{Propagators and renormalization transformations for lattice gauge
+theories II},
+Communications in Mathematical Physics \textbf{96} (1984), 223--250,
+\href{https://doi.org/10.1007/BF01240221}{doi:10.1007/BF01240221}.
+
+\bibitem{balaban1985averaging}
+T.~Ba{\l}aban,
+\emph{Averaging operations for lattice gauge theories},
+Communications in Mathematical Physics \textbf{98} (1985), 17--51,
+\href{https://doi.org/10.1007/BF01211042}{doi:10.1007/BF01211042}.
+
+\bibitem{balaban1985gaugefixing}
+T.~Ba{\l}aban,
+\emph{Spaces of regular gauge field configurations on a lattice and gauge
+fixing conditions},
+Communications in Mathematical Physics \textbf{99} (1985), 75--102,
+\href{https://doi.org/10.1007/BF01466594}{doi:10.1007/BF01466594}.
+
+\bibitem{balaban1985backgroundpropagators}
+T.~Ba{\l}aban,
+\emph{Propagators for lattice gauge theories in a background field},
+Communications in Mathematical Physics \textbf{99} (1985), 389--434,
+\href{https://doi.org/10.1007/BF01240355}{doi:10.1007/BF01240355}.
+
+\bibitem{balaban1985variational}
+T.~Ba{\l}aban,
+\emph{The variational problem and background fields in renormalization
+group method for lattice gauge theories},
+Communications in Mathematical Physics \textbf{102} (1985), 277--309,
+\href{https://doi.org/10.1007/BF01229381}{doi:10.1007/BF01229381}.
+
+\bibitem{balaban1987rgi}
+T.~Ba{\l}aban,
+\emph{Renormalization group approach to lattice gauge field theories I:
+Generation of effective actions in a small field approximation and a
+coupling constant renormalization in four dimensions},
+Communications in Mathematical Physics \textbf{109} (1987), 249--301,
+\href{https://doi.org/10.1007/BF01215223}{doi:10.1007/BF01215223}.
+
+\bibitem{balaban1988rgii}
+T.~Ba{\l}aban,
+\emph{Renormalization group approach to lattice gauge field theories II:
+Cluster expansions},
+Communications in Mathematical Physics \textbf{116} (1988), 1--22,
+\href{https://doi.org/10.1007/BF01239022}{doi:10.1007/BF01239022}.
+
+\bibitem{koteckypreiss}
+R.~Koteck\'y and D.~Preiss,
+\emph{Cluster expansion for abstract polymer models},
+Communications in Mathematical Physics \textbf{103} (1986),
+\href{https://doi.org/10.1007/BF01211762}{doi:10.1007/BF01211762}.
+
+\end{thebibliography}
+
+\end{document}

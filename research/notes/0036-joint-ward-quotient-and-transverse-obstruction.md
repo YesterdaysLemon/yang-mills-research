@@ -659,6 +659,18 @@ The retained hypotheses do not bound it. Viable next inputs are:
 5. prove that the completed coefficients annihilate the transverse
    same-cell range for a source-faithful structural reason.
 
+### Follow-up in Note 0037
+
+Note 0037 derives the exact Hessian factorization and uses the source
+expansion \(D_B\mathcal H(0)=H_1\). Separately, its source-normalized
+homogeneous one-step Cartan model retains a nonzero coarse curl, so discrete
+Stokes forces every right inverse in that model to have gradient/curl order
+\(s^{-2}\). This rules out inferring item 1 from right-inverse normalization
+and projected-Landau orthogonality alone. Whether the full multiscale
+\(H_1\) domain and Hessian selector embed or eliminate that mode remains
+open, alongside a completed weak-dual theorem, range-restricted tube, or
+justified source restriction.
+
 ## Exact boundary
 
 - Equations (5)--(15) are exact finite-dimensional joint

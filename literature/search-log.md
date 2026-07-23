@@ -810,6 +810,51 @@ disk.
 the scaled nonlinear \(U\) pullback, and every later Yang--Mills gate remain
 open.
 
+## 2026-07-23 -- elliptic range and source-normalized block-cochain audit
+
+Full text checked:
+
+1. [Averaging operations for lattice gauge
+   theories](https://doi.org/10.1007/BF01211042), printed p. 19
+   Eqs. (14)--(15) and printed p. 28's \(Q_0,Q'_0\) formulas;
+2. [Spaces of regular gauge field configurations on a lattice and gauge
+   fixing conditions](https://doi.org/10.1007/BF01466594), printed p. 80's
+   definition of \(R(U_0)\) and Eq. (1.27);
+3. [The variational problem and background fields in renormalization group
+   method for lattice gauge
+   theories](https://doi.org/10.1007/BF01229381), Eqs. (20)--(21), (129),
+   and (174)--(190).
+
+The source-typing result is:
+
+- \(H,H_0,H_1\) are distinct constrained lifts/operators;
+- Eqs. (182)--(183) imply the exact fixed-background factorization
+  \[
+  D_B\mathcal H(B)
+  =
+  (I-HD'(A_B))
+  (\Delta_a-\Delta^{(2)}+V''(A_B))^{-1}\Delta_aH_0;
+  \]
+- Eq. (129) supplies the exact \(\Delta_aH_0\) source after applying
+  \(\Delta_a\);
+- Eq. (177) gives \(D_B\mathcal H(0)=H_1\);
+- Eq. (187) is smallness in the existing raw/gradient scaled norm and does
+  not print an additional scale power.
+
+The source-normalized homogeneous \(L=2\) flat-Cartan finite model of the
+bond and scalar averages is a block cochain map, and its Landau operator
+projects onto \(\Delta\ker Q'_0\). YM-RG-037 constructs an exact rational
+projected-Landau representative and uses discrete Stokes to show that one
+localized coarse-bond right inverse necessarily retains \(s^{-2}\)
+transverse curl. This is repository finite-model algebra, not a theorem
+printed in the papers or a proved embedding into the full multiscale
+\(H_1\) domain.
+
+No full \(H_1\) model embedding, completed coefficientwise weak-dual
+annihilation, chart/restoration conversion, generic noncommuting
+perturbation, nonzero-source polymer disk, continuum construction, infrared
+theorem, or mass gap was located or claimed.
+
 ## 2026-07-23 -- support-anchored physical-J pullback
 
 No new source theorem is asserted. The directly inspected variational-paper

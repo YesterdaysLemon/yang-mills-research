@@ -1641,7 +1641,7 @@
         "No independent human review has been recorded.",
         "Independently verify the exact restriction-quotient dual identity, weighted phase duality, and sharpness of the quotient-synthesis norm.",
         "Use YM-RG-034's exact curl reduction, then audit the remaining converted raw and covariant-gradient Eq. (190) rows, including source components, scale factors, chart maps, and tagged stencil labels.",
-        "Use YM-RG-036's exact joint quotient and differentiated range audit, then prove source-faithful smoothing on the actual constrained K/gradient-K range, a range-restricted tube or weak-dual theorem, a justified physical-source restriction, or structural annihilation of the transverse same-cell range.",
+        "Use YM-RG-037's finite-model coarse-Stokes obstruction to avoid inferring strong-column smoothing from right-inverse and projected-Landau constraints alone; test the full multiscale H_1 embedding and Hessian selector, or prove a completed weak-dual theorem, a range-restricted tube, or a justified physical-source restriction.",
         "Use YM-RG-034's physical-width H_ext^U instance and either anchor at its complete raw/gradient feature collar or prove and pay the active-label tagged-metric halo.",
         "Prove H_rc for the actual minimizing family and keep all downstream continuum and infrared gates open."
       ],
@@ -1682,7 +1682,7 @@
       "known_limitations": [
         "H_rc remains unproved for the actual completed minimizing family.",
         "The exact curl algebra removes an independent curl-kernel row, but it does not prove the common converted raw and covariant-gradient K rows through the selected chart and gauge restoration.",
-        "The candidate raw/gradient scale envelope contains (L^j eta)^{-1} and (L^j eta)^{-2} and can diverge as the smallest output scale tends to zero. YM-RG-035 proves that a matching diagonal scaled chart norm alone returns the loss through an O(xi^2) analytic radius. YM-RG-036 proves the exact joint Ward quotient and vertical transfer, but the retained abstract hypotheses still permit a transverse same-cell loss; source-faithful actual-range control remains necessary.",
+        "The candidate raw/gradient scale envelope contains (L^j eta)^{-1} and (L^j eta)^{-2} and can diverge as the smallest output scale tends to zero. YM-RG-035 proves that a matching diagonal scaled chart norm alone returns the loss through an O(xi^2) analytic radius. YM-RG-036 proves the exact joint Ward quotient and vertical transfer, while YM-RG-037's source-normalized finite model shows that right-inverse and projected-Landau constraints alone retain a transverse same-cell loss. The full multiscale H_1 embedding/Hessian selector, completed weak-dual control, a range-restricted tube, or a justified source restriction remains open.",
         "The uniform extension collar has ceil(rho/xi) lattice layers. It can fill a small finite regulator, weakening the feature-anchor source distance, and no common active-label tagged-metric halo is proved.",
         "The cutoff theorem is a quotient estimate using the local germ of an existing global representative; it is not a linear right inverse from arbitrary restriction data.",
         "No nonzero-source polymer activities, unrestricted raw-law comparison, unit translations, large fields, RG iteration, continuum or infinite-volume construction, Osterwalder-Schrader reconstruction, infrared decay, or mass gap follows."
@@ -1704,7 +1704,7 @@
         "Independently verify the four-link orientation algebra, curvature correction, norm-equivalence constants, and compatibility with Balaban Eqs. (1.1) and (1.47)-(1.50).",
         "Audit the cutoff product rule on reverse orientations, regulator boundaries, and every completed shifted gradient stencil.",
         "Prove H_rc for the actual physical family and the reduced converted K/gradient-K rows with common chart, component, label, and scale constants.",
-        "Use YM-RG-036's exact joint quotient and source range constraints; resolve the regulator-divergent raw/gradient envelope through actual-range smoothing, a range-restricted tube or weak-dual theorem, a justified physical-source restriction, or transverse-range annihilation.",
+        "Use YM-RG-037's finite-model coarse-Stokes obstruction; test whether the full multiscale H_1 domain and Hessian selector remove the modeled curl, or resolve the envelope through completed weak-dual annihilation or cancellation, a range-restricted tube, or a justified physical-source restriction.",
         "Prove the tagged-metric halo from the physical-width feature collar to active or marked-root labels if that stronger target is required.",
         "Keep all continuum, reconstruction, infrared, and mass-gap gates open."
       ],
@@ -1744,7 +1744,7 @@
       "known_limitations": [
         "The weighted quotient theorem is abstract after feature scales are fixed. Eq. (190) does not by itself provide one branch-independent tag atlas or a common bound on Theta.",
         "The source-balanced norm cancels the printed row powers only after the still-unproved conversion of K and gradient K through the relative chart and gauge restoration.",
-        "The no-go concerns a single full weighted chart ball and generic Cauchy. YM-RG-036 tests joint Ward cancellation and vertical scale transfer: it identifies the exact quotient constant but shows that the retained abstract hypotheses still permit a same-cell transverse loss. It does not rule out source-faithful smoothing on the actual constrained range, a range-restricted tube or weak-dual theorem, a deliberately weighted physical-source target, or structural transverse annihilation.",
+        "The no-go concerns a single full weighted chart ball and generic Cauchy. YM-RG-036 identifies the exact joint quotient constant and shows that the retained abstract hypotheses still permit a same-cell transverse loss. YM-RG-037's source-normalized finite model shows that right-inverse and projected-Landau constraints alone retain that strong loss, but does not embed the model into the full multiscale H_1 domain or Hessian selector. It does not rule out source-faithful smoothing, a completed weak-dual theorem, a range-restricted tube, a deliberately weighted physical-source target, or structural transverse annihilation.",
         "H_rc remains unproved for the actual minimizing family, and the active-label or marked-root metric halo remains open.",
         "No nonzero-source polymer activities, unrestricted raw-law comparison, unit translations, large fields, RG iteration, continuum or infinite-volume construction, Osterwalder-Schrader reconstruction, infrared decay, or mass gap follows."
       ],
@@ -1766,7 +1766,7 @@
         "Verify the isolated complex Cartan spike against the strict RG I curvature condition and the curl-free longitudinal step against condition (ii).",
         "Audit the abstract inclusion/Cauchy no-go and its sharp one-dimensional saturation.",
         "Determine whether the actual completed feature geometry supplies a common tag atlas and bounded Theta.",
-        "Use YM-RG-036's differentiated range constraints to seek actual-range smoothing, a range-restricted tube or weak-dual theorem, a justified physical-source formulation, or transverse-range annihilation rather than repeating diagonal renorming.",
+        "Use YM-RG-037's finite-model coarse-Stokes obstruction to test the full multiscale H_1 embedding/Hessian selector, a completed weak-dual theorem, a range-restricted tube, a justified physical-source formulation, or transverse-range annihilation rather than repeating diagonal renorming.",
         "Keep all construction, reconstruction, infrared, and mass-gap gates open."
       ],
       "novelty_claim": false,
@@ -1805,7 +1805,7 @@
       "proof_anchor": "research/notes/0036-joint-ward-quotient-and-transverse-obstruction.md",
       "known_limitations": [
         "The completed Ward identity and the common converted physical columns remain hypotheses. The theorem identifies the exact missing joint constant but does not bound it for the actual completed family.",
-        "The variational paper's differentiated averaging and projected Landau conditions give a right-inverse normalization and projected output-divergence constraint. No source-faithful estimate on that actual constrained range is proved here.",
+        "The variational paper's differentiated averaging and projected Landau conditions give a right-inverse normalization and projected output-divergence constraint. YM-RG-037's source-normalized finite periodic model retains an s^{-2} strong coarse-curl loss under those constraints, but its embedding into the full multiscale H_1 domain and Hessian selector remains open.",
         "Vertical decay transfers output powers to the input scale; it does not remove the diagonal same-cell finest-scale loss for the current unweighted all-layer source class.",
         "The transverse Wilson-plaquette coefficient is a logical countermodel to the retained abstract hypotheses. It is not claimed to equal an actual Balaban polymer coefficient or to satisfy the still-unconverted kernel range constraints.",
         "H_rc remains unproved for the actual minimizing family, and no nonzero-source polymer activities, unrestricted raw-law comparison, unit translations, large fields, RG iteration, continuum or infinite-volume construction, Osterwalder-Schrader reconstruction, infrared decay, or mass gap follows."
@@ -1826,12 +1826,72 @@
         "Independently audit the finite-dimensional product-quotient duality, sharpness construction, and one-coordinate lower bound.",
         "Prove the completed coefficientwise Ward identity with the correct simultaneous U/J tangent and every gauge-fixing or boundary contribution.",
         "Convert the common variational K and gradient-K columns through the actual chart and gauge restoration, preserving the differentiated right-inverse and projected Landau range constraints.",
-        "Determine whether those actual range constraints eliminate or smooth every same-cell transverse fine column strongly enough to bound the joint quotient synthesis.",
+        "Use YM-RG-037's finite-model coarse-Stokes obstruction to test the full multiscale H_1 embedding and Hessian selector; if the modeled range survives, determine whether the completed joint weak dual annihilates or cancels it.",
         "If the source class is changed to a weighted or coarse-layer class, justify that physical target independently rather than treating the vertical transfer as an unweighted bound.",
         "Keep H_rc, nonzero-source activities, raw matching, large fields, iteration, continuum and infinite-volume construction, reconstruction, infrared decay, and all mass-gap gates open."
       ],
       "novelty_claim": false,
       "provenance": "AI-assisted finite-dimensional product-quotient duality, primary-source range audit, vertical scale transfer, and explicit logical countermodel; no novelty claimed.",
+      "last_audited_commit": null
+    },
+    {
+      "id": "YM-RG-037",
+      "kind": "Lemma",
+      "statement": "For the measure-normalized physical coordinate column kappa_c=mu_c A_c, differentiating Balaban's averaging and projected-Landau equations gives C_B kappa_c=e_c and S_B kappa_c=0; their full finite-dimensional solution set is an affine slice whose undetermined transverse space is ker C_B intersect ker S_B. Variational Eqs. (182)-(183) further give the exact elliptic factorization K_B=(I-HD'(A_B))(Delta_a-Delta^(2)+V''(A_B))^{-1}Delta_a H_0, while Eq. (177) gives K_0=H_1. Separately, in a source-normalized homogeneous finite periodic L=2 flat-Cartan model of Q_0, Q'_0, and the Landau projector, a localized coarse bond has nonzero coarse curl. An explicit rational projected-Landau representative exists, and the cochain identity plus discrete Stokes forces every right-inverse column in that model to have raw norm at least s^{-1}, output gradient at least (1/2)s^{-2}, and output curl at least s^{-2}. Thus right-inverse normalization and projected-Landau orthogonality alone do not force a two-power strong-norm gain in the finite model.",
+      "scope_and_quantifiers": "The affine-slice and elliptic-factorization statements are finite-dimensional and exact on the fixed-background Proposition-9 patch. The Stokes statement concerns one separate finite periodic d=4 homogeneous model, one L=2 block step, one localized coarse positive bond, a flat Cartan line, and the displayed strong raw, fine-gradient, and fine-curl norms. Embedding that model into the source's full multiscale H_1 domain, complete Q' nullspace, boundary conditions, and Hessian-selected range is not asserted.",
+      "status": "proved-in-repo",
+      "evidence_level": "E2",
+      "dependencies": [
+        "YM-RG-003",
+        "YM-RG-031",
+        "YM-RG-033",
+        "YM-RG-034",
+        "YM-RG-035",
+        "YM-RG-036"
+      ],
+      "external_hypotheses": [
+        "Balaban's fixed-background Proposition-9 analytic patch and the operator typing of H, H_0, H_1, Q, Q', R, Delta_a, Delta^(2), and the nonlinear restoration D.",
+        "The physical source-density convention D_B H[h]=sum_c mu_c A_c h_c, so the coordinate column constrained by the differentiated average is kappa_c=mu_c A_c.",
+        "For any use of the finite-model Stokes obstruction on the actual kernel, an embedding into the full multiscale H_1 domain with its complete Q' nullspace, boundary conditions, and Hessian selector.",
+        "For any completed physical first-jet consequence, the still-unproved common chart and gauge-restoration conversion, simultaneous U/J Ward identity, coefficient-inactive quotient, and a structural statement about the completed derivative on any surviving coarse-curl range."
+      ],
+      "sources": [
+        "https://doi.org/10.1007/BF01211042",
+        "https://doi.org/10.1007/BF01466594",
+        "https://doi.org/10.1007/BF01229381"
+      ],
+      "proof_anchor": "research/notes/0037-elliptic-range-factorization-and-stokes-obstruction.md",
+      "known_limitations": [
+        "The Stokes theorem is a source-normalized finite-model result. It does not identify the model with the source's full multiscale H_1 domain, complete Q' nullspace, boundary conditions, or Hessian selector; it also does not identify the generic noncommuting kernel, prove H_rc, or complete chart and gauge-restoration conversion.",
+        "The result rules out deriving universal strong-norm smoothing from right-inverse normalization and projected-Landau orthogonality alone in the finite model. It does not rule out smoothing from the full source domain/Hessian selector, a completed weak-dual annihilation, an internal U/J cancellation, a range-restricted tube, or a justified curl-free, smoothed, weighted, or separated physical source class.",
+        "The explicit rational field proves the finite-model projected-Landau slice is nonempty, but it is not asserted to be an actual Hessian-minimizing H_1 representative.",
+        "No actual completed Balaban polymer coefficient is shown to detect the forced transverse curl. No nonzero-source polymer activities, unrestricted raw-law comparison, unit translations, large fields, RG iteration, continuum or infinite-volume construction, Osterwalder-Schrader reconstruction, infrared decay, or mass gap follows."
+      ],
+      "falsification_tests": [
+        "Apply the differentiated right-inverse identity to the density A_c rather than the coordinate column mu_c A_c.",
+        "Confuse H, H_0, H_1, or the nonlinear averaging-restoration operator HD(A') with the later Landau-to-axial gauge transformation.",
+        "Call Delta_a H_0=Q*(QGQ*)^{-1}(L^j eta)^{-1} a literal printed display rather than an exact consequence of Eq. (129).",
+        "Read the elliptic inverse as a two-power gain while dropping its Delta_a H_0 source.",
+        "Replace R D* K=0 by D* K=0, omit the scalar block average Q', or use a Landau projection with the wrong range.",
+        "Drop a factor of eta, L^{-d}, the two-link path length, the suppressed-coordinate multiplicity, or the two-form row mass in the Stokes normalization.",
+        "Apply the nonzero coarse-curl lower bound to a curl-free coarse source.",
+        "Identify the source-normalized finite model with the actual multiscale H_1 source slice without proving the full Q', domain, boundary, and Hessian embedding.",
+        "Claim that the finite-model strong-norm obstruction proves every completed coefficient detects the transverse range or that no weak-dual cancellation is possible.",
+        "Promote the one-block result to an unconditional physical first jet, continuum construction, infrared theorem, or Yang-Mills mass gap."
+      ],
+      "reviewers": [],
+      "open_objections": [
+        "No independent human review has been recorded.",
+        "Independently check the operator typing and every step deriving the elliptic factorization from Eqs. (129), (174)-(188).",
+        "Independently reproduce the source-normalized L=2 finite model of Q_0 and Q'_0, the projected-Landau orthogonality calculation, the cochain identity, and all eta/s scale factors.",
+        "Prove or disprove an embedding of the homogeneous periodic model into the full multiscale H_1 domain, complete Q' nullspace, boundary conditions, and Hessian selector.",
+        "Extend or perturb the Cartan calculation only after proving the corresponding noncommuting cochain, transport, boundary, and multiscale identities.",
+        "Prove the common chart and gauge-restoration conversion and determine whether the completed simultaneous U/J weak dual annihilates, cancels, or retains any coarse-curl range that survives the full H_1 embedding and Hessian selector.",
+        "If the physical source class is restricted, justify the curl-free, smoothing, weighting, or separation property independently.",
+        "Keep H_rc, nonzero-source activities, raw matching, large fields, iteration, continuum and infinite-volume construction, reconstruction, infrared decay, and every Yang-Mills mass-gap gate open."
+      ],
+      "novelty_claim": false,
+      "provenance": "AI-assisted primary-source operator audit, exact finite-dimensional elliptic algebra, and source-normalized rational Cartan block-cochain model; no novelty claimed.",
       "last_audited_commit": null
     },
     {
@@ -1875,7 +1935,8 @@
         "YM-RG-033",
         "YM-RG-034",
         "YM-RG-035",
-        "YM-RG-036"
+        "YM-RG-036",
+        "YM-RG-037"
       ],
       "external_hypotheses": [
         "The exact Eq. (0.12) averaging map, raw group-delta transform, fixed small-field domain, local gauge chart, minimizing branch, and background-propagator estimates recorded in the imported-map audit.",
@@ -1892,7 +1953,7 @@
       "proof_anchor": "research/programs/003-first-source-jet-remainder.md",
       "known_limitations": [
         "This is an unproved small-field theorem specification.",
-        "YM-RG-010 fixes the operational selected-coordinate law, YM-RG-012 supplies a conditional independent-variable cube-count norm, YM-RG-013 upgrades the standard branch to d_k, YM-RG-014 supplies an all-plaquette shifted cover, YM-RG-015 supplies fixed-patch analytic physical composition, YM-RG-016 supplies conditional independent-variable derivative norms, YM-RG-017 supplies a one-layer J pullback, YM-RG-018 rules out naive raw U collars, YM-RG-019 supplies a conditional all-layer J pullback, YM-RG-020 supplies fixed-gas Ursell algebra, YM-RG-021 supplies the exact fixed-partition marked map, YM-RG-023 and YM-RG-024 close the ordinary hull/KP mapping, YM-RG-025 closes the fixed-term marked bound, YM-RG-026 closes the marked resummation and norm on one fixed gas, YM-RG-027 synchronizes the shifted first jets, YM-RG-028 removes the discrete-tree-lift premise, YM-RG-029 closes completed external-field support anchors, YM-RG-030 closes the completed affine-J tube under H_J^conn, YM-RG-031 supplies a concrete covariant-curl U/J product tube under H_rc, YM-RG-032 removes H_rho and mesh matching from a support-anchored physical-J norm while isolating H_end for the stronger plaquette-rooted target, YM-RG-033 gives a conditional unweighted physical-U pullback plus the exact positive-decay restriction-quotient reduction, YM-RG-034 proves the exact curl reduction and a physical-width quotient extension while ruling out a uniform fixed-layer collar, YM-RG-035 proves that diagonal scale balancing returns the finest-scale loss through the analytic radius, and YM-RG-036 supplies the exact joint Ward quotient and vertical scale trade while isolating the surviving abstract transverse same-cell obstruction. Intrinsic/raw comparison, proof of H_rc for the physical family, common converted raw/gradient U rows, source-faithful control of their actual constrained range or a range-restricted tube/weak-dual substitute, any active-label metric halo or required rooted endpoint substitute, unit translations, a nonzero-t polymer-activity disk, the unconditional physical connected expansion, and projection remain open.",
+        "YM-RG-010 fixes the operational selected-coordinate law, YM-RG-012 supplies a conditional independent-variable cube-count norm, YM-RG-013 upgrades the standard branch to d_k, YM-RG-014 supplies an all-plaquette shifted cover, YM-RG-015 supplies fixed-patch analytic physical composition, YM-RG-016 supplies conditional independent-variable derivative norms, YM-RG-017 supplies a one-layer J pullback, YM-RG-018 rules out naive raw U collars, YM-RG-019 supplies a conditional all-layer J pullback, YM-RG-020 supplies fixed-gas Ursell algebra, YM-RG-021 supplies the exact fixed-partition marked map, YM-RG-023 and YM-RG-024 close the ordinary hull/KP mapping, YM-RG-025 closes the fixed-term marked bound, YM-RG-026 closes the marked resummation and norm on one fixed gas, YM-RG-027 synchronizes the shifted first jets, YM-RG-028 removes the discrete-tree-lift premise, YM-RG-029 closes completed external-field support anchors, YM-RG-030 closes the completed affine-J tube under H_J^conn, YM-RG-031 supplies a concrete covariant-curl U/J product tube under H_rc, YM-RG-032 removes H_rho and mesh matching from a support-anchored physical-J norm while isolating H_end for the stronger plaquette-rooted target, YM-RG-033 gives a conditional unweighted physical-U pullback plus the exact positive-decay restriction-quotient reduction, YM-RG-034 proves the exact curl reduction and a physical-width quotient extension while ruling out a uniform fixed-layer collar, YM-RG-035 proves that diagonal scale balancing returns the finest-scale loss through the analytic radius, YM-RG-036 supplies the exact joint Ward quotient and vertical scale trade, and YM-RG-037 supplies an exact source-normalized finite-model Stokes obstruction while leaving its full multiscale H_1 embedding open. Intrinsic/raw comparison, proof of H_rc for the physical family, common converted raw/gradient U rows, the H_1 embedding/Hessian test, completed weak-dual control, a range-restricted tube or justified source restriction, any active-label metric halo or required rooted endpoint substitute, unit translations, a nonzero-t polymer-activity disk, the unconditional physical connected expansion, and projection remain open.",
         "Even a proof would leave the second jet, large fields, RG iteration, continuum construction, and mass gap open."
       ],
       "falsification_tests": [
@@ -1905,8 +1966,8 @@
       "reviewers": [],
       "open_objections": [
         "YM-RG-009 proves patch-local transported-chart covariance, but global overlap compatibility and comparison with the unrestricted raw transform remain open.",
-        "YM-RG-017 supplies the direct-J collar and one-layer J pullback; YM-RG-018 proves that naive raw U collars collapse; YM-RG-019 supplies the all-layer J bridge only under unverified premises; YM-RG-026 supplies the independent-variable fixed-gas marked norm; YM-RG-027 synchronizes the shifted first jets; YM-RG-028 removes H_T; YM-RG-029 closes completed support halos; YM-RG-030 closes the completed affine-J tube under H_J^conn; YM-RG-031 replaces the raw-U obstruction by a covariant-curl product tube under H_rc; YM-RG-032 proves a support-anchored physical-J norm without H_rho or mesh matching; YM-RG-033 gives an unweighted physical-U pullback under common converted feature rows while isolating the sharp positive-decay quotient moment; YM-RG-034 proves the curl reduction and physical-width quotient extension; YM-RG-035 rules out diagonal scale balancing as a uniform-tube repair; and YM-RG-036 proves the exact joint Ward quotient but shows that the retained abstract hypotheses do not control the transverse same-cell range. Proof of H_rc, common converted raw/gradient U rows, source-faithful actual-range control or a range-restricted tube/weak-dual substitute, the active-label metric halo, a rooted endpoint substitute when that stronger norm is required, unit translations, and a nonzero-t polymer-activity disk remain open.",
-        "YM-RG-020 through YM-RG-036 now close the fixed-partition marked algebra, positive resummation, decorated norm, ordinary KP interface, connected derivative at t=0, branchwise first-jet synchronization, conditional endpoint replacement, completed support anchor, conditional completed-J derivative norm, an H_rc-conditional complex U/J product tube, a hybrid support-anchored physical-J pullback, a conditional unweighted physical-U pullback with an exact positive-decay quotient reduction, the physical-width quotient extension after exact curl reduction, the diagonal-renorming no-go boundary, and the exact joint-Ward quotient reduction with its abstract transverse obstruction. An unconditional convergent physical pulled-back cluster expansion remains unproved.",
+        "YM-RG-017 supplies the direct-J collar and one-layer J pullback; YM-RG-018 proves that naive raw U collars collapse; YM-RG-019 supplies the all-layer J bridge only under unverified premises; YM-RG-026 supplies the independent-variable fixed-gas marked norm; YM-RG-027 synchronizes the shifted first jets; YM-RG-028 removes H_T; YM-RG-029 closes completed support halos; YM-RG-030 closes the completed affine-J tube under H_J^conn; YM-RG-031 replaces the raw-U obstruction by a covariant-curl product tube under H_rc; YM-RG-032 proves a support-anchored physical-J norm without H_rho or mesh matching; YM-RG-033 gives an unweighted physical-U pullback under common converted feature rows while isolating the sharp positive-decay quotient moment; YM-RG-034 proves the curl reduction and physical-width quotient extension; YM-RG-035 rules out diagonal scale balancing as a uniform-tube repair; YM-RG-036 proves the exact joint Ward quotient; and YM-RG-037 supplies a source-normalized finite-model Stokes obstruction without proving its full H_1 embedding. Proof of H_rc, common converted raw/gradient U rows, the multiscale H_1 embedding/Hessian test, completed weak-dual control, a range-restricted tube or justified source restriction, the active-label metric halo, a rooted endpoint substitute when that stronger norm is required, unit translations, and a nonzero-t polymer-activity disk remain open.",
+        "YM-RG-020 through YM-RG-037 now close the fixed-partition marked algebra, positive resummation, decorated norm, ordinary KP interface, connected derivative at t=0, branchwise first-jet synchronization, conditional endpoint replacement, completed support anchor, conditional completed-J derivative norm, an H_rc-conditional complex U/J product tube, a hybrid support-anchored physical-J pullback, a conditional unweighted physical-U pullback with an exact positive-decay quotient reduction, the physical-width quotient extension after exact curl reduction, the diagonal-renorming no-go boundary, the exact joint-Ward quotient reduction, and a source-normalized finite-model Stokes obstruction. An unconditional convergent physical pulled-back cluster expansion remains unproved.",
         "Uniform locality of the projected first-jet sector is unproved."
       ],
       "novelty_claim": false,
@@ -1953,7 +2014,8 @@
         "YM-RG-033",
         "YM-RG-034",
         "YM-RG-035",
-        "YM-RG-036"
+        "YM-RG-036",
+        "YM-RG-037"
       ],
       "external_hypotheses": [
         "The selected RG I Eq. (0.12) averaging map and raw group-delta transform, the separately named YM-RG-010 exact coordinate law, an explicit intrinsic-coordinate-unrestricted distinction, exact marked domain/norm transcription, and every needed source-free small- and large-field estimate verified in full text before use."
@@ -1978,7 +2040,7 @@
       ],
       "reviewers": [],
       "open_objections": [
-        "The selected branch has patch-local transported-chart covariance, a scalar source disk, an all-plaquette coarse-lattice-equivariant d_k marked family, fixed-patch physical composition, conditional J pullbacks, a proof that naive raw U collars collapse, YM-RG-020 through YM-RG-027's fixed-partition algebra, positive resummation, final norm, ordinary KP interface, connected derivative at t=0, and shifted first-jet synchronization, plus YM-RG-028's endpoint replacement, YM-RG-029's completed support anchors, YM-RG-030's completed affine-J tube under H_J^conn, YM-RG-031's concrete covariant-curl U/J product tube under H_rc, YM-RG-032's support-anchored physical-J norm without H_rho or mesh matching, YM-RG-033's conditional unweighted physical-U pullback plus exact positive-decay restriction-quotient reduction, YM-RG-034's exact curl reduction and physical-width quotient extension, YM-RG-035's scale-balanced renorming no-go, and YM-RG-036's exact joint-Ward quotient and abstract transverse obstruction. Proof of H_rc for the actual physical family, common converted raw/gradient U rows, source-faithful actual-range control or a range-restricted tube/weak-dual substitute, the active-label metric halo, any stronger rooted endpoint substitute, global overlap compatibility, unit translations, a nonzero-t polymer-activity disk, the unconditional physical connected estimate, later profile norms, and relation to the unrestricted raw transform remain open.",
+        "The selected branch has patch-local transported-chart covariance, a scalar source disk, an all-plaquette coarse-lattice-equivariant d_k marked family, fixed-patch physical composition, conditional J pullbacks, a proof that naive raw U collars collapse, YM-RG-020 through YM-RG-027's fixed-partition algebra, positive resummation, final norm, ordinary KP interface, connected derivative at t=0, and shifted first-jet synchronization, plus YM-RG-028's endpoint replacement, YM-RG-029's completed support anchors, YM-RG-030's completed affine-J tube under H_J^conn, YM-RG-031's concrete covariant-curl U/J product tube under H_rc, YM-RG-032's support-anchored physical-J norm without H_rho or mesh matching, YM-RG-033's conditional unweighted physical-U pullback plus exact positive-decay restriction-quotient reduction, YM-RG-034's exact curl reduction and physical-width quotient extension, YM-RG-035's scale-balanced renorming no-go, YM-RG-036's exact joint-Ward quotient, and YM-RG-037's source-normalized finite-model Stokes obstruction. Proof of H_rc for the actual physical family, common converted raw/gradient U rows, the full multiscale H_1 embedding/Hessian test, completed weak-dual control, a range-restricted tube or justified source restriction, the active-label metric halo, any stronger rooted endpoint substitute, global overlap compatibility, unit translations, a nonzero-t polymer-activity disk, the unconditional physical connected estimate, later profile norms, and relation to the unrestricted raw transform remain open.",
         "The theorem may duplicate or fail to follow from existing source-free estimates.",
         "The source-dependent extension of the separate large-field operation has not been derived."
       ],

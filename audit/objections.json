@@ -521,7 +521,7 @@
         "Independently audit YM-RG-034's physical-width H_ext^U construction and its bounded-layer obstruction; do not replace it by zero extension or by the statement that restriction is a contraction.",
         "Anchor positive decay at YM-RG-034's complete physical-width raw/gradient feature collar or prove and pay the active-label tagged-metric halo; prove a separate endpoint or coefficient-weighted substitute before claiming marked-plaquette-rooted decay.",
         "Do not quotient longitudinal or gauge directions using the joint Ward identity after separately taking absolute values of the U and J summands.",
-        "Use YM-RG-036's exact joint quotient and differentiated range audit, then prove H_rc and resolve the surviving scale loss by source-faithful smoothing on the actual constrained range, a range-restricted tube or weak-dual theorem, a justified physical-source restriction, or structural transverse annihilation.",
+        "Use YM-RG-037's finite-model range audit, then prove H_rc and test the full multiscale H_1 domain/Hessian selector or resolve the surviving scale loss by a range-restricted tube, weak-dual theorem, justified physical-source restriction, or structural transverse annihilation.",
         "Keep nonzero-source polymer activities, raw matching, large fields, RG iteration, continuum and infinite-volume construction, Osterwalder-Schrader reconstruction, infrared decay, and the Yang-Mills mass gap open."
       ]
     },
@@ -539,7 +539,7 @@
         "Audit the scalar cutoff product rule on inside, boundary-crossing, reverse-orientation, regulator-boundary, and shifted-branch stencils.",
         "Reproduce the flat abelian longitudinal path quotient exactly and confirm that its plaquette curl vanishes in dimension at least two.",
         "Prove the reduced converted K/gradient-K hypothesis H_01^U with common chart, gauge-restoration, source-component, and tagged-label constants.",
-        "Use YM-RG-036's exact joint quotient and source range constraints; resolve the divergent envelope through actual-range smoothing, a range-restricted tube or weak-dual theorem, a justified physical-source restriction, or transverse-range annihilation.",
+        "Use YM-RG-037's finite-model obstruction; test the full multiscale H_1 domain/Hessian selector or resolve the divergent envelope through a range-restricted tube, weak-dual theorem, justified physical-source restriction, or transverse-range annihilation.",
         "Prove the tagged-metric halo from ceil(rho/xi) gradient layers to active or marked-root labels before claiming those stronger weights.",
         "Keep H_rc, nonzero-source activities, raw matching, large fields, iteration, continuum and infinite-volume construction, reconstruction, infrared decay, and the Yang-Mills mass gap open."
       ]
@@ -559,7 +559,7 @@
         "Verify that the flat longitudinal example has zero plaquette curl while violating RG I's unweighted gradient ceiling at fixed weighted radius.",
         "Audit the abstract W-to-X inclusion constant, Banach-line Cauchy loss, and sharp one-dimensional saturation.",
         "Prove or refute a common output-feature tag atlas and uniform scale-incidence bound in the actual completed geometry.",
-        "Use YM-RG-036's differentiated range constraints to seek actual-range smoothing, a range-restricted tube or weak-dual theorem, a justified physical-source restriction, or transverse-range annihilation.",
+        "Use YM-RG-037's finite-model obstruction to test the full multiscale H_1 domain/Hessian selector, a range-restricted tube or weak-dual theorem, a justified physical-source restriction, or transverse-range annihilation.",
         "Keep H_rc, nonzero-source activities, raw matching, large fields, iteration, continuum and infinite-volume construction, reconstruction, infrared decay, and the Yang-Mills mass gap open."
       ]
     },
@@ -577,7 +577,27 @@
         "Verify Propagators II Eqs. (2.59)-(2.60) at alpha=(lambda-lambda')/delta_0, the retained exponent, one-layer L^q cost, input-scale factor, and same-layer same-cell diagonal.",
         "Reproduce the SU(2) determinant identity, commuting-Cartan transported curl, exact Wilson-plaquette derivative, uniform tube bound, and normalized quotient-functional lower bound.",
         "Do not identify the logical transverse countermodel with an actual Balaban coefficient or claim that the actual kernel violates its differentiated range constraints.",
-        "Prove a source-faithful bound on the actual constrained joint synthesis, a range-restricted tube or weak-dual estimate, a justified physical-source restriction, or a structural transverse annihilation theorem.",
+        "Use YM-RG-037's source-normalized finite-model obstruction to test the full multiscale H_1 embedding and Hessian selector; if the modeled transverse range survives, prove a completed weak-dual annihilation/cancellation theorem, a range-restricted tube, or a justified physical-source restriction.",
+        "Keep H_rc, nonzero-source activities, raw matching, large fields, iteration, continuum and infinite-volume construction, reconstruction, infrared decay, and every Yang-Mills mass-gap gate open."
+      ]
+    },
+    {
+      "id": "OBJ-041",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-037"],
+      "summary": "The elliptic range factorization and source-normalized finite periodic Cartan Stokes obstruction have no independent human review. The finite model proves that right-inverse normalization and projected-Landau orthogonality alone do not force a two-power strong-norm gain, but its embedding into the full multiscale H_1 domain and Hessian-selected range is unproved.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Visually recheck averaging-paper Eqs. (14)-(15) and printed p. 28, gauge-fixing printed p. 80, and variational-paper Eqs. (20)-(21), (129), and (174)-(190) against the pinned PDF hashes.",
+        "Independently verify the distinction among H, H_0, H_1, the nonlinear restoration HD(A'), and the later Landau-to-axial gauge transformation.",
+        "Reproduce the algebra deriving the elliptic factorization and Delta_a H_0 source, including every fixed-background and inverse-domain premise.",
+        "Reproduce the source-normalized L=2, d=4 finite model of Q_0 and Q'_0, the rational coarse-bond representative, the projected-Landau orthogonality proof, and the cochain/Stokes identity.",
+        "Check every measure, eta, block-scale, path-length, orientation, two-form row-mass, raw, gradient, and curl normalization.",
+        "Prove or disprove an embedding of the homogeneous periodic model into the full multiscale H_1 domain, complete Q' nullspace, boundary conditions, and Hessian selector.",
+        "Do not extend the Cartan result to generic noncommuting backgrounds without controlled transport, commutator, boundary, multiscale, and Hessian perturbation estimates.",
+        "Prove the common physical chart and gauge-restoration conversion, completed simultaneous U/J Ward identity, and the action of the completed weak dual on any source-faithfully surviving coarse-curl range.",
+        "If a curl-free, smoothed, weighted, or separated source class is adopted, justify it as the intended physical target rather than as an algebraic escape.",
         "Keep H_rc, nonzero-source activities, raw matching, large fields, iteration, continuum and infinite-volume construction, reconstruction, infrared decay, and every Yang-Mills mass-gap gate open."
       ]
     }

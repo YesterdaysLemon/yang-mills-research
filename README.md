@@ -18,6 +18,8 @@ The exact scope and the ways an apparent result can miss it are frozen in [PROBL
 
 The main route is a Wilson lattice regulator followed by gauge-covariant renormalization, construction of local gauge-invariant observables, Osterwalder–Schrader reconstruction, and a still-missing nonperturbative infrared bridge. The first bounded target is one source-inserted RG step; supporting notes isolate both its elementary raw source identities and the final gap certificate:
 
+- [Research handoff paper (PDF)](paper/finite_regulator_source_insertions.pdf)
+- [Research handoff paper (LaTeX source)](paper/finite_regulator_source_insertions.tex)
 - [Chosen route and dependency map](ROADMAP.md)
 - [Program 002: one-block observable RG theorem](research/programs/002-one-block-observable-rg.md)
 - [Program 003: first source-jet remainder](research/programs/003-first-source-jet-remainder.md)
@@ -58,6 +60,7 @@ The main route is a Wilson lattice regulator followed by gauge-covariant renorma
 - [Note 0034: transported curl closure and physical-width quotient extension](research/notes/0034-transported-curl-and-physical-width-extension.md)
 - [Note 0035: scale-balanced physical-U renorming no-go](research/notes/0035-scale-balanced-u-renorming-no-go.md)
 - [Note 0036: joint Ward quotient and transverse same-cell obstruction](research/notes/0036-joint-ward-quotient-and-transverse-obstruction.md)
+- [Note 0037: elliptic range factorization and source-normalized Stokes model](research/notes/0037-elliptic-range-factorization-and-stokes-obstruction.md)
 - [Bałaban theorem-level source map](literature/audits/2026-07-22-balaban-source-map.md)
 - [Bałaban imported-map audit](literature/audits/2026-07-22-balaban-imported-map.md)
 - [Bałaban final-gas/KP source audit](literature/audits/2026-07-22-balaban-final-gas-kp-map.md)
@@ -73,6 +76,7 @@ The main route is a Wilson lattice regulator followed by gauge-covariant renorma
 - [Bałaban transported-curl and quotient-extension audit](literature/audits/2026-07-23-balaban-transported-curl-extension.md)
 - [Bałaban scale-balanced U-renorming audit](literature/audits/2026-07-23-balaban-scale-balanced-u-renorming.md)
 - [Bałaban joint-Ward, kernel-range, and vertical-decay audit](literature/audits/2026-07-23-balaban-joint-ward-transverse.md)
+- [Bałaban elliptic-range and finite-model Stokes audit](literature/audits/2026-07-23-balaban-elliptic-range-stokes.md)
 
 Programs 002 and 003 are open theorem specifications, not results. The notes prove auxiliary finite-regulator and fixed-chart statements for a selected small-field branch; they do not identify that branch with the unrestricted raw transform. Notes 0021, 0025, and 0026 carry one interior plaquette mark through the exact fixed-partition RG-II algebra, the source-faithful conditioned formula, and the positive \(D/P/Z_0\) plus scale resummations. Under the explicit doubled-\(\varepsilon _2\) refinement and Note 0024's separate ordinary KP ceiling, this gives an absolutely convergent connected first derivative at \(t=0\). Under the added periodic compatibility \(LM\mid N\) and a nonempty common external branch domain, Note 0027 repeats the complete construction on every nested shifted branch, proves that all branch numerator/denominator pairs reconstruct the same dual-number integral up to a nonzero scalar, and averages only the completed connected coefficients. Note 0028 removes Note 0019's artificial discrete-tree-lift hypothesis and its \(\tau\) loss by a periodic covering-space endpoint argument. Note 0029 then carries external-\((U,J)\) restriction locality through the marked dual-number map and literal-union connected sum. It retains RG I's exact bond-intersection support convention and uses the admitted integer-wall closed cubulations to prove zero endpoint halos for the completed external-\(J\) coefficient. Under the completed representative compatibility hypothesis \((\mathrm H_J^{\rm conn})\), Note 0030 applies the affine \(J\) margin at the output scale and reruns the marked connected estimate in coefficientwise local \(H^\infty\) norms. Note 0031 gives a concrete full complex \(U/J\) product tube in a covariant-curl relative-log norm under the stronger common real-center hypothesis \((\mathrm H_{\rm rc})\). Its ordered-matrix estimate proves an explicit positive \(U\) radius and the product Banach rerun gives full \(U\)-chart and \(J\) dual derivative norms without bond-volume or shifted-branch factors. Note 0032 composes that completed \(J\) derivative with the audited Eq. (190) kernel in a support-anchored hybrid norm. It needs no \((\mathrm H_\rho)\), mesh comparison, endpoint allowance, or loss from the polymer exponent \(\kappa\); the source-kernel weight still requires \(0\le\gamma<\delta _0/8\). The stronger marked-plaquette-rooted norm instead follows from the less structured aggregate hypothesis \((\mathrm H_{\rm end})\).
 
@@ -92,9 +96,26 @@ retains the finest loss. A gauge-invariant transverse logical countermodel
 then shows that the current abstract rowwise, locality, product-tube, and
 Ward hypotheses still permit an \(s^{-2}\) column. It is not an actual
 Balaban coefficient. The narrowed next target is a source-faithful estimate
-on the actual kernel range constraints, a range-restricted analytic tube or
+on the actual kernel range constraints, including the full multiscale
+\(H_1\) domain and Hessian selector, a range-restricted analytic tube or
 weak-dual theorem, a justified physical-source restriction, or a structural
-annihilation of the transverse same-cell range.
+annihilation of any surviving transverse same-cell range.
+
+Note 0037 derives the exact elliptic factorization of
+\(D_B\mathcal H\) from variational Eqs. (182)--(188) and records the
+exact consequence \(D_B\mathcal H(0)=H_1\) of the source-printed
+expansion. Separately, it constructs a source-normalized homogeneous
+\(L=2\) flat-Cartan finite periodic model of \(Q_0,Q'_0\), and \(R\), in
+which a localized coarse bond has nonzero coarse curl.
+An explicit rational representative satisfies the projected Landau
+condition, while cochain compatibility and discrete Stokes force every
+right inverse in that model to retain raw \(s^{-1}\) and gradient/curl
+\(s^{-2}\) scale powers. Thus right-inverse and projected-Landau constraints
+alone do not force strong smoothing in the finite model. Embedding this
+model into the full multiscale \(H_1\) domain and Hessian-selected range
+remains open, as do completed weak-dual control, a range-restricted tube,
+and justified source restrictions. No actual completed coefficient is
+proved to detect the modeled range.
 
 The selected-coordinate scalar source disk was already proved in Notes 0007 and 0010. Source-dependent polymer activities at nonzero source, unit-translation covariance, the remaining physical-family uniformity and rooted-locality gates, large fields, RG iteration, continuum construction, axioms, infrared decay, and the mass gap remain open. No Yang--Mills solution is claimed here.
 
@@ -288,9 +309,25 @@ still align different column values. Spending vertical decay transfers
 gauge-invariant Wilson-plaquette functional detects a commuting-Cartan
 same-cell transverse column of order \(s^{-2}\) under the retained abstract
 hypotheses. The actual variational kernel also satisfies differentiated
-right-inverse and projected Landau constraints, so the countermodel does not
-settle its range; exploiting those exact constraints is the next positive
-test.
+right-inverse and projected Landau constraints, so that logical countermodel
+alone does not settle its range.
+
+Note 0037 performs the next range test. The exact differentiated system
+factors through
+\[
+\bigl(\Delta_a-\Delta^{(2)}+V''(A_B)\bigr)^{-1}\Delta_aH_0,
+\qquad
+D_B\mathcal H(0)=H_1.
+\]
+In a source-normalized homogeneous \(L=2\) Cartan finite model, the bond
+and scalar averages are cochain-compatible and \(R\) projects onto
+\(\Delta\ker Q'_0\). A localized coarse bond has nonzero coarse curl, so
+discrete Stokes forces every right-inverse representative in that model to
+retain raw \(s^{-1}\) and gradient/curl \(s^{-2}\) powers. This shows that
+the normalized range and Landau constraints alone do not supply strong
+smoothing. Whether the full multiscale \(H_1\) domain and Hessian selector
+retain this mode, and whether the completed joint weak dual annihilates it
+if they do, remain open.
 
 Note 0032 does complete the auxiliary-\(J\) kernel composition in a hybrid
 norm. If \(S_{p,s,R}\) is the tagged multiscale-label set of the completed

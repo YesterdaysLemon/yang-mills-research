@@ -172,6 +172,13 @@ summation and identifies the exact joint Ward quotient. It records the
 actual differentiated kernel range constraints and vertical scale trade,
 but a gauge-invariant same-cell transverse logical countermodel shows that
 the retained abstract hypotheses still do not bound the joint synthesis.
+[Note 0037](../notes/0037-elliptic-range-factorization-and-stokes-obstruction.md)
+then derives the exact elliptic factorization. Separately, on a
+source-normalized homogeneous \(L=2\) Cartan finite model, discrete Stokes
+forces every localized coarse-bond right inverse to retain gradient/curl
+order \(s^{-2}\). This prevents inferring universal strong-norm smoothing
+from the normalized range and Landau constraints alone; embedding the model
+into the full multiscale \(H_1\) domain and Hessian selector remains open.
 [Note 0020](../notes/0020-one-mark-ursell-identity.md) proves the exact
 distinguished-vertex Ursell formula and a conditional pinned bound on one
 fixed hard-core gas. [Note
@@ -205,9 +212,10 @@ gases or paying an orbit factor. The selected-coordinate scalar source disk
 was already proved in Notes 0007 and 0010; a source-dependent
 polymer-activity disk remains unproved.
 Unit-translation covariance, proof of \((\mathrm H_{\rm rc})\), common
-converted raw/gradient \(U\) rows and source-faithful control of their actual
-differentiated range by smoothing, a range-restricted tube, or a weak-dual
-estimate, the active-label
+converted raw/gradient \(U\) rows, completed weak-dual annihilation or
+cancellation on any source-faithfully surviving coarse-curl range, a
+range-restricted tube, or a
+justified curl-free/smoothed/weighted source replacement, the active-label
 metric halo, common \(J\)-kernel/chart constants, any
 stronger rooted endpoint substitute, the full unconditional physical
 coarse-background derivative norm, and a physical rooted connected bound
@@ -405,10 +413,14 @@ and no mass gap.
   row balancing as a regulator-uniform analytic-tube repair. Note 0036
   supplies the exact joint \(U/J\) Ward quotient, differentiated
   common-kernel range constraints, and vertical scale trade, while isolating
-  a surviving abstract transverse same-cell obstruction. Proof of
+  a surviving abstract transverse same-cell obstruction. Note 0037 supplies
+  the exact elliptic factorization and a source-normalized finite-model
+  Cartan coarse-Stokes obstruction. Proof of the model's full multiscale
+  \(H_1\) embedding,
   \((\mathrm H_{\rm rc})\), common constants, the reduced converted
-  raw/gradient \(U\) rows, a source-faithful bound on their actual constrained
-  range or a range-restricted tube/weak-dual substitute, the active-label
+  raw/gradient \(U\) rows, completed weak-dual control of any surviving
+  coarse-curl range or a range-restricted tube/justified source substitute,
+  the active-label
   metric halo, and any stronger
   plaquette-rooted endpoint substitute remain open.
 - [x] Replace the continuous-tree digitization premise by a periodic
@@ -454,8 +466,14 @@ and no mass gap.
   summation; prove the exact complex joint phase/quotient identity, record
   the differentiated common-kernel range constraints and vertical scale
   trade, and isolate the gauge-invariant same-cell transverse obstruction;
-  see Note 0036. The completed Ward premise, converted physical columns, and
-  a bound on the actual constrained range remain open.
+  see Note 0036.
+- [x] Derive the exact differentiated elliptic factorization, identify
+  \(D_B\mathcal H(0)=H_1\), and construct a source-normalized homogeneous
+  Cartan finite model in which projected Landau cannot remove the
+  coarse-curl \(s^{-2}\) Stokes loss; see Note 0037. Its full multiscale
+  \(H_1\) embedding/Hessian survival, the completed Ward premise, converted
+  physical columns, and their weak-dual action on any surviving transverse
+  range remain open.
 - [x] Prove the exact one-mark connected-graph formula, repeated-label
   convention, and conditional pinned Kotecky--Preiss implication for one
   fixed hard-core gas; see Note 0020.
@@ -517,11 +535,14 @@ and no mass gap.
   uniform. Note 0035 rules out diagonal scale balancing as the missing
   regulator-uniform analytic-tube argument. Note 0036 proves the exact
   joint \(U/J\) quotient and vertical trade, but its transverse countermodel
-  leaves the retained abstract hypotheses insufficient. Proof of
+  leaves the retained abstract hypotheses insufficient. Note 0037 proves
+  that a source-normalized finite model of the range constraints retains a
+  strong \(s^{-2}\) coarse-curl loss. Proof of its full multiscale
+  \(H_1\) embedding and Hessian survival,
   \((\mathrm H_{\rm rc})\), the reduced converted raw/gradient \(U\) rows,
-  source-faithful control of their differentiated range through direct
-  smoothing, a range-restricted tube, a weak-dual theorem, or justified
-  source restriction, the active-label metric halo, common
+  completed weak-dual control on any surviving range, a
+  range-restricted tube, or a justified curl-free/smoothed/weighted source
+  restriction, the active-label metric halo, common
   \(J\)-kernel/chart constants, and any stronger
   plaquette-rooted endpoint substitute remain open.
 - [ ] Classify every relevant/marginal source counterterm and the profile
