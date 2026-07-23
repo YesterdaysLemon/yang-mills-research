@@ -4,6 +4,43 @@ All notable research-structure and claim-status changes are recorded here. Mathe
 
 ## 2026-07-23
 
+- Added YM-RG-034. For a positively oriented plaquette with
+  \(P=d\bar U(p)\), the prefix-transported curl obeys the exact identity
+  \[
+  \mathcal D_{\bar U}^{\xi}a
+  =
+  D_\mu^\xi a_\nu-D_\nu^\xi a_\mu
+  +\xi^{-1}(I-\operatorname{Ad}_P)(a_\nu+T_\nu a_\mu).
+  \]
+  Under \((\mathrm H_{\rm rc})\), the \(O(\xi^2)\) real curvature margin
+  makes Note 0031's full raw/gradient/operator/curl norm uniformly
+  equivalent to its raw-RG plus covariant-gradient-RG pair, with
+  \(C_{\rm eq}\le\max\{1,2c+4c^2\bar a_U\}\).
+- Replaced the open four-feature source-row and extension premises by a
+  reduced, still-conditional raw/gradient conversion and a proved cutoff.
+  On the independent-bond gradient graph,
+  \(\chi_{I,m}=(1-d_\nabla(\,\cdot\,,I)/m)_+\) gives
+  \[
+  \|Q_Ia\|_{X/N_I}
+  \le
+  C_{\rm eq}(\xi)
+  \left(1+\frac{c_{\rm Ad}^{\rm RG}}{m\xi}\right)
+  \max_{\sigma\in\Sigma_{I,m}^{01}}\|T_\sigma^{01}a\|.
+  \]
+  Taking \(m=\lceil\rho/\xi\rceil\) gives a regulator-uniform collar of
+  fixed physical thickness.
+- Proved order sharpness with a flat abelian longitudinal path. Its
+  plaquette curl vanishes, but its endpoint restriction quotient has exact
+  norm \(\max\{1,2/(N\xi)\}\), so a uniformly bounded number of lattice
+  layers cannot give a common extension constant for arbitrary active sets.
+- Kept the physical-\(U\) corollaries conditional on
+  \((\mathrm H_{\rm rc})\), converted \(K,\nabla K\) rows, and common scale
+  envelopes. The candidate raw/gradient envelope can still diverge at the
+  finest output scale, and active-label anchoring still needs a tagged-metric
+  halo for \(\lceil\rho/\xi\rceil\) layers.
+- Added eight focused regressions, a primary-source PDF audit with pinned
+  hashes and visually checked equation pages, and OBJ-038. Project status
+  remains Exploratory E0 and unsolved.
 - Added YM-RG-033. Under Note 0031's completed covariant-\(U\) dual norm
   and the explicitly conditional common converted Eq. (190) feature rows, a
   global feature-scale envelope gives the unweighted physical-\(U\) bound

@@ -446,11 +446,13 @@ Neither estimate has a bond-volume or shifted-branch factor.
   the needed complex estimate independently.
 - The derivative in (26) is a relative-log chart derivative. Note 0033
   supplies an unweighted physical coarse-field \(U\)-summand under common
-  converted Proposition 9 Eq. (190) feature rows and a global scale
-  envelope, then identifies the exact restriction-quotient moment and a
-  local extension hypothesis for positive source decay. Those converted
-  rows, the covariant-curl identity, scale envelopes, and extension theorem
-  remain unproved for the physical family.
+  converted Proposition 9 Eq. (190) rows and a global scale envelope, then
+  identifies the exact restriction-quotient moment for positive source
+  decay. Note 0034 proves the curvature-corrected curl identity, reduces the
+  required source rows to the raw-RG and covariant-gradient-RG pair, and
+  proves the quotient extension on a collar of fixed physical thickness.
+  The reduced converted rows, scale envelopes, active-label metric halo, and
+  \((\mathrm H_{\rm rc})\) for the physical family remain unproved.
 - Equations (26)--(27) do not discharge Note 0019's
   \((\mathrm H_\rho)\), bounded mesh matching, or common kernel/chart
   constants. They also do not construct a nonzero scalar-source polymer
@@ -483,5 +485,6 @@ Neither estimate has a bond-volume or shifted-branch factor.
 - Infer (24) from a pointwise connected sum without the
   coefficientwise \(H^\infty\) rerun.
 - Promote the chart derivative (26) to an unconditional physical
-  coarse-field pullback without Note 0033's common converted feature rows,
-  scale envelopes, and, for positive decay, restriction-quotient extension.
+  coarse-field pullback without Note 0034's reduced converted rows and scale
+  envelopes, or anchor its physical-width feature collar at smaller active
+  labels without a tagged-metric crosswalk.

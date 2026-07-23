@@ -734,26 +734,34 @@ joint \(U/J\) theorem before absolute summation.
 ## Exact boundary
 
 - Equation (19) is a conditional unweighted physical-\(U\) source sum.
-  It needs the full common converted feature rows and the global output-scale
-  envelope, as well as the strengthened separated-cell premise for the
-  \(c_1\) convolution, but no support-extension theorem.
+  As originally stated it uses the full common converted feature rows.
+  Note 0034 proves that, under \((\mathrm H_{\rm rc})\), the raw-RG and
+  covariant-gradient-RG rows suffice with the explicit factor
+  \(C_{\rm eq}\). The reduced rows and global output-scale envelope remain
+  hypotheses, as does the strengthened separated-cell premise for the
+  \(c_1\) convolution; no support-extension theorem is needed at
+  \(\gamma=0\).
 - Equation (30) identifies the sharp coefficient-independent quotient
   synthesis moment for a positive source-distance weight. Finiteness with
   common constants is not proved merely by quotient duality.
 - Equation (37) is conditional on both
   \((\mathrm H_{\rm row}^U)\) and
-  \((\mathrm H_{\rm ext}^U)\). The latter is a genuine local right-inverse
-  or quotient-extension statement for the complete covariant norm.
-- The raw, covariant-gradient, raw-operator, and covariant-curl features are
-  all retained. No \(D^*D K\) or \(\Delta K\) row is silently substituted
-  for the curl conversion.
+  \((\mathrm H_{\rm ext}^U)\) in its original formulation. Note 0034 proves
+  the extension inequality for a collar of fixed physical thickness and
+  replaces the four-feature rows by its reduced raw/gradient hypothesis.
+- Note 0034's exact transported identity proves that the raw-operator and
+  covariant-curl entries are controlled by the raw-RG and
+  covariant-gradient-RG pair under \((\mathrm H_{\rm rc})\). No
+  \(D^*D K\) or \(\Delta K\) row is substituted for the curl conversion.
 - The feature-anchor choice (32) can be a collar enlargement of the exact
   active raw-bond labels. Moving back to those labels costs (38).
 - The hybrid theorem retains the full polymer exponent \(\kappa\). Positive
   source decay still requires \(0\le\gamma<\delta _0/8\).
-- \((\mathrm H_{\rm rc})\), common feature-row constants, common scale
-  envelopes, and the positive-\(\gamma\) extension constant remain open for
-  the actual completed minimizing family.
+- \((\mathrm H_{\rm rc})\), common converted raw/gradient constants, common
+  scale envelopes, and the tagged-metric halo from Note 0034's
+  \(\lceil\rho/\xi\rceil\)-layer feature collar to smaller active labels
+  remain open for the actual completed minimizing family. A fixed number of
+  lattice layers cannot replace that physical-width collar uniformly.
 - No nonzero-source polymer-activity disk, unrestricted raw-law comparison,
   unit-translation theorem, large-field estimate, RG iteration, continuum or
   infinite-volume construction, Osterwalder--Schrader reconstruction,
@@ -767,11 +775,12 @@ joint \(U/J\) theorem before absolute summation.
 - Copy Note 0032's coordinatewise direct-\(J\) dual identity into the
   coupled norm (2); (41)--(44) disprove that step.
 - Use only the raw \(K\) row of Eq. (190) and omit the covariant-gradient or
-  curl feature.
+  the Note 0034 curl reduction.
 - Put an entire gradient or curl stencil in one Eq. (190) cell without a
   bounded local decomposition and label-halo proof.
 - Claim that the printed \(D^*D K\) or \(\Delta K\) rows establish the
-  transported curl identity without checking its normalization.
+  transported curl identity instead of Note 0034's exact
+  curvature-corrected normalization.
 - Bound the positive-\(\gamma\) composition by the global weighted synthesis
   norm and hide a regulator-diameter factor.
 - Define \(S_{p,s,R}^U\) from active raw bonds while using a larger feature

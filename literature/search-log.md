@@ -913,3 +913,68 @@ scale envelopes, local extension theorem, and
 Nothing in this audit establishes nonzero-source polymer activities, a
 large-field step, iteration, a continuum theory, infrared decay, or a mass
 gap.
+
+## 2026-07-23 -- transported curl and physical-width extension audit
+
+Primary files:
+
+- `tmp/pdfs/gauge-fixing-conditions.pdf`,
+  SHA-256
+  `7EC039DA62530FC27385914F6EB5F2FC08539EB895A4C286ABEB7EC4ED5805EB`;
+- `tmp/pdfs/rg-i-full.pdf`,
+  SHA-256
+  `1C2D2E500FD1E6A1A7981FED259CC2354EBCF64E473FD564BFC3F2C4D7DFBE2A`.
+
+The rendered pages visually checked for YM-RG-034 were gauge-fixing printed
+p. 76 Eq. (1.1), p. 82 Eq. (1.36), pp. 84--85 Eqs. (1.47)--(1.50), and
+RG I printed p. 262 Eqs. (1.11)--(1.14).
+
+Gauge-fixing Eq. (1.1) fixes the scaled two-point convention
+\[
+D_{U,\mu}^{\eta}F
+=
+\eta^{-1}\bigl(\operatorname{Ad}_{U_\mu}F(\,\cdot+\eta e_\mu)-F\bigr).
+\]
+Equation (1.36) supplies the raw and covariant-gradient scale shapes
+\((L^j\eta)^{-1}\) and \((L^j\eta)^{-2}\). Equation (1.47) places the
+normalized covariant plaquette curl in the linear relative-plaquette term as
+\(i\eta^2D_U^\eta A\), and Eqs. (1.49)--(1.50) separate it from quadratic
+commutators. RG I Eq. (1.13) controls the same raw/gradient pair for the
+complex relative field \(U'=\exp(i\xi A')\).
+
+The source does not print the new theorem. Repository prefix transport gives
+the exact curvature-corrected identity
+\[
+\mathcal D_{\bar U}^{\xi}a
+=
+D_\mu^\xi a_\nu-D_\nu^\xi a_\mu
++\xi^{-1}(I-\operatorname{Ad}_{d\bar U(p)})
+(a_\nu+T_\nu a_\mu).
+\]
+Under \((\mathrm H_{\rm rc})\), the \(O(\xi^2)\) curvature margin makes the
+full Note 0031 norm uniformly equivalent to the source's raw/gradient pair.
+The variational paper's \(D^*D K\) and \(\Delta K\) rows are not curl
+substitutes.
+
+An exact cutoff product rule on the two-point gradient graph proves the
+restriction-quotient extension with constant
+\[
+C_{\rm eq}(\xi)
+\left(1+\frac{c_{\rm Ad}^{\rm RG}}{m\xi}\right).
+\]
+Taking \(m=\lceil\rho/\xi\rceil\) is uniform. A normalized scalar flat
+abelian longitudinal path has zero curl and exact endpoint quotient norm
+\(\max\{1,2/(N\xi)\}\), which rules out a uniform fixed-layer collar for
+arbitrary active sets. Its embedding along a fixed commuting generator
+changes only fixed matrix-norm constants.
+
+The audit therefore removes an independent curl row and the abstract
+feature-collar extension premise. It does not prove the converted
+\(K,\nabla K\) rows, a regulator-compatible scale envelope, the
+active-label metric halo, or \((\mathrm H_{\rm rc})\) for the physical
+family. In particular, the source measure cancels only the input-density
+factor, not the output-scale powers, so the naive raw/gradient envelope can
+diverge at the finest output scale. The chart normalization has no unused
+\(\xi\) factor under the current bounded conversion hypotheses. All
+nonzero-source, large-field, iteration, continuum, reconstruction, infrared,
+and mass-gap gates remain open.

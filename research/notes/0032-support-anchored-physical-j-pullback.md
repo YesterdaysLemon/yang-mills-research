@@ -578,9 +578,11 @@ endpoint distance, and a coefficient-weighted endpoint moment can be weaker.
   inequalities, not a failure of the actual Balaban geometry.
 - The result supplies only the physical auxiliary-\(J\) chain-rule summand.
   Note 0033 separately supplies a conditional unweighted physical-\(U\)
-  pullback and the exact positive-decay restriction-quotient reduction; its
-  common feature rows, scale envelopes, and extension theorem remain open.
-  Neither note proves \((\mathrm H_{\rm rc})\), constructs nonzero-source
+  pullback and the exact positive-decay restriction-quotient reduction.
+  Note 0034 proves its exact curl reduction and physical-width quotient
+  extension. The converted raw/gradient rows, scale envelopes, active-label
+  metric halo, and \((\mathrm H_{\rm rc})\) remain open. None of these notes
+  constructs nonzero-source
   polymer activities, compares with the unrestricted raw law, controls large
   fields, iterates the RG, constructs a continuum theory, proves the
   Osterwalder--Schrader axioms, establishes infrared decay, or proves a
@@ -606,5 +608,6 @@ endpoint distance, and a coefficient-weighted endpoint moment can be weaker.
 - Call \((\mathrm H_{\rm end})\) logically minimal for every coefficient
   family rather than worst-case sharp for geometry-only control.
 - Claim that (17) proves marked-plaquette-rooted locality, Note 0033's
-  separately conditional physical \(U\)-summand, an unrestricted RG theorem,
-  a continuum theory, or a mass gap.
+  separately conditional physical \(U\)-summand, Note 0034's stronger
+  active-label weight without its metric crosswalk, an unrestricted RG
+  theorem, a continuum theory, or a mass gap.

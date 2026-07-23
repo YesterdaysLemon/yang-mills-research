@@ -55,6 +55,7 @@ The main route is a Wilson lattice regulator followed by gauge-covariant renorma
 - [Note 0031: real-center covariant-U tube and product Banach norm](research/notes/0031-real-center-covariant-u-tube.md)
 - [Note 0032: support-anchored physical-J pullback without H-rho](research/notes/0032-support-anchored-physical-j-pullback.md)
 - [Note 0033: quotient-localized physical-U pullback](research/notes/0033-quotient-localized-physical-u-pullback.md)
+- [Note 0034: transported curl closure and physical-width quotient extension](research/notes/0034-transported-curl-and-physical-width-extension.md)
 - [Bałaban theorem-level source map](literature/audits/2026-07-22-balaban-source-map.md)
 - [Bałaban imported-map audit](literature/audits/2026-07-22-balaban-imported-map.md)
 - [Bałaban final-gas/KP source audit](literature/audits/2026-07-22-balaban-final-gas-kp-map.md)
@@ -67,10 +68,11 @@ The main route is a Wilson lattice regulator followed by gauge-covariant renorma
 - [Bałaban real-center U-tube audit](literature/audits/2026-07-23-balaban-real-center-u-tube.md)
 - [Bałaban support-anchored J-pullback audit](literature/audits/2026-07-23-balaban-support-anchored-j-pullback.md)
 - [Bałaban quotient-localized U-pullback audit](literature/audits/2026-07-23-balaban-quotient-localized-u-pullback.md)
+- [Bałaban transported-curl and quotient-extension audit](literature/audits/2026-07-23-balaban-transported-curl-extension.md)
 
 Programs 002 and 003 are open theorem specifications, not results. The notes prove auxiliary finite-regulator and fixed-chart statements for a selected small-field branch; they do not identify that branch with the unrestricted raw transform. Notes 0021, 0025, and 0026 carry one interior plaquette mark through the exact fixed-partition RG-II algebra, the source-faithful conditioned formula, and the positive \(D/P/Z_0\) plus scale resummations. Under the explicit doubled-\(\varepsilon _2\) refinement and Note 0024's separate ordinary KP ceiling, this gives an absolutely convergent connected first derivative at \(t=0\). Under the added periodic compatibility \(LM\mid N\) and a nonempty common external branch domain, Note 0027 repeats the complete construction on every nested shifted branch, proves that all branch numerator/denominator pairs reconstruct the same dual-number integral up to a nonzero scalar, and averages only the completed connected coefficients. Note 0028 removes Note 0019's artificial discrete-tree-lift hypothesis and its \(\tau\) loss by a periodic covering-space endpoint argument. Note 0029 then carries external-\((U,J)\) restriction locality through the marked dual-number map and literal-union connected sum. It retains RG I's exact bond-intersection support convention and uses the admitted integer-wall closed cubulations to prove zero endpoint halos for the completed external-\(J\) coefficient. Under the completed representative compatibility hypothesis \((\mathrm H_J^{\rm conn})\), Note 0030 applies the affine \(J\) margin at the output scale and reruns the marked connected estimate in coefficientwise local \(H^\infty\) norms. Note 0031 gives a concrete full complex \(U/J\) product tube in a covariant-curl relative-log norm under the stronger common real-center hypothesis \((\mathrm H_{\rm rc})\). Its ordered-matrix estimate proves an explicit positive \(U\) radius and the product Banach rerun gives full \(U\)-chart and \(J\) dual derivative norms without bond-volume or shifted-branch factors. Note 0032 composes that completed \(J\) derivative with the audited Eq. (190) kernel in a support-anchored hybrid norm. It needs no \((\mathrm H_\rho)\), mesh comparison, endpoint allowance, or loss from the polymer exponent \(\kappa\); the source-kernel weight still requires \(0\le\gamma<\delta _0/8\). The stronger marked-plaquette-rooted norm instead follows from the less structured aggregate hypothesis \((\mathrm H_{\rm end})\).
 
-Note 0033 treats the physical-\(U\) summand. Under common converted Eq. (190) rows for every feature in Note 0031's covariant norm and a common global scale envelope, it proves an unweighted source sum without a coordinate, bond-volume, mesh, or branch factor. For positive source decay it replaces the false direct-\(J\) coordinate-dual argument by exact restriction-quotient duality and identifies the sharp quotient-synthesis kernel moment. A feature-support-anchored bound follows only under the new local extension hypothesis \((\mathrm H_{\rm ext}^U)\); active-bond anchoring additionally pays an explicit collar halo. The common converted feature rows, covariant-curl identity, scale envelopes, extension theorem, and \((\mathrm H_{\rm rc})\) for the actual minimizing family remain open.
+Note 0033 treats the physical-\(U\) summand. Under common converted Eq. (190) feature rows and a common global scale envelope, it proves an unweighted source sum without a coordinate, bond-volume, mesh, or branch factor. For positive source decay it replaces the false direct-\(J\) coordinate-dual argument by exact restriction-quotient duality and identifies the sharp quotient-synthesis kernel moment. Note 0034 then proves the exact curvature-corrected transported-curl identity. Under \((\mathrm H_{\rm rc})\), the full raw/gradient/operator/curl norm is uniformly equivalent to its raw-RG plus covariant-gradient-RG pair, so no independent operator or curl source row is needed. A scalar cutoff proves the quotient extension on a collar of fixed physical thickness, while a flat abelian longitudinal path proves that a fixed number of lattice layers cannot be regulator uniform. The remaining physical-\(U\) gates are the converted raw and gradient Eq. (190) rows, regulator-compatible scale envelopes, a tagged-metric halo when anchoring at the smaller active labels, and \((\mathrm H_{\rm rc})\) for the actual minimizing family.
 
 The selected-coordinate scalar source disk was already proved in Notes 0007 and 0010. Source-dependent polymer activities at nonzero source, unit-translation covariance, the remaining physical-family uniformity and rooted-locality gates, large fields, RG iteration, continuum construction, axioms, infrared decay, and the mass gap remain open. No Yang--Mills solution is claimed here.
 
@@ -180,27 +182,47 @@ complete shifted branch. The product \(H^\infty\) rerun preserves
 proved; uniform existence of the common real centers is still a hypothesis.
 
 Note 0033 supplies the functional-analytic part of the physical-\(U\)
-pairing. Under its still-open common converted feature rows and global scale
-envelope,
+pairing, and Note 0034 closes its independent curl-row and quotient-extension
+premises. Let
+\[
+Y(a)=\max\{\|a\|_{\infty,\mathrm{RG}},
+\|\nabla_{\bar U}^{\xi}a\|_{\infty,\mathrm{RG}}\}.
+\]
+Under \((\mathrm H_{\rm rc})\), the exact identity
+\[
+\mathcal D_{\bar U}^{\xi}a
+=D_\mu^\xi a_\nu-D_\nu^\xi a_\mu
++\xi^{-1}(I-\operatorname{Ad}_{d\bar U(p)})
+(a_\nu+T_\nu a_\mu)
+\]
+gives \(Y\le X\le C_{\rm eq}Y\). Under the still-open converted raw/gradient
+rows and global scale envelope,
 \[
 \sum_{s,R}e^{\kappa d_{k+1,s}(R)}
 \sum_\alpha\mu_\alpha
 \left|\mathcal L_{p,s,R}^{U,\rm conn}(\alpha)\right|
 \le
 \frac{
-C_{\chi,U}c_1(1/8)\overline E_U^{\rm glob}B_{\rm conn}
+C_{\rm eq}C_{\chi,U}c_1(1/8)
+\overline E_{01}^{\rm glob}B_{\rm conn}
 }{r_U}.
 \]
 For \(0<\gamma<\delta _0/8\), completed external-\(U\) locality instead
 leads to the restriction quotient \(X_{\bar U,\xi}/N_I\). The weighted
 quotient-synthesis norm is the sharp coefficient-independent missing
-constant. A feature-support-anchored bound follows under
-\((\mathrm H_{\rm ext}^U)\) with constant
-\(C_{\rm ext}C_{\chi,U}c_1(\alpha_\gamma)
-\overline E_U^{\rm conn}B_{\rm conn}/r_U\).
-Neither the converted covariant-curl row, common scale envelopes, nor this
-positive-decay extension theorem is currently proved for the physical
-family.
+constant. For \(m=\lceil\rho/\xi\rceil\), Note 0034 proves
+\[
+C_{\rm ext}(\rho)
+=C_{\rm eq}\left(1+\frac{c_{\rm Ad}^{\rm RG}}{\rho}\right)
+\]
+on the complete physical-width raw/gradient feature collar, yielding the
+feature-collar-anchored constant
+\(C_{\rm ext}(\rho)C_{\chi,U}c_1(\alpha_\gamma)
+\overline E_{01}^{\rm conn,\rho}B_{\rm conn}/r_U\).
+The raw/gradient conversion and scale envelopes remain open. The candidate
+envelope carries \((L^j\eta)^{-1}\) and \((L^j\eta)^{-2}\) and can diverge
+at the finest retained scale; active-label anchoring also needs a tagged
+metric comparison for \(\lceil\rho/\xi\rceil\) layers.
 
 Note 0032 does complete the auxiliary-\(J\) kernel composition in a hybrid
 norm. If \(S_{p,s,R}\) is the tagged multiscale-label set of the completed

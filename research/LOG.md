@@ -1272,3 +1272,98 @@ whether a multiscale Lipschitz/Whitney extension on the actual completed
 cell collars proves \((\mathrm H_{\rm ext}^U)\), or whether a joint
 Ward-compatible \(U/J\) synthesis before absolute summation gives a strictly
 weaker route.
+
+## 2026-07-23 -- transported curl and physical-width quotient extension
+
+### Established
+
+- Fixed a positively oriented plaquette and computed all four
+  prefix-transported relative-link tangents. With \(P=d\bar U(p)\), the
+  result is the exact identity
+  \[
+  \mathcal D_{\bar U}^{\xi}a
+  =
+  D_\mu^\xi a_\nu-D_\nu^\xi a_\mu
+  +\xi^{-1}(I-\operatorname{Ad}_P)(a_\nu+T_\nu a_\mu).
+  \]
+  A nonflat background therefore has a curvature correction; the flat
+  antisymmetric difference alone is false.
+- Used the real/unitary \((\mathrm H_{\rm rc})\) center and
+  \(|P-1|_{\rm RG}\le\bar a_U\xi^2\) to prove
+  \[
+  Y(a)\le X(a)\le C_{\rm eq}(\xi)Y(a)\le C_{\rm eq}Y(a),
+  \qquad
+  C_{\rm eq}=\max\{1,2c+4c^2\bar a_U\},
+  \]
+  where \(Y\) contains only the raw-RG and covariant-gradient-RG features.
+  Thus the raw-operator and curl entries are not independent Eq. (190)
+  source rows under the standing curvature hypothesis.
+- On the independent-bond gradient graph, proved both exact scalar product
+  rules for
+  \(\chi_{I,m}=(1-d_\nabla(\,\cdot\,,I)/m)_+\). The choice of the
+  zero-cutoff endpoint eliminates any need for a boundary-crossing original
+  gradient row. The minimal collar contains raw rows in \(V_m(I)\) and
+  gradient rows whose two endpoints lie in \(V_m(I)\).
+- Proved
+  \[
+  \|Q_Ia\|_{X/N_I}
+  \le
+  C_{\rm eq}(\xi)
+  \left(1+\frac{c_{\rm Ad}^{\rm RG}}{m\xi}\right)
+  \max_{\sigma\in\Sigma_{I,m}^{01}}\|T_\sigma^{01}a\|.
+  \]
+  With \(m=\lceil\rho/\xi\rceil\), this closes Note 0033's quotient-extension
+  premise at a fixed physical collar width, uniformly in support shape and
+  topology.
+- Embedded a sharp obstruction in the normalized scalar flat \(U(1)\)
+  longitudinal sector in dimension at least two. For endpoint values
+  \(1,-1\) on a path of \(N\) steps, the exact restriction quotient norm is
+  \(\max\{1,2/(N\xi)\}\), while every plaquette curl vanishes. Choosing
+  \(N=2m+1\) hides the representative's jump outside the \(m\)-layer collar
+  and proves that a uniformly bounded lattice-layer width cannot have a
+  regulator-uniform constant. A fixed commuting-generator embedding changes
+  only fixed RG/operator norm constants.
+- Replaced Note 0033's four-feature physical-\(U\) source hypothesis by the
+  reduced, still-unproved \(K,\nabla K\) conversion. The unweighted
+  corollary acquires \(C_{\rm eq}\); the positive-distance corollary is
+  anchored at the complete physical-width raw/gradient feature collar and
+  retains the full polymer exponent.
+- Inspected and rendered the primary PDF pages containing the scaled
+  two-point covariant derivative, the raw/gradient small-field bounds, the
+  relative plaquette expansion, and RG I's complex relative-field
+  condition. Recorded both PDF hashes and the exact source/repository
+  boundary in a new audit.
+- Added eight focused regressions. They cover the exact noncommuting identity,
+  necessity of the curvature correction, the operator bound, all cutoff row
+  types, physical-width uniformity, the exact path quotient, fixed-layer
+  divergence, and the claim/status boundary. No independent human review was
+  performed.
+
+### Not established
+
+- \((\mathrm H_{\rm rc})\) remains unproved for the actual completed
+  minimizing family.
+- The differential-of-exponential, gauge-restoration, source-component,
+  norm, and tagged-label conversion of the printed \(K,\nabla K\) rows
+  remains a hypothesis.
+- The raw/gradient scale shapes
+  \((L^j\eta)^{-1}\) and \((L^j\eta)^{-2}\) can make the naive unweighted
+  envelope diverge as the finest retained output scale tends to zero. A
+  scaled source/output norm, a cancellation, or a support-scale restriction
+  is still required.
+- The physical collar has \(\lceil\rho/\xi\rceil\) lattice layers. A
+  feature-collar weight is proved, but an active-bond or marked-root weight
+  still needs a tagged-metric halo or endpoint/coefficient-weighted
+  substitute.
+- No nonzero-source polymer disk, intrinsic/raw comparison, unit
+  translations, large fields, RG iteration, continuum or infinite-volume
+  construction, axioms, infrared decay, or mass gap has been proved.
+
+### Next decision
+
+Attack the regulator-divergent raw/gradient Eq. (190) envelope. First
+determine whether Balaban's source-density normalization and the natural
+scaled relative-field norm absorb the
+\((L^j\eta)^{-1},(L^j\eta)^{-2}\) factors without changing the completed
+Banach tube. If not, look for a source-faithful cancellation or an exact
+support-scale restriction, and retain a counterexample if none exists.

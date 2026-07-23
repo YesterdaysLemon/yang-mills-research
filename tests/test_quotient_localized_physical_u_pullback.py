@@ -273,9 +273,10 @@ class QuotientLocalizedPhysicalUPullbackTests(unittest.TestCase):
         self.assertIn("not an independent human review", audit)
         self.assertEqual(claim["evidence_level"], "E2")
         self.assertIn(
-            "The common four-feature Eq. (190) conversion is not source proved.",
+            "The remaining common conversion of the printed K and gradient K rows",
             claim["known_limitations"][1],
         )
+        self.assertIn("not source proved", claim["known_limitations"][1])
         self.assertEqual(objection["status"], "open")
         self.assertEqual(status["official_problem_status"], "unsolved")
         self.assertEqual(status["repository_status"], "exploratory")

@@ -154,11 +154,14 @@ coefficient-weighted substitute, and common kernel/chart constants remain
 conditional.
 [Note 0033](../notes/0033-quotient-localized-physical-u-pullback.md)
 proves an unweighted physical-\(U\) source sum under common converted
-four-feature Eq. (190) rows and a global scale envelope. For positive source
-decay it identifies the sharp restriction-quotient synthesis moment and
-derives a feature-support-anchored bound under the new local extension
-hypothesis \((\mathrm H_{\rm ext}^U)\). The converted covariant-curl row,
-scale envelopes, and extension theorem remain conditional.
+Eq. (190) rows and a global scale envelope. For positive source decay it
+identifies the sharp restriction-quotient synthesis moment and derives a
+feature-support-anchored bound under the local extension hypothesis
+\((\mathrm H_{\rm ext}^U)\). [Note
+0034](../notes/0034-transported-curl-and-physical-width-extension.md)
+proves the exact curl reduction and the quotient extension on a collar of
+fixed physical thickness. The reduced converted raw/gradient rows, scale
+envelopes, and active-label metric halo remain conditional.
 [Note 0020](../notes/0020-one-mark-ursell-identity.md) proves the exact
 distinguished-vertex Ursell formula and a conditional pinned bound on one
 fixed hard-core gas. [Note
@@ -192,8 +195,8 @@ gases or paying an orbit factor. The selected-coordinate scalar source disk
 was already proved in Notes 0007 and 0010; a source-dependent
 polymer-activity disk remains unproved.
 Unit-translation covariance, proof of \((\mathrm H_{\rm rc})\), common
-converted \(U\)-feature rows and scale envelopes, the positive-decay
-restriction-quotient extension, common \(J\)-kernel/chart constants, any
+converted raw/gradient \(U\) rows and regulator-compatible scale envelopes,
+the active-label metric halo, common \(J\)-kernel/chart constants, any
 stronger rooted endpoint substitute, the full unconditional physical
 coarse-background derivative norm, and a physical rooted connected bound
 remain open.
@@ -384,11 +387,13 @@ and no mass gap.
   \((\mathrm H_J^{\rm conn})\). Note 0031 supplies the covariant-\(U\)
   product tube and both completed dual norms under
   \((\mathrm H_{\rm rc})\). Note 0032 supplies the support-anchored physical
-  \(J\) pullback without \((\mathrm H_\rho)\) or mesh matching. Proof of
-  \((\mathrm H_{\rm rc})\), common constants, the common converted
-  \(U\)-feature rows and scale envelopes, the positive-decay extension
-  theorem, and any stronger plaquette-rooted endpoint substitute remain
-  open.
+  \(J\) pullback without \((\mathrm H_\rho)\) or mesh matching. Notes 0033
+  and 0034 supply the conditional physical-\(U\) quotient reduction, exact
+  curl reduction, and physical-width extension. Proof of
+  \((\mathrm H_{\rm rc})\), common constants, the reduced converted
+  raw/gradient \(U\) rows, regulator-compatible scale envelopes, the
+  active-label metric halo, and any stronger plaquette-rooted endpoint
+  substitute remain open.
 - [x] Replace the continuous-tree digitization premise by a periodic
   covering-space endpoint estimate, including the safe \(\sqrt d\) slope
   and zero first-stage direct-\(J\) support halos; see Note 0028.
@@ -411,14 +416,18 @@ and no mass gap.
   \(\kappa\); retain \(\gamma<\delta _0/8\) and isolate the
   sufficient aggregate endpoint condition for the stronger
   plaquette-rooted norm; see Note 0032.
-- [x] Under the common converted four-feature Eq. (190) rows, prove the
+- [x] Under common converted Eq. (190) feature rows, prove the
   unweighted physical-\(U\) source sum without a coordinate or volume factor;
   replace the false direct-\(J\) coordinate-duality analogy by exact
   restriction-quotient duality; identify the sharp positive-decay synthesis
   moment; and derive its feature-support-anchored sufficient bound under
-  \((\mathrm H_{\rm ext}^U)\); see Note 0033. The common feature rows,
-  covariant-curl identity, scale envelopes, and extension theorem remain
-  open.
+  \((\mathrm H_{\rm ext}^U)\); see Note 0033.
+- [x] Prove the exact curvature-corrected curl identity, reduce the required
+  physical-\(U\) rows to the raw-RG and covariant-gradient-RG pair under
+  \((\mathrm H_{\rm rc})\), prove the extension on a collar of fixed physical
+  thickness, and prove that a fixed lattice-layer collar cannot be uniform;
+  see Note 0034. The reduced converted rows, scale envelopes, and
+  active-label metric halo remain open.
 - [x] Prove the exact one-mark connected-graph formula, repeated-label
   convention, and conditional pinned Kotecky--Preiss implication for one
   fixed hard-core gas; see Note 0020.
@@ -474,11 +483,13 @@ and no mass gap.
   the support-anchored physical-\(J\) pullback without
   \((\mathrm H_\rho)\) or mesh matching. Note 0033 gives the conditional
   unweighted physical-\(U\) pullback and the exact positive-decay
-  restriction-quotient reduction. Proof of
-  \((\mathrm H_{\rm rc})\), common converted \(U\)-feature rows and scale
-  envelopes, the local extension theorem, common \(J\)-kernel/chart
-  constants, and any stronger plaquette-rooted endpoint substitute remain
-  open.
+  restriction-quotient reduction. Note 0034 proves the exact transported
+  curl reduction and a quotient extension on a collar of fixed physical
+  thickness, and shows that a fixed number of lattice layers cannot be
+  uniform. Proof of \((\mathrm H_{\rm rc})\), the reduced converted
+  raw/gradient \(U\) rows and scale envelopes, the active-label metric halo,
+  common \(J\)-kernel/chart constants, and any stronger
+  plaquette-rooted endpoint substitute remain open.
 - [ ] Classify every relevant/marginal source counterterm and the profile
   mixing map.
 - [ ] Differentiate the small-field stationary/background construction
