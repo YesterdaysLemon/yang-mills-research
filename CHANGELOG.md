@@ -85,3 +85,15 @@ All notable research-structure and claim-status changes are recorded here. Mathe
   Identification of the actual RG-II class, metric, decorations, activity
   constants, marked norm, convergence, and every later physical gate remains
   open.
+- Added YM-RG-024: directly audited immutable Project Euclid pages and
+  identified Balaban's final connected ordinary RG-II gas with YM-RG-023's
+  quotient closed-cube support class, contained-tree metric, cube-or-wall
+  incompatibility, literal-union output, and aggregated one-species
+  convention. Lemma 3 supplies the pointwise ordinary activity bound, and a
+  displayed-hierarchy-compatible refinement
+  \(\kappa>1280\log8/(L-2)\),
+  \(\alpha=\delta(L/2)\kappa/64\), followed by an explicit positive
+  \(\varepsilon _1\) cutoff, satisfies the repository's D=4 pinned-KP
+  inequality. This does not cover intermediate localization objects, any
+  marked norm, differentiated convergence, physical pullbacks, continuum
+  construction, or the mass gap.

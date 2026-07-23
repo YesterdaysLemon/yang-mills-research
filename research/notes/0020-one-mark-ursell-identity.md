@@ -30,11 +30,11 @@ bound. It does not prove that the plaquette mark of Notes 0011--0014 survives
 RG II's cutoff expansion, Gaussian conditioning, covariance weakening,
 component factorization, and final polymerization with the required norm.
 Note 0021 subsequently proves the exact finite fixed-partition passage and
-component identity while leaving that norm conditional. Note 0023
-subsequently gives one explicit standard-closed-cube realization of the hull,
-animal, and pinned-KP premises below. It does not identify that declared
-support model with the actual RG-II output class or verify the required
-activity constants.
+component identity while leaving that norm conditional. Note 0023 gives one
+explicit standard-closed-cube realization of the hull, animal, and pinned-KP
+premises below. Subsequent Note 0024 identifies the final connected ordinary
+RG-II gas with that model and gives a displayed-hierarchy-compatible ordinary
+smallness window. Neither note supplies the required marked norm.
 
 The source is unmarked. Its exact relevant conventions are as follows.
 
@@ -363,10 +363,12 @@ Subsequent Note 0023 verifies one concrete sufficient package for
 (13), (16), and (19)--(20) in a declared standard cubulation: literal-union
 hulls, the piecewise-linear contained-tree metric, one ordinary species per
 unlabelled support, a pointwise ordinary activity bound, and explicit strict
-animal-entropy and smallness inequalities. Applying that package here still
-requires an exact identification of the RG-II output species, seams,
-incompatibility, and metric with that model, control of any decoration
-multiplicity, and verification of its numerical hypotheses.
+animal-entropy and smallness inequalities. Note 0024 then identifies the
+final connected ordinary RG-II species, quotient seams, incompatibility, and
+metric with that model and gives an explicit sufficient \(\varepsilon _1\)
+window within the displayed hierarchy. Applying the rooted conclusion here
+still requires the independent post-polymerization marked norm and control
+of every marked decoration and shift.
 
 ## Shift labels must remain outside the gas
 
@@ -496,13 +498,12 @@ in Eq. (2.41). The source then chooses
 and a smallness condition on \(C_3\varepsilon_1\) to recover the inductive
 \(e^{-\kappa d_{k+1}}\) form.
 
-The accessible primary text layer corrupts some digits and fractions. The
-sequence \(8\delta\), \(10\delta\), and \(L/2\) is fixed by the surrounding
-primary formulas and a clean independent transcription, but an immutable
-page-image audit remains open. More importantly, (27)--(28) bound unmarked
-\(H\) and \(E^{(k+1)}\). They do not bound \(\dot H\), preserve Note 0013's
-mark norm, prove (16), or supply (19). Assigning the exponent in (28) to the
-marked output without those steps would be an unsupported source
+The immutable Project Euclid page images were subsequently inspected in Note
+0024. They directly confirm \(8\delta\), \(9\delta\), \(10\delta\), and the
+\(L/2\) factors in Eqs. (2.38)--(2.41). More importantly, (27)--(28) bound
+unmarked \(H\) and \(E^{(k+1)}\). They do not bound \(\dot H\), preserve Note
+0013's mark norm, prove (16), or supply (19). Assigning the exponent in (28)
+to the marked output without those steps would be an unsupported source
 differentiation.
 
 ## Coefficient falsification checks
@@ -589,12 +590,12 @@ tests](../../tests/test_rooted_ursell_coefficients.py).
   conditioning, weakening, and component factorization, and identifies the
   final mark as a decorated linear image of the earlier rooted family. Its
   direct marked bound and uniform shifted-branch version remain unproved.
-- Nonvanishing, a common source disk, the marked Lemma-3 analogue, the
-  identification of the actual RG-II support class and metric with Note
-  0023's cubical model, decorated-species control, verification of its
-  strict numerical KP/entropy hypotheses, and a uniform fixed-partition
-  expansion for every admitted shift remain open. Consequently absolute KP
-  convergence for the actual activities remains open.
+- Note 0024 identifies the final connected ordinary RG-II support class and
+  metric with Note 0023's model and supplies one explicit ordinary
+  KP-smallness window. Nonvanishing on a common **external-source** disk, the
+  marked Lemma-3 analogue, decorated-mark control, and a uniform
+  differentiated fixed-partition expansion for every admitted shift remain
+  open. Consequently the physical connected marked expansion remains open.
 - The physical \(U\)-chain pullback, realization of Note 0019's geometric
   premises, marginal projection, large fields, RG iteration, continuum
   construction, Osterwalder--Schrader axioms, infrared decay, and the

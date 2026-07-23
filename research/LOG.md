@@ -579,3 +579,62 @@ model, verify the actual decoration count and the numerical ordinary
 smallness inequality. In parallel, return to the decisive analytic gate:
 prove or falsify the joint conditioned-contour Gaussian envelope and the
 positive marked \(A\)-to-\(C\) kernel decay.
+
+## 2026-07-22 -- final ordinary gas instantiation and explicit KP window
+
+### Established
+
+- Proved YM-RG-024 from immutable Project Euclid copies of RG I and RG II.
+  The final connected ordinary gas after RG II Eq. (2.10) instantiates Note
+  0023's quotient cubical model: \(\mathcal D_{k+1}\) is the full class of
+  finite face-connected closed-cube supports, \(d_{k+1}\) is the normalized
+  shortest contained-tree metric, incompatibility is exactly shared-cube or
+  complete-wall contact, and Eq. (2.13) groups nonzero connected terms by
+  their literal support union.
+- Verified that the internal \(D,P,Z_0\) histories are summed into one
+  ordinary analytic activity \(H(Z)\) per connected final support. The
+  identification starts only after Eq. (2.10); it does not collapse the
+  mixed-scale intermediate \(Y_0,Z_0,\widetilde Z_0,Z'_0,X_0\) objects into
+  final polymers.
+- Direct page-image inspection confirmed the \(8\delta\), \(9\delta\),
+  \(10\delta\), and \(L/2\) factors in RG II Eqs. (2.38)--(2.41). The source
+  prints the pointwise ordinary bound
+  \[
+  |H(Z)|\le C_3\varepsilon _1
+  e^{-(1-8\delta)(L/2)\kappa d_{k+1}(Z)}.
+  \]
+- Refined the source's displayed qualitative hierarchy explicitly. With
+  \(\Delta=(L-2)\kappa/20\), choose
+  \(\kappa>1280\log8/(L-2)\),
+  \(\alpha=\Delta/64\), and then
+  \[
+  0<\varepsilon _1\le
+  \frac{\Delta}
+  {576C_3e^{\Delta/4+\sqrt7\kappa}
+   C_{\rm an}^{\rm geom}(3\Delta/2)}.
+  \]
+  This makes Note 0023's ordinary D=4 pinned-KP inequality hold. The
+  criterion is a repository sufficient refinement, not a formula printed by
+  Balaban. Full source compatibility remains conditional on downward
+  monotonicity of restrictions imported but not enumerated in RG I/II.
+- Added exact-arithmetic and logarithmic regression tests for the source
+  exponent ledger, animal threshold, and activity ceiling. Three independent
+  AI audits were requested; no independent human review was performed.
+
+### Not established
+
+- No marked analogue of Lemma 3, joint transformed-mark Gaussian envelope,
+  positive marked-kernel decay, marked gluing estimate, or decorated marked
+  norm.
+- No common external-source disk, differentiated absolute convergence, or
+  branchwise shifted synchronization.
+- No physical scaled \(U/J\) pullback, marginal projection, large-field
+  estimate, RG iteration, continuum construction, axioms, infrared decay, or
+  Yang--Mills mass gap.
+
+### Next decision
+
+Return to the first genuinely analytic marked gate. Transcribe the complete
+RG II Eq. (2.14) conditioned integrand from the clean page image and either
+prove a common transformed complex domain plus a relative Gaussian-moment
+bound for the actual plaquette mark, or isolate the first precise obstruction.

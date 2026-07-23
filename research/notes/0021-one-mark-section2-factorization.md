@@ -438,10 +438,11 @@ S_D=\sum_{j=0}^{2^D-1}(2D)^{2j}.
 In \(D=4\), using the one-\(\delta\) choice in (27) therefore requires the
 additional strict numerical condition
 \(\delta(L/2)\kappa>64\log8\). Note 0023 also supplies a literal-union hull
-and a conditional pinned Kotecky--Preiss criterion in that same model. These
-facts do not identify the actual RG-II output supports, metric, or decorated
-species with the declared model, and they do not verify the required
-ordinary-activity smallness. The budget still leaves one further
+and a conditional pinned Kotecky--Preiss criterion in that same model.
+Subsequent Note 0024 identifies the final connected ordinary RG-II gas with
+the model and gives a sufficient displayed-hierarchy ordinary-activity
+window. It does not identify or bound the decorated marked species. The
+budget still leaves one further
 \(\delta\)-unit before the source's unmarked connected-output exponent
 \((1-10\delta)(L/2)\kappa\).
 
@@ -490,17 +491,18 @@ the ordered-sum factorial/repeated-label convention already tested in Note
   decay, and the other premises remain unproved for the RG-II construction.
 - Subsequent Note 0023 proves the output-animal estimate (28), a
   literal-union hull crosswalk, and a sufficient pinned-KP implication for
-  its declared standard-cubical one-species model. Using those results here
-  still requires identification of the actual RG-II output class, periodic
-  seams, metric, and decoration multiplicities, together with the strict
-  entropy and activity-smallness inequalities.
+  its declared standard-cubical one-species model. Note 0024 identifies the
+  final ordinary source class, quotient seams, metric, and aggregated
+  ordinary species and supplies an explicit displayed-hierarchy smallness
+  window. Using the rooted marked conclusion here still requires the actual
+  decorated marked norm and any associated multiplicity control.
 - No unmarked inequality has been differentiated. A common complex-source
   Lemma-3 theorem plus Cauchy would be an alternative route, but no such
   theorem is imported here.
 - Nonvanishing on a regulator-uniform source disk, absolute convergence for
-  the actual decorated activities, the Note-0023 model identification and
-  numerical KP/entropy hypotheses, branchwise shift synchronization, and the
-  final connected marked norm remain open.
+  the actual decorated activities, the marked counterpart of Note 0024's
+  final-ordinary mapping and KP window, branchwise shift synchronization, and
+  the final connected marked norm remain open.
 - The physical nonlinear \(U\) pullback, discharge of Note 0019's geometric
   premises, marginal projection, large fields, RG iteration, continuum
   construction, Osterwalder--Schrader axioms, infrared decay, and the

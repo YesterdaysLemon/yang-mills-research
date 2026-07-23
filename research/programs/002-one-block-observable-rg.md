@@ -141,12 +141,13 @@ kernel. [Note
 0023](../notes/0023-fixed-cubical-hull-animals-kp.md) proves a literal-union
 hull, a volume-uniform animal bound, and an explicit sufficient pinned
 Kotecky--Preiss/hull-weight package for a separately declared standard
-closed-cube model with one species per support. It does not identify that
-model with the actual RG-II output class or verify decorated multiplicities,
-the ordinary numerical smallness, or the marked norm. The actual transformed
-envelope and kernel decay, source-class identification, marked norm,
-numerical KP hypothesis, absolute convergence, and shifted-branch
-synchronization remain unproved.
+closed-cube model with one species per support. [Note
+0024](../notes/0024-balaban-final-gas-instantiation.md) identifies the final
+connected ordinary RG-II gas with that model and gives a
+displayed-hierarchy-compatible ordinary KP-smallness window. The actual
+transformed marked envelope and kernel decay, decorated marked norm,
+differentiated absolute convergence, and shifted-branch synchronization
+remain unproved.
 Unit-translation covariance, the scaled nonlinear \(U\) collar and pullback,
 uniform realization of Note 0019's premises,
 the actual single-partition marked estimate, the full physical
@@ -340,9 +341,8 @@ and no mass gap.
   algebra on one fixed compatible partition, define its decorated
   post-polymerization image, and prove the unique marked-component and exact
   hard-core numerator identities; see Note 0021. Proving the direct marked
-  domination, actual output-class identification, rooted norm, numerical
-  cluster smallness, convergence, and synchronized shifted construction
-  remains open.
+  domination, rooted norm, differentiated convergence, and synchronized
+  shifted construction remains open.
 - [x] Apply one multivariable contour to the complete marked Eq. (2.8)
   integrand under explicit common \(L^1\)-holomorphy and joint-majorant
   hypotheses, retain no added product-rule multiplicity and the ordinary
@@ -353,10 +353,13 @@ and no mass gap.
 - [x] In a separately declared standard closed-cube support model, prove the
   literal-union wall-contact hull inequality, a volume-uniform geometric
   animal bound, and explicit sufficient conditions for the canonical pinned
-  Kotecky--Preiss and hull-weight interfaces; see Note 0023. Identification
-  with the actual RG-II output class and metric, decorated-species control,
-  the marked norm, numerical activity smallness, absolute convergence, and
-  shifted-branch synchronization remain open.
+  Kotecky--Preiss and hull-weight interfaces; see Note 0023.
+- [x] Identify the final connected ordinary RG-II gas with Note 0023's
+  quotient cubical support class, contained-tree metric, incompatibility,
+  literal-union rule, and aggregated one-species convention, and exhibit a
+  displayed-hierarchy-compatible ordinary KP-smallness window; see Note 0024.
+  Intermediate support families and the decorated marked norm are not
+  covered.
 - [x] Prove a common zero-free source disk from bounded observable range,
   conditional on the exact pointwise kernel and positive finite source-free
   weighted partition function; see Note 0007. This does not supply a complex

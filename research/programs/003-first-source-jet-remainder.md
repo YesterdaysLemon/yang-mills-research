@@ -120,12 +120,11 @@ radius is shared. It isolates the missing joint conditioned-contour Gaussian
 envelope and positive kernel. Note 0023 proves a literal-union hull,
 volume-uniform animal entropy, and an explicit sufficient pinned
 Kotecky--Preiss/hull-weight package for a separately declared standard
-closed-cube gas. It does not identify that model with the actual RG-II output
-class or verify its decorated multiplicities, ordinary numerical smallness,
-or marked norm. The transformed envelope, kernel decay, marked gluing,
-actual class identification, numerical KP premise, marked norm, absolute
-convergence, and shifted synchronization remain open. The scaled \(U\)
-pullback, uniform
+closed-cube gas. Note 0024 identifies the final connected ordinary RG-II gas
+with that model and supplies a displayed-hierarchy-compatible ordinary
+KP-smallness window. The transformed envelope, kernel decay, marked gluing,
+decorated marked norm, differentiated absolute convergence, and shifted
+synchronization remain open. The scaled \(U\) pullback, uniform
 realization of Note 0019's premises, and full physical coarse-field
 derivative/quasilocal norm,
 the actual fixed-partition marked estimate, unit-translation covariance, and
@@ -238,11 +237,13 @@ infrared conclusions.
   conditional exponent fork (Note 0022);
 - the literal-union hull, volume-uniform geometric animal bound, and explicit
   sufficient pinned Kotecky--Preiss/hull-weight conditions for the separately
-  declared standard closed-cube gas (Note 0023), but without identification
-  of the actual RG-II output class and metric, decorated-species control, the
-  joint transformed-mark Gaussian envelope, positive-kernel decay, marked
-  activity norm, numerical activity smallness, absolute convergence, or
-  synchronized shifted RG construction needed for the physical application;
+  declared standard closed-cube gas (Note 0023), together with the final
+  ordinary source-class/metric/species identification and explicit
+  sufficient displayed-hierarchy ordinary KP window (Note 0024), but without
+  the joint transformed-mark Gaussian envelope, positive-kernel decay, marked
+  gluing, decorated marked activity norm, differentiated absolute
+  convergence, or synchronized shifted RG construction needed for the
+  physical application;
 - background-propagator decay and change-of-domain estimates;
 - RG I/II source-free local analytic polymer expansions.
 
@@ -290,11 +291,11 @@ None of those inputs supplies the displayed source-inserted polymer theorem.
     hypotheses, Note 0022 removes an artificial product-rule multiplicity and
     reduces direct weakening to one joint conditioned-contour envelope and
     positive kernel. Note 0023 closes the literal-union hull, animal entropy,
-    and sufficient pinned-KP crosswalk only in its declared standard
-    closed-cube model. The actual source-class and metric identification,
-    decorated multiplicities, transformed envelope, kernel decay, marked
-    gluing and norm, numerical activity smallness, shift synchronization, and
-    absolute convergence remain open.
+    and sufficient pinned-KP crosswalk in its declared standard closed-cube
+    model. Note 0024 identifies the final connected ordinary source gas with
+    that model and gives an explicit sufficient ordinary smallness window.
+    The transformed marked envelope, kernel decay, marked gluing and norm,
+    differentiated convergence, and shift synchronization remain open.
 11. [ ] Perform the full symmetry/Ward-identity projection on the marked first
    jet and classify all position/orientation mixing.
 

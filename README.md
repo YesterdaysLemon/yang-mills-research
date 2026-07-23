@@ -45,8 +45,10 @@ The main route is a Wilson lattice regulator followed by gauge-covariant renorma
 - [Note 0021: one marked component through the RG-II Section-2 map](research/notes/0021-one-mark-section2-factorization.md)
 - [Note 0022: whole-integrand Cauchy control for the Section-2 mark](research/notes/0022-whole-integrand-marked-cauchy.md)
 - [Note 0023: fixed-cubical hull, animal entropy, and pinned KP](research/notes/0023-fixed-cubical-hull-animals-kp.md)
+- [Note 0024: Balaban final-gas cubical instantiation and explicit KP window](research/notes/0024-balaban-final-gas-instantiation.md)
 - [Bałaban theorem-level source map](literature/audits/2026-07-22-balaban-source-map.md)
 - [Bałaban imported-map audit](literature/audits/2026-07-22-balaban-imported-map.md)
+- [Bałaban final-gas/KP source audit](literature/audits/2026-07-22-balaban-final-gas-kp-map.md)
 
 Programs 002 and 003 are open theorem specifications, not results. The notes prove elementary conditional spectral, finite-regulator differentiation, and patch-local selected-branch consequences. They separately name both the intrinsic positive Borel branch kernel and the exact normalized RG-I Gaussian/cutoff coordinate law; neither is identified with the unrestricted raw fiber. A first marked insertion now has an exact background split, finite Mayer identity, rooted decomposition, a conditional RG-II \(d_k\)-weighted norm, and a normalized RG-admitted shifted-root cover for every plaquette in independent variables. On one common physical \((U,J)\) background chart, Note 0015 composes that family and records the exact chain rules; Note 0016 identifies \(J\) with RG I's finite-stencil holomorphic field and proves conditional independent-variable derivative norms on explicit complex tubes at fixed regulator. Note 0017 uses RG I's strict smaller physical representative domain to give a direct-\(J\) sup-norm collar, proves the exact source-measure cancellation and dual \(d_{\mathcal B}\) kernel sum, and obtains a conditional no-volume-loss pullback for the auxiliary-\(J\) chain-rule summand on one matched homogeneous layer. It also shows that the reverse fixed-scale/multiscale bound is not uniform across arbitrary layers. Note 0019 proves the forward all-layer extension under explicit seam-aware ownership, source-admissible interface, exact discrete-tree-lift, support-halo, mesh, and common-chart hypotheses; none of those new premises is silently attributed to the source. Note 0018 proves that a full complex raw per-bond \(U\)-log collar must collapse as \(O(\xi^2)\), and as \(O(\xi)\) in the scaled \(U_A=e^{i\xi A}U\) coordinate, even at the flat background; it replaces that impossible premise by explicit conditional hypotheses for a stronger RG-scaled regularity norm. This still does not prove physical coarse-field quasilocality: the concrete scaled \(U\) collar and pullback, uniform realization of Note 0019's premises, and full chart coefficients remain open. Note 0021 now gives one-fixed-partition algebraic compatibility for an interior rooted mark by rerunning the cutoff, conditioning, and weakening pipeline with that mark in the seed. The cover remains covariant only under finite-lattice symmetries preserving the next coarse lattice; full fine-lattice translation covariance, branchwise fixed-partition synchronization, the actual marked norm, the full physical coarse-derivative norm, and the convergent connected marked expansion remain open. The later work is to close those estimates, iterate to the dynamically generated scale, construct the continuum theory, and obtain regulator-uniform estimates while preserving nontrivial Yang--Mills ultraviolet behavior. No such Yang--Mills estimate is claimed here.
 
@@ -57,8 +59,9 @@ through the finite RG-II Section-2 algebra, defines its decorated
 post-polymerization image, proves the unique marked-component factorization,
 and obtains the exact hard-core numerator. Its decay statement is explicitly
 conditional: the direct marked conditioning/weakening domination, actual
-RG-II support-class identification, marked gluing, numerical smallness,
-convergence, and branchwise shift synchronization remain open.
+decorated marked support/species identification, marked gluing and numerical
+smallness, differentiated convergence, and branchwise shift synchronization
+remain open.
 
 Under its stated common \(L^1\)-holomorphy and joint-majorant hypotheses,
 Note 0022 proves that Eq. (2.8)'s whole-integrand weakening contour carries
@@ -74,11 +77,14 @@ Note 0023 closes the previously abstract hull/animal/KP implication inside a
 declared standard closed-cube model. The literal union pays an unavoidable
 contact charge \(\sqrt7\) per ordinary occurrence in four dimensions, while
 an explicit rooted-animal estimate is uniform for
-\(\eta>64\log8\). Together with a pointwise ordinary activity bound and an
-independent marked norm, its displayed smallness system implies Note 0020's
-pinned connected bound. This is not yet the Yang--Mills estimate: the actual
-RG-II output class, metric, decorations, marked norm, and numerical activity
-constants have not been proved to satisfy that model.
+\(\eta>64\log8\). Note 0024 then checks the immutable primary pages and
+identifies Balaban's final connected ordinary RG-II gas with that cubical
+model. It also exhibits a nonempty displayed-hierarchy-compatible
+\((\kappa,\varepsilon _1)\) sub-hierarchy satisfying the repository's
+explicit ordinary pinned-KP inequality. This is not yet the Yang--Mills
+estimate: the transformed marked envelope, marked gluing and norm, common
+external-source disk, shifted synchronization, physical pullbacks, and every
+continuum and infrared gate remain open.
 
 ## Evidence discipline
 

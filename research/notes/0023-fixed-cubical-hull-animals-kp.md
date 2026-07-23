@@ -5,8 +5,9 @@ Claim ID: YM-RG-023
 Kind: elementary cubical geometry plus a conditional fixed-gas estimate
 
 Evidence: E2 (complete finite-dimensional proofs under an explicit standard
-cubical support model; no identification of the actual RG-II output class or
-verification of its activity smallness)
+cubical support model; the final ordinary RG-II gas is identified with this
+model and given an explicit displayed-hierarchy-compatible smallness window
+only in subsequent Note 0024; no marked activity estimate)
 
 Novelty: none claimed
 
@@ -31,13 +32,14 @@ model**.
 
 The source supplies the motivating incompatibility convention: two RG-II
 polymers are incompatible when their supports share a cube or a complete
-cube wall. It does not, in the text audited here, state the theorem below
-with this note's piecewise-linear contained-tree metric, literal-union hull,
-one-species convention, or numerical constants. Those are declared
-repository assumptions and proved consequences. In particular, this note
-does not establish that the actual source class \(\mathcal D_{k+1}\), its
-periodic boundary convention, or its decorated activities satisfy the
-model.
+cube wall. It does not state the theorem below with this note's connector,
+animal, or numerical constants; those are repository results. This note by
+itself does not identify the source class with the declared model.
+Subsequent [Note
+0024](0024-balaban-final-gas-instantiation.md) performs that primary-source
+identification for the **final connected ordinary gas after RG II Eq.
+(2.10)** and supplies one explicit ordinary KP sub-hierarchy. It does not
+identify the intermediate support families or any marked activity.
 
 ## The fixed cubical model
 
@@ -403,8 +405,8 @@ Let \(\Delta=\delta\lambda\). Then
 \tag{26}
 \]
 
-Conditional on identifying the actual output supports, metric, seams, and
-species with this declared model, one transparent sufficient system is
+For any gas identified with this declared model, one transparent sufficient
+system is
 
 \[
 \begin{gathered}
@@ -420,9 +422,11 @@ species with this declared model, one transparent sufficient system is
 Within this model, the first inequality makes the one-delta marked-animal
 spend from Note 0021 volume-uniform. Together with the second, it also implies
 \(2\Delta-32\alpha\ge\Delta>64\log8\), so the ordinary KP animal constant is
-finite. The second inequality is exactly (23). A convenient illustrative
-choice is \(\alpha=\Delta/64\); it is not claimed to solve the remaining
-smallness inequality or to be the source's choice.
+finite. The second inequality is exactly (23). A convenient choice is
+\(\alpha=\Delta/64\). This note does not by itself solve the remaining
+smallness inequality or attribute that choice to the source; Note 0024
+subsequently proves that the final ordinary RG-II gas has a nonempty
+displayed-hierarchy-compatible \(\varepsilon _1\) window satisfying it.
 
 If the conditional pointwise marked bound of Note 0021 holds with constant
 \(C_{\rm sec}\mathcal B_{\rm in}\), then (12) at \(\eta=\Delta\) and
@@ -438,13 +442,14 @@ If the conditional pointwise marked bound of Note 0021 holds with constant
 \tag{28}
 \]
 
-Equation (28) is conditional on at least three independent gates: the actual
-output class must instantiate this cubical model, the marked Lemma-3 bound is
-unproved, and the source's ordinary amplitude has not been identified with
-the \(h\) in this model and verified against (27). The large
-factor \(e^{a_{\rm out}\sqrt7}\) also shows why a qualitative statement that
-activities are small is not enough; the numerical hierarchy must beat the
-hull-contact fugacity and the crude animal constant.
+Equation (28) remains conditional on the marked gates. Note 0024
+subsequently discharges the class, metric, seam, one-ordinary-species, and
+ordinary-amplitude/KP-window gates for the final gas. It does not prove the
+marked Lemma-3 bound or that the decorated marked output obeys the same
+species accounting. The large factor \(e^{a_{\rm out}\sqrt7}\) also shows why
+a qualitative statement that activities are small is not enough; the
+numerical hierarchy must beat the hull-contact fugacity and the crude animal
+constant.
 
 ## Executable checks
 
@@ -452,9 +457,10 @@ hull-contact fugacity and the crude animal constant.
 check the shared-cube and full-wall squared diameters, periodic quotient
 distance, the nonzero contact-charge counterexample, exact small rooted
 animal counts, the half-unit shells in (10), and the geometric-series algebra
-and strict threshold in (12)--(13). They do not certify the source-class
-identification, any activity estimate, or the KP theorem imported in Note
-0020.
+and strict threshold in (12)--(13). They do not themselves certify the
+source-class identification, any activity estimate, or the KP theorem
+imported in Note 0020. The independent source mapping and ordinary parameter
+window are recorded in Note 0024.
 
 ## Exact boundary
 
@@ -466,13 +472,16 @@ identification, any activity estimate, or the KP theorem imported in Note
 - Equations (15)--(24) prove that an explicit pointwise ordinary activity
   bound and numerical smallness condition imply Note 0020's pinned KP and
   rooted output bound.
-- No claim is made that RG II's actual output class is exactly the declared
-  literal-union class, that it is closed at every special domain or seam, or
-  that its tree metric is (2).
-- The identification and strict inequality for the actual ordinary amplitude
-  \(h\), marked conditioned-contour envelope, positive marked kernel decay,
-  marked gluing, marked norm, decorated-species multiplicity, source disk,
-  absolute convergence, and shifted-branch synchronization remain open.
+- This claim alone makes no source identification. Subsequent Note 0024
+  proves that RG II's final connected ordinary gas instantiates the declared
+  class, quotient-seam convention, metric, literal-union rule, and one-species
+  accounting, and gives a displayed-hierarchy-compatible ordinary
+  \(\varepsilon _1\) window for (27). It explicitly excludes intermediate
+  and marked supports.
+- The marked conditioned-contour envelope, positive marked kernel decay,
+  marked gluing, marked norm, decorated-mark multiplicity, common source
+  disk, differentiated absolute convergence, and shifted-branch
+  synchronization remain open.
 - The physical \(U/J\) pullbacks, marginal projection, large fields, RG
   iteration, continuum and infinite-volume construction, axioms,
   nontriviality, infrared decay, and the Yang--Mills mass gap remain open.

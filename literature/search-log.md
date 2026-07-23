@@ -393,9 +393,10 @@ and then
 e^{-(1-10\delta)(L/2)\kappa d_{k+1}(X)}.
 \]
 The induction chooses \((1-10\delta)L/2=1\). The primary text layer corrupts
-some digits and fractions; the surrounding primary equations and an
-independent clean transcription agree, but an immutable page-image audit is
-still open. RG II prints no marked analogue. Note 0021 subsequently carries
+some digits and fractions, but the immutable Project Euclid page images were
+subsequently checked in Note 0024 and directly confirm the \(8\delta\),
+\(9\delta\), \(10\delta\), and \(L/2\) factors. RG II prints no marked
+analogue. Note 0021 subsequently carries
 the plaquette mark through the finite fixed-partition algebra. Proving its
 actual norm and hull crosswalk and synchronizing each shifted gas remain open.
 
@@ -503,9 +504,50 @@ condition
 C_{\rm an}^{\rm geom}(\beta-a-32\alpha)\le\alpha.
 \]
 
-This is theorem-level repository geometry, not an identification of the
-source's actual polymer species. The audit has not verified that RG II's
-\(\mathcal D_{k+1}\), periodic convention, decorations, or activity
-amplitude satisfy the declared model and smallness inequality. The marked
-conditioned-contour bound, marked norm, source disk, absolute convergence,
-and shifted-branch synchronization also remain open.
+This is theorem-level repository geometry. Subsequent Note 0024 identifies
+the final connected ordinary RG-II gas with this model and supplies an
+explicit displayed-hierarchy-compatible ordinary smallness window. The
+intermediate support families, decorated marked norm, conditioned-contour
+bound, external source disk, differentiated convergence, and shifted-branch
+synchronization remain open.
+
+## 2026-07-22 -- Balaban final-gas and explicit ordinary KP audit
+
+The immutable Project Euclid copies of RG I and RG II were downloaded and
+hashed; the exact files and page map are recorded in the [dedicated
+audit](audits/2026-07-22-balaban-final-gas-kp-map.md). Direct page inspection
+establishes the following narrow source-to-model crosswalk:
+
+- RG I's \(\mathcal D_j\) is the class of finite face-connected unions of
+  closed regular cubes in Euclidean space or the quotient torus.
+- Its \(d_j\) is the cube-side-normalized shortest continuous contained tree
+  meeting every cube, with an equivalent shortest cube-edge graph.
+- After RG II Eq. (2.10) factorizes disconnected preactivities, Eq. (2.11)
+  has one aggregated ordinary \(H(Z)\) per connected support, incompatibility
+  exactly through a shared cube or complete wall, and Eq. (2.13) groups by the
+  literal union.
+
+This does not identify the intermediate
+\(Y_0,Z_0,\widetilde Z_0,Z'_0,X_0\) objects with final polymers. Their
+mixed-scale completion and disconnected-component rules remain distinct.
+
+The same images confirm Lemma 3's ordinary decay exponent
+\((1-8\delta)(L/2)\kappa\), the subsequent \(9\delta\) and \(10\delta\)
+spends, and the final choice
+\(\delta=\frac1{10}(1-2L^{-1})\). Combining the printed
+\(h=C_3\varepsilon _1\) with Note 0023 gives a concrete sufficient
+refinement:
+
+\[
+ \kappa>\frac{1280\log8}{L-2},
+ \qquad
+ \alpha=\frac{(L-2)\kappa}{1280},
+\]
+
+followed by the explicit positive upper bound on \(\varepsilon _1\) in Note
+0024. This is a repository KP criterion contained inside the **displayed**
+"\(\kappa\) sufficiently large, \(\varepsilon _1\) sufficiently small"
+hierarchy, not a criterion printed by Balaban. Full source compatibility is
+conditional on downward monotonicity of the restrictions imported but not
+enumerated in RG I/II. No marked activity estimate or physical connected
+observable follows.

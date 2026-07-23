@@ -516,10 +516,10 @@ plaquette argument, tree gluing, or any regulator-uniform estimate.
   pullback is proved here.
 - Subsequent Note 0023 proves an output-animal bound, literal-union hull
   crosswalk, and sufficient pinned Kotecky--Preiss criterion for a declared
-  standard closed-cube, one-species support model. Its identification with
-  the actual RG-II output class, metric, periodic seams, and decorated
-  species, and its strict numerical entropy and activity-smallness
-  hypotheses, remain open.
+  standard closed-cube, one-species support model. Note 0024 identifies the
+  final connected ordinary RG-II gas with that model and supplies an explicit
+  sufficient displayed-hierarchy ordinary smallness window. The decorated
+  marked species and marked norm needed here remain open.
 - No large-field estimate, RG iteration, continuum construction, axiomatic
   reconstruction, infrared decay estimate, or Yang--Mills mass gap follows.
 

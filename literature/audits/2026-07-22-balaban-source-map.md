@@ -77,9 +77,9 @@ Cluster expansions*, **CMP 116** (1988), 1–22,
   delta units and gives
   \(O(1)C_3\varepsilon_1
   e^{-(1-10\delta)(L/2)\kappa d_{k+1}(X)}\). The induction then chooses
-  \((1-10\delta)L/2=1\). The accessible primary text layer corrupts some
-  digits and fractions; the surrounding formulas fix this ledger, but an
-  immutable page-image transcription remains open.
+  \((1-10\delta)L/2=1\). The Project Euclid page images were subsequently
+  inspected directly in Note 0024 and confirm the \(8\delta\), \(9\delta\),
+  \(10\delta\), and \(L/2\) glyphs.
 - These are source-free activity bounds. The paper's \(J\) is an auxiliary
   gauge-field/derivative variable in the analytic induction, not a scalar
   observable source.
@@ -133,9 +133,11 @@ Cluster expansions*, **CMP 116** (1988), 1–22,
   In \(D=4\), its coarse size slope is \(32\), its safe wall-contact charge is
   \(\sqrt7\), and its sufficient animal threshold is \(64\log8\). These
   constants and the piecewise-linear contained-tree model are repository results,
-  not statements printed by RG II. The source-class identification,
-  periodic-seam convention, decorated-species count, and required ordinary
-  activity smallness remain unverified.
+  not statements printed by RG II. [Note
+  0024](../../research/notes/0024-balaban-final-gas-instantiation.md) then
+  identifies the final connected ordinary source gas with that model and
+  gives a displayed-hierarchy-compatible sufficient ordinary KP window. The
+  intermediate objects and decorated marked species remain excluded.
 - RG II Eqs. (1.9)--(1.10) give the finite weakening-variable decomposition
   and root-component cancellation; Eqs. (1.17)--(1.21) give the weakened
   reconstruction and its common \(|s(\Delta)|\le e^{\kappa _1}\) analytic
@@ -249,7 +251,7 @@ OS-positivity, continuum, or gap results.
 | Inserted-observable decomposition compatible with the constant-profile derivative | No theorem located; the raw first-jet identity itself is algebraic once a coupling-independent raw transform is fixed |
 | One marked plaquette at the RG-II Mayer seam | Finite background split and Mayer algebra proved in Note 0011; Note 0012 proves the fixed-partition-interior mixed-difference/cube-count result; Note 0013 upgrades the standard \(M\)-cube branch to a conditional rooted \(d_k\) norm; Note 0014 covers every plaquette with a coarse-lattice-preserving shifted family; Note 0015 supplies fixed-chart physical composition; Note 0016 identifies the exact auxiliary field and supplies conditional fixed-regulator independent-variable derivative norms; Note 0017 supplies the strict representative-\(J\) collar, dual source convolution, and a homogeneous-layer \(J\)-summand pullback while disproving only the reverse uniform cross-layer bound; Note 0018 proves the naive raw \(U\) collars collapse and isolates a conditional scaled replacement; Note 0019 proves a conditional forward all-layer \(J\) bridge under unverified interface/tree/support/mesh/chart premises; Note 0020 proves the fixed-gas connected algebra; Note 0021 carries one localized mark through the exact fixed-partition Section-2 map and component factorization. Unit translations, discharge of the geometric and scaled-\(U\) premises, the actual marked conditioning/weakening norm, shifted synchronization, the full physical derivative norm, and the convergent connected marked expectation remain open |
 | Whole-integrand control of marked Eq. (2.8) weakening derivatives | Under common \(L^1\)-holomorphy and a joint majorant, Note 0022 proves the exact mixed-difference contour with no extra derivative-allocation entropy, and with the ordinary Cauchy-radius factor if that radius is shared. The actual common transformed domain, joint Gaussian envelope, marked kernel decay, and gluing estimates remain open |
-| Fixed-cubical hull, animals, and pinned KP | Note 0023 proves the literal-union connector inequality, a uniform geometric animal bound, and a sufficient pinned-KP system for one declared closed-cube model. RG II supplies the motivating cube/full-wall incompatibility and union convention, but the actual \(\mathcal D_{k+1}\) class, seam and metric identification, decoration count, and numerical activity smallness have not been verified |
+| Fixed-cubical hull, animals, and pinned KP | Note 0023 proves the literal-union connector inequality, a uniform geometric animal bound, and a sufficient pinned-KP system for one declared closed-cube model. Note 0024 verifies from primary pages that the final connected ordinary RG-II gas instantiates its support class, quotient seams, metric, incompatibility, literal union, and aggregated one-species convention, and gives an explicit displayed-hierarchy-compatible ordinary smallness window. The intermediate objects and decorated marked norm remain open |
 | One-loop coefficient in the source-inserted normalization | Not proved by RG I; its coupling theorem is deferred |
 | Reflection positivity of gauge-fixed/RG effective actions | No theorem located |
 | Continuum Schwinger functions, OS reconstruction, infinite-volume clustering, mass gap | Outside the verified scope |
