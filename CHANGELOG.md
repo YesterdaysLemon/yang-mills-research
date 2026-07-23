@@ -4,6 +4,30 @@ All notable research-structure and claim-status changes are recorded here. Mathe
 
 ## 2026-07-23
 
+- Added YM-RG-029, the completed external-\(J\) support theorem. RG II's
+  printed final-activity locality, the marked dual-number Section-2 map, and
+  the literal-union connected grouping imply that
+  \(\widehat{\mathcal C}_p^+(s,R)\) depends only on external \((U,J)\) bond
+  coordinates intersecting \(\operatorname {int}R\).
+- Proved
+  \(I^{\rm conn}_{J,p,s}(R)\subset
+  \{b:|b|\cap\operatorname {int}R\ne\varnothing\}\), using RG I's exact
+  bond-intersection convention. For the admitted integer-wall closed
+  cubulations, every such nearest-neighbor bond is contained in \(R\);
+  deterministic bond and plaquette base-site anchors therefore give
+  \(h=h_q=0\) for the completed coefficient, not merely for its first-stage
+  seed.
+- Instantiated YM-RG-028 at the output scale with no orbit factor. The
+  resulting endpoint slope is
+  \(c_{\rm nn}\sqrt d\,Mb_{k+1,s}\) and the zero-halo intercept is
+  \(2dc_{\rm nn}Mb_{k+1,s}\).
+- Isolated the next analytic gate: a regulator-, shift-, support-, and
+  background-uniform full \(\ell^\infty\) \(J\)-tube together with a
+  tube-uniform connected norm. Base-point convergence and a merely nonempty
+  common branch domain do not supply that Cauchy input.
+- Added eight completed-support regressions, a pinned primary-page audit,
+  and OBJ-033. No nonlinear \(U\) pullback or later construction, infrared,
+  or mass-gap gate is claimed.
 - Added YM-RG-028, a periodic quotient-endpoint replacement for the
   discrete-tree-lift premise in YM-RG-019. Lifting the complete continuous
   route to the torus cover gives the safe endpoint slope

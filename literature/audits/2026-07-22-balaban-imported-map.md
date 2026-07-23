@@ -89,6 +89,11 @@ retain those assumptions unless it reproves the geometric estimates.
 
 RG I then separates several objects that must not be conflated:
 
+- Printed p. 251 says a continuous region induces the nearest-neighbor bond
+  intervals which intersect it; printed p. 262 defines \(U,J\) at the bonds
+  of a localization domain. Source restriction is therefore by
+  bond-intersection, not full containment in the interior or one-endpoint
+  ownership.
 - Eq. (0.13), p. 254, is a general gauge-invariant kernel
   \((T\rho)(V)=\int dU\,t(V,U)\rho(U)\).
 - Eq. (0.16), p. 255, adds fixed regular/small-field restrictions including
@@ -324,7 +329,9 @@ support, mesh, and common-chart premises. Note 0028 removes the exact
 tree-lift through a repository periodic-endpoint argument and separately
 uses Note 0012's locality plus deterministic base-site anchors to remove the
 first-stage direct-\(J\) halos; neither corollary nor the remaining premises
-is an imported source theorem. [Note
+is an imported source theorem. Note 0029 uses the printed final-activity
+external-field locality and the repository marked literal-union map to
+remove the completed support halos as a separate corollary. [Note
 0020](../../research/notes/0020-one-mark-ursell-identity.md) separately proves
 the exact one-mark Ursell algebra and a conditional pinned bound for one fixed
 hard-core gas. It keeps the \(1/n!\) distinguished-slot factor, repeated
@@ -359,7 +366,7 @@ No marked Lemma 3 is imported from Balaban. Note 0026 is instead a repository
 one-colour corollary using Note 0024's one-sided source-metric crosswalk and
 ordinary window together with Note 0023's model. The scaled nonlinear \(U\)
 pullback, uniform realization of Note 0019's remaining ownership/interface,
-mesh, completed-gas support, and chart geometry, a nonzero-source
+mesh, common completed-\(J\) tube, and chart geometry, a nonzero-source
 polymer-activity disk, and the physical connected estimate remain open.
 Subsequent Note 0027 separately transports the complete construction over
 nested shifted branches and synchronizes their first jets.

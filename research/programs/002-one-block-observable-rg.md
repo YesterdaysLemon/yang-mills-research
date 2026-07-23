@@ -126,9 +126,14 @@ all-layer \(J\)-summand implication under explicit geometry and
 common-chart premises. [Note
 0028](../notes/0028-endpoint-distance-bridge.md) removes its artificial
 discrete-tree-lift premise and supplies zero support halos for the
-first-stage direct-\(J\) activities, but does not derive the ownership
-interface, bounded mesh, completed-gas support, or common chart constants
-from the source. Note 0018 proves that naive raw and \(\xi\)-scaled bond-sup
+first-stage direct-\(J\) activities. [Note
+0029](../notes/0029-completed-external-j-support.md) proves zero support
+halos for the completed connected coefficient through final-activity
+locality, RG I's bond-intersection convention, the literal-union map, and
+the integer-wall cubulation lemma. It does not provide the common
+completed-coefficient Cauchy tube or derive the ownership interface, bounded
+mesh, or common chart constants from the source. Note 0018 proves that naive
+raw and \(\xi\)-scaled bond-sup
 \(U\) collars collapse and leaves the RG-scaled replacement conditional.
 [Note 0020](../notes/0020-one-mark-ursell-identity.md) proves the exact
 distinguished-vertex Ursell formula and a conditional pinned bound on one
@@ -163,8 +168,8 @@ gases or paying an orbit factor. The selected-coordinate scalar source disk
 was already proved in Notes 0007 and 0010; a source-dependent
 polymer-activity disk remains unproved.
 Unit-translation covariance, the scaled nonlinear \(U\) collar and pullback,
-the remaining Note 0019 ownership/interface, mesh, completed-gas support,
-and common-chart premises,
+the completed-\(J\) common tube, and the remaining Note 0019
+ownership/interface, mesh, and common-chart premises,
 the full physical coarse-background derivative norm, and a physical rooted
 connected bound remain open.
 
@@ -349,11 +354,17 @@ and no mass gap.
   specifies the missing scaled chart estimates. Note 0019 extends the
   \(J\)-summand conditionally across layers. Note 0028 removes its
   discrete-tree-lift premise and supplies first-stage direct-\(J\) anchors.
-  The ownership interface, bounded mesh, completed-gas support, common
-  constants, and scaled nonlinear \(U\) pullback remain open.
+  Note 0029 supplies completed-coefficient zero-halo anchors. The common
+  completed-\(J\) tube, ownership interface, bounded mesh, common constants,
+  and scaled nonlinear \(U\) pullback remain open.
 - [x] Replace the continuous-tree digitization premise by a periodic
   covering-space endpoint estimate, including the safe \(\sqrt d\) slope
   and zero first-stage direct-\(J\) support halos; see Note 0028.
+- [x] Carry external-\((U,J)\) restriction locality through the marked
+  dual-number Section-2 map and literal-union connected coefficient, proving
+  the exact bond-intersection support set and zero completed external-\(J\)
+  support halos on the admitted integer-wall cubulations; see Note 0029.
+  The common tube and derivative norm remain open.
 - [x] Prove the exact one-mark connected-graph formula, repeated-label
   convention, and conditional pinned Kotecky--Preiss implication for one
   fixed hard-core gas; see Note 0020.
@@ -403,9 +414,10 @@ and no mass gap.
   physical auxiliary-field derivative to those rows plus a local remainder,
   and Note 0017 proves the dual convolution and one-layer \(J\)-summand
   specialization. Note 0019 gives a conditional all-layer extension, and
-  Note 0028 removes its tree-digitization premise. Uniform realization of
-  the remaining ownership/interface, mesh, completed-gas support, and chart
-  premises and the \(U\) summand remain open.
+  Note 0028 removes its tree-digitization premise. Note 0029 closes the
+  completed support anchor. A common completed-\(J\) tube, uniform
+  realization of the remaining ownership/interface, mesh, and chart
+  premises, and the \(U\) summand remain open.
 - [ ] Classify every relevant/marginal source counterterm and the profile
   mixing map.
 - [ ] Differentiate the small-field stationary/background construction

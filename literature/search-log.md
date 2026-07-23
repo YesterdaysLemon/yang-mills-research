@@ -721,3 +721,47 @@ theorem about the external-\(J\) support of completed Section-2 connected
 coefficients. The ownership/interface hypothesis, bounded mesh, common
 analytic constants, nonlinear \(U\) pullback, and every continuum or
 mass-gap gate remain open.
+
+## 2026-07-23 -- completed external-J support
+
+The immutable RG-I and RG-II PDFs were reused and their pinned digests are
+recorded in the
+[completed-support
+audit](audits/2026-07-23-balaban-completed-external-j-support.md).
+
+RG I printed p. 251 defines the bonds induced by a continuous region as the
+nearest-neighbor intervals which intersect it; printed p. 262 then defines
+both \(U\) and \(J\) at the bonds of a localization domain. Thus the source
+restriction convention is bond intersection, not full-bond containment in
+the interior and not assignment by one endpoint.
+
+At the start of Section 2, Bałaban suppresses the external gauge fields from
+the notation. Immediately after Eq. (2.9), printed p. 14, the paper states
+that the final \(H(Z)\) is localized in \(\operatorname {int}Z\) with
+respect to those fields. The next page explicitly names the analytic
+variables as \((U,J)\). Equation (2.10) factors disconnected outputs, and
+Eq. (2.13) groups connected tuples by their literal union.
+
+YM-RG-029 combines those printed unmarked facts with Notes 0012, 0021, and
+0025's repository marked map. Running the same support-preserving operations
+over the dual numbers shows that both \(H_s(C)\) and
+\(W_{p,s}^{\rm post}(C)\) depend only on external fields in
+\(\operatorname {int}C\). The field-independent Ursell coefficient,
+literal-union grouping, absolute convergence, and post-connected shift
+normalization then preserve locality on \(R\).
+
+This closes only the support anchor:
+\[
+I^{\rm conn}_{J,p,s}(R)
+\subset\{b:|b|\cap\operatorname {int}R\ne\varnothing\}.
+\]
+The admitted shifted cubulations have integer current-lattice walls and
+closed cubes, so every nearest-neighbor bond in this support set lies in the
+closed union \(R\). Hence deterministic anchors give
+\[
+h=h_q=0.
+\]
+It does not give a regulator-uniform full \(\ell^\infty\) \(J\)-tube or a
+tube-uniform connected norm. Those quantitative inputs remain necessary for
+a no-volume-loss Cauchy derivative estimate and the physical \(J\)
+pullback.

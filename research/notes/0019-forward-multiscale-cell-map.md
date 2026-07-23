@@ -324,8 +324,11 @@ common over the family.
 Subsequent Note 0028 discharges this halo premise with \(h=h_q=0\) for the
 first-stage direct-\(J\) derivatives of Notes 0012--0014, using their
 repository interior-locality conclusion and deterministic bond/source
-base-site anchors. It does not extend that conclusion to completed
-Section-2 connected coefficients.
+base-site anchors. Subsequent Note 0029 extends the zero-halo conclusion to
+the completed Section-2 connected coefficients by using final-activity
+bond-intersection locality, the literal-union connected map, and the
+integer-wall closed-cubulation lemma. A common completed-coefficient Cauchy
+tube remains separate.
 
 Choose fine sites in \(Q_{p,\sigma}\) and in a cube of \(Y\) realizing the
 two halo distances. Hypothesis \((\mathrm H_T)\) joins each such site to

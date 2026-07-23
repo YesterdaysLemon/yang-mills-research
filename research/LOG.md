@@ -911,3 +911,62 @@ Propagators-II ownership/interface geometry. In parallel, seek quantitative
 common Cauchy tubes for the completed shifted coefficients. Only after those
 gates close should the refined endpoint estimate be composed with an
 RG-scaled nonlinear \(U\) collar into a physical connected first-jet bound.
+
+## 2026-07-23 -- completed external-J support through the literal union
+
+### Established
+
+- Audited RG II immediately after Eq. (2.9): each final \(H(Z)\) is localized
+  in \(\operatorname {int}Z\) with respect to the external gauge fields, and
+  the following page explicitly treats those variables as \((U,J)\).
+- Audited RG I printed pp. 251 and 262: restriction to a region retains
+  complete nearest-neighbor bond coordinates whose geometric segments
+  intersect the region. It does not mean full containment in the interior
+  or one-endpoint ownership.
+- Ran that support statement coefficientwise through the exact marked
+  dual-number construction. Note 0012's input mark is local on its seed;
+  Notes 0021 and 0025 keep it on the conditional interior field and include
+  its seed in the output. Therefore
+  \(W_{p,s}^{\rm post}(C)\), like \(H_s(C)\), depends only on external fields
+  in \(\operatorname {int}C\).
+- Used the field-independent Ursell coefficient and the final literal-union
+  rule to prove
+  \[
+  \widehat{\mathcal C}_p^+(s,R)
+  \in\mathscr A_s(R),
+  \qquad
+  I^{\rm conn}_{J,p,s}(R)
+  \subset\{b:|b|\cap\operatorname {int}R\ne\varnothing\}.
+  \]
+  Repeated labels and the post-connected shift normalization do not enlarge
+  support.
+- The admitted cubulations have integer current-lattice walls and closed
+  cubes. A nearest-neighbor bond intersecting the interior of their union
+  lies in the closed union, so deterministic bond and plaquette base-site
+  anchors give \(h=h_q=0\) for the completed coefficient. Combining this
+  with Note 0028 yields the output-scale endpoint comparison with slope
+  \(c_{\rm nn}\sqrt d\,Mb_{k+1,s}\) and zero-halo intercept
+  \(2dc_{\rm nn}Mb_{k+1,s}\).
+- Added eight support-algebra regressions and an immutable-page audit. No
+  independent human review was performed.
+
+### Not established
+
+- A nonempty common branch domain and the base-point connected norm do not
+  provide a regulator-uniform full \(\ell^\infty\) \(J\)-tube. No
+  tube-uniform connected norm or completed \(D_J\) norm has yet been proved.
+- Note 0019's \((\mathrm H_\rho)\), bounded mesh matching, and common
+  source-kernel/chart constants remain conditional.
+- External-\(U\) restriction locality does not produce an RG-scaled
+  nonlinear \(U\) collar or pullback.
+- Nonzero-source polymer activities, intrinsic/raw comparison, unit
+  translations, large fields, RG iteration, continuum construction, axioms,
+  infrared decay, and the mass gap remain open.
+
+### Next decision
+
+Construct a uniform completed-\(J\) tube and prove the connected weighted
+norm throughout that tube. With that in hand, Banach Cauchy and Notes
+0019/0028/0029 would close the conditional physical \(J\)-summand without a
+bond-volume loss. Audit \((\mathrm H_\rho)\) and the scaled nonlinear \(U\)
+collar in parallel.

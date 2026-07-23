@@ -436,8 +436,10 @@ implication conditionally under its explicit \((\mathrm H_\rho)\),
 \((\mathrm H_T)\), \((\mathrm H_I)\), bounded-mesh, and common-chart
 hypotheses. Subsequent Note 0028 removes \((\mathrm H_T)\) and \(\tau\) by
 a direct endpoint argument and supplies \(h=h_q=0\) for the first-stage
-direct-\(J\) family; the interface, mesh, completed-gas support, and
-common-chart premises remain.
+direct-\(J\) family. Subsequent Note 0029 supplies the same zero-halo support
+for the completed connected coefficient using the source bond-intersection
+convention and the admitted integer-wall cubulation. The interface, mesh,
+common tube, and common-chart premises remain.
 
 ## Exact boundary
 
@@ -462,10 +464,10 @@ common-chart premises remain.
   supplies its independent-variable marked norm and connected first jet.
   Note 0027 synchronizes the nested shifted first jets, and Note 0028 removes
   the unnecessary discrete-tree lift from the conditional all-layer
-  auxiliary-\(J\) bridge. No physical pulled-back convergent expectation,
-  completed-gas support theorem, nonzero-source polymer-activity disk,
-  large-field estimate, RG iteration, continuum construction, infrared
-  decay, or Yang--Mills mass gap follows.
+  auxiliary-\(J\) bridge. Note 0029 closes completed-coefficient support but
+  not its common Cauchy tube. No physical pulled-back convergent expectation,
+  nonzero-source polymer-activity disk, large-field estimate, RG iteration,
+  continuum construction, infrared decay, or Yang--Mills mass gap follows.
 
 ## Falsification checks
 

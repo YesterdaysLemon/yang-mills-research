@@ -283,7 +283,9 @@ the support-halo hypothesis holds for this direct-\(J\) derivative with
 This specialization is only for the already localized first-stage
 independent-variable activity. It does not establish the corresponding
 external-\(J\) support theorem for every completed Section-2 connected
-coefficient; that later support map remains to be audited.
+coefficient. Subsequent Note 0029 audits the printed final-activity locality
+and the marked literal-union map and proves that later support theorem
+separately.
 RG I condition (iv) creates no additional direct-\(J\) halo here: it uses
 the derived \(J_n(U)\), while the affine independent-\(J\) variation changes
 only condition (iii), as isolated in Note 0017.
@@ -340,7 +342,9 @@ Equation (18) is still conditional. It removes only the artificial
 tree-digitization and support-halo premises for the first-stage direct-\(J\)
 family. It does not prove \((\mathrm H_\rho)\), the mesh bound, common chart
 constants, or the corresponding derivative theorem for the completed
-YM-RG-027 coefficients.
+YM-RG-027 coefficients. Subsequent Note 0029 supplies zero support halos for
+those completed coefficients on the admitted integer-wall cubulations, but
+still no common Cauchy tube or derivative norm.
 
 ## Exact boundary
 
@@ -354,7 +358,8 @@ YM-RG-027 coefficients.
   are not inferred from the displayed Propagators-II definitions.
 - The direct-\(J\) support conclusion uses only the first-stage
   independent-variable locality of Notes 0012--0014. Completed Section-2
-  coefficients require a separate external-coordinate support audit.
+  coefficients require a separate external-coordinate support audit;
+  subsequent Note 0029 supplies it through the literal-union connected map.
 - The slope remains proportional to \(b\). If the mesh ratio is unbounded,
   no regulator-uniform forward comparison follows.
 - The common strict-\(J\) representative, source-kernel, conversion, Cauchy,
@@ -393,5 +398,5 @@ YM-RG-027 coefficients.
 - Let \(b\to\infty\) while a localization edge remains in the finest
   Propagators-II layer and observe that the slope in (11) diverges.
 - Claim that removing \((\mathrm H_T)\) proves \((\mathrm H_\rho)\), the
-  common chart constants, the completed-gas support theorem, or the nonlinear
-  \(U\) pullback.
+  common chart constants, a completed-coefficient Cauchy tube, or the
+  nonlinear \(U\) pullback.
