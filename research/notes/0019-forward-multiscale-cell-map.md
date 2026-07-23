@@ -468,10 +468,11 @@ mesh, and common-chart hypotheses. The exponent price is
   assumes common local conversion coefficients and does not supply Note
   0018's concrete RG-scaled \(U\) collar or the physical \(U\) pullback.
 - Note 0021 supplies exact one-fixed-partition marked algebra, and Note 0026
-  supplies its independent-variable marked norm and connected first jet. No
-  physical pulled-back or shifted-synchronized expansion, large-field
-  estimate, RG iteration, continuum construction, infrared decay, or mass
-  gap follows.
+  supplies its independent-variable marked norm and connected first jet.
+  Note 0027 subsequently synchronizes the nested shifted first jets. No
+  physical pulled-back expansion, nonzero-source polymer-activity disk,
+  large-field estimate, RG iteration, continuum construction, infrared decay,
+  or mass gap follows.
 
 ## Falsification checks
 

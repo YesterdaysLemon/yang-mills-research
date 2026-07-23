@@ -634,9 +634,12 @@ C_{\rm sec}C_{\rm an}^{\rm geom}(\Delta)
 \]
 
 This is convergence of the first derivative at \(t=0\) on one fixed gas. It
-does not construct a nonvanishing common external-source disk, and it does
-not authorize averaging different shifted gases before their separate
-connected maps are formed.
+does not construct source-dependent polymer activities on a nonzero source
+disk, and it does not authorize averaging different shifted gases before
+their separate connected maps are formed. Subsequent Note 0027 repeats the
+complete construction on nested shifted branches and averages only their
+completed connected coefficients. The distinct selected-coordinate scalar
+zero-free disk was already proved in Notes 0007 and 0010.
 
 ## Executable regressions
 
@@ -673,10 +676,11 @@ Yang--Mills theorem.
   extension, not equality with Note 0023's degenerate auxiliary metric.
 - The \(O(1)\) inside \(K_{\rm lift}\) is not evaluated numerically.
 - No independent human review has been performed.
-- Shift synchronization, the physical \(U/J\) pullbacks, intrinsic/raw
-  comparison, large fields, RG iteration, continuum construction,
-  Osterwalder--Schrader axioms, infrared decay, and the Yang--Mills mass gap
-  remain open.
+- Subsequent Note 0027 supplies shifted first-jet synchronization. The
+  nonzero-source polymer-activity disk, physical \(U/J\) pullbacks,
+  intrinsic/raw comparison, large fields, RG iteration, continuum
+  construction, Osterwalder--Schrader axioms, infrared decay, and the
+  Yang--Mills mass gap remain open.
 
 ## Falsification checklist
 

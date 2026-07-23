@@ -673,3 +673,25 @@ conditions control the marked scale susceptibility but do not imply pinned
 KP. Both premises are now explicit. The post-polymer marked estimate and
 animal norm were unaffected; the final connected conclusion is valid only
 under the additionally stated ordinary ceiling.
+
+## 2026-07-23 -- shifted first-jet transport and source-disk correction
+
+No new external paper was needed. The immutable RG-I and RG-II PDFs were
+reused and their hashes were pinned in the
+[shifted-transport
+audit](audits/2026-07-23-balaban-shifted-first-jet-transport.md).
+
+RG II Lemma 2 Eq. (1.41) and Eqs. (2.1)--(2.13) form an exact finite
+source-free identity chain. Applying that chain to transported fields proves
+the shifted unmarked reconstruction; cutoff inclusion--exclusion and Gaussian
+conditioning are exact coordinates for one fixed global integral. The second
+localization uses side-\(LM\) cubes, which required lifting the input shifts
+modulo \(M\) to nested two-scale shifts modulo \(LM\).
+
+The resulting YM-RG-027 theorem is a repository dual-number and transport
+corollary, not a marked theorem printed by Bałaban. It closes only the
+first-jet synchronization gate. Earlier ledger phrases saying that a
+"common source disk" remained open conflated two objects: Notes 0007 and 0010
+already give the selected-coordinate scalar zero-free disk, whereas
+source-dependent polymer activities and uniform KP convergence at nonzero
+source remain unproved.

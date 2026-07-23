@@ -500,6 +500,13 @@ remain \(\sigma\)-labelled until Note 0020's synchronization hypothesis is
 proved. Averaging the bare \(W_{k,p}^\sigma\) before this nonlinear step is not
 licensed.
 
+Subsequent Note 0027 proves that synchronization hypothesis at first-jet
+level. It lifts the shifts to nested input/output cubulations, proves the
+shifted unmarked Lemma-2 reconstruction, applies this finite algebra to the
+same dual-number integral on every separate gas, and only then averages the
+completed connected coefficients. It does not average the bare activities or
+construct one mixed-shift gas.
+
 Likewise, (15) is local in the independent \((U,J,B)\) coordinates used by
 RG II. Substitution of the physical minimizing background requires the
 separate \(U\)- and \(J\)-pullback theorems isolated in Notes 0015--0019.
@@ -548,9 +555,11 @@ algebra used by Note 0026.
   Lemma-3 theorem plus Cauchy would be an alternative route, but no such
   theorem is imported here.
 - Note 0026 proves absolute convergence of the connected first derivative at
-  \(t=0\) for the fixed gas under Note 0024's separate ordinary KP ceiling.
-  Nonvanishing on a common regulator-uniform source disk and branchwise shift
-  synchronization remain open.
+  \(t=0\) for the fixed gas under Note 0024's separate ordinary KP ceiling,
+  and Note 0027 subsequently synchronizes all nested shifted first jets. The
+  selected-coordinate scalar zero-free disk was already proved in Notes 0007
+  and 0010. Source-dependent polymer activities and KP convergence at
+  nonzero source remain open.
 - The physical nonlinear \(U\) pullback, discharge of Note 0019's geometric
   premises, marginal projection, large fields, RG iteration, continuum
   construction, Osterwalder--Schrader axioms, infrared decay, and the

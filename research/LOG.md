@@ -786,3 +786,72 @@ branch synchronization next: formulate each shifted gas on its own
 representation, and only then average the already connected branch
 coefficients. In parallel, keep the physical \(U/J\) pullbacks and Note
 0019's geometry premises as separate gates.
+
+## 2026-07-23 -- nested shifted first-jet synchronization
+
+### Established
+
+- Audited the former \(H_{\rm sync}\) gate with three independent AI
+  red-teams. Covariance of the bare mark was rejected as insufficient: a
+  two-branch toy gas can be exactly equivariant while its denominators and
+  logarithmic derivatives differ.
+- Resolved the two-scale representative ambiguity. With \(LM\mid N\), lift
+  every admitted input shift modulo \(M\) to all
+  \(s\in(L\mathbb Z/LM\mathbb Z)^4\), transport the nested \(M\)- and
+  \(LM\)-cubulations together, and retain the actual count
+  \(\widetilde n_p=L^4n_p\).
+- Restricted every fixed-\((U,J)\) projective comparison and shifted sum to
+  the explicitly assumed nonempty common intersection of the finitely many
+  transported branch domains, containing the physical real source-free
+  point.
+- Proved the shifted unmarked Lemma-2 identity by applying the standard
+  identity to transported external fields and orthogonal fluctuation
+  coordinates, then relabelling. The global cutoff and Gaussian measure are
+  unchanged laws; the branch-conditioned covariances and determinants are
+  exact coordinates obtained by inclusion--exclusion and Schur-complement
+  conditioning.
+- Ran the complete Section-2 construction over
+  \(\mathbb C[\epsilon]/(\epsilon^2)\). Every branch reconstructs
+  \[
+  \mathscr I_p^{\mathbb D}
+  =S_s(\mathcal Z_s-\epsilon\mathcal N_{p,s}),
+  \]
+  with \(S_s\ne0\) independent of \(\epsilon\). Hence every completed branch
+  has the same projective ratio
+  \(\mathcal N_{p,s}/\mathcal Z_s=-\partial_t\log\mathscr I_p(0)\).
+- Transported YM-RG-026's norm uniformly and divided only after each branch
+  connected map. The normalized lifted family has no orbit factor and obeys
+  \[
+  \sup_p
+  \sum_{s\in\widetilde{\mathcal A}_{M,L}(p)}
+  \sum_{R\supset\widehat Q_{p,s}}
+  e^{\kappa d_{k+1,s}(R)}
+  |\widehat{\mathcal C}_p^+(s,R)|
+  \le
+  e^{16\alpha}C_{\rm sec}C_{\rm an}^{\rm geom}(\Delta)\mathcal B_d.
+  \]
+- Corrected the open-disk wording. The exact selected-coordinate scalar ratio
+  already has the Note-0007/0010 disk; for one plaquette its radius is
+  \(\log2/4\). No source-dependent polymer activities or uniform KP theorem
+  at nonzero source is inferred from scalar zero-freeness.
+- Added exact-arithmetic/geometric regressions and an immutable-source
+  transport audit. No independent human review was performed.
+
+### Not established
+
+- No source-dependent polymer-activity or connected-cluster theorem for
+  \(t\ne0\).
+- No unit-translation covariance moving the next coarse lattice.
+- No uniform scaled nonlinear \(U\) pullback or discharge of Note 0019's
+  all-layer \(J\)-geometry and common-chart premises.
+- No intrinsic/unrestricted raw-law comparison, marginal projection,
+  large-field estimate, RG iteration, continuum or infinite-volume
+  construction, axioms, infrared decay, or Yang--Mills mass gap.
+
+### Next decision
+
+Use the synchronized independent-variable first jet as a completed local
+input. Attack the physical pullback next: construct a concrete RG-scaled
+nonlinear \(U\) collar and discharge the interface, tree-lift, support, mesh,
+and uniform-chart hypotheses in Note 0019. Keep a nonzero-\(t\) polymer disk
+as a separate analytic gate.

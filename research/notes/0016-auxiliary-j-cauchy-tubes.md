@@ -400,9 +400,11 @@ proved.
 - Cross-regulator use would also require a coherent RG-normalized family of
   chart norms; positive numerical radii in unrelated norms would not suffice.
 - Note 0021 subsequently supplies the exact marked algebra on one compatible
-  fixed Section-2 partition. No coarse-field strict locality, uniform
-  quasilocal derivative, convergent marked expectation, large-field estimate,
-  RG iteration, continuum construction, infrared decay, or mass gap follows.
+  fixed Section-2 partition, Note 0026 supplies its norm, and Note 0027
+  synchronizes the nested shifted first jets. No coarse-field strict locality,
+  uniform quasilocal derivative, physical pulled-back marked expectation,
+  nonzero-source polymer-activity disk, large-field estimate, RG iteration,
+  continuum construction, infrared decay, or mass gap follows.
 
 ## Falsification checks
 

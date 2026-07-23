@@ -469,6 +469,8 @@ tree convention.
 - The external PDFs are not evidence of independent review of those
   corollaries.
 - No numerical value is assigned to any \(O(1)\).
-- No shifted synchronization, physical pullback, large-field result, RG
-  iteration, continuum construction, axioms, infrared decay, or mass gap is
-  obtained from this audit.
+- Subsequent Note 0027 separately proves shifted first-jet synchronization as
+  a repository transport corollary. No nonzero-source polymer-activity disk,
+  physical pullback, large-field result, RG iteration, continuum
+  construction, axioms, infrared decay, or mass gap is obtained from this
+  audit.

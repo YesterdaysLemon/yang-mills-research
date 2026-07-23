@@ -367,8 +367,10 @@ Subsequent Note 0023 verifies one concrete sufficient package for
 hulls, the piecewise-linear contained-tree metric, one ordinary species per
 unlabelled support, a pointwise ordinary activity bound, and explicit strict
 animal-entropy and smallness inequalities. Note 0024 then identifies the
-final connected ordinary RG-II species, quotient seams, incompatibility, and
-metric with that model and gives an explicit sufficient \(\varepsilon _1\)
+final connected ordinary RG-II species, quotient seams, and incompatibility,
+and maps the source metric through Note 0023's one-sided monotone-metric
+extension plus a direct source-metric connector. It does not assert metric
+equality. Note 0024 also gives an explicit sufficient \(\varepsilon _1\)
 window within the displayed hierarchy. Applying the rooted conclusion here
 still requires the independent post-polymerization marked norm and control
 of every marked decoration and shift.
@@ -422,7 +424,9 @@ e^{a_{\rm out}d_{k,\sigma}(R)}
 \]
 
 Thus the normalized orbit pays no additional factor, but the output remains
-\((\sigma,R)\)-labelled.
+\((\sigma,R)\)-labelled. Subsequent Note 0027 realizes this first-jet route
+using nested two-scale lift labels \(s\), with normalization by their actual
+lifted count.
 
 Note 0014 proves that every individual shifted bare decomposition sums to the
 same undecoupled mark. It does **not** prove \((\mathrm H_{\rm sync})\) for
@@ -431,7 +435,10 @@ the later cutoff-conditioned gas. In particular, one may not put all
 \(K^\sigma\) before taking a logarithm, or erase the shift label after the
 cluster sum. Such operations have no source justification and can change
 denominators or create mixed-shift configurations not present in any source
-branch.
+branch. Subsequent Note 0027 proves \((\mathrm H_{\rm sync})\) at first-jet
+level by reconstructing the same dual-number integral on every separate
+nested shifted gas. It does not build the alternative common gas in the next
+paragraph.
 
 There is one alternative: embed every shifted mark into a single proved
 common gas with exactly the same \(K\), incompatibility, and hull. The
@@ -460,9 +467,9 @@ Thus (10) uses \(M_p=-W_p^{\rm post}\) in the
 \(-\partial_t\log Z|_{t=0}\). The two conventions must not be combined.
 Note 0021 subsequently proves, on one fixed compatible partition, that
 \(W_p^{\rm post}\) is the exact decorated linear image of the pre-Section-2
-family. It does not prove the required norm or repeat the construction
-uniformly over \(\sigma\); those parts of \((\mathrm H_{\rm sync})\) remain
-open.
+family. Notes 0026 and 0027 subsequently prove the required norm and repeat
+the complete construction uniformly over the nested shifted family,
+discharging \((\mathrm H_{\rm sync})\) only at first-jet level.
 Note 0011's explicit minimizing-background contribution remains outside this
 fluctuation gas and must be restored in the full first jet.
 
@@ -588,21 +595,26 @@ tests](../../tests/test_rooted_ursell_coefficients.py).
   0026 subsequently supplies the marked norm for the source-faithful
   fixed-partition plaquette mark.
 - Equations (24)--(25) are conditional on a complete branchwise synchronized
-  source construction. Bare-mark averaging from Note 0014 is not enough.
+  source construction. Bare-mark averaging from Note 0014 is not enough;
+  subsequent Note 0027 supplies the needed dual-number construction on
+  nested two-scale branches.
 - Note 0021 subsequently proves the exact fixed-partition passage of the mark
   through RG II Eqs. (2.2)--(2.10), including sharp cutoffs, Gaussian
   conditioning, weakening, and component factorization, and identifies the
   final mark as a decorated linear image of the earlier rooted family. Note
   0025 proves its fixed-term marked domination, and Note 0026 proves its
-  positive resummation and final norm on one fixed partition. The uniform
-  shifted-branch version remains unproved.
+  positive resummation and final norm on one fixed partition. Note 0027
+  subsequently transports that complete construction and synchronizes the
+  shifted first jets without mixing their gases.
 - Note 0024 identifies the final connected ordinary RG-II support class and
-  metric with Note 0023's model and supplies one explicit ordinary
-  KP-smallness window. Note 0026 supplies the marked Lemma-3 analogue,
-  decorated-mark control, and the connected derivative at \(t=0\) for one
-  fixed gas. Nonvanishing on a common **external-source** disk and a uniform
-  expansion for every admitted shift remain open. Consequently the physical
-  connected marked expansion remains open.
+  supplies a one-sided auxiliary-to-source metric comparison and direct
+  source-metric \(\sqrt7\) connector; it does not identify the two metrics.
+  It also supplies one explicit ordinary KP-smallness window. Note 0026
+  supplies the marked Lemma-3 analogue on one gas, and Note 0027 supplies the
+  uniform shifted first-jet expansion. The selected-coordinate scalar disk
+  was already proved in Notes 0007 and 0010, while source-dependent polymer
+  activities and KP convergence at nonzero source remain open. Consequently
+  the physical pulled-back connected marked expansion remains open.
 - The physical \(U\)-chain pullback, realization of Note 0019's geometric
   premises, marginal projection, large fields, RG iteration, continuum
   construction, Osterwalder--Schrader axioms, infrared decay, and the

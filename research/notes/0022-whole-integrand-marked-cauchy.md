@@ -557,8 +557,9 @@ mathematical truth.
 - The fixed-term marked conditioned-contour envelope is now proved in Note
   0025 with zero relative-moment cost. Note 0026 subsequently proves the
   positive \(A\)-to-output resummation, marked norm, and connected derivative
-  at \(t=0\) on one fixed gas. No common source disk, shifted
-  synchronization, or physical \(U/J\) pullback is proved here.
+  at \(t=0\) on one fixed gas, and Note 0027 subsequently synchronizes the
+  complete nested shifted first jets. No nonzero-source polymer-activity disk
+  or physical \(U/J\) pullback is proved here.
 - Subsequent Note 0023 proves an output-animal bound, literal-union hull
   crosswalk, and sufficient pinned Kotecky--Preiss criterion for a declared
   standard closed-cube, one-species support model. Note 0024 identifies the

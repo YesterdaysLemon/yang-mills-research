@@ -219,8 +219,10 @@ entropy hypotheses; it does not prove them for the actual activities.
   boundary-crossing plaquettes and transport under the subgroup preserving the
   next coarse lattice. Note 0021 subsequently proves one-fixed-partition
   algebraic compatibility for an interior root, and Note 0026 proves the
-  marked norm and first-jet sum on that fixed partition. Unit-translation
-  covariance and shifted synchronization remain open.
+  marked norm and first-jet sum on that fixed partition. Note 0027
+  subsequently synchronizes the nested shifted first jets. Unit-translation
+  covariance, nonzero-source polymer activities, and the physical pullback
+  remain open.
 - The activities are local only in independent \((U,J,B)\). No locality or
   quasilocality after the physical specialization
   \((U,J)=(U_{k+1}(W),J_{k+1}(W))\) is inferred.

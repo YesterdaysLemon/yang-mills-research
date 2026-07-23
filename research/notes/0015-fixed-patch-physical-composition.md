@@ -397,7 +397,8 @@ activity.
   quantitative chart factors, uniform activity tubes, metric convolution,
   and connected expectation remain unproved.
 - The shift label remains. Nothing here reconciles the family with one fixed
-  Section-2 cluster partition.
+  Section-2 cluster partition. Subsequent Note 0027 instead keeps every gas
+  separate and synchronizes only the completed first jets.
 - No intrinsic/coarea/unrestricted-raw density comparison, cutoff-conditioned
   connected sum, marginal projection, large-field estimate, RG iteration,
   continuum construction, infrared decay, or mass gap follows.
@@ -415,4 +416,5 @@ activity.
 - Replace the transported real charts in (14) by unrelated gauge slices and
   identify the missing overlap theorem.
 - Insert the shift-indexed family directly into one fixed Section-2 cluster
-  sum and identify the still-missing compatibility theorem.
+  sum and reject it; Note 0027's later synchronization uses separate branch
+  denominators and does not license this operation.

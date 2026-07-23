@@ -209,7 +209,8 @@ preserving the next coarse lattice. It does not prove unit-translation
 covariance or locality after the minimizing-background pullback. Note 0021
 subsequently proves the exact marked Section-2 algebra on one compatible fixed
 partition, and Note 0026 subsequently proves its marked norm and connected
-first derivative at \(t=0\). Shifted synchronization remains open.
+first derivative at \(t=0\). Note 0027 subsequently synchronizes the complete
+nested shifted first jets without mixing their gases.
 
 Given (12), a marked activity \(W_{k,p}(A)\) and an unmarked Mayer
 family \(D\) have the rooted seed
@@ -238,8 +239,10 @@ proves those positive estimates under its doubled-amplitude refinement.
   supplies the independent-variable fixed-partition decomposition, and Note
   0013 its standard-branch \(d_k\) norm, and Note 0014 an all-plaquette
   RG-admitted shifted cover. Note 0026 closes fixed-partition cluster
-  differentiation at \(t=0\); shifted synchronization, marginal projection,
-  position/orientation mixing, and the large-field estimate remain open.
+  differentiation at \(t=0\), and Note 0027 synchronizes the shifted first
+  jets. Nonzero-source polymer activities, the physical pullback, marginal
+  projection, position/orientation mixing, and the large-field estimate
+  remain open.
 - No RG iteration, continuum construction, Osterwalder–Schrader
   reconstruction, infrared decay estimate, or mass gap follows.
 

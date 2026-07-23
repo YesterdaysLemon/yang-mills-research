@@ -457,10 +457,11 @@ repair the reverse bound.
 - Uniformity of \(C_\chi\) and the local coefficients in (13) remains open.
   A finite fixed-chart constant is not an RG-iteration theorem.
 - Note 0021 supplies exact one-fixed-partition marked algebra, and Note 0026
-  supplies its independent-variable marked norm and connected first jet. No
-  physical pulled-back convergent expectation, large-field estimate, RG
-  iteration, continuum construction, infrared decay, or Yang--Mills mass gap
-  follows.
+  supplies its independent-variable marked norm and connected first jet.
+  Note 0027 synchronizes the nested shifted first jets. No physical pulled-back
+  convergent expectation, nonzero-source polymer-activity disk, large-field
+  estimate, RG iteration, continuum construction, infrared decay, or
+  Yang--Mills mass gap follows.
 
 ## Falsification checks
 

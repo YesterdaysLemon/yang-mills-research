@@ -355,8 +355,10 @@ repository bookkeeping, not imported source constants.
 No marked Lemma 3 is imported from Balaban. Note 0026 is instead a repository
 one-colour corollary using Note 0024's one-sided source-metric crosswalk and
 ordinary window together with Note 0023's model. The scaled nonlinear \(U\)
-pullback, uniform realization of Note 0019's geometry, a common source disk,
-shifted synchronization, and the physical connected estimate remain open.
+pullback, uniform realization of Note 0019's geometry, a nonzero-source
+polymer-activity disk, and the physical connected estimate remain open.
+Subsequent Note 0027 separately transports the complete construction over
+nested shifted branches and synchronizes their first jets.
 
 ## Regular configurations and gauge chart
 

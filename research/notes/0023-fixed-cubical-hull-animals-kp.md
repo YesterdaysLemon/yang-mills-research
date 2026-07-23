@@ -535,8 +535,9 @@ window are recorded in Note 0024.
   Note 0026 subsequently proves the positive resummation, final marked norm,
   decorated-mark multiplicity bound, and connected first derivative at
   \(t=0\) on one fixed gas, with this note's pinned step supplied by Note
-  0024's separate ordinary KP ceiling. A common source disk and
-  shifted-branch synchronization remain open.
+  0024's separate ordinary KP ceiling. Note 0027 subsequently synchronizes
+  the complete nested shifted first jets. A nonzero-source polymer-activity
+  disk and the physical pullbacks remain open.
 - The physical \(U/J\) pullbacks, marginal projection, large fields, RG
   iteration, continuum and infinite-volume construction, axioms,
   nontriviality, infrared decay, and the Yang--Mills mass gap remain open.

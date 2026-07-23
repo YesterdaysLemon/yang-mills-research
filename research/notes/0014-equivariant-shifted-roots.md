@@ -335,6 +335,8 @@ continuous Euclidean symmetry in a continuum limit, remain open.
 - The output is a family indexed by \((\sigma,Y)\), not one polymer family on
   a single fixed partition. A later cluster expansion cannot erase the shift
   label or mix its unmarked decorations without a compatibility theorem.
+  Subsequent Note 0027 retains distinct nested two-scale branch labels,
+  completes each gas separately, and synchronizes only their first jets.
 - The result remains on the selected RG-coordinate branch. It proves no
   identification with the intrinsic coarea kernel or unrestricted raw law and
   no compatibility of unrelated background gauge charts.
@@ -346,10 +348,11 @@ continuous Euclidean symmetry in a continuum limit, remain open.
   is used.
 - Note 0021 subsequently proves the exact cutoff-conditioned marked algebra
   on one fixed compatible branch, and Note 0026 proves that branch's
-  convergent marked norm and first jet. Neither synchronizes the shifted
-  family. No marginal projection, profile-mixing theorem, large-field
-  estimate, RG iteration, continuum construction, infrared decay, or mass gap
-  follows.
+  convergent marked norm and first jet. Note 0027 subsequently synchronizes
+  the complete nested shifted first jets without constructing a mixed gas.
+  No nonzero-source polymer-activity disk, physical pullback, marginal
+  projection, profile-mixing theorem, large-field estimate, RG iteration,
+  continuum construction, infrared decay, or mass gap follows.
 
 ## Falsification checks
 

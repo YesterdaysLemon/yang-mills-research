@@ -79,8 +79,9 @@ as every displayed \(\varepsilon _1\) restriction is.
 Neither statement in this note supplies the post-polymerization marked norm.
 Note 0025 subsequently proves the fixed-term marked conditioned-contour
 domination, and Note 0026 supplies a separate one-colour resummation and
-fixed-partition norm under an explicit doubled-amplitude refinement. The
-common source disk and shifted synchronization remain open.
+fixed-partition norm under an explicit doubled-amplitude refinement. Note
+0027 subsequently synchronizes the complete nested shifted first jets. The
+nonzero-source polymer-activity disk and physical pullbacks remain open.
 
 ## The source cubulation and quotient convention
 
@@ -443,10 +444,11 @@ this criterion, choose (13), or supply a numerical value for \(C_3\).
 - The intermediate \(Y_0,Z_0,\widetilde Z_0,Z'_0,X_0\) and random-walk
   supports retain their actual mixed-scale, disconnected, and interior-bond
   rules; this note proves no canonical least completion for them.
-- No common external-observable source disk, branchwise shift
-  synchronization, physical \(U/J\) pullback, marginal projection,
-  large-field theorem, RG iteration, continuum construction, axioms,
-  infrared decay, or Yang--Mills mass gap is proved.
+- Note 0027 separately proves branchwise synchronization only for the first
+  jet at \(t=0\). No source-dependent polymer-activity disk, physical \(U/J\)
+  pullback, marginal projection, large-field theorem, RG iteration,
+  continuum construction, axioms, infrared decay, or Yang--Mills mass gap is
+  proved.
 - RG I/II do not enumerate every restriction imported from earlier papers;
   their preservation under further downward shrinking of \(\varepsilon _1\)
   has not been independently reconstructed from that full source chain.

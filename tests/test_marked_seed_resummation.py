@@ -287,7 +287,10 @@ class MarkedSeedResummationTests(unittest.TestCase):
         self.assertIn("is no \\(1/|D|!\\) in this stage", audit)
         self.assertIn("\\mathscr S_{2x}(Z)", note)
         self.assertIn("explicit extra monotone smallness refinement", note)
-        self.assertIn("does not construct a nonvanishing common", note)
+        self.assertIn(
+            "does not construct source-dependent polymer activities",
+            note,
+        )
 
 
 if __name__ == "__main__":

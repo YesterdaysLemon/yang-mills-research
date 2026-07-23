@@ -369,10 +369,11 @@ for the impossible raw-radius premise.
   smaller-domain, representative, chart, and uniform Lipschitz hypotheses.
   RG I Theorem 3 allows its small-field constants to depend on fixed \(M\).
 - Note 0021 supplies exact fixed-partition marked algebra, and Note 0026
-  supplies its independent-variable convergent first jet. No
-  \(U\)-derivative norm in a concrete RG-scaled Banach space, physical
-  chain-rule pullback, synchronized marked expansion, large-field estimate,
-  RG iteration, continuum construction, infrared decay, or mass gap follows.
+  supplies its independent-variable convergent first jet. Note 0027
+  synchronizes the nested shifted first jets. No \(U\)-derivative norm in a
+  concrete RG-scaled Banach space, physical chain-rule pullback,
+  nonzero-source polymer-activity disk, large-field estimate, RG iteration,
+  continuum construction, infrared decay, or mass gap follows.
 
 ## Falsification checks
 

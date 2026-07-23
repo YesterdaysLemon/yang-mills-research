@@ -4,6 +4,29 @@ All notable research-structure and claim-status changes are recorded here. Mathe
 
 ## 2026-07-23
 
+- Added YM-RG-027, a nested shifted first-jet synchronization corollary.
+  Input shifts modulo \(M\) are lifted to all two-scale branches modulo
+  \(LM\), with \(LM\mid N\), so the input and output cubulations, inherited
+  roots, metrics, and hard-core geometries transport together. Projective
+  comparison is explicitly restricted to a nonempty common intersection of
+  the finitely many transported external branch domains.
+- Proved the missing shifted unmarked reconstruction explicitly. On every
+  branch, RG II Lemma 2 and the exact Section-2 identities reconstruct the
+  same fixed global cutoff/Gaussian dual-number integral as
+  \(S_s(\mathcal Z_s-\epsilon\mathcal N_{p,s})\). The nonzero
+  \(\epsilon\)-independent scalar cancels, giving one projective logarithmic
+  first jet without requiring equal branch denominators.
+- Applied YM-RG-026 uniformly on every separate branch and normalized only
+  the completed connected coefficients by the actual lifted count
+  \(L^4n_p\). This closes the former \(H_{\rm sync}\) hypothesis at \(t=0\)
+  with no cross-shift gas and no orbit factor.
+- Corrected the source-disk ledger: Notes 0007 and 0010 already prove the
+  selected-coordinate scalar disk, including
+  \(|t|<\log 2/4\) for one plaquette. What remains open is a
+  source-dependent polymer-activity/KP disk at nonzero \(t\), together with
+  the physical \(U/J\) pullbacks and all continuum and infrared gates.
+- Added eight shifted-synchronization regressions, an immutable-source
+  transport audit, and OBJ-031. STATUS remains UNSOLVED / EXPLORATORY / E0.
 - Added YM-RG-026, a source-faithful one-colour corollary of RG II Eqs.
   (2.26)--(2.38). The finite \(D\)-subfamily collision is counted exactly,
   giving \(\varepsilon_\bullet=2\alpha _6^{-1}\mathcal B_\bullet\);

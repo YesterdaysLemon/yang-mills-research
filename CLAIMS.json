@@ -473,7 +473,7 @@
       "open_objections": [
         "No independent human review has been recorded.",
         "The exact correspondence between the full YM-RG-010 exponent and every activity in RG II Lemma 2 still needs termwise transcription.",
-        "YM-RG-012 through YM-RG-014 supply the fixed-partition localization, standard-branch d_k norm, and an all-plaquette shifted cover; YM-RG-015 adds fixed-chart physical composition, YM-RG-016 adds conditional independent-variable derivative norms, and YM-RG-026 closes the marked Lemma-3 norm plus first-jet sum on one fixed gas. Unit translations, shifted synchronization, the uniform physical coarse-field derivative pullback, and physical convergent marked expectation remain open."
+        "YM-RG-012 through YM-RG-014 supply the fixed-partition localization, standard-branch d_k norm, and an all-plaquette shifted cover; YM-RG-015 adds fixed-chart physical composition, YM-RG-016 adds conditional independent-variable derivative norms, YM-RG-026 closes one fixed gas, and YM-RG-027 synchronizes the completed shifted first jets. Unit translations, the uniform physical coarse-field derivative pullback, a nonzero-t polymer expansion, and the physical convergent marked expectation remain open."
       ],
       "novelty_claim": false,
       "provenance": "AI-assisted finite-dimensional source split and elementary one-mark Mayer algebra at the cited RG-II seam; no novelty claimed.",
@@ -518,7 +518,7 @@
       "open_objections": [
         "No independent human review has been recorded.",
         "YM-RG-013 instantiates the standard four-dimensional wall-adjacency constant and a sufficient entropy margin, and YM-RG-014 transports it over the admitted shift orbit; compatibility with other weakening geometries remains open.",
-        "YM-RG-014 covers every plaquette with a coarse-lattice-preserving shifted family, YM-RG-015 supplies fixed-chart composition, YM-RG-016 supplies conditional independent-variable derivative norms, and YM-RG-026 supplies the marked Lemma-3 norm and convergent first jet on one fixed gas. Unit-translation covariance, shifted synchronization, and the uniform physical coarse-field derivative/quasilocal norm remain open."
+        "YM-RG-014 covers every plaquette with a coarse-lattice-preserving shifted family, YM-RG-015 supplies fixed-chart composition, YM-RG-016 supplies conditional independent-variable derivative norms, YM-RG-026 supplies the marked Lemma-3 norm on one gas, and YM-RG-027 synchronizes all nested shifted first jets. Unit-translation covariance, the nonzero-t polymer expansion, and the uniform physical coarse-field derivative/quasilocal norm remain open."
       ],
       "novelty_claim": false,
       "provenance": "AI-assisted marked mixed-difference and matrix-Lipschitz corollary of the cited RG-I/II finite-regulator construction; no novelty claimed.",
@@ -563,7 +563,7 @@
       "open_objections": [
         "No independent human review has been recorded.",
         "The explicit log 64 margin must be checked against every later parameter choice and decay expenditure before iteration.",
-        "YM-RG-014 supplies a shifted family for every plaquette, and YM-RG-026 supplies the actual marked norm and convergent first jet on one compatible fixed partition. Unit-translation covariance, minimizing-background quasilocality, and shifted synchronization remain open."
+        "YM-RG-014 supplies a shifted family for every plaquette, YM-RG-026 supplies the actual marked norm and convergent first jet on one compatible fixed partition, and YM-RG-027 transports and synchronizes those first jets branchwise. Unit-translation covariance, nonzero-t polymer activities, and minimizing-background quasilocality remain open."
       ],
       "novelty_claim": false,
       "provenance": "AI-assisted finite-regulator geometry and entropy corollary of YM-RG-012 and the cited RG-I/II definitions; no novelty claimed.",
@@ -593,7 +593,7 @@
       "known_limitations": [
         "The shift orbit contains only translations by multiples of L; unit translations moving the next coarse lattice and the full fine-lattice space group are not covered.",
         "The equivariant weakening is obtained by a finite stabilizer average of transported generalized-random-walk terms; it is a repository construction, not the particular expansion printed by Balaban.",
-        "The result is a family indexed by a shift and polymer, not one activity family on a single fixed partition. YM-RG-026 closes one compatible fixed-partition gas, but compatibility and synchronization across the whole shifted family remain open.",
+        "The result is a family indexed by a shift and polymer, not one activity family on a single fixed partition. YM-RG-026 closes one compatible fixed-partition gas, and YM-RG-027 subsequently completes every nested shifted gas separately and synchronizes only their first jets; it does not construct one mixed gas or a nonzero-t polymer family.",
         "The reflection proof uses Tr(X^-1)=Tr(X) in SL(2,C) and is restricted to SU(2); no higher-rank extension is claimed.",
         "Locality remains in independent (U,J,B), not after physical minimizing-background specialization; no global background-chart compatibility is proved.",
         "No intrinsic/raw density comparison, synchronized physical connected marked expectation, large-field control, RG iteration, continuum construction, infrared statement, or mass gap follows."
@@ -610,7 +610,7 @@
       "open_objections": [
         "No independent human review has been recorded.",
         "The finite stabilizer average must be reconciled with the exact unmarked Section-2 decorations before a connected marked expansion is claimed.",
-        "YM-RG-015 supplies fixed-chart physical composition, YM-RG-016 supplies the exact auxiliary-J reduction plus conditional independent-variable derivative norms, and YM-RG-026 supplies one compatible fixed-gas cluster bound; unit-translation covariance, shifted synchronization, and the uniform physical coarse-field derivative pullback remain open."
+        "YM-RG-015 supplies fixed-chart physical composition, YM-RG-016 supplies the exact auxiliary-J reduction plus conditional independent-variable derivative norms, YM-RG-026 supplies one compatible fixed-gas cluster bound, and YM-RG-027 synchronizes the completed branch first jets; unit-translation covariance, nonzero-t polymer activities, and the uniform physical coarse-field derivative pullback remain open."
       ],
       "novelty_claim": false,
       "provenance": "AI-assisted finite-regulator shifted-cover and Reynolds-symmetrization corollary of YM-RG-013 and the cited RG-I/II constructions; no novelty claimed.",
@@ -656,7 +656,7 @@
         "No independent human review has been recorded.",
         "YM-RG-016 transcribes the exact auxiliary J map and proves only a fixed-chart qualitative derivative decay; its sharp regulator-uniform chart and scale factors remain open.",
         "The Eq. (190) coordinate, multiscale-metric versus d_k, norm, uniform Cauchy-tube, convolution, and entropy crosswalk needed for a summable physical coarse-field derivative norm remains open.",
-        "YM-RG-021 supplies exact one-fixed-partition algebraic compatibility, YM-RG-025 supplies fixed-term marked domination, and YM-RG-026 supplies the rooted final norm and first-jet convergence on one fixed gas. Shifted synchronization and the physical coarse-field derivative remain open."
+        "YM-RG-021 supplies exact one-fixed-partition algebraic compatibility, YM-RG-025 supplies fixed-term marked domination, YM-RG-026 supplies the rooted final norm on one fixed gas, and YM-RG-027 synchronizes the complete branch first jets. The nonzero-t polymer expansion and physical coarse-field derivative remain open."
       ],
       "novelty_claim": false,
       "provenance": "AI-assisted finite-regulator analytic-composition corollary of YM-RG-014, Proposition 9, and RG I's source-defined physical auxiliary-J map on an explicitly assumed common background domain; no novelty claimed.",
@@ -693,7 +693,7 @@
         "The chartwise J-derivative decay has a regulator-, scale-, and chart-dependent constant; the differential-of-exponential, gauge-restoration, and local-remainder factors are not transcribed in a sharp common norm.",
         "The Cauchy estimates control derivatives in independent U and J variables. YM-RG-017 proves a conditional physical pullback only for the auxiliary-J chain-rule summand on one matched layer, not the full physical derivative.",
         "Proposition 9's multiscale contour distance d_B is not the shifted contained-tree metric d_{k,sigma}; YM-RG-017 proves the matched-layer comparison and disproves a uniform reverse bound, while YM-RG-019 proves the needed forward comparison only under explicit unverified interface, tree-lift, mesh, and support hypotheses.",
-        "This claim supplies no one-fixed-partition compatibility or connected marked estimate; YM-RG-026 separately closes those independent-variable fixed-gas interfaces. No physical connected expectation, large-field estimate, RG iteration, continuum construction, infrared decay, or mass gap follows."
+        "This claim itself supplies no Section-2 compatibility or connected marked estimate; YM-RG-026 separately closes the independent-variable fixed-gas interfaces and YM-RG-027 synchronizes their shifted first jets. No physical pulled-back connected expectation, nonzero-t polymer expansion, large-field estimate, RG iteration, continuum construction, infrared decay, or mass gap follows."
       ],
       "falsification_tests": [
         "Replace the source-defined J by an arbitrary lift and identify the lost RG I Eqs. (1.8) and (1.15) specialization.",
@@ -744,7 +744,7 @@
         "The fixed-chart source kernel has the honest envelope C_{J,4}s_j^{-3}+C_{J,2}s_j^{-2}+C_{J,1}s_j^{-1}; no regulator-uniform bound for those coefficients is proved.",
         "The one-layer result controls only D_J W[D J h], not the D_U W[D U h] chain-rule summand; YM-RG-018 proves that the naive raw and xi-scaled bond-sup U collars collapse and gives only a conditional template in a stronger RG-scaled regularity norm.",
         "The one-layer diameter-from-tree comparison is not an interface theorem and cannot be used when the shifted polymer or admissible contour crosses an unverified multiscale layer boundary.",
-        "This claim supplies no one-fixed-partition compatibility or connected marked estimate; YM-RG-026 separately closes those independent-variable fixed-gas interfaces. No physical connected expectation, large-field estimate, RG iteration, continuum construction, infrared decay, or mass gap follows."
+        "This claim itself supplies no Section-2 compatibility or connected marked estimate; YM-RG-026 separately closes the independent-variable fixed-gas interfaces and YM-RG-027 synchronizes their shifted first jets. No physical pulled-back connected expectation, nonzero-t polymer expansion, large-field estimate, RG iteration, continuum construction, infrared decay, or mass gap follows."
       ],
       "falsification_tests": [
         "Check that varying the independent J leaves RG I conditions (i), (ii), and the U-derived condition (iv) unchanged and uses only the strict condition-(iii) margin.",
@@ -760,7 +760,7 @@
         "No independent human review has been recorded.",
         "The p. 263 source hierarchy and representative transport need a line-by-line audit across every shifted activity chart.",
         "Uniform local chart coefficients and a nonlinear U collar in a concrete RG-scaled regularity norm remain unproved; YM-RG-018 rules out the naive raw alternatives.",
-        "A full layer-interface metric theorem remains open. YM-RG-026 separately supplies the independent-variable one-fixed-partition connected first jet, but not its physical pullback."
+        "A full layer-interface metric theorem remains open. YM-RG-026 supplies the independent-variable fixed-partition connected first jet and YM-RG-027 synchronizes its shifted branches, but neither supplies the physical pullback."
       ],
       "novelty_claim": false,
       "provenance": "AI-assisted representative-domain, Banach-duality, and weighted-kernel corollary of the cited RG-I/II, variational, and propagator formulas plus YM-RG-016; no novelty claimed.",
@@ -791,7 +791,7 @@
         "The exact curvature threshold is sharp in operator-norm normalization; a retained paper norm carries the explicit finite-dimensional comparison c_RG and other orbit-domain conditions may shrink the radius further.",
         "The conditional scaled-collar template does not construct its Banach norm, prove Eq. (1.13) BCH regularity, establish a common shifted representative atlas, or bound the physical U pullback.",
         "The independent J coordinate is held fixed during the obstruction; this is an activity-U Cauchy direction, not the composed physical curve J=scrJ_xi(U).",
-        "No physical connected marked expansion follows from this obstruction claim; YM-RG-026 separately closes the independent-variable first jet on one fixed gas. Large fields, RG iteration, continuum construction, infrared decay, and the mass gap remain open."
+        "No physical connected marked expansion follows from this obstruction claim; YM-RG-026 closes the independent-variable first jet on one fixed gas and YM-RG-027 synchronizes the shifted branches. The scaled physical pullback, nonzero-t polymer activities, large fields, RG iteration, continuum construction, infrared decay, and the mass gap remain open."
       ],
       "falsification_tests": [
         "Conjugate the four-link adversarial plaquette by an arbitrary SL(2,C) gauge transformation and verify that its spectral radius is unchanged.",
@@ -838,7 +838,7 @@
         "H_T assumes exact no-length-increase in the tree lift. The error tau controls only proximity, and a discretization length loss would require an additional slope or additive constant.",
         "Uniformity holds only for fixed d, L, and M with bounded b, tau, h, h_q and common C_chi, c_1(alpha_gamma), E_J, Delta_J^{-1}, and prior activity constants.",
         "The comparison is only d_B <= C d_k+C_0. It does not repair YM-RG-017's counterexample to a regulator-uniform reverse comparison.",
-        "The result controls only the auxiliary-J chain-rule summand. YM-RG-026 separately supplies the actual marked norm and convergent first jet on one compatible fixed partition, but this claim does not construct their RG-scaled U/J pullback, synchronize shifted branches, control large fields, iterate the RG, construct the continuum theory, or establish a mass gap."
+        "The result controls only the auxiliary-J chain-rule summand. YM-RG-026 supplies the actual marked norm and convergent first jet on one compatible fixed partition, and YM-RG-027 synchronizes the shifted branch first jets, but this claim does not construct their RG-scaled U/J pullback, nonzero-t polymer expansion, large-field control, RG iteration, continuum theory, or mass gap."
       ],
       "falsification_tests": [
         "Move the mesh-switch point strictly outside the interface and reject charging the resulting partly outer coarse bond wholly at the inner scale.",
@@ -856,7 +856,7 @@
         "Derive the seam-aware ownership and surface-switch route from the exact Propagators-II domain and bond conventions, rather than retaining H_rho.",
         "Construct a uniform discrete tree lift and exact site/bond/plaquette support anchors for the shifted family, rather than retaining H_T and H_I.",
         "Prove every chart, margin, and source-kernel constant uniform over the regulator family.",
-        "Construct the missing RG-scaled U collar and U-chain pullback, use YM-RG-026's fixed-partition norm and convergence as input, and then prove shifted synchronization and the physical connected estimate."
+        "Construct the missing RG-scaled U collar and U-chain pullback, use YM-RG-026's fixed-partition norm and YM-RG-027's shifted first-jet synchronization as inputs, and then prove the physical connected estimate."
       ],
       "novelty_claim": false,
       "provenance": "AI-assisted conditional cubical cell-map, graph-lift, and weighted auxiliary-J pullback corollary of the cited RG-I/Propagators-II definitions plus YM-RG-017; no novelty claimed.",
@@ -889,8 +889,8 @@
       "proof_anchor": "research/notes/0020-one-mark-ursell-identity.md",
       "known_limitations": [
         "RG II is unmarked. This lemma differentiates only fixed-gas combinatorics. YM-RG-021 subsequently carries one distinguished mark through the finite Section-2 algebra, and YM-RG-026 proves a source-instantiated marked norm on one fixed partition under an explicit doubled-amplitude refinement and a connected first-jet bound under the additional ordinary KP ceiling.",
-        "YM-RG-021 identifies the post-polymerization positive mark W_p^post as a decorated linear image of the pre-Section-2 W_{k,p}(A) family on one fixed partition, not as a termwise equality. YM-RG-026 controls that aggregated image; shifted synchronization remains open.",
-        "YM-RG-023 supplies an explicit hull, animal, monotone-metric, and pinned-KP implication for a declared standard closed-cube model. YM-RG-024 maps the final connected ordinary RG-II gas through that extension and gives a displayed-hierarchy-compatible ordinary KP window. YM-RG-026 closes the marked pointwise bound, marked norm, and differentiated sum only at t=0 on one fixed gas; a common external-source disk and shifted synchronization remain open.",
+        "YM-RG-021 identifies the post-polymerization positive mark W_p^post as a decorated linear image of the pre-Section-2 W_{k,p}(A) family on one fixed partition, not as a termwise equality. YM-RG-026 controls that aggregated image, and YM-RG-027 subsequently transports the complete construction and synchronizes its shifted first jets.",
+        "YM-RG-023 supplies an explicit hull, animal, monotone-metric, and pinned-KP implication for a declared standard closed-cube model. YM-RG-024 maps the final connected ordinary RG-II gas through that extension and gives a displayed-hierarchy-compatible ordinary KP window. YM-RG-026 closes the marked pointwise bound, norm, and differentiated sum at t=0 on one fixed gas; YM-RG-027 synchronizes the shifted first jets. The selected-coordinate scalar disk already comes from YM-RG-007/YM-RG-010, while source-dependent polymer activities and KP convergence at nonzero t remain open.",
         "Bare shifted-mark averaging does not prove H_sync. Shifted gas branches cannot be mixed or their labels erased without a common-gas embedding or complete branchwise construction.",
         "YM-RG-024's immutable page-image audit confirms the unmarked Eq. (2.38)-(2.41) factors (1-8delta)(L/2)kappa, (1-9delta)(L/2)kappa, and (1-10delta)(L/2)kappa. YM-RG-026 obtains the analogous one-colour fixed-partition ledger as a repository corollary, not a printed source theorem.",
         "No physical U or J pullback, discharge of YM-RG-019's premises, marginal projection, large-field estimate, RG iteration, continuum construction, axioms, infrared decay, or mass gap follows."
@@ -945,7 +945,7 @@
         "The exact component result is algebraic. YM-RG-022 removes an artificial derivative-allocation multiplicity, YM-RG-025 proves the exact fixed-term marked conditioned-contour domination, and YM-RG-026 subsequently proves the positive marked-seed resummation, scale transfer, and fixed-partition norm under an explicit doubled-amplitude refinement.",
         "The derived cutoff split, P-sum, Z_0, conditioned restriction, Z_0 prime, weakening family, and admissible outputs depend combinatorially on A and must be rerun; W_p^post is not a bare W_{k,p}(A) multiplying a precomputed unmarked H.",
         "The earlier claim that RG II Eq. (2.8) gives the mark a transformed B-plus-X argument was corrected by YM-RG-025. The mark remains W(A,B), independent of the second-stage weakening variables, but its A-dependent seed still changes every derived cutoff split, conditioning domain, weakening family, and output.",
-        "YM-RG-023 proves a conditional standard-cube pinned Kotecky-Preiss and wall-contact monotone-metric crosswalk, YM-RG-024 maps the final ordinary source gas and supplies a displayed-hierarchy ordinary window, and YM-RG-026 closes the decorated marked norm and, under that separate ordinary ceiling, the differentiated first-jet sum on one fixed gas. No common external-source disk or branchwise shifted synchronization is proved.",
+        "YM-RG-023 proves a conditional standard-cube pinned Kotecky-Preiss and wall-contact monotone-metric crosswalk, YM-RG-024 maps the final ordinary source gas and supplies a displayed-hierarchy ordinary window, YM-RG-026 closes the decorated marked norm on one fixed gas, and YM-RG-027 synchronizes the complete shifted first jets. The selected-coordinate scalar disk already exists; a nonzero-t polymer-activity disk and the physical pullbacks remain open.",
         "The result is local only in independent (U,J,B) coordinates and does not prove the physical U/J pullbacks, marginal projection, large fields, iteration, continuum construction, axioms, infrared decay, or mass gap."
       ],
       "falsification_tests": [
@@ -961,7 +961,7 @@
       "open_objections": [
         "No independent human review has been recorded.",
         "Independently audit YM-RG-026's discharge of the positive marked-seed A-to-output kernel, colour erasure, scale conversion, decorated marked norm, and fixed-gas differentiated convergence hypotheses.",
-        "Prove a nonvanishing common external-source disk if convergence beyond the first derivative at t=0 is needed.",
+        "Construct source-dependent polymer activities and uniform KP convergence on a nonzero-t disk if convergence beyond the first derivative at t=0 is needed; do not confuse this with the existing selected-coordinate scalar disk.",
         "Repeat the complete construction uniformly on each admitted shifted partition before the normalized branchwise average.",
         "Independently review YM-RG-025's immutable-page transcription and the conclusion that every fluctuation coordinate used by the mark lies under the marked seed cutoff."
       ],
@@ -994,7 +994,7 @@
         "The unbounded-X transformed-plaquette obstruction in an earlier version was based on an incorrect variable map and is superseded by YM-RG-025. A different genuinely weakening-dependent mark would still require the general joint-majorant hypotheses here.",
         "The positive seed-dependent kernel is defined here only conditionally. YM-RG-026 subsequently proves its source-faithful plaquette specialization through the D/P/Z_0 and scale resummations on one fixed partition; a genuinely weakening-dependent mark still needs the general hypotheses of this claim.",
         "A smaller marked analytic radius produces an explicit factor exponential in the number of weakening variables. No tree-metric conversion for that loss is silently assumed.",
-        "YM-RG-023 supplies an abstract standard-cube output-animal, monotone-metric, pinned Kotecky-Preiss, and literal-union hull implication; YM-RG-024 maps the final ordinary source gas through that extension and supplies a displayed-hierarchy ordinary KP window; YM-RG-026 closes the decorated marked norm and, under that separate ordinary ceiling, the differentiated first-jet sum on one fixed gas. No common external-source disk, shifted synchronization, physical U/J pullback, large-field estimate, iteration, continuum construction, axioms, infrared decay, or mass gap is proved."
+        "YM-RG-023 supplies an abstract standard-cube output-animal, monotone-metric, pinned Kotecky-Preiss, and literal-union hull implication; YM-RG-024 maps the final ordinary source gas through that extension, YM-RG-026 closes the decorated marked norm on one fixed gas, and YM-RG-027 synchronizes the shifted first jets. No nonzero-t polymer-activity disk, physical U/J pullback, large-field estimate, iteration, continuum construction, axioms, infrared decay, or mass gap is proved."
       ],
       "falsification_tests": [
         "Replace the whole-product contour by separate product-rule estimates and expose the artificial 2^|S| or larger derivative-allocation factor.",
@@ -1009,7 +1009,7 @@
         "No independent human review has been recorded.",
         "Independently review YM-RG-025's full conditioned Eq. (2.14) transcription and fixed-term cutoff domination.",
         "Independently audit YM-RG-026's claim that the actual plaquette specialization passes every positive resummation without hidden support, collision, or derivative-allocation entropy.",
-        "Prove the common external-source disk and shifted-branch interfaces before using the fixed-gas first derivative as a physical synchronized observable."
+        "Audit YM-RG-027's shifted first-jet interface, then construct the nonzero-t polymer-activity disk and physical pullbacks before using the result as a physical synchronized observable."
       ],
       "novelty_claim": false,
       "provenance": "AI-assisted elementary whole-integrand Cauchy corollary and obstruction audit keyed to Balaban's unmarked weakening construction; no marked theorem is attributed to the source and no novelty is claimed.",
@@ -1041,7 +1041,7 @@
         "This claim alone does not identify the source. YM-RG-024 subsequently maps the final connected ordinary RG-II gas through the one-sided monotone-metric extension, but does not identify intermediate localization families or decorated marked activities.",
         "The geometric animal threshold is deliberately crude and sufficient, not necessary; its four-dimensional constant is far stronger than earlier input cube-count bookkeeping.",
         "The pinned implication assumes a pointwise ordinary activity bound whose amplitude beats the hull-contact fugacity and animal constant. YM-RG-024 subsequently verifies a displayed-hierarchy-compatible sufficient window for the final ordinary source amplitude; its compatibility with unenumerated imported restrictions remains conditional.",
-        "YM-RG-025 subsequently proves the fixed-term marked conditioned-contour domination, and YM-RG-026 closes the marked resummation, final norm, and, under YM-RG-024's separate ordinary ceiling, differentiated first-jet sum on one fixed gas. A common external-source disk and shifted synchronization remain open.",
+        "YM-RG-025 subsequently proves the fixed-term marked conditioned-contour domination, YM-RG-026 closes the marked resummation and one-gas norm, and YM-RG-027 synchronizes the complete shifted first jets. A nonzero-t polymer-activity disk and physical pullbacks remain open.",
         "No physical pullback, large-field estimate, RG iteration, continuum construction, axioms, infrared decay, or mass gap follows."
       ],
       "falsification_tests": [
@@ -1089,7 +1089,7 @@
         "Equation (2.38) is unmarked. No derivative, decorated marked species bound, marked gluing estimate, or rooted marked norm follows from it alone. YM-RG-025 separately proves fixed-term marked domination, and YM-RG-026 then proves a one-colour fixed-partition resummation as a repository corollary under stronger smallness.",
         "C3 is finite but symbolic and includes an unspecified O(1), source parameters, and M^q. The explicit epsilon1 window may therefore be extremely small and is sufficient rather than sharp.",
         "The norm notation is a repository supremum of the source's pointwise bound on the relevant fixed-output analytic domain, not a verbatim source formula or a common external-observable source disk.",
-        "No shifted synchronization, physical pullback, marginal projection, large-field estimate, RG iteration, continuum construction, axioms, infrared decay, or mass gap follows."
+        "This ordinary-gas claim itself proves no shifted result; YM-RG-027 separately synchronizes the marked first jets. No nonzero-t polymer-activity disk, physical pullback, marginal projection, large-field estimate, RG iteration, continuum construction, axioms, infrared decay, or mass gap follows."
       ],
       "falsification_tests": [
         "Apply the identification before Eq. (2.10) and encounter disconnected preactivities and mixed-scale intermediate supports.",
@@ -1106,7 +1106,7 @@
         "No independent human review has been recorded.",
         "The source hierarchy and the monotone epsilon1 refinement should be checked line by line against every earlier parameter restriction, including any hidden dependence entering C3.",
         "The auxiliary one-vertex degenerate-tree convention is not attributed to the source; only the proved one-sided metric comparison and direct source-metric connector are used. The fixed-output analytic-domain supremum remains a repository formalization rather than a verbatim source formula.",
-        "YM-RG-026 closes the fixed-partition marked norm and first derivative at t=0, but a common source disk, shifted synchronization, and every physical application remain open."
+        "YM-RG-026 closes the fixed-partition marked norm and first derivative at t=0, and YM-RG-027 separately synchronizes the shifted first jets. A nonzero-t polymer-activity disk and every physical application remain open."
       ],
       "novelty_claim": false,
       "provenance": "AI-assisted primary-page source mapping and algebraic sufficient-parameter refinement of Balaban's final ordinary gas; no marked theorem is attributed to the source and no novelty is claimed.",
@@ -1137,7 +1137,7 @@
         "Balaban prints no marked factor or marked theorem. The source establishes the unshifted routing for F(Z_0,B); the insertion and pointwise marked bound are repository corollaries.",
         "This claim itself bounds one fixed auxiliary history only. YM-RG-026 subsequently proves the positive marked-seed D/P/Z_0 and scale resummations under an explicit doubled-amplitude refinement.",
         "The earlier unbounded-X transformed-mark obstruction is retracted for this source routing. A genuinely weakening-dependent or shifted mark would still require the general joint-majorant hypotheses of YM-RG-022.",
-        "YM-RG-026 subsequently closes the decorated final marked norm and differentiated first-jet sum on one fixed gas. No common external-source disk, shifted synchronization, physical U/J pullback, large-field estimate, iteration, continuum construction, axioms, infrared decay, or mass gap follows."
+        "YM-RG-026 subsequently closes the decorated final marked norm and differentiated first-jet sum on one fixed gas, and YM-RG-027 synchronizes the completed shifted first jets. No nonzero-t polymer-activity disk, physical U/J pullback, large-field estimate, iteration, continuum construction, axioms, infrared decay, or mass gap follows."
       ],
       "falsification_tests": [
         "Give F(Z_0,B) an X-shift in Eq. (2.6) and compare with the immutable page.",
@@ -1153,7 +1153,7 @@
         "Independently verify the immutable PDF hash, exact Eq. (2.14) dependency map, and the absence of any hidden second-stage weakening argument in F(Z_0,B).",
         "Check that every fluctuation coordinate used by the first-stage localized mark lies under chi_{k,Y_0^bullet}, including the source's independent-bond and boundary conventions.",
         "Independently audit YM-RG-026's positive marked-seed A-to-output resummation, colour-erasure comparison, and k-to-k+1 scale conversion.",
-        "Keep the common source disk, shifted synchronization, physical pullbacks, large fields, iteration, continuum construction, and mass gap outside this fixed-term claim."
+        "Keep YM-RG-027's separate shifted synchronization, the nonzero-t polymer-activity disk, physical pullbacks, large fields, iteration, continuum construction, and mass gap outside this fixed-term claim."
       ],
       "novelty_claim": false,
       "provenance": "AI-assisted immutable-page source correction plus a finite-dimensional cutoff-domination corollary for one already localized mark; no marked theorem is attributed to Balaban and no novelty is claimed.",
@@ -1193,8 +1193,8 @@
         "Compatibility with every imported but unenumerated source restriction remains conditional on downward epsilon_1 monotonicity; only the displayed hierarchy and explicit doubled conditions are checked.",
         "The connected first-jet conclusion separately assumes YM-RG-024's ordinary KP ceiling; it is not implied by the doubled-epsilon_2 scale conditions.",
         "The final animal and hull steps use a one-sided auxiliary-to-source metric comparison plus a direct source-metric connector, not equality with the auxiliary degenerate metric.",
-        "The conclusion is a first derivative at t=0 on one fixed gas, not analyticity or nonvanishing on a common external-source disk.",
-        "No shifted-partition synchronization, physical U/J pullback, intrinsic/raw comparison, large-field estimate, RG iteration, continuum construction, Osterwalder-Schrader axioms, infrared decay, or mass gap follows."
+        "The conclusion is a first derivative at t=0 on one fixed gas, not source-dependent polymer analyticity or KP convergence on a nonzero-t disk. YM-RG-007/YM-RG-010 already provide the distinct selected-coordinate scalar zero-free disk.",
+        "YM-RG-027 separately synchronizes the complete shifted first jets. No physical U/J pullback, intrinsic/raw comparison, large-field estimate, RG iteration, continuum construction, Osterwalder-Schrader axioms, infrared decay, or mass gap follows."
       ],
       "falsification_tests": [
         "Insert a 1/|D|! into RG II Eq. (2.1), or deduplicate an ordinary support equal to A, and lose the exact two-preimage collision factor.",
@@ -1213,10 +1213,72 @@
         "Independently recheck the immutable RG-II pages, especially the finite-subfamily convention, Eqs. (2.27)-(2.38), and every source O(1) absorbed into C_geom.",
         "Verify the colour-erasure map is coefficientwise for every allowed scale-stage history and that all earlier A-in-D multiplicity is absorbed exactly once.",
         "Reconstruct every imported parameter restriction and verify the doubled-amplitude refinement preserves the complete hierarchy.",
-        "Prove a common source disk, shifted-branch synchronization, and physical pullbacks before using the fixed-partition first jet as a physical observable."
+        "Independently audit YM-RG-027's shifted-branch synchronization, then construct the nonzero-t polymer-activity disk and physical pullbacks before using the first jet as a physical observable."
       ],
       "novelty_claim": false,
       "provenance": "AI-assisted one-colour positive-resummation corollary of Balaban's unmarked finite RG-II estimates, with exact algebra and boundaries exposed for audit; no novelty claimed.",
+      "last_audited_commit": null
+    },
+    {
+      "id": "YM-RG-027",
+      "kind": "Lemma",
+      "statement": "At one finite SU(2) regulator with LM dividing N, lift each RG-admitted input shift modulo M to all nested two-scale shifts s in (L Z/LM Z)^4 and run the complete unmarked and one-mark RG-II Section-2 construction on each separate branch over the dual numbers. Transported Lemma-2 reconstruction, the rooted mark identity, and the exact cutoff, Gaussian-conditioning, weakening, and component identities give I_p^D=S_s(Z_s-epsilon N_{p,s}) with nonzero epsilon-independent S_s, so every branch has the same projective logarithmic first jet N_{p,s}/Z_s. Under YM-RG-026's uniform marked hypotheses and separate ordinary KP ceiling, normalizing only the completed connected coefficients by 1/(L^4 n_p) gives an all-plaquette shifted-family representation with no orbit or lift factor and rooted output norm at exponent kappa bounded by exp(16 alpha) C_sec C_an^geom(Delta) B_d.",
+      "scope_and_quantifiers": "One finite selected RG-coordinate small-field regulator; SU(2); M=L^m with m>=2 and LM dividing N; one plaquette source derivative at t=0; independent (U,J,B) variables restricted, for projective comparison and summation, to the nonempty common intersection of the transported admitted branch domains; separate hard-core gas on every nested shift branch. The claim synchronizes first jets, not source-dependent polymer activities at nonzero t.",
+      "status": "proved-in-repo",
+      "evidence_level": "E2",
+      "dependencies": [
+        "YM-RG-007",
+        "YM-RG-010",
+        "YM-RG-014",
+        "YM-RG-020",
+        "YM-RG-021",
+        "YM-RG-024",
+        "YM-RG-025",
+        "YM-RG-026"
+      ],
+      "external_hypotheses": [
+        "RG I's coarse-lattice-preserving covariance and induced orthogonal fluctuation-coordinate transformation, and RG II Lemma 2 Eqs. (1.41)-(1.43) plus the exact finite identities Eqs. (2.1)-(2.13).",
+        "The global cutoff and Gaussian law are transported representations of one fixed source-free integral; every restricted covariance, determinant, conditioned measure, weakening family, and output component is recomputed on its own shifted branch.",
+        "For each plaquette, the finitely many transported branch domains have a nonempty common holomorphic intersection containing one common physical real source-free point; all compared first jets use the same external (U,J) in that intersection.",
+        "The periodic regulator admits the nested side-M and side-LM cubulations, with LM dividing N, and all two-stage generalized-random-walk choices are made equivariant under the nested-pair stabilizer.",
+        "YM-RG-026's doubled-amplitude refinement, symbolic uniform K_lift envelope, imported-restriction monotonicity caveat, and separate ordinary ceiling 0<epsilon_1<=epsilon_KP hold uniformly on every transported branch."
+      ],
+      "sources": [
+        "https://doi.org/10.1007/BF01215223",
+        "https://doi.org/10.1007/BF01239022",
+        "https://arxiv.org/abs/math-ph/0605041v2",
+        "https://doi.org/10.1007/s00220-007-0279-2"
+      ],
+      "proof_anchor": "research/notes/0027-shifted-first-jet-synchronization.md",
+      "known_limitations": [
+        "Balaban proves the source-free one-cubulation formulas. The nested stabilizer average, dual-number mark, projective branch comparison, and normalized shifted connected sum are repository corollaries.",
+        "The L^4 lifts are distinct two-scale branches sharing an input residue, not identical post-Section-2 coefficients; their factor disappears only because every complete branch is normalized after its own connected map.",
+        "The selected-coordinate scalar ratio was already zero-free on the YM-RG-007/YM-RG-010 disk, including |t|<log(2)/4 for one plaquette. This claim does not construct holomorphic source-dependent polymer activities or uniform KP convergence for t!=0 on that disk.",
+        "Existence of the common branch-domain intersection is an explicit finite-regulator hypothesis, not a global compatible-atlas theorem.",
+        "The result remains in independent variables. It does not supply the uniform scaled nonlinear U pullback, discharge YM-RG-019's all-layer J premises, identify the selected law with the unrestricted raw transform, or prove unit-translation covariance.",
+        "Compatibility with imported but unenumerated source restrictions remains conditional on the same downward-smallness premise as YM-RG-026.",
+        "No marginal projection, large-field estimate, RG iteration, continuum or infinite-volume construction, Osterwalder-Schrader axioms, infrared decay, or mass gap follows."
+      ],
+      "falsification_tests": [
+        "Retain only an input shift modulo M without specifying the output LM-cubulation and expose representative-dependent roots or metrics.",
+        "Replace the shifted unmarked Lemma-2 identity by covariance of the bare mark and reproduce the two-branch unequal-denominator counterexample.",
+        "Use a genuinely partition-modified cutoff or Gaussian law rather than an exact conditioning and inclusion-exclusion representation of the same global integral.",
+        "Compare branch ratios at external coordinates outside a nonempty common branch-domain intersection.",
+        "Mix shift labels inside one gas, average unmarked activities before the logarithm, or normalize both the bare mark and the completed branch coefficient.",
+        "Let the source parameter enter the cutoff, covariance, determinant, background, or chart and recover omitted derivative terms.",
+        "Use the selected-law scalar zero-free disk to claim source-dependent polymer activities or KP convergence at nonzero source.",
+        "Promote the finite independent-variable first jet to a physical continuum observable or mass gap without the remaining gates."
+      ],
+      "reviewers": [],
+      "open_objections": [
+        "No independent human review has been recorded.",
+        "Independently verify the transported unmarked Lemma-2 reconstruction, fixed global cutoff/Gaussian identity, every Section-2 relabelling, and the nonzero scalar normalization.",
+        "Audit the nested shift count, LM divisibility, inherited output root, stabilizer equivariance, metric transport, and normalization after rather than before each branch connected map.",
+        "Independently audit YM-RG-026's uniformity over all transported branches and the distinction between the existing scalar source disk and the still-open nonzero-t polymer-activity disk.",
+        "Complete the physical U/J pullbacks and every continuum and infrared gate before making a Yang-Mills claim."
+      ],
+      "novelty_claim": false,
+      "provenance": "AI-assisted finite-dimensional transport and projective first-jet corollary of Balaban's exact source-free RG identities, with explicit failure cases and no novelty claimed.",
       "last_audited_commit": null
     },
     {
@@ -1250,7 +1312,8 @@
         "YM-RG-023",
         "YM-RG-024",
         "YM-RG-025",
-        "YM-RG-026"
+        "YM-RG-026",
+        "YM-RG-027"
       ],
       "external_hypotheses": [
         "The exact Eq. (0.12) averaging map, raw group-delta transform, fixed small-field domain, local gauge chart, minimizing branch, and background-propagator estimates recorded in the imported-map audit.",
@@ -1267,7 +1330,7 @@
       "proof_anchor": "research/programs/003-first-source-jet-remainder.md",
       "known_limitations": [
         "This is an unproved small-field theorem specification.",
-        "YM-RG-010 fixes the operational selected-coordinate law, YM-RG-012 supplies a conditional independent-variable cube-count norm, YM-RG-013 upgrades the standard branch to d_k, YM-RG-014 supplies an all-plaquette shifted cover, YM-RG-015 supplies fixed-patch analytic physical composition, YM-RG-016 supplies conditional independent-variable derivative norms, YM-RG-017 supplies a one-layer J pullback, YM-RG-018 rules out naive raw U collars, YM-RG-019 supplies a conditional all-layer J pullback, YM-RG-020 supplies fixed-gas Ursell algebra, YM-RG-021 supplies the exact fixed-partition marked map, YM-RG-023 and YM-RG-024 close the ordinary hull/KP mapping, YM-RG-025 closes the fixed-term marked bound, and YM-RG-026 closes the marked resummation, norm, and first jet on one fixed gas. Intrinsic/raw comparison, global chart compatibility, the scaled U pullback, discharge of YM-RG-019's premises, unit translations, a common source disk, shift synchronization, the physical connected expansion, and projection remain open.",
+        "YM-RG-010 fixes the operational selected-coordinate law, YM-RG-012 supplies a conditional independent-variable cube-count norm, YM-RG-013 upgrades the standard branch to d_k, YM-RG-014 supplies an all-plaquette shifted cover, YM-RG-015 supplies fixed-patch analytic physical composition, YM-RG-016 supplies conditional independent-variable derivative norms, YM-RG-017 supplies a one-layer J pullback, YM-RG-018 rules out naive raw U collars, YM-RG-019 supplies a conditional all-layer J pullback, YM-RG-020 supplies fixed-gas Ursell algebra, YM-RG-021 supplies the exact fixed-partition marked map, YM-RG-023 and YM-RG-024 close the ordinary hull/KP mapping, YM-RG-025 closes the fixed-term marked bound, YM-RG-026 closes the marked resummation and norm on one fixed gas, and YM-RG-027 synchronizes the shifted first jets. Intrinsic/raw comparison, global chart compatibility, the scaled U pullback, discharge of YM-RG-019's premises, unit translations, a nonzero-t polymer-activity disk, the physical connected expansion, and projection remain open.",
         "Even a proof would leave the second jet, large fields, RG iteration, continuum construction, and mass gap open."
       ],
       "falsification_tests": [
@@ -1280,8 +1343,8 @@
       "reviewers": [],
       "open_objections": [
         "YM-RG-009 proves patch-local transported-chart covariance, but global overlap compatibility and comparison with the unrestricted raw transform remain open.",
-        "YM-RG-017 supplies the direct-J collar and one-layer J pullback; YM-RG-018 proves that naive raw U collars collapse; YM-RG-019 supplies the all-layer J bridge only under unverified premises; and YM-RG-026 supplies the independent-variable one-fixed-partition marked norm and first jet. The scaled U collar and pullback, discharge of those premises, unit translations, a common source disk, and shifted synchronization remain open.",
-        "YM-RG-020 through YM-RG-026 now close the fixed-partition marked algebra, positive resummation, decorated norm, ordinary KP interface, and connected derivative at t=0. Shift synchronization and a convergent physical cluster expansion remain unproved.",
+        "YM-RG-017 supplies the direct-J collar and one-layer J pullback; YM-RG-018 proves that naive raw U collars collapse; YM-RG-019 supplies the all-layer J bridge only under unverified premises; YM-RG-026 supplies the independent-variable fixed-gas marked norm; and YM-RG-027 synchronizes the shifted first jets. The scaled U collar and pullback, discharge of those premises, unit translations, and a nonzero-t polymer-activity disk remain open.",
+        "YM-RG-020 through YM-RG-027 now close the fixed-partition marked algebra, positive resummation, decorated norm, ordinary KP interface, connected derivative at t=0, and branchwise first-jet synchronization. A convergent physical pulled-back cluster expansion remains unproved.",
         "Uniform locality of the projected first-jet sector is unproved."
       ],
       "novelty_claim": false,
@@ -1318,7 +1381,8 @@
         "YM-RG-023",
         "YM-RG-024",
         "YM-RG-025",
-        "YM-RG-026"
+        "YM-RG-026",
+        "YM-RG-027"
       ],
       "external_hypotheses": [
         "The selected RG I Eq. (0.12) averaging map and raw group-delta transform, the separately named YM-RG-010 exact coordinate law, an explicit intrinsic-coordinate-unrestricted distinction, exact marked domain/norm transcription, and every needed source-free small- and large-field estimate verified in full text before use."
@@ -1343,7 +1407,7 @@
       ],
       "reviewers": [],
       "open_objections": [
-        "The selected branch has patch-local transported-chart covariance, a source disk, an all-plaquette coarse-lattice-equivariant d_k marked family, fixed-patch physical composition, conditional J pullbacks, a proof that naive raw U collars collapse, and YM-RG-020 through YM-RG-026's fixed-partition marked algebra, positive resummation, final norm, ordinary KP interface, and connected derivative at t=0. YM-RG-019's geometric premises, the scaled U pullback, global overlap compatibility, unit translations, a common source disk for the final gas, shift synchronization, the physical connected estimate, later profile norms, and relation to the unrestricted raw transform remain open.",
+        "The selected branch has patch-local transported-chart covariance, a scalar source disk, an all-plaquette coarse-lattice-equivariant d_k marked family, fixed-patch physical composition, conditional J pullbacks, a proof that naive raw U collars collapse, and YM-RG-020 through YM-RG-027's fixed-partition algebra, positive resummation, final norm, ordinary KP interface, connected derivative at t=0, and shifted first-jet synchronization. YM-RG-019's geometric premises, the scaled U pullback, global overlap compatibility, unit translations, a nonzero-t polymer-activity disk, the physical connected estimate, later profile norms, and relation to the unrestricted raw transform remain open.",
         "The theorem may duplicate or fail to follow from existing source-free estimates.",
         "The source-dependent extension of the separate large-field operation has not been derived."
       ],

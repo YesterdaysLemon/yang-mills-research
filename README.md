@@ -48,13 +48,15 @@ The main route is a Wilson lattice regulator followed by gauge-covariant renorma
 - [Note 0024: Balaban final-gas cubical instantiation and explicit KP window](research/notes/0024-balaban-final-gas-instantiation.md)
 - [Note 0025: source-faithful conditioned routing of one localized mark](research/notes/0025-conditioned-mark-routing.md)
 - [Note 0026: positive marked-seed resummation through the RG-II scale step](research/notes/0026-marked-seed-resummation.md)
+- [Note 0027: shifted first-jet synchronization through nested Section-2 branches](research/notes/0027-shifted-first-jet-synchronization.md)
 - [Bałaban theorem-level source map](literature/audits/2026-07-22-balaban-source-map.md)
 - [Bałaban imported-map audit](literature/audits/2026-07-22-balaban-imported-map.md)
 - [Bałaban final-gas/KP source audit](literature/audits/2026-07-22-balaban-final-gas-kp-map.md)
 - [Bałaban conditioned-mark routing audit](literature/audits/2026-07-23-balaban-conditioned-mark-routing.md)
 - [Bałaban marked-resummation source audit](literature/audits/2026-07-23-balaban-marked-resummation.md)
+- [Bałaban shifted first-jet transport audit](literature/audits/2026-07-23-balaban-shifted-first-jet-transport.md)
 
-Programs 002 and 003 are open theorem specifications, not results. The notes prove auxiliary finite-regulator and fixed-chart statements for a selected small-field branch; they do not identify that branch with the unrestricted raw transform. Notes 0021, 0025, and 0026 now carry one interior plaquette mark through the exact fixed-partition RG-II algebra, the source-faithful conditioned formula, and the positive \(D/P/Z_0\) plus scale resummations. Under the explicit doubled-\(\varepsilon _2\) refinement, this gives a fixed-partition pointwise bound and aggregated rooted marked norm; with Note 0024's separate ordinary KP ceiling, it also gives an absolutely convergent connected first derivative at \(t=0\). The result is still only in independent variables on one fixed gas. A common external-source disk, shifted-partition synchronization, unit-translation covariance, the scaled nonlinear \(U\) pullback, uniform realization of Note 0019's \(J\)-bridge premises, large fields, RG iteration, continuum construction, axioms, infrared decay, and the mass gap remain open. No Yang--Mills solution is claimed here.
+Programs 002 and 003 are open theorem specifications, not results. The notes prove auxiliary finite-regulator and fixed-chart statements for a selected small-field branch; they do not identify that branch with the unrestricted raw transform. Notes 0021, 0025, and 0026 carry one interior plaquette mark through the exact fixed-partition RG-II algebra, the source-faithful conditioned formula, and the positive \(D/P/Z_0\) plus scale resummations. Under the explicit doubled-\(\varepsilon _2\) refinement and Note 0024's separate ordinary KP ceiling, this gives an absolutely convergent connected first derivative at \(t=0\). Under the added periodic compatibility \(LM\mid N\) and a nonempty common external branch domain, Note 0027 repeats the complete construction on every nested shifted branch, proves that all branch numerator/denominator pairs reconstruct the same dual-number integral up to a nonzero scalar, and averages only the completed connected coefficients. The selected-coordinate scalar source disk was already proved in Notes 0007 and 0010. Source-dependent polymer activities at nonzero source, unit-translation covariance, the scaled nonlinear \(U\) pullback, uniform realization of Note 0019's \(J\)-bridge premises, large fields, RG iteration, continuum construction, axioms, infrared decay, and the mass gap remain open. No Yang--Mills solution is claimed here.
 
 Note 0020 settles the exact distinguished-vertex Ursell formula, including
 its \(1/n!\) coefficient, repeated labels, and a conditional pinned cluster
@@ -72,6 +74,14 @@ controls all later scale-stage choices. This yields
 \((1-8\delta)(L/2)\kappa\) pointwise exponent, the
 \((1-9\delta)(L/2)\kappa\) rooted marked norm, and the fixed-gas connected
 first-jet output at exponent \(\kappa\).
+
+Note 0027 resolves the former shifted synchronization hypothesis at the
+first-jet level, under \(LM\mid N\) and its explicit nonempty common-domain
+hypothesis. It lifts input shifts modulo \(M\) to nested two-scale branches
+modulo \(LM\), runs each gas separately over
+\(\mathbb C[\epsilon]/(\epsilon^2)\), and proves projective equality before
+forming the logarithm. Normalizing the completed branch coefficients by the
+full lifted count costs no orbit factor. No cross-shift gas is introduced.
 
 Under its stated common \(L^1\)-holomorphy and joint-majorant hypotheses,
 Note 0022 proves that Eq. (2.8)'s whole-integrand weakening contour carries
@@ -99,10 +109,12 @@ displayed-hierarchy-compatible
 \((\kappa,\varepsilon _1)\) sub-hierarchy satisfying the repository's
 explicit ordinary pinned-KP inequality. Note 0026 imports that ordinary
 ceiling separately from its doubled-\(\varepsilon _2\) scale refinement.
-This is not yet the Yang--Mills estimate: Note 0026 closes the final
-decorated marked norm and connected first derivative only for one fixed gas
-at \(t=0\). A common external-source disk, shifted synchronization, physical
-pullbacks, and every continuum and infrared gate remain open.
+This is not yet the Yang--Mills estimate: Note 0027 synchronizes only the
+independent-variable first derivative at \(t=0\). The exact selected-coordinate
+scalar ratio is already zero-free for one plaquette on
+\(|t|<\log 2/4\), but no source-dependent polymer activities or uniform KP
+theorem on that disk is proved. Physical pullbacks and every continuum and
+infrared gate remain open.
 
 ## Evidence discipline
 

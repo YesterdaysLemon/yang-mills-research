@@ -311,6 +311,12 @@ Program 003 may target a marked-polymer expansion for (19). It may not call
 (19) the exact intrinsic-coarea conditional jet or the unrestricted raw-fiber
 conditional jet until a separate density-matching theorem is proved.
 
+Subsequent Notes 0021--0027 construct and synchronize a connected polymer
+representation of this selected-coordinate first jet at \(t=0\), in
+independent RG variables and under their explicit smallness hypotheses.
+That later result does not construct source-dependent polymer activities or
+uniform KP convergence throughout the scalar disk (16).
+
 ## Exact boundary
 
 - The law is the exact normalized RG-I Eq. (2.13) selected-coordinate law, not

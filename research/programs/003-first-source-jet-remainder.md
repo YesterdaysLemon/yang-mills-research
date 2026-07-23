@@ -127,8 +127,12 @@ the fixed-term marked bound with zero relative-moment cost. Note 0026 proves
 the positive marked-seed and scale resummations, decorated marked norm, and
 connected first derivative at \(t=0\) on one fixed gas under an explicit
 doubled-amplitude refinement and Note 0024's separate ordinary KP ceiling.
-A common source disk and shifted synchronization remain open. The scaled
-\(U\) pullback, uniform
+Under the added \(LM\mid N\) and nonempty common-domain hypotheses, Note 0027
+lifts the two-scale cubulations, reconstructs the same dual-number integral
+on every separate shifted branch, and synchronizes their connected first jets
+with no orbit factor. Notes 0007 and 0010 already give the selected-coordinate
+scalar source disk; source-dependent polymer activities and KP convergence at
+nonzero source remain open. The scaled \(U\) pullback, uniform
 realization of Note 0019's premises, and full physical coarse-field
 derivative/quasilocal norm,
 unit-translation covariance and a physical convergent connected marked
@@ -211,8 +215,9 @@ infrared conclusions.
   exact text-layer-dropped prefactor is printed as transcribed in RG II;
 - the normalized RG-admitted shifted-family cover for every plaquette and
   transport under the subgroup preserving the next coarse lattice (Note
-  0014), without unit-translation covariance, one-fixed-partition cluster
-  compatibility, or minimizing-background quasilocality;
+  0014), without unit-translation covariance or minimizing-background
+  quasilocality; Note 0027 later supplies separate-branch first-jet
+  compatibility, not a mixed gas;
 - the conditional fixed-chart physical composition, exact all-plaquette
   identity, fluctuation locality, centering, \(U\)-and-\(J\) chain rules,
   transported real-chart covariance, and inherited zeroth-order \(d_k\) norm
@@ -248,8 +253,9 @@ infrared conclusions.
   source-faithful fixed-term marked contour domination with zero moment cost
   (Note 0025), followed by the positive marked-seed/scale resummation,
   decorated marked norm, and fixed-gas connected first derivative at \(t=0\)
-  (Note 0026), but without a common source disk or synchronized shifted RG
-  construction needed for the physical application;
+  (Note 0026), and the nested shifted first-jet synchronization with no orbit
+  factor (Note 0027), but without nonzero-source polymer activities or the
+  physical \(U/J\) pullbacks;
 - background-propagator decay and change-of-domain estimates;
 - RG I/II source-free local analytic polymer expansions.
 
@@ -270,8 +276,8 @@ None of those inputs supplies the displayed source-inserted polymer theorem.
    with strict entropy slack; see Note 0013.
 5. [x] Cover every plaquette by the RG-admitted shifted family and record
    transport under the subgroup preserving the next coarse lattice; see Note
-   0014. Full unit-translation covariance and cluster-partition compatibility
-   remain open.
+   0014. Full unit-translation covariance remains open; Note 0027 later
+   supplies first-jet compatibility by keeping every complete gas separate.
 6. [x] Compose the shifted family with one common holomorphic physical
    \((U,J)\) pair, prove centering and the exact chain
    rules, and preserve the zeroth-order norm; see Note 0015.
@@ -306,11 +312,17 @@ None of those inputs supplies the displayed source-inserted polymer theorem.
     zero moment loss. Note 0026 proves the marked-seed/scale resummation,
     final norm, and connected derivative at \(t=0\) under its doubled
     hierarchy plus the separate ordinary KP ceiling.
-11. [ ] Construct a common source disk and synchronize the complete
-    fixed-partition construction over every admitted shift without
-    cross-shift gas interactions; then compose the physical \(U/J\)
-    pullbacks.
-12. [ ] Perform the full symmetry/Ward-identity projection on the marked first
+11. [x] Synchronize the complete fixed-partition construction over every
+    admitted nested shift at first-jet level without cross-shift gas
+    interactions, under \(LM\mid N\) and the nonempty common-domain
+    hypothesis; see Note 0027.
+12. [ ] Compose the physical \(U/J\) first-jet pullbacks by constructing the
+    scaled nonlinear \(U\) collar and discharging Note 0019's geometric and
+    uniform-chart premises.
+13. [ ] Separately construct source-dependent polymer activities and uniform
+    KP convergence on a nonzero-source disk. The selected-coordinate scalar
+    disk itself is already supplied by Notes 0007 and 0010.
+14. [ ] Perform the full symmetry/Ward-identity projection on the marked first
    jet and classify all position/orientation mixing.
 
 ## Falsification tests

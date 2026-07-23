@@ -456,7 +456,10 @@ positive \(D/P/Z_0\) and scale resummations, controls the decorated
 multiplicity by a doubled-amplitude susceptibility, and obtains the rooted
 marked norm plus the absolutely convergent connected derivative at \(t=0\)
 on one fixed gas. It does **not** construct the regulator-uniform common
-source disk named in the fourth bullet. The last two bullets remain open.
+polymer-activity disk named in the fourth bullet. Subsequent Note 0027 closes
+the first-jet part of the fifth bullet by completing every nested shifted gas
+separately; the physical \(U/J\) pullbacks remain open. The exact
+selected-coordinate scalar disk was already proved in Notes 0007 and 0010.
 
 ## Exact boundary
 

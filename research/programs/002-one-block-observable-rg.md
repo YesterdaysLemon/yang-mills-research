@@ -151,8 +151,13 @@ Eq. (1.34) norm and zero relative-moment cost. [Note
 marked-seed and scale resummations, the aggregated decorated marked norm, and
 the absolutely convergent first derivative at \(t=0\) on one fixed gas under
 an explicit doubled-amplitude refinement together with Note 0024's separate
-ordinary KP ceiling. A common source disk and shifted-branch synchronization
-remain unproved.
+ordinary KP ceiling. [Note
+0027](../notes/0027-shifted-first-jet-synchronization.md) repeats the complete
+construction on nested shifted branches and synchronizes their first jets,
+under the added \(LM\mid N\) and common-domain hypotheses, without mixing
+gases or paying an orbit factor. The selected-coordinate scalar source disk
+was already proved in Notes 0007 and 0010; a source-dependent
+polymer-activity disk remains unproved.
 Unit-translation covariance, the scaled nonlinear \(U\) collar and pullback,
 uniform realization of Note 0019's premises,
 the full physical coarse-background derivative norm, and a physical rooted
@@ -318,8 +323,9 @@ and no mass gap.
 - [x] Cover every plaquette by the normalized RG-admitted shifted family with
   no additional orbit entropy and prove transport under the subgroup
   preserving the next coarse lattice; see Note 0014. Unit translations and
-  synchronized fixed-partition cluster compatibility for every shift remain
-  open; Note 0021 proves only the exact algebra on one compatible branch.
+  nonzero-source polymer activities remain open; Note 0027 subsequently
+  proves synchronized first-jet compatibility by keeping every complete
+  shifted gas separate.
 - [x] On one common holomorphic physical \((U,J)\) chart,
   compose the shifted family, preserve its exact identity, fluctuation
   locality, centering, covariance, and zeroth-order norm, and record the full
@@ -345,8 +351,8 @@ and no mass gap.
   algebra on one fixed compatible partition, define its decorated
   post-polymerization image, and prove the unique marked-component and exact
   hard-core numerator identities; see Note 0021. Note 0026 later proves the
-  summed marked norm and fixed-gas differentiated convergence; synchronized
-  shifted construction remains open.
+  summed marked norm and fixed-gas differentiated convergence, and Note 0027
+  synchronizes the shifted first jets.
 - [x] Apply one multivariable contour to the complete marked Eq. (2.8)
   integrand under explicit common \(L^1\)-holomorphy and joint-majorant
   hypotheses, retain no added product-rule multiplicity and the ordinary
@@ -361,7 +367,12 @@ and no mass gap.
 - [x] Prove the coloured \(D\)-family collision bound, \(P/Y_0/Z_0\)
   coefficient preservation, doubled-amplitude scale susceptibility,
   aggregated marked norm, and connected first-jet sum on one fixed gas; see
-  Note 0026. A common source disk and shifted synchronization remain open.
+  Note 0026.
+- [x] Lift the admitted shifts to nested input/output cubulations, reconstruct
+  the same dual-number integral on every separate gas, and average only the
+  completed connected coefficients under \(LM\mid N\) and the nonempty
+  common-domain hypothesis; see Note 0027. Source-dependent polymer activities
+  and uniform KP convergence at nonzero source remain open.
 - [x] In a separately declared standard closed-cube support model, prove the
   literal-union wall-contact hull inequality, a volume-uniform geometric
   animal bound, and explicit sufficient conditions for the canonical pinned
