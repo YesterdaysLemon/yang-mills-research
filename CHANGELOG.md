@@ -4,6 +4,29 @@ All notable research-structure and claim-status changes are recorded here. Mathe
 
 ## 2026-07-23
 
+- Added YM-RG-031. Under the common real-center hypothesis
+  \((\mathrm H_{\rm rc})\), the relative chart
+  \(\Phi_{\bar U}(a)=e^{i\xi a}\bar U\) has a full complex radius in a
+  concrete norm controlling the RG-I relative field, its
+  background-covariant derivative, and its covariant plaquette curl.
+- Proved the noncommuting ordered-plaquette estimate
+  \[
+  |d\Phi_{\bar U}(a)-1|_{\rm RG}
+  <
+  \xi^2[\bar a_U+c_+(r+8r^2e^{4\xi r})]
+  \]
+  and the explicit radius
+  \(r_U=\min\{1,a_1,(a_0-\bar a_U)/(c_+(1+8e^4))\}\). Proposition 7 was
+  audited but not used as a complex theorem.
+- Combined that \(U\) ball with
+  \(\Delta_J=\alpha _0-\bar a_J\), reran the completed marked construction
+  in the product \(H^\infty\) algebra, and obtained full dual bounds
+  \(B_{\rm conn}/r_U\) and \(B_{\rm conn}/\Delta_J\) without volume or
+  shifted-branch factors.
+- Kept uniform existence of the common real-center family, the Eq. (190)
+  physical \(U\) pullback, \((\mathrm H_\rho)\), mesh matching, and common
+  constants open. Added seven regressions, a pinned primary-source audit, and
+  OBJ-035; project status remains Exploratory E0 and unsolved.
 - Added YM-RG-030. Under the new completed representative compatibility
   hypothesis \((\mathrm H_J^{\rm conn})\), strengthening Note 0017's local
   \((\mathrm H_J)\), the output-scale RG-I/II domains admit the common

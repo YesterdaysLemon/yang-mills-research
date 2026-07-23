@@ -139,7 +139,13 @@ its completed compatibility hypothesis
 hypothesis or derive the ownership interface, bounded mesh, or common chart
 constants from the source. Note 0018 proves that naive
 raw and \(\xi\)-scaled bond-sup
-\(U\) collars collapse and leaves the RG-scaled replacement conditional.
+\(U\) collars collapse. [Note
+0031](../notes/0031-real-center-covariant-u-tube.md) supplies a concrete
+covariant-curl relative-log replacement and a full \(U/J\) product tube
+under the stronger common real-center hypothesis
+\((\mathrm H_{\rm rc})\). It proves both completed dual derivative norms but
+does not prove the common real-center family or the physical Eq. (190)
+\(U\)-kernel pullback.
 [Note 0020](../notes/0020-one-mark-ursell-identity.md) proves the exact
 distinguished-vertex Ursell formula and a conditional pinned bound on one
 fixed hard-core gas. [Note
@@ -172,8 +178,8 @@ under the added \(LM\mid N\) and common-domain hypotheses, without mixing
 gases or paying an orbit factor. The selected-coordinate scalar source disk
 was already proved in Notes 0007 and 0010; a source-dependent
 polymer-activity disk remains unproved.
-Unit-translation covariance, the scaled nonlinear \(U\) collar and pullback,
-proof of \((\mathrm H_J^{\rm conn})\), and the remaining Note 0019
+Unit-translation covariance, proof of \((\mathrm H_{\rm rc})\), the physical
+Eq. (190) \(U\) pullback, and the remaining Note 0019
 ownership/interface, mesh, and common-chart premises,
 the full physical coarse-background derivative norm, and a physical rooted
 connected bound remain open.
@@ -361,9 +367,11 @@ and no mass gap.
   discrete-tree-lift premise and supplies first-stage direct-\(J\) anchors.
   Note 0029 supplies completed-coefficient zero-halo anchors. Note 0030
   supplies the completed affine-\(J\) tube and derivative norm under
-  \((\mathrm H_J^{\rm conn})\). Proof of
-  \((\mathrm H_J^{\rm conn})\), the ownership interface, bounded mesh,
-  common constants, and the scaled nonlinear \(U\) pullback remain open.
+  \((\mathrm H_J^{\rm conn})\). Note 0031 supplies the covariant-\(U\)
+  product tube and both completed dual norms under
+  \((\mathrm H_{\rm rc})\). Proof of \((\mathrm H_{\rm rc})\), the
+  ownership interface, bounded mesh, common constants, and the physical
+  Eq. (190) \(U\) pullback remain open.
 - [x] Replace the continuous-tree digitization premise by a periodic
   covering-space endpoint estimate, including the safe \(\sqrt d\) slope
   and zero first-stage direct-\(J\) support halos; see Note 0028.
@@ -376,6 +384,10 @@ and no mass gap.
   every completed output domain, rerun the marked connected estimate in
   coefficientwise local \(H^\infty\) norms, and prove the full dual
   derivative norm without a bond count; see Note 0030.
+- [x] Under \((\mathrm H_{\rm rc})\), construct the covariant-curl
+  relative-log \(U\) collar, combine it with the independent-\(J\) tube,
+  rerun the completed marked norm in product \(H^\infty\), and prove both
+  full dual derivative norms; see Note 0031.
 - [x] Prove the exact one-mark connected-graph formula, repeated-label
   convention, and conditional pinned Kotecky--Preiss implication for one
   fixed hard-core gas; see Note 0020.

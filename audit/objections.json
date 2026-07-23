@@ -471,6 +471,23 @@
         "Verify literal-union restriction of every connected tuple, exact cancellation of the shifted branch count, and equality of support-restricted and global dual norms by coordinate projection and zero-extension.",
         "Keep H_J^conn itself, H_rho, bounded mesh matching, common kernel/chart constants, the scaled nonlinear U pullback, nonzero-source polymer activities, raw matching, large fields, RG iteration, continuum construction, axioms, infrared decay, and mass gap open."
       ]
+    },
+    {
+      "id": "OBJ-035",
+      "severity": "S1",
+      "status": "open",
+      "targets": ["YM-RG-031"],
+      "summary": "The real-center covariant-U tube and product H-infinity connected norm have no independent human review. The explicit complex plaquette estimate is proved in the repository, but uniformity is conditional on the common real-center hypothesis H_rc and the result is not yet a physical coarse-background pullback.",
+      "resolution_requirements": [
+        "Record a line-by-line human review tied to an immutable commit.",
+        "Verify the relative-link reverse-orientation convention, transported four-exponential plaquette factorization, covariant-curl normalization, and noncommuting Taylor remainder.",
+        "Recheck RG I printed pp. 262-263: condition (i) keeps the real group-valued factor fixed, condition (ii) admits the complex relative field, condition (iii) controls total curvature and independent J, and the proof of condition (iv) depends only on U.",
+        "Check that the separated third parameter in RG II Eq. (1.34) permits the independent radius Delta_J while the smaller U constants still imply every derived condition-(iv) bound.",
+        "Prove H_rc with common numerical margins for the actual minimizing physical family, every restriction, and every nested shifted branch.",
+        "Rerun the complete marked construction in the product H-infinity algebra and verify both full global dual norms without a hidden restriction, volume, or branch factor.",
+        "Pair Proposition 9 Eq. (190) quantitatively with the covariant-curl norm and discharge H_rho, mesh matching, and common chart/kernel constants before claiming an unconditional physical first jet.",
+        "Keep the nonzero-source polymer disk, raw matching, large fields, RG iteration, continuum construction, axioms, infrared decay, and mass gap open."
+      ]
     }
   ]
 }

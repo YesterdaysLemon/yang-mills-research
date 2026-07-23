@@ -1036,3 +1036,74 @@ the exact Propagators-II ownership/interface geometry. In parallel, construct
 the concrete RG-scaled nonlinear \(U\) norm and common representative atlas
 needed to turn the remaining conditional \(J\) result and the \(U\) summand
 into one physical connected first-jet estimate.
+
+## 2026-07-23 -- real-center covariant-\(U\) product tube
+
+### Established
+
+- Rechecked RG I printed pp. 262--263. In the split
+  \(U=U'\bar U\), condition (i) keeps the \(G\)-valued factor
+  \(\bar U\) fixed, condition (ii) admits a complex relative exponential,
+  condition (iii) controls total curvature and the independent \(J\), and
+  condition (iv) computes its tested \(J_n\) from \(U\).
+- Rechecked the gauge-fixing paper's exact plaquette factorization and
+  complexified algebra around Eqs. (1.21), (1.47)--(1.50). Proposition 7 is
+  stated on the real Lie algebra, so it was not used as a complex theorem.
+- For \(\Phi_{\bar U}(a)=e^{i\xi a}\bar U\), pushed the four real background
+  links to the right and proved the noncommuting matrix remainder
+  \[
+  \left\|\prod_{\ell=1}^4e^{i\xi X_\ell}
+  -1-i\xi\sum_{\ell=1}^4X_\ell\right\|_{\rm op}
+  \le \tfrac12q^2e^q.
+  \]
+  The covariant curl identity
+  \(\sum X_\ell=\xi\mathcal D_{\bar U}^{\xi}a\) turns the linear term into
+  \(O(\xi^2)\).
+- Defined a concrete complex Banach norm controlling the two RG I
+  condition-(ii) quantities, the link operator norm, and the covariant
+  plaquette curl. Under the common real-center hypothesis
+  \((\mathrm H_{\rm rc})\), this gives the explicit regulator-independent
+  radius
+  \[
+  r_U=\min\left\{
+  1,\ a_1,\
+  \frac{a_0-\bar a_U}{c_+(1+8e^4)}
+  \right\}.
+  \]
+- Combined that \(U\) ball with
+  \(\Delta_J=\alpha _0-\bar a_J\). Because condition (iv) depends only on
+  \(U\), the Cartesian product lies in every external domain of a complete
+  branch. The one common real representative is a sufficient replacement
+  for \((\mathrm H_J^{\rm conn})\) on this retained family.
+- Reran the marked connected construction in the product
+  \(H^\infty\) algebra. The positive majorants are unchanged, giving the
+  full product-tube coefficient norm \(B_{\rm conn}\). Banach-line Cauchy
+  gives full global dual norms bounded by \(B_{\rm conn}/r_U\) and
+  \(B_{\rm conn}/\Delta_J\), without bond-volume or shifted-branch factors.
+- Added seven focused regressions, including a genuinely noncommuting
+  \(2\times2\) ordered-exponential test and an exact nontrivial-\(SU(2)\)
+  reverse-link/plaquette factorization test, and pinned the gauge-fixing PDF
+  by SHA-256. No independent human review was performed.
+
+### Not established
+
+- The regulator-uniform common real representatives and numerical strict
+  margins in \((\mathrm H_{\rm rc})\) are hypotheses. RG I provides a
+  qualitative smaller-domain mechanism and identifies regular minimal
+  fields, but does not print the complete uniform family used here.
+- The \(U\) result is a relative-log chart derivative. Proposition 9
+  Eq. (190) still has to be paired quantitatively with the new norm to
+  obtain the physical coarse-background \(U\)-summand.
+- Note 0019's \((\mathrm H_\rho)\), bounded mesh matching, and common
+  source-kernel/chart constants remain conditional.
+- No nonzero-source polymer activity disk, intrinsic/raw comparison, unit
+  translations, large fields, RG iteration, continuum construction,
+  axioms, infrared decay, or mass gap has been proved.
+
+### Next decision
+
+Use Proposition 9 Eq. (190)'s \(K,\nabla K,D^*D K\) rows to test whether the
+physical background derivative is bounded in the new covariant-\(U\) norm
+with the same multiscale source density. In parallel, replace
+\((\mathrm H_\rho)\) by a metric statement native to the actual admissible
+contours or exhibit a minimal counterexample.

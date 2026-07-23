@@ -1461,6 +1461,71 @@
       "last_audited_commit": null
     },
     {
+      "id": "YM-RG-031",
+      "kind": "Lemma",
+      "statement": "Under the common real-center hypothesis H_rc, every retained physical center has one global G-valued representative U_bar with a strict O(xi^2) plaquette-curvature margin and one independent J representative with a strict direct margin. In the relative chart Phi(a)=exp(i xi a)U_bar, the concrete norm controlling a, its RG-I background-covariant derivative, and its covariant plaquette curl gives the full complex radius r_U=min{1,a_1,(a_0-bar a_U)/(c_+(1+8e^4))}. The exact ordered-plaquette estimate is |dPhi(a)-1|_RG < xi^2[bar a_U+c_+(r+8r^2 exp(4 xi r))]. Together with Delta_J=alpha_0-bar a_J and RG I's smaller-domain mechanism, this yields one Cartesian U/J tube in every complete shifted-branch external domain. Rerunning the marked connected construction in the product H-infinity algebra preserves B_conn, and Banach-line Cauchy gives the full global dual bounds sum exp(kappa d)||D_U^Phi C_hat|| <= B_conn/r_U and sum exp(kappa d)||D_J C_hat|| <= B_conn/Delta_J without volume or branch factors.",
+      "scope_and_quantifiers": "One finite regulator and RG step at a time; one fixed Balaban hierarchy and fixed M; every complete nested shifted branch and connected output coefficient admitted by YM-RG-024 through YM-RG-030; every retained physical center in the H_rc family. Uniformity in regulator, center, branch, support, and shift is conditional on common smaller-domain constants, strict real-center margins, one global representative, and the already declared marked-gas hypotheses. D_U^Phi is the relative-log chart derivative, not yet the physical coarse-background pullback.",
+      "status": "proved-in-repo",
+      "evidence_level": "E2",
+      "dependencies": [
+        "YM-RG-018",
+        "YM-RG-020",
+        "YM-RG-021",
+        "YM-RG-023",
+        "YM-RG-024",
+        "YM-RG-025",
+        "YM-RG-026",
+        "YM-RG-027",
+        "YM-RG-028",
+        "YM-RG-029",
+        "YM-RG-030"
+      ],
+      "external_hypotheses": [
+        "RG I Eqs. (1.10)-(1.16) and printed pp. 262-263: the U=U' U_bar split, complex relative field, total-curvature condition, independent-J ceiling, source-derived condition (iv), and qualitative smaller-domain implication.",
+        "The common real-center hypothesis H_rc: one globally compatible G-valued representative with common strict curvature and J margins on every restriction and shifted branch, plus uniform applicability of the fixed-M smaller-domain implication.",
+        "A fixed faithful unitary representation and a regulator-independent finite-dimensional norm comparison |M|_RG <= c_+ ||M||_op.",
+        "YM-RG-024 through YM-RG-030's ordinary KP, marked positive resummation, connected convergence, complete shifted reconstruction, output locality, and Banach-algebra premises."
+      ],
+      "sources": [
+        "https://doi.org/10.1007/BF01215223",
+        "https://doi.org/10.1007/BF01466594",
+        "https://doi.org/10.1007/BF01239022"
+      ],
+      "proof_anchor": "research/notes/0031-real-center-covariant-u-tube.md",
+      "known_limitations": [
+        "The ordered-product matrix estimate and explicit complex radius are proved, but H_rc's regulator-uniform common real representatives and strict margins remain hypotheses. Balaban prints a qualitative smaller-domain mechanism rather than these common numerical data.",
+        "The result is a sufficient real-center replacement for H_J^conn on the retained family; it does not construct compatible representatives for every complex orbit admitted by the source.",
+        "The U derivative is taken in the relative-log covariant-curl norm. A physical coarse-field U pullback still needs a quantitative pairing with Proposition 9 Eq. (190), all chart conversion factors, and the multiscale metric convolution.",
+        "H_rho, bounded mesh matching, and common source-kernel/chart constants remain open, as does the nonzero-source polymer-activity disk.",
+        "No intrinsic/raw comparison, unit-translation theorem, large-field estimate, RG iteration, continuum or infinite-volume construction, Osterwalder-Schrader reconstruction, infrared decay, or mass gap follows."
+      ],
+      "falsification_tests": [
+        "Delete the covariant curl from the norm and reproduce the isolated plaquette spike behind YM-RG-018's collapsing raw radius.",
+        "Use nonunitary complex center transports while treating them as operator-norm isometries.",
+        "Lose the factor xi in sum X_l=xi D_U^xi a and obtain a false O(xi) curvature term.",
+        "Omit the noncommuting quadratic exponential remainder or replace it by a scalar identity.",
+        "Apply the real-slice Proposition 7 directly to arbitrary complexified perturbations.",
+        "Let the base curvature margin vanish and check that r_U tends to zero.",
+        "Let the independent J perturbation enter condition (iv), even though the tested J_n is derived from U.",
+        "Use unrelated representatives on different shifted branches while claiming H_rc.",
+        "Infer the product tube norm from a pointwise coefficient sum without rerunning the positive construction in H-infinity.",
+        "Call D_U^Phi a physical coarse-background derivative without the Eq. (190) norm and metric crosswalk.",
+        "Promote the conditional finite-regulator tube to an unrestricted RG theorem, continuum construction, or Yang-Mills mass gap."
+      ],
+      "reviewers": [],
+      "open_objections": [
+        "No independent human review has been recorded.",
+        "Verify the exact relative-link orientation, transported plaquette factorization, and noncommuting matrix remainder line by line.",
+        "Recheck that RG I's p. 263 condition-(iv) deduction depends on U rather than the independent J, and that the separated third parameter in RG II causes no hidden smaller ceiling.",
+        "Prove H_rc uniformly for the actual minimizing physical family rather than assume it.",
+        "Audit the product H-infinity rerun and both full global dual norms through every marked and connected stage.",
+        "Discharge H_rho, mesh matching, common constants, and the Eq. (190) U pullback before claiming an unconditional physical connected first jet."
+      ],
+      "novelty_claim": false,
+      "provenance": "AI-assisted covariant-curvature and Banach-algebra corollary of Balaban's printed regular domains; the complete proof and failure boundaries are exposed and no novelty is claimed.",
+      "last_audited_commit": null
+    },
+    {
       "id": "YM-RG-004",
       "kind": "Open Question",
       "statement": "On one named relatively compact analytic background patch for the complete selected RG I Eq. (0.12) near-identity branch with its fixed small-field cutoff, decompose the difference between the exact normalized RG-I coordinate-law plaquette-source first jet and its minimizing-background value into completely classified projected terms and gauge-invariant exponentially localized polymers with cutoff-, volume-, and source-location-independent bounds.",
@@ -1495,7 +1560,8 @@
         "YM-RG-027",
         "YM-RG-028",
         "YM-RG-029",
-        "YM-RG-030"
+        "YM-RG-030",
+        "YM-RG-031"
       ],
       "external_hypotheses": [
         "The exact Eq. (0.12) averaging map, raw group-delta transform, fixed small-field domain, local gauge chart, minimizing branch, and background-propagator estimates recorded in the imported-map audit.",
@@ -1512,7 +1578,7 @@
       "proof_anchor": "research/programs/003-first-source-jet-remainder.md",
       "known_limitations": [
         "This is an unproved small-field theorem specification.",
-        "YM-RG-010 fixes the operational selected-coordinate law, YM-RG-012 supplies a conditional independent-variable cube-count norm, YM-RG-013 upgrades the standard branch to d_k, YM-RG-014 supplies an all-plaquette shifted cover, YM-RG-015 supplies fixed-patch analytic physical composition, YM-RG-016 supplies conditional independent-variable derivative norms, YM-RG-017 supplies a one-layer J pullback, YM-RG-018 rules out naive raw U collars, YM-RG-019 supplies a conditional all-layer J pullback, YM-RG-020 supplies fixed-gas Ursell algebra, YM-RG-021 supplies the exact fixed-partition marked map, YM-RG-023 and YM-RG-024 close the ordinary hull/KP mapping, YM-RG-025 closes the fixed-term marked bound, YM-RG-026 closes the marked resummation and norm on one fixed gas, YM-RG-027 synchronizes the shifted first jets, YM-RG-028 removes the discrete-tree-lift premise, YM-RG-029 closes completed external-J support anchors, and YM-RG-030 closes the completed affine-J tube and derivative norm under H_J^conn. Intrinsic/raw comparison, proof of H_J^conn, global chart compatibility, the scaled U pullback, the remaining H_rho, mesh, and common-chart premises, unit translations, a nonzero-t polymer-activity disk, the unconditional physical connected expansion, and projection remain open.",
+        "YM-RG-010 fixes the operational selected-coordinate law, YM-RG-012 supplies a conditional independent-variable cube-count norm, YM-RG-013 upgrades the standard branch to d_k, YM-RG-014 supplies an all-plaquette shifted cover, YM-RG-015 supplies fixed-patch analytic physical composition, YM-RG-016 supplies conditional independent-variable derivative norms, YM-RG-017 supplies a one-layer J pullback, YM-RG-018 rules out naive raw U collars, YM-RG-019 supplies a conditional all-layer J pullback, YM-RG-020 supplies fixed-gas Ursell algebra, YM-RG-021 supplies the exact fixed-partition marked map, YM-RG-023 and YM-RG-024 close the ordinary hull/KP mapping, YM-RG-025 closes the fixed-term marked bound, YM-RG-026 closes the marked resummation and norm on one fixed gas, YM-RG-027 synchronizes the shifted first jets, YM-RG-028 removes the discrete-tree-lift premise, YM-RG-029 closes completed external-J support anchors, YM-RG-030 closes the completed affine-J tube under H_J^conn, and YM-RG-031 supplies a concrete covariant-curl U/J product tube under the common real-center hypothesis H_rc. Intrinsic/raw comparison, proof of H_rc for the physical family, the Eq. (190) U pullback, the remaining H_rho, mesh, and common-chart premises, unit translations, a nonzero-t polymer-activity disk, the unconditional physical connected expansion, and projection remain open.",
         "Even a proof would leave the second jet, large fields, RG iteration, continuum construction, and mass gap open."
       ],
       "falsification_tests": [
@@ -1525,8 +1591,8 @@
       "reviewers": [],
       "open_objections": [
         "YM-RG-009 proves patch-local transported-chart covariance, but global overlap compatibility and comparison with the unrestricted raw transform remain open.",
-        "YM-RG-017 supplies the direct-J collar and one-layer J pullback; YM-RG-018 proves that naive raw U collars collapse; YM-RG-019 supplies the all-layer J bridge only under unverified premises; YM-RG-026 supplies the independent-variable fixed-gas marked norm; YM-RG-027 synchronizes the shifted first jets; YM-RG-028 removes H_T; YM-RG-029 closes completed support halos; and YM-RG-030 closes the completed affine-J tube under H_J^conn. The scaled U collar and pullback, proof of H_J^conn, H_rho, mesh, common constants, unit translations, and a nonzero-t polymer-activity disk remain open.",
-        "YM-RG-020 through YM-RG-030 now close the fixed-partition marked algebra, positive resummation, decorated norm, ordinary KP interface, connected derivative at t=0, branchwise first-jet synchronization, conditional endpoint replacement, completed support anchor, and conditional completed-J derivative norm. An unconditional convergent physical pulled-back cluster expansion remains unproved.",
+        "YM-RG-017 supplies the direct-J collar and one-layer J pullback; YM-RG-018 proves that naive raw U collars collapse; YM-RG-019 supplies the all-layer J bridge only under unverified premises; YM-RG-026 supplies the independent-variable fixed-gas marked norm; YM-RG-027 synchronizes the shifted first jets; YM-RG-028 removes H_T; YM-RG-029 closes completed support halos; YM-RG-030 closes the completed affine-J tube under H_J^conn; and YM-RG-031 replaces the raw-U obstruction by a covariant-curl product tube under H_rc. Proof of H_rc for the physical family, the Eq. (190) U pullback, H_rho, mesh, common constants, unit translations, and a nonzero-t polymer-activity disk remain open.",
+        "YM-RG-020 through YM-RG-031 now close the fixed-partition marked algebra, positive resummation, decorated norm, ordinary KP interface, connected derivative at t=0, branchwise first-jet synchronization, conditional endpoint replacement, completed support anchor, conditional completed-J derivative norm, and an H_rc-conditional complex U/J product tube. An unconditional convergent physical pulled-back cluster expansion remains unproved.",
         "Uniform locality of the projected first-jet sector is unproved."
       ],
       "novelty_claim": false,
@@ -1567,7 +1633,8 @@
         "YM-RG-027",
         "YM-RG-028",
         "YM-RG-029",
-        "YM-RG-030"
+        "YM-RG-030",
+        "YM-RG-031"
       ],
       "external_hypotheses": [
         "The selected RG I Eq. (0.12) averaging map and raw group-delta transform, the separately named YM-RG-010 exact coordinate law, an explicit intrinsic-coordinate-unrestricted distinction, exact marked domain/norm transcription, and every needed source-free small- and large-field estimate verified in full text before use."
@@ -1592,7 +1659,7 @@
       ],
       "reviewers": [],
       "open_objections": [
-        "The selected branch has patch-local transported-chart covariance, a scalar source disk, an all-plaquette coarse-lattice-equivariant d_k marked family, fixed-patch physical composition, conditional J pullbacks, a proof that naive raw U collars collapse, YM-RG-020 through YM-RG-027's fixed-partition algebra, positive resummation, final norm, ordinary KP interface, connected derivative at t=0, and shifted first-jet synchronization, plus YM-RG-028's endpoint replacement, YM-RG-029's completed support anchors, and YM-RG-030's completed affine-J tube and derivative norm under H_J^conn. Proof of H_J^conn, YM-RG-019's remaining H_rho, mesh, and common-chart premises, the scaled U pullback, global overlap compatibility, unit translations, a nonzero-t polymer-activity disk, the unconditional physical connected estimate, later profile norms, and relation to the unrestricted raw transform remain open.",
+        "The selected branch has patch-local transported-chart covariance, a scalar source disk, an all-plaquette coarse-lattice-equivariant d_k marked family, fixed-patch physical composition, conditional J pullbacks, a proof that naive raw U collars collapse, YM-RG-020 through YM-RG-027's fixed-partition algebra, positive resummation, final norm, ordinary KP interface, connected derivative at t=0, and shifted first-jet synchronization, plus YM-RG-028's endpoint replacement, YM-RG-029's completed support anchors, YM-RG-030's completed affine-J tube under H_J^conn, and YM-RG-031's concrete covariant-curl U/J product tube under H_rc. Proof of H_rc for the actual physical family, YM-RG-019's remaining H_rho, mesh, and common-chart premises, the Eq. (190) U pullback, global overlap compatibility, unit translations, a nonzero-t polymer-activity disk, the unconditional physical connected estimate, later profile norms, and relation to the unrestricted raw transform remain open.",
         "The theorem may duplicate or fail to follow from existing source-free estimates.",
         "The source-dependent extension of the separate large-field operation has not been derived."
       ],

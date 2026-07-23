@@ -118,6 +118,13 @@ strict affine-\(J\) margin through every completed output domain and proves
 the coefficientwise tube norm and full dual derivative norm. Proof of
 \((\mathrm H_J^{\rm conn})\), ownership/interface, bounded mesh, and common
 chart constants remain conditional.
+Note 0031 supplies a concrete covariant-curl relative-log \(U\) radius and a
+common \(U/J\) product tube under the stronger common real-center hypothesis
+\((\mathrm H_{\rm rc})\). On that retained family it is a sufficient
+replacement for \((\mathrm H_J^{\rm conn})\), and the product
+\(H^\infty\) rerun gives both completed dual derivative norms. Uniform proof
+of \((\mathrm H_{\rm rc})\) for the actual minimizing family and the
+Eq. (190) kernel-to-\(U\)-norm pullback remain open.
 Note 0020 proves the exact one-mark Ursell formula
 and a conditional pinned cluster bound for one fixed hard-core gas, and shows
 that bare shifted marks cannot be mixed without branch synchronization or a
@@ -143,8 +150,8 @@ lifts the two-scale cubulations, reconstructs the same dual-number integral
 on every separate shifted branch, and synchronizes their connected first jets
 with no orbit factor. Notes 0007 and 0010 already give the selected-coordinate
 scalar source disk; source-dependent polymer activities and KP convergence at
-nonzero source remain open. The scaled \(U\) pullback, proof of
-\((\mathrm H_J^{\rm conn})\), the remaining ownership/interface, mesh, and common-chart
+nonzero source remain open. Proof of \((\mathrm H_{\rm rc})\), the physical
+Eq. (190) \(U\) pullback, the remaining ownership/interface, mesh, and common-chart
 premises from Note 0019, and the full unconditional physical coarse-field
 derivative/quasilocal norm,
 unit-translation covariance and a physical convergent connected marked
@@ -344,14 +351,18 @@ None of those inputs supplies the displayed source-inserted polymer theorem.
     affine-\(J\) common tube, rerun the connected bound in coefficientwise
     local \(H^\infty\) norms, and prove the full dual derivative norm without
     a bond-volume loss; see Note 0030.
-14. [ ] Compose the unconditional physical \(U/J\) first-jet pullbacks by
-    proving \((\mathrm H_J^{\rm conn})\), constructing the scaled nonlinear \(U\)
-    collar, and discharging Note 0019's remaining ownership/interface,
-    bounded-mesh, and uniform-chart premises.
-15. [ ] Separately construct source-dependent polymer activities and uniform
+14. [x] Under \((\mathrm H_{\rm rc})\), construct a concrete covariant-curl
+    relative-log \(U\) collar, combine it with the independent-\(J\) margin,
+    rerun the completed connected norm on the product tube, and prove both
+    full dual derivative norms; see Note 0031.
+15. [ ] Compose the unconditional physical \(U/J\) first-jet pullbacks by
+    proving \((\mathrm H_{\rm rc})\) for the actual minimizing family,
+    pairing Eq. (190) with the new \(U\) norm, and discharging Note 0019's
+    remaining ownership/interface, bounded-mesh, and uniform-chart premises.
+16. [ ] Separately construct source-dependent polymer activities and uniform
     KP convergence on a nonzero-source disk. The selected-coordinate scalar
     disk itself is already supplied by Notes 0007 and 0010.
-16. [ ] Perform the full symmetry/Ward-identity projection on the marked first
+17. [ ] Perform the full symmetry/Ward-identity projection on the marked first
    jet and classify all position/orientation mixing.
 
 ## Falsification tests
